@@ -158,7 +158,8 @@ header {
 }
 
 .intro a {
-	color:#000;
+	color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 }
 
 /* --- Parallax --- */
@@ -363,6 +364,9 @@ img#site-title {
 .skills {
 	font-size:12px;
 	padding:40px 40px 20px 40px;
+}
+.skillsPar {
+	text-align: left;
 }
 .restitem {
 	margin-bottom:40px;
