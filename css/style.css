@@ -139,7 +139,7 @@ img {max-width: 100%;}
 	-moz-transition:all .5s;
 	-webkit-transition:all .5s;
 	transition:all .5s;
-		background:#111;
+	background:#111;
 }
 .isFixed {
 	background:#333;
@@ -884,4 +884,10 @@ blockquote cite {
 }
 blockquote cite:before {
 	content: "\2014 \2009";
+}
+@media only screen and (min-width: 768px) {
+	.stuckMenu {
+		position: fixed;
+		width: 100%;
+	}
 }
