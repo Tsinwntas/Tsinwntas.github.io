@@ -21,7 +21,9 @@ h1,h2,h3,h4,h5,h6 {
 	line-height:1.4;
 	font-weight:600;
 }
-
+.wmega {
+    font-family: 'Courier New', Courier, monospace;
+}
 a,a:hover {
 	color:#92DD03 ;
 	text-decoration: none;
