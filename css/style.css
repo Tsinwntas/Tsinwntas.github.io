@@ -13,6 +13,7 @@ body {
 	font-weight:400;
 	overflow-x:hidden;
 }
+ul{ display: block;}
 .playball {
 	font-family:'Playball',cursive;
 }
