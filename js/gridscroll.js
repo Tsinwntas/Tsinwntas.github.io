@@ -365,6 +365,6 @@
 
 var gridGalleries = document.querySelectorAll("div[id='grid-gallery']");
 for(gallery in gridGalleries){
-	debugger;
+	//reminder that even bootstrap needs fixing by me
 	new CBPGridGallery( gridGalleries[gallery] );
 }
