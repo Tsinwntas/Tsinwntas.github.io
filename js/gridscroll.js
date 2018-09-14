@@ -363,9 +363,8 @@
 
 })( window );
 
-
-
-
-
-
-new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+var gridGalleries = document.querySelectorAll("div[id='grid-gallery']");
+for(gallery in gridGalleries){
+	debugger;
+	new CBPGridGallery( gridGalleries[gallery] );
+}
