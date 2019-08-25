@@ -1,0 +1,19 @@
+.grid{
+    min-height: 100vh!important;    
+    width: 100%!important;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    /* justify-items: center; */
+}
+.content{
+    display: grid;
+    grid-template-columns: 20% 80%
+}
+.box{
+    height: 95%;
+    width: 95%;
+    border: 1px solid gray;
+}
+.banner{
+    width: 96%;
+}
