@@ -1,8 +1,8 @@
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
   /***/
@@ -36,6 +36,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/ai/ai.component.html":
+  /*!****************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ai/ai.component.html ***!
+    \****************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAiAiComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"container\">\n    <div class=\"date-container\">\n        <div class=\"date-field\">\n            <mat-form-field color=\"accent\" appearance=\"fill\">\n                <input matInput [matDatepicker]=\"datepicker\" [ngModel]=\"currDate\" (ngModelChange)=\"setDate($event)\">\n                <mat-datepicker-toggle matSuffix [for]=\"datepicker\"></mat-datepicker-toggle>\n                <mat-datepicker #datepicker color=\"primary\"></mat-datepicker>\n            </mat-form-field>\n        </div>\n        <div class=\"min-rounds-field\" style=\"margin-left: 10px;\">\n            <mat-form-field color=\"accent\" appearance=\"fill\">\n                <input matInput [ngModel]=\"minRounds\" (ngModelChange)=\"setMinRounds($event)\" placeholder=\"Minimum Rounds to Consider\">\n            </mat-form-field>\n        </div>\n        <div class=\"show-selection\" style=\"margin-left: 10px;\">\n            <mat-radio-group aria-label=\"Select an option\" \n            [ngModel] = \"getShowOnlySelection()\"\n            (ngModelChange) = \"setShowOnlySelection($event)\">\n                <mat-radio-button value=\"0\">Show All</mat-radio-button>\n                <mat-radio-button value=\"1\">Show Only Predictions</mat-radio-button>\n                <mat-radio-button value=\"2\">Show Only FT</mat-radio-button>\n                <mat-radio-button value=\"3\">Show Only Over/Under</mat-radio-button>\n                <mat-radio-button value=\"4\">Show Only Combo</mat-radio-button>\n          </mat-radio-group>\n        </div>\n        <div class=\"show-selection\" style=\"margin-left: 10px;\">\n            <mat-radio-group aria-label=\"Select an option\" \n            [ngModel] = \"getShowAdvancedSimpleSelection()\"\n            (ngModelChange) = \"setShowAdvancedSimpleSelection($event)\">\n            <mat-radio-button value=\"0\">Show Simple</mat-radio-button>\n                <mat-radio-button value=\"1\">Show Advanced</mat-radio-button>\n          </mat-radio-group>\n        </div>\n    </div>\n    <div style=\"margin-top: 10px;\" class=\"alert alert-info\" *ngIf=\"noValidMatches()\">No data for this date.</div>\n    <div class=\"matches-info\" *ngIf=\"validMatches()\">\n        \n        <mat-form-field>\n            <mat-label>Filter</mat-label>\n            <input matInput (keyup)=\"applyFilter($event)\" placeholder=\"Ex. ium\" #input>\n        </mat-form-field>\n  \n        <table mat-table [dataSource]=\"dataSource\" matSortActive=\"round\" matSortDirection=\"desc\" class=\"mat-elevation-z8\" style=\"width: -webkit-fill-available;\" matSort>\n            <ng-container matColumnDef=\"league\" >\n            <th mat-header-cell mat-sort-header *matHeaderCellDef> League </th>\n            <td mat-cell *matCellDef=\"let match\" style=\"text-align: left;\"> {{match.leagueName}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"home\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header style=\"text-align: right;\"> Home </th>\n            <td mat-cell *matCellDef=\"let match\" style=\"text-align: right;\"> {{match.homeName}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"round\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> Round </th>\n            <td mat-cell *matCellDef=\"let match\"> {{match.round}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"score\">\n            <th mat-header-cell *matHeaderCellDef style=\"text-align: center;\"> Score </th>\n            <td mat-cell *matCellDef=\"let match\"> {{getScoreTime(match)}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"away\">\n            <th mat-header-cell mat-sort-header *matHeaderCellDef> Away </th>\n            <td mat-cell *matCellDef=\"let match\" style=\"text-align: left;\"> {{match.awayName}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"ft1\">\n            <th mat-header-cell mat-sort-header *matHeaderCellDef> 1 </th>\n            <td mat-cell *matCellDef=\"let match\" [ngStyle]=\"{'background-color':getPredictionColor(match, match.ai.ft1, 'ft_advanced', 'ft1')}\"> {{getOrDash(match.ai.ft1)}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"ftX\">\n            <th mat-header-cell mat-sort-header *matHeaderCellDef> X </th>\n            <td mat-cell *matCellDef=\"let match\" [ngStyle]=\"{'background-color':getPredictionColor(match, match.ai.ftX, 'draw_advanced', 'ftX')}\"> {{getOrDash(match.ai.ftX)}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"ft2\">\n            <th mat-header-cell mat-sort-header *matHeaderCellDef> 2 </th>\n            <td mat-cell *matCellDef=\"let match\" [ngStyle]=\"{'background-color':getPredictionColor(match, match.ai.ft2, 'ft_advanced', 'ft2')}\"> {{getOrDash(match.ai.ft2)}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"o15\">\n            <th mat-header-cell mat-sort-header *matHeaderCellDef> Over 1.5 </th>\n            <td mat-cell *matCellDef=\"let match\" [ngStyle]=\"{'background-color':getPredictionColor(match, match.ai.o15, 'ou_advanced', 'o15')}\"> {{getOrDash(match.ai.o15)}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"o25\">\n            <th mat-header-cell mat-sort-header *matHeaderCellDef> Over 2.5 </th>\n            <td mat-cell *matCellDef=\"let match\" [ngStyle]=\"{'background-color':getPredictionColor(match, match.ai.o25, 'ou_advanced', 'o25')}\"> {{getOrDash(match.ai.o25)}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"o35\">\n            <th mat-header-cell mat-sort-header *matHeaderCellDef> Over 3.5 </th>\n            <td mat-cell *matCellDef=\"let match\" [ngStyle]=\"{'background-color':getPredictionColor(match, match.ai.o35, 'ou_advanced', 'o35')}\"> {{getOrDash(match.ai.o35)}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"ft\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> FT </th>\n            <td mat-cell *matCellDef=\"let match\" [ngStyle]=\"{'background-color':getPredictionColor(match, simplifyFT(match), 'ft_simple')}\"> {{simplifyFT(match)}} </td>\n            </ng-container>\n        \n            <ng-container matColumnDef=\"ou\">\n            <th mat-header-cell mat-sort-header *matHeaderCellDef> Over/Under </th>\n            <td mat-cell *matCellDef=\"let match\" [ngStyle]=\"{'background-color':getPredictionColor(match, simplifyOver(match), 'ou_simple')}\"> {{simplifyOver(match)}} </td>\n            </ng-container>\n        \n            <tr mat-header-row *matHeaderRowDef=\"getDisplayedColumns()\"></tr>\n            <tr mat-row *matRowDef=\"let row; columns: getDisplayedColumns();\"></tr>\n        \n            <!-- Row shown when there is no matching data. -->\n            <tr class=\"mat-row\" *matNoDataRow>\n            <td class=\"mat-cell\" colspan=\"4\">No data matching the filter \"{{input.value}}\"</td>\n            </tr>\n        </table>\n    </div>\n</div>";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
   /*!**************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
@@ -51,7 +71,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-home></app-home>";
+    __webpack_exports__["default"] = "<app-home></app-home>\r\n<!-- <app-ai></app-ai> -->";
     /***/
   },
 
@@ -680,6 +700,431 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/ai/ai.component.scss":
+  /*!**************************************!*\
+    !*** ./src/app/ai/ai.component.scss ***!
+    \**************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAiAiComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".alert-info {\n  color: #0c5460;\n  background-color: #d1ecf1;\n  border-color: #bee5eb;\n}\n\n.alert {\n  position: relative;\n  padding: 0.75rem 1.25rem;\n  margin-bottom: 1rem;\n  border: 1px solid transparent;\n  border-radius: 0.25rem;\n  text-align: center;\n}\n\n.date-container {\n  display: flex;\n  margin: 15px;\n}\n\n.date-button {\n  margin-left: 10px;\n  height: 60px;\n}\n\n.mat-cell {\n  width: 10px;\n}\n\n::ng-deep .mat-column-home .mat-sort-header-container {\n  justify-content: flex-end;\n}\n\n::ng-deep .mat-column-league .mat-sort-header-container {\n  justify-content: flex-start;\n}\n\n::ng-deep .mat-column-away .mat-sort-header-container {\n  justify-content: flex-start;\n}\n\n::ng-deep .mat-sort-header-container {\n  justify-content: center;\n  text-align: center;\n}\n\n::ng-deep .mat-cell {\n  text-align: center;\n}\n\n.show-selection {\n  padding-left: 10px;\n  display: grid;\n  align-items: center;\n  border-left: 1px solid #0000002e;\n}\n\n.show-selection mat-radio-button {\n  margin-right: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWkvQzpcXFVzZXJzXFxUc2luaWtcXERlc2t0b3BcXHdvcmtzcGFjZVxcR2l0SHViXFxTb2NjZXJWaXN0YUxlYWd1ZU1pbmVcXFNvY2NlclZpc3RhTGVhZ3VlTWluZS9zcmNcXGFwcFxcYWlcXGFpLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9haS9haS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQUE7RUFDQSx5QkFBQTtFQUNBLHFCQUFBO0FDQ0o7O0FEQ0E7RUFDSSxrQkFBQTtFQUNBLHdCQUFBO0VBQ0EsbUJBQUE7RUFDQSw2QkFBQTtFQUNBLHNCQUFBO0VBQ0Esa0JBQUE7QUNFSjs7QURDQTtFQUNJLGFBQUE7RUFDQSxZQUFBO0FDRUo7O0FEQ0E7RUFDSSxpQkFBQTtFQUNBLFlBQUE7QUNFSjs7QURDQTtFQUNJLFdBQUE7QUNFSjs7QURDQTtFQUNJLHlCQUFBO0FDRUo7O0FEQ0E7RUFDSSwyQkFBQTtBQ0VKOztBRENBO0VBQ1EsMkJBQUE7QUNFUjs7QURDQTtFQUNJLHVCQUFBO0VBQ0Esa0JBQUE7QUNFSjs7QURDQTtFQUNJLGtCQUFBO0FDRUo7O0FEQ0E7RUFDSSxrQkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLGdDQUFBO0FDRUo7O0FEQ0E7RUFDSSxpQkFBQTtBQ0VKIiwiZmlsZSI6InNyYy9hcHAvYWkvYWkuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYWxlcnQtaW5mbyB7XHJcbiAgICBjb2xvcjogIzBjNTQ2MDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNkMWVjZjE7XHJcbiAgICBib3JkZXItY29sb3I6ICNiZWU1ZWI7XHJcbn1cclxuLmFsZXJ0IHtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIHBhZGRpbmc6IC43NXJlbSAxLjI1cmVtO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMXJlbTtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkIHRyYW5zcGFyZW50O1xyXG4gICAgYm9yZGVyLXJhZGl1czogLjI1cmVtO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uZGF0ZS1jb250YWluZXJ7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgbWFyZ2luOiAxNXB4O1xyXG59XHJcblxyXG4uZGF0ZS1idXR0b257XHJcbiAgICBtYXJnaW4tbGVmdDogMTBweDtcclxuICAgIGhlaWdodDogNjBweDtcclxufVxyXG5cclxuLm1hdC1jZWxsIHtcclxuICAgIHdpZHRoOiAxMHB4O1xyXG59XHJcblxyXG46Om5nLWRlZXAgLm1hdC1jb2x1bW4taG9tZSAubWF0LXNvcnQtaGVhZGVyLWNvbnRhaW5lcntcclxuICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XHJcbn1cclxuXHJcbjo6bmctZGVlcCAubWF0LWNvbHVtbi1sZWFndWUgLm1hdC1zb3J0LWhlYWRlci1jb250YWluZXJ7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtc3RhcnQ7XHJcbn1cclxuXHJcbjo6bmctZGVlcCAubWF0LWNvbHVtbi1hd2F5IC5tYXQtc29ydC1oZWFkZXItY29udGFpbmVye1xyXG4gICAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1zdGFydDtcclxufVxyXG5cclxuOjpuZy1kZWVwIC5tYXQtc29ydC1oZWFkZXItY29udGFpbmVye1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbjo6bmctZGVlcCAubWF0LWNlbGx7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5zaG93LXNlbGVjdGlvbntcclxuICAgIHBhZGRpbmctbGVmdDogMTBweDtcclxuICAgIGRpc3BsYXk6IGdyaWQ7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgYm9yZGVyLWxlZnQ6IDFweCBzb2xpZCAjMDAwMDAwMmU7XHJcbn1cclxuXHJcbi5zaG93LXNlbGVjdGlvbiBtYXQtcmFkaW8tYnV0dG9ue1xyXG4gICAgbWFyZ2luLXJpZ2h0OiA1cHg7XHJcbn0iLCIuYWxlcnQtaW5mbyB7XG4gIGNvbG9yOiAjMGM1NDYwO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZDFlY2YxO1xuICBib3JkZXItY29sb3I6ICNiZWU1ZWI7XG59XG5cbi5hbGVydCB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgcGFkZGluZzogMC43NXJlbSAxLjI1cmVtO1xuICBtYXJnaW4tYm90dG9tOiAxcmVtO1xuICBib3JkZXI6IDFweCBzb2xpZCB0cmFuc3BhcmVudDtcbiAgYm9yZGVyLXJhZGl1czogMC4yNXJlbTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uZGF0ZS1jb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBtYXJnaW46IDE1cHg7XG59XG5cbi5kYXRlLWJ1dHRvbiB7XG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xuICBoZWlnaHQ6IDYwcHg7XG59XG5cbi5tYXQtY2VsbCB7XG4gIHdpZHRoOiAxMHB4O1xufVxuXG46Om5nLWRlZXAgLm1hdC1jb2x1bW4taG9tZSAubWF0LXNvcnQtaGVhZGVyLWNvbnRhaW5lciB7XG4gIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XG59XG5cbjo6bmctZGVlcCAubWF0LWNvbHVtbi1sZWFndWUgLm1hdC1zb3J0LWhlYWRlci1jb250YWluZXIge1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtc3RhcnQ7XG59XG5cbjo6bmctZGVlcCAubWF0LWNvbHVtbi1hd2F5IC5tYXQtc29ydC1oZWFkZXItY29udGFpbmVyIHtcbiAganVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0O1xufVxuXG46Om5nLWRlZXAgLm1hdC1zb3J0LWhlYWRlci1jb250YWluZXIge1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG46Om5nLWRlZXAgLm1hdC1jZWxsIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uc2hvdy1zZWxlY3Rpb24ge1xuICBwYWRkaW5nLWxlZnQ6IDEwcHg7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGJvcmRlci1sZWZ0OiAxcHggc29saWQgIzAwMDAwMDJlO1xufVxuXG4uc2hvdy1zZWxlY3Rpb24gbWF0LXJhZGlvLWJ1dHRvbiB7XG4gIG1hcmdpbi1yaWdodDogNXB4O1xufSJdfQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/ai/ai.component.ts":
+  /*!************************************!*\
+    !*** ./src/app/ai/ai.component.ts ***!
+    \************************************/
+
+  /*! exports provided: AiComponent */
+
+  /***/
+  function srcAppAiAiComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AiComponent", function () {
+      return AiComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
+    /* harmony import */
+
+
+    var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/material */
+    "./node_modules/@angular/material/esm2015/material.js");
+
+    var AiComponent = /*#__PURE__*/function () {
+      function AiComponent(httpClient) {
+        _classCallCheck(this, AiComponent);
+
+        this.httpClient = httpClient;
+        this.serialized = '';
+        this.ftRange = 7;
+        this.drawRange = 7;
+        this.ouRange = 7;
+      }
+
+      _createClass(AiComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.textFilter = " "; //"!grp"
+
+          this.showOnlyFT = true;
+          this.showOnlyOU = true;
+          this.minRounds = 13;
+          this.sortByFT = true;
+          this.currDate = new Date();
+          this.getMatchesFromDate();
+        }
+      }, {
+        key: "ngAfterViewInit",
+        value: function ngAfterViewInit() {
+          var _this = this;
+
+          this.calculateSortings();
+          this.sort.changes.subscribe(function (r) {
+            _this.calculateSortings();
+
+            _this.dataSource.sort = _this.sort.first;
+          });
+        }
+      }, {
+        key: "calculateSortings",
+        value: function calculateSortings() {
+          var _this2 = this;
+
+          setTimeout(function () {
+            _this2.serialized = _this2.sort.map(function (p) {
+              return p.active;
+            }).join(', ');
+          }, 0);
+        }
+      }, {
+        key: "initDatasource",
+        value: function initDatasource() {
+          var _this3 = this;
+
+          this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTableDataSource"](this.matches);
+
+          this.dataSource.filterPredicate = function (data, filter) {
+            return _this3.handleFilter(data, filter) && _this3.extendedFilter(data) && _this3.extraFilters(data);
+          };
+
+          this.dataSource.sortingDataAccessor = function (item, property) {
+            switch (property) {
+              case 'home':
+                return item['homeName'];
+
+              case 'away':
+                return item['awayName'];
+
+              case 'league':
+                return item['leagueName'];
+
+              case 'ft':
+                return Math.max(item.ai['ft1'], item.ai['ft2']);
+
+              case 'ou':
+                return item.ai["o15"];
+
+              default:
+                return item[property];
+            }
+          };
+
+          if (!this.textFilter || this.textFilter == "") this.textFilter = " ";
+          this.dataSource.filter = this.textFilter;
+        }
+      }, {
+        key: "handleFilter",
+        value: function handleFilter(match, filter) {
+          if (filter[0] == "!") return !match.leagueName.toString().trim().toLowerCase().includes(filter.substring(1));
+          var keysToCheck = ["leagueName", "homeName", "awayName"];
+
+          for (var key in keysToCheck) {
+            if (match[keysToCheck[key]].toString().trim().toLowerCase().indexOf(filter) != -1) return this.extendedFilter(match) && this.extraFilters(match);
+          }
+
+          return false;
+        }
+      }, {
+        key: "extendedFilter",
+        value: function extendedFilter(match) {
+          if (this.showOnlyPredictions) return this.isInFTRange(match) || this.isInOURange(match);
+          if (this.showOnlyFT && this.showOnlyOU) return this.isInFTRange(match) && this.isInOURange(match);
+          if (this.showOnlyFT) return this.isInFTRange(match);
+          if (this.showOnlyOU) return this.isInOURange(match);
+          return true;
+        }
+      }, {
+        key: "extraFilters",
+        value: function extraFilters(match) {
+          if (this.minRounds && (!match.round || match.round <= this.minRounds)) return false;
+          return true;
+        }
+      }, {
+        key: "getDisplayedColumns",
+        value: function getDisplayedColumns() {
+          if (this.showAll) return ['league', 'round', 'home', 'score', 'away', 'ft1', 'ftX', 'ft2', 'o15', 'o25', 'o35'];
+          return ['league', 'round', 'home', 'score', 'away', 'ft', 'ou'];
+        }
+      }, {
+        key: "setDate",
+        value: function setDate(date) {
+          this.currDate = new Date(date);
+          this.getMatchesFromDate();
+        }
+      }, {
+        key: "getDateButtonDisplay",
+        value: function getDateButtonDisplay() {
+          if (!this.matches && this.currDate.getDate() == new Date().getDate() && this.currDate.getMonth() == new Date().getMonth()) {
+            return "RETRIEVE";
+          } else if (this.matches) {
+            return "REFRESH RESULTS";
+          }
+        }
+      }, {
+        key: "getMatchesFromDate",
+        value: function getMatchesFromDate() {
+          var _this4 = this;
+
+          this.httpClient.get("assets/data/ai_" + this.currDate.getDate() + "_" + (this.currDate.getMonth() + 1)).subscribe(function (data) {
+            _this4.matches = data;
+
+            _this4.initDatasource();
+          }, function (err) {
+            return _this4.matches = null;
+          });
+        }
+      }, {
+        key: "noValidMatches",
+        value: function noValidMatches() {
+          return this.matches == null;
+        }
+      }, {
+        key: "validMatches",
+        value: function validMatches() {
+          return !this.noValidMatches();
+        }
+      }, {
+        key: "getScoreTime",
+        value: function getScoreTime(match) {
+          return match.results ? match.results.score[0] + ":" + match.results.score[1] : "-:-";
+        }
+      }, {
+        key: "getOrDash",
+        value: function getOrDash(value) {
+          return value ? value : "-";
+        }
+      }, {
+        key: "simplifyFT",
+        value: function simplifyFT(match) {
+          var ft = "";
+          if (match.ai.ft1 > this.ftRange) ft += "1";
+          if (match.ai.ft2 > this.ftRange) ft += "2";
+          if (match.ai.ftX > this.drawRange) ft += ft.length > 0 ? "X" : "";
+          if (ft.length > 2) return "";
+          return ft;
+        }
+      }, {
+        key: "simplifyOver",
+        value: function simplifyOver(match) {
+          var ou = "";
+          if (this.isInRange(match.ai.o35, this.ouRange) && match.ai.o35 > 0.5) ou += "Over 3.5";else if (this.isInRange(match.ai.o25, this.ouRange) && match.ai.o25 > 0.5) ou += "Over 2.5";else if (this.isInRange(match.ai.o15, this.ouRange) && match.ai.o15 > 0.5) ou += "Over 1.5";else if (this.isInRange(match.ai.o15, this.ouRange) && match.ai.o15 < 0.5) ou += "Under 1.5";else if (this.isInRange(match.ai.o25, this.ouRange) && match.ai.o25 < 0.5) ou += "Under 2.5";else if (this.isInRange(match.ai.o35, this.ouRange) && match.ai.o35 < 0.5) ou += "Under 3.5";
+          return ou;
+        }
+      }, {
+        key: "getPredictionColor",
+        value: function getPredictionColor(match, value, type, toCheck) {
+          if (!value) return "white";
+
+          switch (type) {
+            case "ft_advanced":
+              return this.getColorFromOneSideRange(match, this.ftRange, value, toCheck);
+
+            case "ft_simple":
+              return this.getColorFromSimplifiedFT(match, value);
+
+            case "ou_advanced":
+              return this.getColorFromRange(match, this.ouRange, value, toCheck);
+
+            case "ou_simple":
+              return this.getColorFromSimplifiedOU(match, value);
+
+            case "draw_advanced":
+              return this.getColorFromOneSideRange(match, this.drawRange, value, toCheck);
+          }
+        }
+      }, {
+        key: "getColorFromOneSideRange",
+        value: function getColorFromOneSideRange(match, range, value, toCheck) {
+          if (value > range && match.results) {
+            return this.getColorForIfCorrectPrediction(match, toCheck);
+          } else if (value > range) {
+            return "lightgray";
+          }
+        }
+      }, {
+        key: "getColorFromRange",
+        value: function getColorFromRange(match, range, value, toCheck) {
+          if (this.isInRange(value, range) && match.results) {
+            return this.getColorForIfCorrectPrediction(match, toCheck);
+          } else if (this.isInRange(value, range)) {
+            return "lightgray";
+          }
+        }
+      }, {
+        key: "isInFTRange",
+        value: function isInFTRange(match) {
+          return match.ai.ft1 > this.ftRange || match.ai.ft2 > this.ftRange;
+        }
+      }, {
+        key: "isInOURange",
+        value: function isInOURange(match) {
+          return this.isInRange(match.o15, this.ouRange) || this.isInRange(match.o25, this.ouRange) || this.isInRange(match.o35, this.ouRange);
+        }
+      }, {
+        key: "isInRange",
+        value: function isInRange(value, range) {
+          return value > range || value < 1 - range;
+        }
+      }, {
+        key: "getColorForIfCorrectPrediction",
+        value: function getColorForIfCorrectPrediction(match, toCheck) {
+          var result = match.results[toCheck];
+          return this.getColorFromResult(result);
+        }
+      }, {
+        key: "getColorFromResult",
+        value: function getColorFromResult(result) {
+          return result == 'W' ? "green" : "red";
+        }
+      }, {
+        key: "getColorFromSimplifiedFT",
+        value: function getColorFromSimplifiedFT(match, ft) {
+          if (!ft || ft == "") return "white";
+          if (!match.results) return "lightgray";
+          var result = "-";
+          Array.from(ft).forEach(function (p) {
+            if (result != "W" && match.results["ft" + p] == "L") result = "L";else if (match.results["ft" + p] == "W") result = "W";
+          });
+          return this.getColorFromResult(result);
+        }
+      }, {
+        key: "getColorFromSimplifiedOU",
+        value: function getColorFromSimplifiedOU(match, ou) {
+          if (!ou || ou == "") return "white";
+          if (!match.results) return "lightgray";
+          return this.getColorFromResult(match.results["o" + this.getOverNumber(ou)]);
+        }
+      }, {
+        key: "getOverNumber",
+        value: function getOverNumber(ou) {
+          return parseInt((parseFloat(ou.split(" ")[1]) * 10).toString());
+        }
+      }, {
+        key: "applyFilter",
+        value: function applyFilter(event) {
+          var filterValue = event.target.value.trim().toLowerCase();
+          this.textFilter = filterValue == "" ? " " : filterValue;
+          this.dataSource.filter = this.textFilter;
+        }
+      }, {
+        key: "setMinRounds",
+        value: function setMinRounds(event) {
+          var value = event.toString().trim().toLowerCase();
+          if (value == "" || isNaN(parseFloat(value))) this.minRounds = null;else this.minRounds = parseFloat(value);
+          this.dataSource.filter = this.textFilter;
+        }
+      }, {
+        key: "getShowOnlySelection",
+        value: function getShowOnlySelection() {
+          if (this.showOnlyPredictions) return "1";
+          if (this.showOnlyFT && this.showOnlyOU) return "4";
+          if (this.showOnlyFT) return "2";
+          if (this.showOnlyOU) return "3";
+          return "0";
+        }
+      }, {
+        key: "setShowOnlySelection",
+        value: function setShowOnlySelection(selection) {
+          switch (parseInt(selection)) {
+            case 0:
+              this.switchSelections(false, false, false);
+              break;
+
+            case 1:
+              this.switchSelections(true, false, false);
+              break;
+
+            case 2:
+              this.switchSelections(false, true, false);
+              break;
+
+            case 3:
+              this.switchSelections(false, false, true);
+              break;
+
+            case 4:
+              this.switchSelections(false, true, true);
+              break;
+          }
+
+          this.dataSource.filter = this.textFilter;
+        }
+      }, {
+        key: "switchSelections",
+        value: function switchSelections(p, f, o) {
+          this.showOnlyPredictions = p;
+          this.showOnlyFT = f;
+          this.showOnlyOU = o;
+        }
+      }, {
+        key: "getShowAdvancedSimpleSelection",
+        value: function getShowAdvancedSimpleSelection() {
+          return this.showAll ? "1" : "0";
+        }
+      }, {
+        key: "setShowAdvancedSimpleSelection",
+        value: function setShowAdvancedSimpleSelection(selection) {
+          this.showAll = selection == "1";
+          this.dataSource.filter = this.textFilter;
+        }
+      }]);
+
+      return AiComponent;
+    }();
+
+    AiComponent.ctorParameters = function () {
+      return [{
+        type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]
+      }];
+    };
+
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChildren"])(_angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSort"])], AiComponent.prototype, "sort", void 0);
+    AiComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-ai',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./ai.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/ai/ai.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./ai.component.scss */
+      "./src/app/ai/ai.component.scss"))["default"]]
+    })], AiComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/app-routing.module.ts":
   /*!***************************************!*\
     !*** ./src/app/app-routing.module.ts ***!
@@ -828,67 +1273,73 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _home_home_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var _ai_ai_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./ai/ai.component */
+    "./src/app/ai/ai.component.ts");
+    /* harmony import */
+
+
+    var _home_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ./home/home.component */
     "./src/app/home/home.component.ts");
     /* harmony import */
 
 
-    var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/platform-browser */
     "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
     /* harmony import */
 
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
-    var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./app-routing.module */
     "./src/app/app-routing.module.ts");
     /* harmony import */
 
 
-    var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./app.component */
     "./src/app/app.component.ts");
     /* harmony import */
 
 
-    var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! @angular/forms */
     "./node_modules/@angular/forms/fesm2015/forms.js");
     /* harmony import */
 
 
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! @angular/common/http */
     "./node_modules/@angular/common/fesm2015/http.js");
     /* harmony import */
 
 
-    var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! @angular/platform-browser/animations */
     "./node_modules/@angular/platform-browser/fesm2015/animations.js");
     /* harmony import */
 
 
-    var _angular_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _angular_material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! @angular/material */
     "./node_modules/@angular/material/esm2015/material.js");
     /* harmony import */
 
 
-    var _angular_material_button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _angular_material_button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! @angular/material/button */
     "./node_modules/@angular/material/esm2015/button.js");
     /* harmony import */
 
 
-    var _angular_material_input__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    var _angular_material_input__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
     /*! @angular/material/input */
     "./node_modules/@angular/material/esm2015/input.js");
 
@@ -896,14 +1347,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, AppModule);
     };
 
-    AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_7__["HttpClientModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_10__["MatButtonModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_11__["MatInputModule"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatDatepickerModule"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatNativeDateModule"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatTableModule"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSortModule"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatRadioModule"]],
+    AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_4__["NgModule"])({
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"], _ai_ai_component__WEBPACK_IMPORTED_MODULE_1__["AiComponent"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_8__["HttpClientModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_11__["MatButtonModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_12__["MatInputModule"], _angular_material__WEBPACK_IMPORTED_MODULE_10__["MatDatepickerModule"], _angular_material__WEBPACK_IMPORTED_MODULE_10__["MatNativeDateModule"], _angular_material__WEBPACK_IMPORTED_MODULE_10__["MatTableModule"], _angular_material__WEBPACK_IMPORTED_MODULE_10__["MatSortModule"], _angular_material__WEBPACK_IMPORTED_MODULE_10__["MatRadioModule"]],
       providers: [{
-        provide: _angular_material__WEBPACK_IMPORTED_MODULE_9__["MAT_DATE_LOCALE"],
+        provide: _angular_material__WEBPACK_IMPORTED_MODULE_10__["MAT_DATE_LOCALE"],
         useValue: 'en-GB'
       }],
-      bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
+      bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
     })], AppModule);
     /***/
   },
@@ -981,38 +1432,80 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.ftRange = 12;
         this.drawRange = 13;
         this.ouRange = 6;
+        this.sortByFT = false;
+        this.sortByOU = false;
+        this.showOnlyPredictions = false;
+        this.showOnlyFT = false;
+        this.showOnlyOU = false;
       }
 
       _createClass(HomeComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          this.textFilter = "!grp";
-          this.showOnlyFT = true;
-          this.showOnlyOU = true;
-          this.minRounds = 13;
-          this.sortByFT = true;
+          if (!localStorage["preferences"]) {
+            this.textFilter = "!grp";
+            this.showOnlyFT = true;
+            this.showOnlyOU = true;
+            this.minRounds = 13;
+            this.sortByFT = true;
+            this.savePreferences();
+          } else this.loadPreferences();
+
           this.currDate = new Date();
           this.getMatchesFromDate();
         }
       }, {
+        key: "savePreferences",
+        value: function savePreferences() {
+          localStorage["preferences"] = JSON.stringify({
+            ftRange: this.ftRange,
+            drawRange: this.drawRange,
+            ouRange: this.ouRange,
+            sortByFT: this.sortByFT,
+            sortByOU: this.sortByOU,
+            showOnlyPredictions: this.showOnlyPredictions,
+            showOnlyFT: this.showOnlyFT,
+            showOnlyOU: this.showOnlyOU,
+            textFilter: this.textFilter,
+            showAll: this.showAll,
+            minRounds: this.minRounds
+          });
+        }
+      }, {
+        key: "loadPreferences",
+        value: function loadPreferences() {
+          var pref = JSON.parse(localStorage["preferences"]);
+          this.ftRange = pref.ftRange;
+          this.drawRange = pref.drawRange;
+          this.ouRange = pref.ouRange;
+          this.sortByFT = pref.sortByFT;
+          this.sortByOU = pref.sortByOU;
+          this.showOnlyPredictions = pref.showOnlyPredictions;
+          this.showOnlyFT = pref.showOnlyFT;
+          this.showOnlyOU = pref.showOnlyOU;
+          this.textFilter = pref.textFilter;
+          this.showAll = pref.showAll;
+          this.minRounds = pref.minRounds;
+        }
+      }, {
         key: "ngAfterViewInit",
         value: function ngAfterViewInit() {
-          var _this = this;
+          var _this5 = this;
 
           this.calculateSortings();
           this.sort.changes.subscribe(function (r) {
-            _this.calculateSortings();
+            _this5.calculateSortings();
 
-            _this.dataSource.sort = _this.sort.first;
+            _this5.dataSource.sort = _this5.sort.first;
           });
         }
       }, {
         key: "calculateSortings",
         value: function calculateSortings() {
-          var _this2 = this;
+          var _this6 = this;
 
           setTimeout(function () {
-            _this2.serialized = _this2.sort.map(function (p) {
+            _this6.serialized = _this6.sort.map(function (p) {
               return p.active;
             }).join(', ');
           }, 0);
@@ -1020,12 +1513,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "initDatasource",
         value: function initDatasource() {
-          var _this3 = this;
+          var _this7 = this;
 
           this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTableDataSource"](this.matches);
 
           this.dataSource.filterPredicate = function (data, filter) {
-            return _this3.handleFilter(data, filter) && _this3.extendedFilter(data) && _this3.extraFilters(data);
+            return _this7.handleFilter(data, filter) && _this7.extendedFilter(data) && _this7.extraFilters(data);
           };
 
           this.dataSource.sortingDataAccessor = function (item, property) {
@@ -1104,14 +1597,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getMatchesFromDate",
         value: function getMatchesFromDate() {
-          var _this4 = this;
+          var _this8 = this;
 
           this.httpClient.get("assets/data/matches_" + this.currDate.getDate() + "_" + (this.currDate.getMonth() + 1)).subscribe(function (data) {
-            _this4.matches = data;
+            _this8.matches = data;
 
-            _this4.initDatasource();
+            _this8.matches.forEach(function (m) {
+              _this8.setResults(m);
+            });
+
+            _this8.initDatasource();
           }, function (err) {
-            return _this4.matches = null;
+            return _this8.matches = null;
           });
         }
       }, {
@@ -1138,8 +1635,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: "simplifyFT",
         value: function simplifyFT(match) {
           var ft = "";
-          if (this.isInRange(match.ft1, this.ftRange)) ft += match.ft1 > 0 ? "1" : "2";
-          if (this.isInRange(match.ftX, this.drawRange) && match.ftX > 0) ft += ft.length > 0 ? "X" : "";
+          if (this.isInRange(match.ft1, this.ftRange, true)) ft += "1";else if (this.isInRange(match.ft2, this.ftRange, true)) ft += "2";else if (this.isInRange(match.ft1, this.ftRange)) ft += "2X";else if (this.isInRange(match.ft2, this.ftRange)) ft += "1X";
+          if (this.isInRange(match.ftX, this.drawRange, true)) ft += ft.length == 1 ? "X" : "";
           return ft;
         }
       }, {
@@ -1187,8 +1684,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }, {
         key: "isInRange",
-        value: function isInRange(value, range) {
-          return Math.abs(value) > range;
+        value: function isInRange(value, range, positivesOnly) {
+          return Math.abs(value) > range && (!positivesOnly || value > 0);
         }
       }, {
         key: "getColorForIfCorrectPrediction",
@@ -1207,8 +1704,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           if (!ft || ft == "") return "white";
           if (!match.results) return "lightgray";
           var result = "-";
+          var score = match.results.score;
           Array.from(ft).forEach(function (p) {
-            if (result != "W" && match.results["ft" + p] == "L") result = "L";else if (match.results["ft" + p] == "W") result = "W";
+            var currResult = "";
+
+            switch (p) {
+              case '1':
+                currResult = score[0] > score[1] ? "W" : "L";
+                break;
+
+              case 'X':
+                currResult = score[0] == score[1] ? "W" : "L";
+                break;
+
+              case '2':
+                currResult = score[0] < score[1] ? "W" : "L";
+                break;
+            }
+
+            if (result != "W" || currResult == "W") result = currResult;
           });
           return this.getColorFromResult(result);
         }
@@ -1230,6 +1744,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var filterValue = event.target.value.trim().toLowerCase();
           this.textFilter = filterValue == "" ? " " : filterValue;
           this.dataSource.filter = this.textFilter;
+          this.savePreferences();
         }
       }, {
         key: "setMinRounds",
@@ -1237,6 +1752,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var value = event.toString().trim().toLowerCase();
           if (value == "" || isNaN(parseFloat(value))) this.minRounds = null;else this.minRounds = parseFloat(value);
           this.dataSource.filter = this.textFilter;
+          this.savePreferences();
         }
       }, {
         key: "getShowOnlySelection",
@@ -1273,6 +1789,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }
 
           this.dataSource.filter = this.textFilter;
+          this.savePreferences();
         }
       }, {
         key: "switchSelections",
@@ -1291,6 +1808,34 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function setShowAdvancedSimpleSelection(selection) {
           this.showAll = selection == "1";
           this.dataSource.filter = this.textFilter;
+          this.savePreferences();
+        }
+      }, {
+        key: "setResults",
+        value: function setResults(match) {
+          if (!match.results) return;
+          var score = match.results.score;
+          match.results.ft1 = this.isValidFTPrediction(match.ft1) ? (score[0] - score[1]) * match.ft1 > 0 ? 'W' : 'L' : '-';
+          match.results.ftX = this.isValidDrawPrediction(match.ftX) ? score[0] == score[1] && match.ftX > 0 || score[0] != score[1] && match.ftX < 0 ? 'W' : 'L' : '-';
+          match.results.ft2 = this.isValidFTPrediction(match.ft2) ? (score[1] - score[0]) * match.ft2 > 0 ? 'W' : 'L' : '-';
+          match.results.o15 = this.isValidOverPrediction(match.o15) ? (score[0] + score[1] - 1.5) * match.o15 > 0 ? 'W' : 'L' : '-';
+          match.results.o25 = this.isValidOverPrediction(match.o25) ? (score[0] + score[1] - 2.5) * match.o25 > 0 ? 'W' : 'L' : '-';
+          match.results.o35 = this.isValidOverPrediction(match.o35) ? (score[0] + score[1] - 3.5) * match.o35 > 0 ? 'W' : 'L' : '-';
+        }
+      }, {
+        key: "isValidFTPrediction",
+        value: function isValidFTPrediction(value) {
+          return this.isInRange(value, this.ftRange);
+        }
+      }, {
+        key: "isValidDrawPrediction",
+        value: function isValidDrawPrediction(value) {
+          return this.isInRange(value, this.drawRange);
+        }
+      }, {
+        key: "isValidOverPrediction",
+        value: function isValidOverPrediction(value) {
+          return this.isInRange(value, this.ouRange);
         }
       }]);
 
