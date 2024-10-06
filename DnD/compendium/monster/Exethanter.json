@@ -1,0 +1,118 @@
+{
+  "name": "Exethanter",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Any Evil Alignment",
+  "ac": "17 (natural armor)",
+  "hp": "99 (18d8+54)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "16",
+  "int": "20",
+  "wis": "14",
+  "cha": "16",
+  "save": "Con +10, Int +12, Wis +9",
+  "skill": "Arcana +19, History +12, Insight +9, Perception +9",
+  "passive": "19",
+  "languages": "Common plus up to five other languages",
+  "cr": "21",
+  "resist": "cold, lightning, necrotic",
+  "immune": "poison; bludgeoning, piercing, slashing from nonmagical attacks",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Exethanter fails a saving throw, it can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "text": [
+        "If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+      ]
+    },
+    {
+      "name": "Turn Resistance",
+      "text": [
+        "Exethanter has advantage on saving throws against any effect that turns undead."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Exethanter is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). Exethanter has the following wizard spells prepared:",
+        "Cantrips (at will): mage hand, prestidigitation, ray of frost",
+        "• 1st level (4 slots): detect magic, magic missile, shield, thunderwave",
+        "• 2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image",
+        "• 3rd level (3 slots): animate dead, counterspell, dispel magic, fireball",
+        "• 4th level (3 slots): blight, dimension door",
+        "• 5th level (3 slots): cloudkill, scrying",
+        "• 6th level (1 slots): disintegrate, globe of invulnerability",
+        "• 7th level (1 slots): finger of death, plane shift",
+        "• 8th level (1 slots): dominate monster, power word stun",
+        "• 9th level (1 slots): power word kill"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Paralyzing Touch",
+      "text": [
+        "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Paralyzing Touch|+12|3d6"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The undead can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The undead regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Cantrip",
+      "text": [
+        "Exethanter casts a cantrip."
+      ]
+    },
+    {
+      "name": "Paralyzing Touch (Costs 2 Actions)",
+      "text": [
+        "Exethanter uses its Paralyzing Touch."
+      ]
+    },
+    {
+      "name": "Frightening Gaze (Costs 2 Actions)",
+      "text": [
+        "Exethanter fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Exethanter's gaze for the next 24 hours."
+      ]
+    },
+    {
+      "name": "Disrupt Life (Costs 3 Actions)",
+      "text": [
+        "Each non-undead creature within 20 feet of Exethanter must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Lair Actions"
+    },
+    {
+      "text": [
+        "On initiative count 20 (losing initiative ties), the lich can take a lair action to cause one of the following magical effects; the lich can't use the same effect two rounds in a row:",
+        "• The lich rolls a d8 and regains a spell slot of that level or lower. If it has no spent spell slots of that level or lower, nothing happens.",
+        "• The lich targets one creature it can see within 30 feet of it. A crackling cord of negative energy tethers the lich to the target. Whenever the lich takes damage, the target must make a DC 18 Constitution saving throw. On a failed save, the lich takes half the damage (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round or until the lich or the target is no longer in the lich's lair.",
+        "• The lich calls forth the spirits of creatures that died in its lair. These apparitions materialize and attack one creature that the lich can see within 60 feet of it. The target must succeed on a DC 18 Constitution saving throw, taking 52 (15d6) necrotic damage on a failed save, or half as much damage on a success. The apparitions then disappear."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 3, 1, 1, 1, 1"
+  ],
+  "spells": "mage hand, prestidigitation, ray of frost, detect magic, magic missile, shield, thunderwave, detect thoughts, invisibility, Melf's acid arrow, mirror image, animate dead, counterspell, dispel magic, fireball, blight, dimension door, cloudkill, scrying, disintegrate, globe of invulnerability, finger of death, plane shift, dominate monster, power word stun, power word kill",
+  "description": "\nSource: Curse of Strahd p. 189"
+}

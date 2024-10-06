@@ -1,0 +1,57 @@
+{
+  "name": "Illusionist",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "12 (15 with mage armor)",
+  "hp": "38 (7d8+7)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "13",
+  "int": "16",
+  "wis": "11",
+  "cha": "12",
+  "save": "Int +5, Wis +2",
+  "skill": "Arcana +5, History +5",
+  "passive": "10",
+  "languages": "any four languages",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Displacement (Recharges after the Illusionist Casts an Illusion Spell of 1st Level or Higher)",
+      "text": [
+        "As a bonus action, the illusionist projects an illusion that makes the illusionist appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the illusionist. The effect ends if the illusionist takes damage, it is incapacitated, or its speed becomes 0."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The illusionist is a 7th-level spellcaster. its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The illusionist has the following wizard spells prepared:",
+        "Cantrips (at will): dancing lights, mage hand, minor illusion, poison spray",
+        "• 1st level (4 slots): color spray*, disguise self*, mage armor, magic missile",
+        "• 2nd level (3 slots): invisibility*, mirror image*, phantasmal force*",
+        "• 3rd level (3 slots): major image*, phantom steed*",
+        "• 4th level (1 slots): phantasmal killer*",
+        "*Illusion spell of 1st level or higher"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+      ],
+      "attack": [
+        "Quarterstaff|+1|1d6-1"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 1"
+  ],
+  "spells": "dancing lights, mage hand, minor illusion, poison spray, color spray, disguise self, mage armor, magic missile, invisibility, mirror image, phantasmal force, major image, phantom steed, phantasmal killer",
+  "description": "Illusionists are specialist wizards who twist light, sound, shadow, and even minds to create false and quasi-real effects. They can be flamboyant and use their powers in spectacular and obvious ways, or quiet and subtle, using their magic to conceal the truth.\nSource: Volo's Guide to Monsters p. 214, Tales from the Yawning Portal",
+  "environment": "urban"
+}

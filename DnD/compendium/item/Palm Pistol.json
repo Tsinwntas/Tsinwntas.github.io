@@ -1,0 +1,17 @@
+{
+  "name": "Palm Pistol",
+  "type": "R",
+  "weight": "1",
+  "text": [
+    "A ranged weapon that fits in the palm of your hand.",
+    "Light, Reload 1, Misfire 1",
+    "Proficiency: firearms",
+    "Ammunition: 2g (20)",
+    "Source: Matthew Mercer - Gunslinger 1.3 p. 3"
+  ],
+  "value": "50",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "property": "M,A,L,LD",
+  "range": "40/160"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Owl",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "1 (1d4-1)",
+  "speed": "walk 5 ft., fly 60 ft.",
+  "str": "3",
+  "dex": "13",
+  "con": "8",
+  "int": "2",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3, Stealth +3",
+  "passive": "13",
+  "cr": "0",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Flyby",
+      "text": [
+        "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Keen Hearing and Sight",
+      "text": [
+        "The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Talons",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 1 slashing damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 333, Rise of Tiamat, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "forest, arctic"
+}

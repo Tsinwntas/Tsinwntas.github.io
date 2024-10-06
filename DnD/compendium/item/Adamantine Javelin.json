@@ -1,0 +1,11 @@
+{
+  "name": "Adamantine Javelin",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "T",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "30/120",
+  "text": "Whenever you hit an object with this weapon, the hit is a critical hit.\nSource: Xanathar's Guide to Everything p. 78"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Darkvision",
+  "level": "2",
+  "school": "T",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S, M (either a pinch of dried carrot or an agate)",
+  "duration": "8 hours",
+  "classes": "Druid, Ranger, Sorcerer, Wizard, Artificer, Artificer, Artificer (UA), Artificer (Revisited) (UA)",
+  "text": "You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.\nSource: Player's Handbook p. 230"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Corpse Slayer Hooked Shortspear",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "L,M",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "text": "On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall prone. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus.\nYou gain a +1 bonus to attack and damage rolls made with this magic weapon.\nWhen you hit an undead creature with an attack using this weapon, the attack deals an extra 1d8 damage of the weapon's type, and the creature has disadvantage on saving throws against effects that turn undead until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 266",
+  "roll": [
+    "1d8"
+  ]
+}

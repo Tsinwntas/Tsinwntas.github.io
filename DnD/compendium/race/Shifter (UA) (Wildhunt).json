@@ -1,0 +1,32 @@
+{
+  "name": "Shifter (UA) (Wildhunt)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Dex 1, Wis 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Unearthed Arcana: Eberron p. 3"
+    },
+    {
+      "name": "Shifting Feature",
+      "text": "While shifting, you gain advantage on all Wisdom-based checks and saving throws.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Shifter (UA) (Wildhunt)s are about the same size as humans. Your size is Medium\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Shifting",
+      "text": "On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.\nWhile shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your Shifter (UA) (Wildhunt) subrace, described below.\nYou must finish a short or long rest before you can shift again.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Sylvan.\n"
+    }
+  ]
+}

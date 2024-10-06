@@ -1,0 +1,59 @@
+{
+  "name": "Sir Braford",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral Evil",
+  "ac": "18 (chain mail, shield)",
+  "hp": "19 (3d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "9",
+  "con": "14",
+  "int": "10",
+  "wis": "13",
+  "cha": "14",
+  "skill": "Athletics +5, Perception +3",
+  "passive": "13",
+  "languages": "Common",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Barkskin",
+      "text": [
+        "Sir Braford's AC can't be lower than 16."
+      ]
+    },
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Sir Braford wields Shatterspike, a magic longsword that grants a +1 bonus to attack and damage rolls made with it (included in his attack). See the Shatterspike handout for the item's other properties."
+      ]
+    },
+    {
+      "name": "Tree Thrall",
+      "text": [
+        "If the Gulthias Tree dies, Sir Braford dies 24 hours later."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+6|1d8+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Protection",
+      "text": [
+        "When a creature Sir Braford can see attacks a target other than him that is within 5 feet of him, he can use a reaction to use his shield to impose disadvantage on the attack roll."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 243"
+}

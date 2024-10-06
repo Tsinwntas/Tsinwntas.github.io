@@ -1,0 +1,81 @@
+{
+  "name": "Zindar",
+  "size": "M",
+  "type": "humanoid (half-dragon)",
+  "alignment": "Lawful Good",
+  "ac": "13 (natural armor)",
+  "hp": "110 (17d8+34)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "10",
+  "con": "14",
+  "int": "16",
+  "wis": "15",
+  "cha": "18",
+  "save": "Con +5, Wis +5",
+  "skill": "Arcana +6, History +9, Insight +5, Investigation +9",
+  "passive": "12",
+  "languages": "Common, Draconic, Dwarvish, Primordial",
+  "cr": "8",
+  "resist": "fire",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dragon Wings",
+      "text": [
+        "As a bonus action on his turn, Zindar can sprout a pair of dragon wings from his back, gaining a flying speed of 30 feet until he dismisses them as a bonus action."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Zindar is a 14th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Zindar knows the following sorcerer spells:",
+        "Cantrips (at will): fire bolt, friends, light, mage hand, mending, message",
+        "• 1st level (6 slots): magic missile, shield, sleep",
+        "• 2nd level (4 slots): detect thoughts, knock",
+        "• 3rd level (3 slots): clairvoyance, tongues",
+        "• 4th level (3 slots): dominate beast, stoneskin",
+        "• 5th level (3 slots): hold monster, telekinesis",
+        "• 6th level (1 slots): true seeing",
+        "• 7th level (1 slots): fire storm"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used with two hands."
+      ],
+      "attack": [
+        "Quarterstaff|+5|1d6+2"
+      ]
+    },
+    {
+      "name": "Breath Weapon (Recharge 5-6)",
+      "text": [
+        "Zindar uses one of the following options:"
+      ]
+    },
+    {
+      "name": "Fire Breath",
+      "text": [
+        "Zindar exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Fire Breath||4d10"
+      ]
+    },
+    {
+      "name": "Weakening Breath",
+      "text": [
+        "Zindar exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "slots": [
+    "6, 4, 3, 3, 3, 1, 1"
+  ],
+  "spells": "fire bolt, friends, light, mage hand, mending, message, magic missile, shield, sleep, detect thoughts, knock, clairvoyance, tongues, dominate beast, stoneskin, hold monster, telekinesis, true seeing, fire storm",
+  "description": "This half-gold dragon runs Port Nyanzaru's docks and keeps track of ship manifests. A sorcerer of impressive ability, Zindar is well paid by the merchant princes for his work. He is also a key member of the Ytepka Society and a great source of information about the city. Zindar has a soft spot for adventurers, but he knows the dangers of Chult well enough to understand that most of those who embark on expeditions to explore the jungle never return.\nZindar makes extensive use of spells in his day-today work, casting message to deliver missives to dock workers, detect thoughts for reading ship captains' minds, knock for unsealing containers for inspection, clairvoyance for peering into ship holds, dominate beast to pacify nervous animals, and so forth.\nZindar's Traits. Ideal. \"I take pride in my work, and I like to keep all my business dealings honest.\"\nBond. \"Port Nyanzaru is my home. I take a dim view of those who would bring harm to the city and its inhabitants.\"\nFlaw. \"I don't get mad. I get even.\"\nSource: Tomb of Annihilation p. 239"
+}

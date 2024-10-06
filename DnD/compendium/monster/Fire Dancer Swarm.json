@@ -1,0 +1,59 @@
+{
+  "name": "Fire Dancer Swarm",
+  "size": "M",
+  "type": "swarm of Tiny elementals,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "15",
+  "hp": "90 (12d8+36)",
+  "speed": "30 ft., fly 30 ft. (hover)",
+  "str": "10",
+  "dex": "20",
+  "con": "16",
+  "int": "6",
+  "wis": "10",
+  "cha": "7",
+  "resist": "bludgeoning, piercing, and slashing",
+  "immune": "fire, poison",
+  "conditionImmune": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious",
+  "senses": "darkvision 60 ft.",
+  "passive": "10",
+  "languages": " Ignan",
+  "cr": "7",
+  "trait": [
+    {
+      "name": "Fire Form",
+      "text": [
+        "A creature that touches the swarm or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the first time the swarm enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone uses an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns."
+      ]
+    },
+    {
+      "name": "Illumination",
+      "text": [
+        "The swarm sheds bright light in a 30-foot radius and dim light to an additional 30 feet."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "text": [
+        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can't regain hit points or gain temporary hit points."
+      ]
+    },
+    {
+      "name": "Water Susceptibility",
+      "text": [
+        "For every 5 feet the swarm moves in water, or for every gallon of water splashed on it, it takes 1 cold damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Swarm",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 0 ft., one target in the swarm's space. Hit: 21 (6d6) fire damage, or 10 (3d6) fire damage if the swarm has half or fewer hit points."
+      ],
+      "attack": [
+        "Swarm|8|6d6"
+      ]
+    }
+  ]
+}

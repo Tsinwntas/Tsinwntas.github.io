@@ -1,0 +1,79 @@
+{
+  "name": "K'thriss Drow'b",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Chaotic Neutral",
+  "ac": "14 (studded leather armor)",
+  "hp": "44 (8d8+8)",
+  "speed": "walk 30 ft.",
+  "str": "8",
+  "dex": "14",
+  "con": "12",
+  "int": "14",
+  "wis": "11",
+  "cha": "18",
+  "save": "Str +0, Dex +3, Con +2, Int +3, Wis +3, Cha +7",
+  "skill": "Arcana +4, Insight +2, Investigation +4, Perception +2, Religion +4",
+  "passive": "12",
+  "languages": "Celestial, Common, Elvish, Undercommon; can read all writing",
+  "cr": "3",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "K'thriss wears a robe of stars (accounted for in his statistics). The robe allows him to cast the following spells: 6/day: magic missile (7 missiles)"
+      ]
+    },
+    {
+      "name": "Awakened Mind",
+      "text": [
+        "K'thriss can telepathically speak to any creature he can see within 30 feet of him, provided the creature can understand at least one language."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "K'thriss has advantage on saving throws against being charmed, and magic can't put him to sleep. Sunlight Sensitivity. While in sunlight, K'thriss has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "K'thriss's innate spellcasting ability is Charisma (spell save DC 14). He can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights, disguise self",
+        "1/day each: darkness, faerie fire"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:",
+        "Cantrips (at will): chill touch, eldritch blast, mending, prestidigitation, thorn whip, vicious mockery",
+        "• 3rd level (2 slots): dissonant whispers, fly, hex, misty step, sending, shatter"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "K'thriss makes two attacks with his sickle."
+      ]
+    },
+    {
+      "name": "Sickle",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Sickle|+4|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "2"
+  ],
+  "spells": "dancing lights, disguise self, darkness, faerie fire, chill touch, eldritch blast, mending, prestidigitation, thorn whip, vicious mockery, dissonant whispers, fly, hex, misty step, sending, shatter",
+  "description": "\nAll things are divided into meat and mouths-but even a mouth is just meat.\n\nThe drow warlock K'thriss Drow'b cuts a dashing figure as the worldly representative of the Ur-a ravenous, inscrutable, and largely indifferent elder entity from beyond reality. Tapped into this dark power, the \"C\" Team's hoards person sees all existence as a puzzle to unlock, and he is obsessed by the essential lack of meaning and purpose in the structures of so-called \"reality.\" Still, all things considered, he is most often polite and affable. Because after a long adventuring career, he understands that he can't afford to make more enemies.\nGiven his blue skin tone, rumors suggest that K'thriss is of mixed heritage, but no one knows for sure. As a young and doubting adherent of Lolth, he stumbled upon fragments of a relic known as the Black Altar, exposing him to their infinite truths and shocking the drow's hair jet-black. His matching \"beard\" is actually a slow-growing colony of inert spores that K'thriss believes makes him look distinguished. Possessed of alarming and asymmetric crystalline eyes, he often wears a blindfold to spare others his visage, seeing through the eyes of his familiar while he does.\nTentacles play a big part in K'thriss's spellcasting, whether wrenching him through the sky when he uses magic to fly, or manifesting in dark, suckered form when he casts spells such as thorn whip. And when enemies hear K'thriss whisper the deep truths of the Ur-typically something about how on a geologic time scale, everyone's desires are meaningless-they remember it.\nK'thriss's familiar, Ligotti, is a semisapient remnant of a tentacle attack, spawned by the warlock's intercessor patron god. Though entirely alien to the material plane (and often appearing in the form of a staff), Ligotti uses the stat block of a poisonous snake with these changes:\n• It has an Intelligence score of 12 (+2).\n• It has telepathy out to a range of 30 feet.\nSource: Acquisitions Incorporated p. 202"
+}

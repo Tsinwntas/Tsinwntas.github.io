@@ -1,0 +1,145 @@
+{
+  "name": "Alquam, Demon Lord Of Night",
+  "size": "H",
+  "type": "fiend (demon),tome of Beasts",
+  "alignment": "chaotic evil",
+  "ac": "20 (natural armor)",
+  "hp": "350 (28d12+168)",
+  "speed": "20 ft., fly 100 ft.",
+  "str": "14",
+  "dex": "19",
+  "con": "23",
+  "int": "16",
+  "wis": "20",
+  "cha": "16",
+  "save": "Dex +11, Con +13, Wis +12",
+  "skill": "Deception +10, Perception +12, Stealth +11",
+  "resist": "fire, lightning",
+  "immune": "cold, poison; bludgeoning, piercing, and slashing from nonmagical weapons",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+  "senses": "truesight 120 ft.",
+  "passive": "22",
+  "languages": " all, telepathy 120 ft.",
+  "cr": "21",
+  "trait": [
+    {
+      "name": "Born of Darkness",
+      "text": [
+        "Alquam can take the Hide action as a bonus action on each turn while it is in dim light or darkness, even if it is being observed."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Alquam's innate spellcasting ability is Charisma (save DC 18). It can innately cast the following spells without material components.",
+        "At will: darkness, silence",
+        "3/day each: fear, invisibility, teleport",
+        "1/day: circle of death"
+      ]
+    },
+    {
+      "name": "Keen Senses",
+      "text": [
+        "Alquam has advantage on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/day)",
+      "text": [
+        "If Alquam fails a saving throw, it can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Alquam has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Alquam's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Alquam's Lair",
+      "text": [
+        "On initiative count 20 (losing initiative ties), Alquam takes a lair action to cause one of the following effects; Alquam can’t use the same effect two rounds in a row:",
+        "- Alquam snuffs all light sources within the lair. Spells that create light are dispelled, mundane light sources are extinguished, and magical light sources are suppressed. Even light created by artifacts is reduced to dim light with half its normal radius of illumination. This lasts until initiative count 20 on the following round.",
+        "- Haunting, maddening music emanates from a point Alquam can see. Creatures within 50 feet of the origin that can hear the music must make a DC 15 Wisdom saving throw. Those that fail are charmed, incapacitated, and have their speed reduced to 0 until they take damage or until initiative count 20 on the following round.",
+        "- Black tendrils writhe around up to three creatures Alquam can see within 100 feet. The creatures must succeed on a DC 15 Strength saving throw or be restrained until initiative count 20 on the following round."
+      ]
+    },
+    {
+      "name": "Regional Effects",
+      "text": [
+        "The region containing Alquam’s lair is warped by the demon lord’s magic, which creates one or more of the following effects:",
+        "- Within 1 mile of the lair all light sources except artifacts shed light to only half the usual radius.",
+        "- Owls and other nocturnal beasts become enraged and hostile within 5 miles of the lair, attacking intruders individually and in swarms.",
+        "- Within 1 mile of the lair, Alquam can cast his senses into any area of dim light or darkness as if using clairvoyance.",
+        "If Alquam dies, conditions in the area surrounding the lair return to normal over the course of 1d10 days."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Alquam makes one bite attack, one wing attack, and one talons attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 26 (4d10 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|11|4d10+4"
+      ]
+    },
+    {
+      "name": "Wing",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 17 (3d8 + 4) bludgeoning damage and the target must succeed on a DC 17 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Wing|11|3d8+4"
+      ]
+    },
+    {
+      "name": "Talons",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) slashing damage and the target is grappled and restrained (escape DC 17). Alquam can grapple one creature at a time if it is on the ground or two if it is flying. Talons grappling a creature can't attack any other creature."
+      ],
+      "attack": [
+        "Talons|11|3d6+4"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Alquam can take 3 legendary actions, choosing from the options below",
+      "text": [
+        "Only one legendary action option can be used at a time and only at the end of another creature's turn. Alquam regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Attack",
+      "text": [
+        "Alquam makes one attack."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "Alquam flies half its speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Shroud (2 actions)",
+      "text": [
+        "Alquam radiates magical darkness in a 30.foot radius. The darkness lasts until the start of Alquam's next turn."
+      ]
+    }
+  ]
+}

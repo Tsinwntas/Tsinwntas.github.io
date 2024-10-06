@@ -1,0 +1,58 @@
+{
+  "name": "Wirbeln Fungi",
+  "size": "S",
+  "type": "plant",
+  "alignment": "Lawful Neutral",
+  "ac": "13",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 20 ft., fly 20 ft.",
+  "str": "8",
+  "dex": "16",
+  "con": "13",
+  "int": "10",
+  "wis": "12",
+  "cha": "10",
+  "skill": "Perception +3, Stealth +5",
+  "passive": "13",
+  "languages": "Common, Elvish, Druidic, Sylvan",
+  "cr": "1",
+  "conditionImmune": "blinded, deafened, frightened, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Natural Appearance",
+      "text": [
+        "While the wirbeln remains motionless, it is indistinguishable from an ordinary fungus."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Poison Needle",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Poison Needle|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Poison Dart",
+      "text": [
+        "Ranged Weapon Attack. +5 to hit, range 20/60 ft., one target. 5 (1d4 + 3) piercing damage. If the target is a creature, it must make a DC 13 Constitution saving throw or be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Poison Dart|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Spore Cloud",
+      "text": [
+        "(Recharge 56). The wirbeln ejects spores in a 15foot cone. All creatures that are not wirbeln fungi must succeed on a DC 13 Constitution saving throw or take 5 (1d10) poison damage and be subject to one of the following effects for 1 minute, depending on the wirbeln's color. green is poisoned; red is blinded; yellow is incapacitated; blue is paralyzed; purple is frightened; and black is 5 (2d4) poison damage each round.",
+        "The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest, swamp"
+}

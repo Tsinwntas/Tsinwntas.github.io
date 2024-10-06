@@ -1,0 +1,84 @@
+{
+  "name": "Scorpion Assassin",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Neutral Evil",
+  "ac": "17 (studded leather armor)",
+  "hp": "105 (14d8+42)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "20",
+  "con": "16",
+  "int": "10",
+  "wis": "18",
+  "cha": "16",
+  "save": "Dex +8, Wis +7",
+  "skill": "Deception +6, Perception +7, Stealth +8",
+  "passive": "17",
+  "cr": "8",
+  "resist": "cold, necrotic",
+  "immune": "poison",
+  "conditionImmune": "blinded, poisoned",
+  "senses": "blindsight 10 ft.",
+  "trait": [
+    {
+      "name": "Assassinate",
+      "text": [
+        "During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+      ]
+    },
+    {
+      "name": "Evasion",
+      "text": [
+        "If the scorpion assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      ]
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "text": [
+        "Once per turn, the scorpion assassin deals an extra 17 (5d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The scorpion assassin is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The scorpion assassin has the following spells prepared:",
+        "Cantrips (at will): guidance, light, mending, thaumaturgy",
+        "• 1st level (4 slots): bane, command, inflict wounds, shield of faith",
+        "• 2nd level (3 slots): blindness/deafness, hold person, silence",
+        "• 3rd level (2 slots): bestow curse, meld into stone"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The scorpion assassin makes two scorpion stiletto attacks."
+      ]
+    },
+    {
+      "name": "Scorpion Stiletto",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 7 (1d4 + 5) piercing damage, and the target must make a DC 14 Constitution saving throw. On a failure, the target takes 24 (7d6) poison damage and is poisoned for 1 minute. On a success, the target takes half the damage and isn't poisoned."
+      ],
+      "attack": [
+        "Scorpion Stiletto|8|1d4+5"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Uncanny Dodge",
+      "text": [
+        "When an attacker the scorpion assassin can see hits it with an attack, it can choose to take half the damage instead."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "guidance, light, mending, thaumaturgy, bane, command, inflict wounds, shield of faith, blindness/deafness, hold person, silence, bestow curse, meld into stone",
+  "description": "Source: CCodex (3pp)",
+  "environment": "badlands, coastal"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Shoalar Quanderil",
+  "size": "M",
+  "type": "humanoid (water genasi)",
+  "alignment": "Lawful Evil",
+  "ac": "10 (13 with mage armor)",
+  "hp": "60 (8d8+24)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "16",
+  "int": "14",
+  "wis": "10",
+  "cha": "17",
+  "skill": "Arcana +4, Deception +5, Insight +2, Persuasion +5",
+  "passive": "10",
+  "languages": "Aquan, Common",
+  "cr": "4",
+  "resist": "acid",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Shoalar can breathe air and water."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Shoalar's innate spellcasting ability is Constitution (spell save DC 13, +5 to hit with spell attacks). He can innately cast the following spells:",
+        "At will: shape water",
+        "1/day: create or destroy water"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Shoalar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He knows the following sorcerer spells:",
+        "Cantrips (at will): acid splash, chill touch, friends, prestidigitation, ray of frost",
+        "• 1st level (4 slots): disguise self, mage armor, magic missile",
+        "• 2nd level (3 slots): hold person, misty step",
+        "• 3rd level (2 slots): tidal wave"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or ranged 20/60 ft., one target. 3 (1d4 + 1) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+3|1d4+1"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "shape water, create or destroy water, acid splash, chill touch, friends, prestidigitation, ray of frost, disguise self, mage armor, magic missile, hold person, misty step, tidal wave",
+  "description": "A plump water genasi armed with a jovial manner and biting sense of humor, Shoalar Quanderil seems like the last person one would expect to be a cruel member of a destructive cult. Nevertheless, Shoalar is the captain of a pirate ship that harries the Sword Coast, and a high-ranking Crushing Wave cultist. He sees Olhydra's power as a means to making himself as rich as possible.\nSource: Princes of the Apocalypse p. 208"
+}

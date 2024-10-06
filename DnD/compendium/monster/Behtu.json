@@ -1,0 +1,54 @@
+{
+  "name": "Behtu",
+  "size": "S",
+  "type": "humanoid,tome of Beasts",
+  "alignment": "chaotic evil",
+  "ac": "14 (hide armor)",
+  "hp": "52 (8d6+24)",
+  "speed": "20 ft., climb 20 ft.",
+  "str": "17",
+  "dex": "16",
+  "con": "16",
+  "int": "12",
+  "wis": "11",
+  "cha": "7",
+  "save": "Dex +5",
+  "skill": "Athletics +5, Stealth +5",
+  "resist": "cold, fire, lightning",
+  "senses": "darkvision 60 ft.",
+  "passive": "10",
+  "languages": " Behtu, Common, Infernal",
+  "cr": "2",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Shortspear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortspear|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 6)",
+      "text": [
+        "The behtu exhales fire in a 15-foot cone. Each creature in that area takes 21 (5d8) fire damage, or half damage with a successful DC 13 Dexterity saving throw."
+      ]
+    },
+    {
+      "name": "Ichorous Infusions",
+      "text": [
+        "Behtu war parties carry 1d6 vials of ichorous infusions. They often ingest an infusion before an ambush. For the next 2d6 rounds, the behtus gain a +4 bonus to their Strength and Constitution scores and quadruple their base speed (including their climb speed). Behtus also take a -4 penalty to their Intelligence and Wisdom scores for the duration of the infusion. A non-behtu character who ingests a behtu infusion becomes poisoned and takes 10 (3d6) poison damage; a successful DC 14 Constitution saving throw against poison reduces damage to half and negates the poisoned condition."
+      ]
+    }
+  ]
+}

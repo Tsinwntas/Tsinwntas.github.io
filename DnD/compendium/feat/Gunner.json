@@ -1,0 +1,12 @@
+{
+  "name": "Gunner",
+  "text": "You have a quick hand and keen eye when employing firearms, granting you the following benefits:\n• You gain proficiency with firearms (see \"Firearms\" in the Dungeon Master's Guide).\n• You ignore the loading property of firearms.\n• Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.\nSource: Tasha's Cauldron of Everything p. 80",
+  "modifier": [
+    {
+      "_": "Dexterity +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}

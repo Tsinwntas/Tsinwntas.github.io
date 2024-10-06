@@ -1,0 +1,46 @@
+{
+  "name": "Mjenir",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral",
+  "ac": "11",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "12",
+  "con": "13",
+  "int": "12",
+  "wis": "15",
+  "cha": "11",
+  "skill": "Medicine +4, Nature +3, Perception +4, Survival +4",
+  "passive": "14",
+  "languages": "Druidic plus any two languages",
+  "cr": "2",
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh."
+      ],
+      "attack": [
+        "Quarterstaff|+2|1d6"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Mjenir is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following druid spells prepared:",
+        "Cantrips (at will): druidcraft, produce flame, shillelagh",
+        "• 1st level (4 slots): entangle, longstrider, speak with animals, thunderwave",
+        "• 2nd level (3 slots): animal messenger, barkskin"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3"
+  ],
+  "spells": "druidcraft, produce flame, shillelagh, entangle, longstrider, speak with animals, thunderwave, animal messenger, barkskin",
+  "description": "With grand events having been set in motion, those sensitive to prophecy have begun to experience dreams and visions. One such person is Mjenir, a fifty-year-old shaman of the Reghed Elk Tribe, who received a vision about the characters' journey to the Reghed Glacier.\nDruids dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are tribal shamans who heal the sick, pray to animal spirits, and provide spiritual guidance.\nSource: Icewind Dale: Rime of the Frostmaiden p. 215"
+}

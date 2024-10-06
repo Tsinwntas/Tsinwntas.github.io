@@ -1,0 +1,12 @@
+{
+  "name": "Magic Weapon",
+  "level": "2",
+  "school": "T",
+  "ritual": "NO",
+  "time": "1 bonus action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 hour",
+  "classes": "Paladin, Wizard, Cleric (War), Cleric (Forge), Cleric (Arcana), Artificer, Paladin (Glory), Artificer, Paladin (Glory), Ranger, Sorcerer, Cleric (Zeal (PSA)), Artificer (UA), Artificer (Revisited) (UA), Ranger, Cleric (Forge (UA)), Sorcerer (Stone (UA)), Warlock (Hexblade (UA))",
+  "text": "You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.\nSource: Player's Handbook p. 257"
+}

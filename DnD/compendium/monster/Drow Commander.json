@@ -1,0 +1,97 @@
+{
+  "name": "Drow Commander",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral Evil",
+  "ac": "18 (studded leather armor, shield)",
+  "hp": "110 (11d8+22)",
+  "speed": "walk 30 ft.",
+  "str": "13",
+  "dex": "18",
+  "con": "14",
+  "int": "11",
+  "wis": "13",
+  "cha": "12",
+  "save": "Dex +7, Con +5, Wis +4",
+  "skill": "Perception +4, Stealth +10",
+  "passive": "14",
+  "languages": "Elvish, Undercommon",
+  "cr": "5",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "The drow carries three magical bolts, as follows:",
+        "• A bolt of holding, which casts hold person on a target hit with the bolt, as well as up to two other targets within 30 feet of that target",
+        "• A bolt of blinding, which casts blindness/deafness to blind on a target hit with the bolt, as well as up to two other targets within 30 feet of that target",
+        "• A bolt of vapors, which casts stinking cloud centered on the point it hits",
+        "Each of these effects has a spell save DC of 15 and a duration of 1 minute."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire, levitate (self only)"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The drow makes two shortsword attacks."
+      ]
+    },
+    {
+      "name": "Shortsword +2",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 9 (1d6 + 6) piercing damage plus 10 (3d6) poison damage."
+      ],
+      "attack": [
+        "Shortsword +2|+9|1d6+6"
+      ]
+    },
+    {
+      "name": "Hand Crossbow +1",
+      "text": [
+        "Ranged Weapon Attack: +8 to hit, range 30/120 ft., one target. 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+      ],
+      "attack": [
+        "Hand Crossbow +1|+8|1d6+5"
+      ]
+    },
+    {
+      "name": "Variant: Drow Magic Armor and Weapons",
+      "text": [
+        "Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
+        "A drow elite warrior wearing +2 Studded Leather Armor and carrying a +2 shortsword has AC 20 and a +2 bonus on attack and damage rolls with shortsword attacks."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "spells": "dancing lights, darkness, faerie fire, levitate",
+  "description": "\nSource: Tales from the Yawning Portal p. 209",
+  "environment": "underdark"
+}

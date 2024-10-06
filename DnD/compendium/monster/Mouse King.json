@@ -1,0 +1,155 @@
+{
+  "name": "Mouse King",
+  "size": "S",
+  "type": "fey (shapechanger, animal lord)",
+  "alignment": "Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "150 (20d6+80)",
+  "speed": "walk 40 ft., climb 30 ft.",
+  "str": "18",
+  "dex": "23",
+  "con": "18",
+  "int": "20",
+  "wis": "18",
+  "cha": "18",
+  "save": "Dex +10, Con +8, Wis +8, Cha +8",
+  "skill": "Acrobatics +14, Deception +8, Nature +9, Persuasion +8, Sleight of hand +14, Stealth +14, Survival +8",
+  "passive": "14",
+  "languages": "All, telepathy 120 ft.",
+  "cr": "11",
+  "resist": "lightning; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened, incapacitated, poisoned, stunned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Keen Sight",
+      "text": [
+        "The Mouse King has advantage on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If the Mouse King fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The Mouse King has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The Mouse King's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "text": [
+        "If he dies, the Mouse King's soul reforms on the Astral Plane. In 1d6 days, it inhabits the body of another mouse or rat on the Material Plane which becomes the Mouse King with all of the hp and abilities thereof. Only killing every mouse and rat on the Material Plane will prevent this trait from functioning."
+      ]
+    },
+    {
+      "name": "Rodent Passivism",
+      "text": [
+        "No rodents, ratfolk, or wererats can willingly attack the Mouse King. They can be forced to do so through magical means."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The Mouse King can use his action to polymorph into a Medium black-haired human woman with dark skin and copper eyes or a Small white-haired halfling man with pale skin, dark eyes and a long moustache, a Medium mouse-humanoid hybrid, or back into his true Small mouse form. His statistics, other than his size, are the same in each form with the exception that only his hybrid and true forms retain his climbing speed.",
+        "Any equipment he is wearing or carrying transforms with him."
+      ]
+    },
+    {
+      "name": "Speak With Rodents",
+      "text": [
+        "The Mouse King can communicate with rodents as if they shared a language."
+      ]
+    },
+    {
+      "name": "Special Equipment",
+      "text": [
+        "The Mouse King wears a ring of spell turning."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The mouse king's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:",
+        "At will: blur, confusion, detect evil and good",
+        "2/day each: etherealness",
+        "1/day each: astral projection, teleport"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "In mouse form, the Mouse King makes two bite attacks. In humanoid form, he makes three king's blade attacks. In hybrid form, he makes three attacks. two with his king's blade and one with his bite."
+      ]
+    },
+    {
+      "name": "King's Blade (Humanoid or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 15 (2d8 + 6) piercing damage."
+      ],
+      "attack": [
+        "King's Blade (Humanoid or Hybrid Form Only)|10|2d8+6"
+      ]
+    },
+    {
+      "name": "Bite (Mouse or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 13 (2d6 + 6) piercing damage plus 7 (2d6) poison damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or become poisoned for 1 hour."
+      ],
+      "attack": [
+        "Bite (Mouse or Hybrid Form Only)|10|2d6+6"
+      ]
+    },
+    {
+      "name": "Summon Rodents (2/Day)",
+      "text": [
+        "The Mouse King magically calls 2d4 swarms of rats. In an urban environment, he can call 1d4 wererats instead. The called creatures arrive in 1d4 rounds, acting as allies of the Mouse King and obeying his spoken commands. The creatures remain for 1 hour, until the Mouse King dies, or until the Mouse King dismisses them as a bonus action."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fey (shapechanger, animal lord) can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fey (shapechanger, animal lord) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The Mouse King can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Mouse King regains spent legendary actions at the start of his turn."
+      ]
+    },
+    {
+      "name": "King's Blade",
+      "text": [
+        "The Mouse King makes one king's blade attack."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "The Mouse King moves up to his speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Quick Casting (Costs 3 Actions)",
+      "text": [
+        "The Mouse King casts one innate spell."
+      ]
+    }
+  ],
+  "spells": "blur, confusion, detect evil and good, etherealness, astral projection, teleport",
+  "description": "Source: CCodex (3pp) p. 28"
+}

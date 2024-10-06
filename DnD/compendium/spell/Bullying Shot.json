@@ -1,0 +1,12 @@
+{
+  "name": "Bullying Shot",
+  "level": "1",
+  "ritual": "NO",
+  "components": "None",
+  "classes": "Fighter (Gunslinger)",
+  "text": [
+    "You can use the powerful blast and thundering sound of your firearm to shake the resolve of a creature.  When making a Charisma (Intimidation) check, you can expend one grit point to gain advantage on the roll.",
+    "",
+    "Source: Matthew Mercer - Gunslinger Martial Archetype 1.2 p. 2"
+  ]
+}

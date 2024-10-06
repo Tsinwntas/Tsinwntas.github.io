@@ -1,0 +1,60 @@
+{
+  "name": "Ghoulsteed",
+  "size": "L",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "13 (natural armor)",
+  "hp": "85 (10d10+30)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "16",
+  "int": "6",
+  "wis": "10",
+  "cha": "6",
+  "skill": "Perception +2",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "3",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Pounce",
+      "text": [
+        "If the ghoulsteed moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the ghoulsteed can make one bite attack against it as a bonus action."
+      ]
+    },
+    {
+      "name": "Sprint (3/Day)",
+      "text": [
+        "When the ghoulsteed uses the Dash action, it can Dash again as a bonus action."
+      ]
+    },
+    {
+      "name": "Undead Fortitude",
+      "text": [
+        "If damage reduces the ghoulsteed to 0 hp, it makes a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the ghoulsteed drops to 1 hp instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "A ghoulsteed makes two bite attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage and the ghoulsteed gains 5 (1d10) temporary hp. These temporary hp stack with each other, but the ghoulsteed can only have a maximum of 10 temporary hp at one time."
+      ],
+      "attack": [
+        "Bite|6|2d8+4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

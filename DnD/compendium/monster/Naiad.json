@@ -1,0 +1,70 @@
+{
+  "name": "Naiad",
+  "size": "M",
+  "type": "fey",
+  "alignment": "Chaotic Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "31 (7d8)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "11",
+  "int": "15",
+  "wis": "10",
+  "cha": "18",
+  "skill": "Persuasion +6, Sleight of hand +5",
+  "passive": "10",
+  "languages": "Common, Sylvan",
+  "cr": "2",
+  "resist": "psychic",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The naiad can breathe air and water."
+      ]
+    },
+    {
+      "name": "Invisible in Water",
+      "text": [
+        "The naiad is invisible while fully immersed in water."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The naiad has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The naiad's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:",
+        "At will: minor illusion",
+        "3/day: phantasmal force",
+        "1/day each: fly, hypnotic pattern"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The naiad makes two psychic touch attacks."
+      ]
+    },
+    {
+      "name": "Psychic Touch",
+      "text": [
+        "Melee Spell Attack: +6 to hit, reach 5 ft., one target. 9 (1d10 + 4) psychic damage."
+      ],
+      "attack": [
+        "Psychic Touch|+6|1d10+4"
+      ]
+    }
+  ],
+  "spells": "minor illusion, phantasmal force, fly, hypnotic pattern",
+  "description": "Naiads live in and near water. They might be spotted among rivers and lakes, on isolated shores, or amid coral labyrinths and deep sea fumaroles. Wherever rivers and seas show their variety and force, naiads gather to revel in nature's might. Individual naiads often grow fixated with a single type or body of water, potentially preferring a deep sea trench, coastline, or river system above all others. Over time, such a resident nymph often becomes connected with their aquatic home through sightings and stories, becoming a guardian of the place and, in effect, a manifestation of its personality.\nAquatic Collectors. Curious by nature, naiads often seek out what the seas and rivers claim. As a result, they might be found among sunken ruins and shipwrecks, sifting through the remains for whatever catches their eye. Living creatures aren't exempt from this curiosity, either. Naiads are known to befriend aquatic creatures, or even to keep modest menageries. The occasional star-crossed castaway has even been known to become part of such collections.\nSecret Routes of the Sea. Sailors across the world claim that naiads know all the secret aquatic routes of Theros. Using this hidden system of currents and arteries, a ship might reach any destination in record time, be it across the sea or along a river a hundred miles inland. Naiads do nothing to dissuade sailors from this belief, and certainly numerous reports tell of charmed nymphs leading lost seafarers home. Yet, if tales of naiad-led galleys appearing amid the headwaters of mountain rivers are true, only the nymphs know for sure.\nNymphs. Divine servants that inhabit unspoiled corners of the world, nymphs protect places of natural power and infuse their surroundings with the magic of Nyx. Some are benevolent and aid those who live off the land, while others embody violent aspects of nature. In either case, nymphs generally avoid other sapient creatures, preferring to mind the cycles of nature, the daily interplay of wild animals, or other cosmic forces. Occasionally, though, groups of the same kind of nymphs congregate in a place of natural power or beauty. In times of special need, deities tied to facets of nature might employ nymphs as messengers, guardians, or scouts.\nImmortal Nature. A nymph doesn't require food, drink, or sleep.\nSource: Mythic Odysseys of Theros p. 236"
+}

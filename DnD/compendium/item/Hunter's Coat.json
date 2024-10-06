@@ -1,0 +1,13 @@
+{
+  "name": "Hunter's Coat",
+  "detail": "Light Armor",
+  "type": "LA",
+  "weight": "10",
+  "value": "10.0",
+  "ac": "11",
+  "text": "You have a +1 bonus to AC while wearing this armor.\nThe coat has 3 charges. When you hit a creature with an attack and that creature doesn't have all its hit points, you can expend 1 charge to deal an extra 1d10 necrotic damage to the target. The coat regains 1d3 expended charges daily at dawn.\nThe breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.\nSource: Explorer's Guide to Wildemount p. 267",
+  "roll": [
+    "1d10",
+    "1d3"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Narrak",
+  "size": "S",
+  "type": "humanoid (derro)",
+  "alignment": "Chaotic Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "40 (9d6+9)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "13",
+  "int": "14",
+  "wis": "5",
+  "cha": "16",
+  "skill": "Arcana +4, Stealth +4",
+  "passive": "7",
+  "languages": "Dwarvish, Undercommon",
+  "cr": "2",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Insanity",
+      "text": [
+        "Narrak has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Narrak has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Narrak has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest, and knows the following warlock spells:",
+        "Cantrips (at will): eldritch blast, friends, poison spray",
+        "• 2nd level (2 slots): armor of Agathys, charm person, hex, hold person, ray of enfeeblement, spider climb"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Armor of Shadows (Recharges after a Short or Long Rest)",
+      "text": [
+        "Narrak casts mage armor on himself"
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "One with Shadows",
+      "text": [
+        "While he is in a dim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction."
+      ]
+    }
+  ],
+  "slots": [
+    "2"
+  ],
+  "spells": "eldritch blast, friends, poison spray, armor of Agathys, charm person, hex, hold person, ray of enfeeblement, spider climb",
+  "description": "\nSource: Out of the Abyss p. 232"
+}

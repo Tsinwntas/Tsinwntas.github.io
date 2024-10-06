@@ -1,0 +1,51 @@
+{
+  "name": "Quiet Soul",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "15 (natural armor)",
+  "hp": "90 (20d8)",
+  "speed": "walk 10 ft.",
+  "str": "6",
+  "dex": "10",
+  "con": "10",
+  "int": "8",
+  "wis": "18",
+  "cha": "10",
+  "save": "Con +3, Wis +7, Cha +3",
+  "skill": "Perception +7",
+  "passive": "17",
+  "languages": "Understands the languages it knew in life but can't speak",
+  "cr": "6",
+  "immune": "cold, poison, psychic",
+  "conditionImmune": "poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the quiet soul remains motionless, it is indistinguishable from an ordinary humanoid corpse."
+      ]
+    },
+    {
+      "name": "Melancholic Emanation",
+      "text": [
+        "The quiet soul emits a magical aura of lethargy and despondency. Any creature that starts its turn within 30 feet of the quiet soul must succeed on a DC 15 Wisdom saving throw or fall unconscious for 1 minute.",
+        "The effect ends for a creature if the creature takes damage or another creature uses an action to wake it."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Psychic Lash",
+      "text": [
+        "Ranged Spell Attack: +7 to hit, range 60 ft., one target. 21 (6d6) psychic damage. If an unconscious creature is hit by this attack, that creature must make a DC 15 Wisdom saving throw, remaining unconscious on a failed save, or waking on a successful one."
+      ],
+      "attack": [
+        "Psychic Lash|7|6d6"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "arctic"
+}

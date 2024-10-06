@@ -1,0 +1,40 @@
+{
+  "name": "Giant White Moray Eel",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "60 (8d12+8)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "19",
+  "dex": "14",
+  "con": "12",
+  "int": "1",
+  "wis": "10",
+  "cha": "3",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "2",
+  "senses": "blindsight 10 ft.",
+  "trait": [
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The eel can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+6|2d6+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Ghosts of Saltmarsh p. 216",
+  "environment": "underwater, underdark, forest, swamp, desert"
+}

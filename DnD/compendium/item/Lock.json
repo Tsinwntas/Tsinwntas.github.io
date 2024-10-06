@@ -1,0 +1,8 @@
+{
+  "name": "Lock",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "1",
+  "value": "10.0",
+  "text": "A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices.\nSource: Player's Handbook p. 152"
+}

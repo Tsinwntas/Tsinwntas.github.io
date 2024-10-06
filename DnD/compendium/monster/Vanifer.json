@@ -1,0 +1,80 @@
+{
+  "name": "Vanifer",
+  "size": "M",
+  "type": "humanoid (tiefling)",
+  "alignment": "Neutral Evil",
+  "ac": "15 (studded leather armor)",
+  "hp": "112 (15d8+45)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "17",
+  "int": "12",
+  "wis": "13",
+  "cha": "19",
+  "skill": "Arcana +5, Deception +8, Performance +8",
+  "passive": "11",
+  "languages": "Common, Ignan, Infernal",
+  "cr": "9",
+  "immune": "fire",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Funeral Pyre",
+      "text": [
+        "When Vanifer drops to 0 hit points, her body is consumed in a flash of fire and smoke. Anything she was wearing or carrying is left behind among ashes."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (2/Day)",
+      "text": [
+        "If Vanifer fails a saving throw, she can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Vanifer is a 10th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). Vanifer knows the following sorcerer spells:",
+        "Cantrips (at will): chill touch, fire bolt, friends, mage hand, message, produce flame, thaumaturgy",
+        "• 1st level (4 slots): burning hands, chromatic orb, hellish rebuke, shield",
+        "• 2nd level (3 slots): darkness, detect thoughts, misty step, scorching ray",
+        "• 3rd level (3 slots): counterspell, fireball, hypnotic pattern",
+        "• 4th level (3 slots): wall of fire",
+        "• 5th level (2 slots): dominate person"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Vanifer makes two attacks."
+      ]
+    },
+    {
+      "name": "Tinderstrike",
+      "text": [
+        "Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60 ft., one target. 7 (1d4 + 5) piercing damage plus 7 (2d6) fire damage."
+      ],
+      "attack": [
+        "Tinderstrike|+9|1d4+5"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Lair Actions"
+    },
+    {
+      "text": [
+        "If Vanifer is in the fire node while Imix isn't, the tiefling can take lair actions. On initiative count 20 (losing initiative ties), Vanifer uses a lair action to cast one of her spells, up to 3rd level, without using components or a spell slot. She can't cast the same spell two rounds in a row, although she can continue to concentrate on a spell she previously cast using a lair action. Vanifer can take no other lair actions while concentrating on a spell cast as a lair action. Her favorite use of this capability is casting fireball or hypnotic pattern.",
+        "If Vanifer casts misty step using this lair action, she also draws the power of the fire node into herself. By doing so, she regains 15 (3d8 + 2) hit points."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2"
+  ],
+  "spells": "chill touch, fire bolt, friends, mage hand, message, produce flame, thaumaturgy, burning hands, chromatic orb, hellish rebuke, shield, darkness, detect thoughts, misty step, scorching ray, counterspell, fireball, hypnotic pattern, wall of fire, dominate person",
+  "description": "Vanifer's rough childhood has hardened her heart against others. The world is a corrupt, painful place, she thinks, and deserving of a fiery end. For years, she was a dancer and concubine in a pasha's court in Calimshan. Later, she took up the mantle of prophet when she found Tinderstrike, and the same ruthless ambition and practiced manipulation that enabled her to escape a life of servitude serves her well as the head of a growing cult.\nFor Vanifer, battle is best observed at a distance. She prefers to hurl destructive magic from afar. Those who challenge Vanifer in melee learn a painful lesson, as she and Tinderstrike make a formidable pair.\nIn the Fire Node\nWhen enemies threaten the Temple of Eternal Flame, Vanifer withdraws to the Weeping Colossus, the fire node. Within this node, Vanifer gains one additional use of her Legendary Resistance trait.\nSource: Princes of the Apocalypse p. 203"
+}

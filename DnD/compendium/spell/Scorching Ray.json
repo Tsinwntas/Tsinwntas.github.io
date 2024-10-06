@@ -1,0 +1,15 @@
+{
+  "name": "Scorching Ray",
+  "level": "2",
+  "school": "EV",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "120 feet",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "classes": "Sorcerer, Wizard, Cleric (Light), Warlock (Fiend), Artificer (Artillerist), Artificer (Artillerist), Warlock (Genie), Druid (Wildfire), Artificer (Revisited) (UA) (Artillerist), Druid (Wildfire (UA))",
+  "text": "You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.\nMake a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.\nSource: Player's Handbook p. 273",
+  "roll": [
+    "2d6"
+  ]
+}

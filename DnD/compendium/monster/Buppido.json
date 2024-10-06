@@ -1,0 +1,56 @@
+{
+  "name": "Buppido",
+  "size": "S",
+  "type": "humanoid (derro)",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (leather armor)",
+  "hp": "13 (3d6+3)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "12",
+  "int": "11",
+  "wis": "5",
+  "cha": "9",
+  "skill": "Stealth +4",
+  "passive": "7",
+  "languages": "Dwarvish, Undercommon",
+  "cr": "1/4",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Buppido has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Buppido has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Hooked Spear",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 3 (1d6) piercing damage. If the target is Medium or smaller, Buppido can choose to deal no damage and knock it prone."
+      ],
+      "attack": [
+        "Hooked Spear|+2|1d6"
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Light Crossbow|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 6",
+  "environment": "mountain, underdark"
+}

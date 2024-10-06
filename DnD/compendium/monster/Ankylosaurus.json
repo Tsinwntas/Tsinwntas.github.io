@@ -1,0 +1,30 @@
+{
+  "name": "Ankylosaurus",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "68 (8d12+16)",
+  "speed": "walk 30 ft.",
+  "str": "19",
+  "dex": "11",
+  "con": "15",
+  "int": "2",
+  "wis": "12",
+  "cha": "5",
+  "passive": "11",
+  "cr": "3",
+  "action": [
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Tail|+7|4d6+4"
+      ]
+    }
+  ],
+  "description": "Thick armor plating covers the body of the plant-eating ankylosaurus, which defends itself against predators with a knobbed tail that delivers a devastating strike. Some varieties of ankylosaurus have spiked tails that deal piercing damage instead of bludgeoning damage.\nDinosaurs. Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.\nDinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens.\nSource: Monster Manual p. 79, Tomb of Annihilation",
+  "environment": "grassland"
+}

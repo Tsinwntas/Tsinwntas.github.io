@@ -1,0 +1,42 @@
+{
+  "name": "Quipper",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "1 (1d4-1)",
+  "speed": "swim 40 ft.",
+  "str": "2",
+  "dex": "16",
+  "con": "9",
+  "int": "1",
+  "wis": "7",
+  "cha": "2",
+  "passive": "8",
+  "cr": "0",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The quipper can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 1 piercing damage."
+      ]
+    }
+  ],
+  "description": "A quipper is a carnivorous fish with sharp teeth.\nQuippers can adapt to any aquatic environment, including cold subterranean lakes. They frequently gather in swarms; the statistics for a swarm of quippers appear later in this appendix.\nSource: Monster Manual p. 335, Princes of the Apocalypse, Tomb of Annihilation, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "underwater"
+}

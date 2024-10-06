@@ -1,0 +1,72 @@
+{
+  "name": "Ratfolk Warlock",
+  "size": "S",
+  "type": "humanoid (ratfolk)",
+  "alignment": "Any alignment",
+  "ac": "13 (16 with mage armor)",
+  "hp": "27 (6d6+6)",
+  "speed": "walk 25 ft., swim 10 ft.",
+  "str": "8",
+  "dex": "16",
+  "con": "12",
+  "int": "14",
+  "wis": "12",
+  "cha": "17",
+  "save": "Wis +3, Cha +5",
+  "skill": "Arcana +4, Deception +5, Perception +3",
+  "passive": "13",
+  "languages": "Common",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Nimbleness",
+      "text": [
+        "The ratfolk warlock can move through the space of any Medium or larger creature."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The ratfolk has advantage on attack rolls against a creature if at least one of the ratfolk's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The ratfolk warlock's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights, eldritch blast, fire bolt, mage armor, mage hand, minor illusion, poison spray, speak with animals",
+        "3/day each: command, darkness, hellish rebuke",
+        "1/day each: blindness/deafness, hold person"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Dagger|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 2 (1d6 - 1) bludgeoning damage or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+      ],
+      "attack": [
+        "Quarterstaff|1|1d6-1"
+      ]
+    },
+    {
+      "name": "Darken",
+      "text": [
+        "The ratfolk warlock causes tendrils of shadow to reach out from its body toward all creatures within 10 feet of it. Each creature in the area must succeed on a DC 13 Wisdom saving throw or be restrained by the tendrils until the end of the ratfolk warlock's next turn."
+      ]
+    }
+  ],
+  "spells": "dancing lights, eldritch blast, fire bolt, mage armor, mage hand, minor illusion, poison spray, speak with animals, command, darkness, hellish rebuke, blindness/deafness, hold person",
+  "description": "Source: CCodex (3pp) p. 316"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Abjurer",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "12 (15 with mage armor)",
+  "hp": "84 (13d8+26)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "14",
+  "int": "18",
+  "wis": "12",
+  "cha": "11",
+  "save": "Int +8, Wis +5",
+  "skill": "Arcana +8, History +8",
+  "passive": "11",
+  "languages": "any four languages",
+  "cr": "9",
+  "trait": [
+    {
+      "name": "Arcane Ward",
+      "text": [
+        "The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:",
+        "Cantrips (at will): blade ward, dancing lights, mending, message, ray of frost",
+        "• 1st level (4 slots): alarm*, mage armor, magic missile, shield*",
+        "• 2nd level (3 slots): arcane lock*, invisibility",
+        "• 3rd level (3 slots): counterspell*, dispel magic*, fireball",
+        "• 4th level (3 slots): banishment*, stoneskin*",
+        "• 5th level (2 slots): cone of cold, wall of force",
+        "• 6th level (1 slots): flesh to stone, globe of invulnerability*",
+        "• 7th level (1 slots): symbol*, teleport",
+        "*Abjuration spell of 1st level or higher"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+      ],
+      "attack": [
+        "Quarterstaff|+3|1d6-1"
+      ]
+    }
+  ],
+  "slots": "4, 3, 3, 3, 2, 1, 1",
+  "spells": "blade ward, dancing lights, mending, message, ray of frost, alarm, mage armor, magic missile, shield, arcane lock, invisibility, counterspell, dispel magic, fireball, banishment, stoneskin, cone of cold, wall of force, flesh to stone, globe of invulnerability, symbol, teleport",
+  "description": "Abjurers are specialist wizards who feel secure when warded by layers of magical power. Kings, nobles, and other wealthy individuals commonly hire abjurers to cast protective spells on their homes and vaults.\nSource: Volo's Guide to Monsters p. 209",
+  "environment": "urban"
+}

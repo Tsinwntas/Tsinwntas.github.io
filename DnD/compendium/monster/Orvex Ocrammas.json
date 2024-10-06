@@ -1,0 +1,60 @@
+{
+  "name": "Orvex Ocrammas",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "12",
+  "hp": "27 (6d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "15",
+  "con": "10",
+  "int": "12",
+  "wis": "14",
+  "cha": "16",
+  "skill": "Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight of hand +4, Stealth +4",
+  "passive": "16",
+  "languages": "any two languages",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Cunning Action",
+      "text": [
+        "On each of its turns, Orvex can use a bonus action to take the Dash, Disengage, or Hide action."
+      ]
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "text": [
+        "Orvex deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Orvex that isn't incapacitated and Orvex doesn't have disadvantage on the attack roll."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Orvex makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 96"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Devil Dog",
+  "size": "M",
+  "type": "humanoid (tiefling)",
+  "alignment": "Any alignment",
+  "ac": "10",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "14",
+  "cha": "11",
+  "skill": "Medicine +4, Religion +2",
+  "passive": "12",
+  "languages": "any one language (usually Common), Infernal",
+  "cr": "1/4",
+  "resist": "fire",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+2|1d4"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Devil Dog is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). Devil Dog has following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (3 slots): bless, cure wounds, sanctuary"
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "<$title_short_name$>'s innate spellcasting ability is Charisma (spell save DC 10). <$title_short_name$> can innately cast the following spells, requiring no material components:",
+        "At will: thaumaturgy",
+        "1/day each: darkness, hellish rebuke"
+      ]
+    }
+  ],
+  "slots": [
+    "3"
+  ],
+  "spells": "light, sacred flame, thaumaturgy, bless, cure wounds, sanctuary, thaumaturgy, darkness, hellish rebuke",
+  "description": "\nSource: The Orrery of the Wanderer p. 85"
+}

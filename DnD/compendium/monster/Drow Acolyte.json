@@ -1,0 +1,66 @@
+{
+  "name": "Drow Acolyte",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Any alignment",
+  "ac": "10",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "14",
+  "cha": "11",
+  "skill": "Medicine +4, Religion +2, Perception +1",
+  "passive": "12",
+  "languages": "any one language (usually Common), Elvish",
+  "cr": "1/4",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against being charmed, and magic can't put Drow Acolyte to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Drow Acolyte has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (3 slots): bless, cure wounds, sanctuary"
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "<$title_short_name$>'s innate spellcasting ability is Charisma (spell save DC 10). <$title_short_name$> can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+2|1d4"
+      ]
+    }
+  ],
+  "slots": [
+    "3"
+  ],
+  "spells": "light, sacred flame, thaumaturgy, bless, cure wounds, sanctuary, dancing lights, darkness, faerie fire",
+  "description": "\nSource: Out of the Abyss p. 201"
+}

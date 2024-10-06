@@ -1,0 +1,24 @@
+{
+  "name": "Orc (DMG)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 2, Int -2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Dungeon Master's Guide p. 282"
+    },
+    {
+      "name": "Aggressive",
+      "text": "As a bonus action, you can move up to your speed toward a hostile creature that you can see.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Orc (DMG).\n"
+    }
+  ]
+}

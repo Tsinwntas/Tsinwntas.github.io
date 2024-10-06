@@ -1,0 +1,13 @@
+{
+  "name": "Fade Away (UA)",
+  "prerequisite": "Gnome",
+  "text": "You can draw on your magical heritage to escape danger. You gain the following benefits:\n• When you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest.\nSource: Unearthed Arcana: Feats For Races p. 2",
+  "modifier": [
+    {
+      "_": "Intelligence +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}

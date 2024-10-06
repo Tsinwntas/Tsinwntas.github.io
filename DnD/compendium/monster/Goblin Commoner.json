@@ -1,0 +1,40 @@
+{
+  "name": "Goblin Commoner",
+  "size": "S",
+  "type": "humanoid (goblinoid)",
+  "alignment": "Any alignment",
+  "ac": "10",
+  "hp": "3 (1d6)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "any one language (usually Common), Goblin",
+  "cr": "0",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Nimble Escape",
+      "text": [
+        "<$title_short_name$> can take the Disengage or Hide action as a bonus action on each of its turns."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+2|1d4"
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 24",
+  "environment": "arctic, desert, coastal, grassland, hill, urban, forest"
+}

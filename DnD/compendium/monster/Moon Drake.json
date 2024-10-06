@@ -1,0 +1,84 @@
+{
+  "name": "Moon Drake",
+  "size": "M",
+  "type": "dragon",
+  "alignment": "Neutral",
+  "ac": "15",
+  "hp": "60 (9d8+36)",
+  "speed": "walk 25 ft., fly 100 ft.",
+  "str": "10",
+  "dex": "20",
+  "con": "19",
+  "int": "13",
+  "wis": "18",
+  "cha": "14",
+  "skill": "Arcana +4, Insight +7",
+  "passive": "14",
+  "languages": "Common, Celestial, Draconic",
+  "cr": "5",
+  "conditionImmune": "paralyzed, unconscious",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Curative Saliva",
+      "text": [
+        "The moon drake's saliva can be bottled, distilled, and used in 1-ounce doses. An afflicted lycanthrope that drinks this concoction is instantly cured of lycanthropy, requiring no saving throw. This draught can't cure a natural-born lycanthrope of the curse of lycanthropy."
+      ]
+    },
+    {
+      "name": "Moonbound",
+      "text": [
+        "A moon drake's power waxes and wanes with the moon. Under a full moon, it has resistance to bludgeoning, d rake, m oon piercing, and slashing damage from nonmagical attacks and its weapon attacks deal an additional 3 (1d6) radiant damage. Under a new moon, it has vulnerability to bludgeoning, piercing, and slashing damage. Under any other moon, it gains no extra traits."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The moon drake makes three attacks. one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 12 (2d6 + 5) piercing damage plus 5 (1d10) radiant damage.",
+        "A shapechanger that takes radiant damage from this attack instantly reverts to its true form and can't assume a different form for 1d4 rounds."
+      ],
+      "attack": [
+        "Bite|8|2d6+5"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 8 (1d6 + 5) slashing damage."
+      ],
+      "attack": [
+        "Claw|8|1d6+5"
+      ]
+    },
+    {
+      "name": "Moonlight Nip",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature afflicted with lycanthropy. The target must succeed on a DC 15 Constitution saving throw or be cured of lycanthropy (it can willingly fail this save). This attack can't cure a natural born lycanthrope of the curse of lycanthropy."
+      ]
+    },
+    {
+      "name": "Lunarbeam (Recharge 56)",
+      "text": [
+        "The drake exhales searing moonlight in a 60-foot line that is 5 feet wide. Each creature in that area must make a DC 15 Constitution saving throw, taking 33 (6d10) radiant damage on a failed save, or half as much damage on a successful one. A shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its true form and can't assume a different form for 1d4 rounds."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Form of Moonlight",
+      "text": [
+        "When the moon drake takes damage or is restrained, it can transmute its physical form into an incorporeal form of pure moonlight until the end of its next turn. While in this form, it has resistance to cold, fire, and lightning damage and immunity to bludgeoning, piercing, and slashing damage from nonmagical attacks. While in this form, the drake can pass through openings at least 1 inch wide and through transparent objects. It takes 5 (1d10) force damage if it ends its turn inside an object."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest"
+}

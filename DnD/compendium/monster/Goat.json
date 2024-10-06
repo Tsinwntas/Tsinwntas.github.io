@@ -1,0 +1,44 @@
+{
+  "name": "Goat",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "4 (1d8)",
+  "speed": "walk 40 ft.",
+  "str": "12",
+  "dex": "10",
+  "con": "11",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "passive": "10",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Sure-Footed",
+      "text": [
+        "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Ram",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Ram|+3|1d4+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 330, Curse of Strahd, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "mountain, grassland, hill, urban"
+}

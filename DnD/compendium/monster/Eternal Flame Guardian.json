@@ -1,0 +1,55 @@
+{
+  "name": "Eternal Flame Guardian",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (breastplate, shield, 15 while using a crossbow)",
+  "hp": "45 (7d8+14)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "13",
+  "con": "14",
+  "int": "8",
+  "wis": "11",
+  "cha": "13",
+  "skill": "Intimidation +3, Perception +2",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "2",
+  "resist": "fire",
+  "trait": [
+    {
+      "name": "Flaming Weapon (Recharges after a Short or Long Rest)",
+      "text": [
+        "As a bonus action, the guard can wreath one melee weapon it is wielding in flame. The guard is unharmed by this fire, which lasts until the end of the guard's next turn. While wreathed in flame, the weapon deals an extra 3 (1d6) fire damage on a hit."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The guard makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage."
+      ],
+      "attack": [
+        "Longsword|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. 6 (1d10 + 1) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+3|1d10+1"
+      ]
+    }
+  ],
+  "description": "Eternal Flame guardians are dullards fascinated by the power of fire and eager to show the cult's enemies firsthand what it feels like to burn. They light things aflame to honor elemental fire and just for entertainment, but they don't always think ahead about what else nearby might catch fire.\nSource: Princes of the Apocalypse p. 200"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Walrus",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "9",
+  "hp": "22 (3d10+6)",
+  "speed": "walk 20 ft., swim 40 ft.",
+  "str": "15",
+  "dex": "9",
+  "con": "14",
+  "int": "3",
+  "wis": "11",
+  "cha": "4",
+  "passive": "10",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The walrus can hold its breath for 10 minutes."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Tusks",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Tusks|+4|2d4+2"
+      ]
+    }
+  ],
+  "description": "Walruses are bulky marine mammals that favor arctic climates and communicate by grunting and roaring. A typical adult specimen weighs at least 2,000 pounds. Humans hunt them for their meat, fat, skin, bones, and tusks.\nSource: Icewind Dale: Rime of the Frostmaiden p. 312"
+}

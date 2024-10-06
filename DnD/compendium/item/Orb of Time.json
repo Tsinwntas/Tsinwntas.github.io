@@ -1,0 +1,8 @@
+{
+  "name": "Orb of Time",
+  "detail": "Wondrous item, minor",
+  "type": "W",
+  "magic": "1",
+  "weight": "3",
+  "text": "While holding this orb, you can use an action to determine whether it is morning, afternoon, evening, or nighttime outside. This property functions only on the Material Plane.\nSource: Xanathar's Guide to Everything p. 138"
+}

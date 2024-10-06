@@ -1,0 +1,81 @@
+{
+  "name": "Bearfolk Chieftain",
+  "size": "M",
+  "type": "humanoid (bearfolk)",
+  "alignment": "Good Chaotic",
+  "ac": "17 (chain shirt, shield)",
+  "hp": "130 (20d8+40)",
+  "speed": "walk 40 ft.",
+  "str": "21",
+  "dex": "14",
+  "con": "16",
+  "int": "9",
+  "wis": "14",
+  "cha": "12",
+  "save": "Dex +4, Wis +5",
+  "skill": "Athletics +11, Insight +5, Intimidation +7, Persuasion +4, Survival +5",
+  "passive": "12",
+  "languages": "Common, Giant",
+  "cr": "6",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Brute",
+      "text": [
+        "A melee weapon deals one extra die of its damage when the bearfolk cheiftain hits with it (included in the attack)."
+      ]
+    },
+    {
+      "name": "Frenzy (1/Rest)",
+      "text": [
+        "As a bonus action, the bearfolk can trigger a berserk frenzy that lasts 1 minute. While in frenzy, it gains resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks and has advantage on attack rolls.",
+        "Attack rolls made against a frenzied bearfolk have advantage."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The bearfolk has advantage on Wisdom(Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Savage Charge",
+      "text": [
+        "If the bearfolk moves at least 20 feet straight toward a creature and then hits it with a battleaxe attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the bearfolk can make one bite attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The bearfolk makes two attacks with its battleaxe and one with its bite."
+      ]
+    },
+    {
+      "name": "Battleaxe",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage, or 16 (2d10 + 5) slashing damage if used two-handed."
+      ],
+      "attack": [
+        "Battleaxe|8|2d8+5"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 12 (2d6 + 5) piercing damage."
+      ],
+      "attack": [
+        "Bite|8|2d6+5"
+      ]
+    },
+    {
+      "name": "Leadership (Recharges after a Short or Long Rest)",
+      "text": [
+        "For 1 minute, the bearfolk chieftain can, as a reaction, utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll, provided it can hear and understand the bearfolk chieftain. A creature can benefit from only one Leadership die at a time. This effect ends if the bearfolk chieftain is incapacitated."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

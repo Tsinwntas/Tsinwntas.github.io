@@ -1,0 +1,12 @@
+{
+  "name": "Linguist",
+  "text": "You have studied languages and codes, gaining the following benefits:\n• You learn three languages of your choice.\n• You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it.\nSource: Player's Handbook p. 167",
+  "modifier": [
+    {
+      "_": "Intelligence +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}

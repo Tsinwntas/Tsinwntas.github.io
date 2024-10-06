@@ -1,0 +1,50 @@
+{
+  "name": "Bandagh",
+  "size": "M",
+  "type": "humanoid (orc)",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (hide armor)",
+  "hp": "15 (2d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "16",
+  "int": "7",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Intimidation +2",
+  "passive": "10",
+  "languages": "Common, Orc",
+  "cr": "1/2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Aggressive",
+      "text": [
+        "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Greataxe",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 9 (1d12 + 3) slashing damage."
+      ],
+      "attack": [
+        "Greataxe|+5|1d12+3"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 159",
+  "environment": "underdark, mountain, grassland, forest, swamp, hill, arctic"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Su-monster",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "12",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "14",
+  "dex": "15",
+  "con": "12",
+  "int": "9",
+  "wis": "13",
+  "cha": "9",
+  "skill": "Athletics +6, Perception +3",
+  "passive": "13",
+  "cr": "1",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The su-monster makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) slashing damage, or 12 (4d4 + 2) slashing damage if the su-monster is hanging by its tail and all four of its limbs are free."
+      ],
+      "attack": [
+        "Claws|+4|2d4+2"
+      ]
+    },
+    {
+      "name": "Psychic Crush (Recharge 5-6)",
+      "text": [
+        "The su-monster targets one creature it can see within 30 feet of it. The target must succeed on a DC 11 Wisdom saving throw or take 17 (5d6) psychic damage and be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Psychic Crush (Recharge 5-6)||5d6"
+      ]
+    }
+  ],
+  "description": "Su-monsters are cunning, wicked primates that inhabit forsaken wilderness areas and caves. Adults stand 5 feet tall and have long prehensile tails. Although they can grasp tools and weapons with their tails or clawed feet, su-monsters prefer to rend prey with their claws. Adult su-monsters can also project blasts of psionic energy that leave enemies stunned and unable to flee or defend themselves.\nA su-monster sleeps while hanging upside down by its tail. While awake, it can also unleash a devastating attack from that position, rending with all four of its claws.\nSu-monsters communicate silently by using their prehensile tails to make gestures. They typically kill more than they can eat, burying the leftovers and marking their location with the victim's possessions.\nSource: Tomb of Annihilation p. 232"
+}

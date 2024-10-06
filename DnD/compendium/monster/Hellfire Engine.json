@@ -1,0 +1,66 @@
+{
+  "name": "Hellfire Engine",
+  "size": "H",
+  "type": "construct",
+  "alignment": "Lawful Evil",
+  "ac": "18 (natural armor)",
+  "hp": "216 (16d12+112)",
+  "speed": "walk 40 ft.",
+  "str": "20",
+  "dex": "16",
+  "con": "24",
+  "int": "2",
+  "wis": "10",
+  "cha": "1",
+  "save": "Dex +8, Wis +5, Cha +0",
+  "passive": "10",
+  "languages": "understands Infernal but can't speak",
+  "cr": "16",
+  "resist": "cold, psychic; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "fire, poison",
+  "conditionImmune": "charmed, deafened, exhaustion, frightened, paralyzed, poisoned, unconscious",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The hellfire engine is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The hellfire engine has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Flesh-Crushing Stride",
+      "text": [
+        "The hellfire engine moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the hellfire engine enters must make a DC 18 Dexterity saving throw. On a successful save, the creature is pushed to the nearest space out of the hellfire engine's path. On a failed save, the creature falls prone and takes 28 (8d6) bludgeoning damage.",
+        "If the hellfire engine remains in the prone creature's space, the creature is also restrained until it's no longer in the same space as the hellfire engine. While restrained in this way, the creature, or another creature within 5 feet of it, can make a DC 18 Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer restrained."
+      ],
+      "attack": [
+        "Flesh-Crushing Stride||8d6"
+      ]
+    },
+    {
+      "name": "Hellfire Weapons",
+      "text": [
+        "The hellfire engine uses one of the following options:",
+        "• • Bonemelt Sprayer: The hellfire engine spews acidic flame in a 60-foot cone. Each creature in the cone must make a DC 20 Dexterity saving throw, taking 11 (2d10) fire damage plus 18 (4d8) acid damage on a failed save, or half as much damage on a successful one. Creatures that fail the saving throw are drenched in burning acid and take 5 (1d10) fire damage plus 9 (2d8) acid damage at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel.",
+        "• • Lightning Flail: Melee Weapon Attack: +11 to hit, reach 15 ft., one creature. 18 (3d8 + 5) bludgeoning damage plus 22 (5d8) lightning damage. Up to three other creatures of the hellfire engine's choice that it can see within 30 feet of the target must each make a DC 20 Dexterity saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a successful one.",
+        "• • Thunder Cannon: The hellfire engine targets a point within 120 feet of it that it can see. Each creature within 30 feet of that point must make a DC 20 Dexterity saving throw, taking 27 (5d10) bludgeoning damage plus 13 (2d12) thunder damage on a failed save, or half as much damage on a successful one.",
+        "If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in 1d4 hours. If the creature isn't revived before then, only a wish spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+      ],
+      "attack": [
+        "Hellfire Weapons||2d10",
+        "Hellfire Weapons|+11|3d8+5",
+        "Hellfire Weapons||5d8",
+        "Hellfire Weapons||5d10"
+      ]
+    }
+  ],
+  "description": "Hellfire Engine. Hellfire engines are semi-autonomous bringers of destruction. amnizu and other devilish generals hold them in reserve until they are needed to repel an incursion by demons or crusading mortals, but occasionally one of these mechanical and magical hybrids gets loose, driven berserk by its need to destroy.\nMany Forms, One Purpose. Hellfire engines take many forms, but all of them have one purpose: to mow down foes in waves. They are incapable of subtlety or trickery, but their destructive capability is immense.\nSoul Trapping. Mortal creatures slain by hellfire engines are doomed to join the infernal legions in mere hours unless powerful magic-wielders intervene on their behalf. The archdukes would like nothing better than to modify this magic so it works against demons, too, but that discovery has eluded them so far.\nConstructed Nature. A hellfire engine doesn't require air, food, drink, or sleep.\nSource: Mordenkainen's Tome of Foes p. 165"
+}

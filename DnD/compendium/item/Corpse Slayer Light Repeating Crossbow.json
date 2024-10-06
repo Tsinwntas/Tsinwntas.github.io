@@ -1,0 +1,14 @@
+{
+  "name": "Corpse Slayer Light Repeating Crossbow",
+  "detail": "simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "5",
+  "property": "A,2H",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "40/160",
+  "text": "This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action.\nYou gain a +1 bonus to attack and damage rolls made with this magic weapon.\nWhen you hit an undead creature with an attack using this weapon, the attack deals an extra 1d8 damage of the weapon's type, and the creature has disadvantage on saving throws against effects that turn undead until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 266",
+  "roll": [
+    "1d8"
+  ]
+}

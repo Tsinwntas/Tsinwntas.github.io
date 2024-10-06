@@ -1,0 +1,12 @@
+{
+  "name": "Control Flames",
+  "classes": "Druid, Sorcerer, Wizard",
+  "level": "0",
+  "school": "T",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "60 feet",
+  "components": "S",
+  "duration": "Instantaneous, 1 hour",
+  "text": "You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:\n• You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.\n• You instantaneously extinguish the flames within the cube.\n• You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.\n• You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour.\nIf you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action.\nSource: Xanathar's Guide to Everything p. 152, Elemental Evil Player's Companion p. 16"
+}

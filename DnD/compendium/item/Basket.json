@@ -1,0 +1,8 @@
+{
+  "name": "Basket",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "2",
+  "value": "0.4",
+  "text": "A basket holds 2 cubic feet or 40 pounds of gear.\nSource: Player's Handbook p. 153"
+}

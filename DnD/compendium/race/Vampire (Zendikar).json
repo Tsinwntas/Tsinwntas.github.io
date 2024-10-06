@@ -1,0 +1,40 @@
+{
+  "name": "Vampire (Zendikar)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Int 1, Cha 2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Zendikar p. 14"
+    },
+    {
+      "name": "Age",
+      "text": "Vampires don't mature and age in the same way that other races do. Every living vampire is either a bloodchief, infected by Ulamog's influence in the distant reaches of history, or was spawned by a bloodchief from a living human. Most vampires are thus very old, but few have any memory of their earliest years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Vampires have no innate tendency toward evil, but consuming the life energy of other creatures often pushes them to that end. Regardless of their moral bent, the strict hierarchies of their bloodchiefs inclines them toward a lawful alignment.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Vampires are about the same size and build as humans. Your size is Medium.\n"
+    },
+    {
+      "name": "Blood Thirst",
+      "text": "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid killed in this way becomes a zombie.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Vampire.\n"
+    },
+    {
+      "name": "Vampiric Resistance",
+      "text": "You have resistance to necrotic damage.\n"
+    }
+  ]
+}

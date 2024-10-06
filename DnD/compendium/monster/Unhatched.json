@@ -1,0 +1,81 @@
+{
+  "name": "Unhatched",
+  "size": "S",
+  "type": "undead",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (natural armor)",
+  "hp": "71 (11d6+33)",
+  "speed": "walk 30 ft., fly 40 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "16",
+  "int": "18",
+  "wis": "10",
+  "cha": "9",
+  "skill": "Perception +2",
+  "passive": "12",
+  "languages": "Common, Draconic",
+  "cr": "4",
+  "resist": "necrotic, piercing",
+  "immune": "poison",
+  "vulnerable": "bludgeoning",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hatred",
+      "text": [
+        "Deprived of parental bonds, the unhatched despise those who nurture and heal others. The unhatched has advantage on attacks against a creature whose most recent action was to heal, restore, strengthen, or otherwise aid another creature."
+      ]
+    },
+    {
+      "name": "Minor Magic Resistance (3/Day)",
+      "text": [
+        "As a bonus action, the unhatched gives itself advantage on its next saving throw against spells or other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The unhatched's innate spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:",
+        "At will: chill touch, minor illusion",
+        "1/day each: bane"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The unhatched makes one bite attack and one claw attack."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 12 (3d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claw|4|3d6+2"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 11 (2d8 + 2) piercing damage plus 4 (1d8) necrotic damage."
+      ],
+      "attack": [
+        "Bite|4|2d8+2"
+      ]
+    },
+    {
+      "name": "Desiccating Breath (Recharge 5-6)",
+      "text": [
+        "The dragon exhales a cloud of choking dust infused with necrotic magic in a 30-foot cone.",
+        "Each creature in the area must make a DC 14 Dexterity saving throw, taking 16 (3d10) necrotic damage on a failed save, or half as much damage on a successful one. A creature who fails this save can't speak until the end of its next turn as it chokes on the dust."
+      ]
+    }
+  ],
+  "spells": "chill touch, minor illusion, bane",
+  "description": "Source: CCodex (3pp) p. 363"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Silvered Mace",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 148"
+}

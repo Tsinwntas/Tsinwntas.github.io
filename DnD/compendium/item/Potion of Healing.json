@@ -1,0 +1,11 @@
+{
+  "name": "Potion of Healing",
+  "detail": "minor",
+  "type": "P",
+  "weight": "0.5",
+  "value": "50.0",
+  "text": "You regain 2d4 + 2 hit points when you drink this potion. The potion's red liquid glimmers when agitated.\nFound On: Magic Item Table A\nSource: Dungeon Master's Guide p. 187, Player's Handbook p. 153",
+  "roll": [
+    "2d4+2"
+  ]
+}

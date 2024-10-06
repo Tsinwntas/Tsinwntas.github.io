@@ -1,0 +1,10 @@
+{
+  "name": "Mind Carapace Chain Mail",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "55",
+  "ac": "16",
+  "stealth": "1",
+  "strength": "13",
+  "text": "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.\nAny nonmagical suit of heavy armor can be turned by mind flayers into mind carapace armor. Only one creature can attune to it: either a specific mind flayer or one of its thralls. While worn by any other creature, the mind carapace armor functions as normal armor of its kind. To its intended wearer, the armor grants advantage on Intelligence, Wisdom, and Charisma saving throws and makes its wearer immune to the frightened condition.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 13, their speed is reduced by 10 feet.\nSource: Volo's Guide to Monsters p. 81"
+}

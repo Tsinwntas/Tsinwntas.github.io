@@ -1,0 +1,89 @@
+{
+  "name": "Spitting Mimic",
+  "size": "L",
+  "type": "monstrosity (shapechanger)",
+  "alignment": "Neutral",
+  "ac": "14 (natural armor)",
+  "hp": "85 (10d10+30)",
+  "speed": "walk 20 ft.",
+  "str": "21",
+  "dex": "12",
+  "con": "17",
+  "int": "9",
+  "wis": "15",
+  "cha": "10",
+  "skill": "Stealth +7",
+  "passive": "12",
+  "cr": "5",
+  "immune": "acid",
+  "conditionImmune": "prone",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Adhesive (Object Form Only)",
+      "text": [
+        "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 16). Ability checks made to escape this grapple have disadvantage."
+      ]
+    },
+    {
+      "name": "False Appearance (Object Form Only)",
+      "text": [
+        "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+      ]
+    },
+    {
+      "name": "Grappler",
+      "text": [
+        "The mimic has advantage on attack rolls against any creature grappled by it."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The mimic has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The mimic attacks three times: twice with its pseudopods and once with its bite."
+      ]
+    },
+    {
+      "name": "Pseudopods",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 10 (1d10 + 5) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait."
+      ],
+      "attack": [
+        "Pseudopods|+8|1d10+5"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. 10 (1d10 + 5) piercing damage plus 7 (2d6) acid damage."
+      ],
+      "attack": [
+        "Bite|+8|1d10+5"
+      ]
+    },
+    {
+      "name": "Spit Acid (Recharge 5-6)",
+      "text": [
+        "The mimic spits acid at one creature it can see within 30 feet of it. The target must make a DC 14 Dexterity saving throw, taking 32 (9d6 + 1) acid damage on failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Spit Acid (Recharge 5-6)||9d6+1"
+      ]
+    }
+  ],
+  "description": "Mimics are shape-shifting monsters described in theMonster Manual. The variant presented here is a particularly large and voracious specimen—the result of Netherese experiments on ordinary mimics—that spits acid.\nSource: Icewind Dale: Rime of the Frostmaiden p. 302"
+}

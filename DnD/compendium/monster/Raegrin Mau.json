@@ -1,0 +1,52 @@
+{
+  "name": "Raegrin Mau",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "12 (leather armor)",
+  "hp": "9 (2d8)",
+  "speed": "walk 35 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "10",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Deception +2, Religion +2, Perception +1",
+  "passive": "10",
+  "languages": "any one language (usually Common), Elvish",
+  "cr": "1/8",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dark Devotion",
+      "text": [
+        "Raegrin has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against being charmed, and magic can't put Raegrin to sleep."
+      ]
+    },
+    {
+      "name": "Mask of the Wild",
+      "text": [
+        "<$title_short_name$> can attempt to hide even when they are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Explorer's Guide to Wildemount p. 240"
+}

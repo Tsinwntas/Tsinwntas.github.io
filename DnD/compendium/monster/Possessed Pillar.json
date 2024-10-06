@@ -1,0 +1,70 @@
+{
+  "name": "Possessed Pillar",
+  "size": "L",
+  "type": "construct,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "95 (10d10+40)",
+  "speed": "20 ft.",
+  "str": "20",
+  "dex": "8",
+  "con": "19",
+  "int": "3",
+  "wis": "11",
+  "cha": "1",
+  "immune": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 120 ft.",
+  "passive": "10",
+  "languages": " understands the languages of its creator but can't speak",
+  "cr": "7",
+  "trait": [
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The pillar is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The pillar has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The pillar's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Steal Weapons",
+      "text": [
+        "The eldritch magic that powers the pillar produces a magnetic power that seizes metal objects that touch it, including metal weapons. When a creature successfully strikes the pillar with a metal melee weapon, the attacker must make a successful DC 15 Strength or Dexterity saving throw or the weapon becomes stuck to the pillar until the pillar releases it or is destroyed. The saving throw uses the same ability as the attack used. The pillar can release all metal weapons stuck to it whenever it wants. A pillar always drops all weapons stuck to it when it believes it's no longer threatened. This ability affects armor only during a grapple."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the pillar remains motionless, it is indistinguishable from a statue or a carved column."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The pillar makes two slam attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|8|3d8+5"
+      ]
+    }
+  ]
+}

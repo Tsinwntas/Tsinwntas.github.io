@@ -1,0 +1,69 @@
+{
+  "name": "Inkling",
+  "size": "T",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "10 (4d4)",
+  "speed": "walk 20 ft.",
+  "str": "4",
+  "dex": "14",
+  "con": "10",
+  "int": "14",
+  "wis": "12",
+  "cha": "10",
+  "skill": "Arcana +4, Stealth +4",
+  "passive": "11",
+  "languages": "Understands the languages of its creator but can't speak",
+  "cr": "1/4",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Amorphous",
+      "text": [
+        "The inkling can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    },
+    {
+      "name": "A Thirst For Knowledge",
+      "text": [
+        "If an inkling spends 24 hours with a spellbook or a spell scroll, it can learn the magic of one 2ndlevel or lower spell, erasing and absorbing all the ink and magic used to inscribe the spell. The inkling can then cast the spell once per day."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The inkling has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The inkling's innate spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring only somatic components:",
+        "At will: fire bolt, mending, minor illusion, prestidigitation",
+        "1/day each: color spray, detect magic, magic missile"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Lash",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Lash|4|1d4+2"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Redirect Spell",
+      "text": [
+        "If a spell attack hits the inkling, it can force the attacker to make a DC 12 Intelligence saving throw. If the attacker fails the saving throw, the spell is redirected to hit another creature of the inkling's choice within 30 feet."
+      ]
+    }
+  ],
+  "spells": "fire bolt, mending, minor illusion, prestidigitation, color spray, detect magic, magic missile",
+  "description": "Source: CCodex (3pp)"
+}

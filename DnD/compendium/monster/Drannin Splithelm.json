@@ -1,0 +1,77 @@
+{
+  "name": "Drannin Splithelm",
+  "size": "M",
+  "type": "humanoid (shield dwarf)",
+  "alignment": "Neutral Evil",
+  "ac": "18 (plate armor)",
+  "hp": "93 (11d8+44)",
+  "speed": "walk 25 ft.",
+  "str": "19",
+  "dex": "10",
+  "con": "18",
+  "int": "11",
+  "wis": "8",
+  "cha": "12",
+  "skill": "Athletics +7, Intimidation +4",
+  "passive": "9",
+  "languages": "Common, Dwarvish",
+  "cr": "7",
+  "resist": "cold, poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Action Surge (Recharges after a Short or Long Rest)",
+      "text": [
+        "Drannin takes an additional action on his turn."
+      ]
+    },
+    {
+      "name": "Brute",
+      "text": [
+        "A melee weapon deals one extra die of its damage when Drannin hits with it (included in the attack)."
+      ]
+    },
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "Drannin has advantage on saving throws against poison."
+      ]
+    },
+    {
+      "name": "Indomitable (Recharges after a Short or Long Rest)",
+      "text": [
+        "Drannin can reroll a saving throw that he fails. He must use the new roll."
+      ]
+    },
+    {
+      "name": "Second Wind (Recharges after a Short or Long Rest)",
+      "text": [
+        "Drannin can use a bonus action to regain 16 (1d10 + 11) hit points."
+      ]
+    },
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Drannin wears a control amulet for his shield guardian (see the Monster Manual) and a ring of cold resistance. He also carries a potion of frost giant strength."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Drannin makes three attacks with his greataxe."
+      ]
+    },
+    {
+      "name": "Greataxe",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 17 (2d12 + 4) slashing damage."
+      ],
+      "attack": [
+        "Greataxe|+7|2d12+4"
+      ]
+    }
+  ],
+  "description": "Drannin is a self-serving dwarf who has always felt that, due to his heritage, he was owed better than he received. When he didn't receive the accolades, he began to see everyone in his way as the problem, trying to keep him down, and he vowed to do whatever it took to turn the tables. He is currently intent on claiming the legendary axe Orcsplitter, the weapon buried with King Torhild Flametongue of Besilmer many centuries ago. The secret doors and puzzles of the Halls of the Hunting Axe have frustrated Drannin for a long time, but he now has a plan to dupe his cousin Gargosh into finding the axe for him (see the \"Halls of the Hunting Axe\" side trek in chapter 6). Drannin believes that with Orcsplitter in his possession he can establish himself as a powerful lord among his clan, and finally win the respect he thinks he deserves.\nDrannin's most prized possession is his shield guardian. He stole the amulet that controls the shield guardian from a sorcerer some years back.\nSource: Princes of the Apocalypse p. 210"
+}

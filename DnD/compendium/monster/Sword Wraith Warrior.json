@@ -1,0 +1,52 @@
+{
+  "name": "Sword Wraith Warrior",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Lawful Evil",
+  "ac": "16 (chain shirt, shield)",
+  "hp": "45 (6d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "12",
+  "con": "17",
+  "int": "6",
+  "wis": "9",
+  "cha": "10",
+  "passive": "9",
+  "languages": "the languages it knew in life",
+  "cr": "3",
+  "resist": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, frightened, poisoned, unconscious",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Martial Fury",
+      "text": [
+        "As a bonus action, the sword wraith can make one weapon attack. If it does so, attack rolls against it have advantage until the start of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+6|1d8+4"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. 5 (1d8 + 1) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+3|1d8+1"
+      ]
+    }
+  ],
+  "description": "Sword Wraith. When a glory-obsessed warrior dies in battle without earning the honor it desperately sought, its valor—hungry spirit might haunt the battlefield as a sword wraith.\nBrooding Spirits. The most likely spots for encountering sword wraiths are scenes of ancient ambushes, battlefields where soldiers were felled by magic with no chance to fight back, and sites where enemies were hemmed in and slaughtered without quarter.\nHonor Above All. Sword wraiths fly into a rage if anyone questions their valor. Conversely, they are easily appeased by praise. Little pleases them more than hearing a ballad performed in their honor. Towns located near ancient battlefields hold annual festivals of remembrance to keep sword wraiths there placated.\nUndead Nature. A sword wraith doesn't require air, food, drink, or sleep.\nSource: Mordenkainen's Tome of Foes p. 241, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Sleeping Dragon's Wake",
+  "environment": "grassland, swamp"
+}

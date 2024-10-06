@@ -1,0 +1,59 @@
+{
+  "name": "Davil Starsong",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral",
+  "ac": "15 (chain shirt)",
+  "hp": "82 (15d8+15)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "12",
+  "int": "16",
+  "wis": "12",
+  "cha": "17",
+  "save": "Dex +5, Cha +6",
+  "skill": "Arcana +6, History +6, Insight +4, Perception +4, Performance +6",
+  "passive": "14",
+  "languages": "Common, Draconic, Dwarvish, Elvish",
+  "cr": "6",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Davil has advantage on saving throws against being charmed, and magic can't put him to sleep."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Davil is a 12th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks) He has the following bard spells prepared:",
+        "Cantrips (at will): mage hand, mending, minor illusion, vicious mockery",
+        "• 1st level (4 slots): cure wounds, disguise self, sleep",
+        "• 2nd level (3 slots): crown of madness, invisibility, suggestion",
+        "• 3rd level (3 slots): nondetection, sending, tongues",
+        "• 4th level (3 slots): compulsion, freedom of movement, polymorph",
+        "• 5th level (2 slots): dominate person, greater restoration",
+        "• 6th level (1 slots): Otto's irresistible dance"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+2",
+        "Dagger|+5|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1"
+  ],
+  "spells": "mage hand, mending, minor illusion, vicious mockery, cure wounds, disguise self, sleep, crown of madness, invisibility, suggestion, nondetection, sending, tongues, compulsion, freedom of movement, polymorph, dominate person, greater restoration, Otto's irresistible dance",
+  "description": "Within the Waterdeep division of the Black Network, Davil is accorded the title of Master of Opportunities and Negotiations because he's good at sniffing out lucrative business deals, and he makes friends easily.\nLike many sun elves, Davil has an affinity for magic and is gifted with the kind of patience that comes with a long life span. Unlike most, he's not the least bit pretentious or aloof. He keeps a room at the Yawning Portal and does all his business in the establishment's taproom. He negotiates deals with grace and aplomb, even while drunk, and uses an elven lute as a spellcasting focus.\nDavil can put the characters in contact with other leaders of the Black Network's Waterdeep division, namely Istrid Horn (if they need a loan), Skeemo Weirdbottle (if they need magic), Tashlyn Yafeera (if they need weapons or mercenaries), and Ziraj the Hunter (if they need a highly skilled assassin).\nThe Doom Raiders. The Doom Raiders were five unscrupulous adventurers who liked to plunder lich lairs (called \"dooms\" by some). They gave up adventuring to join the Black Network and came to Waterdeep three years ago with plans to establish a Zhentarim foothold in the city. In that time, they have forged alliances with various nobles and guilds and run afoul of others, all the while fending off Harper spies.\nSource: Waterdeep: Dragon Heist p. 199"
+}

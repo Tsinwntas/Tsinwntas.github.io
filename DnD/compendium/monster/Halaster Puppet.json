@@ -1,0 +1,34 @@
+{
+  "name": "Halaster Puppet",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Neutral",
+  "ac": "10",
+  "hp": "8",
+  "speed": "walk 20 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "Common",
+  "immune": "poison, psychic",
+  "conditionImmune": "frightened, exhaustion",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "8"
+      ]
+    },
+    {
+      "name": "Antimagic Susceptibility",
+      "text": [
+        "The puppet is destroyed if a successful dispel magic spell (DC 15) is cast on it"
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 31"
+}

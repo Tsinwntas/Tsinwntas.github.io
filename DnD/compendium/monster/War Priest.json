@@ -1,0 +1,65 @@
+{
+  "name": "War Priest",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "16 (chain mail)",
+  "hp": "91 (14d8+28)",
+  "speed": "walk 25 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "14",
+  "int": "11",
+  "wis": "16",
+  "cha": "12",
+  "save": "Con +5, Wis +6",
+  "skill": "Medicine +6, Religion +3",
+  "passive": "13",
+  "cr": "8",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The war priest makes three attacks with its imbued warhammer."
+      ]
+    },
+    {
+      "name": "Imbued Warhammer",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands, plus 13 (3d8) radiant (good or neutral priests) or necrotic (evil priests) damage."
+      ],
+      "attack": [
+        "Imbued Warhammer|6|1d8+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Blessing of War",
+      "text": [
+        "When an ally the war priest can see within 30 feet hits with a melee weapon attack, the war priest can make the weapon deal an extra 9 (2d8) radiant (good or neutral priests) or necrotic (evil priests) damage."
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The war priest is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The war priest has the following Cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, spare the dying, thaumaturgy",
+        "• 1st level (4 slots): bless, command, cure wounds, shield of faith",
+        "• 2nd level (3 slots): aid, hold person, spiritual weapon",
+        "• 3rd level (3 slots): beacon of hope, mass healing word",
+        "• 4th level (1 slots): death ward"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 1"
+  ],
+  "spells": "light, sacred flame, spare the dying, thaumaturgy, bless, command, cure wounds, shield of faith, aid, hold person, spiritual weapon, beacon of hope, mass healing word, death ward",
+  "description": "Source: CCodex (3pp)"
+}agic weapon, prayer of healing, silence, spiritual weapon, beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water walk, banishment, freedom of movement, guardian of faith, stoneskin, flame strike, mass cure wounds, hold monster",
+  "description": "War priests worship deities of war and combat. They plan tactics, lead soldiers into battle, confront enemy spellcasters, and tend to casualties. A war priest might command an army or serve as a warlord's right hand on the battlefield.\nSource: Volo's Guide to Monsters p. 218, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Sleeping Dragon's Wake, Mythic Odysseys of Theros",
+  "environment": "desert, urban"
+}

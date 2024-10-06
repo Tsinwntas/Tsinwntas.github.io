@@ -1,0 +1,57 @@
+{
+  "name": "Fire Giant Royal Headsman",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Lawful Evil",
+  "ac": "18 (plate armor)",
+  "hp": "162 (13d12+78)",
+  "speed": "walk 30 ft.",
+  "str": "25",
+  "dex": "9",
+  "con": "23",
+  "int": "10",
+  "wis": "14",
+  "cha": "13",
+  "save": "Dex +3, Con +10, Cha +5",
+  "skill": "Athletics +11, Perception +6",
+  "passive": "16",
+  "languages": "Giant",
+  "cr": "9",
+  "immune": "fire",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The giant makes two greataxe attacks."
+      ]
+    },
+    {
+      "name": "Greataxe +2",
+      "text": [
+        "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. 28 (3d12 + 9) slashing damage."
+      ],
+      "attack": [
+        "Greataxe +2|+13|3d12+9"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. 29 (4d10 + 7) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|+11|4d10+7"
+      ]
+    },
+    {
+      "name": "Variant: New Giant Options",
+      "text": [
+        "Some adult fire giants are trained to lay siege to strongholds and break through enemy lines. These abilities are represented by the following traits.",
+        "Siege Monster. The giant deals double damage to objects and structures.",
+        "Tackle. When the giant enters any enemy's space for the first time on a turn, the enemy must succeed on a DC 19 Strength saving throw or be knocked prone."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 201",
+  "environment": "underdark, mountain"
+}

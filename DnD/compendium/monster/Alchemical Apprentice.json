@@ -1,0 +1,66 @@
+{
+  "name": "Alchemical Apprentice",
+  "size": "S",
+  "type": "ooze",
+  "alignment": "Unaligned",
+  "ac": "11 (natural armor)",
+  "hp": "63 (14d6+14)",
+  "speed": "walk 10 ft., climb 10 ft.",
+  "str": "13",
+  "dex": "6",
+  "con": "13",
+  "int": "16",
+  "wis": "6",
+  "cha": "10",
+  "skill": "Arcana +5",
+  "passive": "8",
+  "languages": "Understands Common but can't speak, telepathy 10 ft.",
+  "cr": "1",
+  "resist": "acid, cold, fire, poison",
+  "conditionImmune": "blinded, charmed, deafened, frightened, poisoned, prone",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Amorphous",
+      "text": [
+        "The ooze can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    },
+    {
+      "name": "Absorb Potion",
+      "text": [
+        "The ooze can absorb any potion, oil, tincture, or alchemical draught that touches it, choosing to be affected by the substance or to nullify it."
+      ]
+    },
+    {
+      "name": "Perishable",
+      "text": [
+        "These oozes don't fare well in sunlight and don't easily endure the rigors of travel. The creature dies if it is directly exposed to sunlight for more than 1 minute. Each day it is more than 1 mile from its \"birth\" place, the ooze must succeed on a DC 12 Constitution saving throw or die."
+      ]
+    },
+    {
+      "name": "Produce Potion (1/Day)",
+      "text": [
+        "The alchemical apprentice can produce one common potion, oil, tincture, or alchemical draught each day. If no creature is there to bottle, or otherwise collect, the substance when it is produced, it trickles away and is wasted."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Pseudopod",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 10 (2d8 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Pseudopod|3|2d8+1"
+      ]
+    },
+    {
+      "name": "Magical Burble",
+      "text": [
+        "Ranged Spell Attack: +5 to hit, range 60 ft., one target. 10 (3d6) acid, cold, fire, or poison damage."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

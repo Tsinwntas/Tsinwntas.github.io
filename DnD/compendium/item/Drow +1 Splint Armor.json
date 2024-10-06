@@ -1,0 +1,10 @@
+{
+  "name": "Drow +1 Splint Armor",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "60",
+  "ac": "17",
+  "stealth": "1",
+  "strength": "15",
+  "text": "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.\nYou have a +1 bonus to AC while wearing this armor. This armor loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nSource: Monster Manual p. 126"
+}

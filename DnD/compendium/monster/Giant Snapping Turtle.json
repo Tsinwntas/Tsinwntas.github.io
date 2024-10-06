@@ -1,0 +1,44 @@
+{
+  "name": "Giant Snapping Turtle",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "17 (natural armor, 12 while prone)",
+  "hp": "75 (10d10+20)",
+  "speed": "walk 30 ft., swim 40 ft.",
+  "str": "19",
+  "dex": "10",
+  "con": "14",
+  "int": "2",
+  "wis": "12",
+  "cha": "5",
+  "passive": "11",
+  "cr": "3",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The turtle can breathe air and water."
+      ]
+    },
+    {
+      "name": "Stable",
+      "text": [
+        "Whenever an effect knocks the turtle prone, it can make a DC 10 Constitution saving throw to avoid being knocked prone. A prone turtle is upside down. To stand up, it must succeed on a DC 10 Dexterity check on its turn and then use all its movement for that turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 18 (4d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Bite|+6|4d6+4"
+      ]
+    }
+  ],
+  "description": "Giant snapping turtles can grow to be 12 feet in diameter. Although they appear slow and ponderous, they are capable of startling bursts of speed and will aggressively attack smaller creatures that approach them. One snap of a giant turtle's jaws can cut a human in half, and these creatures aren't fussy about what they eat.\nSource: Tomb of Annihilation p. 222"
+}

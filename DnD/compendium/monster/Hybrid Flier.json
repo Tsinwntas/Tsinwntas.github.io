@@ -1,0 +1,46 @@
+{
+  "name": "Hybrid Flier",
+  "size": "M",
+  "type": "humanoid (Simic hybrid)",
+  "alignment": "Neutral Good",
+  "ac": "13",
+  "hp": "39 (6d8+12)",
+  "speed": "walk 30 ft., fly 40 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "14",
+  "int": "11",
+  "wis": "10",
+  "cha": "11",
+  "passive": "10",
+  "languages": "Common plus any one language",
+  "cr": "2",
+  "resist": "acid",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hybrid makes two javelin attacks. It can replace one javelin attack with Spit Acid."
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Spit Acid",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. 10 (4d4) acid damage."
+      ],
+      "attack": [
+        "Spit Acid|+5|4d4"
+      ]
+    }
+  ],
+  "description": "Simic Hybrids. The Guardian Project is a consequence of increasing tension within the Simic Combine as the threat of interguild conflict looms. Believing that the Simic must be prepared to fight for their lives when that conflict comes to a head, biomancers have created soldiers to help defend the guild. These hybrids (also called guardians, after the name of the project) are created from human, vedalken, and elf guild members who volunteer to be transformed.\nSource: Guildmasters' Guide to Ravnica p. 217"
+}

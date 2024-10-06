@@ -1,0 +1,58 @@
+{
+  "name": "Shell Shark",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "18 (shell plate armor)",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 0 ft., swim 40 ft.",
+  "str": "15",
+  "dex": "12",
+  "con": "14",
+  "int": "3",
+  "wis": "10",
+  "cha": "7",
+  "save": "Str +6",
+  "skill": "Athletics +6",
+  "passive": "10",
+  "cr": "2",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The shark has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The shark can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The shark makes two bite attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 13 (2d10 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|2d10+2"
+      ]
+    }
+  ],
+  "description": "These impressive creatures, swimming through the sahuagin stronghold in The Final Enemy, are chosen by priestesses of Sekolah to serve as protectors and messengers. The sharks are blessed in a ritual during which plates of shell and coral are permanently affixed to their bodies.\nSource: Ghosts of Saltmarsh p. 252"
+}

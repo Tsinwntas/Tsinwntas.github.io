@@ -1,0 +1,51 @@
+{
+  "name": "Priest",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "13 (chain shirt)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "12",
+  "int": "13",
+  "wis": "16",
+  "cha": "13",
+  "skill": "Medicine +7, Persuasion +3, Religion +5",
+  "passive": "13",
+  "languages": "any two languages",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Divine Eminence",
+      "text": [
+        "As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): cure wounds, guiding bolt, sanctuary",
+        "• 2nd level (3 slots): lesser restoration, spiritual weapon",
+        "• 3rd level (2 slots): dispel magic, spirit guardians"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Mace",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage."
+      ],
+      "attack": [
+        "Mace|+2|1d6"
+      ]
+    }
+  ],
+  "slots": "4, 3, 2",
+  "spells": "light, sacred flame, thaumaturgy, cure wounds, guiding bolt, sanctuary, lesser restoration, spiritual weapon, dispel magic, spirit guardians",
+  "description": "Priests bring the teachings of their gods to the common folk. They are the spiritual leaders of temples and shrines and often hold positions of influence in their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites. A priest typically has one or more acolytes to help with religious ceremonies and other sacred duties.\nSource: Monster Manual p. 348, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Essentials Kit: Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Lifewell Tattoo",
+  "detail": "Wondrous item (tattoo)",
+  "type": "W",
+  "magic": "1",
+  "text": "Produced by a special needle, this magic tattoo features symbols of life and rebirth.\nTattoo Attunement: To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.\nIf your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.\nNecrotic Resistance: You have resistance to necrotic damage.\nLife Ward: When you would be reduced to 0 hit points, you drop to 1 hit point instead. Once used, this property can't be used again until the next dawn.\nSource: Tasha's Cauldron of Everything p. 129"
+}

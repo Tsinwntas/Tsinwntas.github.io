@@ -1,0 +1,10 @@
+{
+  "name": "Silvered Maul",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "10",
+  "property": "H,2H,M",
+  "dmg1": "2d6",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 148"
+}

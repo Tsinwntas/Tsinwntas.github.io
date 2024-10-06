@@ -1,0 +1,54 @@
+{
+  "name": "Grutha",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (natural armor)",
+  "hp": "105 (10d12+40)",
+  "speed": "walk 40 ft.",
+  "str": "21",
+  "dex": "8",
+  "con": "19",
+  "int": "5",
+  "wis": "9",
+  "cha": "6",
+  "skill": "Perception +2",
+  "passive": "12",
+  "languages": "Giant",
+  "cr": "5",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Grutha makes two greatclub attacks."
+      ]
+    },
+    {
+      "name": "Greatclub",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 18 (3d8 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Greatclub|+8|3d8+5"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. 21 (3d10 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|+8|3d10+5"
+      ]
+    },
+    {
+      "name": "Variant: New Giant Options",
+      "text": [
+        "Some adult hill giants like to hurl themselves bodily at smaller foes and crush them beneath their bulk. This ability is represented by the following action option.",
+        "Squash. Melee Weapon Attack: +8 to hit, reach 5 ft., one Medium or Smaller creature. 26 (6d6 + 5) bludgeoning damage, Grutha lands prone in the target's space, and the target is grappled (escape DC 15). Until this grapple ends, the target is prone. The grapple ends early if Grutha stands up."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 170",
+  "environment": "hill"
+}

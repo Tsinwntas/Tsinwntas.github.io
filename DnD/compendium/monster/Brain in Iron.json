@@ -1,0 +1,57 @@
+{
+  "name": "Brain in Iron",
+  "size": "L",
+  "type": "undead",
+  "alignment": "Any alignment",
+  "ac": "11 (natural armor)",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 0 ft.",
+  "str": "1",
+  "dex": "1",
+  "con": "15",
+  "int": "19",
+  "wis": "10",
+  "cha": "15",
+  "save": "Int +7, Cha +5",
+  "passive": "10",
+  "cr": "6",
+  "immune": "necrotic, poison, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Detect Sentience",
+      "text": [
+        "The brain in iron can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a mind blank spell."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The brain in iron has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (Psionics)",
+      "text": [
+        "The brain in iron's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:",
+        "At will: detect thoughts, mage hand, zone of truth",
+        "3/day each: charm person, command, hold person",
+        "1/day each: compulsion, hold monster, sleep (cast at 3rd level), Tasha's hideous laughter"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Mind Blast (Recharge 5-6)",
+      "text": [
+        "The brain in iron magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 13 (2d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Mind Blast (Recharge 5-6)||2d8+4"
+      ]
+    }
+  ],
+  "spells": "detect thoughts, mage hand, zone of truth, charm person, command, hold person, compulsion, hold monster, sleep, Tasha's hideous laughter",
+  "description": "\nSource: Infernal Machine Rebuild p. 48"
+}

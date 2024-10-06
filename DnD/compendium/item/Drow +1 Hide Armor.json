@@ -1,0 +1,8 @@
+{
+  "name": "Drow +1 Hide Armor",
+  "detail": "Medium Armor",
+  "type": "MA",
+  "weight": "12",
+  "ac": "12",
+  "text": "This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.\nYou have a +1 bonus to AC while wearing this armor. This armor loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nSource: Monster Manual p. 126"
+}

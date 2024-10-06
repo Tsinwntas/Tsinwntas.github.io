@@ -1,0 +1,88 @@
+{
+  "name": "Goliath Longlegs",
+  "size": "G",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "16 (natural armor)",
+  "hp": "162 (12d20+36)",
+  "speed": "walk 20 ft.",
+  "str": "18",
+  "dex": "15",
+  "con": "16",
+  "int": "4",
+  "wis": "13",
+  "cha": "3",
+  "skill": "Perception +4, Stealth +5",
+  "passive": "14",
+  "cr": "7",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Expansive",
+      "text": [
+        "A creature at least one size smaller than the goliath longlegs can travel through and finish its turn in the goliath longlegs' space."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While a goliath longlegs remains motionless, it is indistinguishable from other plants or trees."
+      ]
+    },
+    {
+      "name": "Forest Camouflage",
+      "text": [
+        "The goliath longlegs has advantage on Dexterity (Stealth) checks made to hide in forested terrain."
+      ]
+    },
+    {
+      "name": "Vulnerable Legs",
+      "text": [
+        "The goliath longlegs has eight legs. While it has more than four legs, the goliath longlegs is immune to being knocked prone or restrained. Whenever the goliath longlegs takes 20 or more damage in a single turn, one of its legs is destroyed. Each time a leg is destroyed after the fourth one, the goliath longlegs must succeed on a DC 13 Constitution saving throw or fall prone. Any creature in the goliath longlegs' space or within 5 feet of it when it falls prone must make a DC 15 Dexterity saving throw, taking 21 (6d6) bludgeoning damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The goliath longlegs makes one bite attack and then as many leg attacks as it has legs. It can use its Reel in place of two leg attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 8 (1d8 + 4) piercing damage and the target must make a DC 15 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one.",
+        "If the poison damage reduces the target to 0 hp, the target is stable but poisoned for 1 hour, even after regaining hp, and is paralyzed while poisoned in this way."
+      ],
+      "attack": [
+        "Bite|7|1d8+4"
+      ]
+    },
+    {
+      "name": "Leg",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. 6 (1d4 + 4) piercing damage."
+      ],
+      "attack": [
+        "Leg|7|1d4+4"
+      ]
+    },
+    {
+      "name": "Paralytic Web (Recharge 56)",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one Large or smaller creature. The creature is restrained by webbing and must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the paralyzed effect on itself on a success. As an action, the restrained creature can make a DC 15 Strength check, escaping from the webbing on a success. The webbing can also be attacked and destroyed (AC 12; hp 15; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+      ]
+    },
+    {
+      "name": "Reel",
+      "text": [
+        "The goliath longlegs pulls one creature caught in its web up to 30 feet straight toward it. If the target is within 10 feet of the goliath longlegs, the goliath longlegs can make one bite attack as a bonus action."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest"
+}

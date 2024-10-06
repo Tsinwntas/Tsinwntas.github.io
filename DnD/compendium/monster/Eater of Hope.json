@@ -1,0 +1,65 @@
+{
+  "name": "Eater of Hope",
+  "size": "L",
+  "type": "fiend",
+  "alignment": "Lawful Evil",
+  "ac": "17 (natural armor)",
+  "hp": "90 (12d10+24)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "19",
+  "dex": "17",
+  "con": "14",
+  "int": "12",
+  "wis": "11",
+  "cha": "16",
+  "save": "Con +5, Cha +6",
+  "skill": "Deception +6, Intimidation +6, Persuasion +6",
+  "passive": "10",
+  "languages": "Abyssal, Common, Infernal",
+  "cr": "6",
+  "resist": "cold, necrotic",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Insatiable Greed",
+      "text": [
+        "The eater of hope can sense the presence of gold within 1,000 feet of itself. It can determine which location has the greatest amount of gold and can sense the direction to that site. If the gold is being moved, it knows the direction of the movement. It can't locate gold if any thickness of clay or lead, even a thin sheet, blocks a direct path between it and the gold."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The eater of hope has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The eater of hope makes two attacks with its claws."
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage plus 7 (2d6) necrotic damage."
+      ],
+      "attack": [
+        "Claws|+7|1d8+4"
+      ]
+    },
+    {
+      "name": "Breath of Hopelessness (Recharge 5-6)",
+      "text": [
+        "The eater of hope exhales a miasma of Underworld winds in a 30-foot cone. Each creature in that area must make a DC 14 Charisma saving throw. On a failed save, the target takes 26 (4d12) necrotic damage and is cursed for 1 minute. While cursed in this way, the target takes an extra 6 (1d12) necrotic damage whenever the eater of hope hits it with an attack. On a successful save, the target takes half as much damage and isn't cursed."
+      ],
+      "attack": [
+        "Breath of Hopelessness (Recharge 5-6)||4d12"
+      ]
+    }
+  ],
+  "description": "An eater of hope is bitter to the core, resentful of all forms of life and joy. Although these demons can strike down most foes, they prefer to let terror and despair overtake their victims first, letting their victims marinate in fear before the fiend devours them.\nSource: Mythic Odysseys of Theros p. 220"
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Keeper",
+  "size": "H",
+  "type": "Keeper",
+  "alignment": "Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "126 (11d12+55)",
+  "speed": "walk 40 ft.",
+  "str": "23",
+  "dex": "15",
+  "con": "20",
+  "int": "10",
+  "wis": "12",
+  "cha": "9",
+  "save": "Dex +5, Con +8, Wis +4",
+  "skill": "Athletics +12, Perception +4",
+  "passive": "14",
+  "languages": "Keeper",
+  "cr": "7",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Stone Camouflage",
+      "text": [
+        "The Keeper has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The Keeper makes two battleaxe attacks."
+      ]
+    },
+    {
+      "name": "Battleaxe +2",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. 20 (3d8 + 7) slashing damage, or 23 (3d10 + 7) slashing damage if used with both hands."
+      ],
+      "attack": [
+        "Battleaxe +2|+10|3d8+7"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Rock|+9|4d10+6"
+      ]
+    },
+    {
+      "name": "Variant: New Keeper Options",
+      "text": [
+        "Some adult stone Keepers like to grab enemies and fling them through the air. They can also roll boulders across the ground, striking multiple enemies in a line. These abilities are represented by the following action options.",
+        "Fling. The Keeper tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a DC 17 Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the Keeper's choice and land prone, taking 3 (1d6) bludgeoning damage for every 10 feet it was thrown.",
+        "Rolling Rock. The Keeper sends a rock tumbling along the ground in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 17 Dexterity saving throw, taking 22 (3d10 + 6) bludgeoning damage and falling prone on a failed save"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Rock Catching",
+      "text": [
+        "If a rock or similar object is hurled at the Keeper, the Keeper can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 173",
+  "environment": "underdark, mountain, hill"
+}

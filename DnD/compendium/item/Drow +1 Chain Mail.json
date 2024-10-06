@@ -1,0 +1,10 @@
+{
+  "name": "Drow +1 Chain Mail",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "55",
+  "ac": "16",
+  "stealth": "1",
+  "strength": "13",
+  "text": "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.\nYou have a +1 bonus to AC while wearing this armor. This armor loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 13, their speed is reduced by 10 feet.\nSource: Monster Manual p. 126"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Anchorite of Talos",
+  "size": "M",
+  "type": "humanoid (half-orc, shapechanger)",
+  "alignment": "Neutral Evil",
+  "ac": "13 (hide armor)",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "13",
+  "con": "14",
+  "int": "9",
+  "wis": "15",
+  "cha": "12",
+  "skill": "Nature +1, Stealth +3, Survival +4",
+  "passive": "12",
+  "languages": "Common, Orc",
+  "cr": "3",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The anchorite can use its action to polymorph into a boar or back into its true form, which is humanoid. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The anchorite's innate spellcasting ability is Wisdom (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+        "3/day: thunderwave (2d8 damage)",
+        "1/day each: augury, bless, lightning bolt (8d6 damage), revivify"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Clawed Gauntlet (Humanoid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) slashing damage."
+      ],
+      "attack": [
+        "Clawed Gauntlet (Humanoid Form Only)|+5|1d4+3"
+      ]
+    },
+    {
+      "name": "Tusk (Boar Form Only)",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Tusk (Boar Form Only)|+5|1d6+3"
+      ]
+    }
+  ],
+  "spells": "thunderwave, augury, bless, lightning bolt, revivify",
+  "description": "These religious recluses are granted spellcasting power by Talos, the god of storms. Their human ancestors bred with orcs, and now all anchorites of Talos are half-orcs.\nSource: Essentials Kit: Dragon of Icespire Peak p. 51, Essentials Kit: Divine Contention, Essentials Kit: Sleeping Dragon's Wake"
+}

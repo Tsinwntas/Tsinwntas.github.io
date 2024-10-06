@@ -1,0 +1,13 @@
+{
+  "name": "Vicious +1 Hooked Shortspear",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "L,M",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "text": "On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall prone. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus.\nYou have a +1 bonus to attack and damage rolls made with this weapon.\nWhen you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.\nNote: According to the SRD, it is an extra 2d6 piercing damage.\nSource: Acquisitions Incorporated p. 149",
+  "roll": [
+    "2d6"
+  ]
+}

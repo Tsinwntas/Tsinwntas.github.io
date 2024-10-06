@@ -1,0 +1,63 @@
+{
+  "name": "Urgala Meltimer",
+  "size": "M",
+  "type": "humanoid (Turamihuman)",
+  "alignment": "Lawful Good",
+  "ac": "12 (leather armor)",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "13",
+  "con": "14",
+  "int": "12",
+  "wis": "14",
+  "cha": "13",
+  "skill": "Athletics +5, Intimidation +3",
+  "passive": "12",
+  "languages": "Common, Giant",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Giant Slayer",
+      "text": [
+        "Any weapon attack that Urgala makes against a giant deals an extra 7 (2d6) damage on a hit."
+      ]
+    },
+    {
+      "name": "Roleplaying Information",
+      "text": [
+        "A retired adventurer, Urgala owns a respectable inn, the North shield House, and she doesn't want to see it or her neighbors' homes destroyed. She has no tolerance for monsters or bullies.",
+        "Ideal: \"We live in a violent world, and sometimes violence is necessary for survival.\"",
+        "Bond: \"My home is my life. Threaten it, and I'll hurt you.\"",
+        "Flaw: \"I know how treacherous and greedy adventurers can be. I don't trust them—any of them.\""
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Urgala makes two attacks with her morningstar or her shortbow."
+      ]
+    },
+    {
+      "name": "Morningstar",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Morningstar|+5|1d8+3"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. 5 (1d6 + 1) piercing damage. Urgala carries a quiver of twenty arrows."
+      ],
+      "attack": [
+        "Shortbow|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "A retired adventurer, Urgala owns a respectable inn, the Northshield House, and she doesn't want to see it or her neighbors' homes destroyed. She has no tolerance for monsters or bullies.\nIdeal:\"We live in a violent world, and sometimes violence is necessary for survival.\"\nBond:\"My home is my life. Threaten it, and I'll hurt you.\"\nFlaw:\"I know how treacherous and greedy adventurers can be. I don't trust them-any of them.\"\nSource: Storm King's Thunder p. 254"
+}

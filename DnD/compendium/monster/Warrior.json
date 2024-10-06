@@ -1,0 +1,76 @@
+{
+  "name": "Warrior",
+  "size": "M",
+  "type": "humanoid",
+  "alignment": "Any alignment",
+  "ac": "20 (plate armor, shield)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "14",
+  "int": "10",
+  "wis": "12",
+  "cha": "10",
+  "save": "Con +5",
+  "skill": "Athletics +6, Perception +4, Survival +4",
+  "passive": "14",
+  "languages": "Common, plus one of your choice",
+  "trait": [
+    {
+      "name": "Battle Readiness",
+      "text": [
+        "The warrior has advantage on initiative rolls."
+      ]
+    },
+    {
+      "name": "Improved Critical",
+      "text": [
+        "The warrior's attack rolls score a critical hit on a roll of 19 or 20 on the d20."
+      ]
+    },
+    {
+      "name": "Martial Role",
+      "text": [
+        "The warrior has one of the following traits of your choice:",
+        "• Attacker: The warrior gains a +2 bonus to attack rolls.",
+        "• Defender: The warrior gains the Protection reaction below."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Extra Attack",
+      "text": [
+        "The warrior can attack twice, instead of once, whenever it takes the Attack action on its turn."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+6|1d8+3"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+5|1d8+2"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Protection (Defender Only)",
+      "text": [
+        "The warrior imposes disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the warrior. The warrior must be able to see the attacker."
+      ]
+    }
+  ],
+  "description": "\nSource: Essentials Kit: Storm Lord's Wrath"
+}

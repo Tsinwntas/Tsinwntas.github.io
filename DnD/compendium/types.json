@@ -1,0 +1,13 @@
+{
+  "name": "types",
+  "size": 7,
+  "content": [
+    "item",
+    "race",
+    "class",
+    "feat",
+    "background",
+    "spell",
+    "monster"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Chardalyn Dragon",
+  "size": "H",
+  "type": "construct",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "147 (14d12+56)",
+  "speed": "walk 30 ft., fly 90 ft.",
+  "str": "24",
+  "dex": "11",
+  "con": "19",
+  "int": "10",
+  "wis": "10",
+  "cha": "3",
+  "save": "Str +11, Con +8",
+  "passive": "10",
+  "languages": "the languages known by its creator",
+  "cr": "11",
+  "resist": "radiant; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "cold, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The dragon is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The dragon has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The dragon deals double damage to objects and structures."
+      ]
+    },
+    {
+      "name": "Unusual Nature",
+      "text": [
+        "The dragon doesn't require air, food, drink, or sleep, and it gains no benefit from finishing a short or long rest."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The dragon uses its Malevolent Presence. It then makes three attacks: two with its claws and one with its tail. If the dragon isn't flying, it can also make one attack with its wings."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 14 (2d6 + 7) slashing damage."
+      ],
+      "attack": [
+        "Claw|+11|2d6+7"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. 18 (2d10 + 7) bludgeoning damage."
+      ],
+      "attack": [
+        "Tail|+11|2d10+7"
+      ]
+    },
+    {
+      "name": "Wings",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. 12 (2d4 + 7) bludgeoning damage."
+      ],
+      "attack": [
+        "Wings|+11|2d4+7"
+      ]
+    },
+    {
+      "name": "Malevolent Presence",
+      "text": [
+        "Any creature with an Intelligence of 4 or more that is within 30 feet of the dragon must succeed on a DC 16 Wisdom saving throw or be charmed by it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Malevolent Presence for the next 24 hours. A creature charmed in this way fixates on another creature or object that the dragon mentally chooses and must, on each of its turns, move as close as it can to that target and use its action to make a melee attack against it. If the dragon doesn't choose a target, the charmed creature can act normally on its turn."
+      ]
+    },
+    {
+      "name": "Radiant Breath (Recharge 5-6)",
+      "text": [
+        "The dragon exhales a ray of radiant energy in a 120-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 31 (7d8) radiant damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Radiant Breath (Recharge 5-6)||7d8"
+      ]
+    }
+  ],
+  "description": "This construct is fashioned from pieces of chardalyn (see the sidebar on Chardalyn) that have been assembled in the form of a dragon. The only parts of the dragon not forged from chardalyn are its wing flaps, which are made of an oily film as tough as rubber, and its heart, which is an orb of pulsating, radiant energy. Demonic magic suffusing the chardalyn imbues the construct with malevolence, allowing it to enjoy the terror it causes. This effect extends outward from it, corrupting other creatures who get too close to the dragon. Those affected by the dragon's presence turn their efforts to helping the dragon inflict suffering on others.\nA chardalyn dragon serves the tyrannical will of its evil creator—a tireless drive devotion that exceeds its own instinct of self-preservation. Thus, the dragon will destroy itself in pursuit of its master's desires if necessary. The dragon likes to tear foes apart, as well as knock down doors and other structures. Against enemies it can't reach, it fires a beam of destructive radiance from its grill-like maw.\nSource: Icewind Dale: Rime of the Frostmaiden p. 281"
+}

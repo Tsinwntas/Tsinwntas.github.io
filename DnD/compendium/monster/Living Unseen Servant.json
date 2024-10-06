@@ -1,0 +1,39 @@
+{
+  "name": "Living Unseen Servant",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "4 (1d8)",
+  "speed": "walk 30 ft.",
+  "str": "2",
+  "dex": "10",
+  "con": "11",
+  "int": "1",
+  "wis": "10",
+  "cha": "1",
+  "skill": "Perception +2, Stealth +4",
+  "passive": "12",
+  "languages": "understands one language (usually Common) but can't speak",
+  "cr": "0",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Invisibility",
+      "text": [
+        "The unseen servant is invisible."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 1 bludgeoning damage."
+      ]
+    }
+  ],
+  "description": "Constructed Nature. A living spell doesn't require air, food, drink, or sleep.\nMagical Essence. The process that creates a living spell changes the nature of its magic. A living spell isn't subject to dispel magic and isn't affected by an antimagic field.\nLike an overzealous butler or maid, a living unseen servant spell busies itself with tasks in hopes of pleasing its creator. It can wield simple weapons but prefers not to. See invisibility, true seeing, and similar effects reveal that the servant has a shape similar to that of a slender humanoid adult.\nSource: Waterdeep: Dungeon of the Mad Mage p. 313"
+}

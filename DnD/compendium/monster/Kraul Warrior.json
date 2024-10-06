@@ -1,0 +1,57 @@
+{
+  "name": "Kraul Warrior",
+  "size": "M",
+  "type": "humanoid (kraul)",
+  "alignment": "Neutral Evil",
+  "ac": "18 (natural armor)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "15",
+  "dex": "12",
+  "con": "13",
+  "int": "10",
+  "wis": "11",
+  "cha": "8",
+  "passive": "10",
+  "languages": "Kraul, understands Common but can't speak it",
+  "cr": "1/2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hive Mind",
+      "text": [
+        "The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "text": [
+        "The kraul can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Variant: Winged Kraul Warriors",
+      "text": [
+        "Some kraul warriors have a flying speed of 40 feet, as a result of possessing gossamer wings. Their wings give them a higher station among the kraul soldiers. Winged kraul warriors serve the guild as scouts and shock troops."
+      ]
+    }
+  ],
+  "description": "Kraul society is organized into well-defined roles and castes. The vast majority of the kraul occupy various tiers of soldiery, from commanders and elite troops down to the lowliest infantry.\nKraul. The kraul are an ascendant power group within the Golgari Swarm, long content to linger at the margins of the undercity but now increasingly making their buzzing voices heard in the subterranean Golgari guildhall. These six-legged, insectile beings are hard-headed and literal-minded, with little grasp of metaphor or nuance.\nSource: Guildmasters' Guide to Ravnica p. 213"
+}

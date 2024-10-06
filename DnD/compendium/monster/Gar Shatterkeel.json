@@ -1,0 +1,112 @@
+{
+  "name": "Gar Shatterkeel",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral Evil",
+  "ac": "16 (natural armor)",
+  "hp": "97 (15d8+45)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "15",
+  "dex": "15",
+  "con": "16",
+  "int": "12",
+  "wis": "18",
+  "cha": "13",
+  "skill": "Nature +9, Survival +8",
+  "passive": "14",
+  "languages": "Aquan, Common",
+  "cr": "9",
+  "resist": "cold",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Gar can breathe air and water."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (2/Day)",
+      "text": [
+        "If Gar fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Water Walk",
+      "text": [
+        "Gar can stand and move on liquid surfaces as if they were solid ground."
+      ]
+    },
+    {
+      "name": "Watery Fall",
+      "text": [
+        "When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Anything he was wearing or carrying is left behind."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared:",
+        "Cantrips (at will): mending, resistance, shape water",
+        "• 1st level (4 slots): create or destroy water, cure wounds, fog cloud, thunderwave",
+        "• 2nd level (3 slots): darkvision, hold person, protection from poison",
+        "• 3rd level (3 slots): call lightning, sleet storm, tidal wave",
+        "• 4th level (3 slots): control water, ice storm",
+        "• 5th level (1 slots): scrying"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Gar makes two melee attacks, one with his claw and one with Drown."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (2d6 + 2) bludgeoning damage, and the target is grappled (escape DC 13). Until the grapple ends, Gar can't attack other creatures with his claw."
+      ],
+      "attack": [
+        "Claw|+6|2d6+2"
+      ]
+    },
+    {
+      "name": "Drown",
+      "text": [
+        "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. 6 (1d6 + 3) piercing damage plus 4 (1d8) cold damage."
+      ],
+      "attack": [
+        "Drown|+7|1d6+3"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Lair Actions"
+    },
+    {
+      "text": [
+        "Gar can employ lair actions while he's within the coral mountain.",
+        "On initiative count 20 (losing initiative ties), Gar Shatterkeel takes a lair action to cause one of the following effects; Gar can't use the same effect two rounds in a row.",
+        "• Gar may teleport anywhere within the coral mountain, bringing up to five willing creatures with him.",
+        "• The coral in a 60-foot radius grows rapidly around creatures inside the coral mountain. Each creature must succeed on a DC 18 Strength saving throw or become restrained. Restrained creatures can take an action on their turn to make a DC 18 Strength (Athletics) or Dexterity (Acrobatics) check to free themselves. This effect lasts for 1 minute unless dispelled (it counts as a 6th level spell), and doesn't require Gar to maintain concentration. Gar Shatterkeel and any creatures he designates are immune to this effect.",
+        "• Up to five corpses that Gar can see within 60 feet rise up as drowned blade and attack anyone Gar directs them to on his turn."
+      ]
+    },
+    {
+      "name": "Lair Actions"
+    },
+    {
+      "text": [
+        "If Gar is in the water node while Olhydra isn't, he can take lair actions. On initiative count 20 (losing initiative ties), Gar uses a lair action to use his Multiattack or cast one of his spells, up to 3rd level, without using components or a spell slot. He can't cast the same spell two rounds in a row, but he can continue to concentrate on a spell he previously cast using a lair action. He can take no other lair actions while concentrating on a spell cast as a lair action. His favorite use of this capability is casting inflict wounds or call lightning.",
+        "If Gar casts cure wounds using this lair action, he regains the maximum number of hit points from the spell (28)."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "mending, resistance, shape water, create or destroy water, cure wounds, fog cloud, thunderwave, darkvision, hold person, protection from poison, call lightning, sleet storm, tidal wave, control water, ice storm, scrying",
+  "description": "Gar Shatterkeel is the water prophet of Elemental Evil and the dour leader of the Crushing Wave cult. He is embittered by a life of suffering at the hands of others. Pirates killed his family when he was young, he was forced into servitude aboard a merchant ship, and then another band of pirates left him to die at sea, where he lost his arm to a shark. Gar sees the elemental power of water as the only thing of value in his life and has gathered others who feel as he does.\nGar bears the elemental weapon Drown. His missing arm has been replaced by an artificial limb in the shape of a crab's claw. As the leader of Olhydra's cult, he wields her innate magic. Other Crushing Wave cultists sense her power in him and follow him out of fear.\nIn the Water Node. When it becomes clear that the Temple of the Crushing Wave is no longer secure, Gar retreats to the Plunging Torrents, the water node. Within this node, Gar gains one additional use of his Legendary Resistance trait.\nSource: Princes of the Apocalypse p. 208"
+}

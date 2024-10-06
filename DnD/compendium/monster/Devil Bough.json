@@ -1,0 +1,73 @@
+{
+  "name": "Devil Bough",
+  "size": "H",
+  "type": "fiend",
+  "alignment": "Neutral Evil",
+  "ac": "14 (natural armor)",
+  "hp": "114 (12d12+36)",
+  "speed": "walk 10 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "17",
+  "int": "10",
+  "wis": "10",
+  "cha": "8",
+  "save": "Con +6",
+  "skill": "Perception +3",
+  "passive": "13",
+  "languages": "Abyssal, Infernal, telepathy 120 ft.",
+  "cr": "6",
+  "immune": "fire, poison",
+  "conditionImmune": "poisoned",
+  "senses": "tremorsense 60 ft.",
+  "trait": [
+    {
+      "name": "Grinding Maw",
+      "text": [
+        "The devil bough has advantage on attack rolls against any creature grappled by its bite attack."
+      ]
+    },
+    {
+      "name": "Like Calls To Like",
+      "text": [
+        "The devil bough knows if a creature within 60 feet of it is evil-aligned or not."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The devil bough makes one claw attack and one bite attack."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 14 (3d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|7|3d6+4"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 17 (3d8 + 4) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained and the devil bough can't make bite attacks against other targets."
+      ],
+      "attack": [
+        "Bite|7|3d8+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Arcasynthesis",
+      "text": [
+        "When a spell of 5th level or lower is cast within 100 feet of the devil bough, it attempts to synthesize the magic.",
+        "The spell resolves as normal, but the devil bough has a 50% chance of regaining 5 (1d10) hp per level of the spell cast."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

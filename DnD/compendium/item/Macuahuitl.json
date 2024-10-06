@@ -1,0 +1,14 @@
+{
+  "name": "Macuahuitl",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V,M",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "You have a +1 bonus to attack and damage rolls made with this longsword, which is made of laminated wood, and inset with jagged teeth of obsidian. It deals an extra 2d6 damage to any creature of the plant type.\nSource: Tales from the Yawning Portal p. 70",
+  "roll": [
+    "2d6"
+  ]
+}

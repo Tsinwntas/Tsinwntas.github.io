@@ -1,0 +1,32 @@
+{
+  "name": "Human (Innistrad) (Gavony)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 1, Dex 1, Con 1, Int 1, Wis 1, Cha 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Innistrad p. 8"
+    },
+    {
+      "name": "Ability Score Increase",
+      "text": "Your ability scores each increase by 1.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Humans reach adulthood in their late teens and live less than a century.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Humans tend toward no particular alignment.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and one extra language of your choice.\n"
+    }
+  ]
+}

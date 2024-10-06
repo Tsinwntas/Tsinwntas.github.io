@@ -1,0 +1,12 @@
+{
+  "name": "Disarming Shot",
+  "level": "1",
+  "ritual": "NO",
+  "components": "None",
+  "classes": "Fighter (Gunslinger)",
+  "text": [
+    "When you make a firearm attack against a creature, you can expend one grit point to attempt to shoot an object from their hands.  On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or drop 1 held object of your choice and have that object pushed 10 feet away from you.",
+    "",
+    "Source: Matthew Mercer - Gunslinger Martial Archetype 1.2 p. 2"
+  ]
+}

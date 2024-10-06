@@ -1,0 +1,11 @@
+{
+  "name": "Greataxe",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "7",
+  "value": "30.0",
+  "property": "H,2H,M",
+  "dmg1": "1d12",
+  "dmgType": "S",
+  "text": "Source: Player's Handbook p. 149"
+}

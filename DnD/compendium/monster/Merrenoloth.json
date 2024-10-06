@@ -1,0 +1,104 @@
+{
+  "name": "Merrenoloth",
+  "size": "M",
+  "type": "fiend (yugoloth)",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "40 (9d8)",
+  "speed": "walk 30 ft., swim 40 ft.",
+  "str": "8",
+  "dex": "17",
+  "con": "10",
+  "int": "17",
+  "wis": "14",
+  "cha": "11",
+  "save": "Dex +5, Int +5",
+  "skill": "History +5, Nature +5, Perception +4, Survival +4",
+  "passive": "14",
+  "languages": "Abyssal, Infernal, telepathy 60 ft.",
+  "cr": "3",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "acid, poison",
+  "conditionImmune": "poisoned",
+  "senses": "blindsight 60 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The merrenoloth has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The merrenoloth's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "As a bonus action, the merrenoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The merrenoloth's innate spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:",
+        "At will: charm person, darkness, detect magic, dispel magic, gust of wind",
+        "1/day: control weather",
+        "3/day: control water"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The merrenoloth uses Fear Gaze once and makes one oar attack."
+      ]
+    },
+    {
+      "name": "Oar",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (2d4 + 3) slashing damage."
+      ],
+      "attack": [
+        "Oar|+5|2d4+3"
+      ]
+    },
+    {
+      "name": "Fear Gaze",
+      "text": [
+        "The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Lair Actions"
+    },
+    {
+      "text": [
+        "Any ship a merrenoloth is contracted to captain becomes the creature's lair. When fighting on the ship, the merrenoloth can invoke its ability to take lair actions. On initiative count 20 (losing initiative ties), the merrenoloth can take one lair action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        "• The ship regains 22 (4d10) hit points.",
+        "• A strong wind propels the ship, increasing its speed by 30 feet until initiative count 20 on the next round.",
+        "• The air within 60 feet of the ship is filled with howling wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Regional Effects"
+    },
+    {
+      "text": [
+        "A merrenoloth imbues its vessel with powerful magic that creates one or more of the following effects:",
+        "• The ship doesn't sink even if its hull is breached.",
+        "• The ship always stays on course to the destination the merrenoloth names.",
+        "• Creatures the merrenoloth chooses to take on the ship aren't discomfited by wind or weather, though this effect doesn't protect against damage.",
+        "If the merrenoloth dies, these effects fade over the course of 1d6 hours."
+      ]
+    }
+  ],
+  "spells": "charm person, darkness, detect magic, dispel magic, gust of wind, control weather, control water",
+  "description": "Merrenoloth. The grim, gaunt captains of the ferries on the River Styx, merrenoloths have total command of their vessels, ensuring that their passengers reach their destinations safely. Sometimes merrenoloths can be coaxed away from the Lower Planes to captain other vessels, affording those ships and crews the same protection.\nWhenever a merrenoloth takes on a contract to captain a ship, it bonds with the vehicle to make sure nothing goes awry with it during the journey. A merrenoloth can navigate its ship safely through the worst storms, always stays on course, and never runs afoul of the myriad hazards that can thwart lesser captains.\nA merrenoloth can hold its own in a fight, but it prefers to avoid combat when possible. In fact, it typically specifies in its contracts that it is under no obligation to fight. A merrenoloth's first duty is always to its vessel.\nYugoloths. Mercenaries that ply their trade throughout the Lower Planes and in other realms, yugoloths have a reputation for effectiveness that is matched only by their desire for ever more wealth. Although yugoloths aren't especially loyal and typically try to exploit every potential loophole in a contract, they undertake any task for which they are hired, no matter how despicable. Yugoloths come in a wide variety of forms, including those described in the Monster Manual and the six creatures presented here.\nSource: Mordenkainen's Tome of Foes p. 250",
+  "environment": "coastal"
+}

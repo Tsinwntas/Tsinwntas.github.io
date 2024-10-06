@@ -1,0 +1,59 @@
+{
+  "name": "Young Amonkhet Dragon",
+  "size": "L",
+  "type": "dragon",
+  "alignment": "Chaotic Evil",
+  "ac": "18 (natural armor)",
+  "hp": "178 (17d10+85)",
+  "speed": "walk 40 ft., climb 40 ft., fly 80 ft.",
+  "str": "23",
+  "dex": "10",
+  "con": "21",
+  "int": "14",
+  "wis": "11",
+  "cha": "19",
+  "save": "Dex +4, Con +9, Wis +4, Cha +8",
+  "skill": "Perception +8, Stealth +4",
+  "passive": "18",
+  "languages": "Common, Draconic",
+  "cr": "10",
+  "immune": "fire",
+  "senses": "blindsight 30 ft., darkvision 120 ft.",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The dragon makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 17 (2d10 + 6) piercing damage plus 3 (1d6) fire damage."
+      ],
+      "attack": [
+        "Bite|+10|2d10+6"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 13 (2d6 + 6) slashing damage."
+      ],
+      "attack": [
+        "Claw|+10|2d6+6"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": [
+        "The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Fire Breath (Recharge 5-6)||16d6"
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Amonkhet p. 33",
+  "environment": "mountain, hill"
+}

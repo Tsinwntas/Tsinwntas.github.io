@@ -1,0 +1,24 @@
+{
+  "name": "Goblin (DMG)",
+  "size": "S",
+  "speed": "30",
+  "ability": "Str -2, Dex 2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Dungeon Master's Guide p. 282"
+    },
+    {
+      "name": "Nimble Escape",
+      "text": "You can take the Disengage or Hide action as a bonus action on each of your turns.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Goblin (DMG).\n"
+    }
+  ]
+}

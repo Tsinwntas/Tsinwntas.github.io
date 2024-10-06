@@ -1,0 +1,61 @@
+{
+  "name": "Husk Zombie",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "10",
+  "hp": "37 (5d8+15)",
+  "speed": "walk 35 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "16",
+  "int": "3",
+  "wis": "6",
+  "cha": "5",
+  "save": "Con +5, Wis +0",
+  "passive": "8",
+  "languages": "understands the languages it knew in life but can't speak",
+  "cr": "1",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Curse of the Husk",
+      "text": [
+        "A humanoid slain by a melee attack from the zombie revives as a husk zombie on its next turn."
+      ]
+    },
+    {
+      "name": "Undead Fortitude",
+      "text": [
+        "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The zombie makes two claw attacks. For each of these attacks that reduces a creature to 0 hit points, the zombie can make an additional claw attack."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Variant: Husk Zombie Bursters",
+      "text": [
+        "Some husk zombies become bloated with disease and bile, their frenzied state pushing them to rush other living creatures, explode, and spread their horrid infection. A husk zombie burster has the following additional action option:",
+        "Burst. The zombie explodes and is destroyed. Each creature within 5 feet of it must make a DC 12 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one. A humanoid creature killed by this damage rises as a husk zombie after 1 minute."
+      ]
+    }
+  ],
+  "description": "The wastes of Eastern Wynandir retain many curses and corruptions from the time of the Calamity, the worst of which pervert the sanctity of death. One such curse manifests as a terrible roving fog that draws the corpses of the fallen to rise as husk zombies—resilient undead of frightening speed and bloodlust. As well, some of the more heinous fiends that walk these scarred lands feed on the life force of the living, leaving these terrible undead in their wake.\nSource: Explorer's Guide to Wildemount p. 293"
+}

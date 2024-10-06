@@ -1,0 +1,76 @@
+{
+  "name": "Elder Shadow Drake",
+  "size": "L",
+  "type": "dragon,tome of Beasts",
+  "alignment": "chaotic evil",
+  "ac": "16 (natural armor)",
+  "hp": "114 (12d10+48)",
+  "speed": "20 ft., fly 60 ft.",
+  "str": "22",
+  "dex": "13",
+  "con": "18",
+  "int": "8",
+  "wis": "9",
+  "cha": "13",
+  "save": "Dex +4, Con +7, Cha +4",
+  "skill": "Perception +5, Stealth +7",
+  "vulnerable": "radiant",
+  "immune": "cold",
+  "conditionImmune": "paralyzed, unconscious",
+  "senses": "darkvision 120 ft.",
+  "passive": "15",
+  "languages": " Common, Draconic, Umbral",
+  "cr": "7",
+  "trait": [
+    {
+      "name": "Shadow Blend",
+      "text": [
+        "In areas of dim light or darkness, an elder shadow drake is treated as invisible. Artificial illumination, such as a lantern or a light or continual flame spell, does not negate this ability; nothing less than true sunlight or a daylight spell does. The drake cannot use its Speed Surge or its Stygian Breath while invisible. An elder shadow drake can suspend or resume this ability at will, so long as the drake is in dim light or darkness."
+      ]
+    },
+    {
+      "name": "Shadow Jump (3/Day)",
+      "text": [
+        "An elder shadow drake can travel between shadows as if by means of a dimension door spell. This magical transport must begin and end in an area of dim light or darkness, and the distance must be no more than 60 feet."
+      ]
+    },
+    {
+      "name": "Speed Surge (3/Day)",
+      "text": [
+        "The elder shadow drake takes one additional move action on its turn. It can use only one speed surge per round."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The drake makes one bite attack and one tail slap attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage."
+      ],
+      "attack": [
+        "Bite|9|3d10+6"
+      ]
+    },
+    {
+      "name": "Tail Slap",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Tail Slap|9|3d8+6"
+      ]
+    },
+    {
+      "name": "Stygian Breath (Recharge 5-6)",
+      "text": [
+        "The elder shadow drake exhales a ball of black liquid that travels up to 60 feet before exploding into a cloud of frigid black mist with a 20-foot radius. Each creature in that sphere takes 42 (12d6) cold damage, or half damage with a successful DC 15 Constitution saving throw. Within the area of effect, the mist snuffs out nonmagical light sources and dispels magical light of 1st level or lower."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Black Bear",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11 (natural armor)",
+  "hp": "19 (3d8+6)",
+  "speed": "walk 40 ft., climb 30 ft.",
+  "str": "15",
+  "dex": "10",
+  "con": "14",
+  "int": "2",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The bear has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The bear makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|+4|2d4+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 318, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Infernal Machine Rebuild",
+  "environment": "forest"
+}

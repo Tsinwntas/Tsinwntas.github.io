@@ -1,0 +1,11 @@
+{
+  "name": "+2 Javelin",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "T",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "30/120",
+  "text": "You have a +2 bonus to attack and damage rolls made with this magic weapon.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 213"
+}

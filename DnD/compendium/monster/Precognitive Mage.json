@@ -1,0 +1,58 @@
+{
+  "name": "Precognitive Mage",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Lawful Neutral",
+  "ac": "11 (14 with mage armor)",
+  "hp": "63 (14d8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "13",
+  "con": "10",
+  "int": "18",
+  "wis": "13",
+  "cha": "11",
+  "save": "Int +6, Wis +3",
+  "skill": "Perception +3",
+  "passive": "13",
+  "languages": "Common plus any one language",
+  "cr": "3",
+  "senses": "truesight 120 ft.",
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+      ],
+      "attack": [
+        "Quarterstaff|+1|1d6-1"
+      ]
+    },
+    {
+      "name": "Glimpse the Temporal Flood (Recharge 5-6)",
+      "text": [
+        "The mage targets one creature within 120 feet of it that it can see. The target takes 18 (4d8) psychic damage, and it must succeed on a DC 14 Intelligence saving throw or be stunned until the end of its next turn."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Precognitive Insight (3/Day)",
+      "text": [
+        "When the mage or a creature it can see makes an attack roll, a saving throw, or an ability check, the mage can cause the roll to be made with advantage or disadvantage."
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The mage's innate spellcasting ability is Intelligence (spell save DC 14). It can cast the following spells, requiring no material components:",
+        "3/day: detect thoughts, mage armor",
+        "1/day each: clairvoyance, locate object"
+      ]
+    }
+  ],
+  "spells": "detect thoughts, mage armor, clairvoyance, locate object",
+  "description": "Precognitive mages, a rarity among Azorius spellcasters, are capable of capturing glimpses of the future. They are typically employed to anticipate the actions of wanted criminals, thus aiding in their capture.\nSource: Guildmasters' Guide to Ravnica p. 228"
+}

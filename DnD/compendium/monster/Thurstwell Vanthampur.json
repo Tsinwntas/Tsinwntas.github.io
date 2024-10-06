@@ -1,0 +1,51 @@
+{
+  "name": "Thurstwell Vanthampur",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "9",
+  "hp": "5 (2d8-4)",
+  "speed": "walk 30 ft.",
+  "str": "7",
+  "dex": "8",
+  "con": "6",
+  "int": "15",
+  "wis": "17",
+  "cha": "12",
+  "skill": "Deception +3, Insight +5, Perception +5, Religion +4",
+  "passive": "15",
+  "languages": "Common, Elvish, Infernal",
+  "cr": "1/8",
+  "trait": [
+    {
+      "name": "Dark Devotion",
+      "text": [
+        "Thurstwell has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Thurstwell is a 2nd-level spellcaster. His spellcasting ability is Wisdom (spell save DC 13). He has the following cleric spells prepared:",
+        "Cantrips (at will): guidance, sacred flame (see \"Actions\" below), thaumaturgy",
+        "• 1st level (3 slots): command, detect evil and good, sanctuary"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Sacred Flame (Cantrip)",
+      "text": [
+        "Flame-like radiance descends on one creature Thurstwell can see within 60 feet of him. The target must succeed on a DC 13 Dexterity saving throw or take 4 (1d8) radiant damage, gaining no benefit from cover."
+      ],
+      "attack": [
+        "Sacred Flame (Cantrip)||1d8"
+      ]
+    }
+  ],
+  "slots": [
+    "3"
+  ],
+  "spells": "guidance, sacred flame, thaumaturgy, command, detect evil and good, sanctuary",
+  "description": "Thurstwell is a pale and sullen recluse in his forties. A veritable shut-in, he uses imps to spy on his brothers, Amrik and Mortlock. Thurstwell resents both of them—Amrik for being their mother's favorite, and Mortlock for being a monstrous dolt.\nSource: Baldur's Gate: Descent Into Avernus p. 34"
+}

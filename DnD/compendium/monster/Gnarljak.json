@@ -1,0 +1,41 @@
+{
+  "name": "Gnarljak",
+  "size": "S",
+  "type": "construct,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "16",
+  "hp": "63 (14d6+14)",
+  "speed": "30 ft.",
+  "str": "13",
+  "dex": "22",
+  "con": "11",
+  "int": "2",
+  "wis": "14",
+  "cha": "1",
+  "save": "Dex +9",
+  "skill": "Perception +5, Stealth +9",
+  "resist": "cold, acid, fire; bludgeoning, piercing, and slashing from nonmagical weapons",
+  "immune": "necrotic, poison, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 30 ft.",
+  "passive": "15",
+  "languages": "-",
+  "cr": "6",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage, and the target must succeed on a DC 16 Dexterity saving throw or fall prone."
+      ],
+      "attack": [
+        "Bite|9|2d8+6"
+      ]
+    },
+    {
+      "name": "Gnaw",
+      "text": [
+        "When a gnarljak knocks a Medium or smaller target prone, it immediately makes three additional bite attacks against the same target and can move 5 feet, all as a bonus action."
+      ]
+    }
+  ]
+}

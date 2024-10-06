@@ -1,0 +1,11 @@
+{
+  "name": "Silvered Longsword",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V,M",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "Source: Player's Handbook p. 148"
+}

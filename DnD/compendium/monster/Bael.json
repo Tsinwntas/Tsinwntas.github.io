@@ -1,0 +1,127 @@
+{
+  "name": "Bael",
+  "size": "L",
+  "type": "fiend (devil)",
+  "alignment": "Lawful Evil",
+  "ac": "18 (plate armor)",
+  "hp": "189 (18d10+90)",
+  "speed": "walk 30 ft.",
+  "str": "24",
+  "dex": "17",
+  "con": "20",
+  "int": "21",
+  "wis": "24",
+  "cha": "24",
+  "save": "Dex +9, Con +11, Int +11, Cha +13",
+  "skill": "Intimidation +13, Perception +13, Persuasion +13",
+  "passive": "23",
+  "languages": "all, telepathy 120 ft.",
+  "cr": "19",
+  "resist": "cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "fire, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Dreadful",
+      "text": [
+        "Bael can use a bonus action to appear dreadful until the start of his next turn. Each creature, other than a devil, that starts its turn within 10 feet of Bael must succeed on a DC 22 Wisdom saving throw or be frightened until the start of the creature's next turn."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Bael fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Bael has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Bael's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "Bael regains 20 hit points at the start of his turn. If he takes cold or radiant damage, this trait doesn't function at the start of his next turn. Bael dies only if he starts his turn with 0 hit points and doesn't regenerate."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Bael's innate spellcasting ability is Charisma (spell save DC 21, +13 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+        "At will: alter self (can become Medium when changing his appearance), animate dead, charm person, detect magic, inflict wounds (as an 8th-level spell), invisibility (self only), major image",
+        "3/day each: counterspell, dispel magic, fly, suggestion, wall of fire",
+        "1/day each: dominate monster, symbol (stunning only)"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Bael makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Hellish Morningstar",
+      "text": [
+        "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. 16 (2d8 + 7) piercing damage plus 13 (3d8) necrotic damage."
+      ],
+      "attack": [
+        "Hellish Morningstar|+13|2d8+7"
+      ]
+    },
+    {
+      "name": "Infernal Command",
+      "text": [
+        "Each ally of Bael's within 60 feet of him can't be charmed or frightened until the end of his next turn."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Bael magically teleports, along with any equipment he is wearing and carrying, up to 120 feet to an unoccupied space he can see."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Bael can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Bael regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Attack (Cost 2 Actions)",
+      "text": [
+        "Bael attacks once with his hellish morningstar."
+      ]
+    },
+    {
+      "name": "Awaken Greed",
+      "text": [
+        "Bael casts charm person or major image."
+      ]
+    },
+    {
+      "name": "Infernal Command",
+      "text": [
+        "Bael uses his Infernal Command action."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Bael uses his Teleport action."
+      ]
+    }
+  ],
+  "spells": "alter self, animate dead, charm person, detect magic, inflict wounds, invisibility, major image, counterspell, dispel magic, fly, suggestion, wall of fire, dominate monster, symbol",
+  "description": "\nBael, Geryon, Hutijin, Moloch—they are pawns. Even the lords of layers such as Zariel and Mammon are merely more powerful pieces. Archdevils may make dramatic moves, but it is Asmodeus who plays the game best.\n — Mordenkainen\n\nBael. With the Blood War raging for eons and no end in sight, opportunities abound for ambitious archdevils to win fame, glory, and power in the ongoing struggle against the demons. Duke Bael, one of Mammon's most important vassals, has won fame and acclaim for his victories. Charged with leading sixty-six companies of barbed devil, Bael has proven to be a tactical genius, earning esteem for himself and his master as a result of victory after victory over the abyssal host. Mammon relies on Bael, because of his battle acumen, to safeguard his holdings. Mammon has never been ousted during a time when so many other archdevils have lost their positions, which is a testament to Bael's skill on the battlefield.\nFor his accomplishments, as well as for the hue of his skin, Baal has been granted the title of Bronze General. His accolades notwithstanding, Bael has had a difficult time navigating the quagmire of infernal politics. His critics call him naive, though never to his face. His primary interest has always been leading soldiers in battle, so he finds it frustrating to have his ambitions of ascending to a higher rank constantly stymied by politically shrewd rivals.\nBael prefers to make servants out of his adversaries, and mortals bound to his service earn their wretched place by falling victim to Bael's superior stratagems. Bael gladly spares the lives of those he defeats, but only if they pledge their souls and service to him. Although he is willing to corrupt almost any being in this way, he always destroys any demons he defeats.\nBael also welcomes mortals into his service if they can provide him with an advantage in his own politicking. He recruits savvy individuals and relies on them to represent his interests at Mammon's court, which leaves Bael free to pursue his battle lust.\nDespite his lack of interest in affairs outside battle, or perhaps because of it, Bael has gained a small following of cultists. Those who worship at his altar call him the King of Hell, and the most deluded believe that he is the lord of all devils. In arcane circles, certain writings, such as the dreaded Book of Fire, say that Bael revealed the invisibility spell to the world, though some scholars of magic hotly refute such claims. Bael is sometimes depicted as a toad, a cat, a male human, or some combination of these forms, though none of these images reflect his true appearance.\nSource: Mordenkainen's Tome of Foes p. 170"
+}

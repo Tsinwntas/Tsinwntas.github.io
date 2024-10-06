@@ -1,0 +1,78 @@
+{
+  "name": "Mngwa",
+  "size": "M",
+  "type": "aberration,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "16",
+  "hp": "91 (14d8+28)",
+  "speed": "40 ft.",
+  "str": "19",
+  "dex": "17",
+  "con": "15",
+  "int": "11",
+  "wis": "17",
+  "cha": "17",
+  "skill": "Perception +5, Stealth +7",
+  "senses": "darkvision 60 ft.",
+  "passive": "15",
+  "languages": " Common, Sylvan, can speak with felines",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The mngwa has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The mngwa has advantage on attack rolls against a creature if at least one of the mngwa's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Running Leap",
+      "text": [
+        "With a 10-foot running start, the mngwa can long jump up to 25 feet."
+      ]
+    },
+    {
+      "name": "Feline Empathy",
+      "text": [
+        "The mngwa has advantage on Wisdom (Animal Handling) checks to deal with felines."
+      ]
+    },
+    {
+      "name": "Ethereal Coat",
+      "text": [
+        "The armor class of the mngwa includes its Charisma modifier. All attack rolls against the mngwa have disadvantage. If the mngwa is adjacent to an area of smoke or mist, it can take a Hide action even if under direct observation."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The mngwa makes one bite attack and two claw attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|6|1d8+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|6|1d6+4"
+      ]
+    }
+  ]
+}

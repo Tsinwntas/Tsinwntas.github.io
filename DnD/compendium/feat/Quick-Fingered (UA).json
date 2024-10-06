@@ -1,0 +1,12 @@
+{
+  "name": "Quick-Fingered (UA)",
+  "text": "Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits:\n• You gain proficiency in the Sleight of Hand skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n• As a bonus action, you can make a Dexterity (Sleight of Hand) check to plant something on someone else, conceal an object on a creature, lift a purse, or take something from a pocket.\nSource: Unearthed Arcana: Feats For Skills p. 3",
+  "modifier": [
+    {
+      "_": "Dexterity +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}

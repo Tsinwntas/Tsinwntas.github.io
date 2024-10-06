@@ -1,0 +1,47 @@
+{
+  "name": "Uthgardt Barbarian Leader",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Chaotic Alignment",
+  "ac": "13 (hide armor)",
+  "hp": "67 (9d8+27)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "17",
+  "int": "9",
+  "wis": "11",
+  "cha": "9",
+  "passive": "10",
+  "languages": "any one language (usually Common)",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Reckless",
+      "text": [
+        "At the start of its turn, the barbarian can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Greataxe",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 9 (1d12 + 3) slashing damage."
+      ],
+      "attack": [
+        "Greataxe|+5|1d12+3"
+      ]
+    },
+    {
+      "name": "Oathbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. 7 (1d8 + 3) piercing damage, plus an extra 10 (3d6) piercing damage against a sworn enemy See the oathbow entry for the other properties."
+      ],
+      "attack": [
+        "Oathbow|+5|1d8+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 86"
+}

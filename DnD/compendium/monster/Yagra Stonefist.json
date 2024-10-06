@@ -1,0 +1,67 @@
+{
+  "name": "Yagra Stonefist",
+  "size": "M",
+  "type": "humanoid (half-orc)",
+  "alignment": "Neutral",
+  "ac": "11 (leather armor)",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "11",
+  "con": "14",
+  "int": "10",
+  "wis": "10",
+  "cha": "11",
+  "skill": "Intimidation +2",
+  "passive": "10",
+  "languages": "Common, Orc",
+  "cr": "1/2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Relentless Endurance",
+      "text": [
+        "When reduced to 0 hit points, Yagra drops to 1 hit point instead (but can't do this again until she finishes a long rest)."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "Yagra has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Savage Attacks",
+      "text": [
+        "When she scores a critical hit Yagra can roll one of the weapon's damage dice and add it to the extra damage of the critical hit."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Yagra makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Mace",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Mace|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+2|1d10"
+      ]
+    }
+  ],
+  "description": "Yagra is a Black Network mercenary who gets paid to protect a Zhent negotiator named Davil Starsong (see appendix B for more information on him). Yagra finds the job boring and likes to pass the time by challenging adventurers to arm wrestle. (Resolve such contests using contested Strength checks.) If the characters express their opposition to the Xanathar Guild, Yagra might urge them to speak to Davil about joining forces with the Zhentarim to destroy the beholder crime lord.\nSource: Waterdeep: Dragon Heist p. 20"
+}

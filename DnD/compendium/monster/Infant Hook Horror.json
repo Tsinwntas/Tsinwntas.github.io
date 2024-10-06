@@ -1,0 +1,53 @@
+{
+  "name": "Infant Hook Horror",
+  "size": "T",
+  "type": "monstrosity",
+  "alignment": "Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "4 (1d4+2)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "15",
+  "int": "6",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3",
+  "passive": "13",
+  "languages": "Hook Horror",
+  "cr": "3",
+  "senses": "blindsight 60 ft., darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Echolocation",
+      "text": [
+        "The hook horror can't use its blindsight while deafened."
+      ]
+    },
+    {
+      "name": "Keen Hearing",
+      "text": [
+        "The hook horror has advantage on Wisdom (Perception) checks that rely on hearing."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hook horror makes two hook attacks."
+      ]
+    },
+    {
+      "name": "Hook",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Hook|+6|2d6+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 34",
+  "environment": "underdark"
+}

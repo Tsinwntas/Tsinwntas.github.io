@@ -1,0 +1,54 @@
+{
+  "name": "Snowy Owlbear",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "59 (7d10+21)",
+  "speed": "walk 40 ft., swim 30 ft.",
+  "str": "20",
+  "dex": "12",
+  "con": "17",
+  "int": "3",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "3",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Sight and Smell",
+      "text": [
+        "The snowy owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The snowy owlbear makes two attacks: one with its beak and one with its claws."
+      ]
+    },
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. 10 (1d10 + 5) piercing damage."
+      ],
+      "attack": [
+        "Beak|+7|1d10+5"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage."
+      ],
+      "attack": [
+        "Claws|+7|2d8+5"
+      ]
+    }
+  ],
+  "description": "A snowy owlbear combines the physical features of a snowy owl and a polar bear. When not asleep or hibernating, it galumphs across the icy tundra in search of food.\nSource: Icewind Dale: Rime of the Frostmaiden p. 309"
+}

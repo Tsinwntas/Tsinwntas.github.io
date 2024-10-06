@@ -1,0 +1,49 @@
+{
+  "name": "Green Abyss Orc",
+  "size": "M",
+  "type": "humanoid (orc)",
+  "alignment": "Chaotic Evil",
+  "ac": "13",
+  "hp": "15 (2d8+6)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "14",
+  "dex": "16",
+  "con": "16",
+  "int": "9",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Acrobatics +5, Athletics +4, Perception +2, Stealth +5",
+  "passive": "12",
+  "languages": "Orc",
+  "cr": "1/2",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 90 ft.",
+  "trait": [
+    {
+      "name": "Aggressive",
+      "text": [
+        "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the orc has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Poisoned Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack. If the target is a creature, it must succeed on a DC 13 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hp, the target is stable but poisoned for 1 hour, even after regaining hp, and is paralyzed while poisoned in this way."
+      ],
+      "attack": [
+        "Poisoned Spear|4|1d6+2"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Agnibarra",
+  "size": "S",
+  "type": "monstrosity",
+  "alignment": "Chaotic Neutral",
+  "ac": "12",
+  "hp": "39 (6d6+18)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "14",
+  "con": "16",
+  "int": "8",
+  "wis": "10",
+  "cha": "12",
+  "passive": "10",
+  "languages": "Common, Ignan",
+  "cr": "1",
+  "immune": "fire",
+  "vulnerable": "cold",
+  "trait": [
+    {
+      "name": "Body In Flames",
+      "text": [
+        "A creature that touches the agnibarra or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage, and flammable objects within 5 feet of the agnibarra that aren t being worn or carried ignite."
+      ]
+    },
+    {
+      "name": "Illumination",
+      "text": [
+        "The agnibarra sheds bright light in a 10-foot radius and dim light an additional 10 feet."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Burning Claw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage plus 3 (1d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns."
+      ],
+      "attack": [
+        "Burning Claw|4|1d4+2"
+      ]
+    },
+    {
+      "name": "Spit Fire",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 15 30 ft., one target. 9 (2d6 + 2) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns."
+      ],
+      "attack": [
+        "Spit Fire|4|2d6+2"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 9",
+  "environment": "mountain"
+}

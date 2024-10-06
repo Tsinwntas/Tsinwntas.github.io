@@ -1,0 +1,15 @@
+{
+  "name": "Vorpal Double-Bladed Scimitar",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "S,2H,M",
+  "dmg1": "2d4",
+  "dmgType": "S",
+  "text": "Special: If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.\nYou gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.\nWhen you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.\nFound On: Magic Item Table I\nSource: Dungeon Master's Guide p. 209, Wayfinder's Guide to Eberron p. 74",
+  "roll": [
+    "1d4",
+    "2d4",
+    "6d8"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Wooden Donkey",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 40 ft.",
+  "str": "14",
+  "dex": "10",
+  "con": "13",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "passive": "10",
+  "cr": "1/8",
+  "trait": [
+    {
+      "name": "Beast of Burden",
+      "text": [
+        "The donkey is considered to be a Large animal for the purpose of determining its carrying capacity."
+      ]
+    },
+    {
+      "name": "Sure-Footed",
+      "text": [
+        "The donkey has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Hooves",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Hooves|+2|1d4+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 84",
+  "environment": "hill, urban, desert"
+}

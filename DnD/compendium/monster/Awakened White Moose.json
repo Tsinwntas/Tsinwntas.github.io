@@ -1,0 +1,59 @@
+{
+  "name": "Awakened White Moose",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Neutral Evil",
+  "ac": "11 (natural armor)",
+  "hp": "68 (8d10+24)",
+  "speed": "walk 40 ft.",
+  "str": "19",
+  "dex": "11",
+  "con": "16",
+  "int": "10",
+  "wis": "12",
+  "cha": "6",
+  "passive": "11",
+  "languages": "Druidic",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the moose moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Sure-Footed",
+      "text": [
+        "The moose has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The moose makes two attacks: one with its antlers and one with its hooves."
+      ]
+    },
+    {
+      "name": "Antlers",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Antlers|+6|2d8+4"
+      ]
+    },
+    {
+      "name": "Hooves",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (2d4 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Hooves|+6|2d4+4"
+      ]
+    }
+  ],
+  "description": "A white moose is attacking loggers in the forest near Lonelywood. The town's logging industry is essential to the growth and survival of Ten-Towns, and Speaker Nimsy Huddle has assured the other speakers that Lonelywood's \"moose problem\" will be dealt with in short order. Hunters have been dispatched to kill the moose, but it has eluded them so far. From what the hunters have seen, their prey is smarter than the average moose, and its white hide makes it hard to spot in the snow. What they don't know is that the moose is using a magic mirror as a scrying device to show it where its enemies are.\nSource: Icewind Dale: Rime of the Frostmaiden p. 82"
+}

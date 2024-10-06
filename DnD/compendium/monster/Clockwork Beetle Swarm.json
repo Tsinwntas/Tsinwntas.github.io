@@ -1,0 +1,41 @@
+{
+  "name": "Clockwork Beetle Swarm",
+  "size": "L",
+  "type": "swarm of Tiny constructs,tome of Beasts",
+  "alignment": "neutral",
+  "ac": "14 (natural armor)",
+  "hp": "52 (8d10+8)",
+  "speed": "30 ft., fly 50 ft.",
+  "str": "8",
+  "dex": "16",
+  "con": "12",
+  "int": "4",
+  "wis": "12",
+  "cha": "7",
+  "resist": "bludgeoning, piercing, and slashing",
+  "immune": "fire, poison, psychic",
+  "conditionImmune": " charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "darkvision 60 ft.",
+  "passive": "11",
+  "languages": "-",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Swarm",
+      "text": [
+        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny construct. The swarm can't regain hit points or gain temporary hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bites",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 0 ft., up to 4 creatures in the swarm's space. Hit: 17 (5d6) piercing damage plus 3 (1d6) poison damage."
+      ],
+      "attack": [
+        "Bites|5|5d6"
+      ]
+    }
+  ]
+}

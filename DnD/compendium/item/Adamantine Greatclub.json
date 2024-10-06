@@ -1,0 +1,10 @@
+{
+  "name": "Adamantine Greatclub",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "10",
+  "property": "2H",
+  "dmg1": "1d8",
+  "dmgType": "B",
+  "text": "Whenever you hit an object with this weapon, the hit is a critical hit.\nSource: Xanathar's Guide to Everything p. 78"
+}

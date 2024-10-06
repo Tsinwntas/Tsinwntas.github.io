@@ -1,0 +1,54 @@
+{
+  "name": "Pirate Bosun",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "12 (studded leather armor)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "11",
+  "con": "13",
+  "int": "11",
+  "wis": "10",
+  "cha": "13",
+  "skill": "Athletics +5, Intimidation +3",
+  "passive": "10",
+  "languages": "any one language (usually Common)",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Cargo Hauler",
+      "text": [
+        "The bosun has advantage on Strength checks."
+      ]
+    },
+    {
+      "name": "Sea Legs",
+      "text": [
+        "The bosun has advantage on ability checks and saving throws to resist being knocked prone."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Light Hammer",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Light Hammer|+5|1d4+3"
+      ]
+    },
+    {
+      "name": "Hook",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage, and the target is grappled (escape DC 13)."
+      ],
+      "attack": [
+        "Hook|+5|1d8+3"
+      ]
+    }
+  ],
+  "description": "The bosun (or boatswain) is tasked with organizing the cargo and crew aboard a ship. Bosuns are capable fighters whose experience with hauling cargo and delivering beatings make them tough opponents. Foul Frithoff in The Sinister Secret of Saltmarsh is the bosun who protects the cargo aboard the smugglers' ship. Ever since a bad accident, he has worn a hook at the end of one arm in place of a hand.\nSource: Ghosts of Saltmarsh p. 247"
+}

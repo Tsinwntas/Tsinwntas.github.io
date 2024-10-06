@@ -1,0 +1,45 @@
+{
+  "name": "Sing-Along",
+  "size": "S",
+  "type": "humanoid (halfling)",
+  "alignment": "Any alignment",
+  "ac": "10",
+  "hp": "4 (1d8)",
+  "speed": "walk 25 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "any one language (usually Common), Halfling",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Halfling Nimbleness",
+      "text": [
+        "<$title_short_name$> can move through a space of a Medium or larger creature."
+      ]
+    },
+    {
+      "name": "Brave",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against being frightened."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+2|1d4"
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 148",
+  "environment": "arctic, desert, coastal, grassland, hill, urban, forest"
+}

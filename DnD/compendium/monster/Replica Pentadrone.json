@@ -1,0 +1,65 @@
+{
+  "name": "Replica Pentadrone",
+  "size": "L",
+  "type": "construct",
+  "alignment": "Lawful Neutral",
+  "ac": "16 (natural armor)",
+  "hp": "32 (5d10+5)",
+  "speed": "walk 40 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "12",
+  "int": "10",
+  "wis": "10",
+  "cha": "13",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "Modron",
+  "cr": "2",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Axiomatic Mind",
+      "text": [
+        "The pentadrone can't be compelled to act in a manner contrary to its nature or its instructions."
+      ]
+    },
+    {
+      "name": "Dismantlable",
+      "text": [
+        "If the replica pentadrone dies, its body falls into a pile of parts (gears, plates, screws, and wires), leaving behind its weapons and anything else it was carrying."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The pentadrone makes five arm attacks."
+      ]
+    },
+    {
+      "name": "Arm",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Arm|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Paralysis Gas (Recharge 5-6)",
+      "text": [
+        "The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    },
+    {
+      "name": "Variant: Rogue Modrons",
+      "text": [
+        "A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+        "A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+      ]
+    }
+  ],
+  "description": "\nSource: The Orrery of the Wanderer p. 132"
+}

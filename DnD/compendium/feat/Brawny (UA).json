@@ -1,0 +1,13 @@
+{
+  "name": "Brawny (UA)",
+  "text": "You become stronger, gaining the following benefits:\n• You gain proficiency in the Athletics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n• You count as if you were one size larger for the purpose of determining your carrying capacity.\nSource: Unearthed Arcana: Feats For Skills p. 1",
+  "modifier": [
+    {
+      "_": "Strength +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ],
+  "proficiency": "Athletics"
+}

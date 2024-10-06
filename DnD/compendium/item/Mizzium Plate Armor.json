@@ -1,0 +1,10 @@
+{
+  "name": "Mizzium Plate Armor",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "65",
+  "ac": "18",
+  "stealth": "1",
+  "strength": "15",
+  "text": "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.\nThis suit of armor is reinforced with a magically enhanced metal alloy called mizzium, which is made in Izzet foundries. While you're wearing the armor, any critical hit against you becomes a normal hit. In addition, when you are subjected to a magical effect that allows you to make a Strength or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nSource: Guildmasters' Guide to Ravnica p. 179"
+}

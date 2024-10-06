@@ -1,0 +1,69 @@
+{
+  "name": "Ratatosk Warlord",
+  "size": "S",
+  "type": "celestial",
+  "alignment": "Chaotic Neutral",
+  "ac": "16 (breastplate)",
+  "hp": "77 (14d6+28)",
+  "speed": "walk 25 ft., climb 25 ft.",
+  "str": "7",
+  "dex": "18",
+  "con": "14",
+  "int": "12",
+  "wis": "14",
+  "cha": "12",
+  "save": "Dex +7, Wis +5",
+  "skill": "Acrobatics +7, Intimidation +4",
+  "passive": "12",
+  "languages": "Common, Celestial, telepathy 100 ft.",
+  "cr": "5",
+  "resist": "bludgeoning, piercing, slashing from nonmagical weapons",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "I'm Bigger That's Why",
+      "text": [
+        "As a bonus action, the ratatosk warlord commands one ratatosk within 30 feet of it to make one melee attack as a reaction."
+      ]
+    },
+    {
+      "name": "Warlord Skitter",
+      "text": [
+        "The ratatosk warlord can take the Dash or Disengage action as a bonus action on each of its turns."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ratatosk warlord makes two attacks. one with its gore and one with its ratatosk shortspear."
+      ]
+    },
+    {
+      "name": "Ratatosk Shortspear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Ratatosk Shortspear|7|2d6+4"
+      ]
+    },
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 6 (1d4 + 4) piercing damage plus 14 (4d6) psychic damage."
+      ],
+      "attack": [
+        "Gore|7|1d4+4"
+      ]
+    },
+    {
+      "name": "Chatter of War (Recharges 5-6)",
+      "text": [
+        "Each non-ratatosk creature within 30 feet that can hear the warlord must succeed on a DC 15 Charisma saving throw or have disadvantage on all attack rolls until the start of the warlord's next turn."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 314"
+}

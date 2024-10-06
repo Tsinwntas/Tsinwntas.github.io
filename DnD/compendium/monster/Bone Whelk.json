@@ -1,0 +1,50 @@
+{
+  "name": "Bone Whelk",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "27 (5d10)",
+  "speed": "walk 15 ft., climb 15 ft.",
+  "str": "10",
+  "dex": "5",
+  "con": "11",
+  "int": "6",
+  "wis": "9",
+  "cha": "3",
+  "passive": "9",
+  "cr": "1/4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Adhesive",
+      "text": [
+        "The bone whelk can cause Medium or smaller objects to adhere to it. A Medium or smaller creature that touches the bone whelk is grappled by it (escape DC 10)."
+      ]
+    },
+    {
+      "name": "Death Scream",
+      "text": [
+        "When the bone whelk dies, it emits a blood-curdling shriek than can be heard out to a range of 120 feet. This shriek causes nonmagical, organic material within 10 feet of the bone whelk to rot. Each creature within 10 feet of the bone whelk when it dies takes 9 (2d8) necrotic damage."
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "text": [
+        "The bone whelk can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. 4 (1d8) piercing damage."
+      ],
+      "attack": [
+        "Bite|+2|1d8"
+      ]
+    }
+  ],
+  "description": "Bone whelks are large mollusks that excrete an adhesive to attach skulls, bones, and other detritus to their bodies for protection.\nSource: Baldur's Gate: Descent Into Avernus p. 119"
+}

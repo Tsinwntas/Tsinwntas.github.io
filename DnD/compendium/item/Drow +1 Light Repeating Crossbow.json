@@ -1,0 +1,11 @@
+{
+  "name": "Drow +1 Light Repeating Crossbow",
+  "detail": "simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "5",
+  "property": "A,2H",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "40/160",
+  "text": "This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action.\nYou have a +1 bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nSource: Monster Manual p. 126"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "War Machine Golem",
+  "size": "G",
+  "type": "construct (golem)",
+  "alignment": "Unaligned",
+  "ac": "18 (natural armor)",
+  "hp": "232 (15d20+75)",
+  "speed": "walk 40 ft.",
+  "str": "26",
+  "dex": "8",
+  "con": "21",
+  "int": "3",
+  "wis": "10",
+  "cha": "1",
+  "passive": "10",
+  "languages": "Understands Dwarvish but can't speak",
+  "cr": "18",
+  "immune": "poison, psychic; bludgeoning, piercing, slashing from nonmagical weapons that aren't adamantine",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The golem is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The golem has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The golem's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The golem deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The golem makes two slam attacks and one catapult attack."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. 22 (4d6 + 8) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|14|4d6+8"
+      ]
+    },
+    {
+      "name": "Catapult",
+      "text": [
+        "The war machine golem hurls a boulder at a point it can see within 120 feet of it. Each creature within 10 feet of that point must make a DC 19 Dexterity saving throw. On a failure, a target takes 16 (3d10) bludgeoning damage and is knocked prone. On a success, a target takes half the damage and isn't knocked prone."
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": [
+        "The war machine golem breathes fire in a 60-foot cone. Each creature in the area must make a DC 19 Dexterity saving throw, taking 35 (10d6) fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Variant: Beyond Boulders",
+      "text": [
+        "War machine golems can be built with alternate forms of ammunition for their catapults. When creating such a variant, substitute the appropriate damage for the appropriate damage type. For example, golems with ballistae on their heads deal piercing damage while those that sling flaming pitch deal fire damage. All other effects of the catapult attack remain the same."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 205"
+}

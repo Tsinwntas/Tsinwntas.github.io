@@ -1,0 +1,84 @@
+{
+  "name": "Black Abishai",
+  "size": "M",
+  "type": "fiend (devil)",
+  "alignment": "Lawful Evil",
+  "ac": "15 (natural armor)",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 30 ft., fly 40 ft.",
+  "str": "14",
+  "dex": "17",
+  "con": "14",
+  "int": "13",
+  "wis": "16",
+  "cha": "11",
+  "save": "Dex +6, Wis +6",
+  "skill": "Perception +6, Stealth +6",
+  "passive": "16",
+  "languages": "Draconic, Infernal, telepathy 120 ft.",
+  "cr": "7",
+  "resist": "cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "acid, fire, poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Devil's Sight",
+      "text": [
+        "Magical darkness doesn't impede the abishai's darkvision."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The abishai has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The abishai's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Shadow Stealth",
+      "text": [
+        "While in dim light or darkness, the abishai can take the Hide action as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The abishai makes three attacks: two with its scimitar and one with its bite."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+6|1d6+3"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d10 + 3) piercing damage plus 9 (2d8) acid damage."
+      ],
+      "attack": [
+        "Bite|+6|1d10+3"
+      ]
+    },
+    {
+      "name": "Creeping Darkness (Recharge 6)",
+      "text": [
+        "The abishai casts darkness at a point within 120 feet of it, requiring no components. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
+      ]
+    }
+  ],
+  "description": "Black Abishai. Expert assassins and infiltrators, black abishais can weave shadows to mask their presence, allowing them to reach a location from where they can deliver a fatal strike to their targets.\nAbishai. Each abishai was once a mortal who somehow won Tiamat's favor before death and, as a reward, found its soul transformed into a hideous devil to serve at her pleasure in the Nine Hells.\nEmissaries of Doom. Tiamat deploys abishais as emissaries, sending them to represent her interests in the Hells and across the multiverse. Some have simple tasks, such as delivering a message to cultists or taking charge of worshipers to carry out a sensitive mission. Others have greater responsibilities, such as leading large groups, assassinating targets, and serving in armies. In all cases, abishais are fanatically loyal to Tiamat, ready to lay down their lives if needed.\nOutsiders in Hell. Abishais stand outside the normal hierarchy of the Nine Hells, having their own chain of command and ultimately answering to Tiamat (and Asmodeus, when the dark lord chooses to use them). Other archdevils can command abishais to work for them, but most archdevils do so rarely, since it is never clear whether an abishai follows Tiamat's orders or Asmodeus's.\nThere is inherent risk in countermanding an order given by Tiamat, but interfering with Asmodeus's plans invites certain destruction.\n\nTiamat is a force of Chaos bound to a place of Law. Are abishai her servants or her jailers?\n — Mordenkainen\n\nSource: Mordenkainen's Tome of Foes p. 160",
+  "environment": "urban"
+}

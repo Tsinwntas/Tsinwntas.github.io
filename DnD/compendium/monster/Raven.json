@@ -1,0 +1,36 @@
+{
+  "name": "Raven",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "1 (1d4-1)",
+  "speed": "walk 10 ft., fly 50 ft.",
+  "str": "2",
+  "dex": "14",
+  "con": "8",
+  "int": "2",
+  "wis": "12",
+  "cha": "6",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Mimicry",
+      "text": [
+        "The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 1 piercing damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 335, Curse of Strahd, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "swamp, hill, urban"
+}

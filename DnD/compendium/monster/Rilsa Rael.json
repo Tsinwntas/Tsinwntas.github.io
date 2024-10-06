@@ -1,0 +1,67 @@
+{
+  "name": "Rilsa Rael",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral",
+  "ac": "15 (leather armor)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "18",
+  "con": "14",
+  "int": "10",
+  "wis": "11",
+  "cha": "15",
+  "save": "Dex +6, Wis +2",
+  "skill": "Acrobatics +6, Athletics +4, Deception +4, Perception +2, Sleight of hand +6, Stealth +6",
+  "passive": "12",
+  "languages": "Common, Thieves' cant",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Cunning Action",
+      "text": [
+        "On each of her turns in combat, Rilsa can use a bonus action to take the Dash, Disengage, or Hide action."
+      ]
+    },
+    {
+      "name": "Focus",
+      "text": [
+        "If Rilsa damages a creature with a weapon attack, she gains advantage on attack rolls against that target until the end of her next turn."
+      ]
+    },
+    {
+      "name": "Tactical Leadership",
+      "text": [
+        "As a bonus action, Rilsa chooses one creature she can see within 30 feet of her. The creature doesn't provoke opportunity attacks until the end of its next turn, provided it can hear Rilsa's commands."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Rilsa makes three weapon attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+6|1d6+4"
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. 6 (1d4 + 4) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+6|1d4+4"
+      ]
+    }
+  ],
+  "description": "The Guild kingpin of Little Calimshan. Among Little Calimshan's most notorious locations is the Calim Jewel Emporium, widely regarded as the best jeweler in the city—and the best place to fence stolen gems, as it's also the local Guild headquarters. In addition to hosting regular public forums in her shop, Rael tacitly oversees the Garden of Whispers, a maze of wood-and-paper screens where people from across the city can buy and sell secrets with Guild agents and each other, speaking through the barriers so as to maintain anonymity.\nSource: Baldur's Gate: Descent Into Avernus p. 199"
+}

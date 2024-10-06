@@ -1,0 +1,69 @@
+{
+  "name": "Orc Blade of Ilneval",
+  "size": "M",
+  "type": "humanoid (orc)",
+  "alignment": "Chaotic Evil",
+  "ac": "18 (chain mail, shield)",
+  "hp": "60 (8d8+24)",
+  "speed": "walk 30 ft.",
+  "str": "17",
+  "dex": "11",
+  "con": "17",
+  "int": "10",
+  "wis": "12",
+  "cha": "14",
+  "save": "Wis +3",
+  "skill": "Insight +3, Intimidation +4, Perception +3",
+  "passive": "13",
+  "languages": "Common, Orc",
+  "cr": "4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Aggressive",
+      "text": [
+        "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+      ]
+    },
+    {
+      "name": "Foe Smiter of Ilneval",
+      "text": [
+        "The orc deals an extra die of damage when it hits with a longsword attack (included in the attack)."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The orc makes two melee attacks with its longsword or two ranged attacks with its javelins. If Ilneval's Command is available to use, the orc can use it after these attacks."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage when used with two hands."
+      ],
+      "attack": [
+        "Longsword|+5|2d8+3"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Ilneval's Command (Recharges 4–6)",
+      "text": [
+        "Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack."
+      ]
+    }
+  ],
+  "description": "To the common folk of the world, an orc is an orc. They know that any one of these savages can tear an ordinary person to pieces, so no further distinction is necessary.\nOrcs know better. Different groups of orcs exist within a tribe, the actions of each dictated by the deity they pay homage to. To complement the various kinds of warriors that spill forth to ravage the countryside, each tribe has members that remain deep inside the lair, seldom if ever seeing what lies outside the darkness of their den.\nIn addition, orcs have special relationships with two creatures that are sometimes found in their company: the aurochs, a great bull that serves as a mount for warriors that revere Bahgtru, and the tanarukk, a demon-orc crossbreed that is so depraved and destructive that even orcs seek to kill it. The aurochs is described in appendix A. The tanarukk is described below.\nOrc Blade of Ilneval. Ilneval is Gruumsh's battle captain, a devious strategist who directs Gruumsh's soldiers with boldness. Among orcs, warriors that venerate Ilneval emulate their deity. Such orcs learn to command their fellows in ways that are unpredictable but help to ensure victory.\nThe wisest among these leaders gain Ilneval's favor and rise to become known as blades, tactical experts who advise their chief in matters of war. Blades lead from the front, wading into combat fearlessly while barking orders at lesser soldiers. A blade knows how to use orcish ferocity to best advantage, and helps the ordinary warriors to work together against their adversaries.\nSource: Volo's Guide to Monsters p. 183",
+  "environment": "underdark, mountain, grassland, forest, hill"
+}

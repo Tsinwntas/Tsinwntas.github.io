@@ -1,0 +1,12 @@
+{
+  "name": "Misty Step",
+  "level": "2",
+  "school": "C",
+  "ritual": "NO",
+  "time": "1 bonus action",
+  "range": "Self",
+  "components": "V",
+  "duration": "Instantaneous",
+  "classes": "Sorcerer, Warlock, Wizard, Druid (Land), Paladin (Ancients), Paladin (Vengeance), Druid (Land), Ranger (Horizon Walker), Ranger (Fey Wanderer), Ranger (Fey Wanderer (UA))",
+  "text": "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.\nSource: Player's Handbook p. 260"
+}

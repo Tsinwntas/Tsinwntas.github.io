@@ -1,0 +1,66 @@
+{
+  "name": "Hulil Lutan",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "13 (leather armor)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 25 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "10",
+  "wis": "13",
+  "cha": "14",
+  "skill": "Deception +4, Persuasion +4, Religion +2",
+  "passive": "11",
+  "languages": "any one language (usually Common), Dwarvish",
+  "cr": "2",
+  "resist": "poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dark Devotion",
+      "text": [
+        "Hulil has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against poison, and has resistance against poison damage."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Hulil is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). Hulil has the following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): command, inflict wounds, shield of faith",
+        "• 2nd level (3 slots): hold person, spiritual weapon"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Hulil makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+4|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3"
+  ],
+  "spells": "light, sacred flame, thaumaturgy, command, inflict wounds, shield of faith, hold person, spiritual weapon",
+  "description": "\nSource: Explorer's Guide to Wildemount p. 240"
+}

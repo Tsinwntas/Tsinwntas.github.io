@@ -1,0 +1,31 @@
+{
+  "name": "Sergeant",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "16 (chain shirt, shield)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 30 ft.",
+  "str": "13",
+  "dex": "12",
+  "con": "12",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Perception +2",
+  "passive": "12",
+  "languages": "any one language (usually Common)",
+  "cr": "1/8",
+  "action": [
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dragon Heist p. 197"
+}

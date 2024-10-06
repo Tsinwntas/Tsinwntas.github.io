@@ -1,0 +1,35 @@
+{
+  "name": "Hawk",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "1 (1d4-1)",
+  "speed": "walk 10 ft., fly 60 ft.",
+  "str": "5",
+  "dex": "16",
+  "con": "8",
+  "int": "2",
+  "wis": "14",
+  "cha": "6",
+  "skill": "Perception +4",
+  "passive": "14",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Keen Sight",
+      "text": [
+        "The hawk has advantage on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Talons",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 1 slashing damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 330, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden"
+}

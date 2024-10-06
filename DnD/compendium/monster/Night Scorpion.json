@@ -1,0 +1,45 @@
+{
+  "name": "Night Scorpion",
+  "size": "L",
+  "type": "beast,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "90 (12d10+24)",
+  "speed": "40 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "14",
+  "int": "1",
+  "wis": "9",
+  "cha": "3",
+  "senses": "blindsight 60 ft.",
+  "passive": "9",
+  "languages": "-",
+  "cr": "3",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The scorpion makes three attacks: two with its claws and one with its sting."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple one target."
+      ],
+      "attack": [
+        "Claw|4|1d8+2"
+      ]
+    },
+    {
+      "name": "Sting",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target takes 7 (2d6) poison damage and is blinded for 1d3 hours; a successful DC 12 Constitution saving throw reduces damage by half and prevents blindness. If the target fails the saving throw by 5 or more, the target is also paralyzed while poisoned. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+      ],
+      "attack": [
+        "Sting|4|1d10+2"
+      ]
+    }
+  ]
+}

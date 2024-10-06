@@ -1,0 +1,26 @@
+{
+  "name": "Gate Urchin",
+  "proficiency": "Deception, Sleight Of Hand",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "All traffic into and out of the City of Trade passes through the Hillsfar Gate, making it the ideal place for the destitute to gather to panhandle, busk, gossip, and pick pockets. You grew up on the streets in the shadow of that great steel edifice, which houses both Red Plumes and Guild Mages. Though you may have moved on, you still have friends among them, and that life has had a lasting impact on you.\n• Skill Proficiencies: Deception, Sleight of Hand\n• Tool Proficiencies: Thieves' tools, one type of musical instrument\n• Equipment: A battered alms box, a musical instrument, a cast-off military jacket, cap, or scarf, a set of common clothes, a belt pouch, and 10 gp\nSource: Adventurers League: Rage Of Demons p. 6"
+    },
+    {
+      "name": "Lifestyle",
+      "text": "Poor\n"
+    },
+    {
+      "name": "Overview",
+      "text": "All traffic into and out of the City of Trade passes through the Hillsfar Gate, making it the ideal place for the destitute to gather to panhandle, busk, gossip, and pick pockets. You grew up on the streets in the shadow of that great steel edifice, which houses both Red Plumes and Guild Mages. Though you may have moved on, you still have friends among them, and that life has had a lasting impact on you.\n"
+    },
+    {
+      "name": "Feature: Red Plume and Mage Guild Contacts",
+      "text": "You made a number of friends among the Red Plumes and the Mage's Guild when you lived at the Hillsfar Gate. They remember you fondly and help you in little ways when they can. You can invoke their assistance in and around Hillsfar to obtain food, as well as simple equipment for temporary use. You can also invoke it to gain access to the low-security areas of their garrisons, halls, and encampments. Note: This feature is a variant of the Soldier feature.\n"
+    },
+    {
+      "name": "Suggested Characteristics",
+      "text": "d8 | Personality Trait\n1 | I appreciate the simple things in life. a song, a warm meal, a sunny day. I don't need any more.\n2 | My problems are always caused by others. I'm never to blame.\n3 | I am afraid I could wind up back on the streets any day.\n4 | I get along with everyone.\n5 | I see people as marks for a con and have difficulty feeling true empathy for them.\n6 | I have a real flair for matchmaking. I can find anyone a spouse!\n7 | I think money is the true measure of appreciation and affection. Everything else is talk or an act.\n8 | I don't like having a lot of stuff, just a few simple things I need. I don't like being tied down and tend to leave things behind when I don't need them anymore.\n\nd6 | Ideal\n1 | Loyal. I never rat out any of my friends, even when the Red Plumes or the Rogues Guild ask. (Lawful)\n2 | Adventurous. I don't like doing the same thing every day. I crave variety. (Chaotic)\n3 | Strong. Only the strong survive. I respect those who are strong and powerful. (Any)\n4 | Witty. Brains are better than brawn. I rely on my wits and respect others who do the same. (Any)\n5 | Honest. Others can do what they want, but I won't lie or steal, even to feed my family. (Good)\n6 | Ungrateful. Those who give, only do it to make themselves feel better. I steal from them. (Evil)\n\nd6 | Bond\n1 | The Joydancers of Lliira gave me my instrument when I really needed food. I hate them for that.\n2 | Busking has taught me to love music above all else.\n3 | The Rogues Guild spared me when I did a job without cutting them in. I owe them a great debt.\n4 | I know people hate the Red Plumes, but some of them were really good to me. I help Red Plumes whenever I can, and I respect them. They're just doing what they have to do to get by in this world.\n5 | I will be wealthy some day. My descendants will live in comfort and style.\n6 | I know how hard life on the streets is. I do everything I can for those who have less than me.\n\nd6 | Flaw\n1 | Though I no longer live at the Gate, I am still always concerned about where I will get my next meal.\n2 | Years of thieving have become habit. I sometimes steal from strangers without thinking about it.\n3 | I am ashamed of my origins. I pretend I am higher-born and fear others will find out the truth.\n4 | I think people who grew up in houses are soft, spoiled, and ungrateful. I frequently tell them so.\n5 | I am still very uncomfortable wearing nice clothes, sleeping in a warm bed, and eating fine food.\n6 | I do not trust anyone who has not had a hard life. \n\n"
+    }
+  ]
+}

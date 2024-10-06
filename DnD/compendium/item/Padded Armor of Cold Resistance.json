@@ -1,0 +1,9 @@
+{
+  "name": "Padded Armor of Cold Resistance",
+  "detail": "major, Light Armor",
+  "type": "LA",
+  "weight": "8",
+  "ac": "11",
+  "stealth": "1",
+  "text": "Padded armor consists of quilted layers of cloth and batting.\nYou have resistance to cold damage while you wear this armor.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nSource: Dungeon Master's Guide p. 152"
+}

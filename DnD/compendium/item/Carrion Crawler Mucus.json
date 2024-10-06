@@ -1,0 +1,7 @@
+{
+  "name": "Carrion Crawler Mucus",
+  "detail": "major, Adventuring Gear, Poison",
+  "type": "G",
+  "value": "200.0",
+  "text": "This poison must be harvested from a dead or incapacitated carrion crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\nSource: Dungeon Master's Guide p. 258"
+}

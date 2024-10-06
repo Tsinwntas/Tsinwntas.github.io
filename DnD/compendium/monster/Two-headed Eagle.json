@@ -1,0 +1,69 @@
+{
+  "name": "Two-headed Eagle",
+  "size": "H",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "15",
+  "hp": "142 (15d12+45)",
+  "speed": "walk 20 ft., fly 100 ft.",
+  "str": "20",
+  "dex": "21",
+  "con": "16",
+  "int": "6",
+  "wis": "12",
+  "cha": "14",
+  "skill": "Acrobatics +8, Athletics +8, Perception +4",
+  "passive": "14",
+  "languages": "Understands Common but can't speak",
+  "cr": "7",
+  "conditionImmune": "charmed",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Flyby",
+      "text": [
+        "The two-headed eagle doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Two-headed",
+      "text": [
+        "The eagle has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+      ]
+    },
+    {
+      "name": "Wakeful",
+      "text": [
+        "While the two-headed eagle sleeps, at least one of its heads is awake."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The two-headed eagle makes two bite attacks and one talons attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 16 (2d10 + 5) piercing damage."
+      ],
+      "attack": [
+        "Bite|8|2d10+5"
+      ]
+    },
+    {
+      "name": "Talons",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 12 (2d6 + 5) piercing damage and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the two-headed eagle can't use its talons on another target."
+      ],
+      "attack": [
+        "Talons|8|2d6+5"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 360",
+  "environment": "mountain"
+}

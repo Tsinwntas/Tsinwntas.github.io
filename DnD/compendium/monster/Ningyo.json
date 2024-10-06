@@ -1,0 +1,63 @@
+{
+  "name": "Ningyo",
+  "size": "S",
+  "type": "aberration",
+  "alignment": "Neutral Evil",
+  "ac": "15",
+  "hp": "77 (14d6+28)",
+  "speed": "walk 0 ft., fly 60 ft., swim 60 ft.",
+  "str": "8",
+  "dex": "21",
+  "con": "15",
+  "int": "14",
+  "wis": "11",
+  "cha": "7",
+  "save": "Str +2, Dex +8, Wis +3",
+  "skill": "Deception +1, Insight +3, Perception +3",
+  "passive": "13",
+  "languages": "Common, Deep Speech, Aquan",
+  "cr": "7",
+  "resist": "acid, cold, fire, necrotic, poison",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Aquatic",
+      "text": [
+        "The ningyo can breathe only underwater and can hold its breath for 1 hour."
+      ]
+    },
+    {
+      "name": "Curse Of Ill Fortune",
+      "text": [
+        "When a creature that the ningyo can see attacks the ningyo and misses, the attack is automatically redirected against another creature within 5 feet of the ningyo or the attacker. This attack uses the same attack roll."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ningyo makes four barbed tentacle attacks."
+      ]
+    },
+    {
+      "name": "Barbed Tentacle",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 8 (1d6 + 5) piercing damage plus 5 (1d10) poison damage."
+      ],
+      "attack": [
+        "Barbed Tentacle|8|1d6+5"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Share Pain",
+      "text": [
+        "When the ningyo takes damage, it can choose to take half the damage instead. The ningyo then chooses a creature within 60 feet. The target must succeed on a DC 15 Constitution saving throw or have disadvantage until the end of its next turn as it is wracked with the pain of the attack."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "underwater"
+}

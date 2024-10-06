@@ -1,0 +1,40 @@
+{
+  "name": "Swarm of Books",
+  "size": "M",
+  "type": "swarm of Medium constructs",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "22 (5d8)",
+  "speed": "walk 0 ft., fly 30 ft.",
+  "str": "5",
+  "dex": "15",
+  "con": "10",
+  "int": "2",
+  "wis": "12",
+  "cha": "4",
+  "passive": "11",
+  "cr": "1/4",
+  "resist": "bludgeoning, piercing, slashing",
+  "conditionImmune": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned, grappled",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Swarm",
+      "text": [
+        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny book. The swarm can't regain hit points or gain temporary hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. 5 (2d4) bludgeoning damage, or 2 (1d4) bludgeoning damage if the swarm has half of its hit points or fewer."
+      ],
+      "attack": [
+        "Slam|+4|2d4"
+      ]
+    }
+  ],
+  "description": "Animated books which form a swarm when disturbed\nSource: Waterdeep: Dragon Heist p. 156"
+}

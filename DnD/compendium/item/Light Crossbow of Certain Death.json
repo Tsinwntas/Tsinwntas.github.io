@@ -1,0 +1,11 @@
+{
+  "name": "Light Crossbow of Certain Death",
+  "detail": "simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "5",
+  "property": "A,LD,2H",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "80/320",
+  "text": "When you damage a creature with an attack using this magic weapon, the target can't regain hit points until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 270"
+}

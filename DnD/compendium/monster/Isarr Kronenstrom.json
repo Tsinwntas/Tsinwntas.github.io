@@ -1,0 +1,67 @@
+{
+  "name": "Isarr Kronenstrom",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (hide armor)",
+  "hp": "117 (18d8+36)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "16",
+  "con": "15",
+  "int": "14",
+  "wis": "15",
+  "cha": "16",
+  "skill": "Athletics +6, Intimidation +6, Perception +5, Stealth +6, Survival +5",
+  "passive": "15",
+  "languages": "Common",
+  "cr": "8",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "Isarr has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Indomitable (3/Day)",
+      "text": [
+        "Isarr can reroll a saving throw he fails. He must use the new roll."
+      ]
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "text": [
+        "Isarr has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Isarr makes three melee attacks."
+      ]
+    },
+    {
+      "name": "Sickle",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage, plus 13 (2d12) piercing damage if the target has no allies it can see within 10 feet of it."
+      ],
+      "attack": [
+        "Sickle|+6|1d4+3"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. 8 (1d10 + 3) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+6|1d10+3"
+      ]
+    }
+  ],
+  "description": "The Wolf Tribe has been without a king or queen for years. Its most powerful chieftain, Isarr Kronenstrom, is a psychotic brute who worships Malar the Beast Lord. He hunts Ten-Towners for sport, bathes in their blood, and strikes fear into the hearts of his enemies. Several members of Isarr's clan have deserted him or been killed off, but the few that remain are fiercely loyal. They believe, incorrectly, that he's the Chosen of Malar.\nAlthough Isarr calls himself the Wolf King, few others in the Wolf Tribe support him in that claim, but the other Wolf clan chieftains are too weak and disorganized to challenge him.\nSource: Icewind Dale: Rime of the Frostmaiden p. 307"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Giant Shark",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "126 (11d12+55)",
+  "speed": "swim 50 ft.",
+  "str": "23",
+  "dex": "11",
+  "con": "21",
+  "int": "1",
+  "wis": "10",
+  "cha": "5",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "5",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The shark can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 22 (3d10 + 6) piercing damage."
+      ],
+      "attack": [
+        "Bite|+9|3d10+6"
+      ]
+    }
+  ],
+  "description": "A giant shark is 30 feet long and normally found in deep oceans. Utterly fearless, it preys on anything that crosses its path, including whales and ships.\nSource: Monster Manual p. 328, Storm King's Thunder, Tomb of Annihilation, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Sleeping Dragon's Wake, Locathah Rising, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "underwater"
+}

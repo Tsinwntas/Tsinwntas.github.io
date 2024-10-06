@@ -1,0 +1,14 @@
+{
+  "name": "Acheron Blade Longsword",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V,M",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "The black blade of this sword is crafted from a mysterious arcane alloy. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you are immune to effects that turn undead.\nDark Blessing: While holding the sword, you can use an action to give yourself 1d4 + 4 temporary hit points. This property can't be used again until the next dusk.\nDisheartening Strike: When you hit a creature with an attack using this weapon, you can fill the target with unsettling dread: the target has disadvantage on the next saving throw it makes before the end of your next turn. The creature ignores this effect if it's immune to the frightened condition. Once you use this property, you can't do so again until the next dusk.\nSource: Explorer's Guide to Wildemount p. 265",
+  "roll": [
+    "1d4+4"
+  ]
+}

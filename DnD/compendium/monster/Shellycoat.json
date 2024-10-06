@@ -1,0 +1,75 @@
+{
+  "name": "Shellycoat",
+  "size": "M",
+  "type": "fey,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "14 (natural armor)",
+  "hp": "75 (10d8+30)",
+  "speed": "30 ft., swim 20 ft.",
+  "str": "17",
+  "dex": "15",
+  "con": "16",
+  "int": "13",
+  "wis": "9",
+  "cha": "7",
+  "skill": "Perception +1, Stealth +4",
+  "conditionImmune": "charmed, unconscious",
+  "senses": "Darkvision 60 ft.",
+  "passive": "11",
+  "languages": " Giant, Sylvan",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The shellycoat can cast the following spells innately, requiring no components:",
+        "1/day each: darkness, fog cloud",
+        "1/day (if in possession of its coat): water breathing"
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "The shellycoat regains 3 hit points at the start of its turn. If the creature takes acid or fire damage, this trait doesn't function at the start of the monster's next turn. The shellycoat dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      ]
+    },
+    {
+      "name": "Stealthy Observer",
+      "text": [
+        "The shellycoat has advantage on Dexterity (Stealth) checks made to hide and any Perception checks that rely on hearing."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "The shellycoat becomes petrified after 5 (2d4) uninterrupted rounds of exposure to direct, natural sunlight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The shellycoat makes one bite attack and one claws attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 12 (2d8 + 3) slashing damage and the target is grappled (escape DC 13), restrained, and poisoned (DC 13 Strength saving throw negates, lasts while grappled and 1 round after). The shellycoat can shift the position of a grappled creature by up to 15 feet as a bonus action. While it has a creature grappled, the shellycoat can use its claws attack only against the grappled creature."
+      ],
+      "attack": [
+        "Claws|5|2d8+3"
+      ]
+    }
+  ]
+}

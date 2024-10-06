@@ -1,0 +1,72 @@
+{
+  "name": "Whisperer In Darkness",
+  "size": "M",
+  "type": "aberration",
+  "alignment": "Neutral Evil",
+  "ac": "17 (natural armor)",
+  "hp": "142 (15d8+75)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "19",
+  "con": "21",
+  "int": "25",
+  "wis": "18",
+  "cha": "16",
+  "save": "Con +10, Wis +9, Cha +8",
+  "skill": "Arcana +17, Deception +13, Medicine +9, Perception +9, Stealth +9",
+  "passive": "19",
+  "languages": "All, telepathy 60 ft.",
+  "cr": "15",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison, psychic",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Disquieting Technology",
+      "text": [
+        "The whisperer is a highly advanced being that often carries pieces of powerful mi-go technology. Mi-go technology can be represented using the same rules as magic items, but the functions are very difficult to determine. The identify spell can't determine the function of a mi-go item, but an hour of study and a successful DC 19 Intelligence (Arcana) check can reveal its purpose and proper function. Typical items are wands of fireballs shaped like staves with peculiar triggers, eyes of the eagle shaped as a pair of cylinders, or a helm of telepathy in the form of a glowing metal disc adhered to the side of the creature's head."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The whisperer has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Mind Blank, Weir",
+      "text": [
+        "ind blank, weird"
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The whisperer in darkness's innate spellcasting ability is Intelligence (spell save DC 20). It can innately cast the following spells, requiring no material components:",
+        "At will: alter self, detect magic, detect thoughts, disguise self, fear, identify, invisibility (self only), misty step, sleep, suggestion",
+        "3/day each: {@spell confusion, dimension door}, disintegrate, dream, modify memory, plane shift, teleport",
+        "1/day each: feeblemind, meteor swarm, mind blank, weird"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The whisperer in the darkness makes two Grasp of the Void attacks."
+      ]
+    },
+    {
+      "name": "Grasp of the Void",
+      "text": [
+        "Melee Spell Attack. +12 to hit, reach 5 ft., one target. 21 (6d6) force damage, and the target must succeed on a DC 18 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Grasp of the Void|12|6d6"
+      ]
+    }
+  ],
+  "spells": "{@spell alter self, {@spell detect magic, {@spell detect thoughts, {@spell disguise self, {@spell fear, {@spell identify, {@spell invisibility, misty step, sleep, suggestion, {@spell confusion, dimension door, {@spell disintegrate, {@spell dream, {@spell modify memory, {@spell plane shift, {@spell teleport, {@spell feeblemind, {@spell meteor swarm, {@spell mind blank, {@spell weird",
+  "description": "Source: CCodex (3pp) p. 378"
+}

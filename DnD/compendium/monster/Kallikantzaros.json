@@ -1,0 +1,73 @@
+{
+  "name": "Kallikantzaros",
+  "size": "S",
+  "type": "fey",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (hide armor)",
+  "hp": "59 (17d6)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "13",
+  "con": "10",
+  "int": "6",
+  "wis": "8",
+  "cha": "10",
+  "skill": "Stealth +3",
+  "passive": "9",
+  "languages": "Common, Sylvan, Undercommon",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "The kallikantzaros has advantage on saving throws against being charmed, and magic can't put a kallikantzaros to sleep."
+      ]
+    },
+    {
+      "name": "Hateful Scents",
+      "text": [
+        "A kallikantzaros who begins its turn within 20 feet of burning incense must succeed on a DC 13 Constitution saving throw or have disadvantage on attack rolls until the start of its next turn. The kallikantzaros can't voluntarily move toward the incense. Burning old shoes has the same effect."
+      ]
+    },
+    {
+      "name": "Nimble Escape",
+      "text": [
+        "The kallikantzaros can take the Disengage or Hide action as a bonus action on each of its turns."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The kallikantzaros makes two handsaw attacks or two spear attacks."
+      ]
+    },
+    {
+      "name": "Handsaw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage. The handsaw does an extra die of damage against a target that is wearing no armor."
+      ],
+      "attack": [
+        "Handsaw|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Misery Whip",
+      "text": [
+        "Two kallikantzaros can combine their actions to move up to their speed with a 5-foot, two-person saw held between them and attack a single creature in their path. The target must succeed on a DC 13 Dexterity saving throw or take 9 (2d6 + 2) slashing damage. If the creature is Large or smaller, it must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is knocked prone, each kallikantzaros may make a handsaw attack against it as a bonus action."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 233"
+}

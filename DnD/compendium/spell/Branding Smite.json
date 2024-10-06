@@ -1,0 +1,22 @@
+{
+  "name": "Branding Smite",
+  "level": "2",
+  "school": "EV",
+  "ritual": "NO",
+  "time": "1 bonus action",
+  "range": "Self",
+  "components": "V",
+  "duration": "Concentration, up to 1 minute",
+  "classes": "Paladin, Warlock (Hexblade), Artificer (Battle Smith), Artificer (Battle Smith), Artificer (Revisited) (UA) (Battle Smith), Cleric, Sorcerer (Stone (UA)), Warlock (Hexblade (UA))",
+  "text": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light in a 5-foot radius and can't become invisible until the spell ends.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.\nSource: Player's Handbook p. 219",
+  "roll": [
+    "2d6",
+    "3d6",
+    "4d6",
+    "5d6",
+    "6d6",
+    "7d6",
+    "8d6",
+    "9d6"
+  ]
+}

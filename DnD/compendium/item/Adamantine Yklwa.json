@@ -1,0 +1,11 @@
+{
+  "name": "Adamantine Yklwa",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "T",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "10/30",
+  "text": "A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing.\nWhenever you hit an object with this weapon, the hit is a critical hit.\nSource: Xanathar's Guide to Everything p. 78"
+}

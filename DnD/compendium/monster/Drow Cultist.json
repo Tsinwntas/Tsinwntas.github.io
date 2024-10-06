@@ -1,0 +1,61 @@
+{
+  "name": "Drow Cultist",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "12 (leather armor)",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "10",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Deception +2, Religion +2, Perception +1",
+  "passive": "10",
+  "languages": "any one language (usually Common), Elvish",
+  "cr": "1/8",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Dark Devotion",
+      "text": [
+        "The cultist has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against being charmed, and magic can't put Drow Cultist to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Drow Cultist has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "<$title_short_name$>'s innate spellcasting ability is Charisma (spell save DC 10). <$title_short_name$> can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+3|1d6+1"
+      ]
+    }
+  ],
+  "spells": "dancing lights, darkness, faerie fire",
+  "description": "\nSource: Out of the Abyss p. 196"
+}

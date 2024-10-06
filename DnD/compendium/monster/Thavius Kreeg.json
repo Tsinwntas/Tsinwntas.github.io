@@ -1,0 +1,39 @@
+{
+  "name": "Thavius Kreeg",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "10",
+  "hp": "40 (9d8)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "10",
+  "con": "11",
+  "int": "15",
+  "wis": "18",
+  "cha": "16",
+  "skill": "Deception +5, Medicine +6, Persuasion +5, Religion +4",
+  "passive": "14",
+  "languages": "Abyssal, Common, Infernal",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Shadow of Guilt",
+      "text": [
+        "Thavius's shadow is that of a pudgy, horned devil with small wings."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Mace",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Mace|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Baldur's Gate: Descent Into Avernus p. 42"
+}

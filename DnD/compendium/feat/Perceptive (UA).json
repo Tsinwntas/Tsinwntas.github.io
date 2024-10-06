@@ -1,0 +1,13 @@
+{
+  "name": "Perceptive (UA)",
+  "text": "You hone your senses until they become razor sharp. You gain the following benefits:\n• You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n• Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear.\nSource: Unearthed Arcana: Feats For Skills p. 3",
+  "modifier": [
+    {
+      "_": "Wisdom +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ],
+  "proficiency": "Perception"
+}

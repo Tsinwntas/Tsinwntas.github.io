@@ -1,0 +1,61 @@
+{
+  "name": "Locathah Hunter",
+  "size": "M",
+  "type": "humanoid (locathah)",
+  "alignment": "Neutral",
+  "ac": "14 (natural armor)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "13",
+  "dex": "14",
+  "con": "12",
+  "int": "11",
+  "wis": "14",
+  "cha": "11",
+  "save": "Dex +4, Wis +4",
+  "skill": "Athletics +3, Perception +4",
+  "passive": "14",
+  "languages": "Aquan, Common",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Leviathan Will",
+      "text": [
+        "The hunter has advantage on saving throws against spells and effects that control its actions."
+      ]
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "text": [
+        "The hunter can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hunter makes two attacks with its envenomed crossbow."
+      ]
+    },
+    {
+      "name": "Envenomed Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. 11 (2d8 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned until the end of its next turn."
+      ],
+      "attack": [
+        "Envenomed Crossbow|+4|2d8+2"
+      ]
+    },
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "The far-ranging locathah hunter is trained in tracking and stalking prey on land and in water. They often serve as leaders to small bands of locathah or emissaries for their people (such as the hunter found in Danger at Dunwater). Their colorful, poisoned, and fast-loading crossbows rarely miss a target.\nSource: Ghosts of Saltmarsh p. 243"
+}

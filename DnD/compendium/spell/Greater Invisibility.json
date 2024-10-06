@@ -1,0 +1,12 @@
+{
+  "name": "Greater Invisibility",
+  "level": "4",
+  "school": "I",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 minute",
+  "classes": "Bard, Sorcerer, Wizard, Druid (Land), Warlock (Archfey), Druid (Land), Ranger (Gloom Stalker), Artificer (Armorer), Cleric (Twilight), Warlock (Genie), Artificer (Armorer (UA)), Warlock (Undead (UA)), Cleric (Twilight (UA)), Ranger (Deep Stalker (UA)), Paladin (Treachery (UA)), Ranger (Revised) (UA) (Deep Stalker Conclave)",
+  "text": "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person.\nSource: Player's Handbook p. 246"
+}

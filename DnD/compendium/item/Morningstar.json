@@ -1,0 +1,11 @@
+{
+  "name": "Morningstar",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "value": "15.0",
+  "property": "M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "text": "Source: Player's Handbook p. 149"
+}

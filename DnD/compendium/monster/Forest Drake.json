@@ -1,0 +1,64 @@
+{
+  "name": "Forest Drake",
+  "size": "S",
+  "type": "dragon",
+  "alignment": "Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "60 (8d6+32)",
+  "speed": "walk 30 ft., climb 50 ft.",
+  "str": "16",
+  "dex": "8",
+  "con": "19",
+  "int": "12",
+  "wis": "15",
+  "cha": "12",
+  "skill": "Athletics +5, Nature +3",
+  "passive": "12",
+  "languages": "Druidic, Draconic, Sylvan",
+  "cr": "2",
+  "immune": "fire",
+  "conditionImmune": "paralyzed, unconscious",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Mighty Leap",
+      "text": [
+        "The drake's long jump is up to 30 feet and its high jump is up to 15 feet with or without a running start.",
+        "Additionally, if it ends its jump within 5 feet of a creature, the first attack roll it makes against that creature before the end of its turn has advantage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The forest drake makes one bite attack and one claw attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage plus 3 (1d6) fire damage."
+      ],
+      "attack": [
+        "Bite|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|5|2d6+3"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 56)",
+      "text": [
+        "The drake exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 17 (5d6) fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

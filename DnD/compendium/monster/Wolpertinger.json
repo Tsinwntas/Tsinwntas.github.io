@@ -1,0 +1,66 @@
+{
+  "name": "Wolpertinger",
+  "size": "T",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "9 (2d4+4)",
+  "speed": "walk 30 ft., burrow 10 ft., fly 30 ft.",
+  "str": "6",
+  "dex": "16",
+  "con": "14",
+  "int": "5",
+  "wis": "12",
+  "cha": "6",
+  "passive": "11",
+  "cr": "1/4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the wolpertinger moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 2 (1d4) piercing damage."
+      ]
+    },
+    {
+      "name": "Flyby",
+      "text": [
+        "The wolpertinger doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The wolpertinger's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Gore|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Keening (Recharge 6)",
+      "text": [
+        "The wolpertinger emits a piercing shriek.",
+        "Each creature within 30 feet that can hear the wolpertinger must succeed on a DC 13 Constitution saving throw or be deafened for 1 minute. A beast with an Intelligence of 4 or lower that is in the area must also succeed on a DC 13 Wisdom saving throw or be frightened until the beginning of its next turn."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 382"
+}

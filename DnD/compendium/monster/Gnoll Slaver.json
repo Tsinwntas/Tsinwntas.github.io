@@ -1,0 +1,71 @@
+{
+  "name": "Gnoll Slaver",
+  "size": "M",
+  "type": "humanoid (gnoll)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (chain shirt)",
+  "hp": "71 (11d8+22)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "15",
+  "con": "14",
+  "int": "12",
+  "wis": "11",
+  "cha": "12",
+  "skill": "Athletics +6, Intimidation +5, Perception +2, Stealth +6",
+  "passive": "12",
+  "languages": "Common, Gnoll",
+  "cr": "3",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Rampage",
+      "text": [
+        "When the gnoll reduces a creature to 0 hp with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gnoll makes three attacks. one with its bite and two with its whip or three with its longbow."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|6|1d6+4"
+      ]
+    },
+    {
+      "name": "Whip",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 6 (1d4 + 4) slashing damage."
+      ],
+      "attack": [
+        "Whip|6|1d4+4"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow|4|1d8+2"
+      ]
+    },
+    {
+      "name": "Menace Captives (Recharge 56)",
+      "text": [
+        "The gnoll selects up to three creatures it has taken captive within 30 feet. Each creature must succeed on a DC 15 Wisdom saving throw or have disadvantage for 1 minute on any attack rolls or skill checks to take actions other than those the gnoll has ordered it to take."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "farmland, grassland"
+}

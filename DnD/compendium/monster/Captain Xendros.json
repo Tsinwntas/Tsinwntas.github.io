@@ -1,0 +1,63 @@
+{
+  "name": "Captain Xendros",
+  "size": "M",
+  "type": "humanoid (tiefling)",
+  "alignment": "Any alignment",
+  "ac": "13 (chain shirt)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "12",
+  "int": "13",
+  "wis": "16",
+  "cha": "13",
+  "skill": "Medicine +7, Persuasion +3, Religion +5",
+  "passive": "13",
+  "languages": "any two languages, Infernal",
+  "cr": "2",
+  "resist": "fire",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Divine Eminence",
+      "text": [
+        "As a bonus action, Xendros can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Xendros expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Xendros is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). Xendros has the following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): cure wounds, guiding bolt, sanctuary",
+        "• 2nd level (3 slots): lesser restoration, spiritual weapon",
+        "• 3rd level (2 slots): dispel magic, spirit guardians"
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "<$title_short_name$>'s innate spellcasting ability is Charisma (spell save DC 11). <$title_short_name$> can innately cast the following spells, requiring no material components:",
+        "At will: thaumaturgy",
+        "1/day each: darkness, hellish rebuke"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Mace",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage."
+      ],
+      "attack": [
+        "Mace|+2|1d6"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "light, sacred flame, thaumaturgy, cure wounds, guiding bolt, sanctuary, lesser restoration, spiritual weapon, dispel magic, spirit guardians, thaumaturgy, darkness, hellish rebuke",
+  "description": "\nSource: Ghosts of Saltmarsh p. 14"
+}

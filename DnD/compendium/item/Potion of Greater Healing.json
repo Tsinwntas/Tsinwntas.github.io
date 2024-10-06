@@ -1,0 +1,9 @@
+{
+  "name": "Potion of Greater Healing",
+  "detail": "minor",
+  "type": "P",
+  "text": "You regain 4d4 + 4 hit points when you drink this potion. The potion's red liquid glimmers when agitated.\nFound On: Magic Item Table A, Magic Item Table B\nSource: Dungeon Master's Guide p. 187",
+  "roll": [
+    "4d4+4"
+  ]
+}

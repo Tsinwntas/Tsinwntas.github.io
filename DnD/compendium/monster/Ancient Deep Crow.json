@@ -1,0 +1,108 @@
+{
+  "name": "Ancient Deep Crow",
+  "size": "H",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "18 (natural armor)",
+  "hp": "187 (15d12+90)",
+  "speed": "walk 20 ft., fly 80 ft.",
+  "str": "23",
+  "dex": "16",
+  "con": "23",
+  "int": "10",
+  "wis": "15",
+  "cha": "19",
+  "save": "Con +11, Wis +7",
+  "skill": "Perception +7, Stealth +13",
+  "passive": "17",
+  "languages": "Deep Crow",
+  "cr": "15",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "senses": "blindsight 60 ft., darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The ancient deep crow has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Shadow Stealth",
+      "text": [
+        "While in dim light or darkness, the ancient deep crow can take the Hide action as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ancient deep crow makes three attacks: one with its mandibles and two with its claws."
+      ]
+    },
+    {
+      "name": "Mandibles",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. 17 (2d10 + 6) piercing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the ancient deep crow can't use its mandibles on another target."
+      ],
+      "attack": [
+        "Mandibles|+11|2d10+6"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 13 (2d6 + 6) slashing damage."
+      ],
+      "attack": [
+        "Claw|+11|2d6+6"
+      ]
+    },
+    {
+      "name": "Shadow Caw",
+      "text": [
+        "The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a DC 17 Constitution saving throw. On a failure, a creature takes 10 (3d6) psychic damage."
+      ],
+      "attack": [
+        "Shadow Caw||3d6"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The monstrosity can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The monstrosity regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Detect",
+      "text": [
+        "The deep crow makes a Wisdom (Perception) check."
+      ]
+    },
+    {
+      "name": "Shadow Caw (Costs 2 Actions)",
+      "text": [
+        "The ancient deep crow uses Shadow Caw."
+      ]
+    },
+    {
+      "name": "Wing Attack (Costs 2 Actions)",
+      "text": [
+        "The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The ancient deep crow can then fly up to half its flying speed."
+      ]
+    },
+    {
+      "name": "Regional Effects"
+    },
+    {
+      "text": [
+        "The region containing an ancient deep crow's lair is transformed by the creature's presence, which creates one or more of the following effects:",
+        "• Supernatural shadow turns all bright light to dim light in underground regions within 6 miles of the lair.",
+        "• Intermittent, echoing caws can be heard coming from all directions within 6 miles of the lair.",
+        "• Subterranean beasts within 1 mile of the ancient deep crow's lair serve as the creature's eyes and ears, alerting it to the presence of intruders and making it all but impossible to surprise the ancient deep crow. If the ancient deep crow dies, these effects fade immediately."
+      ]
+    }
+  ],
+  "description": "So little is known of the deep crows that even less is known of their monstrous leviathan cousins, the ancient deep crows. Whether these gargantuan specimens are elder deep crows grown to great size or some higher form that holds lesser deep crows in thrall remains to be determined. Ideally by someone else. Seriously, stay away from these things.\nSource: Acquisitions Incorporated p. 211"
+}

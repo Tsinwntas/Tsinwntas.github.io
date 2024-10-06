@@ -1,0 +1,74 @@
+{
+  "name": "Pech Lithlord",
+  "size": "S",
+  "type": "elemental (pech)",
+  "alignment": "Good Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "104 (16d6+48)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "18",
+  "dex": "11",
+  "con": "16",
+  "int": "11",
+  "wis": "18",
+  "cha": "13",
+  "skill": "Athletics +7, Perception +7",
+  "passive": "17",
+  "languages": "Common, Undercommon, Terran",
+  "cr": "7",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Light Sensitivity",
+      "text": [
+        "While in bright light, the pech has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "One With The Stone (Recharges After A Short Or Long Rest)",
+      "text": [
+        "rAs a bonus action, the pech can draw on the power of unworked stone, as long as it is in contact with stone. Until the end of the pech's next turn, it gains resistance to piercing and slashing damage."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The pech lithlord's innate spellcasting ability is Wisdom (spell save DC 15). It can innately cast the following spells, requiring no material components:",
+        "At will: mending, thunderwave (4d8)",
+        "3/day each: shatter (4d8)",
+        "1/day each: meld into stone, stone shape"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The pech lithlord makes three attacks. two with its pick and one with its hammer. If the pech lithlord hits the same target with two attacks, the target must succeed on a DC 15 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    },
+    {
+      "name": "Pick",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Pick|7|1d8+4"
+      ]
+    },
+    {
+      "name": "Hammer",
+      "text": [
+        "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. 7 (1d6 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Hammer|7|1d6+4"
+      ]
+    }
+  ],
+  "spells": "mending, thunderwave, shatter, meld into stone, stone shape",
+  "description": "Source: CCodex (3pp) p. 295",
+  "environment": "mountain"
+}

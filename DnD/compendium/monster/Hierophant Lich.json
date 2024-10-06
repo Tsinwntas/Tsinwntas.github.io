@@ -1,0 +1,108 @@
+{
+  "name": "Hierophant Lich",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Any Evil Alignment",
+  "ac": "14 (natural armor)",
+  "hp": "91 (14d8+28)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "13",
+  "con": "15",
+  "int": "12",
+  "wis": "20",
+  "cha": "17",
+  "save": "Con +6, Int +5, Wis +9",
+  "skill": "Insight +9, Perception +9, Religion +5",
+  "passive": "19",
+  "languages": "Common, Abyssal, Infernal",
+  "cr": "9",
+  "immune": "poison; bludgeoning, piercing, slashing from nonmagical weapons",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "truesight 60 ft.",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If the lich fails a saving throw, it can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Levitate",
+      "text": [
+        "As a bonus action, a hierophant lich can rise or descend vertically up to 20 feet and can remain suspended there. This trait works like the levitate spell, except there is no duration, and the lich doesn't need to concentrate to continue levitating each round."
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "text": [
+        "If it has a sacred vessel, a destroyed hierophant lich gains a new body in 1d10 days, regaining all its hp and becoming active again. The new body appears within 5 feet of the vessel."
+      ]
+    },
+    {
+      "name": "Turn Resistance",
+      "text": [
+        "The hierophant lich has advantage on saving throws against any effect that turns undead."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The hierophant lich is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The hierophant lich has the following Cleric spells prepared:",
+        "Cantrips (at will): guidance, mending, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): command, detect magic, protection from evil and good, sanctuary",
+        "• 2nd level (3 slots): blindness/deafness, hold person, silence",
+        "• 3rd level (3 slots): animate dead, dispel magic, spirit guardians",
+        "• 4th level (3 slots): banishment, freedom of movement, guardian of faith",
+        "• 5th level (1 slots): flame strike"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Unholy Smite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (2d6 + 1) bludgeoning damage plus 9 (2d8) necrotic damage. The target must succeed on a DC 17 Wisdom saving throw or be charmed for 1 minute. The charmed target must defend the hierophant. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. An undead target that fails is charmed for 24 hours and can only repeat the saving throw once every 24 hours."
+      ],
+      "attack": [
+        "Unholy Smite|5|2d6+1"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The undead can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The undead regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The hierophant lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Cantrip",
+      "text": [
+        "The hierophant lich casts a cantrip."
+      ]
+    },
+    {
+      "name": "Unholy Smite (Costs 2 Actions)",
+      "text": [
+        "The heirophant lich uses its Unholy Smite."
+      ]
+    },
+    {
+      "name": "Damnation (Costs 2 Actions)",
+      "text": [
+        "The hierophant lich threatens one creature within 10 feet of it with eternal suffering. The target must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the hierophant lich's Damnation for the next 24 hours."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "guidance, mending, sacred flame, thaumaturgy, command, detect magic, protection from evil and good, sanctuary, blindness/deafness, hold person, silence, animate dead, dispel magic, spirit guardians, banishment, freedom of movement, guardian of faith, flame strike",
+  "description": "Source: CCodex (3pp) p. 251"
+}

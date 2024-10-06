@@ -1,0 +1,63 @@
+{
+  "name": "Drow Noble",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Any alignment",
+  "ac": "15 (breastplate)",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "11",
+  "int": "12",
+  "wis": "14",
+  "cha": "16",
+  "skill": "Deception +5, Insight +4, Persuasion +5, Perception +1",
+  "passive": "12",
+  "languages": "any two languages, Elvish",
+  "cr": "1/8",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against being charmed, and magic can't put Drow Noble to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Drow Noble has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "<$title_short_name$>'s innate spellcasting ability is Charisma (spell save DC 13). <$title_short_name$> can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 5 (1d8 + 1) piercing damage."
+      ],
+      "attack": [
+        "Rapier|+3|1d8+1"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "spells": "dancing lights, darkness, faerie fire",
+  "description": "\nSource: Out of the Abyss p. 196"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Healing Word",
+  "level": "1",
+  "school": "EV",
+  "ritual": "NO",
+  "time": "1 bonus action",
+  "range": "60 feet",
+  "components": "V",
+  "duration": "Instantaneous",
+  "classes": "Bard, Cleric, Druid, Artificer (Alchemist), Artificer (Alchemist)",
+  "text": "A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.\nSource: Player's Handbook p. 250",
+  "roll": [
+    "1d4+SPELL",
+    "2d4",
+    "3d4",
+    "4d4",
+    "5d4",
+    "6d4",
+    "7d4",
+    "8d4",
+    "9d4"
+  ]
+}

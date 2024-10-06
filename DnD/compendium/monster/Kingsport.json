@@ -1,0 +1,39 @@
+{
+  "name": "Kingsport",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "5 (1d8+1)",
+  "speed": "walk 20 ft., swim 40 ft.",
+  "str": "6",
+  "dex": "12",
+  "con": "12",
+  "int": "10",
+  "wis": "10",
+  "cha": "4",
+  "passive": "10",
+  "languages": "Common",
+  "cr": "0",
+  "senses": "blindsight 30 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "Kingsport can hold its breath for 20 minutes."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) piercing damage."
+      ],
+      "attack": [
+        "Beak|+3|1d4+1"
+      ]
+    }
+  ],
+  "description": "Scrivenscry is an arcanaloth who always refers to itself in the third person. It has a fondness for black licorice, strips of which it keeps in the pockets of its robe. The fiend is attended by Kingsport, a blind, albino giant penguin under the effect of an awaken spell.\nScrivenscry's anxious penguin servant, Kingsport, was promised a life of enlightenment. The truth is that Kingsport was turned into Scrivenscry's lackey, who lives in fear of his cruel, unpredictable master. The blind giant penguin hopes to be free of the arcanaloth one day.\nSource: Icewind Dale: Rime of the Frostmaiden p. 243"
+}

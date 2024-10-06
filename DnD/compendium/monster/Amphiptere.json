@@ -1,0 +1,60 @@
+{
+  "name": "Amphiptere",
+  "size": "M",
+  "type": "beast,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "60 (8d8+24)",
+  "speed": "20 ft., climb 20 ft., fly 60 ft., swim 20 ft.",
+  "str": "11",
+  "dex": "18",
+  "con": "17",
+  "int": "2",
+  "wis": "16",
+  "cha": "6",
+  "skill": "Perception +5",
+  "senses": "blindsight 10 ft.",
+  "passive": "15",
+  "languages": "-",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Flyby",
+      "text": [
+        "The amphiptere doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Swarming",
+      "text": [
+        "Up to two amphipteres can share the same space at the same time. The amphiptere has advantage on melee attack rolls if it is sharing its space with another amphiptere that isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The amphiptere makes one bite attack and one stinger attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|6|1d6+4"
+      ]
+    },
+    {
+      "name": "Stinger",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage, and the target must make a successful DC 13 Constitution saving throw or be poisoned for 1 hour."
+      ],
+      "attack": [
+        "Stinger|6|1d6+4"
+      ]
+    }
+  ]
+}

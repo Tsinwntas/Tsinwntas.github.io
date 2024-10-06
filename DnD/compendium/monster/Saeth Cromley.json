@@ -1,0 +1,55 @@
+{
+  "name": "Saeth Cromley",
+  "size": "M",
+  "type": "humanoid (Illuskanhuman)",
+  "alignment": "Lawful Good",
+  "ac": "17 (splint armor)",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "13",
+  "con": "14",
+  "int": "10",
+  "wis": "11",
+  "cha": "14",
+  "skill": "Athletics +5, Perception +2, Intimidation +4",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "3",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Saeth makes two longsword attacks. If he has a shortsword drawn, he can also make a shortsword attack."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+5|1d8+3"
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. 6 (1d10 + 1) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+3|1d10+1"
+      ]
+    }
+  ],
+  "description": "Saeth Cromley is a retired sergeant of the City Watch, a likable fellow with a sharp, sarcastic wit. He occasionally comes out of retirement at the request of Barnibus Blastwind, and he assists the mage in investigating unusual crimes in the city. Cromley helps Barnibus relate to the common folk, and he is good at coaxing information out of them. Though Cromley was once a strict proponent of Watch regulations and dress codes, he has grown a bit lax in both matters now that he's officially retired.\nSource: Waterdeep: Dragon Heist p. 216"
+}

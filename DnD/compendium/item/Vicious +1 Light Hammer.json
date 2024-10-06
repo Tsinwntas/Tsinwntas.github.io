@@ -1,0 +1,14 @@
+{
+  "name": "Vicious +1 Light Hammer",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "L,T",
+  "dmg1": "1d4",
+  "dmgType": "B",
+  "range": "20/60",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon.\nWhen you roll a 20 with this magic weapon, the target takes an extra 7 bludgeoning damage.\nNote: According to the SRD, it is an extra 2d6 bludgeoning damage.\nSource: Acquisitions Incorporated p. 149",
+  "roll": [
+    "2d6"
+  ]
+}

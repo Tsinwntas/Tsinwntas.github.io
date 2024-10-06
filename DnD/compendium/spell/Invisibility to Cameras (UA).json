@@ -1,0 +1,12 @@
+{
+  "name": "Invisibility to Cameras (UA)",
+  "classes": "Warlock, Sorcerer, Wizard, Warlock (Ghost in the Machine (UA))",
+  "level": "3",
+  "school": "I",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "10 feet",
+  "components": "V, S, M (a scrap of black paper)",
+  "duration": "Concentration, up to 1 minute",
+  "text": "Four creatures of your choice within range become undetectable to electronic sensors and cameras for the duration of the spell. Anything a target is wearing or carrying is likewise undetectable as long as it is on the target's person. The targets remain visible to vision.\nSource: Unearthed Arcana: Modern Magic p. 7"
+}

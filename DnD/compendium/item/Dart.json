@@ -1,0 +1,12 @@
+{
+  "name": "Dart",
+  "detail": "simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "0.25",
+  "value": "0.05",
+  "property": "F,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "Source: Player's Handbook p. 149"
+}

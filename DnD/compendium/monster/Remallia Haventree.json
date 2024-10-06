@@ -1,0 +1,71 @@
+{
+  "name": "Remallia Haventree",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Chaotic Good",
+  "ac": "12 (15 with mage armor)",
+  "hp": "66 (12d8+12)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "13",
+  "int": "18",
+  "wis": "15",
+  "cha": "17",
+  "save": "Int +8, Wis +6",
+  "skill": "Arcana +8, Deception +7, History +8, Persuasion +7",
+  "passive": "12",
+  "languages": "Common, Draconic, Dwarvish, Elvish, Halfling",
+  "cr": "9",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Remallia has a Figurine of Wondrous Power, Silver Raven."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Remallia has advantage on saving throws against being charmed, and magic can't put her to sleep."
+      ]
+    },
+    {
+      "name": "Arcane Ward",
+      "text": [
+        "Remallia has a magical ward that has 30 hit points. Whenever she takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, Remallia takes any remaining damage. When Remallia casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell. This applies to any of the following spells she casts: alarm. mage armor, shield, arcane lock, counterspell, dispel magic, banishment, stoneskin, globe of invulnerability and symbol"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Remallia is a 13th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). She has the following wizard spells prepared:",
+        "Cantrips (at will): dancing lights, mage hand, mending, message, ray of frost",
+        "• 1st level (4 slots): alarm, mage armor, magic missile, shield",
+        "• 2nd level (3 slots): arcane lock, invisibility",
+        "• 3rd level (3 slots): counterspell, dispel magic, fireball",
+        "• 4th level (3 slots): banishment, stoneskin",
+        "• 5th level (2 slots): cone of cold, wall of force",
+        "• 6th level (1 slots): flesh to stone, globe of invulnerability",
+        "• 7th level (1 slots): symbol, teleport"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+6|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1, 1"
+  ],
+  "spells": "dancing lights, mage hand, mending, message, ray of frost, alarm, mage armor, magic missile, shield, arcane lock, invisibility, counterspell, dispel magic, fireball, banishment, stoneskin, cone of cold, wall of force, flesh to stone, globe of invulnerability, symbol, teleport",
+  "description": "Remallia (Remi to her friends) is the lady of House Ulbrinter and a guiding light for the Harpers in Waterdeep\nShe became an active force for good in the city after assassins killed her husband, Arthagast Ulbrinter, and destroyed his remains. A sun elf, she has two adult children (a half-elf son named Arthius, who is studying music in Silverymoon, and a half-elf daughter named Serenore, who lives on the Moonshae island of Alaron with her husband and daughter). Lady Haventree retains a handful of loyal servants and spies.\nRemi holds secret Harper meetings in her villa, which is warded by all manner of spells. She uses a silver raven figurine of wondrous power to deliver messages to Harper spies scattered throughout the city.\nSource: Waterdeep: Dragon Heist p. 214"
+}

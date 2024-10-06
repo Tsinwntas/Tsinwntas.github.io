@@ -1,0 +1,140 @@
+{
+  "name": "Hlam",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Good",
+  "ac": "22 (Unarmored Defense)",
+  "hp": "137 (25d8+25)",
+  "speed": "walk 60 ft.",
+  "str": "11",
+  "dex": "24",
+  "con": "13",
+  "int": "14",
+  "wis": "21",
+  "cha": "14",
+  "save": "Str +5, Dex +12",
+  "skill": "Athletics +5, Religion +7",
+  "passive": "15",
+  "languages": "all spoken languages",
+  "cr": "16",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "trait": [
+    {
+      "name": "Evasion",
+      "text": [
+        "If Hlam is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's incapacitated."
+      ]
+    },
+    {
+      "name": "Magic Attacks",
+      "text": [
+        "Hlam's unarmed strikes are magical."
+      ]
+    },
+    {
+      "name": "Unarmored Defense",
+      "text": [
+        "While Hlam is wearing no armor and wielding no shield, his AC includes his Wisdom modifier."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Hlam is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks) He has the following cleric spells prepared:",
+        "Cantrips (at will): guidance, light, sacred flame, spare the dying",
+        "• 1st level (4 slots): detect evil and good, healing word, sanctuary, shield of faith",
+        "• 2nd level (3 slots): calm emotions, prayer of healing, silence",
+        "• 3rd level (2 slots): protection from energy, remove curse, sending"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Hlam attacks three times using his unarmed strike, darts, or both."
+      ]
+    },
+    {
+      "name": "Unarmed Strike",
+      "text": [
+        "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. 12 (1d10 + 7) bludgeoning, magic damage. If the target is a creature, Hlam can choose one of the following additional effects:",
+        "The target must succeed on a DC 18 Strength saving throw or drop one item it is holding (Hlam's choice).",
+        "The target must succeed on a DC 18 Dexterity saving throw or be knocked prone.",
+        "The target must succeed on a DC 18 Constitution saving throw or be stunned until the end of Hlam's next turn."
+      ],
+      "attack": [
+        "Unarmed Strike|+12|1d10+7"
+      ]
+    },
+    {
+      "name": "Dart",
+      "text": [
+        "Ranged Weapon Attack: +12 to hit, range 20/60 ft., one target. 9 (1d4 + 7) piercing damage."
+      ],
+      "attack": [
+        "Dart|+12|1d4+7"
+      ]
+    },
+    {
+      "name": "Quivering Palm (Recharge 6)",
+      "text": [
+        "Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. The target must make a DC 18 Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 (10d10) necrotic damage."
+      ],
+      "attack": [
+        "Quivering Palm (Recharge 6)|+12|10d10"
+      ]
+    },
+    {
+      "name": "Wholeness of Body (Recharges after a Long Rest)",
+      "text": [
+        "Hlam regains 60 hit points."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Deflect Missile",
+      "text": [
+        "In response to being hit by a ranged weapon attack, Hlam deflects the missile. The damage he takes from the attack is reduced by 1d10 + 27. If the damage is reduced to 0, Hlam catches the missile if it's small enough to hold in one hand and he has a hand free."
+      ]
+    },
+    {
+      "name": "Slow Fall",
+      "text": [
+        "Hlam reduces the bludgeoning damage he takes from a fall by 100."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Hlam can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Hlam regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Quick Step",
+      "text": [
+        "Hlam moves up to his speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Unarmed Strike (Costs 2 Actions)",
+      "text": [
+        "Hlam makes one unarmed strike."
+      ]
+    },
+    {
+      "name": "Invisibility (Costs 3 Actions)",
+      "text": [
+        "Hlam becomes invisible until the end of his next turn. The effect ends if Hlam attacks or casts a spell."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "guidance, light, sacred flame, spare the dying, detect evil and good, healing word, sanctuary, shield of faith, calm emotions, prayer of healing, silence, protection from energy, remove curse, sending",
+  "description": "This venerable human monk lives in a cave halfway up the side of Mount Waterdeep. Hlam is the grand master of the Order of the Even-Handed, a small monastic group devoted to Tyr. Would-be students periodically visit him to learn the Way of the Sacred Fists, which combines cleric magic and monk training. They usually return to the city confused, bruised, and not inclined to visit again.\nIn times of great peril, Hlam can be called on to help. Sometimes he offers pearls of wisdom, and sometimes he descends from his cave to set things right with fisticuffs. He can show up at any point in the story as a helpful figure, and the characters can visit him in his cave if they need guidance or training. The Order of the Gauntlet considers him a staunch ally.\nHlam is immune to disease and doesn't require food or water. Although he ages, he suffers none of the frailty of old age.\nSource: Waterdeep: Dragon Heist p. 204"
+}

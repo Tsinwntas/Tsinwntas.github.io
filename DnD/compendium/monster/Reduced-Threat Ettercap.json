@@ -1,0 +1,86 @@
+{
+  "name": "Reduced-Threat Ettercap",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Neutral Evil",
+  "ac": "13 (natural armor)",
+  "hp": "22 (8d8+8)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "14",
+  "dex": "15",
+  "con": "13",
+  "int": "7",
+  "wis": "12",
+  "cha": "8",
+  "skill": "Perception +1, Stealth +2, Survival +1",
+  "passive": "13",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Spider Climb",
+      "text": [
+        "The ettercap can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    },
+    {
+      "name": "Web Sense",
+      "text": [
+        "While in contact with a web, the ettercap knows the exact location of any other creature in contact with the same web."
+      ]
+    },
+    {
+      "name": "Web Walker",
+      "text": [
+        "The ettercap ignores movement restrictions caused by webbing."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ettercap makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage. The target must succeed on a DC 9 Constitution saving throw or be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Bite|+2|1d8+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 7 (2d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|+2|2d4+2"
+      ]
+    },
+    {
+      "name": "Web (Recharge 5-6)",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 30/60 ft., one Large or smaller creature. The creature is restrained by webbing. As an action, the restrained creature can make a DC 9 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to fire damage and immune to bludgeoning, poison and psychic damage."
+      ]
+    },
+    {
+      "name": "Variant: Web Garrote",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one Medium or Small creature against which the ettercap has advantage on the attack roll. 4 (1d4 + 2) bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the target can't breathe, and the ettercap has advantage on attack rolls against it."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The monstrosity can take 0 legendary action, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The monstrosity regains spent legendary action at the start of its turn."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 113",
+  "environment": "forest"
+}

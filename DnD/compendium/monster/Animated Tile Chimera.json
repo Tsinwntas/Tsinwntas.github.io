@@ -1,0 +1,82 @@
+{
+  "name": "Animated Tile Chimera",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (natural armor)",
+  "hp": "114 (12d10+48)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "19",
+  "dex": "11",
+  "con": "19",
+  "int": "3",
+  "wis": "14",
+  "cha": "10",
+  "skill": "Perception +8",
+  "passive": "18",
+  "languages": "understands Draconic but can't speak",
+  "cr": "6",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Rejuvenation",
+      "text": [
+        "If destroyed, the tile creature regains all its hit points and becomes active again in 24 hours unless at least half its tiles are collected and kept separate from the rest of the creature's tiles."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The chimera makes three attacks: one with its bite, one with its horns, and one with its claws. When its fire breath is available, it can use the breath in place of its bite or horns."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+7|2d6+4"
+      ]
+    },
+    {
+      "name": "Horns",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 10 (1d12 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Horns|+7|1d12+4"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claws|+7|2d6+4"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": [
+        "The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Fire Breath (Recharge 5-6)||7d8"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Narrow Dodge",
+      "text": [
+        "When targeted by a melee attack, the tile creature can take a reaction to turn its narrowest aspect toward the attacker. The attacker has disadvantage on the attack roll."
+      ]
+    }
+  ],
+  "description": "\nSource: Rise of Tiamat p. 42",
+  "environment": "underdark, mountain, grassland, hill"
+}

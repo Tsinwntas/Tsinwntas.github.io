@@ -1,0 +1,14 @@
+{
+  "name": "Double-Bladed Scimitar of Warning",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "S,2H,M",
+  "dmg1": "2d4",
+  "dmgType": "S",
+  "text": "Special: If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.\nThis magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.\nFound On: Magic Item Table F\nSource: Dungeon Master's Guide p. 213, Wayfinder's Guide to Eberron p. 74",
+  "roll": [
+    "1d4",
+    "2d4"
+  ]
+}

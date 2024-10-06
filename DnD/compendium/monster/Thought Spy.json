@@ -1,0 +1,64 @@
+{
+  "name": "Thought Spy",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Neutral Evil",
+  "ac": "13 (leather armor)",
+  "hp": "27 (6d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "10",
+  "int": "16",
+  "wis": "13",
+  "cha": "14",
+  "skill": "Deception +6, Insight +3, Investigation +5, Perception +3, Sleight of hand +4, Stealth +4",
+  "passive": "13",
+  "languages": "Common plus any one language",
+  "cr": "1",
+  "senses": "darkvision 30 ft.",
+  "trait": [
+    {
+      "name": "Cunning Action",
+      "text": [
+        "On each of its turns, the thought spy can use a bonus action to take the Dash, Disengage, or Hide action."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (Psionics)",
+      "text": [
+        "The thought spy's innate spellcasting ability is Intelligence (spell save DC 13). The thought spy can innately cast the following spells, requiring no components:",
+        "At will: charm person, disguise self, encode thoughts (see chapter 2)",
+        "1/day each: blur, detect thoughts, gaseous form"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The thought spy makes two melee attacks, or it makes three ranged attacks with its daggers."
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Rapier|+4|1d8+2"
+      ]
+    }
+  ],
+  "spells": "charm person, disguise self, encode thoughts, blur, detect thoughts, gaseous form",
+  "description": "Thought spies form the backbone of House Dimir's covert operations. They are trained in stealth and infiltration, tactics that they supplement with rigorously developed mental abilities. To ensure that no secrets slip through Dimir's fingers, they infiltrate rival guilds. In addition to traditional means of gathering intelligence, thought spies use their magic to spy on the thoughts of their targets.\nSource: Guildmasters' Guide to Ravnica p. 233"
+}

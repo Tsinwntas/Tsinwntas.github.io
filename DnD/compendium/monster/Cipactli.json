@@ -1,0 +1,77 @@
+{
+  "name": "Cipactli",
+  "size": "M",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "78 (12d8+24)",
+  "speed": "walk 20 ft., swim 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "14",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "skill": "Stealth +5",
+  "passive": "10",
+  "languages": "Primordial",
+  "cr": "5",
+  "resist": "lightning",
+  "immune": "cold, poison",
+  "vulnerable": "fire",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The cipactli can breathe air and water."
+      ]
+    },
+    {
+      "name": "Underwater Camouflage",
+      "text": [
+        "The cipactli has advantage on Dexterity (Stealth) checks made while underwater."
+      ]
+    },
+    {
+      "name": "Water Step",
+      "text": [
+        "As a bonus action, the cipactli can liquefy itself, disappearing from its current location and reappearing in an unoccupied space it can see within 20 feet. Its current location and the new location must be connected by water in some way.",
+        "a stream, ooze, soggy ground, or even runoff from a drain pipe."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The cipactli makes two bite attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14), and the cipactli uses its Devouring Embrace."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|6|1d8+3"
+      ]
+    },
+    {
+      "name": "Devouring Embrace",
+      "text": [
+        "The cipactli devours a Medium or smaller creature grappled by it. The devoured target is blinded, restrained, it has total cover against attacks and other effects outside the cipactli, and it takes 14 (4d6) piercing damage at the start of each of the cipactli's turns as the fiend's lesser mouths slowly consume it.",
+        "If the cipactli moves, the devoured target moves with it.",
+        "The cipactli can only devour one target at a time. A creature, including the devoured target, can take its action to pry the devoured target out of the cipactli's many jaws by succeeding on a DC 14 Strength check."
+      ]
+    },
+    {
+      "name": "Ancient Lullaby (Recharge 5-6)",
+      "text": [
+        "A cipactli sings a soporific, primordial song of eternal rest and divine repose from its many mouths. Each creature within 100 feet of the cipactli that can hear the song must succeed on a DC 14 Charisma saving throw or fall asleep and remain unconscious for 10 minutes. A creature awakens if it takes damage or another creature takes an action to wake it. This song has no effect on constructs and undead."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

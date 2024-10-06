@@ -1,0 +1,61 @@
+{
+  "name": "Plaresh",
+  "size": "M",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "30 (4d8+12)",
+  "speed": "walk 30 ft., burrow 30 ft., swim 30 ft.",
+  "str": "2",
+  "dex": "17",
+  "con": "16",
+  "int": "6",
+  "wis": "12",
+  "cha": "3",
+  "passive": "11",
+  "languages": "Understands Abyssal but can't speak",
+  "cr": "3",
+  "resist": "cold, fire, lightning, bludgeoning, piercing, slashing",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+  "senses": "blindsight 30 ft. (blind beyond this radius), tremorsense 60 ft.",
+  "trait": [
+    {
+      "name": "Grinding Maws",
+      "text": [
+        "The plaresh can burrow through harder substances such as wood, stone, or even metal. While doing so its burrow speed is reduced to half, and it creates a cluster of bore holes that leaves the material porous and weak. The material has 5 to its AC and half the usual hp."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "rThe plaresh has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "text": [
+        "The plaresh can occupy another creature's space and vice versa, and the plaresh can move through any opening large enough for a Tiny worm. The plaresh can't regain hp or gain temporary hp."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bites",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.",
+        "The target must make a DC 13 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the target is wearing nonmagical armor, the armor takes a permanent and cumulative 1 penalty to the AC it offers. Armor reduced to an AC of 10 is destroyed."
+      ],
+      "attack": [
+        "Bites|5|4d6"
+      ]
+    },
+    {
+      "name": "Infest Corpse (Recharges after a Long Rest)",
+      "text": [
+        "The plaresh targets one dead humanoid in its space. The body is destroyed, and a new plaresh rises from the corpse. The newly created plaresh is free-willed but usually joins its creator."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Changeling",
+  "size": "M",
+  "type": "humanoid (changeling, shapechanger)",
+  "alignment": "Any alignment",
+  "ac": "13 (leather armor)",
+  "hp": "22 (4d8+4)",
+  "speed": "walk 30 ft.",
+  "str": "8",
+  "dex": "15",
+  "con": "12",
+  "int": "14",
+  "wis": "10",
+  "cha": "16",
+  "skill": "Acrobatics +4, Deception +5, Insight +2, Perception +2, Persuasion +5",
+  "passive": "12",
+  "languages": "Common, Dwarvish, Elvish, Halfling, Thieves' cant",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Change Appearance",
+      "text": [
+        "The changeling can use its action to polymorph into a Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The changeling makes two attacks with its dagger."
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Unsettling Visage (Recharges after a Short or Long Rest)",
+      "text": [
+        "Each creature within 30 feet of the changeling must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "description": "Changelings are a humanoid race of shapechangers who conceal their true identities behind false faces. Their gifts of mimicry allow them to appear as members of any humanoid culture, playing the part of a dwarf one day and a dragonborn the next. Although changelings can adopt any guise, most rely on a few established personas, each with a developed history and a network of friends and acquaintances.\nSource: Eberron: Rising from the Last War p. 317"
+}

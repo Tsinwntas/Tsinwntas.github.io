@@ -1,0 +1,34 @@
+{
+  "name": "Abyssal Wretch",
+  "size": "M",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "11",
+  "hp": "18 (4d8)",
+  "speed": "walk 20 ft.",
+  "str": "9",
+  "dex": "12",
+  "con": "11",
+  "int": "5",
+  "wis": "8",
+  "cha": "5",
+  "passive": "9",
+  "languages": "understands Abyssal but can't speak",
+  "cr": "1/4",
+  "resist": "cold, fire, lightning",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 5 (1d8 + 1) slashing damage."
+      ],
+      "attack": [
+        "Bite|+3|1d8+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Mordenkainen's Tome of Foes p. 136, Baldur's Gate: Descent Into Avernus"
+}

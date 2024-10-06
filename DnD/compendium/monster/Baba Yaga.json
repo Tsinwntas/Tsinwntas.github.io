@@ -1,0 +1,143 @@
+{
+  "name": "Baba Yaga",
+  "size": "M",
+  "type": "fey",
+  "alignment": "Chaotic Neutral",
+  "ac": "18 (natural armor)",
+  "hp": "399 (47d8+188)",
+  "speed": "walk 40 ft., fly 30 ft.",
+  "str": "14",
+  "dex": "18",
+  "con": "18",
+  "int": "16",
+  "wis": "1",
+  "cha": "1",
+  "save": "Con +10, Wis +12, Cha +11",
+  "skill": "Arcana +15, Perception +12, Persuasion +11",
+  "passive": "22",
+  "languages": "All",
+  "cr": "20",
+  "resist": "cold; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "necrotic",
+  "conditionImmune": "frightened, poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Cronesight",
+      "text": [
+        "Baba Yaga has advantage on Wisdom (Perception) checks that rely on sight. As an action, she can observe a target and magically know its current emotional state. If the target fails a DC 19 Charisma saving throw, she also knows the creature's alignment and discovers a hidden secret about the target."
+      ]
+    },
+    {
+      "name": "Cronespeech",
+      "text": [
+        "Creatures with Intelligence 3 or lower obey Baba Yaga unquestioningly. Her utterances are often captured as engravings on nearby stone and wood surfaces. These magical reproductions of her words are made in the Common tongue and fade after several days."
+      ]
+    },
+    {
+      "name": "Grandmother's Teeth",
+      "text": [
+        "The iron teeth of Baba Yaga are sentient, magical, and airborne dentures that sometimes work at cross-purposes to the Old Witch. If the teeth and Baba Yaga are getting along, the teeth reside inside her mouth, providing her with a bite attack and access to its spell list. Baba Yaga can cast a spell from the teeth's innate spell list as a bonus action, using her spellcasting ability. Spells cast in this way are removed from the teeth's spells per day total. If the witch and her teeth are not getting along, the teeth will fly around casting its spells as it wishes (often to the benefit of Baba Yaga's enemies)."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Baba Yaga fails a saving throw, she can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Mortar And Pestle",
+      "text": [
+        "Baba Yaga flies in a large mortar and pestle, which is immune to damage and can't be the target of spells or effects. It provides the witch partial cover from ranged attacks.",
+        "Baba Yaga doesn't provoke an opportunity attack when she flies out of an enemy's reach. If Baba Yaga is knocked prone, stunned, or incapacitated while flying in the mortar, it will gently set her on the ground and disappear for 1 hour. The pestle remains with the witch."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The baba yaga's innate spellcasting ability is Wisdom (spell save DC 20, +12 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:",
+        "At will: eldritch blast (2d10), message, minor illusion, spare the dying",
+        "5/day each: command, disguise self, hideous laughter",
+        "4/day each: blindness/deafness, darkness, enthrall",
+        "3/day each: clairvoyance, counterspell, lightning bolt",
+        "2/day each: banishment, blight, polymorph",
+        "1/day each: animate objects, insect plague"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Baba Yaga makes two pestle slap attacks and one bite attack, or three pestle slap attacks."
+      ]
+    },
+    {
+      "name": "Pestle Slap",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 31 (6d8 + 4) bludgeoning damage. The target must succeed on a DC 20 Constitution saving throw or have disadvantage on concentration checks until the end of its next turn."
+      ],
+      "attack": [
+        "Pestle Slap|10|6d8+4"
+      ]
+    },
+    {
+      "name": "Bite (if iron teeth are equipped)",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 37 (6d10 + 4) piercing damage and the target must succeed on a DC 20 Wisdom saving throw or be frightened of Baba Yaga until the end of its next turn."
+      ],
+      "attack": [
+        "Bite (if iron teeth are equipped)|10|6d10+4"
+      ]
+    },
+    {
+      "name": "Breath of the Bone Mother (Recharge 5-6)",
+      "text": [
+        "Calling on her elemental powers and her mastery of crone-magic, Baba Yaga exhales a great wind in a 40-foot cone that smells of fetid mires and sausages. Creatures caught in that area must make a DC 18 Constitution saving throw. On a failure, a target takes 45 (10d8) necrotic damage and is affected by the bestow curse spell for 1 minute. On a success, a target takes half the necrotic damage but is not cursed. In addition, a creature damaged by the wind releases a stinking cloud (DC 18 Constitution saving throw against the cloud's poison) centered on it at the beginning of its next turn. The cloud dissipates after 1d4 rounds."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Dance of the Time Taunter (1/Day)",
+      "text": [
+        "When Baba Yaga's turn ends, she can take an additional turn. A creature able to see Baba Yaga dance through time has its understanding of the universe challenged and must succeed on a DC 18 Intelligence saving throw or be stunned until the end of its next turn."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fey can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fey regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "Baba Yaga can take 3 legendary actions, choosing from the options listed. Only one legendary action can be used at a time and only at the end of another creature's turn. She regains spent legendary actions at the start of her turn."
+      ]
+    },
+    {
+      "name": "At Will Spell",
+      "text": [
+        "Baba Yaga casts one at will spell from her list or from her iron teeth's list if it is equipped."
+      ]
+    },
+    {
+      "name": "Pestle Slap",
+      "text": [
+        "Baba Yaga makes one pestle slap attack."
+      ]
+    },
+    {
+      "name": "Breath of the Bone Mother (Costs 2 Actions)",
+      "text": [
+        "Baba Yaga uses Breath of the Bone Mother, if it is available."
+      ]
+    }
+  ],
+  "spells": "eldritch blast, message, minor illusion, spare the dying, command, disguise self, hideous laughter, blindness/deafness, darkness, enthrall, clairvoyance, counterspell, lightning bolt, banishment, blight, polymorph, animate objects, insect plague",
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest"
+}

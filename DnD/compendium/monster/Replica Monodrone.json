@@ -1,0 +1,61 @@
+{
+  "name": "Replica Monodrone",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Lawful Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "5 (1d8+1)",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "10",
+  "dex": "13",
+  "con": "12",
+  "int": "4",
+  "wis": "10",
+  "cha": "5",
+  "passive": "10",
+  "languages": "Modron",
+  "cr": "1/8",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Axiomatic Mind",
+      "text": [
+        "The monodrone can't be compelled to act in a manner contrary to its nature or its instructions."
+      ]
+    },
+    {
+      "name": "Dismantlable",
+      "text": [
+        "If the replica monodrone dies, its body falls into a pile of parts (gears, plates, screws, and wires), leaving behind its weapons and anything else it was carrying."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+3|1d4+1"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. 3 (1d6) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+2|1d6"
+      ]
+    },
+    {
+      "name": "Variant: Rogue Modrons",
+      "text": [
+        "A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+        "A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+      ]
+    }
+  ],
+  "description": "\nSource: The Orrery of the Wanderer p. 132"
+}

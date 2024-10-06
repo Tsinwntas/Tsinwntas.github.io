@@ -1,0 +1,69 @@
+{
+  "name": "Sandman",
+  "size": "M",
+  "type": "celestial,tome of Beasts",
+  "alignment": "chaotic neutral",
+  "ac": "14",
+  "hp": "82 (11d8+33)",
+  "speed": "40 ft.",
+  "str": "11",
+  "dex": "19",
+  "con": "16",
+  "int": "13",
+  "wis": "14",
+  "cha": "19",
+  "save": "Dex +7, Cha +7",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+  "immune": "poison, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned, unconscious",
+  "senses": "truesight 60 ft.",
+  "passive": "12",
+  "languages": " Common, Celestial, Giant, Infernal, Umbral",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Eye-Closer's Curse",
+      "text": [
+        "If a sandman obtains a critical hit or successful surprise attack against an opponent, its talons scratch a rune onto the target's eyeballs that snaps their eyelids shut, leaving them blinded. This effect can be ended with greater restoration, remove curse, or comparable magic."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The sandman's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:",
+        "At will: darkness, minor illusion, plane shift (at night only), phantom steed, prestidigitation, sleep (11d8)",
+        "3/day each: hypnotic pattern, major image",
+        "1/day each: dream, phantasmal killer (5d10)"
+      ]
+    },
+    {
+      "name": "Stuff of Dreams",
+      "text": [
+        "Made partially from dreams and imagination, a sandman takes only half damage from critical hits and from sneak attacks. All of the attack's damage is halved, not just bonus damage."
+      ]
+    },
+    {
+      "name": "Surprise Attack",
+      "text": [
+        "If the sandman hits a surprised creature during the first round of combat, the target takes 14 (4d6) extra damage from the attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The sandman makes two claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|7|2d6+4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Tecuziztecatl",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Neutral",
+  "ac": "13 (natural armor)",
+  "hp": "102 (12d10+36)",
+  "speed": "walk 30 ft., climb 30 ft., swim 30 ft.",
+  "str": "17",
+  "dex": "10",
+  "con": "16",
+  "int": "15",
+  "wis": "16",
+  "cha": "13",
+  "skill": "Deception +3, Stealth +2",
+  "passive": "13",
+  "languages": "Olman, Primordial",
+  "cr": "4",
+  "resist": "bludgeoning from nonmagical attacks",
+  "immune": "acid",
+  "senses": "blindsight 30 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Tecuziztecatl can breathe air and water."
+      ]
+    },
+    {
+      "name": "Glowing",
+      "text": [
+        "Tecuziztecatl sheds dim light within 20 feet of itself."
+      ]
+    },
+    {
+      "name": "Flexible",
+      "text": [
+        "Tecuziztecatl can enter a space large enough for a Medium creature without squeezing."
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "text": [
+        "Tecuziztecatl can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Tecuziztecatl makes two pseudopod attacks."
+      ]
+    },
+    {
+      "name": "Pseudopod",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. 12 (2d8 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Pseudopod|+5|2d8+3"
+      ]
+    },
+    {
+      "name": "Spit Acid (Recharge 4-6)",
+      "text": [
+        "Tecuziztecatl exhales acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 18 (4d8) acid damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Spit Acid (Recharge 4-6)||4d8"
+      ]
+    }
+  ],
+  "description": "A giant slug named Tecuziztecatl, the Lord of Snails. Tecuziztecatl (TayCOO-zeez-tay-COT-el) is highly intelligent and quite the boaster. In ancient lore it was considered to be related to the moon, a fact of which it is quite proud. During combat the slug will detail, in Olman, what it has in store for the characters and how hopeless their situation is.\nSource: Tales from the Yawning Portal p. 245"
+}

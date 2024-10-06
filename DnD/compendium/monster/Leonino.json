@@ -1,0 +1,54 @@
+{
+  "name": "Leonino",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "13 (3d4+6)",
+  "speed": "walk 30 ft., fly 40 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "14",
+  "int": "8",
+  "wis": "8",
+  "cha": "12",
+  "save": "Dex +5, Wis +1",
+  "skill": "Perception +1, Persuasion +3, Stealth +5",
+  "passive": "11",
+  "languages": "Elvish",
+  "cr": "1/8",
+  "senses": "darkvision 30 ft.",
+  "trait": [
+    {
+      "name": "Flyby",
+      "text": [
+        "The leonino doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Evasion",
+      "text": [
+        "If the leonino is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the leonino instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      ]
+    },
+    {
+      "name": "Silent Wings",
+      "text": [
+        "The flight of a leonine is especially silent and difficult to notice in forests and urban settings. It has advantage on Dexterity (Stealth) checks made while flying in these areas."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) slashing damage. If this is the first time the leonino has hit the target within the past 24 hours, the target must succeed on a DC 10 Wisdom saving throw or be charmed by the leonino for 1 hour."
+      ],
+      "attack": [
+        "Bite|5|1d4+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 250",
+  "environment": "forest"
+}

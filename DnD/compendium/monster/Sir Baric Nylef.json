@@ -1,0 +1,57 @@
+{
+  "name": "Sir Baric Nylef",
+  "size": "M",
+  "type": "humanoid (Illuskanhuman)",
+  "alignment": "Lawful Good",
+  "ac": "18 (plate armor)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "11",
+  "con": "14",
+  "int": "11",
+  "wis": "15",
+  "cha": "15",
+  "skill": "Insight +4, Investigation +2, Medicine +4, Survival +4",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Brave",
+      "text": [
+        "Baric has advantage on saving throws against being frightened."
+      ]
+    },
+    {
+      "name": "Roleplaying Information",
+      "text": [
+        "As a knight of the Order of the Gauntlet, Sir Baric has sworn oaths to catch evildoers and bring them to justice. His current quarry is a dwarf brigand, Worvil \"the Weevil\" Forkbeard, who is rumored to be hiding in Icewind Dale. In addition to his gear, Sir Baric has an unarmored warhorse, Henry.",
+        "Ideal: \"Evil must not be allowed to thrive in this world.\"",
+        "Bond: \"Tyr is my lord; the order, my family. Through my actions, I shall honor both.\"",
+        "Flaw: \"I'm not afraid to die. When Tyr finally calls me, I'll go to him happily.\""
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Maul",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Maul|+6|2d6+4"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage. Baric carries twenty crossbow bolts."
+      ],
+      "attack": [
+        "Heavy Crossbow|+2|1d10"
+      ]
+    }
+  ],
+  "description": "As a knight of the Order of the Gauntlet, Sir Baric has sworn oaths to catch evildoers and bring them to justice. His current quarry is a dwarf brigand, Worvil \"the Weevil\" Forkbeard, who is rumored to be hiding in Icewind Dale. In addition to his gear, Sir Baric has an unarmored warhorse, Henry.\nIdeal:\"Evil must not be allowed to thrive in this world.\"\nBond:\"Tyr is my lord; the order, my family. Through my actions, I shall honor both.\"\nFlaw:\"I'm not afraid to die. When Tyr finally calls me, I'll go to him happily.\"\nSource: Storm King's Thunder p. 249"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Horncaller",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Lawful Good",
+  "ac": "13 (hide armor)",
+  "hp": "39 (6d8+12)",
+  "speed": "walk 30 ft.",
+  "str": "13",
+  "dex": "12",
+  "con": "14",
+  "int": "10",
+  "wis": "14",
+  "cha": "13",
+  "skill": "Animal handling +4, Nature +2, Perception +4",
+  "passive": "14",
+  "languages": "Common plus any one language",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Speak with Beasts",
+      "text": [
+        "The horncaller can communicate with beasts as if they shared a language."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The horncaller's innate spellcasting ability is Wisdom (spell save DC 14). The horncaller can innately cast the following spells, requiring no material components:",
+        "1/day each: bless, conjure animals"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The horncaller makes two melee attacks with its staff and uses One with the Worldsoul."
+      ]
+    },
+    {
+      "name": "Staff",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) bludgeoning damage if used with two hands."
+      ],
+      "attack": [
+        "Staff|+3|1d6+1"
+      ]
+    },
+    {
+      "name": "One with the Worldsoul",
+      "text": [
+        "The horncaller chooses one beast it can see within 30 feet of it. If the beast can hear the horncaller, the beast uses its reaction to make one melee attack against a target that the horncaller can see."
+      ]
+    }
+  ],
+  "spells": "bless, conjure animals",
+  "description": "Specialized shamans called horncallers use their magic to call wild beasts to fight alongside Selesnya troops. In quieter times, they tend the animals associated with Selesnya enclaves and parks.\nSource: Guildmasters' Guide to Ravnica p. 253"
+}

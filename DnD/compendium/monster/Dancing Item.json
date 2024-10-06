@@ -1,0 +1,49 @@
+{
+  "name": "Dancing Item",
+  "size": "L",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "16 (natural armor)",
+  "hp": "10",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "18",
+  "dex": "14",
+  "con": "16",
+  "int": "4",
+  "wis": "10",
+  "cha": "6",
+  "passive": "10",
+  "languages": "understands the languages you speak",
+  "immune": "poison, psychic",
+  "conditionImmune": "charmed, exhaustion, poisoned, frightened",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "10 + five times your bard level"
+      ]
+    },
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The item is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Irrepressible Dance",
+      "text": [
+        "When any creature starts its turn within 10 feet of the item, the item can increase or decrease (your choice) the walking speed of that creature by 10 feet until the end of the turn, provided the item isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Force-Empowered Slam",
+      "text": [
+        "Melee Weapon Attack: {@hitYourSpellAttack} to hit, reach 5 ft., one target you can see. 1d10 + PB force damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Tasha's Cauldron of Everything"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Minotaur (Amonkhet)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 2, Con 1",
+  "proficiency": "Intimidation",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Amonkhet p. 19"
+    },
+    {
+      "name": "Age",
+      "text": "Minotaurs develop more slowly than humans, reaching full maturity around the age of 20. They typically become acolytes at around 8 or 9 years old, making them among the older members of their crops. Once they reach maturity, though, minotaurs age quickly, rushing headlong through the trials (as they do all aspects of life) to complete them before they pass their peak. A minotaur allowed to die of old age would rarely live beyond 40.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most minotaurs lean toward chaotic alignments, and they have a slight inclination toward evil.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Minotaurs average over 6 feet in height, and they have strong, stocky builds. Your size is Medium.\n"
+    },
+    {
+      "name": "Natural Weapon",
+      "text": "You can use your horns as a natural weapon to make unarmed strikes. If you hit with your horns, you deal bludgeoning damage equal to 1d6 + your Strength modifier.\n"
+    },
+    {
+      "name": "Menacing",
+      "text": "You gain proficiency in the Intimidation skill.\n"
+    },
+    {
+      "name": "Relentless Endurance",
+      "text": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.\n"
+    },
+    {
+      "name": "Savage Attacks",
+      "text": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Minotaur.\n"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Tusked Crimson Ogre",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (half plate armor)",
+  "hp": "93 (11d10+33)",
+  "speed": "walk 40 ft.",
+  "str": "19",
+  "dex": "8",
+  "con": "16",
+  "int": "5",
+  "wis": "7",
+  "cha": "7",
+  "save": "Con +6, Wis +1",
+  "skill": "Athletics +7, Intimidation +4",
+  "passive": "8",
+  "languages": "Common, Giant",
+  "cr": "5",
+  "resist": "poison",
+  "conditionImmune": "frightened",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The ogre has advantage on melee attack rolls against any creature that doesn't have all its hp."
+      ]
+    },
+    {
+      "name": "Rampage",
+      "text": [
+        "When the ogre reduces a creature to 0 hp with a melee attack on its turn, the ogre can take a bonus action to move up to half its speed and make one bite attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tusked crimson ogre makes two attacks.",
+        "one with its morningstar and one with its bite."
+      ]
+    },
+    {
+      "name": "Morningstar",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Morningstar|7|2d8+4"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack:+7 to hit, reach 5 ft., one target. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|7|2d6+4"
+      ]
+    },
+    {
+      "name": "Berserker's Blood (Recharge 5-6)",
+      "text": [
+        "If the tusked crimson ogre doesn't have all of its hp, it flexes and roars, spraying blood from its wounds. Each creature within 15 feet of the ogre must make a DC 14 Constitution saving throw. On a failure, a creature takes 21 (6d6) acid damage and goes berserk. On a success, a creature takes half the damage and doesn't go berserk. On each of its turns, a berserk creature must attack the nearest creature it can see, eschewing ranged or magical attacks in favor of melee attacks. If no creature is near enough to move to and attack, the berserk creature attacks an object, with preference for an object smaller than itself. Once a creature goes berserk, it continues to do so until it is unconscious, regains all of its hp, or is cured through lesser restoration or similar magic."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "badlands, grassland"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Shockwing",
+  "size": "S",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "27 (5d6+10)",
+  "speed": "walk 25 ft., fly 30 ft.",
+  "str": "11",
+  "dex": "15",
+  "con": "14",
+  "int": "3",
+  "wis": "10",
+  "cha": "7",
+  "skill": "Perception +2, Stealth +4",
+  "passive": "12",
+  "cr": "1",
+  "immune": "lightning",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Antennae",
+      "text": [
+        "The giant moth has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Charged",
+      "text": [
+        "At the start of each of the shockwing's turns, each creature within 5 feet of it must succeed on a DC 12 Constitution saving throw or take 2 (1d4) lightning damage. This trait doesn't function if the shockwing has used its Fulminating Wings in the last 24 hours."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The shockwing makes two proboscis attacks."
+      ]
+    },
+    {
+      "name": "Proboscis",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage and 2 (1d4) lightning damage."
+      ],
+      "attack": [
+        "Proboscis|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Fulminating Wings (1/Day)",
+      "text": [
+        "A 20-foot radius burst of electricity releases from the shockwing. Each creature in that area must succeed on a DC 12 Constitution saving throw or be stunned until the end of its next turn."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest, grassland"
+}

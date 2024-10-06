@@ -1,0 +1,8 @@
+{
+  "name": "Lamp",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "1",
+  "value": "0.5",
+  "text": "A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.\nSource: Player's Handbook p. 152"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Zi Liang",
+  "size": "M",
+  "type": "humanoid (Shouhuman)",
+  "alignment": "Chaotic Good",
+  "ac": "15",
+  "hp": "22 (5d8)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "15",
+  "con": "11",
+  "int": "14",
+  "wis": "16",
+  "cha": "11",
+  "skill": "Acrobatics +4, Athletics +3, Perception +5, Stealth +4",
+  "passive": "15",
+  "languages": "Common, Elvish, Goblin",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Unarmored Defense",
+      "text": [
+        "While Zi is wearing no armor and wielding no shield, her AC includes her Wisdom modifier."
+      ]
+    },
+    {
+      "name": "Roleplaying Information",
+      "text": [
+        "Zi Liang is a devout worshiper of Chauntea, the Earth Mother. She has considerably less faith in Goldenfields' defenders, so she patrols the temple-farm during her off-duty hours.",
+        "Ideal: \"If we faithfully tend to our gardens and our fields, Chauntea will smile upon us.\"",
+        "Bond: \"Goldenfields is the breadbasket of the North. People depend on its safety and prosperity, and I'll do what must be done to protect it.\"",
+        "Flaw: \"I don't trust authority. I do what my heart says is right.\""
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Zi makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used with both hands."
+      ],
+      "attack": [
+        "Quarterstaff|+3|1d6+1"
+      ]
+    },
+    {
+      "name": "Sling",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 4 (1d4 + 2) bludgeoning damage. Zi carries twenty sling stones."
+      ],
+      "attack": [
+        "Sling|+4|1d4+2"
+      ]
+    }
+  ],
+  "description": "Zi Liang is a devout worshiper of Chauntea, the Earth Mother. She has considerably less faith in Goldenfields' defenders, so she patrols the temple-farm during her off-duty hours.\nIdeal:\"If we faithfully tend to our gardens and our fields, Chauntea will smile upon us.\"\nBond:\"Goldenfields is the breadbasket of the North. People depend on its safety and prosperity, and I'll do what must be done to protect it.\"\nFlaw:\"I don't trust authority. I do what my heart says is right.\"\nSource: Storm King's Thunder p. 251"
+}

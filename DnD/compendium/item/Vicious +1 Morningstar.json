@@ -1,0 +1,13 @@
+{
+  "name": "Vicious +1 Morningstar",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "property": "M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon.\nWhen you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.\nNote: According to the SRD, it is an extra 2d6 piercing damage.\nSource: Acquisitions Incorporated p. 149",
+  "roll": [
+    "2d6"
+  ]
+}

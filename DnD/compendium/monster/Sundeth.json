@@ -1,0 +1,62 @@
+{
+  "name": "Sundeth",
+  "size": "L",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "18 (plate armor)",
+  "hp": "143 (22d8+44)",
+  "speed": "walk 30 ft.",
+  "str": "20",
+  "dex": "15",
+  "con": "14",
+  "int": "10",
+  "wis": "14",
+  "cha": "12",
+  "save": "Str +9, Con +6",
+  "skill": "Athletics +9, Intimidation +5, Perception +6",
+  "passive": "16",
+  "languages": "any one language (usually Common)",
+  "cr": "9",
+  "trait": [
+    {
+      "name": "Indomitable (2/Day)",
+      "text": [
+        "Sundeth rerolls a failed saving throw."
+      ]
+    },
+    {
+      "name": "Second Wind (Recharges after a Short or Long Rest)",
+      "text": [
+        "As a bonus action, Sundeth can regain 20 hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Sundeth makes three attacks with its greatsword or its shortbow."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 12 (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if Sundeth has more than half of its total hit points remaining."
+      ],
+      "attack": [
+        "Greatsword|+9|2d6+5"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if Sundeth has more than half of its total hit points remaining."
+      ],
+      "attack": [
+        "Shortbow|+6|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 304",
+  "environment": "desert, urban"
+}

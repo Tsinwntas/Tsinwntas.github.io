@@ -1,0 +1,70 @@
+{
+  "name": "Ironscale Hydra",
+  "size": "G",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "17 (natural armor)",
+  "hp": "181 (11d20+66)",
+  "speed": "walk 40 ft., swim 40 ft.",
+  "str": "22",
+  "dex": "10",
+  "con": "22",
+  "int": "2",
+  "wis": "10",
+  "cha": "7",
+  "skill": "Perception +8",
+  "passive": "18",
+  "cr": "12",
+  "immune": "acid",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Acidic Blood",
+      "text": [
+        "When the hydra takes piercing or slashing damage, each creature within 5 feet of the hydra takes 9 (2d8) acid damage."
+      ]
+    },
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The hydra can hold its breath for 1 hour."
+      ]
+    },
+    {
+      "name": "Multiple Heads",
+      "text": [
+        "The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious. Whenever the hydra takes 35 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way."
+      ]
+    },
+    {
+      "name": "Reactive Heads",
+      "text": [
+        "For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+      ]
+    },
+    {
+      "name": "Wakeful",
+      "text": [
+        "While the hydra sleeps, at least one of its heads is awake."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hydra makes as many bite attacks as it has heads."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. 17 (2d10 + 6) piercing damage."
+      ],
+      "attack": [
+        "Bite|+10|2d10+6"
+      ]
+    }
+  ],
+  "description": "Five-headed ironscale hydras lurk in the wild places of the world, being common foes for heroes seeking to test their mettle against terrors worthy of the gods' notice. Most ironscale hydras inhabit lakes and boggy caverns, from which they hunt unwary creatures that come for a drink or swim.\nWhat krakens are to the sea and dragons are to the sky, hydras are to the lands of Theros. Various hydras dwell at the fringes of civilization, from the bog-dwelling hydras known across the multiverse to massive ironscale hydras that lurk in deep wildernesses. Beyond even these exist serpentine horrors born of the whims of foul gods, like the legendary hydra Polukranos.\nSource: Mythic Odysseys of Theros p. 231"
+}

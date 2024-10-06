@@ -1,0 +1,66 @@
+{
+  "name": "Gnoll Havoc Runner",
+  "size": "M",
+  "type": "humanoid (gnoll),tome of Beasts",
+  "alignment": "chaotic evil",
+  "ac": "15 (chain shirt)",
+  "hp": "58 (9d8+18)",
+  "speed": "30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "14",
+  "int": "8",
+  "wis": "12",
+  "cha": "9",
+  "skill": "Athletics +5, Perception +5",
+  "senses": "darkvision 60 ft.",
+  "passive": "15",
+  "languages": " Gnoll",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Harrying Attacks",
+      "text": [
+        "If the gnoll attacks two creatures in the same turn, the first target has disadvantage on attack rolls until the end of its next turn."
+      ]
+    },
+    {
+      "name": "Lightning Lope",
+      "text": [
+        "The gnoll can Dash or Disengage as a bonus action."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The gnoll has advantage on its attack rolls against a target if at least one of the gnoll's allies is within 5 feet of the target and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gnoll makes one bite attack and two battleaxe attacks."
+      ]
+    },
+    {
+      "name": "Battleaxe",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage or 8 (1d10 + 3) slashing damage if used in two hands."
+      ],
+      "attack": [
+        "Battleaxe|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|1d6+3"
+      ]
+    }
+  ]
+}

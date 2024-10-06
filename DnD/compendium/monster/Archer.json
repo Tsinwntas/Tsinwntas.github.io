@@ -1,0 +1,55 @@
+{
+  "name": "Archer",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "16 (studded leather armor)",
+  "hp": "75 (10d8+30)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "18",
+  "con": "16",
+  "int": "11",
+  "wis": "13",
+  "cha": "10",
+  "skill": "Acrobatics +6, Perception +5",
+  "passive": "15",
+  "languages": "any one language (usually Common)",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Archer's Eye (3/Day)",
+      "text": [
+        "As a bonus action, the archer can add 1d10 to its next attack or damage roll with a longbow or shortbow."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The archer makes two attacks with its longbow."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+6|1d6+4"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. 8 (1d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+6|1d8+4"
+      ]
+    }
+  ],
+  "description": "Archers defend castles, hunt wild game on the fringes of civilization, serve as artillery in military units, and occasionally make good coin as brigands or caravan guards.\nSource: Volo's Guide to Monsters p. 210, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Mythic Odysseys of Theros",
+  "environment": "forest, urban"
+}

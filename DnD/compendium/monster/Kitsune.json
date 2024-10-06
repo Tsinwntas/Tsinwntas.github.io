@@ -1,0 +1,75 @@
+{
+  "name": "Kitsune",
+  "size": "S",
+  "type": "fey (shapechanger)",
+  "alignment": "Chaotic Neutral",
+  "ac": "12",
+  "hp": "49 (14d6)",
+  "speed": "walk 40 ft.",
+  "str": "8",
+  "dex": "15",
+  "con": "11",
+  "int": "12",
+  "wis": "15",
+  "cha": "14",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "Common, Sylvan",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The kitsune can use its action to polymorph into a Small or Medium humanoid, or back into its true form. The kitsune's tails remain, however, and its humanoid form often has a fine coat of fur the same color as the kitsune. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The kitsune's innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: detect thoughts, fire bolt (2d10), invisibility (self only), major image",
+        "2/day each: disguise self, fear, tongues",
+        "1/day each: confusion, fly"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "In humanoid form, the kitsune makes one rapier attack and one dagger attack. In fox form, it makes two bite attacks."
+      ]
+    },
+    {
+      "name": "Bite (Fox Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite (Fox Form Only)|4|2d4+2"
+      ]
+    },
+    {
+      "name": "Rapier (Humanoid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Rapier (Humanoid Form Only)|4|1d8+2"
+      ]
+    },
+    {
+      "name": "Dagger (Humanoid Form Only)",
+      "text": [
+        "Melee or Ranged Weapon Attack. +4 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger (Humanoid Form Only)|4|1d4+2"
+      ]
+    }
+  ],
+  "spells": "detect thoughts, fire bolt, invisibility, major image, disguise self, fear, tongues, confusion, fly",
+  "description": "Source: CCodex (3pp) p. 236",
+  "environment": "farmland"
+}

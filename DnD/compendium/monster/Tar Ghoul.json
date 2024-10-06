@@ -1,0 +1,65 @@
+{
+  "name": "Tar Ghoul",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "66 (12d8+12)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "17",
+  "con": "13",
+  "int": "11",
+  "wis": "10",
+  "cha": "8",
+  "skill": "Perception +2",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "4",
+  "resist": "necrotic",
+  "immune": "fire, poison",
+  "conditionImmune": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fire Hazard",
+      "text": [
+        "As a bonus action or when it takes fire damage, the tar ghoul bursts into flame. The tar ghoul continues burning until it takes cold damage or is immersed in water. A creature that touches the tar ghoul or hits it with a melee attack while within 5 feet of it while it is burning takes 3 (1d6) fire damage.",
+        "While burning, a tar ghoul deals an extra 3 (1d6) fire damage on each melee attack, and its vomit tar action is a 15-foot cone that ignites immediately. Each creature in that area must make a DC 13 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tar ghoul makes one bite attack and one claw attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 12 (2d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|2d8+3"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Claw|5|2d6+3"
+      ]
+    },
+    {
+      "name": "Vomit Tar (Recharge 56)",
+      "text": [
+        "The tar ghoul vomits tar, covering the ground in a 10-foot square within 5 feet of it. Each creature in the area must succeed on a DC 13 Dexterity saving throw or be covered with tar. The tar ignites if touched by a source of fire or if a creature covered with tar takes fire damage. The tar burns for 3 (1d6) rounds or until a creature takes an action to stop the blaze. A creature that starts its turn in the area or that starts its turn covered with burning tar takes 5 (1d10) fire damage."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Drow +1 Lance",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "R,S,M",
+  "dmg1": "1d12",
+  "dmgType": "P",
+  "text": "Special: You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.\nYou have a +1 bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nSource: Monster Manual p. 126"
+}

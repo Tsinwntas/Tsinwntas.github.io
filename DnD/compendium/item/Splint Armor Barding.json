@@ -1,0 +1,10 @@
+{
+  "name": "Splint Armor Barding",
+  "detail": "Tack and Harness",
+  "type": "G",
+  "weight": "60",
+  "ac": "17",
+  "stealth": "1",
+  "strength": "15",
+  "text": "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table in this chapter can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nSource: Player's Handbook p. 157"
+}

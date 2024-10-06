@@ -1,0 +1,81 @@
+{
+  "name": "Dralmorrer Borngray",
+  "size": "M",
+  "type": "humanoid (high elf)",
+  "alignment": "Neutral Evil",
+  "ac": "16 (studded leather armor, shield)",
+  "hp": "52 (7d10+14)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "14",
+  "con": "14",
+  "int": "16",
+  "wis": "10",
+  "cha": "8",
+  "save": "Str +6, Con +4",
+  "skill": "Arcana +5, Deception +1, Insight +2, Perception +2, Religion +5",
+  "passive": "12",
+  "languages": "Common, Bullywug, Draconic, Elvish, Goblin, Sylvan",
+  "cr": "3",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Dralmorrer has advantage on saving throws against being charmed, and magic can't put him to sleep."
+      ]
+    },
+    {
+      "name": "War Magic",
+      "text": [
+        "When Dralmorrer uses his action to cast a cantrip, he can also take a bonus action to make one weapon attack."
+      ]
+    },
+    {
+      "name": "Weapon Bond",
+      "text": [
+        "Provided his longsword is on the same plane Dralmorrer can take a bonus action to teleport it to his hand."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Dralmorrer is a 7th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Dralmorrer has the following spells prepared from the wizard spell list:",
+        "Cantrips (at will): fire bolt, prestidigitation, shocking grasp",
+        "• 1st level (4 slots): longstrider, magic missile, shield, thunderwave",
+        "• 2nd level (2 slots): magic weapon, misty step"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Dralmorrer attacks twice, either with his longsword or dagger."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage."
+      ],
+      "attack": [
+        "Longsword|+6|1d8+4"
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20/60 ft., one target. 6 (1d4 + 4) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+6|1d4+4"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 2"
+  ],
+  "spells": "fire bolt, prestidigitation, shocking grasp, longstrider, magic missile, shield, thunderwave, magic weapon, misty step",
+  "description": "\nSource: Hoard of the Dragon Queen p. 90"
+}

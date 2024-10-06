@@ -1,0 +1,55 @@
+{
+  "name": "Barnibus Blastwind",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Good",
+  "ac": "10 (13 with mage armor)",
+  "hp": "24 (7d8-7)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "10",
+  "con": "9",
+  "int": "17",
+  "wis": "15",
+  "cha": "11",
+  "save": "Int +5, Wis +4",
+  "skill": "Arcana +5, Insight +6, Investigation +7, Perception +4",
+  "passive": "14",
+  "languages": "Common, Draconic, Dwarvish, Halfling",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Barnibus carries a wand of magic detection. (spell included in spell list below but does not use a slot when cast from the wand)"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Barnibus is a 7th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks) He has the following wizard spells prepared:",
+        "Cantrips (at will): blade ward, light, mage hand, message",
+        "• 1st level (4 slots): comprehend languages, identify, detect magic, mage armor, shield",
+        "• 2nd level (3 slots): detect thoughts, suggestion",
+        "• 3rd level (3 slots): clairvoyance, sending",
+        "• 4th level (1 slots): locate creature, Otiluke's resilient sphere"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. 2 (1d4) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+2|1d4"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 1"
+  ],
+  "spells": "blade ward, light, mage hand, message, comprehend languages, identify, detect magic, mage armor, shield, detect thoughts, suggestion, clairvoyance, sending, locate creature, Otiluke's resilient sphere",
+  "description": "Barnibus works for the Watchful Order of Magists and Protectors, investigating crimes that involve the use of magic. He comes across as prickly and secretive, confiding only in Saeth Cromley, a retired sergeant of the City Watch who assists in many of his investigations.\nA lifelong bachelor, Barnibus has a small, tidy estate in the Sea Ward that he inherited from his grandmother. When not serving the Watchful Order, he spends his days reading and writing books in his library.\nBarnibus uses spells that help him investigate crimes, pry secrets from the minds of suspects, and locate missing persons. He finds violence appalling and would never use his magic to inflict harm on others-even those who harm him.\nSource: Waterdeep: Dragon Heist p. 195"
+}

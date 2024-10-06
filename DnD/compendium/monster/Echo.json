@@ -1,0 +1,55 @@
+{
+  "name": "Echo",
+  "size": "M",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "15",
+  "hp": "102 (12d8+48)",
+  "speed": "walk 30 ft., fly 20 ft.",
+  "str": "20",
+  "dex": "20",
+  "con": "18",
+  "int": "14",
+  "wis": "18",
+  "cha": "16",
+  "skill": "Persuasion +6, Stealth +8",
+  "passive": "14",
+  "languages": "Abyssal, Celestial",
+  "cr": "6",
+  "resist": "cold, fire, lightning",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Aura Of Cacophony",
+      "text": [
+        "The demon's presence is extremely distracting. Each creature within 100 feet of the echo demon and that can hear it has disadvantage on concentration checks."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Iron Claws",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage and if the creature is wearing metal armor, it must make a successful DC 15 Constitution saving throw or be deafened until the end of its next turn."
+      ],
+      "attack": [
+        "Iron Claws|8|2d8+5"
+      ]
+    },
+    {
+      "name": "Everywhere at Once (Recharge 5-6)",
+      "text": [
+        "The echo demon teleports up to 60 feet to an unoccupied space. Immediately after teleporting, it can make an iron claws attack with advantage as a bonus action."
+      ]
+    },
+    {
+      "name": "Echoes of the Abyss (1/Day)",
+      "text": [
+        "The echo demon summons horrible wails from the deep crevasses of the Abyss. Creatures within 60 feet who can hear the wails must succeed on a DC 15 Wisdom saving throw or be stunned until the start of the echo demon's next turn. An affected creature continues hearing the troubling echoes of these cries until it finishes a long rest, and it has disadvantage on Intelligence checks until then."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

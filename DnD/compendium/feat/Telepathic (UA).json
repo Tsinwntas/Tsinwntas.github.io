@@ -1,0 +1,13 @@
+{
+  "name": "Telepathic (UA)",
+  "text": "You awaken the ability to mentally connect with others. You gain the following benefits:\n• You gain proficiency in one skill of your choice from the following list: Deception, Insight, Intimidation, or Persuasion.\n• You can communicate Telepathic (UA)ally with any creature you can see within 30 feet of you. If it understands at least one language, it can respond to you Telepathic (UA)ally.\nSource: Unearthed Arcana: Fighter Rogue Wizard p. 8",
+  "modifier": [
+    {
+      "_": "Intelligence +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}quiring no components. When you start casting the spell, your Psionic Talent die decreases by one die size. Your spellcasting ability for the spell is the ability increased by this feat.\nSource: Unearthed Arcana: 2020 Psionic Options Revisited p. 8"
+}

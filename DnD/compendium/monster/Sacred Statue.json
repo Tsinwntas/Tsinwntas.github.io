@@ -1,0 +1,69 @@
+{
+  "name": "Sacred Statue",
+  "size": "L",
+  "type": "construct",
+  "alignment": "as the eidolon's alignment",
+  "ac": "19 (natural armor)",
+  "hp": "95 (10d10+40)",
+  "speed": "walk 25 ft.",
+  "str": "19",
+  "dex": "8",
+  "con": "19",
+  "int": "14",
+  "wis": "19",
+  "cha": "16",
+  "save": "Wis +8",
+  "passive": "14",
+  "languages": "the languages the eidolon knew in life",
+  "resist": "acid, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "cold, necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the statue remains motionless, it is indistinguishable from a normal statue."
+      ]
+    },
+    {
+      "name": "Ghostly Inhabitant",
+      "text": [
+        "The eidolon that enters the sacred statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the dispel evil and good spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
+      ]
+    },
+    {
+      "name": "Inert",
+      "text": [
+        "When not inhabited by an eidolon, the statue is an object."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The statue makes two slam attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 43 (6d12 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|+8|6d12+4"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. 37 (6d10 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|+8|6d10+4"
+      ]
+    }
+  ],
+  "description": "\nIt's not just gods that have the power to bind spirits to their idols. Beings such as archdevils can do it with the souls of their cultists. Moloch, for instance.\n — Mordenkainen\n\nSacred Statue. See Eidolon for details\nSource: Mordenkainen's Tome of Foes p. 194, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Infernal Machine Rebuild"
+}

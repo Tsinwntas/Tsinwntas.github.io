@@ -1,0 +1,87 @@
+{
+  "name": "Varram",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Neutral Evil",
+  "ac": "16 (studded leather armor)",
+  "hp": "110 (17d8+34)",
+  "speed": "walk 25 ft.",
+  "str": "11",
+  "dex": "18",
+  "con": "14",
+  "int": "13",
+  "wis": "12",
+  "cha": "16",
+  "save": "Wis +4",
+  "skill": "Deception +6, Stealth +7",
+  "passive": "11",
+  "languages": "Common, Draconic, Infernal, Dwarvish",
+  "cr": "7",
+  "resist": "one of the following: acid, cold, fire, lightning, poison, poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "5etools Note",
+      "text": [
+        "Varram is presented in The Rise of Tiamat as a male dwarf. The dragonsoul statblock, modified with dwarf racial traits, has been provided here for ease of use."
+      ]
+    },
+    {
+      "name": "Dragon Fanatic",
+      "text": [
+        "Varram has advantage on saving throws against being charmed or frightened. While Varram can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, Varram ignores the effects of being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Fanatic Advantage",
+      "text": [
+        "Once per turn, if Varram makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage."
+      ]
+    },
+    {
+      "name": "Limited Flight",
+      "text": [
+        "Varram can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "Varram has advantage on an attack roll against a creature if at least one of Varram's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against poison, and has resistance against poison damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Varram attacks twice with its shortsword."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which Varram has resistance."
+      ],
+      "attack": [
+        "Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Orb of Dragon's Breath (3/Day)",
+      "text": [
+        "Ranged Spell Attack: +7 to hit, range 90 ft., one target. 27 (6d8) damage of the type to which Varram has damage resistance."
+      ],
+      "attack": [
+        "Orb of Dragon's Breath (3/Day)|+7|6d8"
+      ]
+    }
+  ],
+  "description": "\nSource: Rise of Tiamat p. 9"
+}

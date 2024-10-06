@@ -1,0 +1,54 @@
+{
+  "name": "Frilled Deathspitter",
+  "size": "S",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "18 (4d6+4)",
+  "speed": "walk 40 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "13",
+  "int": "4",
+  "wis": "12",
+  "cha": "6",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "1/2",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The deathspitter makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Spit Poison",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 15/30 ft., one creature. The target must make a DC 13 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. In addition, a creature that fails its saving throw is blinded until the end of the deathspitter's next turn."
+      ],
+      "attack": [
+        "Spit Poison|+5|4d8"
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Ixalan p. 30"
+}

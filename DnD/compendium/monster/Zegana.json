@@ -1,0 +1,114 @@
+{
+  "name": "Zegana",
+  "size": "M",
+  "type": "humanoid (merfolk)",
+  "alignment": "Lawful Neutral",
+  "ac": "16 (natural armor)",
+  "hp": "130 (20d8+40)",
+  "speed": "walk 30 ft., swim 40 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "14",
+  "int": "20",
+  "wis": "18",
+  "cha": "16",
+  "save": "Int +10, Wis +9",
+  "skill": "Insight +9, Nature +10, Perception +9",
+  "passive": "19",
+  "languages": "Common, Elvish, Merfolk",
+  "cr": "16",
+  "resist": "cold, poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Zegana can breathe air and water."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Zegana fails a saving throw, she can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Zegana has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Zegana is a 15th-level Simic spellcaster. Her spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). She has the following wizard spells prepared:",
+        "Cantrips (at will): acid splash, druidcraft, ray of frost, shape water",
+        "• 1st level (4 slots): color spray, expeditious retreat, fog cloud, shield",
+        "• 2nd level (3 slots): enlarge/reduce, gust of wind",
+        "• 3rd level (3 slots): counterspell, fly, slow",
+        "• 4th level (3 slots): control water, ice storm, polymorph",
+        "• 5th level (2 slots): conjure elemental, creation",
+        "• 6th level (1 slots): move earth, wall of ice",
+        "• 7th level (1 slots): prismatic spray, teleport",
+        "• 8th level (1 slots): control weather, dominate monster"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Prime Speaker's Trident",
+      "text": [
+        "Melee or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range 20/60 ft., one target. 12 (2d6 + 5) piercing damage, and the trident emits a thunderous boom. Each creature in a 15-foot cube originating from the prongs of the trident must make a DC 18 Constitution saving throw. On a failed save, the creature takes 9 (2d8) thunder damage and is pushed 10 feet away from Zegana. If the creature is underwater, the damage is increased to 13 (3d8). On a successful save, the creature takes half as much damage and isn't pushed."
+      ],
+      "attack": [
+        "Prime Speaker's Trident|+10|2d6+5",
+        "Prime Speaker's Trident||2d8"
+      ]
+    },
+    {
+      "name": "Deluge (Recharge 4-6)",
+      "text": [
+        "Zegana conjures a wave of water that crashes down on an area within 120 feet of her. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 18 (4d8) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone. The water spreads out across the ground, extinguishing unprotected flames it comes in contact with, and then vanishes."
+      ],
+      "attack": [
+        "Deluge (Recharge 4-6)||4d8"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Zegana can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Zegana regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Adaptive Skin",
+      "text": [
+        "Zegana gains resistance to one damage type of her choice-acid, fire, lightning, or thunder-until the start of her next turn."
+      ]
+    },
+    {
+      "name": "Trident",
+      "text": [
+        "Zegana makes one melee attack with the Prime Speaker's Trident."
+      ]
+    },
+    {
+      "name": "Enlarge (Costs 2 Actions)",
+      "text": [
+        "Zegana casts enlarge/reduce on herself, using the enlarge option, without expending a spell slot."
+      ]
+    },
+    {
+      "name": "Deluge (Costs 3 Actions)",
+      "text": [
+        "Zegana uses Deluge, if available."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1, 1, 1"
+  ],
+  "spells": "acid splash, druidcraft, ray of frost, shape water, color spray, expeditious retreat, fog cloud, shield, enlarge/reduce, gust of wind, counterspell, fly, slow, control water, ice storm, polymorph, conjure elemental, creation, move earth, wall of ice, prismatic spray, teleport, control weather, dominate monster",
+  "description": "The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Simic Combine. She upholds the traditional ways of the guild and its utopian philosophy, which espouses a vision of an ideal world in which nature and civilization coexist in perfect balance. Some people in the guild-members of the Adaptationist faction in particular-argue that her ways are outdated and the guild requires more practical leadership. In response, Zegana maintains that she serves as prime speaker only at the sufferance of the Speakers' Chamber, and if the other speakers wish to replace her, they are certainly within their rights to do so.\nSource: Guildmasters' Guide to Ravnica p. 255"
+}

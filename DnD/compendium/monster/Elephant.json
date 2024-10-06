@@ -1,0 +1,47 @@
+{
+  "name": "Elephant",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "76 (8d12+24)",
+  "speed": "walk 40 ft.",
+  "str": "22",
+  "dex": "9",
+  "con": "17",
+  "int": "3",
+  "wis": "11",
+  "cha": "6",
+  "passive": "10",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Trampling Charge",
+      "text": [
+        "If the elephant moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the elephant can make one stomp attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 19 (3d8 + 6) piercing damage."
+      ],
+      "attack": [
+        "Gore|+8|3d8+6"
+      ]
+    },
+    {
+      "name": "Stomp",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. 22 (3d10 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Stomp|+8|3d10+6"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 322, Tomb of Annihilation",
+  "environment": "grassland"
+}

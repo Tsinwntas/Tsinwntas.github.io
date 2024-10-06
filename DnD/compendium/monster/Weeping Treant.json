@@ -1,0 +1,67 @@
+{
+  "name": "Weeping Treant",
+  "size": "H",
+  "type": "plant,tome of Beasts",
+  "alignment": "neutral",
+  "ac": "17 (natural armor)",
+  "hp": "105 (10d12+40)",
+  "speed": "30 ft.",
+  "str": "21",
+  "dex": "8",
+  "con": "20",
+  "int": "12",
+  "wis": "16",
+  "cha": "11",
+  "resist": "bludgeoning and piercing",
+  "vulnerable": "fire",
+  "senses": "darkvision 60 ft.",
+  "passive": "13",
+  "languages": " Common, Druidic, Elvish, Sylvan",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The treant deals double damage to objects and structures."
+      ]
+    },
+    {
+      "name": "Treespeech",
+      "text": [
+        "A weeping treant can converse with plants, and most plants greet them with a friendly or helpful attitude."
+      ]
+    },
+    {
+      "name": "Acidic Tears",
+      "text": [
+        "Thick tears of dark sap stream continuously down the treant’s face and trunk. These tears are highly acidic - anyone who attacks the treant from a range of 5 feet or less must succeed on a DC 15 Dexterity saving throw or take 6 (1d12) acid damage from splashed tears. This acidic matter continues doing 6 (1d12) acid damage at the start of each of the creature's turns until it or an adjacent ally uses an action to wipe off the tears or three rounds elapse."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The treant makes three slam attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., single target. Hit: 15 (3d6 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|8|3d6+5"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +8 to hit, range 60/180 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|8|3d10+5"
+      ]
+    }
+  ]
+}

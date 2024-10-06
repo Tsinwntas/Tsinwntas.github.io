@@ -1,0 +1,9 @@
+{
+  "name": "Mizzium Half Plate Armor",
+  "detail": "Medium Armor",
+  "type": "MA",
+  "weight": "40",
+  "ac": "15",
+  "stealth": "1",
+  "text": "Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.\nThis suit of armor is reinforced with a magically enhanced metal alloy called mizzium, which is made in Izzet foundries. While you're wearing the armor, any critical hit against you becomes a normal hit. In addition, when you are subjected to a magical effect that allows you to make a Strength or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nSource: Guildmasters' Guide to Ravnica p. 179"
+}

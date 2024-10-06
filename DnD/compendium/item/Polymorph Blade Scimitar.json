@@ -1,0 +1,10 @@
+{
+  "name": "Polymorph Blade Scimitar",
+  "detail": "Cursed item, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "F,L,M",
+  "dmg1": "1d6",
+  "dmgType": "S",
+  "text": "When you attack a creature with this magic weapon and roll a 20 on the attack roll, the creature must make a DC 15 Wisdom saving throw in addition to suffering the attack's normal effects. On a failed save, the creature also suffers the effects of a polymorph spell. Roll a d20 and consult the following table to determine the form the target creature is transformed into.\n\nd20 | New Form\n1 | Tyrannosaurus Rex\n2 | Giant Ape\n3 | Elephant\n4 | Giant scorpion\n5 | Rhinoceros\n6 | Polar bear\n7 | Giant toad\n8 | Giant eagle\n9 | Black bear\n10 | Crocodile\n11 | Wolf\n12 | Riding Horse\n13 | Ox\n14 | Giant frog\n15 | Poisonous snake\n16 | Hawk\n17 | Octopus\n18 | Cat\n19 | Rat\n20 | Rabbit\nA creature is immune to this effect if it is immune to damage of the weapon's type, is a shapechanger, or has legendary actions.\nCurse: This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon. Whenever you attack a creature with this weapon and roll a 1 on the attack roll, you suffer the effect of a polymorph spell for 1 hour, rolling on the table to determine your new form.\nSource: Lost Laboratory of Kwalish p. 56"
+}

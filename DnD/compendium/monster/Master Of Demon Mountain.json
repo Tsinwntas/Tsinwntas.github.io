@@ -1,0 +1,112 @@
+{
+  "name": "Master Of Demon Mountain",
+  "size": "M",
+  "type": "humanoid (tiefling)",
+  "alignment": "Lawful Evil",
+  "ac": "14 (17 with mage armor)",
+  "hp": "110 (20d8+20)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "18",
+  "con": "12",
+  "int": "23",
+  "wis": "14",
+  "cha": "17",
+  "save": "Dex +10, Con +7, Wis +8, Cha +9",
+  "skill": "Arcana +12, Deception +9, History +12, Intimidation +9",
+  "passive": "12",
+  "languages": "Common, Abyssal, Infernal",
+  "cr": "17",
+  "resist": "fire",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If the Master fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The Master has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Master Of Fiends",
+      "text": [
+        "Fiends summoned by the Master's Summon Fiend share a telepathic link with him, are under his control, and can't summon other demons or devils. A fiend remains until it or the Master dies or until the Master dismisses it as a bonus action. The total CR of the fiends under the Master's control can't exceed 16, otherwise the Master can summon any number or combination of fiends. Any fiends the Master attempts to summon in excess of this limit aren't summoned."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The master of demon mountain is a 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The master of demon mountain has the following Wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, mage hand, message, poison spray",
+        "• 1st level (4 slots): fog cloud, grease, mage armor, magic missile, shield",
+        "• 2nd level (3 slots): acid arrow, mirror image, misty step",
+        "• 3rd level (3 slots): counterspell, fireball, fly, stinking cloud",
+        "• 4th level (3 slots): banishment, confusion, fire shield",
+        "• 5th level (3 slots): contact other plane, dominate person, seeming",
+        "• 6th level (2 slots): arcane gate, disintegrate",
+        "• 7th level (2 slots): mirage arcane, plane shift",
+        "• 8th level (1 slots): antimagic field, dominate monster",
+        "• 9th level (1 slots): foresight, meteor swarm"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Master's Knife",
+      "text": [
+        "Melee Weapon Attack. +10 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage plus 14 (4d6) fire damage."
+      ],
+      "attack": [
+        "Master's Knife|10|2d6+4"
+      ]
+    },
+    {
+      "name": "Summon Fiend (Recharge 6)",
+      "text": [
+        "The Master summons 2d4 wind demons (see page 93), 1d4 wind's harp devils (see page 105), 1d2 vrocks, 1d2 chain devils, or 1 fulad-zereh (see page 85) with no chance of failure. A summoned fiend appears in an unoccupied space within 60 feet of the Master and acts immediately and on the Master's initiative."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The humanoid (tiefling) can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The humanoid (tiefling) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The Master of Demon Mountain can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Master of Demon Mountain regains spent legendary actions at the start of his turn."
+      ]
+    },
+    {
+      "name": "Detect",
+      "text": [
+        "The Master makes a Wisdom (Perception) check."
+      ]
+    },
+    {
+      "name": "Teleport (Costs 2 Actions)",
+      "text": [
+        "The Master magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see."
+      ]
+    },
+    {
+      "name": "Cast a Spell (Costs 3 Actions)",
+      "text": [
+        "The Master casts a spell from his list of prepared spells, using a spell slot as normal."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 3, 2, 2, 1, 1"
+  ],
+  "spells": "fire bolt, light, mage hand, message, poison spray, fog cloud, grease, mage armor, magic missile, shield, acid arrow, mirror image, misty step, counterspell, fireball, fly, stinking cloud, banishment, confusion, fire shield, contact other plane, dominate person, seeming, arcane gate, disintegrate, mirage arcane, plane shift, antimagic field, dominate monster, foresight, meteor swarm",
+  "description": "Source: CCodex (3pp)",
+  "environment": "mountain"
+}

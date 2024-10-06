@@ -1,0 +1,57 @@
+{
+  "name": "Emberosa",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Lawful Evil",
+  "ac": "18 (plate armor)",
+  "hp": "162 (13d12+78)",
+  "speed": "walk 30 ft.",
+  "str": "25",
+  "dex": "9",
+  "con": "23",
+  "int": "10",
+  "wis": "14",
+  "cha": "13",
+  "save": "Dex +3, Con +10, Cha +5",
+  "skill": "Athletics +11, Perception +6",
+  "passive": "16",
+  "languages": "Giant",
+  "cr": "9",
+  "immune": "fire",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Emberosa makes two greatsword attacks."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. 28 (6d6 + 7) slashing damage."
+      ],
+      "attack": [
+        "Greatsword|+11|6d6+7"
+      ]
+    },
+    {
+      "name": "Hurl Fire",
+      "text": [
+        "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. 29 (4d10 + 7) fire damage."
+      ],
+      "attack": [
+        "Hurl Fire|+11|4d10+7"
+      ]
+    },
+    {
+      "name": "Variant: New Giant Options",
+      "text": [
+        "Some adult fire giants are trained to lay siege to strongholds and break through enemy lines. These abilities are represented by the following traits.",
+        "Siege Monster. Emberosa deals double damage to objects and structures.",
+        "Tackle. When Emberosa enters any enemy's space for the first time on a turn, the enemy must succeed on a DC 19 Strength saving throw or be knocked prone."
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 185",
+  "environment": "underdark, mountain"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Silvered Glaive",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "H,R,2H,M",
+  "dmg1": "1d10",
+  "dmgType": "S",
+  "text": "Source: Player's Handbook p. 148"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "War Chaplain",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Lawful Alignment",
+  "ac": "16 (ring mail, shield)",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "10",
+  "con": "14",
+  "int": "11",
+  "wis": "14",
+  "cha": "11",
+  "save": "Wis +4, Cha +2",
+  "skill": "Medicine +4, Religion +2",
+  "passive": "12",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Divine Orders",
+      "text": [
+        "As a bonus action, the war chaplain commands an ally within 30 feet of it to make one attack against a creature the chaplain attacked this round."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The war chaplain is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The war chaplain has the following Cleric spells prepared:",
+        "Cantrips (at will): light, resistance, sacred flame, spare the dying",
+        "• 1st level (4 slots): bless, cure wounds, healing word, protection from evil and good",
+        "• 2nd level (3 slots): lesser restoration, spiritual weapon",
+        "• 3rd level (2 slots): beacon of hope"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The war chaplain makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage or 7 (1d10 + 2) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|4|1d8+2"
+      ]
+    },
+    {
+      "name": "War God's Healing (Recharge 5-6)",
+      "text": [
+        "The war chaplain targets one ally within 30 feet engaged in melee combat. The target regains 10 (3d6) hit points."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "light, resistance, sacred flame, spare the dying, bless, cure wounds, healing word, protection from evil and good, lesser restoration, spiritual weapon, beacon of hope",
+  "description": "Source: CCodex (3pp)"
+}

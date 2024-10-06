@@ -1,0 +1,57 @@
+{
+  "name": "Duergar Screamer",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Lawful Evil",
+  "ac": "15 (natural armor)",
+  "hp": "38 (7d8+7)",
+  "speed": "walk 20 ft.",
+  "str": "18",
+  "dex": "7",
+  "con": "12",
+  "int": "5",
+  "wis": "5",
+  "cha": "5",
+  "passive": "7",
+  "languages": "understands Dwarvish but can't speak",
+  "cr": "3",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Engine of Pain",
+      "text": [
+        "Once per turn, a creature that attacks the screamer can target the duergar trapped in it. The attacker has disadvantage on the attack roll. On a hit, the attack deals an extra 11 (2d10) damage to the screamer, and the screamer can respond by using its Multiattack with its reaction."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The screamer makes one drill attack and uses its Sonic Scream."
+      ]
+    },
+    {
+      "name": "Drill",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 10 (1d12 + 4) piercing damage."
+      ],
+      "attack": [
+        "Drill|+6|1d12+4"
+      ]
+    },
+    {
+      "name": "Sonic Scream",
+      "text": [
+        "The screamer emits destructive energy in a 15-foot cube. Each creature in that area must succeed on a DC 11 Strength saving throw or take 7 (2d6) thunder damage and be knocked prone."
+      ],
+      "attack": [
+        "Sonic Scream||2d6"
+      ]
+    }
+  ],
+  "description": "\nYou think dwarves are dour and unpleasant? Wait until you meet a duergar.\n — Mordenkainen\n\nThe cruel duergar plot not only to defeat other dwarves, but to cast down the entire dwarven pantheon in revenge for their being abandoned and left to be enslaved by mind flayers. To this end, duergar train warriors to fulfill a variety of roles.\nSource: Mordenkainen's Tome of Foes p. 190",
+  "environment": "underdark"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Grabstab",
+  "size": "S",
+  "type": "humanoid (goblinoid)",
+  "alignment": "Neutral Evil",
+  "ac": "17 (chain shirt, shield)",
+  "hp": "21 (6d6)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "10",
+  "int": "10",
+  "wis": "8",
+  "cha": "10",
+  "skill": "Stealth +6",
+  "passive": "9",
+  "languages": "Common, Goblin",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Nimble Escape",
+      "text": [
+        "Grabstab can take the Disengage or Hide action as a bonus action on each of its turns."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Grabstab makes two attacks with its scimitar. The second attack has disadvantage."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. 3 (1d6) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+2|1d6"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Redirect Attack",
+      "text": [
+        "When a creature Grabstab can see targets it with an attack, Grabstab chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead."
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 89",
+  "environment": "underdark, grassland, forest, hill"
+}

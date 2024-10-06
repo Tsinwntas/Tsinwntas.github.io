@@ -1,0 +1,39 @@
+{
+  "name": "Animated Stove",
+  "size": "L",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "17",
+  "hp": "50 (50d1)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "10",
+  "con": "10",
+  "int": "3",
+  "wis": "3",
+  "cha": "1",
+  "passive": "6",
+  "cr": "3",
+  "senses": "blindsight 30 ft. (blind beyond this radius)",
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 11 (2d8 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|+6|2d8+2"
+      ]
+    },
+    {
+      "name": "Belch Fire (Recharge 4-6)",
+      "text": [
+        "The stove belches fire in a 15-foot cone. Each creature in the area must make a DC 10 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Belch Fire (Recharge 4-6)||4d10"
+      ]
+    }
+  ],
+  "description": "The stove was given a semblance of life through an animate objects spell made permanent by a wish spell.\nSource: Waterdeep: Dungeon of the Mad Mage p. 186"
+}

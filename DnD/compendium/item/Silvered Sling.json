@@ -1,0 +1,10 @@
+{
+  "name": "Silvered Sling",
+  "detail": "major, simple Weapon, Ranged Weapon",
+  "type": "R",
+  "property": "A",
+  "dmg1": "1d4",
+  "dmgType": "B",
+  "range": "30/120",
+  "text": "Source: Player's Handbook p. 148"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Ghoul, Imperial",
+  "size": "M",
+  "type": "undead,tome of Beasts",
+  "alignment": "lawful evil",
+  "ac": "16 (breastplate)",
+  "hp": "93 (17d8+17)",
+  "speed": "30 ft., burrow 15 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "12",
+  "int": "13",
+  "wis": "14",
+  "cha": "14",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "12",
+  "languages": " Common, Darakhul, Undercommon",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Turning Defiance",
+      "text": [
+        "The iron ghoul and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The imperial ghoul makes one bite attack and one claws attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage, and if the target creature is humanoid it must succeed on a DC 11 Constitution saving throw or contract darakhul fever."
+      ],
+      "attack": [
+        "Bite|5|2d8+3"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach, one target. Hit: 17 (4d6 + 3) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Claws|5|4d6+3"
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320, one target. Hit: 8 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Light Crossbow|4|1d8+2"
+      ]
+    }
+  ]
+}

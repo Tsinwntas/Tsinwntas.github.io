@@ -1,0 +1,46 @@
+{
+  "name": "Hunter Shark",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "45 (6d10+12)",
+  "speed": "swim 40 ft.",
+  "str": "18",
+  "dex": "13",
+  "con": "15",
+  "int": "1",
+  "wis": "10",
+  "cha": "4",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "2",
+  "senses": "blindsight 30 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The shark can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+6|2d8+4"
+      ]
+    }
+  ],
+  "description": "Smaller than a giant shark but larger and fiercer than a reef shark, a hunter shark haunts deep waters. It usually hunts alone, but multiple hunter sharks might feed in the same area. A fully grown hunter shark is 15 to 20 feet long.\nSource: Monster Manual p. 330, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Explorer's Guide to Wildemount",
+  "environment": "underwater"
+}

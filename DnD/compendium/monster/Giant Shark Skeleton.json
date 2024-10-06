@@ -1,0 +1,42 @@
+{
+  "name": "Giant Shark Skeleton",
+  "size": "H",
+  "type": "undead",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "126 (11d12+55)",
+  "speed": "walk 20 ft., swim 50 ft.",
+  "str": "23",
+  "dex": "11",
+  "con": "21",
+  "int": "1",
+  "wis": "10",
+  "cha": "5",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "5",
+  "immune": "poison",
+  "vulnerable": "bludgeoning",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The giant shark skeleton has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 22 (3d10 + 6) piercing damage."
+      ],
+      "attack": [
+        "Bite|+9|3d10+6"
+      ]
+    }
+  ],
+  "description": "A giant shark is 30 feet long and normally found in deep oceans. Utterly fearless, it preys on anything that crosses its path, including whales and ships.\nThe giant shark skeleton doesn't require air, food, drink, or sleep. The shark has had skeletal feet attached by some demented necromancer.\nSource: Essentials Kit: Sleeping Dragon's Wake"
+}

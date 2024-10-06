@@ -1,0 +1,72 @@
+{
+  "name": "Elder Ghost Boar",
+  "size": "H",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "104 (11d12+33)",
+  "speed": "walk 40 ft.",
+  "str": "22",
+  "dex": "9",
+  "con": "17",
+  "int": "7",
+  "wis": "12",
+  "cha": "7",
+  "passive": "11",
+  "languages": "Understands Common but can't speak",
+  "cr": "6",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the ghost boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 14 (4d6) slashing damage If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Incorporeal Jaunt",
+      "text": [
+        "As ghost boar."
+      ]
+    },
+    {
+      "name": "Relentless (Recharges After A Short Or Long Rest)",
+      "text": [
+        "If the elder ghost boar takes 20 damage or less that would reduce it to 0 hp, it is reduced to 1 hp instead."
+      ]
+    },
+    {
+      "name": "Spirit Conduit",
+      "text": [
+        "When a creature dies within 30 feet of the ghost boar, its spirit can possess the boar, incapacitating the boar for up to 1 minute. During this time, the spirit is affected by the speak with dead spell, speaking through the ghost boar's mouth."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The elder ghost boar makes two tusk attacks."
+      ]
+    },
+    {
+      "name": "Tusk",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 16 (3d6 + 6) slashing damage."
+      ],
+      "attack": [
+        "Tusk|9|3d6+6"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Ghostly Slip",
+      "text": [
+        "When it is targeted by an attack or spell or is grappled or restrained, the ghost boar becomes momentarily incorporeal. It gains resistance to any damage that isn't force and ends any grappled or restrained conditions on itself."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "farmland, grassland"
+}

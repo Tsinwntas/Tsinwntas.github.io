@@ -1,0 +1,31 @@
+{
+  "name": "Drow Spore Servant",
+  "size": "M",
+  "type": "plant",
+  "alignment": "Unaligned",
+  "ac": "15 (chain shirt)",
+  "hp": "13 (3d8)",
+  "speed": "walk 20 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "10",
+  "int": "2",
+  "wis": "6",
+  "cha": "1",
+  "passive": "8",
+  "cr": "1/8",
+  "conditionImmune": "blinded, charmed, frightened, paralyzed",
+  "senses": "blindsight 30 ft. (blind beyond this radius)",
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 229"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Weasel",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "1 (1d4-1)",
+  "speed": "walk 30 ft.",
+  "str": "3",
+  "dex": "16",
+  "con": "8",
+  "int": "2",
+  "wis": "12",
+  "cha": "3",
+  "skill": "Perception +3, Stealth +5",
+  "passive": "13",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Keen Hearing and Smell",
+      "text": [
+        "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 1 piercing damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 340, Icewind Dale: Rime of the Frostmaiden"
+}

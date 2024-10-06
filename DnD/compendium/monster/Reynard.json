@@ -1,0 +1,111 @@
+{
+  "name": "Reynard",
+  "size": "M",
+  "type": "fey (shapechanger)",
+  "alignment": "Chaotic Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "104 (16d8+32)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "19",
+  "con": "14",
+  "int": "18",
+  "wis": "17",
+  "cha": "19",
+  "save": "Dex +8, Wis +7",
+  "skill": "Acrobatics +8, Athletics +6, Deception +8, Stealth +8",
+  "passive": "13",
+  "languages": "Common, Sylvan",
+  "cr": "12",
+  "resist": "cold; bludgeoning, piercing, slashing from nonmagical weapons",
+  "conditionImmune": "grappled, restrained",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Reynard fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Reynard's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "Reynard can use his action to polymorph into a Small fox, a Medium human, or back into his true hybrid form.",
+        "His statistics, other than his size and speed, are the same in each form. Any equipment he is wearing or carrying transforms with him. Reynard reverts to his true form if he dies."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "In human form, Reynard makes two rapier attacks. In hybrid form, he makes two attacks. one with his bite and one with his rapier."
+      ]
+    },
+    {
+      "name": "Bite (Fox or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 8 (1d8 + 4) piercing damage plus 7 (2d6) psychic damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Bite (Fox or Hybrid Form Only)|8|1d8+4"
+      ]
+    },
+    {
+      "name": "Rapier (Humanoid or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 8 (1d8 + 4) piercing damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or its speed is halved. The effect ends if the creature receives magical healing, or if a creature uses an action to make a DC 14 Wisdom (Medicine) check and succeeds."
+      ],
+      "attack": [
+        "Rapier (Humanoid or Hybrid Form Only)|8|1d8+4"
+      ]
+    },
+    {
+      "name": "Invisibility",
+      "text": [
+        "Reynard magically turns invisible until he attacks, or until his concentration ends (as if concentrating on a spell). Any equipment he wears or carries is invisible with him."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Evade",
+      "text": [
+        "When a creature Reynard can see hits him with an attack, he halves the damage from that attack."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fey (shapechanger) can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fey (shapechanger) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "Reynard can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Reynard regains spent legendary actions at the start of his turn."
+      ]
+    },
+    {
+      "name": "Rapier (Humanoid or Hybrid Form",
+      "text": [
+        "Reynard makes a rapier attack."
+      ]
+    },
+    {
+      "name": "Scatter",
+      "text": [
+        "Reynard moves up to half his speed without provoking opportunity attacks and can Hide. Bite (Costs 2 Actions; Fox or Hybrid Form Only). Reynard makes a bite attack."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest"
+}

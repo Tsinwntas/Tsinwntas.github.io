@@ -1,0 +1,12 @@
+{
+  "name": "Needle of Mending",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "1",
+  "value": "2.0",
+  "property": "F,L,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "This weapon is a magic dagger disguised as a sewing needle. When you hold it and use a bonus action to speak its command word, it transforms into a dagger or back into a needle.\nYou gain a +1 bonus to attack and damage rolls made with the dagger. While holding it, you can use an action to cast the mending cantrip from it.\nSource: Explorer's Guide to Wildemount p. 268"
+}

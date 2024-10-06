@@ -1,0 +1,11 @@
+{
+  "name": "+3 Hand Crossbow",
+  "detail": "major, martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "3",
+  "property": "A,L,LD,M",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "30/120",
+  "text": "You have a +3 bonus to attack and damage rolls made with this magic weapon.\nFound On: Magic Item Table H\nSource: Dungeon Master's Guide p. 213"
+}

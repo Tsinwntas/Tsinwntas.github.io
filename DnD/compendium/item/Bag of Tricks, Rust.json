@@ -1,0 +1,8 @@
+{
+  "name": "Bag of Tricks, Rust",
+  "detail": "Wondrous item, major",
+  "type": "W",
+  "magic": "1",
+  "weight": "0.5",
+  "text": "This ordinary bag, made from rust cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.\nYou can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table. The creature vanishes at the next dawn or when it is reduced to 0 hit points.\nThe creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.\nOnce three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.\nd8 | Creature\n1 | Rat\n2 | Owl\n3 | Mastiff\n4 | Goat\n5 | Giant goat\n6 | Giant boar\n7 | Lion\n8 | Brown bear\nFound On: Magic Item Table F\nSource: Dungeon Master's Guide p. 154"
+}

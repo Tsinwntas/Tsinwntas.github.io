@@ -1,0 +1,40 @@
+{
+  "name": "Zaltember",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Lawful Evil",
+  "ac": "13 (chain shirt)",
+  "hp": "30 (4d10+8)",
+  "speed": "walk 30 ft.",
+  "str": "17",
+  "dex": "10",
+  "con": "14",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "Common, Giant",
+  "cr": "1",
+  "immune": "fire",
+  "action": [
+    {
+      "name": "Battleaxe",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Battleaxe|+5|2d8+3"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. 10 (2d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+5|2d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 180"
+}

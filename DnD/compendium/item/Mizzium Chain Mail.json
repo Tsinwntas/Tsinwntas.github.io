@@ -1,0 +1,10 @@
+{
+  "name": "Mizzium Chain Mail",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "55",
+  "ac": "16",
+  "stealth": "1",
+  "strength": "13",
+  "text": "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.\nThis suit of armor is reinforced with a magically enhanced metal alloy called mizzium, which is made in Izzet foundries. While you're wearing the armor, any critical hit against you becomes a normal hit. In addition, when you are subjected to a magical effect that allows you to make a Strength or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 13, their speed is reduced by 10 feet.\nSource: Guildmasters' Guide to Ravnica p. 179"
+}

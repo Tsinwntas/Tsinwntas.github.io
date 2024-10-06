@@ -1,0 +1,11 @@
+{
+  "name": "Light Hammer of Certain Death",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "L,T",
+  "dmg1": "1d4",
+  "dmgType": "B",
+  "range": "20/60",
+  "text": "When you damage a creature with an attack using this magic weapon, the target can't regain hit points until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 270"
+}

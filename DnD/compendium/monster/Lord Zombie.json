@@ -1,0 +1,105 @@
+{
+  "name": "Lord Zombie",
+  "size": "M",
+  "type": "undead (zombie)",
+  "alignment": "Neutral Evil",
+  "ac": "15 (natural armor)",
+  "hp": "82 (11d8+33)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "16",
+  "int": "10",
+  "wis": "13",
+  "cha": "15",
+  "save": "Con +6, Wis +4",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "The languages it knew in life",
+  "cr": "5",
+  "resist": "bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "necrotic, poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If the lord fails a saving throw, it can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Stench",
+      "text": [
+        "Any non-undead creature that starts its turn within 30 feet of the lord must succeed on a DC 16 Constitution saving throw or be poisoned until the start of the creature's next turn.",
+        "On a successful saving throw, the creature is immune to the lord's Stench for 24 hours."
+      ]
+    },
+    {
+      "name": "Undead Fortitude",
+      "text": [
+        "If damage reduces the lord to 0 hp, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the lord drops to 1 hp instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The lord zombie makes two slam attacks. It can use its Life Drain in place of one slam attack."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d8 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|6|1d8+3"
+      ]
+    },
+    {
+      "name": "Life Drain",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. 6 (1d6 + 3) necrotic damage. The target must succeed on a DC 16 Constitution saving throw or its hp maximum is reduced by an amount equal to the damage taken.",
+        "This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0.",
+        "A humanoid slain by this attack rises 24 hours later as a zombie under the lord's control, unless the humanoid is restored to life or its body is destroyed. The lord can have no more than twenty zombies under its control at one time."
+      ],
+      "attack": [
+        "Life Drain|6|1d6+3"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The undead (zombie) can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The undead (zombie) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The zombie lord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. It regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Shambling Hordes",
+      "text": [
+        "The lord telepathically commands all zombies it controls within 1 mile to immediately move up to half their speed. A zombie that moves out of an enemy's reach because of this movement doesn't provoke an opportunity attack."
+      ]
+    },
+    {
+      "name": "Life Drain (Costs 2 Actions)",
+      "text": [
+        "The lord makes a life drain attack."
+      ]
+    },
+    {
+      "name": "Arise (Costs 3 Actions)",
+      "text": [
+        "The lord targets a humanoid corpse within 30 feet, which rises as a zombie under the lord's control."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

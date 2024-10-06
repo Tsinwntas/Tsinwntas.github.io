@@ -1,0 +1,57 @@
+{
+  "name": "Tressym",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Chaotic Neutral",
+  "ac": "12",
+  "hp": "5 (2d4)",
+  "speed": "walk 40 ft., climb 30 ft., fly 40 ft.",
+  "str": "3",
+  "dex": "15",
+  "con": "10",
+  "int": "11",
+  "wis": "12",
+  "cha": "12",
+  "skill": "Perception +5, Stealth +4",
+  "passive": "15",
+  "languages": "understands Common but can't speak",
+  "cr": "0",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Detect Invisibility",
+      "text": [
+        "Within 60 feet of the tressym, magical invisibility fails to conceal anything from the tressym's sight"
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The tressym has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Poison Sense",
+      "text": [
+        "The tressym can detect whether a substance is poisonous by taste, touch, or smell."
+      ]
+    },
+    {
+      "name": "Familiar",
+      "text": [
+        "With the DM's permission, a person who casts the find familiar spell can choose to conjure a tressym in stead of a normal cat."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. 1 slashing damage."
+      ]
+    }
+  ],
+  "description": "A tressym is a mischievous winged cat as big as a house cat, with a wingspan of 3 feet.\nThought to be the results of wizardly experimentation on house cats, tressym are intelligent and have been known to form strong friendships with humanoids, particularly rangers and wizards. Tressym get along well with others of their kind, but they rarely lair or hunt together. They peacefully ignore bats, faerie dragons, and the like, but they hate stirges and evil flying monsters such as manticores. They also enjoy teasing dogs.\nTressym feed on small rodents, birds, and insects, stalking and pouncing on prey much as normal cats do, but with the added advantage of flight. Tressym don't, however, attack nestlings or despoil eggs.\nTressym mate with others of their kind, but they don't mate for life. A tressym can also mate with a normal cat, though only one out of every ten of their offspring will be a tressym; the others will be normal cats.\nTressym have good memories, particularly when it comes to danger. For example, a tressym that sees a human use awand of lightningbolts remembers the danger of \"sticks of wood held by humans\" for the rest of its life. A lucky, healthy tressym can live to be 20 years old.\nWith the DM's permission, a person who casts the findfamiliar spellcan choose to conjure a tressym instead of a normal cat.\nSource: Storm King's Thunder p. 242"
+}

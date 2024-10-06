@@ -1,0 +1,76 @@
+{
+  "name": "Reduced-Threat Wight",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "14 (studded leather armor)",
+  "hp": "22 (6d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "16",
+  "int": "10",
+  "wis": "13",
+  "cha": "15",
+  "skill": "Perception +1, Stealth +2",
+  "passive": "13",
+  "languages": "the languages it knew in life",
+  "cr": "2",
+  "resist": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack."
+      ]
+    },
+    {
+      "name": "Life Drain",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+        "A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time."
+      ],
+      "attack": [
+        "Life Drain|+2|1d6+2"
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+2|1d8+2"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+2|1d8+2"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The undead can take 0 legendary action, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The undead regains spent legendary action at the start of its turn."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 113",
+  "environment": "underdark, swamp, urban, desert"
+}

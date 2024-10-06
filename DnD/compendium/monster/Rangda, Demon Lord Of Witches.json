@@ -1,0 +1,124 @@
+{
+  "name": "Rangda, Demon Lord Of Witches",
+  "size": "L",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "19 (natural armor)",
+  "hp": "262 (25d10+125)",
+  "speed": "walk 30 ft.",
+  "str": "21",
+  "dex": "19",
+  "con": "20",
+  "int": "22",
+  "wis": "17",
+  "cha": "21",
+  "save": "Int +12, Cha +11",
+  "skill": "Arcana +12, Deception +11, Insight +9, Perception +9, Stealth +10",
+  "passive": "19",
+  "languages": "Common, Abyssal, Celestial, telepathy 120 ft.",
+  "cr": "17",
+  "resist": "cold, fire; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison",
+  "conditionImmune": "charmed, poisoned",
+  "senses": "darkvision 120 ft., truesight 60 ft.",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Rangda fails a saving throw, she can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Rangda has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The rangda, demon lord of witches's innate spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: charm person, comprehend languages, eldritch blast (4d10), fly, mage hand, vicious mockery (4d4)",
+        "3/day each: bestow curse (8 hours), blight, counterspell, major image, remove curse, tongues, witch bolt (5d12)",
+        "1/day each: feeblemind, plane shift, true polymorph"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Rangda makes three attacks. two with her claws and one with her tongue lash."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage. If the target is a humanoid, it must succeed on a DC 19 Constitution saving throw or become infected with cackle fever. If the target succeeds, it is immune to this effect for 24 hours."
+      ],
+      "attack": [
+        "Claw|11|2d8+5"
+      ]
+    },
+    {
+      "name": "Tongue Lash",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. 12 (2d6 + 5) slashing damage. If the target is a creature, it must succeed on a DC 19 Constitution saving throw or its Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a long rest."
+      ],
+      "attack": [
+        "Tongue Lash|11|2d6+5"
+      ]
+    },
+    {
+      "name": "Hypnotic Sway (Recharge 5-6)",
+      "text": [
+        "Rangda sways her body and tongue in a mesmerizing rhythm. Each creature of her choice that is within 30 feet of her that can see her must succeed on a DC 19 Charisma saving throw or be stunned until the end of its next turn."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Rangda magically teleports to an unoccupied space within line of sight. Alternatively, Rangda magically enters her home plane from the Material Plane, or vice versa."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fiend (demon) can take 5 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fiend (demon) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "Rangda can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Rangda regains spent legendary actions at the start of her turn."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Rangda makes one claw attack."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Rangda uses her Teleport ability."
+      ]
+    },
+    {
+      "name": "Spell (Costs 2 Actions)",
+      "text": [
+        "Rangda casts a spell."
+      ]
+    },
+    {
+      "name": "Hypnotic Sway (Costs 2 Actions)",
+      "text": [
+        "Rangda uses her Hypnotic Sway ability, if it is available."
+      ]
+    }
+  ],
+  "spells": "charm person, comprehend languages, eldritch blast, fly, mage hand, vicious mockery, bestow curse, blight, counterspell, major image, remove curse, tongues, witch bolt, feeblemind, plane shift, true polymorph",
+  "description": "Source: CCodex (3pp)"
+}

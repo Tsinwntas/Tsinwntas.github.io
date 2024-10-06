@@ -1,0 +1,29 @@
+{
+  "name": "Gnome (Deep) (DMG)",
+  "size": "M",
+  "speed": "20",
+  "ability": "Str 1, Dex 2",
+  "spellAbility": "Intelligence",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Dungeon Master's Guide p. 282"
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": "You have an innate ability to cast the following spells, requiring no material components:\n• At will: nondetection (self only)\n• 1/day each: blindness/deafness, blur, disguise self\nIntelligence is your spellcasting ability for these spells.\n"
+    },
+    {
+      "name": "Gnome Cunning",
+      "text": "You have advantage on Intelligence, Wisdom, and Charisma saving throws against magic.\n"
+    },
+    {
+      "name": "Superior Darkvision",
+      "text": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Gnomish, Terran, and Undercommon.\n"
+    }
+  ]
+}

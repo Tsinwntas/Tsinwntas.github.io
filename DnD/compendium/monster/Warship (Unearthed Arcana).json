@@ -1,0 +1,95 @@
+{
+  "name": "Warship (Unearthed Arcana)",
+  "size": "G",
+  "type": "vehicle (100 ft. x 20 ft.)",
+  "alignment": "Unaligned",
+  "ac": "15",
+  "hp": "500",
+  "speed": "4 miles per hour (96 miles per day)",
+  "str": "20",
+  "dex": "4",
+  "con": "20",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, prone, stunned, unconscious",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "500"
+      ]
+    },
+    {
+      "name": "Hull:",
+      "text": [
+        "Armor Class: 15",
+        "Hit Points: 500 (damage threshold 20)"
+      ]
+    },
+    {
+      "name": "Control:",
+      "text": [
+        "Helm",
+        "Armor Class: 18",
+        "Hit Points: 50",
+        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the Warship (Unearthed Arcana) can't turn."
+      ]
+    },
+    {
+      "name": "Movement:",
+      "text": [
+        "Sails",
+        "Armor Class: 12",
+        "Hit Points: 100; -10 ft. speed per 25 damage taken",
+        "Locomotion (water): sails, speed 35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+      ]
+    },
+    {
+      "name": "Movement:",
+      "text": [
+        "Oars",
+        "Armor Class: 12",
+        "Hit Points: 100; -5 ft. speed per 25 damage taken",
+        "Locomotion (water): oars, speed 20 ft. with 80 or more rowers, 10 feet with 40 or more rowers, 5 ft. with 20 or more rowers."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Weapons:",
+      "text": [
+        "Ballistas (2)",
+        "Armor Class: 15",
+        "Hit Points: 50 each",
+        "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. 16 (3d10) piercing damage."
+      ],
+      "attack": [
+        "Weapons:|+6|3d10"
+      ]
+    },
+    {
+      "name": "Weapons:",
+      "text": [
+        "Mangonels (2)",
+        "Armor Class: 15",
+        "Hit Points: 100 each",
+        "Ranged Weapon Attack: +5 to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. 27 (5d10) bludgeoning damage."
+      ],
+      "attack": [
+        "Weapons:|+5|5d10"
+      ]
+    },
+    {
+      "name": "Weapons:",
+      "text": [
+        "Ram",
+        "Armor Class: 20",
+        "Hit Points: 100 (damage threshold 10)",
+        "The Warship (Unearthed Arcana) has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it suffers from the crash is instead applied to the ram. These benefits do not apply if another vessel crashes into the Warship (Unearthed Arcana)."
+      ]
+    }
+  ],
+  "description": "\nSource: Unearthed Arcana: Of Ships And Sea p. 5"
+}

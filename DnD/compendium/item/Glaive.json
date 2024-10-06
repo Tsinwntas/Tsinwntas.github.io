@@ -1,0 +1,11 @@
+{
+  "name": "Glaive",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "value": "20.0",
+  "property": "H,R,2H,M",
+  "dmg1": "1d10",
+  "dmgType": "S",
+  "text": "Source: Player's Handbook p. 149"
+}

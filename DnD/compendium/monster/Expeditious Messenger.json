@@ -1,0 +1,48 @@
+{
+  "name": "Expeditious Messenger",
+  "size": "T",
+  "type": "construct",
+  "alignment": "Neutral",
+  "ac": "13",
+  "hp": "7 (2d4+2)",
+  "speed": "walk 25 ft., fly 60 ft.",
+  "str": "6",
+  "dex": "16",
+  "con": "13",
+  "int": "8",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Acrobatics +5, Stealth +5",
+  "passive": "11",
+  "languages": "one language spoken by its creator",
+  "cr": "1/8",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Flyby",
+      "text": [
+        "The messenger doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Telepathic Bond",
+      "text": [
+        "While the messenger is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+5|1d4+3"
+      ]
+    }
+  ],
+  "description": "Constructed Nature. A homunculus doesn't require air, food, drink, or sleep.\nA homunculus is a construct servant created for certain tasks. Artificers and wizards are responsible for most of the homunculi in existence.\nEach kind of homunculus has a body constructed from different kinds of materials, including clay, iron, and bits of hair and feathers. The process that creates a homunculus sees those materials mixed with the creator's blood and animated through an extended magical ritual.\nSource: Eberron: Rising from the Last War p. 293"
+}

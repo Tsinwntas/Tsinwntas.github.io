@@ -1,0 +1,38 @@
+{
+  "name": "Noori",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Chaotic Alignment",
+  "ac": "13 (hide armor)",
+  "hp": "67 (9d8+27)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "17",
+  "int": "9",
+  "wis": "11",
+  "cha": "9",
+  "passive": "10",
+  "languages": "any one language (usually Common)",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Reckless",
+      "text": [
+        "At the start of its turn, Noori can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Greataxe",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 9 (1d12 + 3) slashing damage."
+      ],
+      "attack": [
+        "Greataxe|+5|1d12+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 127"
+}

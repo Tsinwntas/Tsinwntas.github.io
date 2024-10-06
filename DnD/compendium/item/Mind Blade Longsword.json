@@ -1,0 +1,14 @@
+{
+  "name": "Mind Blade Longsword",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V,M",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "Mind flayers can turn any nonmagical sword into a mind blade. Only one creature can attune to it: either a specific mind flayer or one of its thralls. In the hands of any other creature, the mind blade functions as a normal sword of its kind. In the hands of its intended wielder, the mind blade is a magic weapon that deals an extra 2d6 psychic damage to any target it hits.\nSource: Volo's Guide to Monsters p. 81",
+  "roll": [
+    "2d6"
+  ]
+}

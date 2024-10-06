@@ -1,0 +1,12 @@
+{
+  "name": "Dragongleam",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "T,V",
+  "dmg1": "1d6",
+  "dmg2": "1d8",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "This spear is enchanted with 10 charges of a daylight spell for use in twilight or dark forest underbrush. The command phrase is \"Tiamat's eyes shine,\" written in Draconic runes on the spear's crossguard.\nSource: Hoard of the Dragon Queen p. 69"
+}

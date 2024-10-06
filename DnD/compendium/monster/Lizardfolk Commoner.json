@@ -1,0 +1,39 @@
+{
+  "name": "Lizardfolk Commoner",
+  "size": "M",
+  "type": "humanoid (lizardfolk)",
+  "alignment": "Neutral",
+  "ac": "13 (natural armor)",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "15",
+  "dex": "10",
+  "con": "12",
+  "int": "7",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3, Stealth +2, Survival +3",
+  "passive": "13",
+  "languages": "Draconic",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The lizardfolk can hold its breath for 15 minutes."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "These lizardfolk, found wandering the halls in Danger at Dunwater, are just as fierce as their armed kin, and can equip themselves with weapons and shields if such are available.\nSource: Ghosts of Saltmarsh p. 241"
+}

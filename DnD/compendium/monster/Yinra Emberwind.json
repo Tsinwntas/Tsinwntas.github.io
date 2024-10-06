@@ -1,0 +1,55 @@
+{
+  "name": "Yinra Emberwind",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral Good",
+  "ac": "15 (studded leather armor)",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "12",
+  "int": "14",
+  "wis": "13",
+  "cha": "11",
+  "skill": "Investigation +4, Perception +3, Stealth +5",
+  "passive": "13",
+  "languages": "Common, Elvish",
+  "cr": "1/2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Yinra has advantage on saving throws against being charmed, and magic can't put her to sleep."
+      ]
+    },
+    {
+      "name": "Keen Hearing and Sight",
+      "text": [
+        "Yinra has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+5|1d8+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Explorer's Guide to Wildemount p. 223"
+}

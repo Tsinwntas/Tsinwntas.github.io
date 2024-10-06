@@ -1,0 +1,11 @@
+{
+  "name": "Greatclub",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "10",
+  "value": "0.2",
+  "property": "2H",
+  "dmg1": "1d8",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 149"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Tomb Tapper",
+  "size": "H",
+  "type": "construct",
+  "alignment": "Lawful Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "207 (18d12+90)",
+  "speed": "walk 30 ft., burrow 10 ft.",
+  "str": "22",
+  "dex": "10",
+  "con": "21",
+  "int": "14",
+  "wis": "14",
+  "cha": "11",
+  "skill": "Perception +6",
+  "passive": "16",
+  "languages": "understands Common and Undercommon but doesn't speak, telepathy 60 ft.",
+  "cr": "10",
+  "resist": "lightning",
+  "immune": "cold, fire",
+  "conditionImmune": "charmed, frightened",
+  "senses": "blindsight 240 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Petrified Death",
+      "text": [
+        "A tomb tapper reduced to 0 hit points turns into a lifeless stone statue. Anything it's wearing or carrying is not transformed."
+      ]
+    },
+    {
+      "name": "Sense Magic",
+      "text": [
+        "The tomb tapper senses magic within 30 feet of it and can use an action to pinpoint the location of any creature, object, or area in that range that bears magic. This sense penetrates barriers but is blocked by a thin sheet of lead."
+      ]
+    },
+    {
+      "name": "Tunneler",
+      "text": [
+        "The tomb tapper can burrow through solid rock at half its burrowing speed and leaves a 10-foot-wide, 20-foot-tall tunnel in its wake."
+      ]
+    },
+    {
+      "name": "Unusual Nature",
+      "text": [
+        "The tomb tapper doesn't require air or sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tomb tapper makes two melee attacks with its sledgehammer or with its claws. If it hits the same creature with both claws, it can pull that creature within 5 feet of its mouth and make a bite attack against it."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 22 (3d10 + 6) slashing damage."
+      ],
+      "attack": [
+        "Bite|+10|3d10+6"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 16 (3d6 + 6) slashing damage."
+      ],
+      "attack": [
+        "Claw|+10|3d6+6"
+      ]
+    },
+    {
+      "name": "Sledgehammer",
+      "text": [
+        "Melee or Ranged Weapon Attack: +10 to hit, reach 15 ft. or range 30/120 ft., one target. 27 (6d6 + 6) bludgeoning or force damage (tomb tapper's choice). If thrown, the hammer returns to the tomb tapper at the end of its turn, landing at the tomb tapper's feet if it doesn't have a hand free to catch the weapon."
+      ],
+      "attack": [
+        "Sledgehammer|+10|6d6+6"
+      ]
+    }
+  ],
+  "description": "Seekers of Magic. Tomb tappers received their colloquial name from their habit of burrowing into the depths to plunder tombs, temples, and caves in search of magic items, which they bear off. They usually try to seize magic from beings that they encounter.\nMagic is sacred to tomb tappers. They don't use any magic items they acquire, instead choosing to protect and venerate such items. Tappers spend their long lives in the search for the source of all magic, which they believe to be hidden deep in the Underdark. They are in awe of earth elementals, believing that they come directly from this source, and are reluctant to attack them.\nSource: Icewind Dale: Rime of the Frostmaiden p. 310"
+}

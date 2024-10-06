@@ -1,0 +1,54 @@
+{
+  "name": "Corpse Thief",
+  "size": "M",
+  "type": "humanoid",
+  "alignment": "Neutral",
+  "ac": "13",
+  "hp": "30 (4d8+12)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "17",
+  "con": "16",
+  "int": "11",
+  "wis": "13",
+  "cha": "6",
+  "skill": "Sleight of hand +5, Stealth +5",
+  "passive": "11",
+  "languages": "Common",
+  "cr": "1/2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Object Reading",
+      "text": [
+        "By concentrating for 10 minutes on a specific object, a corpse thief learns more about the object's most recent owner. The effects of this trait are different depending on if the most recent owner is alive or dead. This trait only works once per object.",
+        "If the most recent owner is alive, the corpse thief sees through that person's eyes for 10 minutes. This works like the clairvoyance spell, except the most recent owner is the sensor and controls which direction it is pointed, how far it can see, etc. The most recent owner must make a DC 13 Wisdom saving throw. On a success, it gets the sensation that it is being watched.",
+        "If the most recent owner is dead, the corpse thief can learn five things about the person's life through dream-like visions and emotions. This works like the speak with dead spell, except the spirit can only answer questions about events in which the object was present."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The corpse thief makes two claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Claw|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Steal",
+      "text": [
+        "The corpse thief targets one creature within 5 feet of it and attempts to steal one small item. The target must succeed on a DC 13 Dexterity saving throw or lose one non-weapon, non-armor object that is small enough to fit in one hand."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

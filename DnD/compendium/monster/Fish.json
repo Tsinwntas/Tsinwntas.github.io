@@ -1,0 +1,36 @@
+{
+  "name": "Fish",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "1 (1d4-1)",
+  "speed": "swim 40 ft.",
+  "str": "2",
+  "dex": "16",
+  "con": "9",
+  "int": "1",
+  "wis": "7",
+  "cha": "2",
+  "passive": "8",
+  "cr": "0",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The fish can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 1 piercing damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Ghosts of Saltmarsh p. 224",
+  "environment": "underwater"
+}

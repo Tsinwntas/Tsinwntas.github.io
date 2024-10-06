@@ -1,0 +1,19 @@
+{
+  "name": "Merfolk (DMG)",
+  "size": "M",
+  "speed": "10",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Dungeon Master's Guide p. 282"
+    },
+    {
+      "name": "Amphibious",
+      "text": "You can breathe air and water.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Aquan.\n"
+    }
+  ]
+}

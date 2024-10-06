@@ -1,0 +1,33 @@
+{
+  "name": "Animated Jade Serpent",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "10",
+  "dex": "18",
+  "con": "13",
+  "int": "2",
+  "wis": "10",
+  "cha": "3",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "1/4",
+  "senses": "blindsight 10 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Bite|+6|1d4+4",
+        "Bite||3d6"
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 92",
+  "environment": "underdark, grassland, forest, swamp, urban, desert"
+}

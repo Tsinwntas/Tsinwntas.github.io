@@ -1,0 +1,13 @@
+{
+  "name": "Scimitar of Sharpness",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "F,L,M",
+  "dmg1": "1d6",
+  "dmgType": "S",
+  "text": "When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.\nWhen you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the target's limbs, with the effect of such loss determined by the DM. If the creature has no limb to sever, you lop off a portion of its body instead.\nNote: According to the SRD, it is an extra 4d6 slashing damage, although this is incorrect (https://twitter.com/JeremyECrawford/status/949111823990534144).\nIn addition, you can speak the sword's command to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.\nFound On: Magic Item Table H\nSource: Dungeon Master's Guide p. 206",
+  "roll": [
+    "4d6"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Steel Predator",
+  "size": "L",
+  "type": "construct",
+  "alignment": "Lawful Evil",
+  "ac": "20 (natural armor)",
+  "hp": "207 (18d10+108)",
+  "speed": "walk 40 ft.",
+  "str": "24",
+  "dex": "17",
+  "con": "22",
+  "int": "4",
+  "wis": "14",
+  "cha": "6",
+  "skill": "Perception +7, Stealth +8, Survival +7",
+  "passive": "17",
+  "languages": "understands Modron and the language of its owner but can't speak",
+  "cr": "16",
+  "resist": "cold, lightning, necrotic, thunder",
+  "immune": "poison, psychic; bludgeoning, piercing, slashing from nonmagical attacks",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned",
+  "senses": "blindsight 30 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The steel predator has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The steel predator's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The steel predator's innate spellcasting ability is Wisdom. The steel predator can innately cast the following spells, requiring no components:",
+        "3/day each: dimension door (self only), plane shift (self only)"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The steel predator makes three attacks: one with its bite and two with its claw."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. 14 (2d6 + 7) piercing damage."
+      ],
+      "attack": [
+        "Bite|+12|2d6+7"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. 16 (2d8 + 7) slashing damage."
+      ],
+      "attack": [
+        "Claw|+12|2d8+7"
+      ]
+    },
+    {
+      "name": "Stunning Roar (Recharge 5-6)",
+      "text": [
+        "The steel predator emits a roar in a 60-foot cone. Each creature in that area must make a DC 19 Constitution saving throw. On a failed save, a creature takes 27 (5d10) thunder damage, drops everything it's holding, and is stunned for 1 minute. On a successful save, a creature takes half as much damage. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Stunning Roar (Recharge 5-6)||5d10"
+      ]
+    }
+  ],
+  "spells": "dimension door, plane shift",
+  "description": "Steel Predator. A steel predator is a merciless machine with one purpose: to locate and kill its target regardless of distance and obstacles.\nModron Engineering. Steel predators are created by a particular hexton modron, using a machine located in the city of Sigil. It wasn't always headquartered in the City of Doors, however. On its original home, the plane of Mechanus, the ingenious hexton was lauded for its invention—until it turned its creations against its superiors. Steel predators wreaked havoc across the modron hierarchy until the rogue hexton was trapped and exiled. Now it operates a shop in Sigil where, for a steep price, anyone can commission the manufacture of a steel predator.\nAssassins on Demand. To create a steel predator, the hexton's machine must be fed something that identifies the predator's target, such as a lock of hair, a well-worn glove, or a much-used weapon. The moment the newly manufactured steel predator emerges, it bounds away in search of its prey. It senses the location of its target across planar boundaries, but such detection is accurate only to within a thousand yards; to close the remaining distance, the steel predator locates its prey by sight and smell.\nOnce battle is joined, the predator ignores every other threat to attack its target, unless other creatures prevent it from reaching the target. In that case, it does what it must to fulfill its mission.\nRogue Killers. If all goes according to plan, a steel predator slays its target and then voluntarily returns to Sigil, where it's broken down into parts that can be used in another steel predator. Battle damage can cause this instinct to fail, however, causing the steel predator to linger in the area, hunting and killing other creatures that resemble its target, that fit the target's general description, or that simply live nearby. Such rogues become the most dangerous of predators.\nConstructed Nature. A steel predator doesn't require air, food, drink, or sleep.\nSource: Mordenkainen's Tome of Foes p. 239",
+  "environment": "urban"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Kobold Alchemist",
+  "size": "S",
+  "type": "humanoid (kobold),tome of Beasts",
+  "alignment": "lawful neutral",
+  "ac": "15 (studded leather)",
+  "hp": "44 (8d6+16)",
+  "speed": "30 ft.",
+  "str": "7",
+  "dex": "16",
+  "con": "15",
+  "int": "16",
+  "wis": "9",
+  "cha": "8",
+  "save": "Dex +5",
+  "skill": "Arcana +5, Medicine +3",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "9",
+  "languages": " Common, Draconic",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Apothecary",
+      "text": [
+        "As a bonus action the kobold can select one of the following damage types: acid, cold, or fire. Until it uses this action again, the kobold has resistance to the chosen damage type. Additionally, the kobold is proficient with a poisoner's kit."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The kobold has advantage on an attack roll against a target if at least one of the kobold's allies is within 5 feet of the target and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the kobold has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The kobold makes two attacks."
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) poison damage."
+      ],
+      "attack": [
+        "Dagger|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Dart",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) poison damage."
+      ],
+      "attack": [
+        "Dart|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Alchemical Protection (Recharge after a Short or Long Rest)",
+      "text": [
+        "The kobold chooses up to six allied creatures within 10 feet. It releases alchemical vapors that grant those allies resistance to poison damage for 10 minutes. Instead of poison damage, the kobold can grant resistance to the damage type currently in effect for its Apothecary trait."
+      ]
+    },
+    {
+      "name": "Explosive Flask (Recharge 5-6)",
+      "text": [
+        "The kobold throws a flask of volatile substances at a point within 30 feet. The flask explodes in a 15-foot radius. Creatures in the area take 17 (5d6) poison damage and are poisoned for 1 minute, or take half damage and are not poisoned with a successful DC 13 Dexterity saving throw. A poisoned creature repeats the saving throw at the end of each of its turns, ending the poisoned condition on a success. Instead of poison damage, the kobold can deal the damage type currently in effect for its Apothecary trait."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Sapping Sting",
+  "classes": "Wizard (Chronurgy), Wizard (Graviturgy)",
+  "level": "0",
+  "school": "N",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "30 feet",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "text": "You sap the vitality of one creature you can see in range. The target must succeed on a Constitution saving throw or take 1d4 necrotic damage and fall prone.\nThis spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).\nSource: Explorer's Guide to Wildemount p. 189",
+  "roll": [
+    "1d4",
+    "2d4",
+    "3d4",
+    "4d4"
+  ]
+}

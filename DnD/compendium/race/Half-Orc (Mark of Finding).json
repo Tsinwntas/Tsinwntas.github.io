@@ -1,0 +1,45 @@
+{
+  "name": "Half-Orc (Mark of Finding)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Con 1, Wis 2",
+  "spellAbility": "Wisdom",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Eberron: Rising from the Last War p. 41, Wayfinder's Guide to Eberron p. 98"
+    },
+    {
+      "name": "Age",
+      "text": "Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Hunter's Intuition",
+      "text": "When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll a d4 and add the number rolled to the ability check.\n"
+    },
+    {
+      "name": "Finder's Magic",
+      "text": "You can cast the hunter's mark spell with this trait. Starting at 3rd level, you can also cast the locate object spell with it. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Goblin.\n"
+    },
+    {
+      "name": "Spells of the Mark",
+      "text": "Mark of Finding Spells\nIf you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Finding Spells table are added to the spell list of your spellcasting class.\nSpell Level | Spells\n1st | faerie fire, longstrider\n2nd | locate animals or plants, locate object\n3rd | clairvoyance, speak with plants\n4th | divination, locate creature\n5th | commune with nature\n\n"
+    }
+  ]
+}

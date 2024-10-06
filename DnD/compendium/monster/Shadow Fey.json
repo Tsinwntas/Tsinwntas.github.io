@@ -1,0 +1,67 @@
+{
+  "name": "Shadow Fey",
+  "size": "M",
+  "type": "humanoid (elf),tome of Beasts",
+  "alignment": "lawful evil",
+  "ac": "15 (chain shirt)",
+  "hp": "31 (7d8)",
+  "speed": "30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "10",
+  "int": "11",
+  "wis": "11",
+  "cha": "13",
+  "skill": "Arcana +2, Perception +2",
+  "senses": "darkvision 60 ft.",
+  "passive": "12",
+  "languages": " Common, Elvish, Umbral",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "The shadow fey has advantage on saving throws against being charmed, and magic can't put it to sleep."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The shadow fey's innate spellcasting ability is Charisma. It can cast the following spells innately, requiring no material components.",
+        "1/day: misty step (when in shadows, dim light, or darkness only)"
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the shadow fey has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Traveler in Darkness",
+      "text": [
+        "The shadow fey has advantage on Intelligence (Arcana) checks made to know about shadow roads and shadow magic spells or items."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|4|1d6+2"
+      ]
+    }
+  ]
+}

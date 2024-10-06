@@ -1,0 +1,59 @@
+{
+  "name": "Giant Four-Armed Gargoyle",
+  "size": "L",
+  "type": "elemental",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "147 (14d10+70)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "19",
+  "dex": "11",
+  "con": "20",
+  "int": "6",
+  "wis": "11",
+  "cha": "9",
+  "save": "Wis +4",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "Terran",
+  "cr": "10",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks not made with adamantine weapons",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gargoyle makes five attacks: one with its bite and four with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+8|2d6+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 9 (2d4 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|+8|2d4+4"
+      ]
+    }
+  ],
+  "description": "Only Acererak knows the secret of creating these creatures. A giant four-armed gargoyle stands 8 to 9 feet tall and weighs roughly five thousand pounds. It is typically employed as a tomb guardian, rending intruders with its fangs and deadly claws. For more information on gargoyles, see the Monster Manual.\nSource: Tomb of Annihilation p. 221"
+}

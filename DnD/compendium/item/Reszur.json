@@ -1,0 +1,12 @@
+{
+  "name": "Reszur",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "1",
+  "value": "2.0",
+  "property": "F,L,T",
+  "dmg1": "1d4+1",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon, which doesn't make noise when it hits or cuts something.\nThe name \"Reszur\" is graven on the dagger's pommel. If the wielder speaks the name, the blade gives off a faint, cold glow, shedding dim light in a 10-foot radius until the wielder speaks the name again.\nSource: Princes of the Apocalypse p. 157"
+}

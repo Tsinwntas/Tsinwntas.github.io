@@ -1,0 +1,11 @@
+{
+  "name": "Keoghtom's Ointment",
+  "detail": "Wondrous item, minor",
+  "type": "W",
+  "magic": "1",
+  "text": "This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh ½ pound.\nAs an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.\nFound On: Magic Item Table B\nSource: Dungeon Master's Guide p. 179",
+  "roll": [
+    "1d4+1",
+    "2d8+2"
+  ]
+}

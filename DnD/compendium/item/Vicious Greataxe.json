@@ -1,0 +1,13 @@
+{
+  "name": "Vicious Greataxe",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "7",
+  "property": "H,2H,M",
+  "dmg1": "1d12",
+  "dmgType": "S",
+  "text": "When you roll a 20 with this magic weapon, the target takes an extra 7 slashing damage.\nNote: According to the SRD, it is an extra 2d6 slashing damage.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 209",
+  "roll": [
+    "2d6"
+  ]
+}

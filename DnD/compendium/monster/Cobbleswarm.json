@@ -1,0 +1,57 @@
+{
+  "name": "Cobbleswarm",
+  "size": "M",
+  "type": "swarm of Tiny monstrosities,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "36 (8d8)",
+  "speed": "30 ft.",
+  "str": "12",
+  "dex": "11",
+  "con": "11",
+  "int": "5",
+  "wis": "12",
+  "cha": "5",
+  "resist": "bludgeoning, piercing, slashing",
+  "conditionImmune": "charmed, frightened, paralyzed, petrified, prone, stunned",
+  "passive": "11",
+  "languages": "-",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the swarm remains motionless, it is indistinguishable from normal stones."
+      ]
+    },
+    {
+      "name": "Shift and Tumble",
+      "text": [
+        "As a bonus action, the swarm can push a prone creature whose space it occupies 5 feet."
+      ]
+    },
+    {
+      "name": "Shifting Floor",
+      "text": [
+        "Whenever the swarm moves into a creature's space or starts its turn in another creature's space, that other creature must make a successful DC 13 Dexterity saving throw or fall prone. A prone creature must make a successful DC 13 Dexterity (Acrobatics) check to stand up in a space occupied by the swarm."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "text": [
+        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny stone. The swarm can't regain hit points or gain temporary hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Stings",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half its hit points or fewer."
+      ],
+      "attack": [
+        "Stings|3|4d4"
+      ]
+    }
+  ]
+}

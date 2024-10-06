@@ -1,0 +1,47 @@
+{
+  "name": "Triceratops",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "95 (10d12+30)",
+  "speed": "walk 50 ft.",
+  "str": "22",
+  "dex": "9",
+  "con": "17",
+  "int": "2",
+  "wis": "11",
+  "cha": "5",
+  "passive": "10",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Trampling Charge",
+      "text": [
+        "If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 24 (4d8 + 6) piercing damage."
+      ],
+      "attack": [
+        "Gore|+9|4d8+6"
+      ]
+    },
+    {
+      "name": "Stomp",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. 22 (3d10 + 6) bludgeoning damage"
+      ],
+      "attack": [
+        "Stomp|+9|3d10+6"
+      ]
+    }
+  ],
+  "description": "One of the most aggressive of the herbivorous dinosaurs, a triceratops has a skull that flares out to form a protective plate of bone. With its great horns and formidable speed, a triceratops gores and tramples would-be predators to death.\nDinosaurs. Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.\nDinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens.\nSource: Monster Manual p. 80, Tomb of Annihilation",
+  "environment": "grassland"
+}

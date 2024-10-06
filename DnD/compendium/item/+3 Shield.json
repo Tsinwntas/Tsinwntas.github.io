@@ -1,0 +1,8 @@
+{
+  "name": "+3 Shield",
+  "detail": "major, Shield",
+  "type": "S",
+  "weight": "6",
+  "ac": "2",
+  "text": "A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.\nWhile holding this shield, you have a +3 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.\nSource: Dungeon Master's Guide p. 200"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Bearmit Crab",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "59 (7d10+21)",
+  "speed": "walk 30 ft., swim 20 ft.",
+  "str": "18",
+  "dex": "13",
+  "con": "16",
+  "int": "4",
+  "wis": "13",
+  "cha": "6",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "2",
+  "resist": "bludgeoning",
+  "trait": [
+    {
+      "name": "Viscid Shell",
+      "text": [
+        "When a creature hits the bearmit crab with a slashing or piercing melee weapon, the creature must succeed on a DC 13 Strength saving throw, or its weapon becomes stuck to the bearmit crab's shell. While the weapon is stuck, it can't be used. A creature can pull the weapon free by taking an action to make a DC 13 Strength check and succeeding."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The bearmit crab has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the bearmit crab remains motionless, it is indistinguishable from a normal pile of rocks."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The bearmit crab makes two attacks. one claw attack and one bite attack or two claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit.",
+        "7 (1d6 + 4) bludgeoning damage and the target is grappled (escape DC 13) if it is a Medium or smaller creature. Until this grapple ends, the target is restrained. The bearmit crab has two claws, each of which can grapple only one target."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|6|1d8+4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

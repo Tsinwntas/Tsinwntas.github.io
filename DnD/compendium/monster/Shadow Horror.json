@@ -1,0 +1,83 @@
+{
+  "name": "Shadow Horror",
+  "size": "L",
+  "type": "aberration",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "120 (16d10+32)",
+  "speed": "walk 40 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "14",
+  "int": "2",
+  "wis": "17",
+  "cha": "18",
+  "skill": "Perception +7, Stealth +11",
+  "passive": "17",
+  "cr": "9",
+  "vulnerable": "radiant",
+  "conditionImmune": "frightened",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Incorporeal Movement",
+      "text": [
+        "The horror can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+      ]
+    },
+    {
+      "name": "Shadow Stealth",
+      "text": [
+        "While in dim light or darkness, the horror can take the Hide action as a bonus action."
+      ]
+    },
+    {
+      "name": "Shadow Stride",
+      "text": [
+        "As a bonus action, the horror can step into a shadow within 5 feet of it and magically appear in an unoccupied space within 5 feet of a second shadow that is up to 60 feet away. Both shadows must be cast by a Small or larger creature or object."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the horror has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The horror makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 21 (4d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+7|4d8+3"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 13 (3d6 + 3) slashing damage, and the target must succeed on a DC 16 Wisdom saving throw or be frightened of the horror until the end of the target's next turn."
+      ],
+      "attack": [
+        "Claw|+7|3d6+3"
+      ]
+    },
+    {
+      "name": "Lashing Shadows (Recharge 5-6)",
+      "text": [
+        "Each creature within 60 feet of the horror, except other horrors, must succeed on a DC 16 Dexterity saving throw or take 27 (6d8) necrotic damage."
+      ],
+      "attack": [
+        "Lashing Shadows (Recharge 5-6)||6d8"
+      ]
+    }
+  ],
+  "description": "Horrors and Madness. Horrors on Ravnica are terror and madness personified. You can represent this reality by using the madness rules in the Dungeon Master's Guide.\nWhenever a character fails a saving throw against the flying horror's Frightening Screech, the shadow horror's claw attack, or the skittering horror's Maddening Presence, note that fact. At the end of the encounter, have each character who failed at least one of those saving throws make a DC 13 Wisdom saving throw. On a successful save, nothing happens. On a failed save, a character gains a form of madness from the Dungeon Master's Guide, with the severity depending on how many of the saving throws that character failed during the encounter, as shown on the Madness Severity table.\nMadness Severity\nFailed Saves | Madness\n1 | Short-term\n2-3 | Long-term\n4+ | Indefinite\n\nHorrors. Terrifying evils stalk, fly, and scuttle in the dark corners of Ravnica, from the depths of the undercity to the blackest parts of the night sky. Collectively, these creatures are called horrors-a variety of things that lurk in the dark and embody the deepest fears of Ravnica's people. All are evil creatures with dim reason and preternatural cunning.\nAt least three guilds have been known to compel horrors into service. For House Dimir, horrors spread fear and despair in the citizenry and carry out assassinations or kidnappings against well-protected targets. For the Cult of Rakdos, horrors are simply one more weapon in an arsenal of terrifying and shock-inspiring creatures that might appear on stage. For the Golgari Swarm, horrors scavenge the sewers and protect the guild's territory.\nHouse Dimir uses all three base kinds of horrors. The Cult of Rakdos prefers shadow horrors, and the Golgari Swarm uses skittering horrors.\nCustomizing a Horror. Horrors share some common body types but vary wildly in other characteristics. A particular horror's form might incorporate elements that resemble fiendish, insectile, or reptilian features. To customize a horror, choose a base creature (flying horror, shadow horror, or skittering horror), then roll once on the Primary Features table and once on the Secondary Features table (or choose an option from each table). Add those features to the base creature.\nPrimary Features\nd4 | Feature\n1 | Avoidance. If the horror is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.\n2 | Damage Resistances. The horror has resistance to necrotic and psychic damage.\n3 | Innate Spellcasting. The horror's innate spellcasting ability is Charisma (spell save DC 13 for flying horror, DC 16 for shadow horror, and DC 17 for skittering horror). It can innately cast the following spells, requiring no material components: 3/day: darkness 1/day each: fear (shadow horror and skittering horror only), phantasmal killer (skittering horror only)\n4 | Psychic Rebuke. When the horror takes damage from a melee attack, it can use its reaction to emit psychic energy within a 5-foot radius. Each creature in that area takes 3 (1d6) psychic damage (flying horror), 7 (2d6) psychic damage (shadow horror), or 10 (3d6) psychic damage (skittering horror).\n\nSecondary Features\nd4 | Feature\n1 | Grasping Tendrils. The horror has four tendrils. Each tendril can be attacked (AC 12, 10 hit points). Destroying one deals no damage to the horror. As a bonus action, the horror can target one creature it can see within 10 feet of it. The target must succeed on a Dexterity saving throw or be grappled by the horror. The DC of the saving throw and the DC to escape the grapple are the same: 9 for the flying horror, 13 for the shadow horror, and 19 for the skittering horror. Until the grapple ends, the horror can't use the same tendril to grapple another target.\n2 | Indomitable Mind. The horror is immune to the charmed condition.\n3 | Keen Senses. The horror has advantage on Wisdom (Perception) checks that rely on sight, sound, or smell.\n4 | Mind Sight. Magical darkness doesn't impede the horror's darkvision.\n\nSource: Guildmasters' Guide to Ravnica p. 205"
+}

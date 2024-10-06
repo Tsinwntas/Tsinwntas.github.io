@@ -1,0 +1,60 @@
+{
+  "name": "Three-headed Cobra",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "16 (natural armor)",
+  "hp": "127 (15d10+45)",
+  "speed": "walk 40 ft., swim 30 ft.",
+  "str": "14",
+  "dex": "18",
+  "con": "16",
+  "int": "4",
+  "wis": "10",
+  "cha": "6",
+  "save": "Dex +7, Wis +3",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "5",
+  "resist": "poison",
+  "senses": "blindsight 10 ft.",
+  "trait": [
+    {
+      "name": "Reactive Heads",
+      "text": [
+        "The three-headed cobra gets two extra reactions that can be used only for opportunity attacks."
+      ]
+    },
+    {
+      "name": "Three-headed",
+      "text": [
+        "The cobra has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+      ]
+    },
+    {
+      "name": "Wakeful",
+      "text": [
+        "While the three-headed cobra sleeps, at least one of its heads is awake."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The three-headed cobra makes three bite attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. 7 (1d6 + 4) piercing damage and the target must make a DC 15 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Bite|7|1d6+4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 354",
+  "environment": "coastal, grassland"
+}

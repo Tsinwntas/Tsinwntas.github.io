@@ -1,0 +1,15 @@
+{
+  "name": "Vicious Double-Bladed Scimitar",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "S,2H,M",
+  "dmg1": "2d4",
+  "dmgType": "S",
+  "text": "Special: If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.\nWhen you roll a 20 with this magic weapon, the target takes an extra 7 slashing damage.\nNote: According to the SRD, it is an extra 2d6 slashing damage.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 209, Wayfinder's Guide to Eberron p. 74",
+  "roll": [
+    "1d4",
+    "2d4",
+    "2d6"
+  ]
+}

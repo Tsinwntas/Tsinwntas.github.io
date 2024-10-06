@@ -1,0 +1,52 @@
+{
+  "name": "Sharkbody Abomination",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "45 (6d10+12)",
+  "speed": "swim 40 ft.",
+  "str": "18",
+  "dex": "13",
+  "con": "15",
+  "int": "1",
+  "wis": "10",
+  "cha": "4",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "2",
+  "senses": "blindsight 30 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The abomination has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The abomination can breathe only underwater."
+      ]
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "text": [
+        "The abomination can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+6|2d8+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Explorer's Guide to Wildemount p. 215",
+  "environment": "underwater"
+}

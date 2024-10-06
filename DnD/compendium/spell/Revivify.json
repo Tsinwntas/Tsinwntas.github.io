@@ -1,0 +1,12 @@
+{
+  "name": "Revivify",
+  "level": "3",
+  "school": "N",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S, M (diamonds worth 300 gp, which the spell consumes)",
+  "duration": "Instantaneous",
+  "classes": "Cleric, Paladin, Cleric (Life), Warlock (Celestial), Cleric (Grave), Artificer, Artificer, Druid (Wildfire), Druid, Ranger, Artificer (UA), Artificer (Revisited) (UA), Druid, Ranger, Cleric (Grave (UA)), Warlock (Celestial (UA))",
+  "text": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.\nSource: Player's Handbook p. 272"
+}

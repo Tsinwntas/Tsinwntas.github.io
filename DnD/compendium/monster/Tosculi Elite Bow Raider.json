@@ -1,0 +1,72 @@
+{
+  "name": "Tosculi Elite Bow Raider",
+  "size": "M",
+  "type": "humanoid (tosculi),tome of Beasts",
+  "alignment": "lawful evil",
+  "ac": "16 (natural armor)",
+  "hp": "97 (13d8+39)",
+  "speed": "30 ft., fly 60 ft.",
+  "str": "14",
+  "dex": "18",
+  "con": "17",
+  "int": "12",
+  "wis": "14",
+  "cha": "12",
+  "skill": "Perception +6, Stealth +7",
+  "senses": "darkvision 60 ft.",
+  "passive": "16",
+  "languages": " Gnoll, Infernal, Tosculi",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Deadly Precision",
+      "text": [
+        "The tosculi elite bow raider's ranged attacks do an extra 9 (2d8) damage (included below)."
+      ]
+    },
+    {
+      "name": "Evasive",
+      "text": [
+        "Ranged weapon attacks against the tosculi elite bow raider have disadvantage."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The tosculi elite bow raider has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Skirmisher",
+      "text": [
+        "The tosculi elite bow raider can Dash as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tosculi elite bow raider makes two longbow attacks or two claws attacks."
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claws|7|1d6+4"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Longbow|7|3d8+4"
+      ]
+    }
+  ]
+}

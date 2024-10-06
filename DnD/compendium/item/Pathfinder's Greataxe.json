@@ -1,0 +1,10 @@
+{
+  "name": "Pathfinder's Greataxe",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "7",
+  "property": "H,2H",
+  "dmg1": "1d12",
+  "dmgType": "S",
+  "text": "When you wield this +1 greataxe, you always know the way to the nearest passage leading from underground toward the surface, as well as the approximate depth the axe is underground.\nSource: Princes of the Apocalypse p. 175"
+}

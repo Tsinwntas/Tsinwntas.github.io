@@ -1,0 +1,82 @@
+{
+  "name": "Nar'l Xibrindas",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Lawful Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "45 (10d8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "10",
+  "int": "17",
+  "wis": "13",
+  "cha": "12",
+  "skill": "Arcana +6, Deception +5, Perception +4, Stealth +5",
+  "passive": "14",
+  "languages": "Elvish, Undercommon",
+  "cr": "7",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Nar'l has advantage on saving throws against being charmed, and magic can't put Nar'l to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Nar'l has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Nar'l carries a vial containing three doses of eyescratch, a contact poison. A creature that comes into contact with the poison must succeed on a DC 14 Constitution saving throw or be poisoned for 1 hour and blinded while poisoned in this way. A lesser restoration spell or similar magic ends the effect."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Nar'l's innate spellcasting ability is Charisma. He can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire, levitate (self only)"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Nar'l is a 10th-level spellcaster. His spellcasting ability is Intelligence. Nar'l has the following wizard spells prepared:",
+        "Cantrips (at will): mage hand, minor illusion, poison spray, ray of frost",
+        "• 1st level (4 slots): mage armor, magic missile, shield, witch bolt",
+        "• 2nd level (3 slots): alter self, misty step, web",
+        "• 3rd level (3 slots): sending, lightning bolt",
+        "• 4th level (3 slots): Evard's black tentacles, greater invisibility",
+        "• 5th level (2 slots): cloudkill"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Staff",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d6 + 1) bludgeoning damage + 3 (1d6) poison damage, or 3 (1d8 + 1) bludgeoning damage + 3 (1d6) poison damage if used with two hands."
+      ],
+      "attack": [
+        "Staff|+2|1d6+1"
+      ]
+    },
+    {
+      "name": "Summon Demon (1/Day)",
+      "text": [
+        "Nar'l magically summons a quasit, or attempts to summon a shadow demon with a 50 percent chance of success. The summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2"
+  ],
+  "spells": "dancing lights, darkness, faerie fire, levitate, mage hand, minor illusion, poison spray, ray of frost, mage armor, magic missile, shield, witch bolt, alter self, misty step, web, sending, lightning bolt, Evard's black tentacles, greater invisibility, cloudkill",
+  "description": "Xanathar's advisor is a nervous and conniving male drow named Nar'l Xibrindas. Nar'l's house was wiped out long ago, but he and his elder brother Soluun survived and joined Bregan D'aerthe. A year ago, Nar'l was given the difficult task of infiltrating the Xanathar Guild and getting as close to the beholder as possible. Not only did he succeed, but in the course of gaining Xanathar's trust, he managed to convince the beholder to eliminate its other advisors. The beholder's paranoia will eventually cause Xanathar to question the drow's loyalty, though, and Nar'l has become increasingly worried about his future. If forced to decide between himself and Bregan D'aerthe, he'll choose the former and betray his drow allies to save his own skin.\nXanathar is aware that something is off with Nar'l, and recently assigned him a grell bodyguard. The grell has instructions to dispose of Nar'l at the first sign of disloyalty.\nSource: Waterdeep: Dragon Heist p. 211"
+}

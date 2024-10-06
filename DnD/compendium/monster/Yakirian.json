@@ -1,0 +1,80 @@
+{
+  "name": "Yakirian",
+  "size": "M",
+  "type": "humanoid (yakirian)",
+  "alignment": "Lawful Neutral",
+  "ac": "13 (chain shirt)",
+  "hp": "67 (9d8+27)",
+  "speed": "walk 40 ft.",
+  "str": "17",
+  "dex": "11",
+  "con": "16",
+  "int": "10",
+  "wis": "12",
+  "cha": "8",
+  "save": "Wis +3",
+  "skill": "Arcana +4",
+  "passive": "11",
+  "languages": "Common",
+  "cr": "2",
+  "resist": "cold",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Resilient Soul",
+      "text": [
+        "The yakirian has advantage on saving throws against being charmed, frightened, or confused, as well as against any effect that causes corruption or madness."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The yakirian makes two attacks. one with its gore and one with its ritual knife."
+      ]
+    },
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Gore|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Ritual Knife",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Ritual Knife|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Consume Heart",
+      "text": [
+        "The yakiran consumes the heart of a dead humanoid or giant within 5 feet. If the creature also less than 1 minute ago, the yakirian gains the following benefits.",
+        "The yakirian absorbs the dead creature's knowledge and asks two questions. If the dead creature knew the answers in life, the yakirian learns them instantly.",
+        "The yakirian's maximum and current hp increase by 10 for 1 hour.",
+        "The yakirian has advantage on Strength-based attack rolls and ability checks, as well as on all saving throws for 1 hour."
+      ]
+    },
+    {
+      "name": "Variant: SCHISM YAKIRIAN",
+      "text": [
+        "Yakirian culture is split. One side holds to the oath of enlightenment, while the other encourages devouring the souls of their enemies. This affords the yakirian greater power but destroys the victim's soul in the process. The different yakirian groups still work together other to oppose the remnants of Leng. A yakirian who follows the divergent philosophy gains the following trait.",
+        "A schism yakirian has a challenge rating of 3 (700 XP)."
+      ]
+    },
+    {
+      "name": "Soul Consumption",
+      "text": [
+        "When a schism yakirian consumes a creature's heart, it also consumes the soul. The duration of the benefits increases to 8 hours. In addition, the yakirian gains advantage on all attack rolls, ability checks, and saving throws, and all attack rolls made against the yakirian have disadvantage. The soul is trapped within the yakirian for 24 hours, after which it is destroyed. If the yakirian dies before that time, the soul is released. While the soul is trapped, any magic used to revive the dead creature fails unless the caster succeeds on a DC 15 spellcasting ability check. Once the soul is destroyed, only a wish spell can bring it back."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 390",
+  "environment": "mountain"
+}

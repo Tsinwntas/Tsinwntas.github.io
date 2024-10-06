@@ -1,0 +1,8 @@
+{
+  "name": "Flask",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "1",
+  "value": "0.02",
+  "text": "A flask holds 1 pint of liquid.\nSource: Player's Handbook p. 153"
+}

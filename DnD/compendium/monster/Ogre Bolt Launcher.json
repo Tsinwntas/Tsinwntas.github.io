@@ -1,0 +1,41 @@
+{
+  "name": "Ogre Bolt Launcher",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (hide armor)",
+  "hp": "59 (7d10+21)",
+  "speed": "walk 40 ft.",
+  "str": "19",
+  "dex": "12",
+  "con": "16",
+  "int": "5",
+  "wis": "7",
+  "cha": "7",
+  "passive": "8",
+  "languages": "Common, Giant",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Fist",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (2d4 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Fist|+6|2d4+4"
+      ]
+    },
+    {
+      "name": "Bolt Launcher",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 120/480 ft., one target. 17 (3d10 + 1) piercing damage."
+      ],
+      "attack": [
+        "Bolt Launcher|+3|3d10+1"
+      ]
+    }
+  ],
+  "description": "\nVile and violent though they be, ogres prove to be tractable minions for those unafraid to be brutal masters. I prefer giants, however.\n — Mordenkainen\n\nOgre Bolt Launcher. A bolt launcher carries a gigantic crossbow—a weapon so large it's essentially an ogre-held ballista. An ogre bolt launcher can load this immense weapon and loose its deadly missile as quickly as a dwarf handles a crossbow. The bolts are so large that few ogres can carry more than a half-dozen at a time, but bolt launchers have been known to uproot small trees or tear beams out of buildings and launch those when their ammunition runs low.\nOgres. Ogres are infamously dim-witted, but with enough time and patience, some of them can be trained to carry out specialized missions in battle. The names they are given—the battering ram, the bolt launcher, the chain brute, and the howdah—reflect their particular functions. These jobs are simple, but they're tailored to take advantage of an ogre's strengths.\nSource: Mordenkainen's Tome of Foes p. 220",
+  "environment": "grassland, hill, mountain"
+}

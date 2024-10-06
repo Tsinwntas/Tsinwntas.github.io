@@ -1,0 +1,47 @@
+{
+  "name": "Flying Dagger",
+  "size": "T",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "17 (natural armor)",
+  "hp": "7 (3d4)",
+  "speed": "walk 0 ft., fly 50 ft.",
+  "str": "12",
+  "dex": "15",
+  "con": "11",
+  "int": "1",
+  "wis": "5",
+  "cha": "1",
+  "save": "Dex +4",
+  "passive": "7",
+  "cr": "1/4",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Antimagic Susceptibility",
+      "text": [
+        "The dagger is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the dagger must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the dagger remains motionless and isn't flying, it is indistinguishable from a normal dagger."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Longdagger",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 5 (1d8 + 1) slashing damage."
+      ],
+      "attack": [
+        "Longdagger|+3|1d8+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Baldur's Gate: Descent Into Avernus p. 30"
+}

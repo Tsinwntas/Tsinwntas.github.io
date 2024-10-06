@@ -1,0 +1,61 @@
+{
+  "name": "Y",
+  "size": "S",
+  "type": "humanoid (derro)",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (leather armor)",
+  "hp": "36 (8d6+8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "12",
+  "int": "11",
+  "wis": "5",
+  "cha": "14",
+  "skill": "Stealth +4",
+  "passive": "7",
+  "languages": "Dwarvish, Undercommon",
+  "cr": "3",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Y has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Y has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Y is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). The derro knows the following sorcerer spells:",
+        "Cantrips (at will): acid splash, mage hand, message, prestidigitation, ray of frost",
+        "• 1st level (4 slots): burning hands, chromatic orb, sleep",
+        "• 2nd level (3 slots): invisibility, spider climb",
+        "• 3rd level (2 slots): lightning bolt"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 2 (1d6 - 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Quarterstaff|+1|1d6-1"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "acid splash, mage hand, message, prestidigitation, ray of frost, burning hands, chromatic orb, sleep, invisibility, spider climb, lightning bolt",
+  "description": "\nSource: Out of the Abyss p. 29",
+  "environment": "underdark"
+}

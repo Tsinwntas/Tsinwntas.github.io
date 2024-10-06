@@ -1,0 +1,39 @@
+{
+  "name": "Cultist",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "12 (leather armor)",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "10",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Deception +2, Religion +2",
+  "passive": "10",
+  "languages": "any one language (usually Common)",
+  "cr": "1/8",
+  "trait": [
+    {
+      "name": "Dark Devotion",
+      "text": [
+        "The cultist has advantage on saving throws against being charmed or frightened."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices.\nSource: Monster Manual p. 345, Curse of Strahd, Hoard of the Dragon Queen, Lost Mine of Phandelver, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, The Lost Dungeon of Rickedness: Big Rick Energy, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden"
+}

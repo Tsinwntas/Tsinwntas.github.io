@@ -1,0 +1,19 @@
+{
+  "name": "Na",
+  "size": "S",
+  "type": "humanoid (human)",
+  "alignment": "Neutral",
+  "ac": "10",
+  "hp": "3 (1d6)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "Common",
+  "cr": "0",
+  "description": "\nSource: Tomb of Annihilation p. 228"
+}

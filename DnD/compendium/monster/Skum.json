@@ -1,0 +1,74 @@
+{
+  "name": "Skum",
+  "size": "M",
+  "type": "aberration",
+  "alignment": "Lawful Evil",
+  "ac": "14 (natural armor)",
+  "hp": "93 (11d8+44)",
+  "speed": "walk 20 ft., swim 40 ft.",
+  "str": "19",
+  "dex": "11",
+  "con": "18",
+  "int": "7",
+  "wis": "12",
+  "cha": "9",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "Common, Deep Speech, telepathy 60 ft.",
+  "cr": "5",
+  "resist": "psychic",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Abolethic Vassal",
+      "text": [
+        "The skum is permanently charmed by its aboleth master."
+      ]
+    },
+    {
+      "name": "Amphibious",
+      "text": [
+        "The skum can breathe air and water."
+      ]
+    },
+    {
+      "name": "Psychic Conditioning",
+      "text": [
+        "The skum is immune to the frightened and charmed conditions unless they are from effects created by an aboleth."
+      ]
+    },
+    {
+      "name": "Water Dependency",
+      "text": [
+        "The skum takes 6 (1d12) acid damage every 10 minutes it goes without exposure to water."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The skum makes three attacks: two with its trident and one with its Mind-Breaking Touch."
+      ]
+    },
+    {
+      "name": "Trident",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Trident|+7|1d6+4"
+      ]
+    },
+    {
+      "name": "Mind-Breaking Touch",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 18 (4d8) psychic damage, and the target has disadvantage on Wisdom saving throws until the end of the skum's next turn."
+      ],
+      "attack": [
+        "Mind-Breaking Touch|+7|4d8"
+      ]
+    }
+  ],
+  "description": "Several poor souls around the Styes have succumbed to an aboleth's magic through its disease-bearing touch. Transformed into creatures called skum, they barely resemble their past forms, their skin turning slimy and translucent while their limbs warp to resemble those of deep-sea oddities. The change makes them dependent on water, which they must immerse themselves in regularly lest they experience painful-and potentially lethal-skin eruptions. Skum are bound to their aboleth master not just by their cursed state, but by a psychic bond that compels them to serve its every sinister whim.\nSource: Ghosts of Saltmarsh p. 254"
+}

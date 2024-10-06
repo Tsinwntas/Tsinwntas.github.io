@@ -1,0 +1,9 @@
+{
+  "name": "Padded Armor Barding",
+  "detail": "Tack and Harness",
+  "type": "G",
+  "weight": "8",
+  "ac": "11",
+  "stealth": "1",
+  "text": "Padded armor consists of quilted layers of cloth and batting.\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table in this chapter can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nSource: Player's Handbook p. 157"
+}

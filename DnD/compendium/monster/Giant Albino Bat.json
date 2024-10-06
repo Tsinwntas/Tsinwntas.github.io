@@ -1,0 +1,35 @@
+{
+  "name": "Giant Albino Bat",
+  "size": "H",
+  "type": "monstrosity",
+  "alignment": "Neutral Evil",
+  "ac": "15 (natural armor)",
+  "hp": "76 (9d12+18)",
+  "speed": "walk 10 ft., fly 80 ft.",
+  "str": "19",
+  "dex": "16",
+  "con": "15",
+  "int": "7",
+  "wis": "14",
+  "cha": "6",
+  "passive": "12",
+  "languages": "Understands Common, Abyssal but can't speak",
+  "cr": "3",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Echolocation",
+      "text": [
+        "The bat can't use its blindsight while deafened."
+      ]
+    },
+    {
+      "name": "Keen Hearing",
+      "text": [
+        "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "farmland, forest, grassland, mountain"
+}

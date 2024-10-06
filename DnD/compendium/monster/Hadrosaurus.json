@@ -1,0 +1,31 @@
+{
+  "name": "Hadrosaurus",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11 (natural armor)",
+  "hp": "19 (3d10+3)",
+  "speed": "walk 40 ft.",
+  "str": "15",
+  "dex": "10",
+  "con": "13",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "1/4",
+  "action": [
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (1d10 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Tail|+4|1d10+2"
+      ]
+    }
+  ],
+  "description": "A hadrosaurus is a semi-quadrupedal herbivore recognizable by its bony head crests. If raised as a hatchling, it can be trained to carry a Small or Medium rider.\nSource: Volo's Guide to Monsters p. 140, Tomb of Annihilation",
+  "environment": "grassland, swamp"
+}

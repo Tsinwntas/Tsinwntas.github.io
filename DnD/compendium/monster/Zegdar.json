@@ -1,0 +1,62 @@
+{
+  "name": "Zegdar",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (natural armor)",
+  "hp": "117 (9d10+27)",
+  "speed": "walk 40 ft.",
+  "str": "18",
+  "dex": "11",
+  "con": "16",
+  "int": "6",
+  "wis": "16",
+  "cha": "9",
+  "skill": "Perception +7",
+  "passive": "17",
+  "languages": "Abyssal",
+  "cr": "3",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If Zegdar moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone."
+      ]
+    },
+    {
+      "name": "Labyrinthine Recall",
+      "text": [
+        "Zegdar can perfectly recall any path it has traveled."
+      ]
+    },
+    {
+      "name": "Reckless",
+      "text": [
+        "At the start of its turn, Zegdar can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Greataxe",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 17 (2d12 + 4) slashing damage."
+      ],
+      "attack": [
+        "Greataxe|+6|2d12+4"
+      ]
+    },
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Gore|+6|2d8+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Princes of the Apocalypse p. 120",
+  "environment": "underdark"
+}

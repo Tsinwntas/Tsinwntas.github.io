@@ -1,0 +1,12 @@
+{
+  "name": "Heavy Crossbow",
+  "detail": "martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "18",
+  "value": "50.0",
+  "property": "A,H,LD,2H,M",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "range": "100/400",
+  "text": "Source: Player's Handbook p. 149"
+}

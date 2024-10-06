@@ -1,0 +1,57 @@
+{
+  "name": "Metee-kolen-ol",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (16 with mage armor)",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "14",
+  "int": "17",
+  "wis": "13",
+  "cha": "9",
+  "skill": "Arcana +5, Insight +3",
+  "passive": "11",
+  "languages": "Common",
+  "cr": "2",
+  "immune": "cold",
+  "conditionImmune": "exhaustion",
+  "trait": [
+    {
+      "name": "Wintry Gaze",
+      "text": [
+        "If a creature starts its turn within 30 feet of the metee-kolen-ol and the two of them can see each other, the metee-kolen-ol can force the creature to make a DC 12 Wisdom saving throw if the metee-kolen-ol isn't incapacitated. On a failed save, the creature has its speed halved, and it takes a -2 penalty to its AC and Dexterity saving throws for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the metee-kolen-ol's Wintry Gaze for the next 24 hours.",
+        "A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the metee-kolen-ol until the start of its next turn, when it can avert its eyes again. If it looks at the metee-kolen-ol in the meantime, it must immediately make the save."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The metee-kolen-ol is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The metee-kolen-ol has the following Wizard spells prepared:",
+        "Cantrips (at will): blade ward, chill touch, light, ray of frost",
+        "• 1st level (4 slots): fog cloud, mage armor, ray of sickness",
+        "• 2nd level (3 slots): acid arrow, alter self, shatter",
+        "• 3rd level (2 slots): dispel magic, sleet storm"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one creature. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Dagger|5|1d4+3"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "blade ward, chill touch, light, ray of frost, fog cloud, mage armor, ray of sickness, acid arrow, alter self, shatter, dispel magic, sleet storm",
+  "description": "Source: CCodex (3pp)",
+  "environment": "arctic"
+}

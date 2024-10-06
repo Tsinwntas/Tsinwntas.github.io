@@ -1,0 +1,10 @@
+{
+  "name": "Scimitar of Certain Death",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "F,L,M",
+  "dmg1": "1d6",
+  "dmgType": "S",
+  "text": "When you damage a creature with an attack using this magic weapon, the target can't regain hit points until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 270"
+}

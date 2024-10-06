@@ -1,0 +1,62 @@
+{
+  "name": "Reduced-Threat Owlbear",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "29 (7d10+21)",
+  "speed": "walk 40 ft.",
+  "str": "20",
+  "dex": "12",
+  "con": "17",
+  "int": "3",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +1",
+  "passive": "13",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Sight and Smell",
+      "text": [
+        "The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The owlbear makes two attacks: one with its beak and one with its claws."
+      ]
+    },
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 10 (1d10 + 5) piercing damage."
+      ],
+      "attack": [
+        "Beak|+5|1d10+5"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage."
+      ],
+      "attack": [
+        "Claws|+5|2d8+5"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The monstrosity can take 0 legendary action, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The monstrosity regains spent legendary action at the start of its turn."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 113",
+  "environment": "forest"
+}

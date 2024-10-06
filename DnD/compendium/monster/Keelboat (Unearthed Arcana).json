@@ -1,0 +1,74 @@
+{
+  "name": "Keelboat (Unearthed Arcana)",
+  "size": "G",
+  "type": "vehicle (60 ft. x 20 ft.)",
+  "alignment": "Unaligned",
+  "ac": "15",
+  "hp": "100",
+  "speed": "3 miles per hour (72 miles per day)",
+  "str": "16",
+  "dex": "7",
+  "con": "13",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, prone, stunned, unconscious",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "100"
+      ]
+    },
+    {
+      "name": "Hull:",
+      "text": [
+        "Armor Class: 15",
+        "Hit Points: 100 (damage threshold 10)"
+      ]
+    },
+    {
+      "name": "Control:",
+      "text": [
+        "Helm",
+        "Armor Class: 12",
+        "Hit Points: 50",
+        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the Keelboat (Unearthed Arcana) can't turn."
+      ]
+    },
+    {
+      "name": "Movement:",
+      "text": [
+        "Sails",
+        "Armor Class: 12",
+        "Hit Points: 100; -5 ft. speed per 20 damage taken ",
+        "Locomotion (water): sails, speed 25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+      ]
+    },
+    {
+      "name": "Movement:",
+      "text": [
+        "Oars",
+        "Armor Class: 12",
+        "Hit Points: 100; -5 ft. speed per 25 damage taken",
+        "Locomotion (water): oars, speed 20 ft."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Weapons:",
+      "text": [
+        "Ballista",
+        "Armor Class: 15",
+        "Hit Points: 50",
+        "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. 16 (3d10) piercing damage. Keelboat (Unearthed Arcana)s typically include a ballista only when they are equipped for combat."
+      ],
+      "attack": [
+        "Weapons:|+6|3d10"
+      ]
+    }
+  ],
+  "description": "\nSource: Unearthed Arcana: Of Ships And Sea p. 3"
+}

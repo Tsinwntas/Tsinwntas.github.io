@@ -1,0 +1,15 @@
+{
+  "name": "Drown",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "property": "T,V",
+  "dmg1": "1d6",
+  "dmg2": "1d8",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "A steel trident decorated with bronze barnacles along the upper part of its haft, Drown has a sea-green jewel just below the tines and a silver shell at the end of its haft. It floats on the surface if dropped onto water, and it floats in place if it is released underwater. The trident is always cool to the touch, and it is immune to any damage due to exposure to water. Drown contains a spark of Olhydra, the Princess of Evil Water.\nYou gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the targets take an extra 1d8 cold damage.\nWater Mastery: You gain the following benefits while you hold Drown:\n• You can speak Aquan fluently.\n• You have resistance to cold damage.\n• You can cast dominate monster (save DC 17) on a water elemental. Once you have done so, Drown can't be used this way again until the next dawn.\nTears of Endless Anguish: While inside a water node, you can perform a ritual called the Tears of Endless Anguish, using Drown to create a devastation orb of water. Once you perform the ritual, Drown can't be used to perform the ritual again until the next dawn.\nFlaw: Drown makes its wielder covetous. While attuned to the weapon, you gain the following flaw: \"I demand and deserve the largest share of the spoils, and I refuse to part with anything that's mine.\" In addition, if you are attuned to Drown for 24 consecutive hours, barnacles form on your skin. The barnacles can be removed with a greater restoration spell or similar magic, but not while you are attuned to the weapon.\nSource: Princes of the Apocalypse p. 224",
+  "roll": [
+    "1d8"
+  ]
+}

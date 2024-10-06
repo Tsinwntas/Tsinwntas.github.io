@@ -1,0 +1,42 @@
+{
+  "name": "Fey Spirit",
+  "size": "S",
+  "type": "fey",
+  "alignment": "Unaligned",
+  "ac": "0",
+  "hp": "30",
+  "speed": "walk 40 ft.",
+  "str": "13",
+  "dex": "16",
+  "con": "14",
+  "int": "14",
+  "wis": "11",
+  "cha": "16",
+  "passive": "10",
+  "languages": "Sylvan, understands the languages you speak",
+  "conditionImmune": "charmed",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "30 + 10 for each spell level above 3rd"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The fey makes a number of attacks equal to half this spell's level (rounded down)."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: {@hitYourSpellAttack} to hit, reach 5 ft., one target. 1d6 + 3 + the spell's level piercing damage + 1d6 force damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Tasha's Cauldron of Everything"
+}

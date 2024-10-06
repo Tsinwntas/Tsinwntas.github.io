@@ -1,0 +1,50 @@
+{
+  "name": "Tiefling Muralist",
+  "size": "M",
+  "type": "humanoid (tiefling)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "12 (leather armor)",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "10",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Deception +2, Religion +2",
+  "passive": "10",
+  "languages": "any one language (usually Common), Infernal",
+  "cr": "1/8",
+  "resist": "fire",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dark Devotion",
+      "text": [
+        "The muralist has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "<$title_short_name$>'s innate spellcasting ability is Charisma (spell save DC 10). <$title_short_name$> can innately cast the following spells, requiring no material components:",
+        "At will: thaumaturgy",
+        "1/day each: darkness, hellish rebuke"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+3|1d6+1"
+      ]
+    }
+  ],
+  "spells": "thaumaturgy, darkness, hellish rebuke",
+  "description": "\nSource: Infernal Machine Rebuild p. 17"
+}

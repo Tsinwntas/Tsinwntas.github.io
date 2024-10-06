@@ -1,0 +1,63 @@
+{
+  "name": "Warlock of the Fiend",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "12 (15 with mage armor)",
+  "hp": "78 (12d8+24)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "15",
+  "int": "12",
+  "wis": "12",
+  "cha": "18",
+  "save": "Wis +4, Cha +7",
+  "skill": "Arcana +4, Deception +7, Persuasion +7, Religion +4",
+  "passive": "11",
+  "languages": "any two languages (usually Abyssal or Infernal)",
+  "cr": "7",
+  "resist": "slashing from nonmagical attacks not made with silvered weapons",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dark One's Own Luck (Recharges after a Short or Long Rest)",
+      "text": [
+        "When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
+        "At will: alter self, false life, levitate (self only), mage armor (self only), silent image",
+        "1/day each: feeblemind, finger of death, plane shift"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The warlock is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+        "Cantrips (at will): eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp",
+        "• 5th level (4 slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Mace",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage."
+      ],
+      "attack": [
+        "Mace|+3|1d6"
+      ]
+    }
+  ],
+  "slots": [
+    "4"
+  ],
+  "spells": "alter self, false life, levitate, mage armor, silent image, feeblemind, finger of death, plane shift, eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp, banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire",
+  "description": "Warlocks of the fiend gain their powers through magical pacts forged with archfiends of the Lower Planes. These warlocks often keep imps or quasits as companions, and they tend toward extremes of behavior: consorting with fiend-worshiping cultists or dedicating their lives to destroying fiendish cults.\nSource: Volo's Guide to Monsters p. 219, Infernal Machine Rebuild",
+  "environment": "arctic, desert, underdark, urban"
+}

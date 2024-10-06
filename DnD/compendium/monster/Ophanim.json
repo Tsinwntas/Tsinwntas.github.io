@@ -1,0 +1,78 @@
+{
+  "name": "Ophanim",
+  "size": "L",
+  "type": "celestial (angel)",
+  "alignment": "Good Lawful",
+  "ac": "19 (natural armor)",
+  "hp": "200 (16d10+112)",
+  "speed": "walk 50 ft., fly 120 ft.",
+  "str": "24",
+  "dex": "22",
+  "con": "25",
+  "int": "22",
+  "wis": "24",
+  "cha": "26",
+  "save": "Int +11, Wis +12, Cha +13",
+  "skill": "Insight +12, Perception +12",
+  "passive": "22",
+  "languages": "All, telepathy 120 ft.",
+  "cr": "16",
+  "resist": "radiant; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Divine Awareness",
+      "text": [
+        "The ophanim knows if it hears a lie."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The ophanim has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "True Resurrectio",
+      "text": [
+        "rue resurrection"
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The ophanim's innate spellcasting ability is Charisma (spell save DC 21). It can innately cast the following spells, requiring no material components:",
+        "At will: bless, detect evil and good, invisibility (self only), scrying, thaumaturgy",
+        "3/day each: dispel evil and good, earthquake, holy aura",
+        "1/day each: commune, forbiddance, "
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ophanim makes four Light of Judgment attacks."
+      ]
+    },
+    {
+      "name": "Light of Judgment",
+      "text": [
+        "Ranged Spell Attack: +13 to hit, range 80/320 ft., one target. 18 (4d8) radiant damage."
+      ],
+      "attack": [
+        "Light of Judgment|13|4d8"
+      ]
+    },
+    {
+      "name": "Holy Fire (Recharge 5-6)",
+      "text": [
+        "The ophanim emits a burst of holy fire. Each creature within 30 feet of the ophanim must make a DC 19 Dexterity saving throw, taking 63 (18d6) radiant damage on a failed save, or half as much damage on a successful one. A humanoid reduced to 0 hp by this damage dies, leaving only a pile of fine ash."
+      ]
+    }
+  ],
+  "spells": "bless, detect evil and good, invisibility, scrying, thaumaturgy, dispel evil and good, earthquake, holy aura, commune, forbiddance, ",
+  "description": "Source: CCodex (3pp) p. 18"
+}

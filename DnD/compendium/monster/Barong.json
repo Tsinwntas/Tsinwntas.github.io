@@ -1,0 +1,123 @@
+{
+  "name": "Barong",
+  "size": "L",
+  "type": "celestial",
+  "alignment": "Good Lawful",
+  "ac": "20 (natural armor)",
+  "hp": "225 (18d10+126)",
+  "speed": "walk 60 ft., fly 60 ft.",
+  "str": "25",
+  "dex": "20",
+  "con": "25",
+  "int": "18",
+  "wis": "23",
+  "cha": "22",
+  "save": "Con +13, Wis +12, Cha +12",
+  "skill": "Insight +12, Perception +12, Persuasion +12",
+  "passive": "22",
+  "languages": "All, telepathy 120 ft.",
+  "cr": "17",
+  "resist": "bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "radiant",
+  "conditionImmune": "charmed, exhaustion, frightened",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Aura Of Protection",
+      "text": [
+        "All allies within 30 feet of Barong gain a +6 bonus to saving throws as long as Barong is conscious."
+      ]
+    },
+    {
+      "name": "Divine Weapons",
+      "text": [
+        "Barong's weapon attacks are magical. When he hits with any weapon, the weapon deals an extra 18 (4d8) radiant damage (already included below)."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Barong has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "Barong has advantage on attack rolls against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Barong makes two attacks. one with his bite and one with his claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +0 to hit, reach 0 ft., plus 18 (4d8 + 0) radiant damage.Melee Weapon Attack: +0 to hit, reach 0 ft., Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit.11 (1d8 + 7) piercing damage"
+      ],
+      "attack": [
+        "Bite|0|4d8+0",
+        "Bite|0|1d8+7"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. 10 (1d6 + 7) slashing damage plus 18 (4d8) radiant damage."
+      ],
+      "attack": [
+        "Claws|13|1d6+7"
+      ]
+    },
+    {
+      "name": "Summon Spirit (1/Day)",
+      "text": [
+        "Barong can summon any combination of 2d4 good-aligned ghosts, uraeuses (Tome of Beasts, p. 392), or couatls; 1d4 temple dogs (Tome of Beasts, p. 378), unicorns, or good-aligned wraiths; or one buraq (Tome of Beasts, p. 48) or deva. The spirits and celestials appear in unoccupied spaces within 60 feet of Barong and act as his allies. They remain for 1 minute or until Barong dismisses them as an action."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Divine Protection",
+      "text": [
+        "When a creature makes an attack against Barong or one of his allies within 30 feet, Barong grants the target of the attack a +5 bonus to its AC until the start of his next turn."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The celestial can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The celestial regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "Barong can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Barong regains spent legendary actions at the start of his turn."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Barong makes one claw attack."
+      ]
+    },
+    {
+      "name": "Enlightening Roar",
+      "text": [
+        "Each creature he chooses within 30 feet of him can immediately repeat a saving throw to end one condition currently affecting it."
+      ]
+    },
+    {
+      "name": "Divine Command (Costs 2 Actions)",
+      "text": [
+        "Barong roars a command at one allied undead or celestial within 30 feet of him. It can move up to its speed and make one attack as a reaction. The creature doesn't provoke an opportunity attack from this movement."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

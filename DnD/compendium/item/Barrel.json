@@ -1,0 +1,8 @@
+{
+  "name": "Barrel",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "70",
+  "value": "2.0",
+  "text": "A barrel can hold 40 gallons of liquid or 4 cubic feet of solids.\nSource: Player's Handbook p. 153"
+}

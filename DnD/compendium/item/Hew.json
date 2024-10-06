@@ -1,0 +1,11 @@
+{
+  "name": "Hew",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "property": "V",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "This +1 battleaxe deals maximum damage when the wielder hits a plant creature or an object made of wood. The axe's creator was a dwarf smith who feuded with the dryads of a forest where he cut firewood. Whoever carries the axe feels uneasy whenever he or she travels through a forest.\nSource: Lost Mine of Phandelver p. 33"
+}

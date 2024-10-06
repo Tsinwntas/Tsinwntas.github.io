@@ -1,0 +1,147 @@
+{
+  "name": "Lord Of Vultures",
+  "size": "L",
+  "type": "fey (shapechanger, animal lord)",
+  "alignment": "Good Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "152 (16d10+64)",
+  "speed": "walk 30 ft., fly 90 ft.",
+  "str": "18",
+  "dex": "18",
+  "con": "18",
+  "int": "16",
+  "wis": "17",
+  "cha": "20",
+  "save": "Dex +8, Con +8, Wis +7",
+  "skill": "History +7, Insight +7, Perception +7",
+  "passive": "17",
+  "languages": "All, telepathy 120 ft.",
+  "cr": "12",
+  "resist": "fire, radiant; bludgeoning, piercing, slashing from nonmagical weapons",
+  "conditionImmune": "charmed, exhaustion, frightened, incapacitated, poisoned, stunned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Bird Passivism",
+      "text": [
+        "No bird or ravenfolk can willingly attack Sampati.",
+        "They can be forced to do so through magical means."
+      ]
+    },
+    {
+      "name": "Danger Sense",
+      "text": [
+        "Sampati has advantage on Wisdom (Perception) checks and can't be surprised."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Sampati fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Sampati has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Sampati's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "Sampati has advantage on attack rolls against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "text": [
+        "If he dies, Sampati's soul reforms on the Astral Plane. In 1d6 days, it inhabits the body of another bird of prey on the Material Plane which becomes the Lord of Vultures with all of the hp and abilities thereof. Only killing every bird of prey on the Material Plane will prevent this trait from functioning."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "Sampati can use his action to polymorph into a Huge giant vulture, a Medium dark-skinned man with black and gold hair, or back into his true Large, winged humanoid form.",
+        "His statistics, other than his size, are the same in each form with the exception that only Sampati's true and vulture forms retain his flying speed. Any equipment he is wearing or carrying transforms with him."
+      ]
+    },
+    {
+      "name": "Speak With Birds",
+      "text": [
+        "Sampati can communicate with birds as if they shared a language."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The lord of vultures's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:",
+        "At will: animal friendship, thunderwave",
+        "3/day each: charm person, conjure animals (birds only, cast as a 9th-level spell), dominate beast",
+        "1/day each: antimagic field, geas, plane shift"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "In humanoid or his true form, Sampati makes three spear attacks. In vulture form, he makes three attacks. one with his beak and two with his talons."
+      ]
+    },
+    {
+      "name": "Spear (Humanoid or True Form Only)",
+      "text": [
+        "Melee or Ranged Weapon Attack: +8 to hit, reach 10 ft. or range 20/60 ft., one creature. 11 (2d6 + 4) piercing damage plus 3 (1d6) radiant damage, or 13 (2d8 + 4) piercing damage plus 3 (1d6) radiant damage if used with two hands to make a melee attack. If Sampati throws the spear, it magically reforms in his hand immediately after the attack."
+      ],
+      "attack": [
+        "Spear (Humanoid or True Form Only)|8|2d6+4"
+      ]
+    },
+    {
+      "name": "Beak (Vulture Form Only)",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. 11 (3d4 + 4) piercing damage plus 3 (1d6) radiant damage."
+      ],
+      "attack": [
+        "Beak (Vulture Form Only)|8|3d4+4"
+      ]
+    },
+    {
+      "name": "Talons (Vulture Form Only)",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. 14 (3d6 + 4) slashing damage, and the target is grappled (escape DC 17) if it is a Huge or smaller creature and Sampati isn't already grappling a creature. Until this grapple ends, the target is restrained and takes 10 (3d6) piercing damage at the start of each of its turns."
+      ],
+      "attack": [
+        "Talons (Vulture Form Only)|8|3d6+4"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fey (shapechanger, animal lord) can take 2 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fey (shapechanger, animal lord) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "Sampati can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Sampati regains spent legendary actions at the start of his turn."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "Sampati moves up to half his speed without provoking opportunity attacks. Wing Buffet (Costs 2 Actions; True or Vulture Form Only). Sampati beats his wings. Each creature within 10 feet of Sampati must succeed on a DC 17 Dexterity saving throw or take 11 (2d6 + 4) bludgeoning damage and be knocked prone. Dive Bomb (Costs 2 Actions; True or Vulture Form Only). rSampati flies up to his speed and makes a spear or talon attack against one creature. If the attack hits, the target takes an extra 9 (2d8) piercing or slashing damage. Sampati must fly at least 30 feet straight towards the target to use this action. Sampati can't use this action if he is grappling a creature."
+      ]
+    }
+  ],
+  "spells": "animal friendship, thunderwave, charm person, conjure animals, dominate beast, antimagic field, geas, plane shift",
+  "description": "Source: CCodex (3pp) p. 26",
+  "environment": "mountain"
+}

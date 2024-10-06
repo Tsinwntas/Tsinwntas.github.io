@@ -1,0 +1,10 @@
+{
+  "name": "Psychic Step",
+  "classes": "Psion",
+  "level": "0",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "60 feet",
+  "duration": "1 round",
+  "text": "You alter the composition of your body in a subtle manner, allowing you to take seemingly impossible steps.\nUntil the end of your turn, you speed increases by 10 feet and you can walk across vertical surfaces without falling. If you end your turn on such a surface, you immediately fall.\nSource: Livestream"
+}

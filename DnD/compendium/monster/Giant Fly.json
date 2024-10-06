@@ -1,0 +1,18 @@
+{
+  "name": "Giant Fly",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "19 (3d10+3)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "14",
+  "dex": "13",
+  "con": "13",
+  "int": "2",
+  "wis": "10",
+  "cha": "3",
+  "passive": "10",
+  "senses": "darkvision 60 ft.",
+  "description": "\nSource: Dungeon Master's Guide p. 169"
+}

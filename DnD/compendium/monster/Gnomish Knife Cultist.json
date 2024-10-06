@@ -1,0 +1,70 @@
+{
+  "name": "Gnomish Knife Cultist",
+  "size": "S",
+  "type": "humanoid (gnome)",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (breastplate)",
+  "hp": "97 (15d6+45)",
+  "speed": "walk 30 ft.",
+  "str": "8",
+  "dex": "14",
+  "con": "16",
+  "int": "11",
+  "wis": "12",
+  "cha": "20",
+  "save": "Con +6, Cha +8",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "Common, Gnomish, Abyssal",
+  "cr": "5",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Demon Wrangler",
+      "text": [
+        "The knife cultist has an affinity with summoned demons. They obey it without question and are immune to being charmed. In addition, demons summoned by the cultist have advantage on saving throws against spells or effects that would send them to another plane (including their home plane)."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The gnomish knife cultist's innate spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:",
+        "At will: enlarge/reduce, spider climb",
+        "3/day each: bless, magic missile, protection from energy",
+        "1/day each: haste, lightning bolt"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gnomish knife cultist makes two attacks with its ritual knife."
+      ]
+    },
+    {
+      "name": "Ritual Knife",
+      "text": [
+        "Melee Weapon Attack. +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage plus 7 (2d6) poison damage."
+      ],
+      "attack": [
+        "Ritual Knife|5|1d4+2"
+      ]
+    },
+    {
+      "name": "Demonic Summonings (1/Day)",
+      "text": [
+        "rThe gnomish knife cultist summons one demon of challenge rating 6 or two demons of challenge rating 4 or less. The summoned demons appear in unoccupied spaces within 50 feet of the cultist, acting immediately after the cultist in the initiative count. The demons are loyal to the cultist and follow its commands. They remain for 1 hour, until the cultist dies, or until the cultist dismisses them as a bonus action."
+      ]
+    },
+    {
+      "name": "Goad or Soothe (Recharge 5-6)",
+      "text": [
+        "As a bonus action, the gnomish knife cultist can goad or soothe one of its summoned demons within 50 feet. The affected demon has advantage on its next attack (if goaded) or heals 16 (3d10) hp (if soothed)."
+      ]
+    }
+  ],
+  "spells": "enlarge/reduce, spider climb, bless, magic missile, protection from energy, haste, lightning bolt",
+  "description": "Source: CCodex (3pp)",
+  "environment": "farmland"
+}

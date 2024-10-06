@@ -1,0 +1,79 @@
+{
+  "name": "Demon Grinder",
+  "size": "G",
+  "type": "vehicle (12,000 lb.)",
+  "alignment": "Unaligned",
+  "ac": "19 (19 while motionless)",
+  "hp": "200",
+  "speed": "100 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "18",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "immune": "fire, poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned, unconscious",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "200 (damage threshold 10, mishap threshold 20)"
+      ]
+    },
+    {
+      "name": "Crushing Wheels",
+      "text": [
+        "The Demon Grinder can move through the space of any Large or smaller creature. When it does, the creature must succeed on a DC 11 Dexterity saving throw or take 22 (4d10) bludgeoning damage and be knocked prone. If the creature was already prone, it takes an extra 22 (4d10) bludgeoning damage. This trait can't be used against a particular creature more than once each turn."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The Demon Grinder's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Prone Deficiency",
+      "text": [
+        "If the Demon Grinder rolls over and falls prone, it can't right itself and is incapacitated until flipped upright."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Helm (Requires 1 Crew and Grants Three-Quarters Cover)",
+      "text": [
+        "Drive and steer the Demon Grinder."
+      ]
+    },
+    {
+      "name": "Chomper (Requires 1 Crew and Grants Half Cover)",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 25 (6d6 + 4) piercing damage. A target reduced to 0 hit points by this damage is ground to bits and spit out through pipes on both sides of the Demon Grinder.Any nonmagical items the target was holding or carrying are destroyed as well."
+      ],
+      "attack": [
+        "Chomper (Requires 1 Crew and Grants Half Cover)|+9|6d6+4"
+      ]
+    },
+    {
+      "name": "Wrecking Ball (Requires 1 Crew and Grants Half Cover)",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. 40 (8d8 + 4) bludgeoning damage. Double the damage if the target is an object or a structure."
+      ],
+      "attack": [
+        "Wrecking Ball (Requires 1 Crew and Grants Half Cover)|+9|8d8+4"
+      ]
+    },
+    {
+      "name": "2 Harpoon Flingers (Each Station Requires 1 Crew and Grants Half Cover)",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 120 ft., one target. 9 (2d8) piercing damage."
+      ],
+      "attack": [
+        "2 Harpoon Flingers (Each Station Requires 1 Crew and Grants Half Cover)|+5|2d8"
+      ]
+    }
+  ],
+  "description": "A Demon Grinder is a bulky, armored coach that rumbles loudly as it crushes obstacles and enemies in its path with the help of a swinging wrecking ball. Iron jaws are mounted on the front of the vehicle, which handles like a garbage truck.\nSource: Baldur's Gate: Descent Into Avernus p. 219"
+}

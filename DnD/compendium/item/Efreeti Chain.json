@@ -1,0 +1,10 @@
+{
+  "name": "Efreeti Chain",
+  "detail": "major, Heavy Armor",
+  "type": "HA",
+  "weight": "55",
+  "ac": "16",
+  "stealth": "1",
+  "strength": "13",
+  "text": "While wearing this armor, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 13, their speed is reduced by 10 feet.\nFound On: Magic Item Table I\nSource: Dungeon Master's Guide p. 167"
+}

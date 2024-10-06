@@ -1,0 +1,80 @@
+{
+  "name": "Chelicerae",
+  "size": "L",
+  "type": "aberration,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "16 (natural armor)",
+  "hp": "153 (18d10+54)",
+  "speed": "40 ft., climb 30 ft.",
+  "str": "22",
+  "dex": "17",
+  "con": "17",
+  "int": "14",
+  "wis": "15",
+  "cha": "14",
+  "save": "Dex +6, Wis +5, Cha +5",
+  "skill": "Acrobatics +6, Athletics +9, Perception +5, Stealth +6",
+  "immune": "poison",
+  "conditionImmune": "charmed, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "15",
+  "languages": "-",
+  "cr": "7",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The chelicerae has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The chelicerae is an 8th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no material components to cast its spells. The chelicerae has the following wizard spells prepared:",
+        "Cantrips: acid splash, mage hand, minor illusion, true strike",
+        "1st level: burning hands, detect magic, expeditious retreat, ray of sickness",
+        "2nd level: hold person, invisibility, scorching ray",
+        "3rd level: animate dead, haste, lightning bolt",
+        "4th level: phantasmal killer"
+      ]
+    },
+    {
+      "name": "Siphon Spell Slots",
+      "text": [
+        "The chelicerae cannot replenish its spells naturally. Instead, it uses grappled spellcasters as spell reservoirs, draining uncast spells to power its own casting. Whenever the chelicerae wishes to cast a spell, it consumes a number of spell slots from its victim equal to the spell slots necessary to cast the spell. If the victim has too few spell slots available, the chelicerae cannot cast that spell. The chelicerae can also draw power from drained spellcasters or creatures without magic ability. It can reduce a grappled creature's Wisdom by 1d4, adding 2 spell slots to its spell reservoir for every point lowered. A creature reduced to 0 Wisdom is unconscious until it regains at least one point, and can't offer any more power. A creature regains all lost Wisdom when it finishes a long rest."
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "text": [
+        "Chelicerae can climb difficult surfaces, including upside down on ceilings, without requiring an ability check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The chelicerae makes one bite attack and two claw attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage, and the target is grappled (escape DC 16). The target must also make a successful DC 16 Constitution saving throw or become poisoned. While poisoned this way, the target is unconscious and takes 1d4 Strength damage at the start of each of its turns. The poisoning ends after 4 rounds or when the target makes a successful DC 16 Constitution save at the end of its turn."
+      ],
+      "attack": [
+        "Bite|9|2d10+6"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) slashing damage."
+      ],
+      "attack": [
+        "Claw|9|2d8+6"
+      ]
+    }
+  ]
+}

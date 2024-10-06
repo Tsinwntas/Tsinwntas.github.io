@@ -1,0 +1,16 @@
+{
+  "name": "Blunderbuss",
+  "type": "R",
+  "weight": "10",
+  "text": [
+    "A ranged weapon that is powerful at short range.",
+    "Reload 1, Misfire 2",
+    "Proficiency: firearms",
+    "Ammunition: 5g (20)",
+    "Source: Matthew Mercer - Gunslinger 1.3 p. 3"
+  ],
+  "dmg1": "2d8",
+  "dmgType": "P",
+  "property": "M,A,LD",
+  "range": "15/60"
+}

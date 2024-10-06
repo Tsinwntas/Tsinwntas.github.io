@@ -1,0 +1,55 @@
+{
+  "name": "Roachling Skirmisher",
+  "size": "S",
+  "type": "humanoid (roachling),tome of Beasts",
+  "alignment": "chaotic neutral",
+  "ac": "13 (natural armor)",
+  "hp": "7 (2d6)",
+  "speed": "25 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "11",
+  "int": "10",
+  "wis": "9",
+  "cha": "8",
+  "save": "Dex +4, Con +2",
+  "skill": "Acrobatics +4, Stealth +6",
+  "senses": "darkvision 60 ft., tremorsense 10 ft.",
+  "passive": "9",
+  "languages": " Common",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Resistant",
+      "text": [
+        "The roachling skirmisher has advantage on Constitution saving throws."
+      ]
+    },
+    {
+      "name": "Unlovely",
+      "text": [
+        "The skirmisher has disadvantage on Performance and Persuasion checks in interactions with nonroachlings."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Dart",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dart|4|1d4+2"
+      ]
+    }
+  ]
+}

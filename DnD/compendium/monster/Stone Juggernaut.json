@@ -1,0 +1,58 @@
+{
+  "name": "Stone Juggernaut",
+  "size": "L",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "157 (15d10+75)",
+  "speed": "walk 50 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "15",
+  "int": "14",
+  "wis": "14",
+  "cha": "16",
+  "passive": "10",
+  "cr": "12",
+  "immune": "poison; bludgeoning, piercing, slashing from nonmagical attacks not made with adamantine weapons",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+  "senses": "blindsight 120 ft.",
+  "trait": [
+    {
+      "name": "Devastating Roll",
+      "text": [
+        "The juggernaut can move through the space of a prone creature. A creature whose space the juggernaut enters for the first time on a turn must make a DC 17 Dexterity saving throw, taking 55 (10d10) bludgeoning damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The juggernaut is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "As long as it has 1 hit point left, the juggernaut magically regains all its hit points daily at dawn. The juggernaut is destroyed and doesn't regenerate if it drops to 0 hit points."
+      ]
+    },
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The juggernaut deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 25 (3d12 + 6) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Slam|+10|3d12+6"
+      ]
+    }
+  ],
+  "description": "A stone juggernaut is a rolling construct imbued with enough awareness to avoid obvious dangers such as open pits and chasms. It trundles across open battlefields or rolls down dungeon corridors, crushing anyone in its path. Every stone juggernaut has a unique shape and appearance. One might resemble an elephant with bejeweled tusks, while another might look like a scowling demon with flaming eyes and obsidian teeth.\nA stone juggernaut is fast, but it lacks maneuverability and can move in only one direction on its turn. It poses little danger to creatures it can't crush beneath its rollers. Its best tactic is to slam into a creature, knock it prone, and then roll over it.\nSource: Tomb of Annihilation p. 231"
+}

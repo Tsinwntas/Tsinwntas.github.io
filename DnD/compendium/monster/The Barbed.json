@@ -1,0 +1,58 @@
+{
+  "name": "The Barbed",
+  "size": "S",
+  "type": "humanoid (kobold)",
+  "alignment": "Lawful Evil",
+  "ac": "13",
+  "hp": "44 (8d8+8)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "16",
+  "con": "12",
+  "int": "8",
+  "wis": "10",
+  "cha": "11",
+  "skill": "Athletics +4, Stealth +5",
+  "passive": "10",
+  "languages": "Common, Draconic",
+  "cr": "1",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The kobold has advantage on attack rolls against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Barbed Slash",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) slashing damage and 3 (1d6) poison damage. The target must succeed on a DC 12 Constitution saving throw or be poisoned until the end of its next turn."
+      ],
+      "attack": [
+        "Barbed Slash|4|2d4+2"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Javelin|4|1d6+2"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 263",
+  "environment": "badlands"
+}

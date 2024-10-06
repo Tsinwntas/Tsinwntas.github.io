@@ -1,0 +1,11 @@
+{
+  "name": "Sickle",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "value": "1.0",
+  "property": "L",
+  "dmg1": "1d4",
+  "dmgType": "S",
+  "text": "Source: Player's Handbook p. 149"
+}

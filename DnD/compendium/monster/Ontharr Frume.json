@@ -1,0 +1,71 @@
+{
+  "name": "Ontharr Frume",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "18 (plate armor)",
+  "hp": "117 (18d8+36)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "14",
+  "int": "11",
+  "wis": "17",
+  "cha": "13",
+  "save": "Con +6, Wis +7",
+  "skill": "Intimidation +5, Religion +4",
+  "passive": "13",
+  "languages": "any two languages",
+  "cr": "9",
+  "trait": [
+    {
+      "name": "5etools Note",
+      "text": [
+        "Ontharr Frume is presented in Hoard of the Dragon Queen and The Rise of Tiamat as a lawful good, human paladin of Torm. The war priest statblock from Volo's Guide to Monsters has been provided here for ease of use."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:",
+        "Cantrips (at will): light, mending, sacred flame, spare the dying",
+        "• 1st level (4 slots): divine favor, guiding bolt, healing word, shield of faith",
+        "• 2nd level (3 slots): lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon",
+        "• 3rd level (3 slots): beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water walk",
+        "• 4th level (3 slots): banishment, freedom of movement, guardian of faith, stoneskin",
+        "• 5th level (1 slots): flame strike, mass cure wounds, hold monster"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The priest makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Maul",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 10 (2d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Maul|+7|2d6+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Guided Strike (Recharges after a Short or Long Rest)",
+      "text": [
+        "The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "light, mending, sacred flame, spare the dying, divine favor, guiding bolt, healing word, shield of faith, lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon, beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water walk, banishment, freedom of movement, guardian of faith, stoneskin, flame strike, mass cure wounds, hold monster",
+  "description": "\nSource: Hoard of the Dragon Queen p. 28",
+  "environment": "desert, urban"
+}

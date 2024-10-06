@@ -1,0 +1,76 @@
+{
+  "name": "Vines Of Nemthyr",
+  "size": "L",
+  "type": "plant",
+  "alignment": "Neutral Evil",
+  "ac": "15 (natural armor)",
+  "hp": "133 (14d10+56)",
+  "speed": "walk 30 ft., burrow 30 ft.",
+  "str": "19",
+  "dex": "12",
+  "con": "19",
+  "int": "5",
+  "wis": "13",
+  "cha": "5",
+  "save": "Str +7, Con +7",
+  "skill": "Perception +4, Survival +4",
+  "passive": "14",
+  "cr": "8",
+  "resist": "cold, poison",
+  "conditionImmune": "blinded, deafened, frightened, poisoned",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Dispersal",
+      "text": [
+        "As a bonus action, the vines of Nemthyr can separate itself into a group of distinct vines. While separated in this way, the vines can move through spaces as narrow as 3 inches wide. The separated vines can't attack while in this state, but they can reform into the vines of Nemthyr as a bonus action."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the vines of Nemthyr remains motionless, it is indistinguishable from a normal plant."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The vines of Nemthyr has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The vines of Nemthyr makes three attacks. two with its slam and one with its thorny lash."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|7|2d6+4"
+      ]
+    },
+    {
+      "name": "Thorny Lash",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. 15 (2d10 + 4) slashing damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained. The vines of Nemthyr has two thorny lashes, each of which can grapple only one target."
+      ],
+      "attack": [
+        "Thorny Lash|7|2d10+4"
+      ]
+    },
+    {
+      "name": "Thorn Spray (Recharge 6)",
+      "text": [
+        "The vines of Nemthyr shoots poisonous thorns in a 30-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 35 (10d6) poison damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest, grassland"
+}

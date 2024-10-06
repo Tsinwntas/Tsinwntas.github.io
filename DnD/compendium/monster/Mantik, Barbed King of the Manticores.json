@@ -1,0 +1,135 @@
+{
+  "name": "Mantik, Barbed King of the Manticores",
+  "size": "H",
+  "type": "monstrosity",
+  "alignment": "Lawful Evil",
+  "ac": "16 (natural armor)",
+  "hp": "168 (16d12+64)",
+  "speed": "walk 40 ft.",
+  "str": "19",
+  "dex": "14",
+  "con": "18",
+  "int": "10",
+  "wis": "14",
+  "cha": "16",
+  "save": "Str +8, Con +8",
+  "skill": "Athletics +8, Intimidation +7, Perception +6",
+  "passive": "16",
+  "languages": "Common, Dwarvish, Draconic",
+  "cr": "9",
+  "resist": "poison",
+  "conditionImmune": "charmed, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Cursed",
+      "text": [
+        "Mantik may not fly, levitate, or be polymorphed by any spell or effect."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (2/Day)",
+      "text": [
+        "If Mantik fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Mantik's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Merciless Ferocity",
+      "text": [
+        "Mantik has advantage on all opportunity attacks, and a creature reduced to 0 hp by his attacks has disadvantage on its first death saving throw."
+      ]
+    },
+    {
+      "name": "Penetrating Volley",
+      "text": [
+        "If Mantik moves at least 20 feet in a straight line, all tail spike attacks made this round have advantage. A creature struck by these tail spike attacks must succeed on a DC 16 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Tail Spike Regrowth",
+      "text": [
+        "Mantik has thirty-six tail spikes. Used spikes regrow when he finishes a long rest."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Mantik makes three attacks. two with his claws and one with his bite or three with his tail spikes."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|8|2d8+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|8|2d6+4"
+      ]
+    },
+    {
+      "name": "Tail Spike",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 100/200 ft., one target. 11 (2d8 + 2) piercing damage and the creature must succeed on a DC 16 Constitution saving throw or be poisoned until the end of its next turn. A creature poisoned by the tail spike has its speed halved and can't take the Dash action."
+      ],
+      "attack": [
+        "Tail Spike|6|2d8+2"
+      ]
+    },
+    {
+      "name": "Roar of the Barbed King (Recharge 5-6)",
+      "text": [
+        "Mantik unleashes an ground-shaking roar. Each creature within 60 feet who can hear him must succeed on a DC 14 Wisdom saving throw or be incapacitated for 1d4 rounds."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Mantik, can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Mantik, regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "Mantik can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Mantik regains spent legendary actions at the start of his turn."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "Mantik moves up to his speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Growl (Costs 2 Actions)",
+      "text": [
+        "Mantik lets loose a throaty growl. Each creature within 60 feet who can hear Mantik must succeed on a DC 14 Wisdom saving throw or be frightened of him until the end of its next turn."
+      ]
+    },
+    {
+      "name": "Tail Spike (Costs 2 Actions)",
+      "text": [
+        "Mantik makes a tail spike attack."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 262",
+  "environment": "badlands"
+}

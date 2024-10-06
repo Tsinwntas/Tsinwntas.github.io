@@ -1,0 +1,66 @@
+{
+  "name": "Fragrite",
+  "size": "M",
+  "type": "elemental (shapechanger)",
+  "alignment": "Chaotic Neutral",
+  "ac": "14 (natural armor)",
+  "hp": "91 (14d8+28)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "13",
+  "con": "15",
+  "int": "6",
+  "wis": "8",
+  "cha": "8",
+  "passive": "9",
+  "languages": "Terran",
+  "cr": "6",
+  "resist": "fire, lightning; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Sand Camouflage (Sand Form Only)",
+      "text": [
+        "The fragrite has advantage on Dexterity (Stealth) checks made to hide in sandy terrain."
+      ]
+    },
+    {
+      "name": "Sand Glide (Sand Form Only)",
+      "text": [
+        "The fragrite can burrow through sand without disturbing the material it moves through."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "As a bonus action, the fragrite can polymorph into a mass of sand or a glass humanoid. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+        "While in sand form, the fragrite has a burrow speed of 50 feet, it can move through a space as narrow as 1 inch wide without squeezing, and it is immune to the grappled condition. While in glass form, the fragrite has vulnerability to thunder damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The fragrite makes two strike attacks."
+      ]
+    },
+    {
+      "name": "Strike",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit."
+      ]
+    },
+    {
+      "name": "12 (2d8 + 3) bludgeoning damage",
+      "text": [
+        "If the fragrite is in its glass form and has less than half of its total hp remaining, this attack instead deals 16 (3d8 + 3) slashing damage. Spontaneous Explosion (Glass Form Only; Recharge 56). The fragrite explodes into shards of glass, reducing its hp by 5 (2d4).",
+        "Each creature within 15 feet of it must make a DC 14 Dexterity saving throw, taking 27 (6d8) slashing damage on a failed save, or half as much damage on a successful one. The fragrite then polymorphs into its sand form."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "badlands"
+}

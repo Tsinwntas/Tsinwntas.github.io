@@ -1,0 +1,64 @@
+{
+  "name": "Gorthok the Thunder Boar",
+  "size": "H",
+  "type": "monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "73 (7d12+28)",
+  "speed": "walk 50 ft.",
+  "str": "20",
+  "dex": "11",
+  "con": "19",
+  "int": "6",
+  "wis": "10",
+  "cha": "14",
+  "passive": "10",
+  "cr": "6",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "lightning, thunder",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Relentless (Recharges after a Short or Long Rest)",
+      "text": [
+        "If Gorthok takes 27 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Gorthok makes two melee attacks: one with its lightning tusks and one with its thunder hooves."
+      ]
+    },
+    {
+      "name": "Lightning Tusks",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 12 (2d6 + 5) slashing damage plus 7 (2d6) lightning damage."
+      ],
+      "attack": [
+        "Lightning Tusks|+8|2d6+5"
+      ]
+    },
+    {
+      "name": "Thunder Hooves",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 12 (2d6 + 5) bludgeoning damage plus 7 (2d6) thunder damage."
+      ],
+      "attack": [
+        "Thunder Hooves|+8|2d6+5"
+      ]
+    },
+    {
+      "name": "Lightning Bolt (Recharge 6)",
+      "text": [
+        "Gorthok shoots a bolt of lightning at one creature it can see within 120 feet of it. The target must make a DC 15 Dexterity saving throw, taking 18 (4d8) lightning damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Lightning Bolt (Recharge 6)||4d8"
+      ]
+    }
+  ],
+  "description": "Gorthok is a primal nature spirit that takes the form of a boar as big as an elephant, with lightning that dances along its tusks. Gorthok serves the will of Talos, god of storms, and can be summoned during stormy weather to do the bidding of Talos's evil followers. Like its patron deity, Gorthok revels in destruction.\nSource: Essentials Kit: Dragon of Icespire Peak p. 58"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Quiver",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "1",
+  "value": "1.0",
+  "text": "A quiver can hold up to 20 arrow.\nSource: Player's Handbook p. 153"
+}

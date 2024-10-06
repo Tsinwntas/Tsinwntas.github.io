@@ -1,0 +1,45 @@
+{
+  "name": "Orc (Ixalan)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 2, Con 1",
+  "proficiency": "Intimidation",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Ixalan p. 15"
+    },
+    {
+      "name": "Age",
+      "text": "Orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most orcs lean toward chaotic alignments, and many serve on pirate ships that encourage an inclination toward evil.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Orcs average over 6 feet in height, and they have strong, stocky builds. Your size is Medium.\n"
+    },
+    {
+      "name": "Menacing",
+      "text": "You gain proficiency in the Intimidation skill.\n"
+    },
+    {
+      "name": "Relentless Endurance",
+      "text": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.\n"
+    },
+    {
+      "name": "Savage Attacks",
+      "text": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common (if it exists in your campaign) and Orc.\n"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Merfolk Scout",
+  "size": "M",
+  "type": "humanoid (merfolk)",
+  "alignment": "Any alignment",
+  "ac": "13 (leather armor)",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 10 ft., swim 40 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "11",
+  "wis": "13",
+  "cha": "11",
+  "skill": "Nature +4, Perception +5, Stealth +6, Survival +5",
+  "passive": "15",
+  "languages": "any one language (usually Common), Aquan",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Keen Hearing and Sight",
+      "text": [
+        "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      ]
+    },
+    {
+      "name": "Amphibious",
+      "text": [
+        "<$title_short_name$> can breathe air and water."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The scout makes two melee attacks or two ranged attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Ghosts of Saltmarsh p. 216"
+}

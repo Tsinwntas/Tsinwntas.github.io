@@ -1,0 +1,11 @@
+{
+  "name": "Club",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "value": "0.1",
+  "property": "L",
+  "dmg1": "1d4",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 149"
+}

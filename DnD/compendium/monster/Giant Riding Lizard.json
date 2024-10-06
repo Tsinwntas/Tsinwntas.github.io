@@ -1,0 +1,38 @@
+{
+  "name": "Giant Riding Lizard",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "19 (3d10+3)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "15",
+  "dex": "12",
+  "con": "13",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "passive": "10",
+  "cr": "1/4",
+  "senses": "darkvision 30 ft.",
+  "trait": [
+    {
+      "name": "Spider Climb",
+      "text": [
+        "The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 131"
+}

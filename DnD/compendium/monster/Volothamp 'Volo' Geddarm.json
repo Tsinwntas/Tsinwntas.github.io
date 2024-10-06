@@ -1,0 +1,46 @@
+{
+  "name": "Volothamp \"Volo\" Geddarm",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Chaotic Good",
+  "ac": "11",
+  "hp": "31 (7d8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "12",
+  "con": "10",
+  "int": "15",
+  "wis": "11",
+  "cha": "16",
+  "save": "Con +2, Wis +2",
+  "skill": "Animal handling +4, Arcana +4, Deception +5, History +4, Insight +2, Investigation +4, Perception +2, Performance +7, Persuasion +7, Sleight of hand +3, Survival +2",
+  "passive": "12",
+  "languages": "Common, Dwarvish, Elvish",
+  "cr": "1/4",
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 3 (1d4 + 1) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+3|1d4+1"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Volo is a 1st-level spellcaster. His spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). He has the following wizard spells prepared:",
+        "Cantrips (at will): friends, mending, prestidigitation",
+        "• 1st level (2 slots): comprehend languages, detect magic, disguise self"
+      ]
+    }
+  ],
+  "slots": [
+    "2"
+  ],
+  "spells": "friends, mending, prestidigitation, comprehend languages, detect magic, disguise self",
+  "description": "The bombastic world traveler Volothamp Geddarmn has come to Chult to deliver signed copies of his latest book, Volo's Guide to Monsters. In addition to setting up audiences with the seven merchant princes of Port Nyanzaru (whom he knows well), Volo is visiting local taverns to promote his work, and the characters might meet him at some point in the city. Volo is a font of information (not all of it accurate), but he won't join the party under any circumstances. He might, however, allow the characters to tag along while he visits each merchant prince in turn.\nThe personable Volo is more than willing to share 1d4 + 1 rumors from the Jungle Rumors table at the end of chapter 1, which he's overheard since arriving in Port Nyanzaru.\nVolo's Traits. Ideal. \"I have no wish to explore jungles, lost cities, and dungeons. Friendly taverns and bawdy festhalls are more my style.\"\nBond. \"Planning an expedition? You really should buy a copy of my latest book, Volo's Guide to Monsters!\"\nFlaw. \"My penchant for indulgence and my propensity for mockery have earned me a few enemies. I tend to wear out my welcome.\"\nSource: Tomb of Annihilation p. 235, Waterdeep: Dragon Heist"
+}

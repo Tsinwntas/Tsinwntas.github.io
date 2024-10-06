@@ -1,0 +1,57 @@
+{
+  "name": "Abyssal Chicken",
+  "size": "T",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (natural armor)",
+  "hp": "10 (3d4+3)",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "6",
+  "dex": "14",
+  "con": "13",
+  "int": "4",
+  "wis": "9",
+  "cha": "5",
+  "passive": "9",
+  "languages": "understands Abyssal but can't speak",
+  "cr": "1/4",
+  "resist": "cold, fire, lightning",
+  "immune": "poison",
+  "conditionImmune": "blinded, poisoned",
+  "senses": "blindsight 30ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Bad Flier",
+      "text": [
+        "The abyssal chicken falls at the end of a turn if it's airborne and the only thing holding it aloft is its flying speed."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The abyssal chicken makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "Abyssal chickens are carnivorous, temperamental, tasty bottom-feeders native to the Abyss. They beat their leathery wings to scare predators and to help them run faster, and they taste like fatty chicken.\nWith your permission, a character who casts the find familiar spell can henceforth choose to conjure an abyssal chicken instead of a raven.\nSource: Baldur's Gate: Descent Into Avernus p. 97"
+}

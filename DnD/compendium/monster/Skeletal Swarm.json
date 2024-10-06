@@ -1,0 +1,48 @@
+{
+  "name": "Skeletal Swarm",
+  "size": "L",
+  "type": "swarm of Large undeads",
+  "alignment": "Lawful Evil",
+  "ac": "13 (armor scraps)",
+  "hp": "60 (8d10+16)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "14",
+  "con": "15",
+  "int": "6",
+  "wis": "8",
+  "cha": "5",
+  "passive": "9",
+  "cr": "2",
+  "resist": "slashing, piercing",
+  "immune": "poison",
+  "vulnerable": "bludgeoning",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, restrained, stunned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Deafening Clatter",
+      "text": [
+        "Creatures are deafened while in the swarm's space."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "text": [
+        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Small humanoid. The swarm can't regain hit points or gain temporary hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slash",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's space. 11 (2d8 + 2) slashing damage, or 6 (1d8 + 2) slashing damage if the swarm has half of its hit points or fewer."
+      ],
+      "attack": [
+        "Slash|+4|2d8+2"
+      ]
+    }
+  ],
+  "description": "This swarm of bones found rising out of the sand in Isle of the Abbey is made from the remains of several animated skeletons. A skeletal swarm alternates its appearance between partially formed humanoid shapes and a chaotic, swirling mass.\nSource: Ghosts of Saltmarsh p. 254, Essentials Kit: Divine Contention, Infernal Machine Rebuild"
+}

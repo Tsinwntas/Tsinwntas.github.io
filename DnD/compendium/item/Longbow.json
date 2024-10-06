@@ -1,0 +1,12 @@
+{
+  "name": "Longbow",
+  "detail": "martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "2",
+  "value": "50.0",
+  "property": "A,H,2H,M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "150/600",
+  "text": "Source: Player's Handbook p. 149"
+}

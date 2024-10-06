@@ -1,0 +1,53 @@
+{
+  "name": "Foxin",
+  "size": "S",
+  "type": "fey",
+  "alignment": "Neutral",
+  "ac": "14 (natural armor)",
+  "hp": "16 (3d6+6)",
+  "speed": "walk 40 ft.",
+  "str": "14",
+  "dex": "16",
+  "con": "14",
+  "int": "10",
+  "wis": "14",
+  "cha": "16",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "Understands Common, Sylvan but can't speak",
+  "cr": "1/2",
+  "conditionImmune": "charmed",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Senses",
+      "text": [
+        "The foxin has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell."
+      ]
+    },
+    {
+      "name": "Neutral Presence",
+      "text": [
+        "A foxin naturally emits an air of total belonging. It doesn't go unnoticed, but other creatures always behave as though the foxin's presence is normal and unobtrusive."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit.",
+        "6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Illusory Calm",
+      "text": [
+        "The foxin targets any number of non-foxin creatures within 30 feet. Each creature in that area must succeed on a DC 13 Wisdom saving throw or be treated as charmed against all enemies and dangers for 1 minute. A charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the foxin's Illusory Calm for the next 24 hours.",
+        "A creature has advantage on the saving throw if it suffers any harm while charmed."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "grassland"
+}

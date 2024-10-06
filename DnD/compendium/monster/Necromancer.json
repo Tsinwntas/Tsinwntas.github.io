@@ -1,0 +1,65 @@
+{
+  "name": "Necromancer",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Evil Alignment",
+  "ac": "12 (15 with mage armor)",
+  "hp": "49 (9d8+9)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "15",
+  "con": "12",
+  "int": "18",
+  "wis": "15",
+  "cha": "13",
+  "save": "Int +6, Wis +5",
+  "skill": "Arcana +7, History +7",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "6",
+  "conditionImmune": "frightened",
+  "trait": [
+    {
+      "name": "Grim Harvest",
+      "text": [
+        "Once per turn when a living creature fails a saving throw against or is harmed by one of the necromancer's Necromancy spells of 1st level or higher, the necromancer regains hp equal to three times the spell's level."
+      ]
+    },
+    {
+      "name": "Undead Thralls",
+      "text": [
+        "When the necromancer casts animate dead, it can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate. Undead created by the necromancer have an additional 9 hp and a +3 to their weapon damage rolls."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The necromancer is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following Wizard spells prepared:",
+        "Cantrips (at will): chill touch, mage hand, poison spray, ray of frost",
+        "• 1st level (4 slots): false life, mage armor, ray of sickness*",
+        "• 2nd level (3 slots): blindness/deafness*, ray of enfeeblement*",
+        "• 3rd level (3 slots): animate dead, dispel magic, fear, vampiric touch*",
+        "• 4th level (3 slots): blight*, ice storm, stoneskin",
+        "• 5th level (2 slots): cloudkill, cone of cold *"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage or 4 (1d8) bludgeoning damage if used with two hands."
+      ],
+      "attack": [
+        "Quarterstaff|3|1d6"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2"
+  ],
+  "spells": "chill touch, mage hand, poison spray, ray of frost, false life, mage armor, ray of sickness, blindness/deafness, ray of enfeeblement, animate dead, dispel magic, fear, vampiric touch, blight, ice storm, stoneskin, cloudkill, cone of cold ",
+  "description": "Source: CCodex (3pp)"
+}: Volo's Guide to Monsters p. 217, Tales from the Yawning Portal, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak",
+  "environment": "desert, urban"
+}

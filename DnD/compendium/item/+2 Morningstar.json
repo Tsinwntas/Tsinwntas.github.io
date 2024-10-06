@@ -1,0 +1,10 @@
+{
+  "name": "+2 Morningstar",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "property": "M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "text": "You have a +2 bonus to attack and damage rolls made with this magic weapon.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 213"
+}

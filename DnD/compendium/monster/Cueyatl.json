@@ -1,0 +1,57 @@
+{
+  "name": "Cueyatl",
+  "size": "S",
+  "type": "humanoid",
+  "alignment": "Lawful Evil",
+  "ac": "11",
+  "hp": "21 (6d6)",
+  "speed": "walk 30 ft., climb 20 ft., swim 30 ft.",
+  "str": "10",
+  "dex": "12",
+  "con": "11",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Stealth +3",
+  "passive": "10",
+  "cr": "1/2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The cueyatl can breathe air and water."
+      ]
+    },
+    {
+      "name": "Jungle Camouflage",
+      "text": [
+        "The cueyatl has advantage on Dexterity (Stealth) checks made to hide in jungle terrain."
+      ]
+    },
+    {
+      "name": "Slippery",
+      "text": [
+        "The cueyatl has advantage on saving throws and ability checks made to escape a grapple."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The cueyatl's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. 3 (1d6) piercing damage plus 7 (2d6) poison damage or 4 (1d8) piercing damage plus 7 (2d6) poison damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|2|1d6"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

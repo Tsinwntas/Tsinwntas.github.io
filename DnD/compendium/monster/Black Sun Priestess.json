@@ -1,0 +1,67 @@
+{
+  "name": "Black Sun Priestess",
+  "size": "M",
+  "type": "humanoid (orc)",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (hide armor)",
+  "hp": "67 (9d8+27)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "16",
+  "int": "9",
+  "wis": "16",
+  "cha": "14",
+  "skill": "Insight +6, Intimidation +6, Religion +1",
+  "passive": "13",
+  "languages": "Common, Orc",
+  "cr": "3",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Aggressive",
+      "text": [
+        "As a bonus action, the priestess can move up to her speed toward a hostile creature that she can see."
+      ]
+    },
+    {
+      "name": "Black Sun Sight",
+      "text": [
+        "Magical darkness doesn't impede the the Black Sun priestess' darkvision."
+      ]
+    },
+    {
+      "name": "Light Sensitivity",
+      "text": [
+        "While in bright light, the orc has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The black sun priestess is a 6th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The black sun priestess has the following Cleric spells prepared:",
+        "Cantrips (at will): guidance, mending, resistance, sacred flame",
+        "• 1st level (4 slots): bane, command, cure wounds, detect magic",
+        "• 2nd level (3 slots): augury, spiritual weapon",
+        "• 3rd level (3 slots): animate dead, bestow curse, spirit guardians"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Greatclub",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Greatclub|5|1d8+3"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3"
+  ],
+  "spells": "guidance, mending, resistance, sacred flame, bane, command, cure wounds, detect magic, augury, spiritual weapon, animate dead, bestow curse, spirit guardians",
+  "description": "Source: CCodex (3pp)",
+  "environment": "mountain"
+}

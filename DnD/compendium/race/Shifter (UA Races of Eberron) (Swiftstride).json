@@ -1,0 +1,53 @@
+{
+  "name": "Shifter (UA Races of Eberron) (Swiftstride)",
+  "size": "M",
+  "speed": "35",
+  "ability": "Dex 1, Dex 2, Cha 1",
+  "proficiency": "Acrobatics",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Unearthed Arcana: Races Of Eberron p. 6"
+    },
+    {
+      "name": "Graceful",
+      "text": "You have proficiency with the Acrobatics skill.\n"
+    },
+    {
+      "name": "Swift Stride",
+      "text": "Your walking speed increases by 5 feet.\n"
+    },
+    {
+      "name": "Shifting Feature",
+      "text": "While shifted, your walking speed increases by 5 feet. Additionally, you can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn't provoke opportunity attacks.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Shifter (UA Races of Eberron) (Swiftstride)s are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Shifter (UA Races of Eberron) (Swiftstride)s tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive Shifter (UA Races of Eberron) (Swiftstride)s toward chaotic alignments.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Shifter (UA Races of Eberron) (Swiftstride)s range from 5 to almost 7 feet tall, depending on their subrace. Your size is Medium.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Keen Senses",
+      "text": "You have proficiency with the Perception skill.\n"
+    },
+    {
+      "name": "Shifting",
+      "text": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your Shifter (UA Races of Eberron) (Swiftstride) subrace, described below.\nOnce you shift, you can't do so again until you finish a short or long rest.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common.\n"
+    }
+  ]
+}

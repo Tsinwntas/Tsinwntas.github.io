@@ -1,0 +1,37 @@
+{
+  "name": "Gith (Githzerai)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Int 1, Wis 2",
+  "spellAbility": "Wisdom",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Mordenkainen's Tome of Foes p. 96"
+    },
+    {
+      "name": "Alignment",
+      "text": "Githzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline.\n"
+    },
+    {
+      "name": "Mental Discipline",
+      "text": "You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.\n"
+    },
+    {
+      "name": "Githzerai Psionics",
+      "text": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.\nWhen you reach 3rd level, you can cast shield once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the detect thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest.\nWisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Gith reach adulthood in their late teens and live for about a century.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Gith are taller and leaner than humans, with most a slender 6 feet in height.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Gith.\n"
+    }
+  ]
+}

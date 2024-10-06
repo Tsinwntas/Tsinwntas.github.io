@@ -1,0 +1,11 @@
+{
+  "name": "Bookmark",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "1",
+  "property": "F,L,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "This +3 dagger belongs to Artus Cimber. While you have the dagger drawn, you can use a bonus action to activate one of the following properties:\n• Cause a blue gem set into the dagger's pommel to shed bright light in a 20-foot radius and dim light for an additional 20 feet, or make the gem go dark.\n• Turn the dagger into a compass that, while resting on your palm, points north.\n• Cast dimension door from the dagger. Once this property is used, it can't be used again until the next dawn.\n• Cast compulsion (save DC 15) from the dagger. The range of the spell increases to 90 feet but it targets only spiders that are beasts. Once this property is used, it can't be used again until the next dawn.\nSource: Tomb of Annihilation p. 206"
+}

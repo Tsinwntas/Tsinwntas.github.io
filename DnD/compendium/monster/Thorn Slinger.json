@@ -1,0 +1,46 @@
+{
+  "name": "Thorn Slinger",
+  "size": "L",
+  "type": "plant",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "32 (5d10+5)",
+  "speed": "walk 10 ft.",
+  "str": "13",
+  "dex": "12",
+  "con": "12",
+  "int": "1",
+  "wis": "10",
+  "cha": "1",
+  "passive": "10",
+  "cr": "1/2",
+  "conditionImmune": "blinded, deafened, frightened",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Adhesive Blossoms",
+      "text": [
+        "The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also grappled by it (escape DC 11). Ability checks made to escape this grapple have disadvantage.",
+        "At the end of each of the thorn slinger's turns, anything grappled by it takes 3 (1d6) acid damage."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the thorn slinger remains motionless, it is indistinguishable from an inanimate bush."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Thorns",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft., one target. 8 (2d6 + 1) piercing damage."
+      ],
+      "attack": [
+        "Thorns|+3|2d6+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 246"
+}

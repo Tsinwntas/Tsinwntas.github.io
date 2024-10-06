@@ -1,0 +1,54 @@
+{
+  "name": "Bulezau",
+  "size": "M",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (natural armor)",
+  "hp": "52 (7d8+21)",
+  "speed": "walk 40 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "17",
+  "int": "8",
+  "wis": "9",
+  "cha": "6",
+  "passive": "9",
+  "languages": "Abyssal, telepathy 60 ft.",
+  "cr": "3",
+  "resist": "cold, fire, lightning",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Rotting Presence",
+      "text": [
+        "When any creature that isn't a demon starts its turn within 30 feet one or more bulezaus, that creature must succeed on a DC 13 Constitution saving throw or take 1d6 necrotic damage plus 1 necrotic damage for each bulezau within 30 feet of it."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The bulezau's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+      ]
+    },
+    {
+      "name": "Sure-Footed",
+      "text": [
+        "The bulezau has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Barbed Tail",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 8 (1d12 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw against disease or become poisoned until the disease ends. While poisoned in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. On a successful save, the disease ends. On a failed save, the target's hit point maximum is reduced by 4 (1d8). The target dies if its hit point maximum is reduced to 0."
+      ],
+      "attack": [
+        "Barbed Tail|+4|1d12+2"
+      ]
+    }
+  ],
+  "description": "Bulezau. Diseased manifestations of animalistic rage, bulezaus embody the violence of nature. Across the Abyss, bulezaus lurk in deep canyons and lofty crags, and many find a place in the ranks of the demon lords' armies, serving as foot soldiers in the Abyss's endless warring.\nBloodlust. Bulezaus crave violence. Their eagerness to kill and willingness to die make them common members of any demon lord's entourage. When not being corralled by larger and tougher demons, bulezaus gather into scrabbling mobs, wrestling and fighting among themselves until a better target comes along or until a stronger demon bullies them into subservience.\nRepulsive. Disfiguring ailments plague bulezaus: crusted eyes, maggots wriggling in open sores, and a reek of rotten meat that follows them wherever they go.\nSource: Mordenkainen's Tome of Foes p. 131, Baldur's Gate: Descent Into Avernus"
+}

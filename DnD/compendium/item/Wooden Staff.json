@@ -1,0 +1,12 @@
+{
+  "name": "Wooden Staff",
+  "detail": "Spellcasting Focus",
+  "type": "G",
+  "weight": "4",
+  "value": "5.0",
+  "property": "V",
+  "dmg1": "1d6",
+  "dmg2": "1d8",
+  "dmgType": "B",
+  "text": "A druid can use this object as a spellcasting focus.\nSource: Player's Handbook p. 151"
+}

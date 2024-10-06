@@ -1,0 +1,11 @@
+{
+  "name": "Drow +1 Longsword",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V,M",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nSource: Monster Manual p. 126"
+}

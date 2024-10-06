@@ -1,0 +1,11 @@
+{
+  "name": "Silvered Hand Crossbow",
+  "detail": "major, martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "3",
+  "property": "A,L,LD,M",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "30/120",
+  "text": "Source: Player's Handbook p. 148"
+}

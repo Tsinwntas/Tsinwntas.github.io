@@ -1,0 +1,48 @@
+{
+  "name": "Warforged (UA Races of Eberron) (Juggernaut)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Con 1, Str 2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Unearthed Arcana: Races Of Eberron p. 70"
+    },
+    {
+      "name": "Iron Fists",
+      "text": "When you hit with an unarmed strike, you can deal 1d4 + your Strength modifier bludgeoning damage, instead of the normal damage for an unarmed strike.\n"
+    },
+    {
+      "name": "Powerful Build",
+      "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n"
+    },
+    {
+      "name": "Age",
+      "text": "A typical Warforged (UA Races of Eberron) (Juggernaut) is between two and thirty years old. The maximum lifespan of the Warforged (UA Races of Eberron) (Juggernaut) remains a mystery; so far, Warforged (UA Races of Eberron) (Juggernaut) have shown no signs of deterioration due to age.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most Warforged (UA Races of Eberron) (Juggernaut) take comfort in order and discipline, tending toward law and neutrality, but some have absorbed the morality—or lack thereof—of the beings they served with.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Your size is Medium. Most Warforged (UA Races of Eberron) (Juggernaut) stand between 5 and 6½ feet tall. Build is affected by your subrace.\n"
+    },
+    {
+      "name": "Warforged Resilience",
+      "text": "You were created to have remarkable fortitude, represented by the following benefits:\n• You have advantage on saving throws against being poisoned, and you have resistance to poison damage.\n• You are immune to disease.\n• You don't need to eat, drink, or breathe.\n• You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can't put you to sleep.\n"
+    },
+    {
+      "name": "Sentry's Rest",
+      "text": "When you take a long rest, you must spend at least six hours of it in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.\n"
+    },
+    {
+      "name": "Integrated Protection",
+      "text": "Integrated protection\nYour body has built-in protective layers, which determine your Armor Class. You gain no benefit from wearing armor, but if you are using a shield, you apply its bonus as normal.\nYou can alter your body to enter different defensive modes; each time you finish a long rest, choose one mode to adopt from the Integrated Protection table, provided you meet the mode's prerequisite.\nMode | Prerequisite | Armor Class\nDarkwood core (unarmored) | None | 11 + your Dexterity modifier (add proficiency bonus if proficient with light armor)\nComposite plating (armor) | Medium armor proficiency | 13 + your Dexterity modifier (maximum of 2) + your proficiency bonus\nHeavy plating (armor) | Heavy armor proficiency | 16 + your proficiency bonus; disadvantage on Dexterity (Stealth) checks\n\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common.\n"
+    }
+  ]
+}

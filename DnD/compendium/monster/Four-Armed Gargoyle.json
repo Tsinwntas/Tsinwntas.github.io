@@ -1,0 +1,57 @@
+{
+  "name": "Four-Armed Gargoyle",
+  "size": "M",
+  "type": "elemental",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "63 (7d8+21)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "15",
+  "dex": "11",
+  "con": "16",
+  "int": "6",
+  "wis": "11",
+  "cha": "7",
+  "passive": "10",
+  "languages": "Terran",
+  "cr": "2",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gargoyle makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 129"
+}

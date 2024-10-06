@@ -1,0 +1,99 @@
+{
+  "name": "Darakhul Shadowmancer",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "14",
+  "int": "18",
+  "wis": "13",
+  "cha": "9",
+  "save": "Int +6, Wis +3",
+  "skill": "Arcana +6, Deception +1, Investigation +6, Stealth +7",
+  "passive": "11",
+  "languages": "Common",
+  "cr": "4",
+  "resist": "necrotic",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Master Of Disguise",
+      "text": [
+        "A darakhul in a prepared disguise has advantage on Charisma (Deception) checks made to pass as a living creature. While using this ability, the darakhul loses its stench."
+      ]
+    },
+    {
+      "name": "Shadow Stealth",
+      "text": [
+        "While in dim light or darkness, the darakhul shadowmancer can take the Hide action as a bonus action."
+      ]
+    },
+    {
+      "name": "Stench",
+      "text": [
+        "Any creature that starts its turn within 5 feet of the darakhul must succeed on a DC 13 Constitution saving throw or be poisoned until the start of its next turn. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the darakhul's Stench for the next 24 hours. A darakhul shadowmancer using this ability can't also benefit from Master of Disguise."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the darakhul has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Turning Defiance",
+      "text": [
+        "The darakhul shadowmancer and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The darakhul shadowmancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The darakhul shadowmancer has the following Wizard spells prepared:",
+        "Cantrips (at will): acid splash, chill touch, mage hand, prestidigitation",
+        "• 1st level (4 slots): mage armor, ray of sickness, silent image",
+        "• 2nd level (3 slots): misty step, scorching ray, see invisibility",
+        "• 3rd level (3 slots): animate dead, dispel magic, stinking cloud",
+        "• 4th level (2 slots): arcane eye, black tentacles, confusion",
+        "• 5th level (1 slots): teleportation circle"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The darakhul shadowmancer makes two attacks. one with its bite and one with its dagger."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 11 (2d8 + 2) piercing damage, and, if the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or contract darakhul fever."
+      ],
+      "attack": [
+        "Bite|5|2d8+2"
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|5|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 2, 1"
+  ],
+  "spells": "acid splash, chill touch, mage hand, prestidigitation, mage armor, ray of sickness, silent image, misty step, scorching ray, see invisibility, animate dead, dispel magic, stinking cloud, arcane eye, black tentacles, confusion, teleportation circle",
+  "description": "Source: CCodex (3pp)"
+}

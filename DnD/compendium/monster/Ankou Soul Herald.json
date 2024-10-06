@@ -1,0 +1,145 @@
+{
+  "name": "Ankou Soul Herald",
+  "size": "G",
+  "type": "dragon",
+  "alignment": "Neutral",
+  "ac": "18 (natural armor)",
+  "hp": "407 (22d20+176)",
+  "speed": "walk 40 ft., fly 80 ft.",
+  "str": "25",
+  "dex": "10",
+  "con": "27",
+  "int": "17",
+  "wis": "18",
+  "cha": "19",
+  "save": "Dex +7, Con +15, Wis +11, Cha +11",
+  "skill": "Perception +18, Persuasion +11, Stealth +7",
+  "passive": "28",
+  "languages": "All",
+  "cr": "21",
+  "immune": "cold, necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+  "senses": "truesight 60 ft.",
+  "trait": [
+    {
+      "name": "Aura Of Necromancy's Bane",
+      "text": [
+        "Necromancy spells can't be cast within 120 feet of the ankou. When an undead creature starts its turn within 30 feet of the ankou, it must make a DC 22 Constitution saving throw, taking 21 (6d6) radiant damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Cloak Of Ghostly Shadows",
+      "text": [
+        "As a bonus action while in dim light or darkness, the ankou becomes invisible. While invisible, the ankou has advantage on Dexterity (Stealth) checks and gains the following.",
+        "Resistance to acid, cold, fire, lighting, thunder; bludgeoning, piercing and slashing damage from nonmagical attacks.",
+        "Immunity to the grappled, paralyzed, petrified, prone, and restrained conditions The ankou can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.",
+        "The cloak of ghostly shadows ends when the ankou chooses to end it as a bonus action, when the ankou dies, or if the ankou ends its turn in bright light."
+      ]
+    },
+    {
+      "name": "Death's Apotheosis",
+      "text": [
+        "The ankou has the celestial type in addition to the dragon type and its weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If the ankou fails a saving throw, it can choose to succeed instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ankou can use its Horrifying Presence. It then makes three attacks. one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. 18 (2d10 + 7) piercing damage plus 11 (2d10) cold damage."
+      ],
+      "attack": [
+        "Bite|14|2d10+7"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. 14 (2d6 + 7) slashing damage."
+      ],
+      "attack": [
+        "Claw|14|2d6+7"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +14 to hit, reach 20 ft., one target. 16 (2d8 + 7) bludgeoning damage"
+      ],
+      "attack": [
+        "Tail|14|2d8+7"
+      ]
+    },
+    {
+      "name": "Horrifying Presence",
+      "text": [
+        "Each creature of the ankou's choice that is within 120 feet of it must make a DC 19 Wisdom saving throw.",
+        "On a failure, its speed is reduced to 0 for 1 minute. If the save fails by 5 or more, the creature is instead paralyzed for 1 minute.",
+        "A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the ankou's Horrifying Presence for the next 24 hours."
+      ]
+    },
+    {
+      "name": "Reaper's Breath (Recharge 56)",
+      "text": [
+        "The ankou exhales cold fire in a 120-foot line that is 10 feet wide. Each creature in that area must make a DC 22 Dexterity saving throw, taking 66 (12d10) cold damage on a failed save, or half as much damage on a successful one. Undead creatures automatically fail the saving throw and treat all damage dealt by this breath weapon as radiant instead of cold."
+      ]
+    },
+    {
+      "name": "Change Shape",
+      "text": [
+        "The ankou magically polymorphs into any beast, humanoid, or undead creature it has seen before that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the ankou's choice). Its statistics, other than its size, are the same in each form and it doesn't gain any class features or legendary actions of the new form."
+      ]
+    },
+    {
+      "name": "Usher of Souls",
+      "text": [
+        "The ankou can transport itself and up to eight creatures in contact with it to another plane of existence. This works like the plane shift spell, except dead or incorporeal creatures can be transported and don't have to be willing. The ankou can't use this ability to banish an unwilling creature."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The dragon can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The ankou can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The ankou regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Detect",
+      "text": [
+        "The ankou learns the location of all living creatures within 120 feet. Alternatively, it can learn the location of all undead creatures or creatures that have been dead no longer than 1 hour within 1 mile."
+      ]
+    },
+    {
+      "name": "Tail Attack",
+      "text": [
+        "The ankou makes a tail attack."
+      ]
+    },
+    {
+      "name": "Envelope in Shadow (Costs 2 Actions)",
+      "text": [
+        "The ankou moves up to half its speed without provoking opportunity attacks. Any creature whose space it moves through must make a DC 22 Dexterity saving throw, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

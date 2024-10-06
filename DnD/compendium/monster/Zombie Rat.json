@@ -1,0 +1,36 @@
+{
+  "name": "Zombie Rat",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "1 (1d4-1)",
+  "speed": "walk 20 ft.",
+  "str": "2",
+  "dex": "11",
+  "con": "9",
+  "int": "2",
+  "wis": "10",
+  "cha": "4",
+  "passive": "10",
+  "cr": "0",
+  "senses": "darkvision 30 ft.",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The rat has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. 1 piercing damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Innistrad p. 17",
+  "environment": "swamp, urban"
+}

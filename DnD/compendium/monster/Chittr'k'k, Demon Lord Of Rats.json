@@ -1,0 +1,111 @@
+{
+  "name": "Chittr'k'k, Demon Lord Of Rats",
+  "size": "M",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "16",
+  "hp": "172 (23d8+69)",
+  "speed": "walk 30 ft., swim 20 ft.",
+  "str": "12",
+  "dex": "22",
+  "con": "17",
+  "int": "21",
+  "wis": "20",
+  "cha": "10",
+  "save": "Dex +11, Con +8, Int +10",
+  "skill": "Insight +10, Perception +10, Stealth +11",
+  "passive": "20",
+  "languages": "Common, Abyssal, telepathy 120 ft.",
+  "cr": "13",
+  "resist": "cold, lightning",
+  "immune": "fire, necrotic, poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft., truesight 60 ft.",
+  "trait": [
+    {
+      "name": "Fire Dancer",
+      "text": [
+        "Whenever Chittr'k'k is subjected to fire or necrotic damage, he takes no damage and instead is unaffected by spells and other magical effects that would impede his movement.",
+        "This trait works like the freedom of movement spell, except it only lasts for 1 minute."
+      ]
+    },
+    {
+      "name": "Quick Escape",
+      "text": [
+        "As a bonus action, Chittr'k'k teleports, along with any equipment he is wearing or carrying, up to 60 feet to an unoccupied space he can see."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Chittr'k'k fails a saving throw, he can choose to succeed instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Chittr'k'k makes two Soul Bite attacks or three Necrotic Flame attacks."
+      ]
+    },
+    {
+      "name": "Soul Bite",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 15 (2d8 + 6) piercing damage plus 7 (2d6) necrotic damage."
+      ],
+      "attack": [
+        "Soul Bite|11|2d8+6"
+      ]
+    },
+    {
+      "name": "Necrotic Flame",
+      "text": [
+        "Ranged Magic Attack. +10 to hit, 120 ft., one target. 13 (3d8) necrotic damage."
+      ],
+      "attack": [
+        "Necrotic Flame|10|3d8"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Soul Devouring",
+      "text": [
+        "When Chittr'k'k or a rattok demon within 120 feet of Chittr'k'k reduces a creature to 0 hp, the demon lord devours that creature's soul. Chittr'k'k gains 19 (3d12) temporary hp and the creature must succeed on a DC 18 Constitution saving throw or suffer two failed death saving throws."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fiend (demon) can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fiend (demon) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The demon lord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Chittr'k'k regains spent legendary actions at the start of his turn."
+      ]
+    },
+    {
+      "name": "Soul Bite",
+      "text": [
+        "Chittr'k'k uses his soul bite attack."
+      ]
+    },
+    {
+      "name": "Stumble",
+      "text": [
+        "Chittr'k'k commands a rat to dash under the feet of a creature within 60 feet, causing it to stumble. The creature must succeed on a DC 15 Dexterity saving throw or it drops whatever it is holding and falls prone."
+      ]
+    },
+    {
+      "name": "Plague Breath (Costs 2 Actions)",
+      "text": [
+        "Chittr'k'k surrounds himself with hideous vapors from his pipe, a screeching, pestilent mix of damned souls and poison gas. The gas spreads around corners, and its area is lightly obscured. Each creature that starts its turn within 10 feet of Chittr'k'k must make a DC 15 Constitution saving throw. On a failure, the creature takes 16 (3d10) necrotic damage and is poisoned. On a success, the creature takes half the damage and is not poisoned. The gas lasts until Chittr'k'k uses this legendary action again or until Chittr'k'k dies. Rats, rattok demons, wind demons, and Chittr'k'k are immune to the effects of Plague Breath."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

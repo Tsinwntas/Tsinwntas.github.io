@@ -1,0 +1,10 @@
+{
+  "name": "Last Stand Armor Chain Mail",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "55",
+  "ac": "16",
+  "stealth": "1",
+  "strength": "13",
+  "text": "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.\nYou have a +1 bonus to AC while wearing this armor, which shimmers softly.\nIf you die while wearing the armor, it is destroyed, and each celestial, fey, and fiend with 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 13, their speed is reduced by 10 feet.\nSource: Explorer's Guide to Wildemount p. 267"
+}

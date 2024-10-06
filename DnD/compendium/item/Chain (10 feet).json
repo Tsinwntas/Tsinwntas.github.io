@@ -1,0 +1,8 @@
+{
+  "name": "Chain (10 feet)",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "10",
+  "value": "5.0",
+  "text": "A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.\nSource: Player's Handbook p. 151"
+}

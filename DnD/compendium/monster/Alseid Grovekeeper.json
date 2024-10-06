@@ -1,0 +1,58 @@
+{
+  "name": "Alseid Grovekeeper",
+  "size": "M",
+  "type": "monstrosity,tome of Beasts",
+  "alignment": "chaotic neutral",
+  "ac": "15 (studded leather Armor)",
+  "hp": "71 (13d8+13)",
+  "speed": "40 ft.",
+  "str": "13",
+  "dex": "17",
+  "con": "12",
+  "int": "8",
+  "wis": "16",
+  "cha": "8",
+  "skill": "Nature +3, Perception +5, Stealth +5, Survival +5",
+  "senses": "darkvision 60 ft.",
+  "passive": "15",
+  "languages": " Common, Elvish, Sylvan",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The grovekeeper is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following druid spells prepared:",
+        "Cantrips (at will): druidcraft, guidance, produce flame, shillelagh",
+        "1st (4 slots): animal friendship, cure wounds, faerie fire",
+        "2nd (3 slots): animal messenger, heat metal, lesser restoration",
+        "3rd (2 slots): call lightning, dispel magic"
+      ]
+    },
+    {
+      "name": "Woodfriend",
+      "text": [
+        "When in a forest, alseid leave no tracks and automatically discern true north."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +3 to hit (+5 with shillelagh), reach 5 ft., one creature.Hit: 4 (1d6 + 1) bludgeoning damage or 5 (1d8 + 1) bludgeoning damage if used in two hands, or 7 (1d8 + 3) bludgeoning damage with shillelagh."
+      ],
+      "attack": [
+        "Quarterstaff|3|1d6+1"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6+3) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|5|1d6+3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Duergar Kavalrachni",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Lawful Evil",
+  "ac": "16 (scale mail, shield)",
+  "hp": "26 (4d8+8)",
+  "speed": "walk 25 ft.",
+  "str": "14",
+  "dex": "11",
+  "con": "14",
+  "int": "11",
+  "wis": "10",
+  "cha": "9",
+  "passive": "10",
+  "languages": "Dwarvish, Undercommon",
+  "cr": "2",
+  "resist": "poison",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Cavalry Training",
+      "text": [
+        "When the duergar hits a target with a melee attack while mounted on a female steeder, the steeder can make one melee attack against the same target as a reaction."
+      ]
+    },
+    {
+      "name": "Duergar Resilience",
+      "text": [
+        "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The duergar makes two war pick attacks."
+      ]
+    },
+    {
+      "name": "War Pick",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage plus 5 (2d4) poison damage."
+      ],
+      "attack": [
+        "War Pick|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+2|1d10"
+      ]
+    },
+    {
+      "name": "Shared Invisibility (Recharges after a Short or Long Rest)",
+      "text": [
+        "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it. While the invisible duergar is mounted on a female steeder, the steeder is invisible as well. The invisibility ends early on the steeder immediately after it attacks."
+      ]
+    }
+  ],
+  "description": "\nYou think dwarves are dour and unpleasant? Wait until you meet a duergar.\n — Mordenkainen\n\nThe cruel duergar plot not only to defeat other dwarves, but to cast down the entire dwarven pantheon in revenge for their being abandoned and left to be enslaved by mind flayers. To this end, duergar train warriors to fulfill a variety of roles.\nSource: Mordenkainen's Tome of Foes p. 189, Out of the Abyss p. 226",
+  "environment": "mountain, underdark"
+}

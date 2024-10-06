@@ -1,0 +1,53 @@
+{
+  "name": "Giant Walrus",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "9",
+  "hp": "85 (9d12+27)",
+  "speed": "walk 20 ft., swim 40 ft.",
+  "str": "22",
+  "dex": "9",
+  "con": "16",
+  "int": "3",
+  "wis": "11",
+  "cha": "4",
+  "passive": "10",
+  "cr": "4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The walrus can hold its breath for 30 minutes."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The walrus makes two attacks: one with its body flop and one with its tusks."
+      ]
+    },
+    {
+      "name": "Body Flop",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 15 (2d8 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Body Flop|+8|2d8+6"
+      ]
+    },
+    {
+      "name": "Tusks",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 16 (3d6 + 6) piercing damage."
+      ],
+      "attack": [
+        "Tusks|+8|3d6+6"
+      ]
+    }
+  ],
+  "description": "Giant walruses are enormous, ill-tempered creatures as big as elephants. A typical adult specimen weighs at least 12,000 pounds.\nSource: Icewind Dale: Rime of the Frostmaiden p. 312"
+}

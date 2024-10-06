@@ -1,0 +1,76 @@
+{
+  "name": "Efreeti",
+  "size": "L",
+  "type": "elemental",
+  "alignment": "Lawful Evil",
+  "ac": "17 (natural armor)",
+  "hp": "200 (16d10+112)",
+  "speed": "walk 40 ft., fly 60 ft.",
+  "str": "22",
+  "dex": "12",
+  "con": "24",
+  "int": "16",
+  "wis": "15",
+  "cha": "16",
+  "save": "Int +7, Wis +6, Cha +7",
+  "passive": "12",
+  "languages": "Ignan",
+  "cr": "11",
+  "immune": "fire",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Elemental Demise",
+      "text": [
+        "If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the djinni was wearing or carrying."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The efreeti's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: detect magic",
+        "3/day each: enlarge/reduce, tongues",
+        "1/day each: conjure elemental (fire elemental only), gaseous form, invisibility, major image, plane shift, wall of fire"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The efreeti makes two scimitar attacks or uses its Hurl Flame twice."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 13 (2d6 + 6) slashing damage plus 7 (2d6) fire damage."
+      ],
+      "attack": [
+        "Scimitar|+10|2d6+6"
+      ]
+    },
+    {
+      "name": "Hurl Flame",
+      "text": [
+        "Ranged Spell Attack: +7 to hit, range 120 ft., one target. 17 (5d6) fire damage."
+      ],
+      "attack": [
+        "Hurl Flame|+7|5d6"
+      ]
+    },
+    {
+      "name": "Variant: Genie Powers",
+      "text": [
+        "Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.",
+        "Disguises. Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the disguise self spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the true polymorph spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well.",
+        "Wishes. The genie power to grant wishes is legendary among mortals. Only the most potent genies, such as those among the nobility, can do so. A particular genie that has this power can grant one to three wishes to a creature that isn't a genie. Once a genie has granted its limit of wishes, it can't grant wishes again for some amount of time (usually 1 year), and cosmic law dictates that the same genie can expend its limit of wishes on a specific creature only once in that creature's existence.",
+        "To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the wish spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
+      ]
+    }
+  ],
+  "spells": "detect magic, enlarge/reduce, tongues, conjure elemental, gaseous form, invisibility, major image, plane shift, wall of fire",
+  "description": "Hulking genies of the Elemental Plane of Fire, the efreet are masters of flame, immune to fire and able to create it on a whim. Fine silk caftans and damask robes drape their magma-red or coal-black skin, and they bedeck themselves in brass and gold torcs, chains, and rings, all glittering with jewels. When an efreeti flies, its lower body transforms into a column of smoke and embers.\nHaughty and Cruel. The efreet are deceptive, cunning, and cruel to the point of ruthlessness. They despise being forced into servitude and are relentless in pursuit of vengeance against creatures that have wronged them. Efreet don't see themselves in this light, naturally, and regard their race as fair and orderly, even as they admit to an enlightened sense of self-interest.\nSpiteful Slavers. Efreet view all other creatures as enemies or potential serfs. They raid the Material Plane and the elemental planes for slaves, which they capture and bring back to their homes on the Elemental Plane of Fire. The efreet rule as oppressive tyrants, promoting only the cruelest among their slaves. Those overseers are given whips to help keep the rank-and-file slaves in line.\nPlanar Raiders. Most efreet reside on the Elemental Plane of Fire, either in great domed fortresses of black glass and basalt surrounded by churning lakes of fire, or in the fabled City of Brass. Additionally, efreet military outposts thronging with their minions and slaves can be found scattered throughout the planes.\nOn the Material Plane, efreet dwell in fiery regions such as volcanoes and the burning expanses of the world's deserts. Their love of the desert brings them into conflict with the djinn that ride the desert whirlwinds, and with the earthbound dao. Efreet utterly despise marids, with whom they have maintained a passionate conflict throughout the history of both races.\nGenies. Genies are rare elemental creatures out of story and legend. Only a few can be found on the Material Plane. The rest reside on the Elemental Planes, where they rule from lavish palaces and are attended by worshipful slaves.\nGenies are as brilliant as they are mighty, as proud as they are majestic. Haughty and decadent, they have a profound sense of entitlement that stems from the knowledge that few creatures except the gods and other genies can challenge their power.\nCreatures of the Elements.  A genie is born when the soul of a sentient living creature melds with the primordial matter of an elemental plane. Only under rare circumstances does such an elemental-infused soul coalesce into a manifest form and create a genie.\nA genie usually retains no connection to the soul that gave it form. That life force is a building block that determines the genie's form and apparent gender, as well as one or two key personality traits. Although they resemble humanoid beings, genies are elemental spirits given physical form. They don't mate with other genies or produce genie offspring, as all new genies are born out of the same mysterious fusion of spirit energy and elemental power. A genie with a stronger connection to its mortal soul might choose to sire a child with a mortal, although such offspring are rare.\nWhen a genie perishes, it leaves nothing behind except what it was wearing or carrying, along with a small trace of its native element: a pile of dust, a gust of wind, a flash of fire and smoke, or a burst of water and foam.\nIn contrast to their love of slaves, most genies loathe being bound to service themselves. A genie obeys the will of another only when bribed or compelled by magic. All genies command the power of their native element, but a rare few also possess the power to grant wishes. For both these reasons, mortal mages often seek to bind genies into service.\nNoble genies cultivate the jealousy and envy of other genies, asserting their superiority at every opportunity. Other genies respect the influence of the noble genies, knowing how unwise it is to defy a creature that can alter reality at a whim. A genie isn't beholden to any noble genie, however, and will sometimes choose to defy a noble genie's will and risk the consequences.\nTheir miraculous powers, the grandeur of their abodes, and the numbers of their slaves allow some genies to deceive themselves into believing they are as powerful as the gods. Some go so far as to demand that mortals of other realms-even whole continents or worlds-bow down before them.\nRule or Be Ruled.  Mortal slaves serve to validate a genie's power and high self-opinion. A hundred flattering voices are music to a genie's ears, while two hundred mortal slaves prostrated at its feet are proof that it is lord and master. Genies view slaves as living property, and a genie without property amounts to nothing among its own kind. As a result, many genies treasure their slaves, treating them as honored members of their households. Evil genies freely threaten and abuse their slaves, but never to the extent that the slaves are no longer of use.\nDecadent Nobility.  Noble genies are the rarest of their kind. They are used to getting what they want, and have learned to trade their ability to grant wishes to attain the objects of their desire. This constant indulgence has made them decadent, while their supreme power over reality makes them haughty and arrogant. Their vast palaces overflow with wonders and sensory delights beyond imagination.\nThe Power of Worship.  Genies acknowledge the gods as powerful entities but have no desire to court or worship them. They find the endless fawning and mewling of religious devotees tiresome-except as it is directed toward them by their worshipful slaves.\nSource: Monster Manual p. 145, Princes of the Apocalypse, Rise of Tiamat, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything",
+  "environment": "desert"
+}

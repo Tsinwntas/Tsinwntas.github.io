@@ -1,0 +1,41 @@
+{
+  "name": "Servitor Thrull",
+  "size": "S",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "22 (4d6+8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "13",
+  "con": "14",
+  "int": "6",
+  "wis": "6",
+  "cha": "3",
+  "passive": "8",
+  "languages": "understands Common but can't speak",
+  "cr": "1/4",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 5 (1d8 + 1) slashing damage."
+      ],
+      "attack": [
+        "Claws|+3|1d8+1"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Self-Sacrifice",
+      "text": [
+        "When a creature within 5 feet of the thrull is hit by an attack, the thrull swaps places with that creature and is hit instead."
+      ]
+    }
+  ],
+  "description": "The most wretched of thrulls are the servitors, small and slender, that serve as playthings for their Orzhov masters. They run trivial errands, transport small items, caper and dance, and keep their masters' expensive robes from trailing on the dirty street. They are utterly loyal, lacking any concept of thinking for themselves.\nThrulls. When the Orzhov Syndicate rips a soul from its body to create a spirit, the cast-off remains go to the fleshmages, who use their necromantic magic to liquefy the corpse and transform it into something useful. These creations become thrulls, obedient slaves that serve in a variety of menial roles: laborers, messengers, beasts of burden, and even fashion accessories for the elite. Whatever tasks they perform, they wear faceplates forged from devalued coinage to conceal their ghastly features.\nConstruct Nature. A thrull doesn't require air, food, drink, or sleep.\nSource: Guildmasters' Guide to Ravnica p. 221"
+}

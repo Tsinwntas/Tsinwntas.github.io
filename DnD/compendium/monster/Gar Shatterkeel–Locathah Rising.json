@@ -1,0 +1,144 @@
+{
+  "name": "Gar Shatterkeel–Locathah Rising",
+  "size": "M",
+  "type": "humanoid",
+  "alignment": "Neutral Evil",
+  "ac": "17 (natural armor)",
+  "hp": "144 (17d8+68)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "16",
+  "dex": "16",
+  "con": "18",
+  "int": "12",
+  "wis": "20",
+  "cha": "14",
+  "skill": "Nature +11, Perception +10, Survival +10",
+  "passive": "20",
+  "languages": "Aquan, Common",
+  "cr": "15",
+  "resist": "cold",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Gar can breathe air and water."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Gar fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Water Walk",
+      "text": [
+        "Gar can stand and move on liquid surfaces as if they were solid ground."
+      ]
+    },
+    {
+      "name": "Watery Fall",
+      "text": [
+        "When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Except for Wave and his claw, anything he was wearing or carrying is left behind."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Gar is a 13th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). He has the following druid spells prepared:",
+        "Cantrips (at will): frostbite, mending, resistance, shape water, thunderclap*",
+        "• 1st level (4 slots): create or destroy water, charm person, cure wounds, thunderwave",
+        "• 2nd level (3 slots): darkvision, hold person, mirror image*, misty step*, pass without trace, protection from poison",
+        "• 3rd level (3 slots): conjure animals, dispel magic, tidal wave, water breathing*, water walk*",
+        "• 4th level (3 slots): charm monster, control water*, dominate beast, freedom of movement*, watery sphere",
+        "• 5th level (2 slots): conjure elemental*, maelstrom, scrying*, tree stride",
+        "• 6th level (1 slots): heal",
+        "• 7th level (1 slots): plane shift",
+        "*Circle spells don't count against spells prepared."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Gar makes two melee attacks, one with his claw and one with Wave."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 16). Until the grapple ends, Gar can't attack other creatures with his claw."
+      ],
+      "attack": [
+        "Claw|+8|2d6+3"
+      ]
+    },
+    {
+      "name": "Wave",
+      "text": [
+        "Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range 20/60 ft., one target. 9 (1d6 + 6) piercing damage or 10 (1d8 + 6) piercing damage when used with two hands. If Gar scores a critical hit with this weapon, the target takes extra necrotic damage equal to half its hit point maximum."
+      ],
+      "attack": [
+        "Wave|+11|1d6+6"
+      ]
+    },
+    {
+      "name": "Umberlee's Wake (Recharge 5-6)",
+      "text": [
+        "Power ripples out in a 60-foot radius sphere from a point within range (150 ft.) as the will of Umberlee affects all in her watery embrace. Each creature in that area must succeed on a DC 18 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. This only affects targets that are submerged or floating in water. Gar Shatterkeel–Locathah Rising and any undead serving him are immune to this effect."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Gar can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Gar regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "Gar moves up to his speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Gar makes one attack with his claw."
+      ]
+    },
+    {
+      "name": "Wave (Costs 2 Actions)",
+      "text": [
+        "Gar makes one attack with Wave with advantage."
+      ]
+    },
+    {
+      "name": "Lair Actions"
+    },
+    {
+      "text": [
+        "Gar can employ lair actions while he's within the coral mountain.",
+        "On initiative count 20 (losing initiative ties), Gar Shatterkeel–Locathah Rising takes a lair action to cause one of the following effects; Gar can't use the same effect two rounds in a row.",
+        "• Gar may teleport anywhere within the coral mountain, bringing up to five willing creatures with him.",
+        "• The coral in a 60-foot radius grows rapidly around creatures inside the coral mountain. Each creature must succeed on a DC 18 Strength saving throw or become restrained. Restrained creatures can take an action on their turn to make a DC 18 Strength (Athletics) or Dexterity (Acrobatics) check to free themselves. This effect lasts for 1 minute unless dispelled (it counts as a 6th level spell), and doesn't require Gar to maintain concentration. Gar Shatterkeel–Locathah Rising and any creatures he designates are immune to this effect.",
+        "• Up to five corpses that Gar can see within 60 feet rise up as drowned blade and attack anyone Gar directs them to on his turn."
+      ]
+    },
+    {
+      "name": "Lair Actions"
+    },
+    {
+      "text": [
+        "If Gar is in the water node while Olhydra isn't, he can take lair actions. On initiative count 20 (losing initiative ties), Gar uses a lair action to use his Multiattack or cast one of his spells, up to 3rd level, without using components or a spell slot. He can't cast the same spell two rounds in a row, but he can continue to concentrate on a spell he previously cast using a lair action. He can take no other lair actions while concentrating on a spell cast as a lair action. His favorite use of this capability is casting inflict wounds or call lightning.",
+        "If Gar casts cure wounds using this lair action, he regains the maximum number of hit points from the spell (28)."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1, 1"
+  ],
+  "spells": "frostbite, mending, resistance, shape water, thunderclap, create or destroy water, charm person, cure wounds, thunderwave, darkvision, hold person, mirror image, misty step, pass without trace, protection from poison, conjure animals, dispel magic, tidal wave, water breathing, water walk, charm monster, control water, dominate beast, freedom of movement, watery sphere, conjure elemental, maelstrom, scrying, tree stride, heal, plane shift",
+  "description": "\nSource: Locathah Rising p. 18"
+}

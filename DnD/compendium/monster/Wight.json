@@ -1,0 +1,69 @@
+{
+  "name": "Wight",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "14 (studded leather armor)",
+  "hp": "45 (6d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "16",
+  "int": "10",
+  "wis": "13",
+  "cha": "15",
+  "skill": "Perception +3, Stealth +4",
+  "passive": "13",
+  "languages": "the languages it knew in life",
+  "cr": "3",
+  "resist": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack."
+      ]
+    },
+    {
+      "name": "Life Drain",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+        "A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time."
+      ],
+      "attack": [
+        "Life Drain|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "The word \"wight\" meant \"person\" in days of yore, but the name now refers to evil undead who were once mortals driven by dark desire and great vanity. When death stills such a creature's heart and snuffs its living breath, its spirit cries out to the demon lord Orcus or some vile god of the underworld for a reprieve: undeath in return for eternal war on the living. If a dark power answers the call, the spirit is granted undeath so that it can pursue its own malevolent agenda.\nWights possess the memories and drives of their formerly living selves. They will heed the call of whatever dark entity transformed them into undead, swearing oaths to appease their new lord while retaining their autonomy. Never tiring, a wight can pursue its goals relentlessly and without distraction.\nLife Eaters. Neither dead nor alive, a wight exists in a transitional state between one world and the next. The bright spark it possessed in life is gone, and in its place is a yearning to consume that spark in all living things.\nWhen a wight attacks, this life essence glows like white-hot embers to its dark eyes, and the wight's cold touch can drain the spark through flesh, clothing, and armor.\nShadow of the Grave. Wights flee from the world by day, away from the light of the sun, which they hate. They retreat to barrow mounds, crypts, and tombs where they dwell. Their lairs are silent, desolate places, surrounded by dead plants, noticeably blackened, and avoided by bird and beast.\nHumanoids slain by a wight can rise as zombies under its control. Motivated by hunger for living souls and driven by the same desire for power that awakened them in undeath, some wights serve as shock troops for evil leaders, including wraiths. As soldiers, they are able to plan but seldom do so, relying on their hunger for destruction to overwhelm any creature that stands before them.\nUndead Nature. A wight doesn't require air, food, drink, or sleep.\nSource: Monster Manual p. 300, Curse of Strahd, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "underdark, swamp, urban, desert"
+}

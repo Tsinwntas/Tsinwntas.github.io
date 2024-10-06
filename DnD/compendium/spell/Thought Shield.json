@@ -1,0 +1,12 @@
+{
+  "name": "Thought Shield",
+  "classes": "Wizard, Sorcerer, Warlock, Bard",
+  "level": "2",
+  "school": "A",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "8 hours",
+  "text": "You weave a clouding veil over the mind of one creature you touch. For the duration, the target's mind can't be read or detected, creatures can't telepathically communicate with the target unless the target allows it, and the target has advantage on saving throws against any effect that would determine whether it is telling the truth.\nSource: Unearthed Arcana: Fighter Rogue Wizard p. 8"
+}

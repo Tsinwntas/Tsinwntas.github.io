@@ -1,0 +1,12 @@
+{
+  "name": "Shutdown (UA)",
+  "classes": "Warlock, Sorcerer, Wizard, Cleric (City (UA)), Warlock (Ghost in the Machine (UA))",
+  "level": "5",
+  "school": "T",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "120 feet",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 minute",
+  "text": "This spell shuts down all electronic devices within range that are not wielded by or under the direct control of a creature. If an electronic device within range is used by a creature, that creature must succeed on a Constitution saving throw to prevent the device from being shut down. While the spell remains active, no electronic device within range can be started or restarted.\nSource: Unearthed Arcana: Modern Magic p. 8"
+}

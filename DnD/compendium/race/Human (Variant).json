@@ -1,0 +1,35 @@
+{
+  "name": "Human (Variant)",
+  "size": "M",
+  "speed": "30",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Player's Handbook p. 31"
+    },
+    {
+      "name": "Skills",
+      "text": "You gain proficiency in one skill of your choice.\n"
+    },
+    {
+      "name": "Feat",
+      "text": "You gain one feat of your choice.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Humans reach adulthood in their late teens and live less than a century.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Humans tend toward no particular alignment. The best and the worst are found among them.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.\n"
+    }
+  ]
+}

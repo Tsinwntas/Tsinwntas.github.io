@@ -1,0 +1,11 @@
+{
+  "name": "Two-Birds Sling",
+  "detail": "simple Weapon, Ranged Weapon",
+  "type": "R",
+  "value": "0.1",
+  "property": "A",
+  "dmg1": "1d4",
+  "dmgType": "B",
+  "range": "30/120",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon.\nWhen you make a ranged attack with this sling and hit a target, you can cause the ammunition to ricochet toward a second target within 10 feet of the first, and then make a ranged attack against the second target.\nSource: Mythic Odysseys of Theros p. 198"
+}

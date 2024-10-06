@@ -1,0 +1,15 @@
+{
+  "name": "False Life",
+  "level": "1",
+  "school": "N",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Self",
+  "components": "V, S, M (a small amount of alcohol or distilled spirits)",
+  "duration": "1 hour",
+  "classes": "Sorcerer, Wizard, Cleric (Death), Cleric (Grave), Warlock (Undying), Artificer, Artificer, Warlock (Undead (UA)), Artificer (UA), Artificer (Revisited) (UA), Cleric (Grave (UA)), Warlock (Raven Queen (UA))",
+  "text": "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.\nSource: Player's Handbook p. 239",
+  "roll": [
+    "1d4+4"
+  ]
+}

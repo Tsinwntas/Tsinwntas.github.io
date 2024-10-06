@@ -1,0 +1,10 @@
+{
+  "name": "Plate Armor of Etherealness",
+  "detail": "major, Heavy Armor",
+  "type": "HA",
+  "weight": "65",
+  "ac": "18",
+  "stealth": "1",
+  "strength": "15",
+  "text": "While you're wearing this armor, you can speak its command word as an action to gain the effect of the etherealness spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nFound On: Magic Item Table I\nSource: Dungeon Master's Guide p. 185"
+}

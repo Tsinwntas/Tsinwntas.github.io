@@ -1,0 +1,42 @@
+{
+  "name": "Rowboat (Unearthed Arcana)",
+  "size": "L",
+  "type": "vehicle (10 ft. x 5 ft.)",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "50",
+  "speed": "3 miles per hour (72 miles per day)",
+  "str": "11",
+  "dex": "8",
+  "con": "11",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, prone, stunned, unconscious",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "50"
+      ]
+    },
+    {
+      "name": "Hull:",
+      "text": [
+        "Armor Class: 11",
+        "Hit Points: 50 (damage threshold 0)"
+      ]
+    },
+    {
+      "name": "Movement:",
+      "text": [
+        "Oars",
+        "Armor Class: 12",
+        "Hit Points: 25",
+        "Locomotion (water): oars, speed 15 ft. Move up to its speed, with one 90-degree turn. Without oars, the Rowboat (Unearthed Arcana)'s speed is 0."
+      ]
+    }
+  ],
+  "description": "\nSource: Unearthed Arcana: Of Ships And Sea p. 4"
+}

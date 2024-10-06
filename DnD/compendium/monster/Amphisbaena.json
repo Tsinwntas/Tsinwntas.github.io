@@ -1,0 +1,47 @@
+{
+  "name": "Amphisbaena",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "60 (8d12+8)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "19",
+  "dex": "14",
+  "con": "12",
+  "int": "1",
+  "wis": "10",
+  "cha": "3",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "2",
+  "senses": "blindsight 10 ft.",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The amphisbaena makes two attacks, only one of which can be a constrict attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+6|2d6+4"
+      ]
+    },
+    {
+      "name": "Constrict",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target."
+      ],
+      "attack": [
+        "Constrict|+6|2d8+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 84",
+  "environment": "underwater, underdark, forest, swamp, desert"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Wyvern Knight",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Lawful Evil",
+  "ac": "20 (plate armor, shield)",
+  "hp": "102 (12d8+48)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "18",
+  "int": "10",
+  "wis": "12",
+  "cha": "15",
+  "save": "Str +6, Con +7",
+  "skill": "Animal handling +4, Perception +4",
+  "passive": "14",
+  "languages": "Common, Draconic",
+  "cr": "5",
+  "resist": "poison",
+  "immune": "poison",
+  "trait": [
+    {
+      "name": "Brave",
+      "text": [
+        "The wyvern knight has advantage on saving throws against being frightened."
+      ]
+    },
+    {
+      "name": "Ring Of Feather Falling",
+      "text": [
+        "When the wyvern knight falls while wearing this ring, it descends 60 feet per round and takes no damage from falling."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The wyvern knight makes two lance attacks. If the wyvern knight is riding a war wyvern, its mount can then make one bite, claw, or stinger attack."
+      ]
+    },
+    {
+      "name": "Lance",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 9 (1d12 + 3) piercing damage plus 10 (3d6) poison damage.",
+        "The wyvern knight has disadvantage on attacks with this weapon against creatures within 5 feet of it and can wield this weapon in one hand instead of two while mounted."
+      ],
+      "attack": [
+        "Lance|6|1d12+3"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage plus 10 (3d6) poison damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|3|1d10"
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage."
+      ],
+      "attack": [
+        "Dagger|6|1d4+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Protection",
+      "text": [
+        "When a creature the wyvern knight can see attacks a target that is within 5 feet of it, including a creature it is riding, the knight can use a reaction to impose disadvantage on the attack roll. The knight must be wielding a shield."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 385",
+  "environment": "mountain"
+}

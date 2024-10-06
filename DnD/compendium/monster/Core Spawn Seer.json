@@ -1,0 +1,72 @@
+{
+  "name": "Core Spawn Seer",
+  "size": "M",
+  "type": "aberration",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "153 (18d8+72)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "12",
+  "con": "18",
+  "int": "22",
+  "wis": "19",
+  "cha": "16",
+  "save": "Dex +6, Int +11, Wis +9, Cha +8",
+  "skill": "Perception +9",
+  "passive": "19",
+  "languages": "Common, Deep Speech, telepathy 120 ft., Undercommon",
+  "cr": "13",
+  "immune": "psychic",
+  "conditionImmune": "charmed, frightened",
+  "senses": "blindsight 60 ft., tremorsense 60 ft.",
+  "trait": [
+    {
+      "name": "Earth Glide",
+      "text": [
+        "The seer can traverse through nonmagical, unworked earth and stone. While doing so, the seer doesn't disturb the material it moves through."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The seer has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The seer uses Fission Staff twice, Psychedelic Orb twice, or each one once."
+      ]
+    },
+    {
+      "name": "Fission Staff",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. 9 (1d6 + 6) bludgeoning damage plus 18 (4d8) radiant damage, and the target is knocked prone."
+      ],
+      "attack": [
+        "Fission Staff|+8|1d6+6"
+      ]
+    },
+    {
+      "name": "Psychedelic Orb",
+      "text": [
+        "The seer hurls a glimmering orb at one creature it can see within 120 of it. The target must succeed on a DC 19 Wisdom saving throw or take 27 (5d10) psychic damage and suffer a random condition until the start of the seer's next turn. Roll a d6 for the condition: (1-2) blinded, (3-4) frightened, or (5-6) stunned."
+      ],
+      "attack": [
+        "Psychedelic Orb||5d10"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Fuse Damage",
+      "text": [
+        "When the seer is hit by an attack, it takes only half of the triggering damage. The first time the seer hits with a melee attack on its next turn, the target takes an extra 1d6 radiant damage."
+      ]
+    }
+  ],
+  "description": "Core spawn seers are humanoid arcanists corrupted by the eldritch power of the Elder Evils through blasphemous rites or accursed encounters. Ravaged by otherworldly radiation and disease, their bodies are covered in horrible protrusions of fluorescent crystals, which emit a psychedelic glow from beneath the tattered folds of their robes.\nOffspring of Calamity\nThe aberrant creatures known as core spawn are a subterranean breed of heralds, servants, foot soldiers, and lieutenants of the Elder Evils, awakened in the depths by the cataclysmic actions of the Betrayer Gods and their minions. They often appear on the surface world in the wake of seismic events, such as that which created the bottomless Miskath Pit of Eastern Wynandir. Warlocks and cultists sometimes gather together to hasten the arrival of core spawn to the Material Plane, focusing their arcane power on areas of natural seismic instability when the signs and stars are right.\nSource: Explorer's Guide to Wildemount p. 286"
+}

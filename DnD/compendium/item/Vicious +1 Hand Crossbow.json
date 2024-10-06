@@ -1,0 +1,14 @@
+{
+  "name": "Vicious +1 Hand Crossbow",
+  "detail": "martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "3",
+  "property": "A,L,LD,M",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "30/120",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon.\nWhen you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.\nNote: According to the SRD, it is an extra 2d6 piercing damage.\nSource: Acquisitions Incorporated p. 149",
+  "roll": [
+    "2d6"
+  ]
+}

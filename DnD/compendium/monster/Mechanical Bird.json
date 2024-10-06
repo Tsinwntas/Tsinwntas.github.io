@@ -1,0 +1,38 @@
+{
+  "name": "Mechanical Bird",
+  "size": "T",
+  "type": "construct",
+  "alignment": "Neutral",
+  "ac": "15",
+  "hp": "1",
+  "speed": "fly 60 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "1"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. 2 (1d3) piercing damage, and the bird is destroyed by the impact."
+      ],
+      "attack": [
+        "Slam|+0|1d3"
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dragon Heist p. 46"
+}

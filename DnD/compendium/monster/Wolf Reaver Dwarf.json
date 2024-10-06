@@ -1,0 +1,81 @@
+{
+  "name": "Wolf Reaver Dwarf",
+  "size": "M",
+  "type": "humanoid (dwarf),tome of Beasts",
+  "alignment": "any chaotic",
+  "ac": "16 (chain shirt, shield)",
+  "hp": "76 (9d8+36)",
+  "speed": "35 ft.",
+  "str": "18",
+  "dex": "12",
+  "con": "19",
+  "int": "9",
+  "wis": "11",
+  "cha": "9",
+  "skill": "Athletics +6, Intimidation +1",
+  "senses": "darkvision 60 ft.",
+  "passive": "10",
+  "languages": " Common, Dwarvish",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Danger Sense",
+      "text": [
+        "The wolf reaver dwarf has advantage on Dexterity saving throws against attacks it can see when it is not blinded, deafened, or incapacitated."
+      ]
+    },
+    {
+      "name": "Dwarven Resistance",
+      "text": [
+        "The wolf reaver dwarf has advantage on saving throws against poison."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The wolf reaver dwarf has advantage on attacks if at least one of the dwarf’s allies is within 5 feet of the target and the ally isn’t incapacitated."
+      ]
+    },
+    {
+      "name": "Reckless",
+      "text": [
+        "At the start of its turn, the wolf reaver dwarf can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The wolf reaver dwarf makes two melee or ranged attacks."
+      ]
+    },
+    {
+      "name": "Battleaxe",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 8 (1d8 + 4) slashing damage."
+      ],
+      "attack": [
+        "Battleaxe|6|1d8+4"
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+      ],
+      "attack": [
+        "Dagger|6|1d4+4"
+      ]
+    },
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|6|1d6+4"
+      ]
+    }
+  ]
+}

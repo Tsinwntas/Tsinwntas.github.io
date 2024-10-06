@@ -1,0 +1,91 @@
+{
+  "name": "Fleecemane Lion",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "45 (6d10+12)",
+  "speed": "walk 50 ft.",
+  "str": "19",
+  "dex": "16",
+  "con": "14",
+  "int": "6",
+  "wis": "14",
+  "cha": "10",
+  "save": "Str +6, Con +4",
+  "skill": "Perception +4, Stealth +5",
+  "passive": "14",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The lion has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Pounce",
+      "text": [
+        "If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action."
+      ]
+    },
+    {
+      "name": "Running Leap",
+      "text": [
+        "With a 10-foot running start, the lion can long jump up to 25 feet."
+      ]
+    },
+    {
+      "name": "Spell Turning",
+      "text": [
+        "The lion has advantage on saving throws against any spell that targets only the lion (not an area). If the lion's saving throw succeeds and the spell is of 4th level or lower, the spell has no effect on the lion and instead targets the caster."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The lion makes two attacks: one with its bite and one with its claw."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+6|1d8+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|+6|1d6+4"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The monstrosity can take 2 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The monstrosity regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "The lion makes one claw attack."
+      ]
+    },
+    {
+      "name": "Roar (Costs 2 Actions)",
+      "text": [
+        "The lion emits a magical roar. Each creature within 60 feet of the lion that can hear the roar must succeed on a DC 12 Wisdom saving throw or be frightened of the lion until the end of the lion's next turn."
+      ]
+    }
+  ],
+  "description": "Twice the size of normal lions and with resplendent manes of silvery or golden hair, fleecemane lions prowl and protect sites imbued with the power of Nyx. While the specifics of these massive lions' connection to Nyx is unclear, many myths tell of the deadly predators stalking mortals and spreading fear until they're ultimately defeated by a brave hunter. As a result, overcoming a fleecemane lion is widely considered an early step on the road to becoming a true hero.\nSource: Mythic Odysseys of Theros p. 223"
+}

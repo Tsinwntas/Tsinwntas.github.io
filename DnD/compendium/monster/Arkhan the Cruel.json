@@ -1,0 +1,79 @@
+{
+  "name": "Arkhan the Cruel",
+  "size": "M",
+  "type": "humanoid (dragonborn)",
+  "alignment": "Lawful Evil",
+  "ac": "23 (obsidian flint dragon plate, shield)",
+  "hp": "221 (26d8+104)",
+  "speed": "walk 40 ft.",
+  "str": "20",
+  "dex": "12",
+  "con": "18",
+  "int": "10",
+  "wis": "10",
+  "cha": "18",
+  "save": "Wis +5, Cha +9",
+  "skill": "Athletics +10, Deception +9, Intimidation +9",
+  "passive": "10",
+  "languages": "Common, Draconic",
+  "cr": "16",
+  "resist": "fire, poison; bludgeoning, piercing, slashing from nonmagical attacks",
+  "conditionImmune": "frightened",
+  "senses": "darkvision 60 ft. (can see invisible creatures out to the same range)",
+  "trait": [
+    {
+      "name": "Aura of Hate",
+      "text": [
+        "While Arkhan isn't incapacitated, he and all fiends and undead within 30 feet of him deal 4 extra damage whenever they hit with a melee weapon attack (already factored into Arkhan's attacks). This extra damage is of the same type as the weapon's damage type."
+      ]
+    },
+    {
+      "name": "Hand of Vecna",
+      "text": [
+        "The Hand of Vecna has 8 charges and regains 1d4 + 4 expended charges daily at dawn. Arkhan can cast the following spells from the hand by expending the specified number of charges (spell save DC 18): finger of death (5 charges), sleep (1 charge), slow (2 charges), and teleport (3 charges)."
+      ]
+    },
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Arkhan wields Fane-Eater and wears a suit of Obsidian Flint Dragon Plate. The armor gives Arkhan advantage on ability checks and saving throws made to avoid or end the grappled condition on him."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Arkhan's spellcasting ability is Charisma (spell save DC 17). He can cast the following spells, requiring no material components:",
+        "3/day each: animate dead, branding smite (at 4th level), revivify",
+        "1/day each: geas, raise dead"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Arkhan makes three weapon attacks."
+      ]
+    },
+    {
+      "name": "Fane-Eater (Battleaxe)",
+      "text": [
+        "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. 16 (1d8 + 12) slashing damage, or 17 (1d10 + 12) slashing damage when used with two hands, plus 9 (2d8) cold damage. If the target is a creature and Arkhan rolls a 20 on the attack roll, the creature takes an extra 9 (2d8) necrotic damage, and Arkhan regains an amount of hit points equal to the necrotic damage dealt."
+      ],
+      "attack": [
+        "Fane-Eater (Battleaxe)|+13|1d8+12"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range 30/120 ft., one target. 8 (1d6 + 5) piercing damage, plus 4 piercing damage and 9 (2d8) cold damage if the javelin was used to make a melee attack."
+      ],
+      "attack": [
+        "Javelin|+10|1d6+5"
+      ]
+    }
+  ],
+  "spells": "animate dead, branding smite, revivify, geas, raise dead",
+  "description": "Arkhan the Cruel is an evil dragonborn champion of Tiamat. Arkhan believes he can use the Hand of Vecna to unlock the means of freeing Tiamat from her prison in the Nine Hells, but only if the hand doesn't kill him first. The hand is slowly corrupting Arkhan's flesh and decomposing his body on one side.\nIn battle, Arkhan uses branding smite to channel the radiant power of Tiamat into his weapon attacks. If a fight turns against him, he uses the teleport power of the Hand of Vecna to return to his tower with as many allies as possible. Should one or more of his comrades fall in battle, Arkhan uses revivify and raise dead spells to bring them back to life as soon as possible.\nIf Arkhan finds himself overwhelmed with opposition, he orders the abishai to attack. Arkhan can also use a bonus action to call forth Asojano, a chimera lairing in the depths of the colossal dragon skull.\nSource: Baldur's Gate: Descent Into Avernus p. 111"
+}

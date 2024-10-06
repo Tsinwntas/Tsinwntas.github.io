@@ -1,0 +1,11 @@
+{
+  "name": "Dagger of Blindsight",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "1",
+  "property": "F,L,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "This rare magic item requires attunement. A creature attuned to it gains blindsight out to a range of 30 feet. The dagger has a saw-toothed edge and a black pearl nested in its pommel.\nSource: Waterdeep: Dungeon of the Mad Mage p. 86"
+}

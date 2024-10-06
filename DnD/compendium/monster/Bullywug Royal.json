@@ -1,0 +1,91 @@
+{
+  "name": "Bullywug Royal",
+  "size": "M",
+  "type": "humanoid (bullywug)",
+  "alignment": "Neutral Evil",
+  "ac": "15 (hide armor, shield)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 20 ft., swim 40 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "14",
+  "int": "10",
+  "wis": "11",
+  "cha": "14",
+  "save": "Str +5, Dex +3",
+  "skill": "Athletics +5, Intimidation +4, Stealth +3",
+  "passive": "10",
+  "languages": "Bullywug",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The royal can breathe air and water."
+      ]
+    },
+    {
+      "name": "Brute",
+      "text": [
+        "A melee weapon deals one extra die of its damage when the royal hits with it (included in the attack)."
+      ]
+    },
+    {
+      "name": "Frog Rider",
+      "text": [
+        "The royal has advantage on melee attacks made while riding a frog mount."
+      ]
+    },
+    {
+      "name": "Speak with Frogs and Toads",
+      "text": [
+        "The royal can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The royal's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+      ]
+    },
+    {
+      "name": "Swamp Camouflage",
+      "text": [
+        "The royal has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The royal makes two attacks: one with its royal spear and one with its bite."
+      ]
+    },
+    {
+      "name": "Royal Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 10 ft. or range 20/60 ft., one target. 10 (2d6 + 3) piercing damage, or 12 (2d8 + 3) piercing damage if used with two hands to make a melee attack. If the target is a Medium or smaller creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Royal Spear|+5|2d6+3"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Croaked Decree (1/Day)",
+      "text": [
+        "The royal makes a loud pronouncement. Each bullywug within 60 feet of the royal that can hear the pronouncement has advantage on its next attack roll."
+      ]
+    }
+  ],
+  "description": "The largest and most intelligent bullywugs invariably end up leading their kind. These sneering specimens dress in robes made from leather, rough cloth, and bits of marsh plants. As seen in Danger at Dunwater, a bullywug royal is often accompanied by and mounted astride a giant toad.\nSource: Ghosts of Saltmarsh p. 232"
+}

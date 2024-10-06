@@ -1,0 +1,14 @@
+{
+  "name": "Gambler's Blade Double-Bladed Scimitar",
+  "detail": "Cursed item, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "S,2H,M",
+  "dmg1": "2d4",
+  "dmgType": "S",
+  "text": "Special: If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.\nChoose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.\nCurse: This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon.\nSource: Lost Laboratory of Kwalish p. 55, Wayfinder's Guide to Eberron p. 74",
+  "roll": [
+    "1d4",
+    "2d4"
+  ]
+}

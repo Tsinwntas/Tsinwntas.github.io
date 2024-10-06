@@ -1,0 +1,70 @@
+{
+  "name": "Triton Shorestalker",
+  "size": "M",
+  "type": "humanoid (triton)",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "14",
+  "int": "10",
+  "wis": "15",
+  "cha": "11",
+  "skill": "Nature +4, Perception +4, Stealth +5",
+  "passive": "14",
+  "languages": "Common, Primordial",
+  "cr": "2",
+  "resist": "cold",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The triton can breathe air and water."
+      ]
+    },
+    {
+      "name": "Nimble Escape",
+      "text": [
+        "The triton can take the Disengage or Hide actions as a bonus action on each of its turns."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The triton's spellcasting ability is Wisdom (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+        "1/day each: fog cloud, gust of wind"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The triton makes two urchin-spine shortsword attacks."
+      ]
+    },
+    {
+      "name": "Urchin-Spine Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage. If the damage reduces a creature to 0 hit points, that creature is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+      ],
+      "attack": [
+        "Urchin-Spine Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Poisoned Spine",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one target. 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage."
+      ],
+      "attack": [
+        "Poisoned Spine|+5|1d4+3"
+      ]
+    }
+  ],
+  "spells": "fog cloud, gust of wind",
+  "description": "Some insults don't wash away with the tides. When surface dwellers threaten the safety of triton communities, impede upon Thassa's holiest depths, or steal the treasures of the deep, triton shorestalkers seek vengeance. Using speed and poison harvested from deadly sea beasts, these triton assassins slip into shallow waters and strike when least expected. Often, surface dwellers don't even realize they've been attacked by shorestalkers, chalking disappearances and deaths up to the innumerable dangers of the sea.\nClever, far-ranging people of the sea, tritons live rich lives unknown to most land-dwelling individuals. While the waves separate most tritons from land-dwellers, occasionally the inhabitants of the surface and the deep come into conflict. In such cases, tritons prove skilled at sabotaging ocean-going vessels, employing water-based magic, and otherwise whipping up the fury of the sea. Few dare insult tritons in their home environment, but those who do and survive often learn that the tritons' wrath doesn't end at the shore.\nSource: Mythic Odysseys of Theros p. 244"
+}

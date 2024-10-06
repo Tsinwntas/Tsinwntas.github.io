@@ -1,0 +1,80 @@
+{
+  "name": "Miremal",
+  "size": "S",
+  "type": "fey,tome of Beasts",
+  "alignment": "chaotic evil",
+  "ac": "13",
+  "hp": "22 (5d6+5)",
+  "speed": "30 ft., swim 30 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "12",
+  "int": "10",
+  "wis": "12",
+  "cha": "8",
+  "skill": "Perception +3, Stealth +5, Survival +3",
+  "senses": "darkvision 60 ft.",
+  "passive": "13",
+  "languages": " Sylvan, Umbral",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The miremal can breathe air and water."
+      ]
+    },
+    {
+      "name": "Swamp Camouflage",
+      "text": [
+        "The miremal has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+      ]
+    },
+    {
+      "name": "Savage Move",
+      "text": [
+        "If the miremal surprises a creature, it gets a bonus action it can use on its first turn of combat for a claw attack, a bite attack, or a Bog Spew attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The miremal makes two attacks, one of which must be a claw attack."
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claws|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Bog Spew (Recharge 5-6)",
+      "text": [
+        "The miremal spews a noxious stream of bog filth mixed with stomach acid at a target up to 20 feet away. Target must succeed on a DC 11 Constitution saving throw or be blinded for 1d4 rounds."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Muddled Escape (1/Day)",
+      "text": [
+        "If an attack would reduce the miremal's hit points to 0, it collapses into a pool of filth-laden swamp water and its hit points are reduced to 1 instead. The miremal can move at its normal speed in this form, including moving through spaces occupied by other creatures. As a bonus action at the beginning of the miremal's next turn, it can reform, still with 1 hit point."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Warhammer",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "value": "15.0",
+  "property": "V,M",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 149"
+}

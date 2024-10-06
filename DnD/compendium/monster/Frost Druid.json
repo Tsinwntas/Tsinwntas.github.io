@@ -1,0 +1,73 @@
+{
+  "name": "Frost Druid",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Any alignment",
+  "ac": "13 (hide armor)",
+  "hp": "67 (9d8+27)",
+  "speed": "walk 40 ft., burrow 5 ft., climb 30 ft., fly 60 ft.",
+  "str": "12",
+  "dex": "13",
+  "con": "16",
+  "int": "10",
+  "wis": "16",
+  "cha": "9",
+  "save": "Int +3, Wis +6",
+  "skill": "Nature +3, Perception +6, Survival +6",
+  "passive": "16",
+  "languages": "Common, Druidic",
+  "cr": "5",
+  "resist": "cold",
+  "senses": "darkvision 60ft. (beast form only)",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The druid makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Ice Sickle (Humanoid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 3 (1d4 + 1) slashing damage plus 5 (2d4) cold damage."
+      ],
+      "attack": [
+        "Ice Sickle (Humanoid Form Only)|+4|1d4+1"
+      ]
+    },
+    {
+      "name": "Maul (Beast Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 3 (1d4 + 1) piercing damage."
+      ],
+      "attack": [
+        "Maul (Beast Form Only)|+4|1d4+1"
+      ]
+    },
+    {
+      "name": "Change Shape",
+      "text": [
+        "The druid magically polymorphs into a beast form—fox, mountain goat, owl, or wolf—or back into its humanoid form. Any equipment it is wearing or carrying is absorbed or borne by the beast form (the druid's choice). It reverts to its humanoid form when it dies. The druid's statistics are the same in each form, except where noted in this stat block."
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting (Humanoid Form Only)",
+      "text": [
+        "The druid is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14; +6 to hit with spell attacks). It has the following druid spells prepared:",
+        "Cantrips (at will): druidcraft, guidance, resistance",
+        "• 1st level (4 slots): animal friendship, fog cloud, speak with animals",
+        "• 2nd level (3 slots): animal messenger, moonbeam, pass without trace",
+        "• 3rd level (3 slots): conjure animals, sleet storm, wind wall",
+        "• 4th level (3 slots): hallucinatory terrain, ice storm",
+        "• 5th level (1 slots): awaken"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "druidcraft, guidance, resistance, animal friendship, fog cloud, speak with animals, animal messenger, moonbeam, pass without trace, conjure animals, sleet storm, wind wall, hallucinatory terrain, ice storm, awaken",
+  "description": "Frost druids are solitary defenders of nature and the natural enemies of civilization in the North. They seek to preserve the arctic wilderness by destroying outsiders who cross their path. Each patrols its territory in the guise of an arctic fox, a mountain goat, a snowy owl, or a wolf, reverting to human form only when it attacks. Clever ambushers, they use hallucinatory terrain spells to create illusory snowdrifts under which they can hide, or to obscure pools covered by thin ice through which others might fall.\nAwakened Companions. A frost druid is often accompanied by one or more beasts, shrubs, or evergreen trees that it has made sentient using the awaken spell. These druids favor polar bears and reindeer (use the elk stat block in the Monster Manual) as companions, and such creatures typically share the druid's disposition.\nIce Sickle. A frost druid can carve a sickle out of ice, requiring a total of 24 hours for the work. Bitter cold courses through this weapon while it's in the druid's hands. If the druid dies, the ice sickle melts away. The weapon is otherwise identical to a normal sickle.\nSource: Icewind Dale: Rime of the Frostmaiden p. 288"
+}

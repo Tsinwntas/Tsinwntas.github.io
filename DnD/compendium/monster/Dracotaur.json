@@ -1,0 +1,77 @@
+{
+  "name": "Dracotaur",
+  "size": "L",
+  "type": "dragon",
+  "alignment": "Chaotic Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "110 (13d10+39)",
+  "speed": "walk 50 ft., burrow 20 ft.",
+  "str": "21",
+  "dex": "17",
+  "con": "16",
+  "int": "10",
+  "wis": "13",
+  "cha": "15",
+  "save": "Con +6, Cha +5",
+  "skill": "Athletics +8, Intimidation +5, Perception +4, Survival +4",
+  "passive": "14",
+  "languages": "Common, Elvish, Draconic",
+  "cr": "6",
+  "immune": "lightning",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the dracotaur moves at least 30 feet straight toward a target and then hits it with a bite attack on the same turn, the target takes an extra 14 (4d6) piercing damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The dracotaur makes two attacks. one with its bite and one with its claws or two with its longbow."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit.",
+        "11 (2d6 + 4) piercing damage plus 7 (2d6) lightning damage."
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claws|8|2d6+4"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. 12 (2d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Longbow|6|2d8+3"
+      ]
+    },
+    {
+      "name": "Lightning Arrow (Recharges after a Short or Long Rest)",
+      "text": [
+        "The dracotaur shoots an arrow at a point it can see within 150 feet where it explodes into a 20-foot-radius sphere of lightning. Each creature in that area must make a DC 15 Dexterity saving throw, taking 28 (8d6) lightning damage on a failed save, or half as damage much on a successful one."
+      ]
+    },
+    {
+      "name": "Lightning Breath (Recharge 56)",
+      "text": [
+        "The dracotaur exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 33 (6d10) lightning damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "grassland"
+}

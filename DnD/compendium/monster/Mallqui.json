@@ -1,0 +1,85 @@
+{
+  "name": "Mallqui",
+  "size": "M",
+  "type": "undead,tome of Beasts",
+  "alignment": "lawful neutral",
+  "ac": "14 (natural armor)",
+  "hp": "120 (16d8+48)",
+  "speed": "20 ft.",
+  "str": "16",
+  "dex": "9",
+  "con": "16",
+  "int": "11",
+  "wis": "16",
+  "cha": "14",
+  "save": "Int +3, Cha +5",
+  "skill": "History +3, Insight +6, Religion +3",
+  "resist": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+  "immune": "necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "13",
+  "languages": " the languages it knew in life",
+  "cr": "8",
+  "trait": [
+    {
+      "name": "Regeneration",
+      "text": [
+        "The mallqui regains 10 hit points at the start of its turn. If the mallqui takes damage from its Water Sensitivity trait, its regeneration doesn't function at the start of the mallqui's next turn. The mallqui dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The mallqui's innate spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It can cast the following spells, requiring no material components:",
+        "At will: druidcraft, produce flame",
+        "4/day each: create or destroy water, entangle",
+        "2/day: locate animals or plants",
+        "1/day each: dispel magic, plant growth, wind wall"
+      ]
+    },
+    {
+      "name": "Water Sensitivity",
+      "text": [
+        "The flesh of a mallqui putrefies and dissolves rapidly when soaked with water in the following ways:",
+        "- Splashed with a waterskin or equivalent: 1d10 damage",
+        "- Attacked by creature made of water: Normal damage plus an extra 1d10 damage",
+        "- Caught in rain: 2d10 damage per round (DC 11 Dexterity saving throw for half)",
+        "- Immersed in water: 4d10 damage per round (DC 13 Dexterity saving throw for half)",
+        "Alternatively, the saving throw and DC of the spell used to conjure or control the water damaging the mallqui can be used in place of the saving throws above"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The mallqui can use its xeric aura and makes two attacks with its desiccating touch."
+      ]
+    },
+    {
+      "name": "Desiccating Touch",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 20 (5d6 + 3) necrotic damage."
+      ],
+      "attack": [
+        "Desiccating Touch|7|5d6+3"
+      ]
+    },
+    {
+      "name": "Xeric Aura",
+      "text": [
+        "All creatures within 20 feet of the mallqui must succeed on a DC 15 Constitution saving throw or take 11 (2d10) necrotic damage and gain a level of exhaustion. A creature becomes immune to the mallqui's xeric aura for the next 24 hours after making a successful save against it."
+      ]
+    },
+    {
+      "name": "Xeric Blast",
+      "text": [
+        "Ranged Spell Attack: +7 to hit, range 30/90 ft., one target. Hit: 13 (3d6 + 3) necrotic damage."
+      ],
+      "attack": [
+        "Xeric Blast|7|3d6+3"
+      ]
+    }
+  ]
+}

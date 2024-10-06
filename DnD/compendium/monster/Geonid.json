@@ -1,0 +1,45 @@
+{
+  "name": "Geonid",
+  "size": "S",
+  "type": "elemental",
+  "alignment": "Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "26 (4d6+12)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "10",
+  "con": "16",
+  "int": "9",
+  "wis": "14",
+  "cha": "11",
+  "skill": "Perception +4, Stealth +2",
+  "passive": "14",
+  "cr": "1/4",
+  "senses": "darkvision 60 ft., tremorsense 30 ft.",
+  "trait": [
+    {
+      "name": "Boulder Guise",
+      "text": [
+        "While fully withdrawn into its shell, the geonid can't see and is indistinguishable from a small boulder"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+3|1d4+1"
+      ]
+    },
+    {
+      "name": "Stone Tell",
+      "text": [
+        "The geonid touches a stone object or surface and knows what types of creatures have been within 10 feet of that stone in the past 24 hours. The geonid can also determine the number of creatures of each type, but not their identities."
+      ]
+    }
+  ],
+  "description": "Also known as rocklings and rock hermits, geonids are small, intelligent cave dwellers that originated on the Elemental Plane of Earth. A geonid's arms and legs come out of a small opening in the bottom of its shell. A geonid can draw its limbs into its shell and close the opening. When it does so, the creature looks like a small boulder. In this state, the geonid can't see and relies on its tremorsense to detect other creatures nearby.\nDark Lairs. Geonids live in natural tunnels and caves. They feed primarily on lizards, rats, slugs, and other vermin, as well as on cave lichen and moss. Geonids like to collect coins and gemstones, and they rarely confront creatures larger than themselves except to rob them or scare them away.\nStone Tell. Geonids can attune to stone in a way that lets them discern what other creatures have been in the area recently. Geonids use this ability to track prey and to determine whether other creatures have trespassed in their territory. The information gleaned is imprecise and doesn't include the specific identities of such creatures or the precise times when they passed nearby.\nSource: The Tortle Package p. 22"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Mariner's Hide Armor",
+  "detail": "minor, Medium Armor",
+  "type": "MA",
+  "weight": "12",
+  "ac": "12",
+  "text": "This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.\nWhile wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.\nFound On: Magic Item Table B\nSource: Dungeon Master's Guide p. 181"
+}

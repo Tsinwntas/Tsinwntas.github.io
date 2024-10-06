@@ -1,0 +1,46 @@
+{
+  "name": "Dolphin",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 0 ft., swim 60 ft.",
+  "str": "14",
+  "dex": "13",
+  "con": "13",
+  "int": "6",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "1/8",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the dolphin moves at least 30 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 3 (1d6) bludgeoning damage."
+      ]
+    },
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The dolphin can hold its breath for 20 minutes."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "Dolphins are clever, social marine mammals that feed on small fish and squid. An adult specimen is between 5 and 6 feet long.\nSource: Volo's Guide to Monsters p. 208, Ghosts of Saltmarsh",
+  "environment": "underwater, coastal"
+}

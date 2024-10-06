@@ -1,0 +1,49 @@
+{
+  "name": "Dust Goblin",
+  "size": "S",
+  "type": "humanoid (goblinoid),tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "14 (leather armor)",
+  "hp": "5 (1d6+2)",
+  "speed": "40 ft.",
+  "str": "8",
+  "dex": "16",
+  "con": "14",
+  "int": "10",
+  "wis": "8",
+  "cha": "8",
+  "skill": "Stealth +7",
+  "conditionImmune": "charmed, frightened",
+  "senses": "darkvision 60 ft.",
+  "passive": "9",
+  "languages": " Common, Goblin",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Twisted",
+      "text": [
+        "When the dust goblin attacks a creature from hiding, its target must make a successful DC 10 Wisdom saving throw or be frightened until the end of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Light Crossbow|5|1d6+3"
+      ]
+    }
+  ]
+}

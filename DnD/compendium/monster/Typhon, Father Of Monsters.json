@@ -1,0 +1,118 @@
+{
+  "name": "Typhon, Father Of Monsters",
+  "size": "G",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "21 (natural armor)",
+  "hp": "314 (17d20+136)",
+  "speed": "walk 50 ft., burrow 50 ft., fly 90 ft.",
+  "str": "30",
+  "dex": "14",
+  "con": "26",
+  "int": "17",
+  "wis": "22",
+  "cha": "19",
+  "save": "Dex +9, Con +15, Wis +13, Cha +11",
+  "skill": "Arcana +10, Deception +11, Intimidation +11, Perception +13",
+  "passive": "23",
+  "languages": "All, telepathy 120 ft.",
+  "cr": "22",
+  "resist": "cold, fire, lightning",
+  "immune": "poison; bludgeoning, piercing, slashing from nonmagical weapons",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Typhon fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Typhon has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Typhon's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The typhon, father of monsters's innate spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: detect magic, major image",
+        "3/day each: dispel magic, dominate person, suggestion",
+        "1/day each: dominate monster, geas, true polymorph"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Typhon makes three attacks. two with his snake bites and one with his or Enthralling Touch."
+      ]
+    },
+    {
+      "name": "Snake Bites",
+      "text": [
+        "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. 23 (3d8 + 10) piercing damage and the target must succeed on a DC 23 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the creature takes 11 (2d10) poison damage at the start of its turn. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Snake Bites|17|3d8+10"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +17 to hit, reach 20 ft., one creature. 26 (3d10 + 10) bludgeoning damage and the target is grappled (escape DC 20) if it is a Large or smaller creature. Until this grapple ends, the creature is restrained. Typhon has two tails, each of which can grapple only one target."
+      ],
+      "attack": [
+        "Tail|17|3d10+10"
+      ]
+    },
+    {
+      "name": "Enthralling Touch",
+      "text": [
+        "Melee Spell Attack: +11 to hit, reach 15 ft., one creature. The target is magically cursed. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks. The curse lasts until removed by the remove curse spell or other magic."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fiend (demon) can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fiend (demon) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "Typhon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Typhon regains spent legendary actions at the start of his turn."
+      ]
+    },
+    {
+      "name": "Snake Bites",
+      "text": [
+        "Typhon makes one snake bites attack."
+      ]
+    },
+    {
+      "name": "Enthrall",
+      "text": [
+        "Typhon makes one enthralling touch attack."
+      ]
+    },
+    {
+      "name": "Wing Attack (Costs 2 Actions)",
+      "text": [
+        "Typhon beats his wings. Each creature within 15 feet of Typhon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. Typhon can then fly up to half his flying speed."
+      ]
+    }
+  ],
+  "spells": "detect magic, major image, dispel magic, dominate person, suggestion, dominate monster, geas, true polymorph",
+  "description": "Source: CCodex (3pp)"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Mandriano",
+  "size": "L",
+  "type": "plant",
+  "alignment": "Lawful Evil",
+  "ac": "13 (natural armor)",
+  "hp": "60 (8d10+16)",
+  "speed": "walk 40 ft.",
+  "str": "15",
+  "dex": "6",
+  "con": "15",
+  "int": "10",
+  "wis": "10",
+  "cha": "7",
+  "skill": "Athletics +5, Perception +3, Stealth +1",
+  "passive": "13",
+  "languages": "Understands Common, Sylvan but can't speak",
+  "cr": "5",
+  "immune": "poison",
+  "vulnerable": "fire, necrotic, bludgeoning, piercing, slashing",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The mandriano makes two swipe attacks."
+      ]
+    },
+    {
+      "name": "Swipe",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. 11 (2d6 + 4) slashing damage. If the target is Medium or smaller, it is grappled (escape DC 14). Until this grapple ends, the target is restrained. It can grapple up to three creatures."
+      ],
+      "attack": [
+        "Swipe|5|2d6+4"
+      ]
+    },
+    {
+      "name": "Consume the Spark",
+      "text": [
+        "The mandriano drains the essence of one grappled target. The target must make a DC 14 Constitution saving throw, taking 13 (4d6) necrotic damage on a failed save, or half as much damage on a successful one. The target's hp maximum is reduced by an amount equal to the necrotic damage taken, and the mandriano regains hp equal to that amount. The reduction lasts until the target finishes a long rest.",
+        "The target dies if this effect reduces its hp maximum to 0. A humanoid slain in this way rises 24 hours later as a zombie or skeleton under the mandriano's control, unless the humanoid is restored to life or its body is destroyed. The mandriano can control up to twelve undead at one time."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "badlands, forest"
+}

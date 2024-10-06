@@ -1,0 +1,54 @@
+{
+  "name": "Hippocamp",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Chaotic Good",
+  "ac": "13 (natural armor)",
+  "hp": "22 (4d10)",
+  "speed": "walk 20 ft., swim 50 ft.",
+  "str": "14",
+  "dex": "15",
+  "con": "11",
+  "int": "5",
+  "wis": "10",
+  "cha": "6",
+  "passive": "10",
+  "cr": "1/2",
+  "resist": "cold",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The hippocamp can breathe air and water."
+      ]
+    },
+    {
+      "name": "Charge",
+      "text": [
+        "If the hippocamp moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Hooves",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 9 (2d6 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Hooves|+4|2d6+2"
+      ]
+    },
+    {
+      "name": "Ram",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Ram|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "Noble steeds of the sea, hippocamps feature in countless tales as guides and mounts to tritons and other ocean-faring heroes. While these curious but cautious aquatic equines naturally travel in herds, many hold valued places in triton society. Considered to be servants of Thassa, hippocamps are often unpredictable, but their great speed and strength can prove awe-inspiring when harnessed by the god's will.\nSource: Mythic Odysseys of Theros p. 227"
+}

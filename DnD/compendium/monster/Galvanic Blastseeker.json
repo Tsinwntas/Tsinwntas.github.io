@@ -1,0 +1,62 @@
+{
+  "name": "Galvanic Blastseeker",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Chaotic Neutral",
+  "ac": "13",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "17",
+  "con": "14",
+  "int": "19",
+  "wis": "10",
+  "cha": "13",
+  "save": "Dex +6",
+  "skill": "Acrobatics +6, Arcana +7, Perception +3",
+  "passive": "13",
+  "languages": "Common and Primordial, plus any one language",
+  "cr": "5",
+  "resist": "lightning, thunder",
+  "trait": [
+    {
+      "name": "Galvanic Overcast (Recharge 5-6)",
+      "text": [
+        "When the blastseeker casts lightning bolt or thunderwave, it can roll a die. On an odd number, the blastseeker takes 9 (2d8) force damage. On an even number, the spell also deals 9 (2d8) lightning damage to each target that fails its saving throw."
+      ]
+    },
+    {
+      "name": "Heart of the Storm",
+      "text": [
+        "When the blastseeker casts lightning bolt or thunderwave, all other creatures within 10 feet of the blastseeker each take 3 lightning damage."
+      ]
+    },
+    {
+      "name": "Gust-Propelled Leap",
+      "text": [
+        "The blastseeker can use a bonus action to fly up to 10 feet without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The blastseeker's innate spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The blastseeker can innately cast the following spells, requiring no components other than its Izzet gear, which doesn't function for others:",
+        "1/day: stoneskin",
+        "3/day each: levitate, lightning bolt, thunderwave"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|+3|1d6"
+      ]
+    }
+  ],
+  "spells": "stoneskin, levitate, lightning bolt, thunderwave",
+  "description": "While chemisters focus on inventing new tools, weapons, and other devices for the guild to use, the role of a blastseeker is to put those devices to work. Despite the name, not all such devices produce explosions, but all the most interesting ones (from the Izzet perspective) do.\nSource: Guildmasters' Guide to Ravnica p. 243"
+}

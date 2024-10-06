@@ -1,0 +1,49 @@
+{
+  "name": "Lawmage",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Lawful Neutral",
+  "ac": "15 (breastplate)",
+  "hp": "84 (13d8+26)",
+  "speed": "walk 30 ft.",
+  "str": "13",
+  "dex": "12",
+  "con": "14",
+  "int": "17",
+  "wis": "14",
+  "cha": "13",
+  "save": "Int +6, Wis +5",
+  "skill": "Arcana +6, Perception +5, Persuasion +4",
+  "passive": "15",
+  "languages": "Common plus any one language",
+  "cr": "6",
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used with two hands."
+      ],
+      "attack": [
+        "Quarterstaff|+4|1d6+1"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The lawmage is an 8th-level Azorius spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The lawmage has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, friends, light, message",
+        "• 1st level (4 slots): alarm, expeditious retreat, shield",
+        "• 2nd level (3 slots): arcane lock, detect thoughts, hold person",
+        "• 3rd level (3 slots): clairvoyance, dispel magic, slow",
+        "• 4th level (2 slots): locate creature, stoneskin"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 2"
+  ],
+  "spells": "fire bolt, friends, light, message, alarm, expeditious retreat, shield, arcane lock, detect thoughts, hold person, clairvoyance, dispel magic, slow, locate creature, stoneskin",
+  "description": "The Azorius Senate has spellcasters who are trained to capture lawbreakers and bring them to justice. A lawmage's magic is focused on restraining criminals and on protecting bystanders from becoming casualties when arresters are pursuing malefactors. A significant proportion of the guild's vedalken are lawmages.\nSource: Guildmasters' Guide to Ravnica p. 228"
+}

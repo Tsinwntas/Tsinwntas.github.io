@@ -1,0 +1,67 @@
+{
+  "name": "Snow Hag",
+  "size": "M",
+  "type": "fey",
+  "alignment": "Neutral Evil",
+  "ac": "17 (natural armor)",
+  "hp": "82 (11d8+33)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "16",
+  "int": "13",
+  "wis": "14",
+  "cha": "16",
+  "skill": "Arcana +3, Deception +5, Survival +4",
+  "passive": "12",
+  "languages": "Common, Giant, Sylvan",
+  "cr": "3",
+  "immune": "cold",
+  "vulnerable": "fire",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Ice Walk",
+      "text": [
+        "The snow hag can move across icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The snow hag's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: minor illusion, prestidigitation, ray of frost",
+        "1/day each: charm person, fog cloud, sleet storm"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 12 (2d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claws|5|2d8+3"
+      ]
+    },
+    {
+      "name": "Icy Embrace (Recharge 5-6)",
+      "text": [
+        "The snow hag exhales a cloud of freezing fog in a 15-foot-radius around her. Each creature in that area must make a DC 13 Constitution saving throw. On a failure, a target takes 21 (6d6) cold damage and is restrained by ice for 1 minute. On a success, a target takes half the damage and isn't restrained. A restrained target can make a DC 13 Strength check, shattering the ice on a success. The ice can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire and bludgeoning damage; immunity to slashing, cold, poison, and psychic damage)."
+      ]
+    },
+    {
+      "name": "Illusory Appearance",
+      "text": [
+        "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape.",
+        "The illusion ends if the hag takes a bonus action to end it or if she dies.",
+        "The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have human hands, but someone touching them would feel her sharp claws.",
+        "Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised."
+      ]
+    }
+  ],
+  "spells": "minor illusion, prestidigitation, ray of frost, charm person, fog cloud, sleet storm",
+  "description": "Source: CCodex (3pp) p. 214",
+  "environment": "arctic"
+}

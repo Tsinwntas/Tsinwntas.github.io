@@ -1,0 +1,63 @@
+{
+  "name": "Duergar Hammerer",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Lawful Evil",
+  "ac": "17 (natural armor)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 20 ft.",
+  "str": "17",
+  "dex": "7",
+  "con": "12",
+  "int": "5",
+  "wis": "5",
+  "cha": "5",
+  "passive": "7",
+  "languages": "understands Dwarvish but can't speak",
+  "cr": "2",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Engine of Pain",
+      "text": [
+        "Once per turn, a creature that attacks the hammerer can target the duergar trapped in it. The attacker has disadvantage on the attack roll. On a hit, the attack deals an extra 5 (1d10) damage to the hammerer, and the hammerer can respond by using its Multiattack with its reaction."
+      ]
+    },
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The hammerer deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hammerer makes two attacks: one with its claw and one with its hammer."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Claw|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Hammer",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Hammer|+5|2d6+3"
+      ]
+    }
+  ],
+  "description": "\nYou think dwarves are dour and unpleasant? Wait until you meet a duergar.\n — Mordenkainen\n\nThe cruel duergar plot not only to defeat other dwarves, but to cast down the entire dwarven pantheon in revenge for their being abandoned and left to be enslaved by mind flayers. To this end, duergar train warriors to fulfill a variety of roles.\nSource: Mordenkainen's Tome of Foes p. 188, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "mountain, underdark"
+}

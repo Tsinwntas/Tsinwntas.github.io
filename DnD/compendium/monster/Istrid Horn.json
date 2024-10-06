@@ -1,0 +1,70 @@
+{
+  "name": "Istrid Horn",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Lawful Evil",
+  "ac": "18 (plate armor)",
+  "hp": "117 (18d8+36)",
+  "speed": "walk 25 ft.",
+  "str": "12",
+  "dex": "10",
+  "con": "14",
+  "int": "11",
+  "wis": "17",
+  "cha": "13",
+  "save": "Con +5, Wis +6",
+  "skill": "Intimidation +4, Religion +3",
+  "passive": "13",
+  "languages": "Common, Dwarvish",
+  "cr": "8",
+  "resist": "poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "Istrid has advantage on saving throws against being poisoned."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Istrid is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks) She has the following cleric spells prepared:",
+        "Cantrips (at will): light, mending, sacred flame, spare the dying",
+        "• 1st level (4 slots): divine favor, guiding bolt, healing word, shield of faith",
+        "• 2nd level (3 slots): lesser restoration, magic weapon, hold person, silence, spiritual weapon",
+        "• 3rd level (3 slots): beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water walk",
+        "• 4th level (3 slots): banishment, freedom of movement, guardian of faith, stoneskin",
+        "• 5th level (1 slots): flame strike, mass cure wounds, hold monster"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Istrid makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Maul",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 8 (2d6 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Maul|+4|2d6+1"
+      ]
+    },
+    {
+      "name": "Treasure Sense (3/Day)",
+      "text": [
+        "Istrid magically pinpoints precious metals and stones, such as coins and gems, within 60 feet of her."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "light, mending, sacred flame, spare the dying, divine favor, guiding bolt, healing word, shield of faith, lesser restoration, magic weapon, hold person, silence, spiritual weapon, beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water walk, banishment, freedom of movement, guardian of faith, stoneskin, flame strike, mass cure wounds, hold monster",
+  "description": "Istrid is regarded as the Black Network's Master of Trade and Coin in Waterdeep. The shield dwarf operates an illegal lending operation out of a heavily guarded warehouse in the Dock Ward, offering loans to those in need of coin. Her interest rates are comparable to those of her competitors (including noble families of bankers such as the Cassalanters and the Irlingstars), but the penalties for not paying back Istrid's loans are severe.\nIstrid worships Vergadain, the dwarven god of wealth and luck. She likes having others indebted to her, and she employs thugs and enforcers to collect on her loans. If those resources prove inadequate, Istrid can call on her old adventuring companions for assistance.\nThe Doom Raiders. The Doom Raiders were five unscrupulous adventurers who liked to plunder lich lairs (called \"dooms\" by some). They gave up adventuring to join the Black Network and came to Waterdeep three years ago with plans to establish a Zhentarim foothold in the city. In that time, they have forged alliances with various nobles and guilds and run afoul of others, all the while fending off Harper spies.\nSource: Waterdeep: Dragon Heist p. 199"
+}

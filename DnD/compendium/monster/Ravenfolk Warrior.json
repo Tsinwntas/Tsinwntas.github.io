@@ -1,0 +1,90 @@
+{
+  "name": "Ravenfolk Warrior",
+  "size": "M",
+  "type": "humanoid (kenku),tome of Beasts",
+  "alignment": "neutral",
+  "ac": "15 (studded leather armor)",
+  "hp": "78 (12d8+24)",
+  "speed": "30 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "14",
+  "int": "10",
+  "wis": "13",
+  "cha": "10",
+  "save": "Dex +5, Wis +3, Cha +2",
+  "skill": "Deception +2, Perception +5, Stealth +5",
+  "senses": "darkvision 120 ft.",
+  "passive": "15",
+  "languages": " Common, Feather Speech, Huginn",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Rune Weapons",
+      "text": [
+        "Kept keen with runic magic, runespears and runestaves are two-handed weapons that count as magical, though they provide no bonus to attack. Their magic must be renewed each week by a doom croaker or by Odin's own hand."
+      ]
+    },
+    {
+      "name": "Mimicry",
+      "text": [
+        "Ravenfolk warriors can mimic the voices of others with uncanny accuracy. They have advantage on Charisma (Deception) checks involving audible mimicry."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "A ravenfolk warrior makes two runespear attacks, or two longbow attacks, or one ghost wings attack and one runespear attack. It can substitute one peck attack for any other attack."
+      ]
+    },
+    {
+      "name": "Ghost Wings",
+      "text": [
+        "The ravenfolk warrior furiously \"beats\" a set of phantasmal wings. Every creature within 5 feet of the ravenfolk must make a successful DC 13 Dexterity saving throw or be blinded until the start of the ravenfolk's next turn."
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack. +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+      ]
+    },
+    {
+      "name": "Peck",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Peck|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Radiant Runespear",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 7 (1d12 + 1) piercing damage plus 2 (1d4) radiant damage."
+      ],
+      "attack": [
+        "Radiant Runespear|3|1d12+1"
+      ]
+    },
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Rapier|5|1d8+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Odin's Call",
+      "text": [
+        "A ravenfolk warrior can disengage after an attack reduces it to 10 hp or less."
+      ]
+    }
+  ]
+}

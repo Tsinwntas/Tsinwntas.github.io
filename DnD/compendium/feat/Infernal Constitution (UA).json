@@ -1,0 +1,13 @@
+{
+  "name": "Infernal Constitution (UA)",
+  "prerequisite": "Tiefling",
+  "text": "Fiendish blood runs strong in you. You gain the following benefits:\n• You have resistance to cold and poison damage.\n• You have advantage on saving throws against being poisoned.\nSource: Unearthed Arcana: Feats For Races p. 3",
+  "modifier": [
+    {
+      "_": "Constitution +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}

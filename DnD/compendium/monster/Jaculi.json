@@ -1,0 +1,51 @@
+{
+  "name": "Jaculi",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "16 (3d10)",
+  "speed": "walk 30 ft., climb 20 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "11",
+  "int": "2",
+  "wis": "8",
+  "cha": "3",
+  "skill": "Athletics +4, Perception +1, Stealth +4",
+  "passive": "11",
+  "cr": "1/2",
+  "senses": "blindsight 30 ft.",
+  "trait": [
+    {
+      "name": "Camouflage",
+      "text": [
+        "The jaculi has advantage on Dexterity (Stealth) checks made to hide."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The jaculi has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 9 (2d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|2d6+2"
+      ]
+    },
+    {
+      "name": "Spring",
+      "text": [
+        "The jaculi springs up to 30 feet in a straight line and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 (2d6) piercing damage."
+      ]
+    }
+  ],
+  "description": "A jaculi (pronounced jah-KOO-lee) is a 15-foot-long snake that can alter the color and texture of its scales to camouflage itself. Altering its appearance to resemble wood or stone, it coils around pillars and tree trunks from which it launches itself like a javelin, striking with great force and accuracy.\nJaculis are found in damp climates, and their preferred habitats are rainforests and cool dungeons. The shed skin of the jaculi is coveted for use in crafting boots of striding and springing and cloaks of invisibility.\nSource: Tomb of Annihilation p. 225"
+}

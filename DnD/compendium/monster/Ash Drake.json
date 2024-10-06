@@ -1,0 +1,61 @@
+{
+  "name": "Ash Drake",
+  "size": "S",
+  "type": "dragon,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "16 (natural armor)",
+  "hp": "117 (18d6+54)",
+  "speed": "30 ft., fly 60 ft.",
+  "str": "14",
+  "dex": "15",
+  "con": "16",
+  "int": "9",
+  "wis": "15",
+  "cha": "10",
+  "save": "Dex +4",
+  "skill": "Stealth +4",
+  "resist": "fire",
+  "conditionImmune": "paralyzed, unconscious",
+  "senses": "darkvision 60 ft.",
+  "passive": "12",
+  "languages": " Common, Draconic",
+  "cr": "4",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ash drake makes one bite attack and two claw attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage + 3 (1d6) fire damage."
+      ],
+      "attack": [
+        "Bite|4|2d6+2"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claw|4|2d6+2"
+      ]
+    },
+    {
+      "name": "Ash Cloud",
+      "text": [
+        "An ash drake can beat its wings and create a cloud of ash that extends 10 feet in all directions, centered on itself. This cloud provides half cover, though the ash drake can see normally through its own cloud. Any creature that enters or starts its turn in the cloud must succeed on a DC 14 Constitution saving throw or become blinded for 1d6 rounds."
+      ]
+    },
+    {
+      "name": "Ash Breath (recharge 6)",
+      "text": [
+        "An ash drake spews a 20-foot cone of blistering hot, choking ash. Any targets in the path of this spray takes 14 (4d6) fire damage and become poisoned for one minute; a successful DC 13 Dexterity saving throw reduces damage by half and negates the poisoning. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+      ]
+    }
+  ]
+}

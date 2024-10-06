@@ -1,0 +1,74 @@
+{
+  "name": "Sooze",
+  "size": "M",
+  "type": "aberration (shoth)",
+  "alignment": "Lawful Neutral",
+  "ac": "12 (natural armor)",
+  "hp": "49 (11d8)",
+  "speed": "walk 30 ft., climb 10 ft.",
+  "str": "14",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "14",
+  "cha": "16",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "All, telepathy 100 ft.",
+  "cr": "1/2",
+  "resist": "acid, cold, fire",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Amorphous",
+      "text": [
+        "The sooze, including its equipment, can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    },
+    {
+      "name": "Multiple Roles",
+      "text": [
+        "Choose either the Laborer or Warrior trait."
+      ]
+    },
+    {
+      "name": "Laborer",
+      "text": [
+        "The sooze is strong and tireless. It gains immunity to exhaustion and can Dash as a bonus action 3 times each day."
+      ]
+    },
+    {
+      "name": "Warrior",
+      "text": [
+        "The sooze is trained and equipped as a warrior. Its Armor Class increases by 2. The sooze has advantage on attack rolls against a creature if at least one of its allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Oozing Slam",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage and 2 (1d4) acid damage."
+      ],
+      "attack": [
+        "Oozing Slam|4|1d4+2"
+      ]
+    },
+    {
+      "name": "Longsword (Warrior Only)",
+      "text": [
+        "Melee Weapon Attack. +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword (Warrior Only)|4|1d8+2"
+      ]
+    },
+    {
+      "name": "Merge",
+      "text": [
+        "A shoth who has less than half its maximum hp can merge with any other shoth creature within 10 feet, adding its remaining hp to that creature's. The hp gained this way can exceed the normal maximum of that creature. A shoth can accept one such merger every 24 hours."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 334"
+}

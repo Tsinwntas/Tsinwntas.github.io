@@ -1,0 +1,13 @@
+{
+  "name": "Elven Accuracy (UA)",
+  "prerequisite": "Elf, Half-Elf",
+  "text": "You have uncanny aim. You gain the following benefits:\n• Whenever you have advantage on an attack roll, you can reroll one of the dice once.\nSource: Unearthed Arcana: Feats For Races p. 2",
+  "modifier": [
+    {
+      "_": "Dexterity +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}

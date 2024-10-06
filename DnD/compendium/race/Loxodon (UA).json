@@ -1,0 +1,52 @@
+{
+  "name": "Loxodon (UA)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Con 2, Wis 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Unearthed Arcana: Races Of Ravnica p. 1"
+    },
+    {
+      "name": "Age",
+      "text": "Loxodon (UA)s physically mature at the same rate as humans, but they live about 450 years. They highly value the weight of wisdom and experience and are considered young until they reach the age of 60.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most Loxodon (UA)s are lawful, believing in the value of a peaceful, ordered life. They also tend toward good.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Loxodon (UA)s stand between 7 and 8 feet tall. Their massive bodies weigh between 300 and 400 pounds. Your size is Medium.\n"
+    },
+    {
+      "name": "Powerful Build",
+      "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n"
+    },
+    {
+      "name": "Loxodon Bravery",
+      "text": "You have advantage on saving throws against being frightened.\n"
+    },
+    {
+      "name": "Natural Armor",
+      "text": "You have thick, leathery skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.\n"
+    },
+    {
+      "name": "Mason's Proficiency",
+      "text": "You gain proficiency with mason's tools.\n"
+    },
+    {
+      "name": "Stonecunning",
+      "text": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your normal proficiency bonus to the check, instead of your normal proficiency bonus.\n"
+    },
+    {
+      "name": "Keen Smell",
+      "text": "Thanks to your sensitive trunk, you have advantage on Wisdom (Perception) and Intelligence (Investigation) checks that rely on smell.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common.\n"
+    }
+  ]
+}

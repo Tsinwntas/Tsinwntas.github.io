@@ -1,0 +1,38 @@
+{
+  "name": "Moorbounder",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "30 (4d10+8)",
+  "speed": "walk 70 ft.",
+  "str": "18",
+  "dex": "14",
+  "con": "14",
+  "int": "2",
+  "wis": "13",
+  "cha": "5",
+  "passive": "11",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The moorbounder's long jump is up to 40 feet and its high jump is up to 20 feet, with or without a running start."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 14 (4d4 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claws|+6|4d4+4"
+      ]
+    }
+  ],
+  "description": "Natural Hunters\nMoorbounders hunt with elongated tusks and retractable claws. With a vague resemblance to large hunting cats, their muscular bodies are built for combat, granting them incredible prowess at leaping and a running speed that makes them dominant carnivores.\nSource: Explorer's Guide to Wildemount p. 295"
+}

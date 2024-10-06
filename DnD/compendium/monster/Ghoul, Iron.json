@@ -1,0 +1,73 @@
+{
+  "name": "Ghoul, Iron",
+  "size": "M",
+  "type": "undead,tome of Beasts",
+  "alignment": "lawful evil",
+  "ac": "16 (breastplate)",
+  "hp": "143 (22d8+44)",
+  "speed": "30 ft., burrow 20 ft.",
+  "str": "18",
+  "dex": "16",
+  "con": "14",
+  "int": "14",
+  "wis": "14",
+  "cha": "14",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "12",
+  "languages": " Common, Darakhul, Undercommon",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Turning Defiance",
+      "text": [
+        "The iron ghoul and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The iron ghoul makes one bite attack and one claw attack, or three glaive attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) piercing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target is humanoid, it must succeed on a separate DC 13 Constitution saving throw or contract darakhul fever."
+      ],
+      "attack": [
+        "Bite|7|3d8+4"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target is humanoid, it must succeed on a separate DC 13 Constitution saving throw or contract darakhul fever."
+      ],
+      "attack": [
+        "Claws|7|4d6+4"
+      ]
+    },
+    {
+      "name": "Glaive",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 20 (1d10 + 4) slashing damage."
+      ],
+      "attack": [
+        "Glaive|7|1d10+4"
+      ]
+    },
+    {
+      "name": "Heavy Bone Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 100/400, one target. Hit: 8 (1d10 + 3) piercing damage."
+      ],
+      "attack": [
+        "Heavy Bone Crossbow|6|1d10+3"
+      ]
+    }
+  ]
+}

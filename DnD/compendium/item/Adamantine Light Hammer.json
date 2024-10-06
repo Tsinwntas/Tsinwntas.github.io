@@ -1,0 +1,11 @@
+{
+  "name": "Adamantine Light Hammer",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "L,T",
+  "dmg1": "1d4",
+  "dmgType": "B",
+  "range": "20/60",
+  "text": "Whenever you hit an object with this weapon, the hit is a critical hit.\nSource: Xanathar's Guide to Everything p. 78"
+}

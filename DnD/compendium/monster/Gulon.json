@@ -1,0 +1,70 @@
+{
+  "name": "Gulon",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "110 (13d10+39)",
+  "speed": "walk 40 ft.",
+  "str": "19",
+  "dex": "14",
+  "con": "16",
+  "int": "5",
+  "wis": "12",
+  "cha": "5",
+  "skill": "Perception +4, Stealth +5, Survival +4",
+  "passive": "14",
+  "cr": "6",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amorphous",
+      "text": [
+        "The gulon can move through a space as narrow as 1 foot wide without squeezing. When it moves through an area smaller than its normal space, it excretes waste in a 5-foot cube.",
+        "This waste is difficult terrain and creatures crossing through it must succeed on a DC 16 Constitution saving throw or become poisoned for 1 minute."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The gulon has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gulon makes three attacks. one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Bite|7|2d8+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|7|2d6+4"
+      ]
+    },
+    {
+      "name": "Too Full (Recharge 5-6)",
+      "text": [
+        "The gulon belches a 15-foot-radius cloud of toxic gas around itself. Each creature in the area must make a DC 16 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest"
+}

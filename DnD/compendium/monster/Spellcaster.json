@@ -1,0 +1,60 @@
+{
+  "name": "Spellcaster",
+  "size": "M",
+  "type": "humanoid",
+  "alignment": "Any alignment",
+  "ac": "12 (leather armor)",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "12",
+  "con": "10",
+  "int": "15",
+  "wis": "14",
+  "cha": "13",
+  "save": "Wis +4",
+  "skill": "Arcana +4, Investigation +4, Religion +4",
+  "passive": "12",
+  "languages": "Common, plus one of your choice",
+  "trait": [
+    {
+      "name": "Magical Role",
+      "text": [
+        "Choose a role for the spellcaster: healer or mage. Your choice determines which Spellcasting trait to use below."
+      ]
+    },
+    {
+      "name": "Spellcasting (Healer)",
+      "text": [
+        "The spellcaster's spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The spellcaster has following cleric spells prepared:",
+        "Cantrips (at will): guidance, sacred flame",
+        "• 1st level (2 slots): cure wounds"
+      ]
+    },
+    {
+      "name": "Spellcasting (Mage)",
+      "text": [
+        "The spellcaster's spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The spellcaster has following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light",
+        "• 1st level (2 slots): sleep"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands."
+      ],
+      "attack": [
+        "Quarterstaff|+2|1d6"
+      ]
+    }
+  ],
+  "slots": [
+    "2",
+    "2"
+  ],
+  "spells": "guidance, sacred flame, cure wounds, fire bolt, light, sleep",
+  "description": "\nSource: Essentials Kit p. 63"
+}

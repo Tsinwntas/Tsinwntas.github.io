@@ -1,0 +1,103 @@
+{
+  "name": "Lazav",
+  "size": "M",
+  "type": "monstrosity (shapechanger)",
+  "alignment": "Neutral Evil",
+  "ac": "18 (natural armor)",
+  "hp": "204 (24d8+96)",
+  "speed": "walk 40 ft.",
+  "str": "16",
+  "dex": "24",
+  "con": "18",
+  "int": "22",
+  "wis": "20",
+  "cha": "22",
+  "save": "Dex +13, Int +12, Wis +11, Cha +12",
+  "skill": "Deception +18, Insight +11, Perception +11, Stealth +19",
+  "passive": "21",
+  "languages": "Common, Thieves' cant",
+  "cr": "17",
+  "resist": "necrotic, psychic",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Elusive",
+      "text": [
+        "No attack roll has advantage against Lazav unless he is incapacitated."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Lazav fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Shapechanger Savant",
+      "text": [
+        "Lazav can use a bonus action to polymorph into a Small or Medium humanoid he has seen. His statistics, other than his size, are the same in each form. Any equipment he is wearing or carrying isn't transformed."
+      ]
+    },
+    {
+      "name": "Psychic Defenses",
+      "text": [
+        "Unless Lazav is incapacitated, he is immune to magic that allows other creatures to read his thoughts, determine whether he is lying, know his alignment, or know his creature type. Creatures can telepathically communicate with Lazav only if he allows it."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Lazav's innate spellcasting ability is Intelligence (spell save DC 20). He can innately cast the following spells, requiring no material components:",
+        "At will: detect thoughts, encode thoughts (see chapter 2), freedom of movement, vicious mockery (4d4 psychic damage)",
+        "3/day each: blur, confusion, mirror image",
+        "1/day each: modify memory, Rary's telepathic bond"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Lazav makes three shortsword attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. 10 (1d6 + 7) piercing damage plus 10 (3d6) psychic damage, and the target has disadvantage on the next attack roll it makes before Lazav's next turn."
+      ],
+      "attack": [
+        "Shortsword|+13|1d6+7"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Lazav can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Lazav regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Attack",
+      "text": [
+        "Lazav makes a weapon attack."
+      ]
+    },
+    {
+      "name": "Cast a Spell (Costs 2 Actions)",
+      "text": [
+        "Lazav casts one of his innate spells."
+      ]
+    },
+    {
+      "name": "Shifting Nightmare (Costs 3 Actions)",
+      "text": [
+        "Lazav rapidly takes the form of several nightmarish creatures, lashing out at all nearby. Each creature within 10 feet of Lazav must succeed on a DC 21 Dexterity saving throw or take 18 (4d8) damage of a type chosen by Lazav: acid, cold, fire, lightning, or necrotic."
+      ]
+    }
+  ],
+  "spells": "detect thoughts, encode thoughts, freedom of movement, vicious mockery, blur, confusion, mirror image, modify memory, Rary's telepathic bond",
+  "description": "Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger whose mysterious genius is informed by agents from the entire Dimir network. He takes on a tremendous variety of guises as his needs and plans require. He might step out into the Ravnican streets as an elderly widow to eavesdrop at the bazaar, become a vedalken hussar of the Azorius Senate to sidestep a checkpoint, or transform into a Tin Street merchant to deceive a passing noble. His true form might be that of a doppelganger or some other creature; no one has ever seen it.\nSource: Guildmasters' Guide to Ravnica p. 232"
+}

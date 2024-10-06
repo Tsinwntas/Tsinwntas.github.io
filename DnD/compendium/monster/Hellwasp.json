@@ -1,0 +1,57 @@
+{
+  "name": "Hellwasp",
+  "size": "L",
+  "type": "fiend",
+  "alignment": "Lawful Evil",
+  "ac": "19 (natural armor)",
+  "hp": "52 (8d10+8)",
+  "speed": "walk 10 ft., fly 60 ft.",
+  "str": "18",
+  "dex": "15",
+  "con": "12",
+  "int": "10",
+  "wis": "10",
+  "cha": "7",
+  "save": "Dex +5, Wis +3",
+  "passive": "10",
+  "languages": "Infernal, telepathy 300 ft. (with other hellwasps only)",
+  "cr": "5",
+  "immune": "fire",
+  "vulnerable": "cold",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The hellwasp's weapon attacks are magical."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hellwasp makes two attacks: one with its sting and one with its sword talons."
+      ]
+    },
+    {
+      "name": "Sting",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. 8 (1d8 + 4) piercing damage plus 7 (2d6) fire damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Sting|+7|1d8+4"
+      ]
+    },
+    {
+      "name": "Sword Talons",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Sword Talons|+7|2d6+4"
+      ]
+    }
+  ],
+  "description": "A hellwasp is an intelligent, malevolent insect native to the Nine Hells. It has a thick protective carapace, thin metallic wings, and strong legs ending in swordlike talons. It uses its stinger to inject a chemical admixture similar to alchemist's fire into its victims. This same solution carries a paralytic enzyme that renders the victim helpless long enough for the hellwasp to grab its prey and flee.\nHellwasps thrive in hot weather, but extreme cold causes their shells to crack and their metabolisms to shut down. Consequently, they avoid the icy layers of the Nine Hells (Stygia and Cania).\nNests. Hellwasps spew a golden bile similar to amber, which they use to craft enormous nests riddled with chambers and passages. The hellwasps use these nests as communal shelters and food storage. A typical nest is large enough to support a commune of 1d10 + 10 hellwasps, with each hellwasp having an equal voice and role in the society.\nHellwasp Telepathy. Hellwasps communicate with one another via a form of telepathy perceptible only to their kind.\nSource: Baldur's Gate: Descent Into Avernus p. 236"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Blight",
+  "level": "4",
+  "school": "N",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "30 feet",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "classes": "Druid, Sorcerer, Warlock, Wizard, Druid (Land), Druid (Land), Cleric (Death), Paladin (Oathbreaker), Cleric (Grave), Druid (Spores), Artificer (Alchemist), Druid (Spores), Artificer (Alchemist), Artificer (Revisited) (UA) (Alchemist), Cleric (Grave (UA)), Paladin (Conquest (UA)), Druid (Spores (UA))",
+  "text": "Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs.\nIf you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.\nIf you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.\nSource: Player's Handbook p. 219",
+  "roll": [
+    "8d8",
+    "9d8",
+    "10d8",
+    "11d8",
+    "12d8",
+    "13d8"
+  ]
+}

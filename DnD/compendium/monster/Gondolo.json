@@ -1,0 +1,66 @@
+{
+  "name": "Gondolo",
+  "size": "S",
+  "type": "humanoid (halfling)",
+  "alignment": "Any alignment",
+  "ac": "13 (leather armor)",
+  "hp": "13 (3d6+3)",
+  "speed": "walk 25 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "11",
+  "wis": "13",
+  "cha": "11",
+  "skill": "Nature +4, Perception +5, Stealth +6, Survival +5",
+  "passive": "15",
+  "languages": "any one language (usually Common), Halfling",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Keen Hearing and Sight",
+      "text": [
+        "Gondolo has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      ]
+    },
+    {
+      "name": "Halfling Nimbleness",
+      "text": [
+        "<$title_short_name$> can move through a space of a Medium or larger creature."
+      ]
+    },
+    {
+      "name": "Brave",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against being frightened."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Gondolo makes two melee attacks or two ranged attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 34"
+}

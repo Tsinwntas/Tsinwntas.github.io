@@ -1,0 +1,69 @@
+{
+  "name": "Marta Moonshadow",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Any alignment",
+  "ac": "12 (15 with mage armor)",
+  "hp": "40 (9d8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "11",
+  "int": "17",
+  "wis": "12",
+  "cha": "11",
+  "save": "Int +6, Wis +4",
+  "skill": "Arcana +6, History +6, Perception +1",
+  "passive": "11",
+  "languages": "any four languages, Elvish",
+  "cr": "6",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Marta has advantage on saving throws against being charmed, and magic can't put her to sleep."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against being charmed, and magic can't put <$title_short_name$> to sleep."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Marta is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Marta has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, mage hand, prestidigitation, ray of frost",
+        "• 1st level (4 slots): detect magic, mage armor, magic missile, shield",
+        "• 2nd level (3 slots): misty step, suggestion",
+        "• 3rd level (3 slots): counterspell, fireball, fly",
+        "• 4th level (3 slots): greater invisibility, ice storm",
+        "• 5th level (1 slots): cone of cold"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+2"
+      ]
+    },
+    {
+      "name": "Variant: Familiars",
+      "text": [
+        "Any spellcaster that can cast the find familiar spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a crawling claw, imp, pseudodragon, or quasit."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "fire bolt, light, mage hand, prestidigitation, ray of frost, detect magic, mage armor, magic missile, shield, misty step, suggestion, counterspell, fireball, fly, greater invisibility, ice storm, cone of cold",
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 46"
+}

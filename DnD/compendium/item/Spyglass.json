@@ -1,0 +1,8 @@
+{
+  "name": "Spyglass",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "1",
+  "value": "1000.0",
+  "text": "Objects viewed through a spyglass are magnified to twice their size.\nSource: Player's Handbook p. 153"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "White Stag",
+  "size": "L",
+  "type": "celestial",
+  "alignment": "Chaotic Good",
+  "ac": "13 (natural armor)",
+  "hp": "45 (7d10+7)",
+  "speed": "walk 60 ft.",
+  "str": "17",
+  "dex": "15",
+  "con": "13",
+  "int": "10",
+  "wis": "14",
+  "cha": "15",
+  "skill": "Athletics +5, Insight +4, Perception +4",
+  "passive": "14",
+  "languages": "Understands Common, Elvish, Celestial, Sylvan but can't speak",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Beloved By The Gods",
+      "text": [
+        "When the white stag dies, the deity that created it curses the creature that dealt the killing blow. The cursed creature finds the natural world working against it.",
+        "roots randomly rise up to trip the creature when it walks past a tree (5% chance per mile traveled in forested terrain), animals are more reluctant to obey (disadvantage on Wisdom (Animal Handling) checks), and the wind seems to always be blowing in the least favorable direction for the creature (scattering papers, sending the creature's scent in the direction of a creature tracking it, etc.). This curse lasts until it is lifted by a remove curse spell or after the cursed creature completes a task of penance for the deity or its temple."
+      ]
+    },
+    {
+      "name": "Forest Runner",
+      "text": [
+        "Difficult terrain doesn't slow the white stag's travel while in a forest."
+      ]
+    },
+    {
+      "name": "Running Leap",
+      "text": [
+        "With a 10-foot running start, the white stag can long jump up to 25 feet."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The white stag makes one gore attack and one hooves attack."
+      ]
+    },
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Gore|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Hooves",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 10 (2d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Hooves|5|2d6+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 379"
+}

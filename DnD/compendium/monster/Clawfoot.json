@@ -1,0 +1,59 @@
+{
+  "name": "Clawfoot",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "19 (3d8+6)",
+  "speed": "walk 40 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "14",
+  "int": "4",
+  "wis": "12",
+  "cha": "10",
+  "skill": "Perception +3, Stealth +5",
+  "passive": "13",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The clawfoot has advantage on an attack roll against a creature if at least one of the clawfoot's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Pounce",
+      "text": [
+        "If the clawfoot moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 11 Strength saving throw or be knocked prone. If the target is prone, the clawfoot can make one bite attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The clawfoot makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+5|1d8+3"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claws|+5|1d8+3"
+      ]
+    }
+  ],
+  "description": "Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts.\nSource: Eberron: Rising from the Last War p. 289, Wayfinder's Guide to Eberron p. 81"
+}

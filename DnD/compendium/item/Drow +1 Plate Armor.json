@@ -1,0 +1,10 @@
+{
+  "name": "Drow +1 Plate Armor",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "65",
+  "ac": "18",
+  "stealth": "1",
+  "strength": "15",
+  "text": "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.\nYou have a +1 bonus to AC while wearing this armor. This armor loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nSource: Monster Manual p. 126"
+}

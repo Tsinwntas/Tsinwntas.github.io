@@ -1,0 +1,62 @@
+{
+  "name": "Spawn Of Akyishigal",
+  "size": "M",
+  "type": "fiend (demon),tome of Beasts",
+  "alignment": "chaotic evil",
+  "ac": "15 (natural armor)",
+  "hp": "119 (14d8+56)",
+  "speed": "30 ft., climb 15 ft.",
+  "str": "15",
+  "dex": "13",
+  "con": "19",
+  "int": "10",
+  "wis": "11",
+  "cha": "12",
+  "save": "Dex +4",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "10",
+  "languages": " Infernal, Spawn of Akyishigal",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Command Vermin",
+      "text": [
+        "Spawn of Akyishigal can command tiny beasts of Intelligence 2 or less within 30 feet that aren't under any magical control. The vermin obey the spawn's commands to the best of their ability, heedless of their own safety."
+      ]
+    },
+    {
+      "name": "Swarming Cough (recharge 5-6)",
+      "text": [
+        "The spawn can belch forth a swarm of insects. The swarm is completely under the spawn's control. It remains for 1 minute or until destroyed."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The spawn makes one bite attack and two sting attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|1d10+2"
+      ]
+    },
+    {
+      "name": "Sting",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage plus 5 (1d10) poison damage, and the target must succeed on a DC 15 Constitution saving throw or become poisoned for 1d6 rounds."
+      ],
+      "attack": [
+        "Sting|5|2d8+2"
+      ]
+    }
+  ]
+}

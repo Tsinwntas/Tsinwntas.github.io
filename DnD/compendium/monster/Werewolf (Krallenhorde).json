@@ -1,0 +1,94 @@
+{
+  "name": "Werewolf (Krallenhorde)",
+  "size": "M",
+  "type": "humanoid (human, shapechanger)",
+  "alignment": "Chaotic Evil",
+  "ac": "11 (in humanoid form, 12 (natural armor) in canid form)",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "13",
+  "con": "14",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Perception +4, Stealth +3",
+  "passive": "14",
+  "languages": "Common (can't speak in canid form)",
+  "cr": "3",
+  "immune": "bludgeoning, piercing, slashing from nonmagical attacks not made with silvered weapons",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The werewolf polymorphs into a wolf-humanoid canid form, or back into its true human form. This change is dictated by the moon, but can also be induced by trauma or strong emotion. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "text": [
+        "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    },
+    {
+      "name": "Howlpack: Vildin",
+      "text": [
+        "Vildin Rampage (Canid Form Only). When the werewolf reduces a creature to 0 hit points with a melee attack on its turn, it can take a bonus action to move up to half its speed and make a bite attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack (Canid Form Only)",
+      "text": [
+        "The werewolf makes two attacks: one with its bite and one with its claws or spear."
+      ]
+    },
+    {
+      "name": "Bite (Canid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite (Canid Form Only)|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Claws (Canid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws (Canid Form Only)|+4|2d4+2"
+      ]
+    },
+    {
+      "name": "Spear (Human Form Only)",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear (Human Form Only)|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Variant: Howlpack",
+      "text": [
+        "The basic werewolf statistics represent a member of the Krallenhorde, Innistrad's largest howlpack. Werewolves of other packs might have additional abilities such as the following."
+      ]
+    },
+    {
+      "name": "Variant: Mondronen",
+      "text": [
+        "Mondronen Wounded Fury. While it has 10 hit points or fewer, the werewolf has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack."
+      ]
+    },
+    {
+      "name": "Variant: Leeraug",
+      "text": [
+        "Leeraug Blood Frenzy. The werewolf has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Innistrad p. 15"
+}

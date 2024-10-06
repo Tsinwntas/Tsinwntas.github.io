@@ -1,0 +1,13 @@
+{
+  "name": "Vicious Lance",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "R,S,M",
+  "dmg1": "1d12",
+  "dmgType": "P",
+  "text": "Special: You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.\nWhen you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.\nNote: According to the SRD, it is an extra 2d6 piercing damage.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 209",
+  "roll": [
+    "2d6"
+  ]
+}

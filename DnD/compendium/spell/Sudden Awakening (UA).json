@@ -1,0 +1,12 @@
+{
+  "name": "Sudden Awakening (UA)",
+  "classes": "Bard, Ranger, Sorcerer, Wizard",
+  "level": "1",
+  "school": "EN",
+  "ritual": "NO",
+  "time": "1 bonus action",
+  "range": "10 feet",
+  "components": "V",
+  "duration": "Instantaneous",
+  "text": "Each sleeping creature you choose within range awakens, and then each prone creature within range can stand up without expending any movement.\nSource: Unearthed Arcana: Starter Spells p. 4"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Dragonwing",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "14 (leather armor)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "13",
+  "int": "11",
+  "wis": "11",
+  "cha": "13",
+  "save": "Wis +2",
+  "skill": "Deception +3, Stealth +5",
+  "passive": "10",
+  "languages": "Common, Draconic",
+  "cr": "2",
+  "resist": "one of the following: acid, cold, fire, lightning, poison",
+  "trait": [
+    {
+      "name": "Dragon Fanatic",
+      "text": [
+        "The dragonwing has advantage on saving throws against being charmed or frightened. While the dragonwing can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonwing ignores the effects of being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Fanatic Advantage",
+      "text": [
+        "Once per turn, if the dragonwing makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 7 (2d6) damage."
+      ]
+    },
+    {
+      "name": "Limited Flight",
+      "text": [
+        "The dragonwing can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The dragonwing has advantage on an attack roll against a creature if at least one of the dragonwing's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The dragonwing attacks twice with its scimitar."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage plus 3 (1d6) damage of the type to which the cultist has resistance."
+      ],
+      "attack": [
+        "Scimitar|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Hoard of the Dragon Queen p. 90, Rise of Tiamat p. 89"
+}

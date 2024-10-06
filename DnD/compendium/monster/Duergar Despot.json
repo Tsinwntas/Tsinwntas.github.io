@@ -1,0 +1,89 @@
+{
+  "name": "Duergar Despot",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Lawful Evil",
+  "ac": "21 (natural armor)",
+  "hp": "119 (14d8+56)",
+  "speed": "walk 25 ft.",
+  "str": "20",
+  "dex": "5",
+  "con": "19",
+  "int": "15",
+  "wis": "14",
+  "cha": "13",
+  "save": "Con +8, Wis +6",
+  "passive": "12",
+  "languages": "Dwarvish, Undercommon",
+  "cr": "12",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The duergar has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Psychic Engine",
+      "text": [
+        "When the duergar despot suffers a critical hit or is reduced to 0 hit points, psychic energy erupts from its frame to deal 14 (4d6) psychic damage to each creature within 5 feet of it."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the duergar despot has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (Psionics)",
+      "text": [
+        "The duergar despot's innate spellcasting ability is Intelligence (spell save DC 12). It can cast the following spells, requiring no components:",
+        "At will: mage hand, minor illusion",
+        "1/day each: counterspell, misty step, stinking cloud"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The despot makes two iron fist attacks and two stomping foot attacks. It can replace up to four of these attacks with uses of its Flame Jet."
+      ]
+    },
+    {
+      "name": "Iron Fist",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 14 (2d8 + 5) bludgeoning damage. If the target is a Large or smaller creature, it must make a successful DC 17 Strength saving throw or be thrown up to 30 feet away in a straight line. The target is knocked prone and then takes 10 (3d6) bludgeoning damage."
+      ],
+      "attack": [
+        "Iron Fist|+9|2d8+5",
+        "Iron Fist||3d6"
+      ]
+    },
+    {
+      "name": "Stomping Foot",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 9 (1d8 + 5) bludgeoning damage, or 18 (3d8 + 5) bludgeoning damage to a prone target."
+      ],
+      "attack": [
+        "Stomping Foot|+9|1d8+5"
+      ]
+    },
+    {
+      "name": "Flame Jet",
+      "text": [
+        "The duergar spews flames in a line 100 feet long and 5 feet wide. Each creature in the line must make a DC 16 Dexterity saving throw, taking 18 (4d8) fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Flame Jet||4d8"
+      ]
+    }
+  ],
+  "spells": "mage hand, minor illusion, counterspell, misty step, stinking cloud",
+  "description": "\nYou think dwarves are dour and unpleasant? Wait until you meet a duergar.\n — Mordenkainen\n\nThe cruel duergar plot not only to defeat other dwarves, but to cast down the entire dwarven pantheon in revenge for their being abandoned and left to be enslaved by mind flayers. To this end, duergar train warriors to fulfill a variety of roles.\nSource: Mordenkainen's Tome of Foes p. 188",
+  "environment": "mountain, underdark"
+}

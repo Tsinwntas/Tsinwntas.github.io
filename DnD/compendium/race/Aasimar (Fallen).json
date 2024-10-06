@@ -1,0 +1,49 @@
+{
+  "name": "Aasimar (Fallen)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Cha 2, Str 1",
+  "spellAbility": "Charisma",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Volo's Guide to Monsters p. 105"
+    },
+    {
+      "name": "Necrotic Shroud",
+      "text": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.\nYour transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.\nOnce you use this trait, you can't use it again until you finish a long rest.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Aasimar mature at the same rate as humans, but they can live up to 160 years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Imbued with celestial power, most aasimar are good. Outcast aasimar are most often neutral or even evil.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Aasimar have the same range of height and weight as humans.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Celestial Resistance",
+      "text": "You have resistance to necrotic damage and radiant damage.\n"
+    },
+    {
+      "name": "Healing Hands",
+      "text": "As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.\n"
+    },
+    {
+      "name": "Light Bearer",
+      "text": "You know the light cantrip. Charisma is your spellcasting ability for it.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Celestial.\n"
+    }
+  ]
+}

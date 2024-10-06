@@ -1,0 +1,63 @@
+{
+  "name": "Skull Drake",
+  "size": "M",
+  "type": "dragon",
+  "alignment": "Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "75 (10d8+30)",
+  "speed": "walk 40 ft., burrow 10 ft., fly 60 ft.",
+  "str": "16",
+  "dex": "17",
+  "con": "16",
+  "int": "8",
+  "wis": "12",
+  "cha": "10",
+  "save": "Dex +5, Wis +3",
+  "skill": "Intimidation +2, Perception +3, Stealth +5",
+  "passive": "13",
+  "languages": "Common, Draconic",
+  "cr": "3",
+  "resist": "poison",
+  "immune": "necrotic",
+  "vulnerable": "radiant",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The skull drake has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the skull drake has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The skull drake makes two bite attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. 10 (2d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|2d6+3"
+      ]
+    },
+    {
+      "name": "Necrotic Breath (Recharge 6)",
+      "text": [
+        "The skull drake exhales a 15-foot cone of noxious, black gas. Each creature in the area must make a DC 13 Constitution saving throw, taking 14 (4d6) necrotic damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hp by this damage dies."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

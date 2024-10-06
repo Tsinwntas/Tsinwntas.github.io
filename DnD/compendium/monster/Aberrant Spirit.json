@@ -1,0 +1,66 @@
+{
+  "name": "Aberrant Spirit",
+  "size": "M",
+  "type": "aberration",
+  "alignment": "Unaligned",
+  "ac": "0",
+  "hp": "40",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "15",
+  "int": "16",
+  "wis": "10",
+  "cha": "6",
+  "passive": "10",
+  "languages": "Deep Speech, understands the languages you speak",
+  "immune": "psychic",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "40 + 10 for each spell level above 4th"
+      ]
+    },
+    {
+      "name": "Regeneration (Slaadi Only)",
+      "text": [
+        "The aberration regains 5 hit points at the start of its turn if it has at least 1 hit point."
+      ]
+    },
+    {
+      "name": "Whispering Aura (Star Spawn Only)",
+      "text": [
+        "At the start of each of the aberration's turns, each creature within 5 feet of the aberration must succeed on a Wisdom saving throw against your spell save DC or take 2d6 psychic damage, provided that the aberration isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The aberration makes a number of attacks equal to half this spell's level (rounded down)."
+      ]
+    },
+    {
+      "name": "Eye Ray (Beholderkin Only)",
+      "text": [
+        "Ranged Spell Attack: {@hitYourSpellAttack} to hit, range 150 ft., one creature. 1d8 + 3 + the spell's level psychic damage."
+      ]
+    },
+    {
+      "name": "Claws (Slaadi Only)",
+      "text": [
+        "Melee Weapon Attack: {@hitYourSpellAttack} to hit, reach 5 ft., one target. 1d10 + 3 + the spell's level slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn."
+      ]
+    },
+    {
+      "name": "Psychic Slam (Star Spawn Only)",
+      "text": [
+        "Melee Spell Attack: {@hitYourSpellAttack} to hit, reach 5 ft., one creature. 1d8 + 3 + the spell's level psychic damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Tasha's Cauldron of Everything"
+}

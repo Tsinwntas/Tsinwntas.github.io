@@ -1,0 +1,65 @@
+{
+  "name": "Spirit Troll",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "97 (15d10+15)",
+  "speed": "walk 30 ft.",
+  "str": "1",
+  "dex": "17",
+  "con": "13",
+  "int": "8",
+  "wis": "9",
+  "cha": "16",
+  "skill": "Perception +3",
+  "passive": "13",
+  "languages": "Giant",
+  "cr": "11",
+  "resist": "acid, cold, fire, lightning, thunder",
+  "immune": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "conditionImmune": "exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Incorporeal Movement",
+      "text": [
+        "The troll can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "The troll regains 10 hit points at the start of each of its turns. If the troll takes psychic or force damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The troll makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. 19 (3d10 + 3) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Bite|+7|3d10+3"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. 14 (2d10 + 3) psychic damage."
+      ],
+      "attack": [
+        "Claws|+7|2d10+3"
+      ]
+    }
+  ],
+  "description": "Spirit Troll. A troll blasted with psychic energy can take a nonphysical form when it regenerates. Its psyche survives, but the body of a spirit troll is as insubstantial as shadow. The troll might be unaware of the transition—it still moves and attacks with teeth and claws as it always did—but now it strikes at its victim's mind.\nTrolls. Trolls that are nearly obliterated but survive and regenerate from mere scraps of flesh can display bizarre mutations. One of these warped trolls is especially likely to arise if the creature regenerates in the presence of magical emanations, planar energy, disease, or death on a vast scale, or if its body was damaged by elemental forces. These mutated forms can also be produced and shaped by the ritual magic of evil spellcasters.\nSource: Mordenkainen's Tome of Foes p. 244",
+  "environment": "coastal, forest, swamp, underdark"
+}

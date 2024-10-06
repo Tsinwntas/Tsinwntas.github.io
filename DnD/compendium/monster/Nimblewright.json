@@ -1,0 +1,85 @@
+{
+  "name": "Nimblewright",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "18 (natural armor)",
+  "hp": "45 (6d8+18)",
+  "speed": "walk 60 ft.",
+  "str": "12",
+  "dex": "18",
+  "con": "17",
+  "int": "8",
+  "wis": "10",
+  "cha": "6",
+  "save": "Dex +6",
+  "skill": "Acrobatics +8, Perception +2",
+  "passive": "12",
+  "languages": "understands one language known to its creator but can't speak",
+  "cr": "4",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "conditionImmune": "exhaustion, frightened, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The nimblewright has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The nimblewright's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Repairable",
+      "text": [
+        "As long as it has at least 1 hit point remaining, the nimblewright regains 1 hit point when a mending spell is cast on it."
+      ]
+    },
+    {
+      "name": "Sure-Footed",
+      "text": [
+        "The nimblewright has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The nimblewright makes three attacks: two with its rapier and one with its dagger."
+      ]
+    },
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Rapier|+6|1d8+4"
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d4 + 4) piercing damage. Or Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. 6 (1d4 + 4) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+6|1d4+4",
+        "Dagger|+6|1d4+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "The nimblewright adds 2 to its AC against one melee attack that would hit it. To do so, the nimblewright must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "description": "A nimblewright is a magical construct created to serve as a guard or assassin. Composed predominantly of lightweight wood and powered by magic, it can pass for humanoid while wearing clothing. Some nimblewrights wear plain clothing, while others are clad in flashier attire. A nimblewright is emotionless, its face frozen in whatever expression was given to it by its creator.\nDuelist. A nimblewright moves like a dancer and fights like a swashbuckler, using dodges and parries to avoid damage while deftly skewering its foes.\nConstructed Nature. A nimblewright doesn't require air, food, drink, or sleep. Damage it takes can be repaired with mending spells, but a nimblewright reduced to 0 hit points is permanently destroyed.\nSource: Waterdeep: Dragon Heist p. 212"
+}

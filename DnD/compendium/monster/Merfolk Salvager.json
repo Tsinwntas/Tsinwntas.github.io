@@ -1,0 +1,55 @@
+{
+  "name": "Merfolk Salvager",
+  "size": "M",
+  "type": "humanoid (merfolk)",
+  "alignment": "Neutral",
+  "ac": "12",
+  "hp": "22 (4d8+4)",
+  "speed": "walk 10 ft., swim 40 ft.",
+  "str": "12",
+  "dex": "14",
+  "con": "12",
+  "int": "11",
+  "wis": "10",
+  "cha": "13",
+  "save": "Dex +4",
+  "skill": "Athletics +3, Perception +2",
+  "passive": "12",
+  "languages": "Aquan, Common",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The salvager can breathe air and water."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The salvager makes two attacks with its coral rapier."
+      ]
+    },
+    {
+      "name": "Coral Rapier",
+      "text": [
+        "Melee Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Coral Rapier|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Inject Toxin (2/Day)",
+      "text": [
+        "Melee Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage, and the creature must succeed on a DC 12 Constitution saving throw or be paralyzed until the end of its next turn."
+      ],
+      "attack": [
+        "Inject Toxin (2/Day)|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "Veterans of scouring the wrecks and ruins found in the deepest waters, these skilled warriors help defend their kin with rapier-like weapons of living coral. The salvagers escort other merfolk on scavenging missions, using their keen senses to detect danger. They are found allying with the lizardfolk in Danger at Dunwater.\nSource: Ghosts of Saltmarsh p. 244"
+}

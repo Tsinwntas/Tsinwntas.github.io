@@ -1,0 +1,11 @@
+{
+  "name": "Pike",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "18",
+  "value": "5.0",
+  "property": "H,R,2H,M",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "text": "Source: Player's Handbook p. 149"
+}

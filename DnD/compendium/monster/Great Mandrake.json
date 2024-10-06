@@ -1,0 +1,46 @@
+{
+  "name": "Great Mandrake",
+  "size": "T",
+  "type": "plant",
+  "alignment": "Unaligned",
+  "ac": "11 (natural armor)",
+  "hp": "44 (8d4+24)",
+  "speed": "walk 10 ft.",
+  "str": "14",
+  "dex": "8",
+  "con": "16",
+  "int": "4",
+  "wis": "11",
+  "cha": "12",
+  "passive": "10",
+  "languages": "Common",
+  "cr": "1",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "tremorsense 60 ft.",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "A great mandrake makes two attacks with its bite.",
+        "When its shriek is available, it can use the shriek in place of one bite attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|4|2d4+2"
+      ]
+    },
+    {
+      "name": "Shriek (Recharge 3-6)",
+      "text": [
+        "Each creature within 60 feet of the mandrake that can hear it must succeed on a DC 13 Constitution saving throw or take 11 (3d6) thunder damage. If a creature fails the saving throw by 5 or more, it is stunned until the end of its next turn. If it fails by 10 or more, it falls unconscious. An unconscious creature can repeat the saving throw at the end of each of its turns, regaining consciousness on a success."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

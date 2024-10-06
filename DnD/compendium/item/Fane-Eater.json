@@ -1,0 +1,14 @@
+{
+  "name": "Fane-Eater",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "property": "V",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "Fane-Eater is a battleaxe belonging to Arkhan the Cruel.\nYou gain a +3 bonus to attack and damage rolls with Fane-Eater. If you attack a creature with this weapon and roll a 20 on the attack roll, the creature takes an extra 2d8 necrotic damage, and you regain a number of hit points equal to the necrotic damage taken.\nSource: Baldur's Gate: Descent Into Avernus p. 223",
+  "roll": [
+    "2d8"
+  ]
+}

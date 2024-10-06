@@ -1,0 +1,67 @@
+{
+  "name": "Nalusa Falaya",
+  "size": "M",
+  "type": "aberration",
+  "alignment": "Neutral Evil",
+  "ac": "13 (natural armor)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "15",
+  "con": "13",
+  "int": "11",
+  "wis": "13",
+  "cha": "9",
+  "skill": "Stealth +4",
+  "passive": "11",
+  "cr": "1/2",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Shadow Stealth",
+      "text": [
+        "While in dim light or darkness, the nalusa falaya can take the Hide action as a bonus action."
+      ]
+    },
+    {
+      "name": "Shadow Step",
+      "text": [
+        "As an action, the nalusa falaya can teleport itself to a shadow it can see within 30 feet."
+      ]
+    },
+    {
+      "name": "Sunlight Weakness",
+      "text": [
+        "While in sunlight, the nalusa falaya has disadvantage on ability checks, attack rolls, and saving throws."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Bite|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claw|4|1d8+2"
+      ]
+    },
+    {
+      "name": "Terrifying Glare",
+      "text": [
+        "The nalusa falaya targets one creature it can see within 30 feet of it. If the target can see the nalusa falaya, the target must succeed on a DC 12 Wisdom saving throw or be frightened until the end of the nalusa falaya's next turn."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "farmland"
+}

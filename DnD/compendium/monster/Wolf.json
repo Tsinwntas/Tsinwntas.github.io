@@ -1,0 +1,45 @@
+{
+  "name": "Wolf",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 40 ft.",
+  "str": "12",
+  "dex": "15",
+  "con": "12",
+  "int": "3",
+  "wis": "12",
+  "cha": "6",
+  "skill": "Perception +3, Stealth +4",
+  "passive": "13",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Keen Hearing and Smell",
+      "text": [
+        "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Bite|+4|2d4+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 341, Curse of Strahd, Hoard of the Dragon Queen, Lost Mine of Phandelver, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything",
+  "environment": "grassland, forest, hill"
+}

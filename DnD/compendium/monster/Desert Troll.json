@@ -1,0 +1,81 @@
+{
+  "name": "Desert Troll",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "105 (10d10+50)",
+  "speed": "walk 30 ft., burrow 30 ft.",
+  "str": "20",
+  "dex": "13",
+  "con": "20",
+  "int": "9",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +4, Stealth +4",
+  "passive": "14",
+  "languages": "Common, Giant",
+  "cr": "6",
+  "immune": "fire",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Desert Camouflage",
+      "text": [
+        "The desert troll has advantage on Dexterity (Stealth) checks made to hide in desert terrain."
+      ]
+    },
+    {
+      "name": "Erupt",
+      "text": [
+        "If the desert troll burrows at least 15 feet straight toward a creature, it can burst out of the ground, harming those above it. Each creature in its space when it erupts must make a DC 16 Strength saving throw. On a failure, the creature takes 10 (3d6) bludgeoning damage, is pushed out of the troll's space, and is knocked prone. On a success, the creature takes half the damage and is pushed out of the troll's space, but isn't knocked prone."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The desert troll has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "The troll regains 10 hp at the start of its turn. If the troll takes acid damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hp and doesn't regenerate."
+      ]
+    },
+    {
+      "name": "Water Susceptibility",
+      "text": [
+        "The desert troll takes 1 acid damage for every 5 feet it moves in water or for every gallon of water splashed on it."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The desert troll makes three attacks. one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 8 (1d6 + 5) piercing damage."
+      ],
+      "attack": [
+        "Bite|8|1d6+5"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 12 (2d6 + 5) slashing damage."
+      ],
+      "attack": [
+        "Claws|8|2d6+5"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "coastal"
+}

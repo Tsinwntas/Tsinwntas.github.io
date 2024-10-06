@@ -1,0 +1,74 @@
+{
+  "name": "Roachling Scout",
+  "size": "S",
+  "type": "humanoid (roachling)",
+  "alignment": "Chaotic Neutral",
+  "ac": "14",
+  "hp": "63 (14d6+14)",
+  "speed": "walk 25 ft., climb 15 ft.",
+  "str": "10",
+  "dex": "18",
+  "con": "13",
+  "int": "10",
+  "wis": "14",
+  "cha": "8",
+  "save": "Dex +6, Con +3",
+  "skill": "Acrobatics +6, Perception +6, Stealth +6, Survival +6",
+  "passive": "16",
+  "languages": "Common",
+  "cr": "2",
+  "senses": "darkvision 60 ft., tremorsense 10 ft.",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The roachling scout has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Resistant",
+      "text": [
+        "The roachling scout has advantage on Constitution saving throws."
+      ]
+    },
+    {
+      "name": "Stealthy Traveler",
+      "text": [
+        "The roachling scout can move stealthily while traveling at a normal pace."
+      ]
+    },
+    {
+      "name": "Unlovely",
+      "text": [
+        "The roachling scout has disadvantage on Charisma (Performance) and Charisma (Persuasion) checks in interactions with non-roachlings."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The roachling scout makes two begrimed shortsword attacks or two begrimed dart attacks."
+      ]
+    },
+    {
+      "name": "Begrimed Shortsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage plus 7 (2d6) poison damage."
+      ],
+      "attack": [
+        "Begrimed Shortsword|6|1d6+4"
+      ]
+    },
+    {
+      "name": "Begrimed Dart",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. 6 (1d4 + 4) piercing damage plus 7 (2d6) poison damage."
+      ],
+      "attack": [
+        "Begrimed Dart|6|1d4+4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 319"
+}

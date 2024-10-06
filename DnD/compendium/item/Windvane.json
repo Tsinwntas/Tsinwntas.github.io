@@ -1,0 +1,15 @@
+{
+  "name": "Windvane",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "T,V,F",
+  "dmg1": "1d6",
+  "dmg2": "1d8",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "A silver spear, Windvane has dark sapphires on the filigreed surface of its polished head. Held by its shining haft, the weapon feels insubstantial, as if clutching a cool, gently flowing breeze. The spear contains a spark of Yan-C-Bin, the Prince of Evil Air.\nYou have a +2 bonus to attack and damage rolls made with this magic weapon, which has the finesse weapon property. When you hit with it, the target takes an extra 1d6 lightning damage.\nAir Mastery: You gain the following benefits while you hold Windvane:\n• You can speak Auran fluently.\n• You have resistance to lightning damage.\n• You can cast dominate monster (save DC 17) on an air elemental. Once you have done so, Windvane can't be used this way again until the next dawn.\nSong of the Four Winds: While inside an air node, you can perform a ritual called the Song of the Four Winds, using Windvane to create a devastation orb of air. Once you perform the ritual, Windvane can't be used to perform the ritual again until the next dawn.\nFlaw: Windvane makes its wielder mercurial and unreliable. While attuned to the weapon, you gain the following flaw: \"I break my vows and plans. Duty and honor mean nothing to me.\"\nSource: Princes of the Apocalypse p. 224",
+  "roll": [
+    "1d6"
+  ]
+}

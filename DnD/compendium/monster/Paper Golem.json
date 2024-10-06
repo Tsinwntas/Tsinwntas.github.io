@@ -1,0 +1,61 @@
+{
+  "name": "Paper Golem",
+  "size": "T",
+  "type": "construct (golem)",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "7 (2d4+2)",
+  "speed": "walk 20 ft., fly 30 ft.",
+  "str": "8",
+  "dex": "16",
+  "con": "12",
+  "int": "3",
+  "wis": "7",
+  "cha": "3",
+  "passive": "8",
+  "languages": "Understands the languages of its creator but can't speak",
+  "cr": "1/4",
+  "resist": "bludgeoning, piercing, slashing from nonmagical weapons that aren't adamantine.",
+  "immune": "poison, psychic",
+  "vulnerable": "fire",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 30 ft.",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the paper golem remains motionless, it is indistinguishable from an ordinary sheet of paper."
+      ]
+    },
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The paper golem is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Ink Blot (Recharge 46)",
+      "text": [
+        "As a bonus action, the paper golem applies ink to itself. The next time it hits a creature with a paper cut attack, the creature must make a DC 13 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The paper golem's weapon attacks are magical."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Paper Cut",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Paper Cut|5|1d6+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

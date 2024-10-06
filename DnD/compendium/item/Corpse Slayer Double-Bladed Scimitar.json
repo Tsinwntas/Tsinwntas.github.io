@@ -1,0 +1,15 @@
+{
+  "name": "Corpse Slayer Double-Bladed Scimitar",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "S,2H,M",
+  "dmg1": "2d4",
+  "dmgType": "S",
+  "text": "Special: If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.\nYou gain a +1 bonus to attack and damage rolls made with this magic weapon.\nWhen you hit an undead creature with an attack using this weapon, the attack deals an extra 1d8 damage of the weapon's type, and the creature has disadvantage on saving throws against effects that turn undead until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 266, Wayfinder's Guide to Eberron p. 74",
+  "roll": [
+    "1d4",
+    "2d4",
+    "1d8"
+  ]
+}

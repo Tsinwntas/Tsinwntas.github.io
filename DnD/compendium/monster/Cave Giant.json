@@ -1,0 +1,65 @@
+{
+  "name": "Cave Giant",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (natural armor)",
+  "hp": "200 (16d12+96)",
+  "speed": "walk 40 ft.",
+  "str": "27",
+  "dex": "10",
+  "con": "22",
+  "int": "8",
+  "wis": "13",
+  "cha": "6",
+  "save": "Dex +4, Con +10, Wis +5",
+  "skill": "Athletics +12, Perception +5, Survival +5",
+  "passive": "15",
+  "languages": "Giant",
+  "cr": "10",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Sunlight Petrification",
+      "text": [
+        "If the giant starts its turn in sunlight, it takes 20 radiant damage. While in sunlight, it moves at half speed and has disadvantage on attack rolls and ability checks. If the giant is reduced to 0 hp while in sunlight, it is petrified."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The giant makes three attacks. two with its handaxe and one with its tusks."
+      ]
+    },
+    {
+      "name": "Handaxe",
+      "text": [
+        "Melee Weapon Attack: +12 to hit, reach 10 ft. or range 20/60 ft., one target. 18 (3d6 + 8) slashing damage."
+      ],
+      "attack": [
+        "Handaxe|12|3d6+8"
+      ]
+    },
+    {
+      "name": "Tusks",
+      "text": [
+        "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. 22 (4d6 + 8) slashing damage, and if the target is a Large or smaller creature it must succeed on a DC 20 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Tusks|12|4d6+8"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. 30 (4d10 + 8) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|12|4d10+8"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

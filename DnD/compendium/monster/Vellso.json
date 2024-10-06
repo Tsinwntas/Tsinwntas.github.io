@@ -1,0 +1,77 @@
+{
+  "name": "Vellso",
+  "size": "M",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "120 (16d8+48)",
+  "speed": "walk 40 ft., climb 40 ft.",
+  "str": "18",
+  "dex": "15",
+  "con": "16",
+  "int": "9",
+  "wis": "14",
+  "cha": "7",
+  "save": "Dex +5, Con +6",
+  "skill": "Perception +5, Stealth +8, Survival +5",
+  "passive": "15",
+  "languages": "Abyssal, telepathy 120 ft.",
+  "cr": "7",
+  "resist": "cold, fire, lightning",
+  "immune": "necrotic, poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The vellso has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The vellso has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The vellso's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "text": [
+        "The vellso can climb surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The vellso makes two attacks. one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage and the target must succeed on a DC 15 Constitution saving throw or take 13 (3d8) necrotic damage and contract the carrion curse disease (see sidebar)."
+      ],
+      "attack": [
+        "Bite|7|2d8+4"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack. +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claws|7|2d6+4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

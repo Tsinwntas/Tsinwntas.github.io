@@ -1,0 +1,48 @@
+{
+  "name": "Corrupting Ooze",
+  "size": "L",
+  "type": "ooze,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "12 (natural armor)",
+  "hp": "115 (10d10+60)",
+  "speed": "20 ft., swim 30 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "22",
+  "int": "4",
+  "wis": "2",
+  "cha": "1",
+  "skill": "Stealth +3",
+  "resist": "slashing, bludgeoning",
+  "immune": "acid, fire, poison",
+  "conditionImmune": "exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 60 ft., tremorsense 60 ft.",
+  "passive": "5",
+  "languages": "-",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Corrupting Touch",
+      "text": [
+        "When a corrupting ooze scores a critical hit or starts its turn with a foe grappled, it can dissolve one leather, metal, or wood item of its choosing in the possession of the target creature. A mundane item is destroyed automatically; a magical item is destroyed if its owner fails to make a successful DC 16 Dexterity saving throw."
+      ]
+    },
+    {
+      "name": "Strong Swimmer",
+      "text": [
+        "A corrupting ooze naturally floats on the surface of water. It swims with a pulsating motion that propels it faster than walking speed."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 3 (1d6) acid damage, and the target is grappled (escape DC 13)."
+      ],
+      "attack": [
+        "Slam|6|2d8+3"
+      ]
+    }
+  ]
+}

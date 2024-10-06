@@ -1,0 +1,63 @@
+{
+  "name": "Miraj Vizann",
+  "size": "M",
+  "type": "humanoid (earth genasi)",
+  "alignment": "Neutral Evil",
+  "ac": "10 (13 with mage armor)",
+  "hp": "82 (11d8+33)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "10",
+  "con": "17",
+  "int": "13",
+  "wis": "11",
+  "cha": "18",
+  "skill": "Arcana +4, Deception +7",
+  "passive": "10",
+  "languages": "Common, Primordial",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Earth Walk",
+      "text": [
+        "Moving through difficult terrain made of earth or stone costs Miraj no extra movement."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Miraj's innate spellcasting ability is Constitution (spell save DC 14). He can innately cast the following spell, requiring no material components:",
+        "1/day: pass without trace"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Miraj is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He knows the following sorcerer spells:",
+        "Cantrips (at will): acid splash, blade ward, friends, light, message, mold earth",
+        "• 1st level (4 slots): chromatic orb, mage armor, magic missile",
+        "• 2nd level (3 slots): Maximilian's earthen grasp, shatter, suggestion",
+        "• 3rd level (3 slots): counterspell, erupting earth",
+        "• 4th level (3 slots): polymorph, stoneskin",
+        "• 5th level (2 slots): wall of stone",
+        "• 6th level (1 slots): move earth"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Staff",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage when used with two hands."
+      ],
+      "attack": [
+        "Staff|+4|1d6+1"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1"
+  ],
+  "spells": "pass without trace, acid splash, blade ward, friends, light, message, mold earth, chromatic orb, mage armor, magic missile, Maximilian's earthen grasp, shatter, suggestion, counterspell, erupting earth, polymorph, stoneskin, wall of stone, move earth",
+  "description": "Miraj is an earth genasi from Calimshan. He is a perfectionist who oversees the Black Earth cult's tunneling operations and specializes in magic and alchemical processes that shape stone. He also has an affinity for the element of water and styles himself a 'mud sorcerer.'\nThough he is the most accomplished spellcaster in the Cult of the Black Earth, he has no interest in challenging Marlos Urnrayle for leadership. He knows that he is no match for the medusa and is happy to pursue his experiments while Marlos leads.\nSource: Princes of the Apocalypse p. 198"
+}

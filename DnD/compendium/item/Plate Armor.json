@@ -1,0 +1,11 @@
+{
+  "name": "Plate Armor",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "65",
+  "value": "1500.0",
+  "ac": "18",
+  "stealth": "1",
+  "strength": "15",
+  "text": "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nSource: Player's Handbook p. 145"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Vulture",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "5 (1d8+1)",
+  "speed": "walk 10 ft., fly 50 ft.",
+  "str": "7",
+  "dex": "10",
+  "con": "13",
+  "int": "2",
+  "wis": "12",
+  "cha": "4",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Keen Sight and Smell",
+      "text": [
+        "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) piercing damage."
+      ],
+      "attack": [
+        "Beak|+2|1d4"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 339, Rise of Tiamat, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus",
+  "environment": "grassland, hill, desert"
+}

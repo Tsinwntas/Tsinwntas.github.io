@@ -1,0 +1,74 @@
+{
+  "name": "Chuhaister",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (natural armor)",
+  "hp": "157 (15d10+75)",
+  "speed": "walk 40 ft.",
+  "str": "22",
+  "dex": "1",
+  "con": "1",
+  "int": "1",
+  "wis": "10",
+  "cha": "11",
+  "save": "Con +8",
+  "skill": "Athletics +9",
+  "passive": "10",
+  "languages": "Giant, Orc, Sylvan",
+  "cr": "7",
+  "immune": "poison",
+  "conditionImmune": "charmed, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Feybane",
+      "text": [
+        "Creatures of the fey type don't recover spells during a long rest while within 60 feet of the chuhaister.",
+        "In addition, the chuhaister automatically sees through magical illusions created by spells of 3rd level or lower and has advantage on saving throws and ability checks to detect or see through illusion spells of 4th level or higher."
+      ]
+    },
+    {
+      "name": "Light Sensitivity",
+      "text": [
+        "While in bright light, the chuhaister has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The chuhaister makes two greatclub attacks."
+      ]
+    },
+    {
+      "name": "Greatclub",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. 23 (5d6 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Greatclub|9|5d6+6"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 30/120 ft., one target. 33 (5d10 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|2|5d10+6"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Deadfall Shield (Recharge 5-6)",
+      "text": [
+        "When the chuhaister or one ally within 30 feet of it is hit by an attack, the chuhaister can create a magical, wooden barrier that interrupts the attack. The attack causes no damage. The shield splinters and disappears afterwards."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest"
+}

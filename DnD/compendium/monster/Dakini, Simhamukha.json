@@ -1,0 +1,93 @@
+{
+  "name": "Dakini, Simhamukha",
+  "size": "H",
+  "type": "celestial (dakini)",
+  "alignment": "Good Chaotic",
+  "ac": "16 (natural armor)",
+  "hp": "115 (11d12+44)",
+  "speed": "walk 50 ft.",
+  "str": "21",
+  "dex": "15",
+  "con": "19",
+  "int": "12",
+  "wis": "17",
+  "cha": "19",
+  "save": "Str +8, Cha +7",
+  "skill": "Perception +6",
+  "passive": "16",
+  "languages": "All, telepathy 120 ft.",
+  "cr": "8",
+  "resist": "cold, fire, lightning, psychic; bludgeoning, slashing from nonmagical weapons",
+  "immune": "necrotic, poison, radiant",
+  "conditionImmune": "poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The simhamukha's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The simhamukha has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Smite (3/Day)",
+      "text": [
+        "When the simhamukha hits a creature with a melee attack, it can choose to deal an additional 9 (2d8) radiant damage."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The dakini, simhamukha's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: aid, guidance, spiritual weapon",
+        "2/day each: confusion, searing smite, thunderous smite"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The simhamukha makes two attacks with its kartika, or one with its kartika and one with its bite."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 16 (2d10 + 5) piercing damage. If this damage reduces the target to 0 hit points, the simhamukha kills the target by decapitating it."
+      ],
+      "attack": [
+        "Bite|8|2d10+5"
+      ]
+    },
+    {
+      "name": "Kartika",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 18 (3d8 + 5) slashing damage."
+      ],
+      "attack": [
+        "Kartika|8|3d8+5"
+      ]
+    },
+    {
+      "name": "Staff Sweep (Recharge 5-6)",
+      "text": [
+        "Each creature within 15 feet of the simhamukha must succeed on a DC 16 Strength saving throw.",
+        "On a failure, a creature takes 13 (3d8) bludgeoning damage and is knocked prone. On a success, it takes half the damage and isn't knocked prone."
+      ]
+    },
+    {
+      "name": "Weird (Recharge 6)",
+      "text": [
+        "The simhamukha draws upon the deepest fears and regrets of the creatures around it, creating illusions visible only to them. Each creature within 40 feet of the simhamukha, must succeed on a DC 15 Charisma saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, taking 11 (2d10) psychic damage on a failure or ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "spells": "aid, guidance, spiritual weapon, confusion, searing smite, thunderous smite",
+  "description": "Source: CCodex (3pp)"
+}

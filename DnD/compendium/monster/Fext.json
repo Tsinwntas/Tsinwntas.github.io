@@ -1,0 +1,78 @@
+{
+  "name": "Fext",
+  "size": "M",
+  "type": "undead,tome of Beasts",
+  "alignment": "any alignment",
+  "ac": "17 (natural armor)",
+  "hp": "60 (11d8+11)",
+  "speed": "30 ft.",
+  "str": "14",
+  "dex": "16",
+  "con": "1",
+  "int": "14",
+  "wis": "12",
+  "cha": "18",
+  "save": "Dex +6, Wis +4, Cha +7",
+  "skill": "Perception +4",
+  "resist": "bludgeoning, piercing, and slashing damage with nonmagical weapons",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "14",
+  "languages": " the languages spoken by its patron",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The fext's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:",
+        "At will: hex",
+        "3/day each: counterspell, fear, gaseous form",
+        "1/day each: hold monster, true seeing"
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The fext has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The fext's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Patron Blessing",
+      "text": [
+        "A fext is infused with a portion of their patron's power. They have an Armor Class equal to 10 + their Charisma modifier + their Dexterity modifier."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The fext makes two melee or ranged attacks."
+      ]
+    },
+    {
+      "name": "Eldritch Blade",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6+2) slashing damage plus 16 (3d10) force damage."
+      ],
+      "attack": [
+        "Eldritch Blade|5|2d6+2"
+      ]
+    },
+    {
+      "name": "Eldritch Fury",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 60/200 ft., one creature. Hit: 25 (4d10 + 3) force damage."
+      ],
+      "attack": [
+        "Eldritch Fury|6|4d10+3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Hand Crossbow",
+  "detail": "martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "3",
+  "value": "75.0",
+  "property": "A,L,LD,M",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "30/120",
+  "text": "Source: Player's Handbook p. 149"
+}

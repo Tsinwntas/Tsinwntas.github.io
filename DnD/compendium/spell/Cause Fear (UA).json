@@ -1,0 +1,12 @@
+{
+  "name": "Cause Fear (UA)",
+  "classes": "Warlock, Wizard",
+  "level": "1",
+  "school": "N",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "60 feet",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 minute",
+  "text": "You awaken the sense of mortality in one creature you can see within range. The target must succeed on a Wisdom saving throw or become frightened for the duration. A target with 25 hit points or fewer makes the saving throw with disadvantage. The spell has no effect on constructs or undead.\nSource: Unearthed Arcana: Starter Spells p. 2"
+}

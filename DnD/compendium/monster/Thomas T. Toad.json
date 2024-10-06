@@ -1,0 +1,33 @@
+{
+  "name": "Thomas T. Toad",
+  "size": "L",
+  "type": "construct",
+  "alignment": "Chaotic Evil",
+  "ac": "11 (hide armor)",
+  "hp": "59 (7d10+21)",
+  "speed": "walk 40 ft.",
+  "str": "19",
+  "dex": "8",
+  "con": "16",
+  "int": "5",
+  "wis": "7",
+  "cha": "7",
+  "passive": "8",
+  "languages": "Common",
+  "cr": "2",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Webby Hands",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Webby Hands|+6|1d8+4"
+      ]
+    }
+  ],
+  "description": "\nSource: The Lost Dungeon of Rickedness: Big Rick Energy p. 28"
+}

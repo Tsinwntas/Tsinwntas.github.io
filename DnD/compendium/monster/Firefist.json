@@ -1,0 +1,64 @@
+{
+  "name": "Firefist",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Lawful Good",
+  "ac": "18 (plate armor)",
+  "hp": "117 (18d8+36)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "14",
+  "int": "11",
+  "wis": "17",
+  "cha": "13",
+  "save": "Con +5, Wis +6",
+  "skill": "Intimidation +4, Religion +3",
+  "passive": "13",
+  "languages": "any one language (usually Common)",
+  "cr": "7",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The firefist makes two greatsword attacks."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Greatsword|+6|2d6+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Guided Attack (Recharges after a Short or Long Rest)",
+      "text": [
+        "When the firefist or one creature it can see within 30 feet of it makes an attack roll, the firefist grants a +10 bonus to that roll."
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The firefist is a 9th-level Boros spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following cleric spells prepared:",
+        "Cantrips (at will): fire bolt, light, sacred flame, spare the dying",
+        "• 1st level (4 slots): guiding bolt, healing word, heroism, shield of faith",
+        "• 2nd level (3 slots): lesser restoration, scorching ray",
+        "• 3rd level (3 slots): blinding smite, crusader's mantle, revivify",
+        "• 4th level (3 slots): banishment, wall of fire",
+        "• 5th level (1 slots): flame strike"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "fire bolt, light, sacred flame, spare the dying, guiding bolt, healing word, heroism, shield of faith, lesser restoration, scorching ray, blinding smite, crusader's mantle, revivify, banishment, wall of fire, flame strike",
+  "description": "Boros firefists combine potent magic with peerless fighting ability, inspiring all who serve alongside them. They often act as the point of contact between the Boros Legion and the angelic leaders.\nSource: Guildmasters' Guide to Ravnica p. 231"
+}

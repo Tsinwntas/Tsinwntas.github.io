@@ -1,0 +1,60 @@
+{
+  "name": "Devil's Ride",
+  "size": "L",
+  "type": "vehicle (500 lb.)",
+  "alignment": "Unaligned",
+  "ac": "23 (19 while motionless)",
+  "hp": "30",
+  "speed": "120 ft.",
+  "str": "14",
+  "dex": "18",
+  "con": "12",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "immune": "fire, poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned, unconscious",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "30 (damage threshold 5, mishap threshold 10)"
+      ]
+    },
+    {
+      "name": "Jump",
+      "text": [
+        "If the Devil's Ride moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap. Each foot it clears on the jump costs a foot of movement."
+      ]
+    },
+    {
+      "name": "Prone Deficiency",
+      "text": [
+        "If the Devil's Ride falls prone, it can't right itself and is incapacitated until pulled upright."
+      ]
+    },
+    {
+      "name": "Stunt",
+      "text": [
+        "On its turn, the driver of the Devil's Ride can expend 10 feet of movement to perform one free vehicle stunt, such as a wheelie or a burnout. Before the stunt can be performed, the Devil's Ride must move at least 10 feet in a straight line. If the driver succeeds on a DC 10 Dexterity check using the bike's Dexterity, the stunt is successful. Otherwise, the driver is unable to perform the stunt and can't attempt another stunt until the start of its next turn. If the check fails by 5 or more, the Devil's Ride and all creatures riding it immediately fall prone as the bike wipes out and comes to a dead stop."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Helm (Requires 1 Crew and Grants Half Cover)",
+      "text": [
+        "Drive and steer the Devil's Ride."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Juke",
+      "text": [
+        "If the Devil's Ride is able to move, the driver can use its reaction to grant the Devil's Ride advantage on a Dexterity saving throw."
+      ]
+    }
+  ],
+  "description": "A Devil's Ride is a two-wheeled infernal war machine that handles like a motorcycle. It has spiked wheels, a screaming engine, and a cowl shaped vaguely like a grinning devil's visage, with horns for handle bars. What the vehicle lacks in weapons, it makes up for with speed and maneuverability.\nSource: Baldur's Gate: Descent Into Avernus p. 218"
+}

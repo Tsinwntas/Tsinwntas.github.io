@@ -1,0 +1,8 @@
+{
+  "name": "Spellbook",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "3",
+  "value": "50.0",
+  "text": "Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.\nSource: Player's Handbook p. 153"
+}

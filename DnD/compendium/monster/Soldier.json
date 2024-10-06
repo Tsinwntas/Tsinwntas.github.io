@@ -1,0 +1,45 @@
+{
+  "name": "Soldier",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "18 (chain mail, shield)",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 30 ft.",
+  "str": "13",
+  "dex": "12",
+  "con": "12",
+  "int": "10",
+  "wis": "11",
+  "cha": "11",
+  "skill": "Perception +2, Athletics +3",
+  "passive": "12",
+  "languages": "any one language (usually Common)",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Formation Tactics",
+      "text": [
+        "The soldier has advantage on saving throws against being charmed, frightened, grappled, or restrained while it is within 5 feet of at least one ally."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The soldier makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+3|1d8+2"
+      ]
+    }
+  ],
+  "description": "Soldiers are found in many of Ravnica's guilds. The soldier stat block represents a typical member of the rank and file, though weaponry and armor can vary.\nSource: Guildmasters' Guide to Ravnica p. 226, Mythic Odysseys of Theros"
+}

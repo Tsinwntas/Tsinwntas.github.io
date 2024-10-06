@@ -1,0 +1,12 @@
+{
+  "name": "See Invisibility",
+  "level": "2",
+  "school": "D",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Self",
+  "components": "V, S, M (a pinch of Talc and a small sprinkling of powdered silver)",
+  "duration": "1 hour",
+  "classes": "Bard, Sorcerer, Wizard, Artificer, Artificer, Cleric (Twilight), Paladin (Watchers), Artificer (Revisited) (UA)",
+  "text": "For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.\nSource: Player's Handbook p. 274"
+}

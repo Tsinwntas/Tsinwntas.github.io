@@ -1,0 +1,61 @@
+{
+  "name": "Girallon Zombie",
+  "size": "L",
+  "type": "undead",
+  "alignment": "Chaotic Evil",
+  "ac": "11 (natural armor)",
+  "hp": "59 (7d10+21)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "18",
+  "dex": "12",
+  "con": "16",
+  "int": "3",
+  "wis": "7",
+  "cha": "5",
+  "passive": "8",
+  "cr": "3",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Aggressive",
+      "text": [
+        "As a bonus action, the zombie can move up to its speed toward a hostile creature that it can see."
+      ]
+    },
+    {
+      "name": "Undead Fortitude",
+      "text": [
+        "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The zombie makes five attacks: one with its bite and four with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+6|1d6+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d4 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|+6|1d4+4"
+      ]
+    }
+  ],
+  "description": "Several new zombie variants are presented below. For more information on zombies, see the Monster Manual.\nAnkylosaurus Zombie. This creature is slow and barely aware of its surroundings.\nGirallon Zombie. Girallons are four-armed apes with white fur. Girallon zombies are slower than their non-undead counterparts but no less fierce. The necromantic energy empowering them fuels their murderous hearts and their hunger for living flesh.\nTyrannosaurus Zombie. A tyrannosaurus zombie has a gullet full of smaller zombies, which it can disgorge. These zombies aren't under the tyrannosaurus zombie's control.\nSource: Tomb of Annihilation p. 240"
+}

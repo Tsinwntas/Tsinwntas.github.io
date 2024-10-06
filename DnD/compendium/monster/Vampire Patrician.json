@@ -1,0 +1,121 @@
+{
+  "name": "Vampire Patrician",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Lawful Evil",
+  "ac": "16 (natural armor)",
+  "hp": "119 (14d8+56)",
+  "speed": "walk 25 ft.",
+  "str": "15",
+  "dex": "18",
+  "con": "18",
+  "int": "16",
+  "wis": "13",
+  "cha": "20",
+  "save": "Dex +8, Wis +5, Cha +9",
+  "skill": "Deception +9, Intimidation +9, Perception +5, Persuasion +9",
+  "passive": "15",
+  "languages": "The languages it knew in life",
+  "cr": "10",
+  "resist": "necrotic; bludgeoning, piercing, slashing from nonmagical weapons",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Cruel Combatant",
+      "text": [
+        "A melee weapon deals one extra die of its damage and an extra 3 (1d6) necrotic damage when the vampire patrician hits with it (included in the attack)."
+      ]
+    },
+    {
+      "name": "Misty Escape",
+      "text": [
+        "When it drops to 0 hp outside its resting place, the vampire patrician transforms into a cloud of mist instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed. While it has 0 hp in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed.",
+        "While in mist form it can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight.",
+        "Once in its resting place, it reverts to vampire form. It is then paralyzed until it regains at least 1 hp. After spending 1 hour in its resting place with 0 hp, it regains 1 hp."
+      ]
+    },
+    {
+      "name": "Noble Resilience (Recharges After A Long Rest)",
+      "text": [
+        "The vampire patrician can ignore the effects of sunlight for up to 1 minute."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "The patrician regains 15 hp at the start of its turn if it has at least 1 hp and isn't in sunlight or running water. If it takes radiant damage or damage from holy water, this trait doesn't function at the start of its next turn."
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "text": [
+        "The vampire patrician can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    },
+    {
+      "name": "Vampire Weaknesses",
+      "text": [
+        "The vampire patrician has the following flaws.",
+        "Forbiddance - The patrician can't enter a residence without an invitation from one of the occupants.",
+        "Harmed by Running Water - The patrician takes 20 acid damage if it ends its turn in running water.",
+        "Stake to the Heart - If a piercing weapon made of wood is driven into the patrician's heart while the patrician is incapacitated in its resting place, the patrician is paralyzed until the stake is removed.",
+        "Sunlight Hypersensitivity - The patrician takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The vampire patrician can use its Bone-Chilling Gaze.",
+        "It then makes two attacks, only one of which can be a bite attack."
+      ]
+    },
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. 13 (2d8 + 4) piercing damage plus 3 (1d6) necrotic damage."
+      ],
+      "attack": [
+        "Rapier|8|2d8+4"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire patrician, incapacitated, or restrained. 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. The target's hp maximum is reduced by an amount equal to the necrotic damage taken, and the patrician regains hp equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire patrician's control."
+      ],
+      "attack": [
+        "Bite|8|1d6+4"
+      ]
+    },
+    {
+      "name": "Bone-Chilling Gaze",
+      "text": [
+        "The vampire patrician targets one humanoid it can see within 30 feet. If the target can see the patrician, the target must succeed on a DC 17 Charisma saving throw or become paralyzed with fear until the end of its next turn. Release the Hounds! (1/Day). The vampire patrician calls 4d6 hunting hounds (use mastiff statistics) to its side. While outdoors, the vampire patrician can call 4d6 hunting raptors (use blood hawk statistics) instead. These creatures arrive in 1d4 rounds, helping the patrician and obeying its spoken commands. The beasts remain for 1 hour, until the patrician dies, or until the patrician dismisses them as a bonus action."
+      ]
+    },
+    {
+      "name": "Variant: VARIANT: SHROUD-EATERS"
+    },
+    {
+      "name": "Sires and Slave",
+      "text": [
+        "A powerful strain of vampirism, shroud-eaters have a greater degree of free will from their sires, though they are bound by what is called the \"Tree of Chains,\" a pyramid of control with a free-willed vampire at the summit and all those beneath it compelled to obedience. They cannot plot against or defy their sires, but otherwise they can create their own shroud-eaters beholden to them. Wise vampire hunters know to employ the speak with dead spell on a slain shroud-eater to discover its sire, following the Tree of Chains as far as they are able."
+      ]
+    },
+    {
+      "name": "Misleading Lore",
+      "text": [
+        "Shroud-eaters can tolerate quite a bit of sunlight, and, as they grow older, they may withstand it for a longer time, though they still suffer from it and rarely venture out in the day unless forced to do so. Over time, shroud-eaters also learn to alter the memories of the living and to erase traces of their deeds from the minds of witnesses. A subtle shroud-eater may go undetected for ages."
+      ]
+    },
+    {
+      "name": "Signs of Their Presence",
+      "text": [
+        "Unlike other vampires, shroud-eaters cannot be destroyed with a simple wooden stake. The stake must use wood of a white oak or white ash tree. Discovery of burnt groves of these trees serves as a sign that a shroud-eater may live in the area."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 366"
+}

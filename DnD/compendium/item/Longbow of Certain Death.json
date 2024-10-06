@@ -1,0 +1,11 @@
+{
+  "name": "Longbow of Certain Death",
+  "detail": "martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "2",
+  "property": "A,H,2H,M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "150/600",
+  "text": "When you damage a creature with an attack using this magic weapon, the target can't regain hit points until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 270"
+}

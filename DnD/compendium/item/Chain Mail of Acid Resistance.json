@@ -1,0 +1,10 @@
+{
+  "name": "Chain Mail of Acid Resistance",
+  "detail": "major, Heavy Armor",
+  "type": "HA",
+  "weight": "55",
+  "ac": "16",
+  "stealth": "1",
+  "strength": "13",
+  "text": "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.\nYou have resistance to acid damage while you wear this armor.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 13, their speed is reduced by 10 feet.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 152"
+}

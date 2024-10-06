@@ -1,0 +1,58 @@
+{
+  "name": "Bronze Scout",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "18 (4d8)",
+  "speed": "walk 30 ft., burrow 30 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "11",
+  "int": "3",
+  "wis": "14",
+  "cha": "1",
+  "skill": "Perception +6, Stealth +7",
+  "passive": "16",
+  "languages": "understands one language of its creator but can't speak",
+  "cr": "1",
+  "immune": "poison; bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Earth Armor",
+      "text": [
+        "The bronze scout doesn't provoke opportunity attacks when it burrows."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The bronze scout has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage plus 3 (1d6) lightning damage."
+      ],
+      "attack": [
+        "Bite|+5|1d4+3"
+      ]
+    },
+    {
+      "name": "Lightning Flare (Recharges after a Short or Long Rest)",
+      "text": [
+        "Each creature in contact with the ground within 15 feet of the bronze scout must make a DC 13 Dexterity saving throw, taking 14 (4d6) lightning damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Lightning Flare (Recharges after a Short or Long Rest)||4d6"
+      ]
+    }
+  ],
+  "description": "The gnomes' efforts to invent and tinker with magic and mechanical devices produce many failed constructs, but also result in genuine advances, such as clockworks. Since their discovery, the methods used to craft clockworks have passed from one community of gnomes to another and down the generations.\nConstructed Nature. A clockwork doesn't require air, food, drink, or sleep.\nIndividual Designs. A gnome artisan values an individualized clockwork more highly than a perfectly functioning one that copies too much from another creation. For that reason, even clockworks that fit established designs, such as those described here, are seldom identical.\nA clockwork can be customized by adding one of the following enhancements and one potential malfunction to its stat block. You can select randomly or choose a pair of modifications that fit the temperament of the clockwork's builder.\nClockwork Enhancements\nd10 | Enhancement\n1 | Camouflaged. The clockwork gains proficiency in Stealth if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine.\n2 | Sensors. The range of the clockwork's darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn't already have it.\n3 | Improved Armor. The clockwork's AC increases by 2.\n4 | Increased Speed. The clockwork's speed increases by 10 feet.\n5 | Reinforced Construction. The clockwork has resistance to force, lightning, and thunder damage.\n6 | Self-Repairing. If the clockwork starts its turn with at least 1 hit point, it regains 5 hit points. If it takes lightning damage, this ability doesn't function at the start of its next turn.\n7 | Sturdy Frame. The clockwork's hit point maximum increases by an amount equal to its number of Hit Dice.\n8 | Suction. The clockwork gains a climbing speed of 30 feet.\n9 | Vocal Resonator. The clockwork gains the ability to speak rudimentary Common or Gnomish (creator's choice).\n10 | Water Propulsion. The clockwork gains a swimming speed of 30 feet.\n\nClockwork Malfunctions\nd10 | Malfunction\n1 | Faulty Sensors. Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is blinded until the end of its turn.\n2 | Flawed Targeting. Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn.\n3 | Ground Fault. The clockwork has vulnerability to lightning damage.\n4 | Imprinting Loop. Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.\n5 | Leaking Lubricant. Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork gains 1 level of exhaustion that it isn't immune to.\n6 | Limited Steering. The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn.\n7 | Overactive Sense of Self-Preservation. If the clockwork has half its hit points or fewer at the start of its turn in combat, roll a d6. If you roll a 1, it retreats from combat. If retreat isn't possible, it continues fighting.\n8 | Overheats. Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is incapacitated until the end of its turn.\n9 | Rusty Gears. The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.\n10 | Weak Armor. The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.\n\nSource: Mordenkainen's Tome of Foes p. 125",
+  "environment": "forest, grassland, hill, mountain"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Langdedrosa Cyanwrath",
+  "size": "M",
+  "type": "humanoid (half-dragon)",
+  "alignment": "Lawful Evil",
+  "ac": "17 (splint armor)",
+  "hp": "57 (6d12+18)",
+  "speed": "walk 30 ft.",
+  "str": "19",
+  "dex": "13",
+  "con": "16",
+  "int": "10",
+  "wis": "14",
+  "cha": "12",
+  "save": "Str +6, Con +5",
+  "skill": "Athletics +6, Intimidation +3, Perception +4",
+  "passive": "14",
+  "languages": "Common, Draconic",
+  "cr": "4",
+  "resist": "lightning",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Action Surge (Recharges on a Short or Long Rest)",
+      "text": [
+        "On his turn, Langdedrosa can take one additional action."
+      ]
+    },
+    {
+      "name": "Improved Critical",
+      "text": [
+        "Langdedrosa's weapon attacks score a critical hit on a roll of 19 or 20."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Langdedrosa attacks twice, either with his greatsword or spear."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Greatsword|+6|2d6+4"
+      ]
+    },
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20/60 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Spear|+6|1d6+4"
+      ]
+    },
+    {
+      "name": "Lightning Breath (Recharge 5-6)",
+      "text": [
+        "Langdedrosa breathes lightning in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Lightning Breath (Recharge 5-6)||4d10"
+      ]
+    }
+  ],
+  "description": "\nSource: Hoard of the Dragon Queen p. 91"
+}

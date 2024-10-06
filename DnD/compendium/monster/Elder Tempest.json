@@ -1,0 +1,108 @@
+{
+  "name": "Elder Tempest",
+  "size": "G",
+  "type": "elemental",
+  "alignment": "Neutral",
+  "ac": "19",
+  "hp": "264 (16d20+96)",
+  "speed": "walk 0 ft., fly 120 ft.",
+  "str": "23",
+  "dex": "28",
+  "con": "23",
+  "int": "2",
+  "wis": "21",
+  "cha": "18",
+  "save": "Wis +12, Cha +11",
+  "passive": "15",
+  "cr": "23",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "lightning, poison, thunder",
+  "conditionImmune": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Air Form",
+      "text": [
+        "The tempest can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    },
+    {
+      "name": "Flyby",
+      "text": [
+        "The tempest doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If the tempest fails a saving throw, it can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Living Storm",
+      "text": [
+        "The tempest is always at the center of a storm 1d6 + 4 miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom (Perception) checks that rely on hearing.",
+        "In addition, strong winds swirl in the area covered by the storm. The winds impose disadvantage on ranged attack rolls. The winds extinguish open flames and disperse fog."
+      ]
+    },
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The tempest deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tempest makes two attacks with its thunderous slam."
+      ]
+    },
+    {
+      "name": "Thunderous Slam",
+      "text": [
+        "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. 23 (4d6 + 9) thunder damage."
+      ],
+      "attack": [
+        "Thunderous Slam|+16|4d6+9"
+      ]
+    },
+    {
+      "name": "Lightning Storm (Recharge 6)",
+      "text": [
+        "All other creatures within 120 feet of the tempest must each make a DC 20 Dexterity saving throw, taking 27 (6d8) lightning damage on a failed save, or half as much damage on a successful one. If a target's saving throw fails by 5 or more, the creature is also stunned until the end of its next turn."
+      ],
+      "attack": [
+        "Lightning Storm (Recharge 6)||6d8"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The elemental can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The elemental regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "The tempest moves up to its speed."
+      ]
+    },
+    {
+      "name": "Lightning Strike (Costs 2 Actions)",
+      "text": [
+        "The tempest can cause a bolt of lightning to strike a point on the ground anywhere under its storm. Each creature within 5 feet of that point must make a DC 20 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Screaming Gale (Costs 3 Actions)",
+      "text": [
+        "The tempest releases a blast of thunder and wind in a line that is 1 mile long and 20 feet wide. Objects in that area take 22 (4d10) thunder damage. Each creature there must succeed on a DC 21 Dexterity saving throw or take 22 (4d10) thunder damage and be flung up to 60 feet in a direction away from the line. If a thrown target collides with an immovable object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown before impact. If the target would collide with another creature instead, that other creature must succeed on a DC 19 Dexterity saving throw or take the same damage and be knocked prone."
+      ]
+    }
+  ],
+  "description": "Elder Tempest. Terrifying storms manifest in the body of the elder tempest. A being carved from clouds, wind, rain, and lightning, the elder tempest assumes the shape of a serpent that slithers through the sky. The tempest drowns the land beneath it with rain and stabs the earth with lances of lightning. Punishing winds scream around it as it flies, feeding the chaos it creates.\nElder Elementals. On their native planes, elementals sweep across the weird and tempestuous landscape. Some possess greater power, gained by feeding on their lesser kin and adding the essence of creatures they have devoured to their own until they become something extraordinary. When summoned, these elder elementals manifest as beings of apocalyptic capability, entities whose mere existence promises destruction.\nDeadly When Summoned. The methods for summoning elder elementals remain hidden in forbidden tomes or inscribed on the walls of lost temples raised to honor the Elder Elemental Eye. Only casters of superlative skill have even the faintest chance of calling forth one of these monsters, and the spellcaster is often destroyed by the effort. Thus, only the most unhinged and nihilistic members of Elemental Evil cults attempt such a summoning, in the hope of hastening the world toward some cataclysmic end.\nElemental Nature. An elder elemental doesn't require air, food, drink, or sleep.\nSource: Mordenkainen's Tome of Foes p. 200",
+  "environment": "arctic, coastal, grassland, hill, mountain"
+}

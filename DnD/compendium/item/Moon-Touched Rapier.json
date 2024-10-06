@@ -1,0 +1,10 @@
+{
+  "name": "Moon-Touched Rapier",
+  "detail": "minor, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "F,M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "text": "In darkness, the unsheathed blade of this sword sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet.\nSource: Xanathar's Guide to Everything p. 138"
+}

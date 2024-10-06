@@ -1,0 +1,57 @@
+{
+  "name": "Lady Gondafrey",
+  "size": "M",
+  "type": "elemental",
+  "alignment": "Lawful Good",
+  "ac": "15 (natural armor)",
+  "hp": "52 (7d8+21)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "15",
+  "dex": "11",
+  "con": "16",
+  "int": "10",
+  "wis": "11",
+  "cha": "7",
+  "passive": "10",
+  "languages": "Common",
+  "cr": "2",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gargoyle makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "Lafy Gondafrey is the result of a magical experiment, a gargoyle that has been imbued with the personality of a human knight of Tyr (god of justice). Manshoon is amused by the creature so keeps it alive and locked in a cell.\nSource: Waterdeep: Dragon Heist p. 152"
+}

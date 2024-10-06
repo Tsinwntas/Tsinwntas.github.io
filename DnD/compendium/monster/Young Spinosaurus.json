@@ -1,0 +1,53 @@
+{
+  "name": "Young Spinosaurus",
+  "size": "H",
+  "type": "beast,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "105 (10d12+40)",
+  "speed": "50 ft., swim 30 ft.",
+  "str": "23",
+  "dex": "11",
+  "con": "19",
+  "int": "2",
+  "wis": "11",
+  "cha": "8",
+  "skill": "Perception +3",
+  "passive": "13",
+  "languages": "-",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Tamed",
+      "text": [
+        "The spinosaurus never willingly attacks any reptilian humanoid, and if forced or magically compelled to do so it suffers disadvantage on attack rolls. Up to three Medium or one Large creatures can ride the spinosaurus. This trait disappears if the spinosaurus spends a month away from any reptilian humanoid."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The spinosaurus makes one bite attack and two claw attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10ft., one target. Hit: 25 (3d12 + 6) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained and the spinosaurus can't bite another target."
+      ],
+      "attack": [
+        "Bite|9|3d12+6"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage."
+      ],
+      "attack": [
+        "Claw|9|2d6+6"
+      ]
+    }
+  ]
+}

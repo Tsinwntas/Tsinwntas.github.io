@@ -1,0 +1,12 @@
+{
+  "name": "Lightbringer",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "text": "This +1 mace was made for a cleric of Lathander, the god of dawn. The head of the mace is shaped like a sunburst and made of solid brass. Named Lightbringer, this weapon glows as bright as a torch when its wielder commands. While glowing, the mace deals an extra 1d6 radiant damage to undead creatures.\nSource: Lost Mine of Phandelver p. 48",
+  "roll": [
+    "1d6"
+  ]
+}

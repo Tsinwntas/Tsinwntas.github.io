@@ -1,0 +1,11 @@
+{
+  "name": "Dragon Sensing Longsword",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "This +1 longsword is made of dragon bone and with a dragon-leather grip. It has rubies in its pommel and hilt. The sword grows warm and the rubies glow slightly when the sword is within 120 feet of a dragon.\nSource: Princes of the Apocalypse p. 90"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Blurg",
+  "size": "M",
+  "type": "humanoid (orc)",
+  "alignment": "Chaotic Evil",
+  "ac": "18 (plate armor)",
+  "hp": "42 (5d8+20)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "12",
+  "con": "18",
+  "int": "12",
+  "wis": "11",
+  "cha": "12",
+  "skill": "Intimidation +5, Survival +2",
+  "passive": "10",
+  "languages": "Common, Orc",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Aggressive",
+      "text": [
+        "As a bonus action, Blurg can move up to its speed toward a hostile creature that it can see."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Blurg makes two greataxe attacks."
+      ]
+    },
+    {
+      "name": "Greataxe",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 10 (1d12 + 4) slashing damage."
+      ],
+      "attack": [
+        "Greataxe|+6|1d12+4"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+6|1d6+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 29",
+  "environment": "underdark, mountain, grassland, forest, hill, arctic"
+}

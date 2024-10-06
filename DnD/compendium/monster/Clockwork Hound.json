@@ -1,0 +1,69 @@
+{
+  "name": "Clockwork Hound",
+  "size": "M",
+  "type": "construct,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "71 (11d8+22)",
+  "speed": "50 ft.",
+  "str": "16",
+  "dex": "15",
+  "con": "14",
+  "int": "1",
+  "wis": "10",
+  "cha": "1",
+  "save": "Dex +4, Con +4",
+  "skill": "Athletics +7, Perception +4",
+  "immune": "poison, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "14",
+  "languages": " understands Common",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The clockwork hound is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The clockwork hound has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Diligent Tracker",
+      "text": [
+        "Clockwork hounds are designed to guard areas and track prey. They have advantage on all Wisdom (Perception) and Wisdom (Survival) checks when tracking."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|2d10+5"
+      ]
+    },
+    {
+      "name": "Tripping Tongue",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 9 (1d8 + 5) slashing damage, and the target must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Tripping Tongue|5|1d8+5"
+      ]
+    },
+    {
+      "name": "Explosive Core",
+      "text": [
+        "The mechanism that powers the hound explodes when the construct is destroyed. All creatures within 5 feet of the hound take 7 (2d6) fire damage, or half damage with a successful DC 12 Dexterity saving throw."
+      ]
+    }
+  ]
+}

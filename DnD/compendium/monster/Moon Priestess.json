@@ -1,0 +1,77 @@
+{
+  "name": "Moon Priestess",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (natural armor)",
+  "hp": "153 (18d10+54)",
+  "speed": "walk 40 ft.",
+  "str": "18",
+  "dex": "11",
+  "con": "16",
+  "int": "10",
+  "wis": "16",
+  "cha": "12",
+  "skill": "Perception +9",
+  "passive": "19",
+  "languages": "Abyssal",
+  "cr": "7",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "As the minotaur labyrinth keeper."
+      ]
+    },
+    {
+      "name": "Labyrinthine Recall",
+      "text": [
+        "As the minotaur labyrinth keeper."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The moon priestess is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The moon priestess has the following Cleric spells prepared:",
+        "Cantrips (at will): guidance, light, resistance, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): bane, guiding bolt, shield of faith",
+        "• 2nd level (3 slots): hold person, locate object, spiritual weapon",
+        "• 3rd level (3 slots): bestow curse, spirit guardians",
+        "• 4th level (3 slots): banishment, divination, stone shape",
+        "• 5th level (2 slots): flame strike, hallow"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The moon priestess makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Labrys Axe",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 17 (2d12 + 4) slashing damage."
+      ],
+      "attack": [
+        "Labrys Axe|7|2d12+4"
+      ]
+    },
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Gore|7|2d8+4"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2"
+  ],
+  "spells": "guidance, light, resistance, sacred flame, thaumaturgy, bane, guiding bolt, shield of faith, hold person, locate object, spiritual weapon, bestow curse, spirit guardians, banishment, divination, stone shape, flame strike, hallow",
+  "description": "Source: CCodex (3pp)"
+}

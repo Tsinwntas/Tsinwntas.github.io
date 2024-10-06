@@ -1,0 +1,8 @@
+{
+  "name": "Backpack",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "5",
+  "value": "2.0",
+  "text": "A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.\nSource: Player's Handbook p. 153"
+}

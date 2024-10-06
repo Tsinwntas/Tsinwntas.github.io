@@ -1,0 +1,38 @@
+{
+  "name": "Hook Horror Spore Servant",
+  "size": "M",
+  "type": "plant",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "75 (10d10+10)",
+  "speed": "walk 20 ft., climb 20 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "15",
+  "int": "2",
+  "wis": "6",
+  "cha": "1",
+  "passive": "8",
+  "cr": "3",
+  "resist": "poison",
+  "conditionImmune": "blinded, charmed, frightened, paralyzed",
+  "senses": "blindsight 30 ft. (blind beyond this radius)",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The spore servant makes two hook attacks."
+      ]
+    },
+    {
+      "name": "Hook",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Hook|+6|2d6+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 68"
+}

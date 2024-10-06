@@ -1,0 +1,13 @@
+{
+  "name": "Corpse Slayer Lance",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "R,S,M",
+  "dmg1": "1d12",
+  "dmgType": "P",
+  "text": "Special: You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.\nYou gain a +1 bonus to attack and damage rolls made with this magic weapon.\nWhen you hit an undead creature with an attack using this weapon, the attack deals an extra 1d8 damage of the weapon's type, and the creature has disadvantage on saving throws against effects that turn undead until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 266",
+  "roll": [
+    "1d8"
+  ]
+}

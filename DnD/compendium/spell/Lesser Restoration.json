@@ -1,0 +1,12 @@
+{
+  "name": "Lesser Restoration",
+  "level": "2",
+  "school": "A",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "classes": "Bard, Cleric, Druid, Paladin, Ranger, Cleric (Life), Paladin (Devotion), Warlock (Celestial), Artificer, Artificer, Sorcerer (Clockwork Soul), Artificer (UA), Artificer (Revisited) (UA), Warlock (Celestial (UA))",
+  "text": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.\nSource: Player's Handbook p. 255"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Booyahg Slave of the Archfey",
+  "size": "S",
+  "type": "humanoid (goblinoid)",
+  "alignment": "Any alignment",
+  "ac": "11 (14 with mage armor)",
+  "hp": "49 (11d8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "13",
+  "con": "11",
+  "int": "11",
+  "wis": "12",
+  "cha": "18",
+  "save": "Wis +3, Cha +6",
+  "skill": "Arcana +2, Deception +6, Nature +2, Persuasion +6",
+  "passive": "11",
+  "languages": "any two languages (usually Sylvan), Goblin",
+  "cr": "4",
+  "conditionImmune": "charmed",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Nimble Escape",
+      "text": [
+        "<$title_short_name$> can take the Disengage or Hide action as a bonus action on each of its turns."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The goblin's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
+        "At will: disguise self, mage armor (self only), silent image, speak with animals",
+        "1/day: conjure fey"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The goblin is an 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+        "Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery",
+        "• 5th level (3 slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+3|1d4+2"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Misty Escape (Recharges after a Short or Long Rest)",
+      "text": "In response to taking damage, the goblin turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
+    }
+  ],
+  "slots": [
+    "3"
+  ],
+  "spells": "disguise self, mage armor, silent image, speak with animals, conjure fey, dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery, blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep",
+  "description": "\nSource: Volo's Guide to Monsters p. 42",
+  "environment": "arctic, forest, mountain, swamp, urban"
+}

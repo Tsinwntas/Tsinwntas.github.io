@@ -1,0 +1,13 @@
+{
+  "name": "Vicious Rapier",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "F,M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "text": "When you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.\nNote: According to the SRD, it is an extra 2d6 piercing damage.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 209",
+  "roll": [
+    "2d6"
+  ]
+}

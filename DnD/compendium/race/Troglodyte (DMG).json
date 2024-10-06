@@ -1,0 +1,36 @@
+{
+  "name": "Troglodyte (DMG)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 2, Con 2, Int -4, Cha -4",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Dungeon Master's Guide p. 282"
+    },
+    {
+      "name": "Chameleon Skin",
+      "text": "You have advantage on Dexterity (Stealth) checks made to hide.\n"
+    },
+    {
+      "name": "Stench",
+      "text": "Any creature other than a Troglodyte (DMG) that starts its turn within 5 ft. of you must succeed on a DC 12 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all Troglodyte (DMG)s for 1 hour.\n"
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, you have disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.\n"
+    },
+    {
+      "name": "Natural Armor",
+      "text": "Your thick hide grants you a +1 bonus to Armor Class.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Troglodyte (DMG).\n"
+    }
+  ]
+}

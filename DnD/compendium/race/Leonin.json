@@ -1,0 +1,44 @@
+{
+  "name": "Leonin",
+  "size": "M",
+  "speed": "35",
+  "ability": "Str 1, Con 2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Mythic Odysseys of Theros p. 20"
+    },
+    {
+      "name": "Age",
+      "text": "Leonin mature and age at about the same rate as humans.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Leonin tend toward good alignments. Leonin who are focused on the pride lean toward lawful good.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Claws",
+      "text": "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\n"
+    },
+    {
+      "name": "Hunter's Instincts",
+      "text": "You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival.\n"
+    },
+    {
+      "name": "Daunting Roar",
+      "text": "As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Leonin.\n"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Lampad",
+  "size": "M",
+  "type": "fey",
+  "alignment": "Neutral Evil",
+  "ac": "15 (natural armor)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "13",
+  "con": "14",
+  "int": "11",
+  "wis": "12",
+  "cha": "18",
+  "skill": "Deception +6, Intimidation +6",
+  "passive": "11",
+  "languages": "Common, Sylvan",
+  "cr": "3",
+  "resist": "necrotic",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "trait": [
+    {
+      "name": "Corpse Stride",
+      "text": [
+        "Once on its turn, the lampad can use 10 feet of its movement to step magically into one creature's corpse within its reach and emerge from a second creature's corpse within 60 feet of the first corpse, appearing in an unoccupied space within 5 feet of the second corpse. Both corpses must be Medium or bigger."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The lampad has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The lampad's spellcasting ability is Charisma (+6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: chill touch (see \"Actions\" below), gentle repose"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The lampad attacks twice with its necrotic touch or chill touch."
+      ]
+    },
+    {
+      "name": "Necrotic Touch",
+      "text": [
+        "Melee Spell Attack: +6 to hit, reach 5 ft., one target. 9 (1d10 + 4) necrotic damage."
+      ],
+      "attack": [
+        "Necrotic Touch|+6|1d10+4"
+      ]
+    },
+    {
+      "name": "Chill Touch (Cantrip)",
+      "text": [
+        "Ranged Spell Attack: +6 to hit, range 120 ft., one creature. 9 (2d8) necrotic damage, and the target can't regain hit points until the start of the lampad's next turn. If the target is undead, it has disadvantage on attack rolls against the lampad until the end of the lampad's next turn."
+      ],
+      "attack": [
+        "Chill Touch (Cantrip)|+6|2d8"
+      ]
+    }
+  ],
+  "spells": "chill touch, gentle repose",
+  "description": "Lampads guard the shadowed paths of the world, depths typically trod by souls destined for the Underworld. These rarely seen nymphs assist Athreos in guiding the dead, moving among the spirits that collect along the Tartyx River and reclaiming wayward souls that try to slip back to the mortal world. This means lampads are most often spotted in graveyards, crumbling crypts, and tunnels that bore deep into the earth, and near portals to the Underworld.\nNymphs. Divine servants that inhabit unspoiled corners of the world, nymphs protect places of natural power and infuse their surroundings with the magic of Nyx. Some are benevolent and aid those who live off the land, while others embody violent aspects of nature. In either case, nymphs generally avoid other sapient creatures, preferring to mind the cycles of nature, the daily interplay of wild animals, or other cosmic forces. Occasionally, though, groups of the same kind of nymphs congregate in a place of natural power or beauty. In times of special need, deities tied to facets of nature might employ nymphs as messengers, guardians, or scouts.\nImmortal Nature. A nymph doesn't require food, drink, or sleep.\nSource: Mythic Odysseys of Theros p. 235"
+}

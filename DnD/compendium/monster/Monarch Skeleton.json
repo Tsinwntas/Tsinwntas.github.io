@@ -1,0 +1,67 @@
+{
+  "name": "Monarch Skeleton",
+  "size": "M",
+  "type": "undead (skeleton)",
+  "alignment": "Neutral Evil",
+  "ac": "15 (chain shirt)",
+  "hp": "142 (15d8+75)",
+  "speed": "walk 30 ft.",
+  "str": "21",
+  "dex": "14",
+  "con": "20",
+  "int": "12",
+  "wis": "14",
+  "cha": "8",
+  "save": "Wis +6",
+  "passive": "12",
+  "languages": "The languages it knew in life",
+  "cr": "9",
+  "resist": "bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, paralyzed, petrified, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Master Tactician",
+      "text": [
+        "The monarch skeleton and any skeletons within 30 feet of it have advantage on attack rolls against a creature if at least one of the skeleton's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Sovereign's Command",
+      "text": [
+        "As a bonus action, the monarch commands a skeleton within 30 feet of it to make one attack as a reaction against a creature the monarch attacked this round."
+      ]
+    },
+    {
+      "name": "Turning Defiance",
+      "text": [
+        "The monarch skeleton and any skeletons within 30 feet of it have advantage on saving throws against effects that turn undead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The monarch skeleton makes two dreadblade attacks."
+      ]
+    },
+    {
+      "name": "Dreadblade",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage plus 7 (2d6) necrotic damage. If the target is a creature, it must succeed on a DC 17 Constitution saving throw or its hp maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hp maximum to 0."
+      ],
+      "attack": [
+        "Dreadblade|9|2d8+5"
+      ]
+    },
+    {
+      "name": "Grasp of the Grave (Recharge 5-6)",
+      "text": [
+        "Each non-skeleton creature within 30 feet of the monarch must succeed on a DC 16 Dexterity saving throw or be restrained by ghostly, skeletal hands for 1 minute. A restrained target takes 10 (3d6) necrotic damage at the start of each of its turns. A creature, including the target, can take its action to break the ghostly restraints by succeeding on a DC 16 Strength check."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 341"
+}

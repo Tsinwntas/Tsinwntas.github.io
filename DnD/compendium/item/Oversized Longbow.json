@@ -1,0 +1,14 @@
+{
+  "name": "Oversized Longbow",
+  "detail": "Ranged Weapon",
+  "type": "R",
+  "weight": "2",
+  "property": "A,H,2H",
+  "dmg1": "2d6",
+  "dmgType": "P",
+  "range": "150/600",
+  "text": "This unique weapon can be used only by a Medium or larger creature that has a Strength of 18 or higher. The bow shoots oversized arrows that deal piercing damage equal to 2d6 + the wielder's Strength modifier.\nSource: Waterdeep: Dragon Heist p. 201",
+  "roll": [
+    "2d6"
+  ]
+}

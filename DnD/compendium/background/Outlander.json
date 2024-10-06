@@ -1,0 +1,22 @@
+{
+  "name": "Outlander",
+  "proficiency": "Athletics, Survival",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "You grew up in the wilds, far from civilization and the comforts of town and technology. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don't know the specific features of the terrain, you know the ways of the wild.\n• Skill Proficiencies: Athletics, Survival\n• Tool Proficiencies: One type of musical instrument\n• Languages: One of your choice\n• Equipment: A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 10 gp\nSource: Player's Handbook p. 136"
+    },
+    {
+      "name": "Feature: Wanderer",
+      "text": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.\n"
+    },
+    {
+      "name": "Specialty",
+      "text": "You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.\nd10 | Origin\n1 | Forester\n2 | Trapper\n3 | Homesteader\n4 | Guide\n5 | Exile or outcast\n6 | Bounty hunter\n7 | Pilgrim\n8 | Tribal nomad\n9 | Hunter-gatherer\n10 | Tribal marauder\n\n"
+    },
+    {
+      "name": "Suggested Characteristics",
+      "text": "Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.\nd8 | Personality Trait\n1 |  I'm driven by a wanderlust that led me away from home.\n2 | I watch over my friends as if they were a litter of newborn pups.\n3 | I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to.\n4 | I have a lesson for every situation, drawn from observing nature.\n5 | I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.\n6 | I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.\n7 | I feel far more comfortable around animals than people.\n8 | I was, in fact, raised by wolves.\n\nd6 | Ideal\n1 | Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)\n2 | Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)\n3 | Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)\n4 | Might. The strongest are meant to rule. (Evil)\n5 | Nature. The natural world is more important than all the constructs of civilization. (Neutral)\n6 | Glory. I must earn glory in battle, for myself and my clan. (Any)\n\nd6 | Bond\n1 | My family, clan, or tribe is the most important thing in my life, even when they are far from me.\n2 | An injury to the unspoiled wilderness of my home is an injury to me.\n3 | I will bring terrible wrath down on the evildoers who destroyed my homeland.\n4 | I am the last of my tribe, and it is up to me to ensure their names enter legend.\n5 | I suffer awful visions of a coming disaster and will do anything to prevent it.\n6 | It is my duty to provide children to sustain my tribe.\n\nd6 | Flaw\n1 | I am too enamored of ale, wine, and other intoxicants.\n2 | There's no room for caution in a life lived to the fullest.\n3 | I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.\n4 | I am slow to trust members of other races, tribes, and societies.\n5 |  Violence is my answer to almost any challenge.\n6 |  Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish.\n\n"
+    }
+  ]
+}

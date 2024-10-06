@@ -1,0 +1,8 @@
+{
+  "name": "Mithral +1 Plate Armor",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "65",
+  "ac": "18",
+  "text": "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.\nYou have a +1 bonus to AC while wearing this armor.\nMithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.\nIf the wearer has a Strength score lower than None, their speed is reduced by 10 feet.\nSource: Acquisitions Incorporated p. 156"
+}

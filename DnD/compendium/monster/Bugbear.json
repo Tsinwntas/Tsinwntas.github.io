@@ -1,0 +1,56 @@
+{
+  "name": "Bugbear",
+  "size": "M",
+  "type": "humanoid (goblinoid)",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (hide armor, shield)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "13",
+  "int": "8",
+  "wis": "11",
+  "cha": "9",
+  "skill": "Stealth +6, Survival +2",
+  "passive": "10",
+  "languages": "Common, Goblin",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Brute",
+      "text": [
+        "A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+      ]
+    },
+    {
+      "name": "Surprise Attack",
+      "text": [
+        "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Morningstar",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 11 (2d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Morningstar|+4|2d8+2"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range."
+      ],
+      "attack": [
+        "Javelin|+4|2d6+2"
+      ]
+    }
+  ],
+  "description": "Bugbears are born for battle and mayhem. Surviving by raiding and hunting, they bully the weak and despise being bossed around, but their love of carnage means they will fight for powerful masters if bloodshed and treasure are assured.\nGoblinoids. Bugbears are often found in the company of their cousins, hobgoblins and goblins. Bugbears usually enslave goblins they encounter, and they bully hobgoblins into giving them gold and food in return for serving as scouts and shock troops. Even when paid, bugbears are at best unreliable allies, yet goblins and hobgoblins understand that no matter how much bugbears might drain a tribe of resources, these creatures are a potent force.\nFollowers of Hruggek. Bugbears worship Hruggek, a lesser god who dwells on the plane of Acheron. In the absence of their goblinoid kin, bugbears form loose war bands, each one led by its fiercest member. Bugbears believe that when they die, their spirits have a chance to fight at Hruggek's side. They try to prove themselves worthy by defeating as many foes as possible.\nVenal Ambushers. Despite their intimidating builds, bugbears move with surprising stealth. They are fond of setting ambushes and flee when outmatched. They are dependable mercenaries as long as they are supplied food, drink, and treasure, but a bugbear forgets any bond when its life is on the line. A wounded member of a bugbear band might be left behind to help the rest of the band escape. Afterward, that bugbear might help pursuers track down its former companions if doing so saves its life.\nSource: Monster Manual p. 33, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Eberron: Rising from the Last War, The Lost Dungeon of Rickedness: Big Rick Energy, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything",
+  "environment": "underdark, grassland, forest"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Amonkhet Dragon Wyrmling",
+  "size": "M",
+  "type": "dragon",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "75 (10d8+30)",
+  "speed": "walk 30 ft., climb 30 ft., fly 60 ft.",
+  "str": "19",
+  "dex": "10",
+  "con": "17",
+  "int": "12",
+  "wis": "11",
+  "cha": "15",
+  "save": "Dex +2, Con +5, Wis +2, Cha +4",
+  "skill": "Perception +4, Stealth +2",
+  "passive": "14",
+  "languages": "Draconic",
+  "cr": "4",
+  "immune": "fire",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (1d10 + 4) piercing damage plus 3 (1d6) fire damage."
+      ],
+      "attack": [
+        "Bite|+6|1d10+4"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": [
+        "The dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Fire Breath (Recharge 5-6)||7d6"
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Amonkhet p. 33"
+}

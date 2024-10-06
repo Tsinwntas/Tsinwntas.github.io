@@ -1,0 +1,45 @@
+{
+  "name": "Valenar Hawk",
+  "size": "T",
+  "type": "fey",
+  "alignment": "Neutral",
+  "ac": "14",
+  "hp": "10 (4d4)",
+  "speed": "walk 10 ft., fly 60 ft.",
+  "str": "8",
+  "dex": "18",
+  "con": "10",
+  "int": "9",
+  "wis": "16",
+  "cha": "11",
+  "skill": "Perception +5",
+  "passive": "15",
+  "languages": "understands Common, Elvish, and Sylvan but can't speak",
+  "cr": "1/8",
+  "trait": [
+    {
+      "name": "Bonding",
+      "text": [
+        "The hawk can magically bond with one creature it can see, immediately after spending at least 1 hour observing that creature while within 30 feet of it. The bond lasts until the hawk bonds with a different creature or until the bonded creature dies. While bonded, the hawk and the bonded creature can communicate telepathically with each other at a distance of up to 100 feet."
+      ]
+    },
+    {
+      "name": "Keen Sight",
+      "text": [
+        "The hawk has advantage on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Talons",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d4 + 4) slashing damage."
+      ],
+      "attack": [
+        "Talons|+6|1d4+4"
+      ]
+    }
+  ],
+  "description": "The elves of Valenar say that when their ancestors fought the giants of Xen'drik, elf druids took the forms of animals on the battlefield. The cruel and mighty Emperor Cul'sir of the giants laid a curse upon the druids and trapped them in the forms of animals. Just as the ancestors of the Valenar guide their warriors in battle, the spirits of these druids can awaken power in an animal to create a companion worthy of a champion.\nValenar animals are awakened to advanced intelligence and power by the touch of an ancestral spirit. Traditionally, Valenar animals choose Valenar elves as companions, reflecting a bond between the ancestors of elf and animal. To be chosen by a Valenar animal is a great honor, and any such elf is treated with respect and reverence. Still, on the rare occasions when a Valenar animal chooses an adventurer of a different ancestry as a companion, it is universally accepted.\nThe Valenar animals presented here—hawk, hound, and steed—are but examples, for the ancestral spirits can take on many animal forms.\nVariant: Ancestral Traits. Each Valenar animal can be customized with an ancestral gift, a supernatural trait granted by its ancestral spirit. Choose a trait or roll on the Ancestral Traits table for each Valenar animal.\nAncestral Traits\nd8 | Trait\n1 | Bestow Luck (1/Day). As a bonus action, the animal chooses one creature it can see within 30 feet of it. The next ability check, attack roll, or saving throw the target makes in the next hour has advantage.\n2 | Burst of Speed (Recharge 6). The animal can take the Dash action as a bonus action.\n3 | Camouflage. The animal has advantage on Dexterity (Stealth) checks it makes while outdoors.\n4 | Lie Detector. The animal knows when a creature within 15 feet of it tells a lie.\n5 | Fey Ancestry. The animal has advantage on saving throws against being charmed or frightened, and magic can't put it to sleep.\n6 | Fey Step (1/Day). The animal, along with anything it is wearing or carrying, teleports up to 30 feet to an unoccupied space it can see.\n7 | Quickness (Recharge 6). The animal can take the Dodge action as a bonus action.\n8 | Shrouded Step. The animal can't be tracked except by magical means, and it leaves behind no tracks or other traces of its passage.\n\nSource: Eberron: Rising from the Last War p. 312"
+}

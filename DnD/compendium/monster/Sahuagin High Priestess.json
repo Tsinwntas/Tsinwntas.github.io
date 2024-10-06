@@ -1,0 +1,92 @@
+{
+  "name": "Sahuagin High Priestess",
+  "size": "M",
+  "type": "humanoid (sahuagin)",
+  "alignment": "Lawful Evil",
+  "ac": "14 (natural armor)",
+  "hp": "71 (11d8+22)",
+  "speed": "walk 30 ft., swim 40 ft.",
+  "str": "14",
+  "dex": "12",
+  "con": "14",
+  "int": "12",
+  "wis": "16",
+  "cha": "10",
+  "save": "Wis +6",
+  "skill": "Insight +6, Perception +6",
+  "passive": "16",
+  "languages": "Sahuagin",
+  "cr": "5",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The high priestess has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "text": [
+        "The high priestess can breathe air and water, but she needs to be submerged at least once every 4 hours to avoid suffocating."
+      ]
+    },
+    {
+      "name": "Shark Telepathy",
+      "text": [
+        "The high priestess can magically command any shark within 120 feet of her, using a limited telepathy."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The high priestess is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). She has the following cleric spells prepared:",
+        "Cantrips (at will): guidance, mending, resistance, thaumaturgy",
+        "• 1st level (4 slots): bless, detect magic, guiding bolt",
+        "• 2nd level (3 slots): hold person, spiritual weapon (trident)",
+        "• 3rd level (3 slots): bestow curse, fear, mass healing word, tongues",
+        "• 4th level (1 slots): banishment"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The high priestess makes two attacks with her toothsome staff, or one attack with her bite and one with her claws."
+      ]
+    },
+    {
+      "name": "Toothsome Staff",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 11 (2d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Toothsome Staff|+5|2d8+2"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+5|1d4+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|+5|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 1"
+  ],
+  "spells": "guidance, mending, resistance, thaumaturgy, bless, detect magic, guiding bolt, hold person, spiritual weapon, bestow curse, fear, mass healing word, tongues, banishment",
+  "description": "A sahuagin high priestess is the most devout and ferocious of all Sekolah's worshipers. Armed with a staff studded with jagged shark's teeth, she can be seen leading dark rituals in The Final Enemy.\nSource: Ghosts of Saltmarsh p. 251, Essentials Kit: Sleeping Dragon's Wake"
+}

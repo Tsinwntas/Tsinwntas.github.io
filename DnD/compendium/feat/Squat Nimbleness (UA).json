@@ -1,0 +1,5 @@
+{
+  "name": "Squat Nimbleness (UA)",
+  "prerequisite": "Dwarf, Gnome, Halfling",
+  "text": "You are uncommonly nimble for your race. You gain the following benefits:\n• Increase your Strength or Dexterity score by 1, to a maximum of 20\n• Increase your walking speed by 5 feet.\n• You gain proficiency in the Acrobatics or Athletics skill. If you're already proficient in the skill, your proficiency bonus is doubled for any check you make with it.\nSource: Unearthed Arcana: Feats For Races p. 4"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Air Elemental Myrmidon",
+  "size": "M",
+  "type": "elemental",
+  "alignment": "Neutral",
+  "ac": "18 (plate armor)",
+  "hp": "117 (18d8+36)",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "18",
+  "dex": "14",
+  "con": "14",
+  "int": "9",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "Auran, one language of its creator's choice",
+  "cr": "7",
+  "resist": "lightning, thunder; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "poison",
+  "conditionImmune": "paralyzed, petrified, poisoned, prone",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The myrmidon's weapon attacks are magical."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The myrmidon makes three flail attacks."
+      ]
+    },
+    {
+      "name": "Flail",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Flail|+7|1d8+4"
+      ]
+    },
+    {
+      "name": "Lightning Strike (Recharge 6)",
+      "text": [
+        "The myrmidon makes one flail attack. On a hit, the target takes an extra 18 (4d8) lightning damage, and the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the myrmidon's next turn."
+      ]
+    }
+  ],
+  "description": "Air Elemental Myrmidon. Elemental myrmidons are elementals conjured and bound by magic into ritually created suits of plate armor. In this form, they possess no recollection of their former existence as free elementals. They exist only to follow the commands of their creators.\nSource: Mordenkainen's Tome of Foes p. 202, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Princes of the Apocalypse p. 212"
+}

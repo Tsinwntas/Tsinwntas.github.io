@@ -1,0 +1,76 @@
+{
+  "name": "Clay Gladiator",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "17 (natural armor, shield)",
+  "hp": "112 (15d8+45)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "18",
+  "dex": "15",
+  "con": "16",
+  "int": "10",
+  "wis": "12",
+  "cha": "15",
+  "save": "Str +7, Dex +5, Con +6",
+  "skill": "Athletics +10, Intimidation +5",
+  "passive": "11",
+  "cr": "5",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "trait": [
+    {
+      "name": "Climbing",
+      "text": [
+        "The gladiator can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    },
+    {
+      "name": "Steadfast",
+      "text": [
+        "The gladiator can't be disarmed, and cannot make ranged attacks."
+      ]
+    },
+    {
+      "name": "Brute",
+      "text": [
+        "A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack)."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gladiator makes three melee attacks."
+      ]
+    },
+    {
+      "name": "Spear",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands."
+      ],
+      "attack": [
+        "Spear|+7|2d6+4"
+      ]
+    },
+    {
+      "name": "Shield Bash",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Shield Bash|+7|2d4+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "description": "A clay gladiator fights if attacked or when called to the gladiatorial pit. If reduced to 0 hit points outside of the gladiatorial pit, the gladiator disappears along with its possessions, reappears in its cell at full health with spear and shield in hand, and returns to the gladiatorial pit if it can. If defeated in the gladiatorial pit, the gladiator leaves its spear behind before reforming in its cell\nSource: Tomb of Annihilation p. 100"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Skeleton Key",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Lawful Evil",
+  "ac": "13 (armor scraps)",
+  "hp": "13 (2d8+4)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "15",
+  "int": "6",
+  "wis": "8",
+  "cha": "5",
+  "passive": "9",
+  "languages": "understands all languages it spoke in life but can't speak",
+  "cr": "1/4",
+  "immune": "poison",
+  "vulnerable": "bludgeoning",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Spider Climb",
+      "text": [
+        "The skeleton can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 126",
+  "environment": "urban"
+}

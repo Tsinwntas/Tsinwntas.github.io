@@ -1,0 +1,58 @@
+{
+  "name": "Gildha Duhn",
+  "size": "M",
+  "type": "humanoid (half-orc)",
+  "alignment": "Any alignment",
+  "ac": "10",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "14",
+  "cha": "11",
+  "skill": "Medicine +4, Religion +2, Intimidation +1",
+  "passive": "12",
+  "languages": "any one language (usually Common), Orc",
+  "cr": "1/4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Relentless Endurance",
+      "text": [
+        "When reduced to 0 hit points, <$title_short_name$> drops to 1 hit point instead (but can't do this again until they finish a long rest)."
+      ]
+    },
+    {
+      "name": "Savage Attacks",
+      "text": [
+        "When they score a critical hit, <$title_short_name$> can roll one of the weapon's damage dice and add it to the extra damage of the critical hit."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Gildha is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). Gildha has following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (3 slots): bless, cure wounds, sanctuary"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+2|1d4"
+      ]
+    }
+  ],
+  "slots": [
+    "3"
+  ],
+  "spells": "light, sacred flame, thaumaturgy, bless, cure wounds, sanctuary",
+  "description": "\nSource: The Orrery of the Wanderer p. 110"
+}

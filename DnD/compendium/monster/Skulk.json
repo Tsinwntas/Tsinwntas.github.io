@@ -1,0 +1,53 @@
+{
+  "name": "Skulk",
+  "size": "M",
+  "type": "humanoid",
+  "alignment": "Chaotic Neutral",
+  "ac": "14",
+  "hp": "18 (4d8)",
+  "speed": "walk 30 ft.",
+  "str": "6",
+  "dex": "19",
+  "con": "10",
+  "int": "10",
+  "wis": "7",
+  "cha": "1",
+  "save": "Con +2",
+  "skill": "Stealth +8",
+  "passive": "8",
+  "languages": "understands Common but can't speak",
+  "cr": "1/2",
+  "immune": "radiant",
+  "conditionImmune": "blinded",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Fallible Invisibility",
+      "text": [
+        "The skulk is invisible. This invisibility can be circumvented by three things:",
+        "• The skulk appears as a drab, smooth-skinned humanoid if its reflection can be seen in a mirror or on another surface.",
+        "• The skulk appears as a dim, translucent form in the light of a candle made of fat rendered from a corpse whose identity is unknown.",
+        "• Humanoid children, aged 10 and under, can see through this invisibility."
+      ]
+    },
+    {
+      "name": "Trackless",
+      "text": [
+        "The skulk leaves no tracks to indicate where it has been or where it's headed."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d4 + 4) slashing damage. If the skulk has advantage on the attack roll, the target also takes 7 (2d6) necrotic damage."
+      ],
+      "attack": [
+        "Claws|+6|1d4+4"
+      ]
+    }
+  ],
+  "description": "\nSome children have imaginary friends that their parents can't see. Sometimes those invisible friends aren't imaginary.\n — Mordenkainen\n\nSkulk. Skulks are the soulless shells of travelers who became lost in the Shadowfell, wandering its gray wastes until they lost all sense of self. They are so devoid of identity that they have become permanently invisible. Only children can see a skulk without the help of a mirror or a special candle. On the rare occasions when a skulk is visible, it appears as a drab, featureless, hairless humanoid.\nSummoned Servants. A skulk can be summoned from the Shadowfell by performing a ritual. If the creature is given a portion of the summoner's identity, the skulk is bound to obey the summoner's commands for 30 days. If a skulk is visible, an astute observer might deduce who summoned it, because a skulk assumes a vague likeness of its master.\nCruel and chaotic, skulks carry out their orders in the most violent manner possible. A summoned skulk can't return to the Shadowfell until it dies, so it has every motivation to throw itself into creating bloodshed and mayhem.\nHollow Lives. After killing a person in the material world, a skulk sometimes takes up a silent imitation of that person's life. In extreme cases, skulks have invaded villages, killed all the occupants, and turned the places into seeming ghost towns, where flavorless food is prepared daily, colorless clothes are hung up to dry, and livestock is shifted from pen to pen until it starves.\nSource: Mordenkainen's Tome of Foes p. 227",
+  "environment": "coastal, forest, swamp, underdark, urban"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Thousand Teeth",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Neutral Evil",
+  "ac": "12 (natural armor)",
+  "hp": "93 (11d10+33)",
+  "speed": "walk 30 ft., swim 50 ft.",
+  "str": "19",
+  "dex": "10",
+  "con": "17",
+  "int": "2",
+  "wis": "10",
+  "cha": "7",
+  "save": "Str +7, Con +6",
+  "skill": "Athletics +7, Stealth +3",
+  "passive": "10",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "Thousand Teeth can hold its breath for 30 minutes."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (2/Day)",
+      "text": [
+        "If Thousand Teeth fails a saving throw, it can choose to succeed instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Thousand Teeth makes two attacks: one with its bite and one with its tail."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 15 (2d10 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+7|2d10+4"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 8 (1d8 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Tail|+7|1d8+4"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Thousand can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Thousand regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Detect",
+      "text": [
+        "Thousand Teeth makes a Wisdom (Perception) check."
+      ]
+    },
+    {
+      "name": "Lunge",
+      "text": [
+        "Thousand Teeth moves up to half its speed."
+      ]
+    },
+    {
+      "name": "Bite (Costs 2 Actions)",
+      "text": [
+        "Thousand Teeth makes a bite attack."
+      ]
+    }
+  ],
+  "description": "Thousand Teeth is an ancient crocodilian nightmare that has served as the apex predator in the swamps near Saltmarsh for as long as anyone can remember. This monster recently fought a number of lizardfolk and lost one of its teeth. Angered and hungry, it sulks in its lair, lost in primal dreams of rending and tearing. It is found in the deep marshes in Danger at Dunwater.\nSource: Ghosts of Saltmarsh p. 256"
+}

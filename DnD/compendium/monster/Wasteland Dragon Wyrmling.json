@@ -1,0 +1,41 @@
+{
+  "name": "Wasteland Dragon Wyrmling",
+  "size": "M",
+  "type": "dragon",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "60 (8d8+24)",
+  "speed": "walk 30 ft., burrow 15 ft., climb 30 ft., fly 50 ft.",
+  "str": "17",
+  "dex": "10",
+  "con": "17",
+  "int": "12",
+  "wis": "11",
+  "cha": "13",
+  "save": "Dex +2, Con +5, Wis +2, Cha +3",
+  "skill": "Perception +2, Stealth +2",
+  "passive": "12",
+  "languages": "Draconic",
+  "cr": "3",
+  "immune": "force",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 14 (2d10 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|2d10+3"
+      ]
+    },
+    {
+      "name": "Warped Energy Breath (Recharge 6)",
+      "text": [
+        "The dragon blasts warped arcane energy in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) force damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "badlands, hill"
+}

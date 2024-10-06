@@ -1,0 +1,55 @@
+{
+  "name": "Grick",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Neutral",
+  "ac": "14 (natural armor)",
+  "hp": "27 (6d8)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "14",
+  "dex": "14",
+  "con": "11",
+  "int": "3",
+  "wis": "14",
+  "cha": "5",
+  "passive": "12",
+  "cr": "2",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Stone Camouflage",
+      "text": [
+        "The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The grick makes one attack with its tentacles. If that attack hits, the grick can make one beak attack against the same target."
+      ]
+    },
+    {
+      "name": "Tentacles",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 9 (2d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Tentacles|+4|2d6+2"
+      ]
+    },
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Beak|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "The wormlike grick waits unseen, blending in with the rock of the caves and caverns it haunts. Only when prey comes near does it rear up, its four barbed tentacles unfurling to reveal its hungry, snapping beak.\nPassive Predators. Gricks rarely hunt. Instead, they drag their rubbery bodies to places where creatures regularly pass, lurking out of sight amid rocky rubble and debris, squeezing into burrows, holes, or crevices, climbing up to ledges, or coiling around stalactites to drop on unwary prey. A grick consumes virtually anything that moves except for other gricks. It targets the nearest prey, grabbing a fallen creature with its tentacles and dragging it off to eat alone.\nRoving Ambushers. Gricks remain in an area until the food supply dwindles, often because sentient creatures become aware of their presence and plot alternate routes around their lairs. When prey is scarce in the Underdark, gricks venture aboveground to hunt in the wilderness, lurking in trees or on cliff-side ledges. A grick pack is often led by a single well-fed, oversized alpha around which the others congregate.\nSpoils of Slaughter. Over time, grick lairs accumulate the cast-off possessions of intelligent prey, and expert guides know to look out for these tell-tale signs. Underdark explorers sometimes seal off the routes leading to and from a grick lair to starve them, then claim the wealth of the foul creatures' victims.\nSource: Monster Manual p. 173, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage",
+  "environment": "underdark, forest"
+}

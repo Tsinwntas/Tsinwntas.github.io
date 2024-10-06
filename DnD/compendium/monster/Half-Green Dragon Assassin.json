@@ -1,0 +1,80 @@
+{
+  "name": "Half-Green Dragon Assassin",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "15 (studded leather armor)",
+  "hp": "78 (12d8+24)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "14",
+  "int": "13",
+  "wis": "11",
+  "cha": "10",
+  "save": "Dex +6, Int +4",
+  "skill": "Acrobatics +6, Deception +3, Perception +3, Stealth +9",
+  "passive": "13",
+  "languages": "Thieves' cant plus any two languages, Draconic",
+  "cr": "8",
+  "resist": "poison, poison",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Assassinate",
+      "text": [
+        "During its first turn, the half-dragon has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the half-dragon scores against a surprised creature is a critical hit."
+      ]
+    },
+    {
+      "name": "Evasion",
+      "text": [
+        "If the half-dragon is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the half-dragon instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      ]
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "text": [
+        "The half-dragon deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the half-dragon that isn't incapacitated and the half-dragon doesn't have disadvantage on the attack roll."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The half-dragon makes two shortsword attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Shortsword|+6|1d6+3",
+        "Shortsword||7d6"
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Light Crossbow|+6|1d8+3",
+        "Light Crossbow||7d6"
+      ]
+    },
+    {
+      "name": "Poison Breath (Recharge 5-6)",
+      "text": [
+        "The half-dragon exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Poison Breath (Recharge 5-6)||6d6"
+      ]
+    }
+  ],
+  "description": "\nSource: Rise of Tiamat p. 56"
+}

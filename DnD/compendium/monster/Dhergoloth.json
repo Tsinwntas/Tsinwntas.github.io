@@ -1,0 +1,80 @@
+{
+  "name": "Dhergoloth",
+  "size": "M",
+  "type": "fiend (yugoloth)",
+  "alignment": "Neutral Evil",
+  "ac": "15 (natural armor)",
+  "hp": "119 (14d8+56)",
+  "speed": "walk 30 ft.",
+  "str": "17",
+  "dex": "10",
+  "con": "19",
+  "int": "7",
+  "wis": "10",
+  "cha": "9",
+  "save": "Str +6",
+  "passive": "10",
+  "languages": "Abyssal, Infernal, telepathy 60 ft.",
+  "cr": "7",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "acid, poison",
+  "conditionImmune": "poisoned",
+  "senses": "blindsight 60 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The dhergoloth has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The dhergoloth's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The dhergoloth's innate spellcasting ability is Charisma (spell save DC 10). It can innately cast the following spells, requiring no material components:",
+        "At will: darkness, fear",
+        "3/day: sleep"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The dhergoloth makes two claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 12 (2d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|+6|2d8+3"
+      ]
+    },
+    {
+      "name": "Flailing Claws (Recharge 5-6)",
+      "text": [
+        "The dhergoloth moves up to its walking speed in a straight line and targets each creature within 5 feet of it during its movement. Each target must succeed on a DC 14 Dexterity saving throw or take 22 (3d12 + 3) slashing damage."
+      ],
+      "attack": [
+        "Flailing Claws (Recharge 5-6)||3d12+3"
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "The dhergoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+      ]
+    }
+  ],
+  "spells": "darkness, fear, sleep",
+  "description": "\nA dhergoloth's head doesn't turn along with its furiously spinning torso, and its torso can spin a different direction from its dancing legs. I'd like to vivisect one at some point to find out how this can be.\n — Mordenkainen\n\nDhergoloth. Dhergoloths rush into battle like whirlwinds of destruction, lashing out with five sets of claws, which extend from their squat, barrel-shaped bodies. They take contracts to put down uprisings, clear out rabble, and eliminate scouts and skirmishers, and they revel in the butchery they create, their unhinged laughter rising above their victims' screams.\nSince dhergoloths are little more than dumb brutes, employers must use caution when instructing these fiends. They can handle simple orders that don't take a lot of time to resolve. When given anything complex to do, they either forget what they're told or don't listen in the first place, and then bungle the task that was set for them.\nYugoloths. Mercenaries that ply their trade throughout the Lower Planes and in other realms, yugoloths have a reputation for effectiveness that is matched only by their desire for ever more wealth. Although yugoloths aren't especially loyal and typically try to exploit every potential loophole in a contract, they undertake any task for which they are hired, no matter how despicable. Yugoloths come in a wide variety of forms, including those described in the Monster Manual and the six creatures presented here.\nSource: Mordenkainen's Tome of Foes p. 248",
+  "environment": "underdark"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Yklwa of Certain Death",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "T",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "10/30",
+  "text": "A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing.\nWhen you damage a creature with an attack using this magic weapon, the target can't regain hit points until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 270"
+}

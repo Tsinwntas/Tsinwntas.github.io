@@ -1,0 +1,58 @@
+{
+  "name": "Homunculus Servant",
+  "size": "T",
+  "type": "construct",
+  "alignment": "Any alignment",
+  "ac": "13 (natural armor)",
+  "hp": "1",
+  "speed": "walk 20 ft., fly 30 ft.",
+  "str": "4",
+  "dex": "15",
+  "con": "12",
+  "int": "10",
+  "wis": "10",
+  "cha": "7",
+  "skill": "Perception +0, Stealth +2",
+  "passive": "10",
+  "languages": "understands the languages you speak",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "1 + your Intelligence modifier + your artificer level (the homunculus has a number of Hit Dice [d4s] equal to your artificer level)"
+      ]
+    },
+    {
+      "name": "Evasion",
+      "text": [
+        "If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated."
+      ]
+    },
+    {
+      "name": "Might of the Master",
+      "text": [
+        "The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus's skill and saving throw bonuses (above) and the bonuses to hit and damage of its attack (below)."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Force Strike",
+      "text": [
+        "Ranged Weapon Attack: {@hitYourSpellAttack} to hit, range 30 ft., one target you can see. 1d4 + PB force damage."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Channel Magic",
+      "text": [
+        "The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you."
+      ]
+    }
+  ],
+  "description": "\nSource: Eberron: Rising from the Last War p. 62"
+}

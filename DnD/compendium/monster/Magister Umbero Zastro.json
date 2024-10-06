@@ -1,0 +1,48 @@
+{
+  "name": "Magister Umbero Zastro",
+  "size": "M",
+  "type": "humanoid (half-elf)",
+  "alignment": "Lawful Neutral",
+  "ac": "11",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "11",
+  "int": "12",
+  "wis": "14",
+  "cha": "16",
+  "skill": "Deception +5, Insight +4, Persuasion +5",
+  "passive": "12",
+  "languages": "Common, Elvish",
+  "cr": "0",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Umbero has advantage on saving throws against being charmed and magic can't put him to sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 5 (1d8 + 1) piercing damage."
+      ],
+      "attack": [
+        "Rapier|+3|1d8+1"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "description": "A handsome, eloquent, and fair-minded half-elf in his thirties. He's known for his finely honed sense of poetic justice and for meting out unconventional punishments.\nSource: Waterdeep: Dragon Heist p. 82"
+}

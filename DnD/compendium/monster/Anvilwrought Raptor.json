@@ -1,0 +1,61 @@
+{
+  "name": "Anvilwrought Raptor",
+  "size": "T",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "18 (4d4+8)",
+  "speed": "walk 10 ft., fly 60 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "14",
+  "int": "3",
+  "wis": "14",
+  "cha": "1",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "understands one language of its creator but can't speak",
+  "cr": "1/2",
+  "immune": "fire, poison",
+  "conditionImmune": "charmed, exhaustion, paralyzed, petrified, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Keen Sight",
+      "text": [
+        "The raptor has advantage on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Recorded Mimicry",
+      "text": [
+        "The raptor can mimic any sound, including voices, it has heard in the last 24 hours. A creature that hears the sounds can tell they are imitations with a successful DC 12 Wisdom (Insight) check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The raptor makes two attacks with its beak."
+      ]
+    },
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Beak|+5|1d4+3"
+      ]
+    },
+    {
+      "name": "Variant: Anvilwrought Raptor Familiar",
+      "text": [
+        "Some anvilwrought raptors are created expressly to be familiars. Such creatures have the following trait.",
+        "Familiar. The anvilwrought can serve another creature as a familiar, forming a magical, telepathic bond with its willing master. While the two are bonded, the master can sense what the anvilwrought senses, as long as they are within 1 mile of each other."
+      ]
+    }
+  ],
+  "description": "Prized among Meletis's thaumaturges, anvilwrought raptors are often crafted in the form of a hawk or an owl. Most serve as messengers and spies, flying over the busy streets or high over the land while carrying or seeking vital information for their masters.\nThe first anvilwroughts were created by the god of the forge, Purphoros. He gave the secret of breathing life into these metal creatures to his most devoted followers so they could mimic his works and invent new forms at their own forges.\nSome anvilwroughts are vigilant guardians at holy shrines, others serve as familiars and messengers, and a few were created to emulate beauty found among the animals of the mortal world. Each exhibits abilities suited to its role, with some behaving like companionable creatures or stoic guardians.\nA few extremely rare and valuable anvilwroughts were crafted by the hand of Purphoros himself. A number of these magnificent creations are now heirlooms of monarchs; others are lost to the sands of time or are guarded by ancient monsters.\nSource: Mythic Odysseys of Theros p. 209"
+}

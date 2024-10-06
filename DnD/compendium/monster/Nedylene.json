@@ -1,0 +1,97 @@
+{
+  "name": "Nedylene",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral Evil",
+  "ac": "16 (scale mail)",
+  "hp": "71 (13d8+13)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "12",
+  "int": "13",
+  "wis": "17",
+  "cha": "18",
+  "save": "Con +4, Wis +6, Cha +7",
+  "skill": "Insight +6, Perception +6, Religion +4, Stealth +5",
+  "passive": "16",
+  "languages": "Elvish, Undercommon",
+  "cr": "8",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Nedylene carries a staff of swarming insects."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Nedylene has advantage on saving throws against being charmed, and magic can't put Nedylene to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Nedylene has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Nedylene's spellcasting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire, levitate (self only)"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Nedylene is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). Nedylene has the following cleric spells prepared:",
+        "Cantrips (at will): guidance, poison spray, resistance, spare the dying, thaumaturgy",
+        "• 1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness",
+        "• 2nd level (3 slots): lesser restoration, protection from poison, web",
+        "• 3rd level (3 slots): conjure animals (2 giant spiders), dispel magic",
+        "• 4th level (3 slots): divination, freedom of movement",
+        "• 5th level (2 slots): insect plague, mass cure wounds"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Nedylene makes two scourge attacks."
+      ]
+    },
+    {
+      "name": "Scourge +2",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage plus 17 (5d6) poison damage."
+      ],
+      "attack": [
+        "Scourge +2|+7|1d6+4"
+      ]
+    },
+    {
+      "name": "Summon Demon (1/Day)",
+      "text": [
+        "Nedylene attempts to magically summon a yochlol with a 30 chance of success. If the attempt fails, Nedylene takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+      ]
+    },
+    {
+      "name": "Variant: Drow Magic Armor and Weapons",
+      "text": [
+        "Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
+        "A drow priestess of lolth wearing +3 scale mail has AC 19."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2"
+  ],
+  "spells": "dancing lights, darkness, faerie fire, levitate, guidance, poison spray, resistance, spare the dying, thaumaturgy, animal friendship, cure wounds, detect poison and disease, ray of sickness, lesser restoration, protection from poison, web, conjure animals, dispel magic, divination, freedom of movement, insect plague, mass cure wounds",
+  "description": "\nSource: Tales from the Yawning Portal p. 209",
+  "environment": "underdark"
+}

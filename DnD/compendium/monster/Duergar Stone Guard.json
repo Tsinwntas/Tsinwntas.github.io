@@ -1,0 +1,74 @@
+{
+  "name": "Duergar Stone Guard",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Lawful Evil",
+  "ac": "18 (chain mail, shield)",
+  "hp": "39 (6d8+12)",
+  "speed": "walk 25 ft.",
+  "str": "18",
+  "dex": "11",
+  "con": "14",
+  "int": "11",
+  "wis": "10",
+  "cha": "9",
+  "passive": "10",
+  "languages": "Dwarvish, Undercommon",
+  "cr": "2",
+  "resist": "poison",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Duergar Resilience",
+      "text": [
+        "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+      ]
+    },
+    {
+      "name": "Phalanx Formation",
+      "text": [
+        "The duergar has advantage on attack rolls and Dexterity saving throws while standing within 5 feet of a duergar ally wielding a shield."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "King's Knife (Shortsword)",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while enlarged."
+      ],
+      "attack": [
+        "King's Knife (Shortsword)|+6|1d6+4"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while enlarged."
+      ],
+      "attack": [
+        "Javelin|+6|1d6+4"
+      ]
+    },
+    {
+      "name": "Enlarge (Recharges after a Short or Long Rest)",
+      "text": [
+        "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+      ]
+    },
+    {
+      "name": "Invisibility (Recharges after a Short or Long Rest)",
+      "text": [
+        "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
+      ]
+    }
+  ],
+  "description": "\nYou think dwarves are dour and unpleasant? Wait until you meet a duergar.\n — Mordenkainen\n\nThe cruel duergar plot not only to defeat other dwarves, but to cast down the entire dwarven pantheon in revenge for their being abandoned and left to be enslaved by mind flayers. To this end, duergar train warriors to fulfill a variety of roles.\nSource: Mordenkainen's Tome of Foes p. 191, Out of the Abyss p. 227",
+  "environment": "mountain, underdark"
+}

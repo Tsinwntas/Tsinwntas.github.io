@@ -1,0 +1,63 @@
+{
+  "name": "Wind Demon",
+  "size": "S",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "28 (8d6)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "10",
+  "dex": "18",
+  "con": "10",
+  "int": "10",
+  "wis": "7",
+  "cha": "8",
+  "skill": "Stealth +8",
+  "passive": "8",
+  "languages": "Common, Abyssal",
+  "cr": "2",
+  "resist": "fire, lightning",
+  "immune": "cold, poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Arrow Bane",
+      "text": [
+        "When the wind demon is targeted by an attack or spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the attacker has disadvantage on the attack roll. On a 6, the wind demon is unaffected, and the attack is reflected back at the attacker as though it originated from the wind demon, turning the attacker into the target."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The wind demon has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The wind demon makes two frost claw attacks."
+      ]
+    },
+    {
+      "name": "Frost Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d4 + 4) slashing damage plus 3 (1d6) cold damage."
+      ],
+      "attack": [
+        "Frost Claw|6|1d4+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Swift as Frost",
+      "text": [
+        "After a creature the wind demon can see damages it with an attack, the wind demon can move up to its speed without provoking opportunity attacks."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

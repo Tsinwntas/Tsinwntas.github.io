@@ -1,0 +1,49 @@
+{
+  "name": "Satyr",
+  "size": "M",
+  "speed": "35",
+  "ability": "Cha 2, Dex 1",
+  "proficiency": "Performance, Persuasion",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Mythic Odysseys of Theros p. 24"
+    },
+    {
+      "name": "Age",
+      "text": "Satyrs mature and age at about the same rate as humans.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Satyrs delight in living a life free of the mantle of law. They gravitate toward being good, but some have devious streaks and enjoy causing dismay.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Satyrs range from just under 5 feet to about 6 feet in height, with generally slender builds. Your size is Medium.\n"
+    },
+    {
+      "name": "Fey",
+      "text": "Your creature type is fey, rather than humanoid.\n"
+    },
+    {
+      "name": "Ram",
+      "text": "You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier.\n"
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "You have advantage on saving throws against spells and other magical effects.\n"
+    },
+    {
+      "name": "Mirthful Leaps",
+      "text": "Whenever you make a long or high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.\n"
+    },
+    {
+      "name": "Reveler",
+      "text": "You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Sylvan.\n"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Moloch",
+  "size": "L",
+  "type": "fiend (devil)",
+  "alignment": "Lawful Evil",
+  "ac": "19 (natural armor)",
+  "hp": "253 (22d10+132)",
+  "speed": "walk 30 ft.",
+  "str": "26",
+  "dex": "19",
+  "con": "22",
+  "int": "21",
+  "wis": "18",
+  "cha": "23",
+  "save": "Dex +11, Con +13, Wis +11, Cha +13",
+  "skill": "Deception +13, Intimidation +13, Perception +11",
+  "passive": "21",
+  "languages": "all, telepathy 120 ft.",
+  "cr": "21",
+  "resist": "cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "fire, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Moloch fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Moloch has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Moloch's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "Moloch regains 20 hit points at the start of his turn. If he takes radiant damage, this trait doesn't function at the start of his next turn. Moloch dies only if he starts his turn with 0 hit points and doesn't regenerate."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Moloch's innate spellcasting ability is Charisma (spell save DC 21). He can innately cast the following spells, requiring no material components:",
+        "At will: alter self (can become Medium when changing his appearance), animate dead, burning hands (as a 7th-level spell), confusion, detect magic, fly, geas, major image, stinking cloud, suggestion, wall of fire",
+        "1/day each: flame strike, symbol (stunning only)"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Moloch makes three attacks: one with his bite, one with his claw, and one with his whip."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. 26 (4d8 + 8) piercing damage."
+      ],
+      "attack": [
+        "Bite|+15|4d8+8"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. 17 (2d8 + 8) slashing damage."
+      ],
+      "attack": [
+        "Claw|+15|2d8+8"
+      ]
+    },
+    {
+      "name": "Many-Tailed Whip",
+      "text": [
+        "Melee Weapon Attack: +15 to hit, reach 30 ft., one target. 13 (2d4 + 8) slashing damage plus 11 (2d10) lightning damage. If the target is a creature, it must succeed on a DC 24 Strength saving throw or be pulled up to 30 feet in a straight line toward Moloch."
+      ],
+      "attack": [
+        "Many-Tailed Whip|+15|2d4+8"
+      ]
+    },
+    {
+      "name": "Breath of Despair (Recharge 5-6)",
+      "text": [
+        "Moloch exhales in a 30-foot cube. Each creature in that area must succeed on a DC 21 Wisdom saving throw or take 27 (5d10) psychic damage, drop whatever it is holding, and become frightened for 1 minute. While frightened in this way, a creature must take the Dash action and move away from Moloch by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the Dash action. If the creature ends its turn in a location where it doesn't have line of sight to Moloch, the creature can repeat the saving throw. On a success, the effect ends."
+      ],
+      "attack": [
+        "Breath of Despair (Recharge 5-6)||5d10"
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Moloch magically teleports, along with any equipment he is wearing and carrying, up to 120 feet to an unoccupied space he can see."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Moloch can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Moloch regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Stinking Cloud",
+      "text": [
+        "Moloch casts stinking cloud."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Moloch uses his Teleport action."
+      ]
+    },
+    {
+      "name": "Whip",
+      "text": [
+        "Moloch makes one attack with his whip."
+      ]
+    }
+  ],
+  "spells": "alter self, animate dead, burning hands, confusion, detect magic, fly, geas, major image, stinking cloud, suggestion, wall of fire, flame strike, symbol",
+  "description": "\nMoloch obsesses over power he lost rather than thinking of the power he could gain elsewhere in the planes. What a pity he so wastes his potential.\n — Mordenkainen\n\nMoloch. Exiled from the Nine Hells, Moloch would do anything to reclaim his position. Long ago, Moloch earned his place among the other archdevils through the glory he won driving demons out of the Nine Hells. Asmodeus rewarded him by elevating Moloch to the rulership of Malbolge.\nFor eons, Moloch ruled his domain, vying against the other archdevils as he sought still greater power. This animosity worked in Asmodeus's favor, since Asmodeus knew that Moloch's scheming helped keep the other archdevils in check. The arrangement began to unravel, however, when Moloch took the night hag named Malagard for his advisor. Her words were poison, and gradually she convinced Moloch to direct his efforts to topple Asmodeus.\nAlthough the conspiracy nearly succeeded, it was thwarted. Moloch was stripped of his station and sentenced to death—and only the timely use of a planar portal allowed him to escape.\nMoloch wasted no time in preparing for his return. He amassed an army of devils and monsters and left them to make final preparations for invading the Nine Hells, while he ventured to a distant Material Plane in the hope of finding an artifact that would ensure his success. While there, he became trapped, leaving his armies at the mercy of his enemies. In short order they were destroyed.\nNow, Moloch has been rendered nearly powerless after his last failure. He endlessly schemes of ways to return to his former status, but every time he enters the Nine Hells, he is demoted to an imp and can't regain his normal powers until he leaves. Thus, he lives a split existence, sometimes scheming in Malbolge or other layers of the Hells and at other times wandering the planes searching for magical might or secrets that might help him win back his title.\nRumors suggest that he can often be found in Sigil, where he bargains with yugoloths to build yet another army with which he might invade Malbolge and wrest the throne from Glasya. Bereft as he is, he has little to offer in exchange, so he might bargain with mortals to gain their aid in acquiring coin, jewels, and other riches in return for knowledge about the Nine Hells and the other planes.\nMost of Moloch's cultists have switched allegiance to one of the other archdevils, but idols constructed to honor him still stand in deep dungeons, their jeweled eyes and the remnants of power they hold drawing monstrous worshipers and unwise adventurers into places where his foul influence remains.\nSource: Mordenkainen's Tome of Foes p. 177"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Manastorm Golem",
+  "size": "M",
+  "type": "construct (golem)",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "90 (12d10+24)",
+  "speed": "walk 60 ft., fly 60 ft.",
+  "str": "6",
+  "dex": "14",
+  "con": "14",
+  "int": "16",
+  "wis": "8",
+  "cha": "1",
+  "passive": "9",
+  "languages": "Understands the languages of its creator but can't speak",
+  "cr": "8",
+  "resist": "bludgeoning, piercing, slashing",
+  "immune": "acid, cold, fire, lightning, necrotic, poison, psychic, radiant, thunder",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Amorphous",
+      "text": [
+        "The manastorm golem can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    },
+    {
+      "name": "Limited Mutability",
+      "text": [
+        "Any spell or effect that would alter the golem's form only alters it for 1 round. Afterwards, the manastorm golem returns to its humanoid-shaped cloud form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The golem has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The golem's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Mystic Messages",
+      "text": [
+        "The manastorm golem can communicate with its maker via magical whispers at a distance up to 120 feet. Only its master hears these messages and can reply. Its messages go through solid objects but are halted by stone, magical silence, a sheet of lead, and similar obstacles. Its voice can travel through keyholes and around corners."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The golem makes two slam attacks. If both attacks hit a single living creature, the creature is stunned until the end of its next turn."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 14 (2d10 + 3) force damage."
+      ],
+      "attack": [
+        "Slam|6|2d10+3"
+      ]
+    },
+    {
+      "name": "Force Bolt",
+      "text": [
+        "Ranged Spell Attack: +6 to hit, range 120/480 ft., one target. 25 (4d10 + 3) force damage."
+      ],
+      "attack": [
+        "Force Bolt|6|4d10+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

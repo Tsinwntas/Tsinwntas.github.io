@@ -1,0 +1,11 @@
+{
+  "name": "Greatsword",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "value": "50.0",
+  "property": "H,2H,M",
+  "dmg1": "2d6",
+  "dmgType": "S",
+  "text": "Source: Player's Handbook p. 149"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Noska Ur'gray",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Lawful Evil",
+  "ac": "11 (leather armor)",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 25 ft.",
+  "str": "15",
+  "dex": "11",
+  "con": "14",
+  "int": "10",
+  "wis": "10",
+  "cha": "11",
+  "skill": "Intimidation +2",
+  "passive": "10",
+  "languages": "Common, Dwarvish",
+  "cr": "1/2",
+  "resist": "poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "Noska has advantage on an attack roll against a creature if at least one of Noska's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "Noska has advantage on saving throws against poison and resistance to poison damage."
+      ]
+    },
+    {
+      "name": "Difficult Climber",
+      "text": [
+        "Noska has disadvantage on Strength checks made to climb, due to his disability."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Noska makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Mace",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Mace|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+2|1d10"
+      ]
+    }
+  ],
+  "description": "Noska is a ruthless enforcer in the Xanathar Guild. A green slime in Undermountain dissolved his left hand and forearm, and the lost appendage has been replaced with a heavy crossbow that attaches to the stump.\nSource: Waterdeep: Dragon Heist p. 213"
+}

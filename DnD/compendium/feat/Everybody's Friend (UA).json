@@ -1,0 +1,14 @@
+{
+  "name": "Everybody's Friend (UA)",
+  "prerequisite": "Half-Elf",
+  "text": "You develop your magnetic personality to ease your way through the world. You gain the following benefits:\n• You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.\nSource: Unearthed Arcana: Feats For Races p. 2",
+  "modifier": [
+    {
+      "_": "Charisma +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ],
+  "proficiency": ", Persuasion"
+}

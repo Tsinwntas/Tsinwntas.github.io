@@ -1,0 +1,11 @@
+{
+  "name": "Draconic Longsword",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V,M",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "This longsword has a dragon-shaped hilt. While you carry it, you gain the ability to speak and understand the Draconic language.\nSource: Tomb of Annihilation p. 173"
+}

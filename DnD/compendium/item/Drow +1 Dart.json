@@ -1,0 +1,11 @@
+{
+  "name": "Drow +1 Dart",
+  "detail": "simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "0.25",
+  "property": "F,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nSource: Monster Manual p. 126"
+}

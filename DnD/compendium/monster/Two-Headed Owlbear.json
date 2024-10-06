@@ -1,0 +1,60 @@
+{
+  "name": "Two-Headed Owlbear",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "59 (7d10+21)",
+  "speed": "walk 40 ft.",
+  "str": "20",
+  "dex": "12",
+  "con": "17",
+  "int": "3",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "3",
+  "senses": "darkvision 60",
+  "trait": [
+    {
+      "name": "Two Heads",
+      "text": [
+        "The two-headed owlbear has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+      ]
+    },
+    {
+      "name": "Wakeful",
+      "text": [
+        "When one of the owlbear's heads is asleep, its other head is awake."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The two-headed owlbear makes three attacks: two with its beaks and one with its claws."
+      ]
+    },
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 10 (1d10 + 5) piercing damage."
+      ],
+      "attack": [
+        "Beak|+7|1d10+5"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage."
+      ],
+      "attack": [
+        "Claws|+7|2d8+5"
+      ]
+    }
+  ],
+  "description": "\nSource: Infernal Machine Rebuild p. 90"
+}

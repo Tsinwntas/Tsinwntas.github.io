@@ -1,0 +1,61 @@
+{
+  "name": "Boot Grabber",
+  "size": "S",
+  "type": "aberration",
+  "alignment": "Neutral",
+  "ac": "11",
+  "hp": "22 (4d6+8)",
+  "speed": "walk 20 ft.",
+  "str": "17",
+  "dex": "12",
+  "con": "14",
+  "int": "4",
+  "wis": "12",
+  "cha": "2",
+  "skill": "Perception +3, Stealth +3",
+  "passive": "13",
+  "languages": "Understands but can't speak",
+  "cr": "1/2",
+  "resist": "acid",
+  "conditionImmune": "prone",
+  "senses": "blindsight 60 ft. (blind beyond this radius), tremorsense 60 ft.",
+  "trait": [
+    {
+      "name": "Adhesive",
+      "text": [
+        "The boot grabber adheres to anything that touches it.",
+        "A Large or smaller creature adhered to the boot grabber is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage."
+      ]
+    },
+    {
+      "name": "Amorphous",
+      "text": [
+        "The boot grabber can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the boot grabber remains motionless, it is indistinguishable from a dirty puddle of water."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Adhesive Hands",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (2d4 + 3) bludgeoning damage and the target is subjected to its Adhesive trait. Until this grapple ends, the target is restrained, and the boot grabber can't make adhesive hands attacks against other targets."
+      ],
+      "attack": [
+        "Adhesive Hands|5|2d4+3"
+      ]
+    },
+    {
+      "name": "Unearthly Hum",
+      "text": [
+        "The boot grabber targets one creature it can see within 60 feet of it. It emits a high frequency humming noise which can only be heard by the target. The target must succeed on a DC 11 Wisdom saving throw or move toward the boot grabber on its turn by the shortest and most direct route, ending its turn when it comes within 5 feet of the boot grabber."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Blackguard",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "18 (plate armor)",
+  "hp": "153 (18d8+72)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "11",
+  "con": "18",
+  "int": "11",
+  "wis": "14",
+  "cha": "15",
+  "save": "Wis +5, Cha +5",
+  "skill": "Athletics +7, Deception +5, Intimidation +5",
+  "passive": "12",
+  "languages": "any one language (usually Common)",
+  "cr": "8",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The blackguard makes three attacks with its glaive or its shortbow."
+      ]
+    },
+    {
+      "name": "Glaive",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 9 (1d10 + 4) slashing damage."
+      ],
+      "attack": [
+        "Glaive|+7|1d10+4"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|+3|1d6+2"
+      ]
+    },
+    {
+      "name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
+      "text": [
+        "The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following paladin spells prepared:",
+        "• 1st level (4 slots): command, protection from evil and good, thunderous smite",
+        "• 2nd level (3 slots): branding smite, find steed",
+        "• 3rd level (2 slots): blinding smite, dispel magic"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "command, protection from evil and good, thunderous smite, branding smite, find steed, blinding smite, dispel magic",
+  "description": "Blackguards are paladins who broke their sacred oaths and now indulge their own dark ambitions. They consort with fiends and undead, and they reject all goodly things from their former lives.\nSource: Volo's Guide to Monsters p. 211, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Sleeping Dragon's Wake, Mythic Odysseys of Theros",
+  "environment": "underdark, urban"
+}

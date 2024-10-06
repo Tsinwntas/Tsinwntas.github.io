@@ -1,0 +1,88 @@
+{
+  "name": "Reduced-Threat Vrock",
+  "size": "L",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "52 (11d10+44)",
+  "speed": "walk 40 ft., fly 60 ft.",
+  "str": "17",
+  "dex": "15",
+  "con": "18",
+  "int": "8",
+  "wis": "13",
+  "cha": "8",
+  "save": "Dex +3, Wis +2, Cha +0",
+  "passive": "11",
+  "languages": "Abyssal, telepathy 120 ft.",
+  "cr": "3",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The vrock has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The vrock makes two attacks: one with its beak and one with its talons."
+      ]
+    },
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 10 (2d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Beak|+4|2d6+3"
+      ]
+    },
+    {
+      "name": "Talons",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 14 (2d10 + 3) slashing damage."
+      ],
+      "attack": [
+        "Talons|+4|2d10+3"
+      ]
+    },
+    {
+      "name": "Spores (Recharge 6)",
+      "text": [
+        "A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Each creature in that area must succeed on a DC 12 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it."
+      ],
+      "attack": [
+        "Spores (Recharge 6)||1d10"
+      ]
+    },
+    {
+      "name": "Stunning Screech (1/Day)",
+      "text": [
+        "The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a demon must succeed on a DC 12 Constitution saving throw or be stunned until the end of the vrock's next turn."
+      ]
+    },
+    {
+      "name": "Variant: Summon Demon (1/Day)",
+      "text": [
+        "The demon chooses what to summon and attempts a magical summoning.",
+        "A vrock has a 30 chance of summoning 2d4 dretch or one vrock.",
+        "A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fiend (demon) can take 0 legendary action, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fiend (demon) regains spent legendary action at the start of its turn."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 113"
+}

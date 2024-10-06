@@ -1,0 +1,72 @@
+{
+  "name": "Corrin Delmaco",
+  "size": "S",
+  "type": "humanoid (halfling)",
+  "alignment": "Any alignment",
+  "ac": "12",
+  "hp": "21 (6d6)",
+  "speed": "walk 25 ft.",
+  "str": "10",
+  "dex": "15",
+  "con": "10",
+  "int": "12",
+  "wis": "14",
+  "cha": "16",
+  "skill": "Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight of hand +4, Stealth +4",
+  "passive": "16",
+  "languages": "any two languages, Halfling",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Cunning Action",
+      "text": [
+        "On each of its turns, Corrin can use a bonus action to take the Dash, Disengage, or Hide action."
+      ]
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "text": [
+        "Corrin deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Corrin that isn't incapacitated and Corrin doesn't have disadvantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Halfling Nimbleness",
+      "text": [
+        "<$title_short_name$> can move through a space of a Medium or larger creature."
+      ]
+    },
+    {
+      "name": "Brave",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against being frightened."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Corrin makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Eberron: Rising from the Last War p. 271"
+}

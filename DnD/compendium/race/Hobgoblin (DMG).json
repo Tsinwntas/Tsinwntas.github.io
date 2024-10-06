@@ -1,0 +1,23 @@
+{
+  "name": "Hobgoblin (DMG)",
+  "size": "M",
+  "speed": "30",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Dungeon Master's Guide p. 282"
+    },
+    {
+      "name": "Martial Advantage",
+      "text": "Once per turn, you can deal an extra 2d6 damage to a creature you hit with a weapon attack if that creature is within 5 ft. of an ally of yours that isn't incapacitated.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Goblin.\n"
+    }
+  ]
+}

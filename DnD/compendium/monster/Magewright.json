@@ -1,0 +1,41 @@
+{
+  "name": "Magewright",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "11",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "13",
+  "con": "10",
+  "int": "14",
+  "wis": "14",
+  "cha": "12",
+  "skill": "Arcana +4",
+  "passive": "12",
+  "languages": "Common plus any two languages",
+  "cr": "0",
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 3 (1d4 + 1) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+3|1d4+1"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The magewright's spellcasting ability is Intelligence (spell save DC 12). To cast one of its rituals, the magewright must provide additional material components whose value in gold pieces is 20 times the spell's level. These components are consumed when the ritual is finished. The magewright knows the following spells:",
+        "At will: mage hand, prestidigitation"
+      ]
+    }
+  ],
+  "spells": "mage hand, prestidigitation",
+  "description": "In Khorvaire, magic is part of everyday life. A chef might use prestidigitation to heat and season food, while a blacksmith uses mending to perform minor repairs and guidance to help inspire their work. Those who work minor magic into their labors are called magewrights.\nFar more limited in magical power than a typical spellcaster, a magewright is dedicated to learning a handful of spells, and magewrights cast their non-cantrip spells as rituals—even spells that can't normally be cast in this way. Most magewright rituals take 10 minutes to perform, but certain complex rituals can take up to 1 hour. However long the ritual takes, it requires extra material components, usually in the form of dragonshards.\nCreating a Magewright. The magewright stat block provides the baseline statistics for a magewright. You then add to that baseline by choosing a specialty from the Magewright Specialties table, or roll for one. The specialty determines additional spells the magewright knows, including ones that can be cast only as rituals. The specialty also gives the magewright more proficiencies.\nMagewright Specialties\nd8 | Specialty | Spells | Proficiencies\n1 | Artisan | Guidance, mending | One type of artisan's tools\n2 | Entertainer | Minor illusion, thaumaturgy. Ritual only: disguise self. | Performance (+3)\n3 | Healer | Resistance, spare the dying. Ritual only: detect poison and disease, lesser restoration (1 hour). | Medicine (+4), herbalism kit\n4 | Lamplighter | Light. Ritual only: continual flame (1 hour). | Tinker's tools\n5 | Locksmith | Mending. Ritual only: arcane lock (1 hour), knock. | Thieves' tools, tinker's tools\n6 | Mediator | Guidance. Ritual only: comprehend languages, zone of truth. | Insight (+4), Persuasion (+3)\n7 | Medium | Minor illusion. Ritual only: speak with dead. | Deception (+3), Religion (+4)\n8 | Oracle | Guidance. Ritual only: augury, divination (1 hour). | History (+4), Religion (+4)\n\nSource: Eberron: Rising from the Last War p. 318"
+}

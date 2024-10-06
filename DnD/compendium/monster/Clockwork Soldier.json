@@ -1,0 +1,60 @@
+{
+  "name": "Clockwork Soldier",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "45 (6d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "13",
+  "dex": "13",
+  "con": "16",
+  "int": "5",
+  "wis": "10",
+  "cha": "1",
+  "skill": "Athletics +5",
+  "passive": "10",
+  "languages": "Common",
+  "cr": "1",
+  "immune": "poison, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The soldier is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Intimidating Legions",
+      "text": [
+        "A single clockwork soldier's rigid movements appear silly, but, when gathered in numbers, they become an inhuman terror. When the clockwork soldier makes a Charisma (Intimidation) check, it gains a bonus on that check equal to the number of other clockwork soldiers the target can see or hear."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The soldier has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Halberd",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 10 ft., one target. 7 (1d10 + 2) slashing damage."
+      ],
+      "attack": [
+        "Halberd|3|1d10+2"
+      ]
+    },
+    {
+      "name": "Overdrive Flurry (Recharge 6)",
+      "text": [
+        "The soldier makes four halberd attacks. After taking this action, it is stunned until the end of its next turn."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

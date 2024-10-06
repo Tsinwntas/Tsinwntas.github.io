@@ -1,0 +1,54 @@
+{
+  "name": "Phantom",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Any alignment",
+  "ac": "11",
+  "hp": "22 (5d8)",
+  "speed": "walk 0 ft., fly 40 ft.",
+  "str": "7",
+  "dex": "12",
+  "con": "10",
+  "int": "6",
+  "wis": "12",
+  "cha": "12",
+  "passive": "11",
+  "languages": "The languages it knew in life",
+  "cr": "1",
+  "resist": "acid, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "cold, necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Incorporeal Movement",
+      "text": [
+        "The phantom can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+      ]
+    },
+    {
+      "name": "Sunlight Weakness",
+      "text": [
+        "While in sunlight, the phantom has disadvantage on attack rolls, ability checks, and saving throws."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Ghostly Grasp",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 7 (2d6) necrotic damage."
+      ],
+      "attack": [
+        "Ghostly Grasp|3|2d6"
+      ]
+    },
+    {
+      "name": "Chilling Moan (Recharge 5-6)",
+      "text": [
+        "The phantom emits an eerie moan. Each creature within 30 feet that isn't an undead or a construct must make a DC 13 Wisdom saving throw. On a failure, the target takes 9 (2d8) cold damage and is frightened until the end of the phantom's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. On a success, the target takes half the damage and isn't frightened."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

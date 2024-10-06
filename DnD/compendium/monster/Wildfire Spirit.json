@@ -1,0 +1,55 @@
+{
+  "name": "Wildfire Spirit",
+  "size": "S",
+  "type": "elemental",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "5",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "14",
+  "int": "13",
+  "wis": "15",
+  "cha": "11",
+  "passive": "12",
+  "languages": "understands the languages you speak",
+  "immune": "fire",
+  "conditionImmune": "charmed, frightened, grappled, prone, restrained",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "5 + five times your druid level"
+      ]
+    },
+    {
+      "name": "Appearance",
+      "text": [
+        "Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a DC Player Dexterity saving throw or take 2d6 fire damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dodge",
+      "text": [
+        "On its turn, unless otherwise commanded, the Spirit takes the dodge action."
+      ]
+    },
+    {
+      "name": "Flame Seed",
+      "text": [
+        "Ranged Weapon Attack: {@hitYourSpellAttack} to hit, range 60 ft., one target you can see. 1d6 + PB fire damage."
+      ]
+    },
+    {
+      "name": "Fiery Teleportation",
+      "text": [
+        "The spirit and each willing creature of your choice within 5 feet of it teleport up to 15 feet to unoccupied spaces you can see. Then each creature within 5 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + PB fire damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Tasha's Cauldron of Everything"
+}

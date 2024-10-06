@@ -1,0 +1,72 @@
+{
+  "name": "Hurricane",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "14",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 45 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "13",
+  "int": "10",
+  "wis": "12",
+  "cha": "10",
+  "skill": "Acrobatics +5",
+  "passive": "11",
+  "languages": "Auran, Common",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Unarmored Defense",
+      "text": [
+        "While the hurricane is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+      ]
+    },
+    {
+      "name": "Unarmored Movement",
+      "text": [
+        "While the hurricane is wearing no armor and wielding no shield, its walking speed increases by 15 feet (included in its speed)."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The hurricane is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). It knows the following sorcerer spells:",
+        "Cantrips (at will): blade ward, gust, light, prestidigitation",
+        "• 1st level (4 slots): feather fall, jump, thunderwave",
+        "• 2nd level (2 slots): gust of wind"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hurricane makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Unarmed Strike",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Unarmed Strike|+5|1d6+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Deflect Missiles",
+      "text": [
+        "When the hurricane is hit by a ranged weapon attack, it reduces the damage from the attack by 1d10 + 9. If the damage is reduced to 0, the hurricane can catch the missile if it is small enough to hold in one hand and the hurricane has at least one hand free."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 2"
+  ],
+  "spells": "blade ward, gust, light, prestidigitation, feather fall, jump, thunderwave, gust of wind",
+  "description": "Hurricanes profess their disgust with decadence, and they dedicate their bodies and their minds to the world's destruction. Through breathing exercises and ascetic philosophy, skilled Howling Hatred initiates learn to imitate the cycling patterns of the hurricane. They believe the physical world must be shattered so that the creatures of the Material Plane can live unshackled by physical things.\nHurricanes see the frenetic activity of the world in slow motion, and themselves at the calm center of the storm. Through meditation and mysticism they learn to summon powerful blasts of wind, catch missiles with ease, and fall like feathers.\nSource: Princes of the Apocalypse p. 191"
+}

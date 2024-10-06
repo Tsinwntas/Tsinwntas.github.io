@@ -1,0 +1,45 @@
+{
+  "name": "Kor",
+  "size": "M",
+  "speed": "30",
+  "ability": "Dex 2, Wis 1",
+  "proficiency": "Athletics, Acrobatics",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Zendikar p. 10"
+    },
+    {
+      "name": "Age",
+      "text": "Kor mature at the same rate as humans and live about as long.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most kor are lawful good, with a strong dedication to community and the traditions of their ancestors.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Kor average nearly 6 feet tall, but are much lighter and more slender than humans. Your size is Medium.\n"
+    },
+    {
+      "name": "Brave",
+      "text": "You have advantage on saving throws against being frightened.\n"
+    },
+    {
+      "name": "Climbing",
+      "text": "You also have a climbing speed of 30 feet as long as you are not encumbered or wearing heavy armor.\n"
+    },
+    {
+      "name": "Kor Climbing",
+      "text": "You have proficiency in the Athletics and Acrobatics skills.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common, and communicate in the silent speech of the Kor.\n"
+    },
+    {
+      "name": "Lucky",
+      "text": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.\n"
+    }
+  ]
+}

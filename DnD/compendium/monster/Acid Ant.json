@@ -1,0 +1,54 @@
+{
+  "name": "Acid Ant",
+  "size": "S",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "13 (3d6+3)",
+  "speed": "walk 30 ft.",
+  "str": "8",
+  "dex": "13",
+  "con": "12",
+  "int": "1",
+  "wis": "7",
+  "cha": "3",
+  "passive": "8",
+  "cr": "1/4",
+  "immune": "acid",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Explosive Death",
+      "text": [
+        "When the ant is reduced to 0 hp, it explodes in a burst of acid. Each creature within 5 feet of the ant must succeed on a DC 11 Dexterity saving throw or take 5 (2d4) acid damage."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The ant has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Acid Spit",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 20 60 ft., one target. 5 (2d4) acid damage and the target takes 1 acid damage at the start of its next turn unless the target immediately uses its reaction to wipe off the spit."
+      ],
+      "attack": [
+        "Acid Spit|3|2d4"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) piercing damage plus 2 (1d4) acid damage."
+      ],
+      "attack": [
+        "Bite|3|1d4+1"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 8"
+}

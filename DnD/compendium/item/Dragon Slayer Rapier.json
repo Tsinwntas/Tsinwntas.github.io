@@ -1,0 +1,13 @@
+{
+  "name": "Dragon Slayer Rapier",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "F,M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "text": "You gain a +1 bonus to attack and damage rolls made with this magic weapon.\nWhen you hit a dragon with this weapon, the dragon takes an extra 3d6 damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 166",
+  "roll": [
+    "3d6"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Dwarven Worker",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "12 (leather armor)",
+  "hp": "9 (2d8)",
+  "speed": "walk 25 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "10",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Deception +2, Religion +2",
+  "passive": "10",
+  "languages": "any one language (usually Common), Dwarvish",
+  "cr": "1/8",
+  "resist": "poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dark Devotion",
+      "text": [
+        "The worker has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against poison, and has resistance against poison damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Infernal Machine Rebuild p. 15"
+}

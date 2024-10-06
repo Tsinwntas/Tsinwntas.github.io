@@ -1,0 +1,38 @@
+{
+  "name": "Young Bulette",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11 (natural armor)",
+  "hp": "45 (6d10+12)",
+  "speed": "walk 40 ft.",
+  "str": "21",
+  "dex": "8",
+  "con": "15",
+  "int": "2",
+  "wis": "12",
+  "cha": "6",
+  "passive": "11",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the bulette moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 14 (2d8 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Gore|+7|2d8+5"
+      ]
+    }
+  ],
+  "description": "\nSource: Princes of the Apocalypse p. 139",
+  "environment": "grassland"
+}

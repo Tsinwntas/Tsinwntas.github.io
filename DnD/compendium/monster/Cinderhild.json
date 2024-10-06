@@ -1,0 +1,41 @@
+{
+  "name": "Cinderhild",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "11 (hide armor)",
+  "hp": "59 (7d10+21)",
+  "speed": "walk 40 ft.",
+  "str": "19",
+  "dex": "8",
+  "con": "16",
+  "int": "5",
+  "wis": "7",
+  "cha": "7",
+  "passive": "8",
+  "languages": "Common, Giant",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Greatclub",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 13 (2d8 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Greatclub|+6|2d8+4"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. 11 (2d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+6|2d6+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 182",
+  "environment": "grassland, forest, swamp, hill, desert, coastal, arctic, underdark, mountain"
+}

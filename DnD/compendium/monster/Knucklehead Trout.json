@@ -1,0 +1,47 @@
+{
+  "name": "Knucklehead Trout",
+  "size": "S",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "7 (2d6)",
+  "speed": "walk 0 ft., swim 30 ft.",
+  "str": "14",
+  "dex": "14",
+  "con": "11",
+  "int": "1",
+  "wis": "6",
+  "cha": "1",
+  "passive": "8",
+  "cr": "0",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The trout can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Tail|+4|1d4+2"
+      ]
+    }
+  ],
+  "description": "The tasty and tenacious knucklehead trout can't easily be caught in nets. Moreover, using a line to reel in such a strong fish is a significant undertaking. Incautious fishers who get pulled into freezing water can quickly die, particularly if they're weighed down by heavy furs and cloaks.\nA male knucklehead trout can weigh 70 pounds or more. The females tend to be smaller, weighing about 50 pounds. Both are prized for their ivory-like bones.\nSource: Icewind Dale: Rime of the Frostmaiden p. 295"
+}

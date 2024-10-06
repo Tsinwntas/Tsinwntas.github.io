@@ -1,0 +1,51 @@
+{
+  "name": "Black Dragon Wyrmling",
+  "size": "M",
+  "type": "dragon",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft., fly 60 ft., swim 30 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "13",
+  "int": "10",
+  "wis": "11",
+  "cha": "13",
+  "save": "Dex +4, Con +3, Wis +2, Cha +3",
+  "skill": "Perception +4, Stealth +4",
+  "passive": "14",
+  "languages": "Draconic",
+  "cr": "2",
+  "immune": "acid",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The dragon can breathe air and water."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (1d10 + 2) piercing damage plus 2 (1d4) acid damage."
+      ],
+      "attack": [
+        "Bite|+4|1d10+2"
+      ]
+    },
+    {
+      "name": "Acid Breath (Recharge 5-6)",
+      "text": [
+        "The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Acid Breath (Recharge 5-6)||5d8"
+      ]
+    }
+  ],
+  "description": "True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.\nMany creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.\nThough their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.\nTrue dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.\nDragon Age Categories\nCategory | Size | Age Range\nWyrmling | Medium | 5 years or less\nYoung | Large | 6–100 years\nAdult | Huge | 101–800 years\nAncient | Gargantuan | 801 years or more\n\nSource: Monster Manual p. 88, Tales from the Yawning Portal"
+}

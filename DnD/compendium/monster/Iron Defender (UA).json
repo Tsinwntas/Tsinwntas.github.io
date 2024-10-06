@@ -1,0 +1,64 @@
+{
+  "name": "Iron Defender (UA)",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "0",
+  "speed": "walk 40 ft.",
+  "str": "14",
+  "dex": "12",
+  "con": "14",
+  "int": "4",
+  "wis": "10",
+  "cha": "6",
+  "skill": "Perception +4",
+  "passive": "10",
+  "languages": "understands the languages you speak",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "equal to five times your level in this class + your Intelligence modifier + the Iron Defender (UA)'s Constitution modifier"
+      ]
+    },
+    {
+      "name": "Might of the Master",
+      "text": [
+        "The following numbers increase by 1 when your proficiency bonus increases by 1: the Iron Defender (UA)'s skill bonuses, the bonuses to hit and damage of its bite, and the number of hit points restored by its Repair action."
+      ]
+    },
+    {
+      "name": "Vigilant",
+      "text": [
+        "The Iron Defender (UA) can't be surprised."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target you can see. 1d8 + 2 piercing damage."
+      ]
+    },
+    {
+      "name": "Repair (3/Day)",
+      "text": [
+        "The magical mechanisms inside the Iron Defender (UA) restore 2d8 + 2 hit points to itself or to one construct or object within 5 feet of it."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Defensive Pounce",
+      "text": [
+        "The Iron Defender (UA) imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the Iron Defender (UA)."
+      ]
+    }
+  ],
+  "description": "\nSource: Unearthed Arcana: Artificer Revisited p. 11"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Oni",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Lawful Evil",
+  "ac": "16 (chain mail)",
+  "hp": "110 (13d10+39)",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "19",
+  "dex": "11",
+  "con": "16",
+  "int": "14",
+  "wis": "12",
+  "cha": "15",
+  "save": "Dex +3, Con +6, Wis +4, Cha +5",
+  "skill": "Arcana +5, Deception +8, Perception +4",
+  "passive": "14",
+  "languages": "Common, Giant",
+  "cr": "7",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The oni's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "The oni regains 10 hit points at the start of its turn if it has at least 1 hit point."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The oni's innate spellcasting ability is Charisma (spell save DC 13). The oni can innately cast the following spells, requiring no material components:",
+        "At will: darkness, invisibility",
+        "1/day each: charm person, cone of cold, gaseous form, sleep"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The oni makes two attacks, either with its claws or its glaive."
+      ]
+    },
+    {
+      "name": "Claw (Oni Form Only)",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw (Oni Form Only)|+7|1d8+4"
+      ]
+    },
+    {
+      "name": "Glaive",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 15 (2d10 + 4) slashing damage, or 9 (1d10 + 4) slashing damage in Small or Medium form."
+      ],
+      "attack": [
+        "Glaive|+7|2d10+4"
+      ]
+    },
+    {
+      "name": "Change Shape",
+      "text": [
+        "The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size."
+      ]
+    }
+  ],
+  "spells": "darkness, invisibility, charm person, cone of cold, gaseous form, sleep",
+  "description": "In nursery rhymes, oni are fearsome bogeymen that haunt the nightmares of children and adults alike, yet they are very real and always hungry. They find human babies especially delicious. Oni look like demonic ogres with blue or green skin, dark hair, and a pair of short ivory horns protruding from their foreheads. Their eyes are dark with strikingly white pupils, and their teeth and claws are jet black.\nNight Haunters. By the light of day, an oni hides its true form with magic, gaining the trust of those it intends to betray when darkness descends. These creatures can change their size as well as their shape, appearing as humanoids as they pass through towns, pretending to be travelers, woodcutters, or frontier folk. In such a form, an oni takes stock of the selection of humanoids in a settlement and devises ways to abduct and devour some of them.\nMagical Ogres. Oni are sometimes called ogre mages because of their innate magical ability. Though they are only distantly related to true ogres, they share the ogres' habit of joining forces with other evil creatures. An oni serves a master if doing so proves lucrative or provides it with a luxurious, well-defended home. Oni covet magic, and they work for evil wizards and hags in exchange for useful magic items.\nSource: Monster Manual p. 239, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything",
+  "environment": "forest, urban"
+}

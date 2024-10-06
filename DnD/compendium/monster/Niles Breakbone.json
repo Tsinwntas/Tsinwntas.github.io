@@ -1,0 +1,39 @@
+{
+  "name": "Niles Breakbone",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "15 (breastplate)",
+  "hp": "9 (2d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "11",
+  "int": "12",
+  "wis": "14",
+  "cha": "16",
+  "skill": "Deception +5, Insight +4, Persuasion +5",
+  "passive": "12",
+  "languages": "any two languages",
+  "cr": "1/8",
+  "action": [
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 5 (1d8 + 1) piercing damage."
+      ],
+      "attack": [
+        "Rapier|+3|1d8+1"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "Niles adds 2 to its AC against one melee attack that would hit it. To do so, Niles must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 47"
+}

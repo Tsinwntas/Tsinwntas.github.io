@@ -1,0 +1,15 @@
+{
+  "name": "Giant Slayer Double-Bladed Scimitar",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "S,2H,M",
+  "dmg1": "2d4",
+  "dmgType": "S",
+  "text": "Special: If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.\nYou gain a +1 bonus to attack and damage rolls made with this magic weapon.\nWhen you hit a giant with it, the giant takes an extra 2d6 damage of the weapon's type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, \"giant\" refers to any creature with the giant type, including ettins and trolls.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 172, Wayfinder's Guide to Eberron p. 74",
+  "roll": [
+    "1d4",
+    "2d4",
+    "2d6"
+  ]
+}

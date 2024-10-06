@@ -1,0 +1,47 @@
+{
+  "name": "Skyweaver",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Chaotic Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "44 (8d8+8)",
+  "speed": "walk 30 ft.",
+  "str": "8",
+  "dex": "14",
+  "con": "12",
+  "int": "11",
+  "wis": "10",
+  "cha": "16",
+  "skill": "Deception +5, Persuasion +5",
+  "passive": "10",
+  "languages": "Auran, Common",
+  "cr": "3",
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 3 (1d4 + 1) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+4|1d4+1"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The Skyweaver is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:",
+        "Cantrips (at will): blade ward, light, message, ray of frost, shocking grasp",
+        "• 1st level (4 slots): feather fall, mage armor, witch bolt",
+        "• 2nd level (3 slots): gust of wind, invisibility",
+        "• 3rd level (3 slots): fly, lightning bolt"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3"
+  ],
+  "spells": "blade ward, light, message, ray of frost, shocking grasp, feather fall, mage armor, witch bolt, gust of wind, invisibility, fly, lightning bolt",
+  "description": "Skyweavers brim with rage and desire, which makes them perfect vessels for the wildly destructive magic of the Cult of the Howling Hatred. In contrast to their hurricane counterparts in the air cult, skyweavers embrace the worship of Elemental Evil for a quick path to power. With little experience wielding the might of the elements, skyweavers thrill with the rush of releasing raw elemental energy.\nSource: Princes of the Apocalypse p. 191"
+}

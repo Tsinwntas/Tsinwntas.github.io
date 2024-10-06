@@ -1,0 +1,77 @@
+{
+  "name": "Mahoru",
+  "size": "L",
+  "type": "monstrosity,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "91 (14d8+28)",
+  "speed": "10 ft., swim 60 ft.",
+  "str": "18",
+  "dex": "19",
+  "con": "14",
+  "int": "3",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3, Stealth +6",
+  "senses": "darkvision 60 ft.",
+  "passive": "13",
+  "languages": "-",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The mahoru can breathe air and water."
+      ]
+    },
+    {
+      "name": "Keen Sight and Smell",
+      "text": [
+        "The mahoru has advantage on Wisdom (Perception) checks that rely on sight or smell."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The mahoru has advantage on attack rolls against a creature if at least one of the mahoru's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The mahoru has advantage on melee attack rolls against any creature that isn't at maximum hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 20 (3d10 + 4) slashing damage."
+      ],
+      "attack": [
+        "Bite|6|3d10+4"
+      ]
+    },
+    {
+      "name": "Roar",
+      "text": [
+        "When a mahoru roars all creatures with hearing within 30 feet of it must succeed on a DC 14 Wisdom saving throw or become frightened until the end of the mahoru's next turn. If the target fails the saving throw by 5 or more, it's also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Roar of all mahoru for the next 24 hours."
+      ]
+    },
+    {
+      "name": "Vorpal Bite",
+      "text": [
+        "A mahoru's saw-like jaws are excel at dismembering prey. When the mahoru scores a critical hit, the target must succeed on a DC 14 Strength saving throw or lose an appendage. Roll on the following table for the result:",
+        "1-2: right hand",
+        "3-4: left hand",
+        "5-6: right food",
+        "7-8: left foot",
+        "9: right forearm",
+        "10: left forearm",
+        "11: right lower leg",
+        "12: left lower leg"
+      ]
+    }
+  ]
+}

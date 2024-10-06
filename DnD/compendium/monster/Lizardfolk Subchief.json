@@ -1,0 +1,63 @@
+{
+  "name": "Lizardfolk Subchief",
+  "size": "M",
+  "type": "humanoid (lizardfolk)",
+  "alignment": "Neutral",
+  "ac": "14 (natural armor)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "14",
+  "dex": "12",
+  "con": "14",
+  "int": "10",
+  "wis": "16",
+  "cha": "12",
+  "save": "Wis +5",
+  "skill": "Athletics +4, Perception +5, Survival +5",
+  "passive": "15",
+  "languages": "Draconic",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The subchief can hold its breath for 15 minutes."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The subchief is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, spare the dying, thaumaturgy",
+        "• 1st level (4 slots): command, guiding bolt, purify food and drink",
+        "• 2nd level (3 slots): hold person, lesser restoration, silence",
+        "• 3rd level (2 slots): bestow curse, dispel magic"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Tooth Dagger",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Tooth Dagger|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Jaws of Semuanya (Recharge 5-6)",
+      "text": [
+        "The subchief invokes the primal magic of Semuanya, summoning a spectral maw around a target it can see within 60 feet of it. The target must make a DC 13 Dexterity saving throw, taking 22 (5d8) piercing damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw is also frightened until the end of its next turn."
+      ],
+      "attack": [
+        "Jaws of Semuanya (Recharge 5-6)||5d8"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "light, sacred flame, spare the dying, thaumaturgy, command, guiding bolt, purify food and drink, hold person, lesser restoration, silence, bestow curse, dispel magic",
+  "description": "The lizardfolk subchief (seen in Danger at Dunwater) is a devout priest of Semuanya, pursuing the worship of its god in a manner similar to a cleric. It wields a dagger crafted of a massive crocodile tooth blessed by Semuanya, representing the subchief's prowess in both battle and piety.\nSource: Ghosts of Saltmarsh p. 242, Essentials Kit: Storm Lord's Wrath"
+}

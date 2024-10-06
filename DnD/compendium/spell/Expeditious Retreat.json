@@ -1,0 +1,12 @@
+{
+  "name": "Expeditious Retreat",
+  "level": "1",
+  "school": "T",
+  "ritual": "NO",
+  "time": "1 bonus action",
+  "range": "Self",
+  "components": "V, S",
+  "duration": "Concentration, up to 10 minutes",
+  "classes": "Sorcerer, Warlock, Wizard, Artificer, Artificer, Artificer (UA), Artificer (Revisited) (UA), Paladin (Heroism (UA)), Paladin (Treachery (UA))",
+  "text": "This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.\nSource: Player's Handbook p. 238"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Young Winter Wolf",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "37 (5d10+10)",
+  "speed": "walk 50 ft.",
+  "str": "17",
+  "dex": "15",
+  "con": "15",
+  "int": "3",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3, Stealth +4",
+  "passive": "13",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Keen Hearing and Smell",
+      "text": [
+        "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Bite|+5|2d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 181",
+  "environment": "forest, hill"
+}

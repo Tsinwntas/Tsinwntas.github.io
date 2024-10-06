@@ -1,0 +1,71 @@
+{
+  "name": "Hundred-Handed One",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Lawful Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "243 (18d12+126)",
+  "speed": "walk 40 ft.",
+  "str": "26",
+  "dex": "15",
+  "con": "25",
+  "int": "14",
+  "wis": "16",
+  "cha": "16",
+  "save": "Con +12, Wis +8",
+  "skill": "Intimidation +8, Perception +8",
+  "passive": "18",
+  "languages": "Giant",
+  "cr": "15",
+  "conditionImmune": "frightened",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Reactive",
+      "text": [
+        "The giant can take one reaction on every turn in a combat."
+      ]
+    },
+    {
+      "name": "Vigilant",
+      "text": [
+        "The giant can't be surprised."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The giant makes four longsword attacks or two rock attacks."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. 21 (3d8 + 8) slashing damage."
+      ],
+      "attack": [
+        "Longsword|+13|3d8+8"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +13 to hit, range 60/240 ft., one target. 30 (4d10 + 8) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Rock|+13|4d10+8"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Deflect Attack",
+      "text": [
+        "The giant adds 5 to its AC against one weapon attack that would hit it. To do so, the giant must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "description": "Extra pairs of arms magically orbit the bodies of the titanic, nearly forgotten artisans known as hundred-handed ones. These giants often dwell in remote mountains and seaside cliffs, where they carve their memories into the ancient stone, covering their territories with intricate reliefs and massive statues of bygone ages. Some linger near ancient temples and palaces, ruins they once raised to the gods or archons of old.\nSource: Mythic Odysseys of Theros p. 225"
+}

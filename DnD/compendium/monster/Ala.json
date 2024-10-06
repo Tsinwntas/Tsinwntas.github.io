@@ -1,0 +1,74 @@
+{
+  "name": "Ala",
+  "size": "M",
+  "type": "fey,tome of Beasts",
+  "alignment": "chaotic evil",
+  "ac": "17 (natural armor)",
+  "hp": "127 (15d8+60)",
+  "speed": "30 ft., fly 40 ft.",
+  "str": "20",
+  "dex": "16",
+  "con": "18",
+  "int": "10",
+  "wis": "16",
+  "cha": "8",
+  "skill": "Athletics +8, Perception +9, Stealth +6",
+  "immune": "lightning, poison, thunder",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "19",
+  "languages": " Common, Draconic",
+  "cr": "8",
+  "trait": [
+    {
+      "name": "Flyby",
+      "text": [
+        "The ala doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Poison Flesh",
+      "text": [
+        "The ala's poison infuses its flesh. A creature that makes a successful bite attack against an ala must make a DC 16 Constitution saving throw; if it fails, the creature takes 10 (3d6) poison damage."
+      ]
+    },
+    {
+      "name": "Storm's Strength",
+      "text": [
+        "If an electrical storm is raging around an ala and its target, the saving throw against Lightning's Kiss is made with disadvantage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ala makes two claw attacks or one claw and one bite attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage, and the target must succeed on a DC 16 saving throw or take 10 (3d6) poison damage."
+      ],
+      "attack": [
+        "Bite|8|1d10+5"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+      ],
+      "attack": [
+        "Claw|8|2d8+5"
+      ]
+    },
+    {
+      "name": "Lightning's Kiss (Recharge 5-6)",
+      "text": [
+        "One target within 50 feet must make a DC 16 Dexterity saving throw. It takes 28 (8d6) lightning damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Buster the Bear",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (hide armor, shield)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "13",
+  "int": "8",
+  "wis": "11",
+  "cha": "9",
+  "skill": "Stealth +6, Survival +2",
+  "passive": "10",
+  "languages": "Common",
+  "cr": "1",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Surprise Attack",
+      "text": [
+        "If Buster the Bear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bashin' Banjo",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Bashin' Banjo|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "Buster the Bear is a lovable, roly-poly teddy bear with a plaid shirt, torn jeans, and a banjo.\nThe five automatons that serve as the tavern's wait staff each have a name tag, are super friendly to the patrons, and attend to everyone's needs until it comes time for the Slaughterfest. If an automaton is attacked before the Slaughterfest, it giggles and repeats folksy homilies until it is destroyed. The next round, it magically pops back to life fully healed, then asks, \"What can I do for ya?\"\nSource: The Lost Dungeon of Rickedness: Big Rick Energy p. 27"
+}

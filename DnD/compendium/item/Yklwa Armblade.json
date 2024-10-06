@@ -1,0 +1,11 @@
+{
+  "name": "Yklwa Armblade",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "T",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "10/30",
+  "text": "A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing.\nAn armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.\nAs a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.\nSource: Eberron: Rising from the Last War p. 276, Wayfinder's Guide to Eberron p. 120"
+}

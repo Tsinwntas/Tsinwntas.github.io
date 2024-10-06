@@ -1,0 +1,58 @@
+{
+  "name": "Hypnos Magen",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "34 (4d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "18",
+  "int": "14",
+  "wis": "10",
+  "cha": "7",
+  "passive": "10",
+  "languages": "understands the languages of its creator but can't speak, telepathy 30 ft.",
+  "cr": "1",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "trait": [
+    {
+      "name": "Fiery End",
+      "text": [
+        "If the magen dies, its body disintegrates in a harmless burst of fire and smoke, leaving behind anything it was wearing or carrying."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The magen has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Unusual Nature",
+      "text": [
+        "The magen doesn't require air, food, drink, or sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Psychic Lash",
+      "text": [
+        "The magen's eyes glow silver as it targets one creature that it can see within 60 feet of it. The target must succeed on a DC 12 Wisdom saving throw or take 11 (2d10) psychic damage."
+      ],
+      "attack": [
+        "Psychic Lash||2d10"
+      ]
+    },
+    {
+      "name": "Suggestion",
+      "text": [
+        "The magen casts the suggestion spell (save DC 12), requiring no material components. The target must be a creature that the magen can communicate with telepathically. If it succeeds on its saving throw, the target is immune to this magen's suggestion spell for the next 24 hours. The magen's spellcasting ability is Intelligence."
+      ]
+    }
+  ],
+  "description": "Hypnos magen are telepathic and use their power of suggestion to control others. Their creators use them to force enemies to withdraw or surrender.\nA hypnos magen carries no weapons, relying entirely on its psychic abilities to manipulate and harm other creatures.\nMagen are magical, humanlike beings created by a wizard spell (see the create magen spell in appendix D) or by other arcane methods.\nThough magen look like humanoids with green skin, they are constructs. When one is wounded, its blood is seen to have the color and consistency of mercury. They exist purely through magical means. When one is killed, its body disappears in a burst of harmless fire and a cloud of smoke that quickly dissipates.\nSource: Icewind Dale: Rime of the Frostmaiden p. 301"
+}

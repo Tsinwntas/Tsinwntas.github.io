@@ -1,0 +1,61 @@
+{
+  "name": "Child Of Yggdrasil",
+  "size": "L",
+  "type": "aberration",
+  "alignment": "Neutral Evil",
+  "ac": "14 (natural armor)",
+  "hp": "112 (15d10+30)",
+  "speed": "walk 20 ft., climb 20 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "14",
+  "int": "10",
+  "wis": "18",
+  "cha": "8",
+  "skill": "Perception +7, Stealth +3",
+  "passive": "17",
+  "languages": "Common, Giant",
+  "cr": "6",
+  "immune": "acid, cold; bludgeoning from nonmagical weapons",
+  "vulnerable": "fire",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Acid Touch",
+      "text": [
+        "As an action, the child of Yggdrasil destroys one nonmagical object that isn't being worn or carried, such as a rope, plank, candlestick, or even an entire bronze cauldron."
+      ]
+    },
+    {
+      "name": "Forest Camouflage",
+      "text": [
+        "The child of Yggdrasil has advantage on Dexterity (Stealth) checks made to hide in forest terrain."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The child of Yggdrasil has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The child of Yggdrasil makes three claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 7 (1d8 + 3) slashing damage plus 7 (2d6) acid damage."
+      ],
+      "attack": [
+        "Claw|6|1d8+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "forest"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Darathra Shendrel–Storm King's Thunder",
+  "size": "M",
+  "type": "humanoid (Chondathanhuman)",
+  "alignment": "Lawful Good",
+  "ac": "14 (breastplate)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "11",
+  "con": "14",
+  "int": "11",
+  "wis": "11",
+  "cha": "15",
+  "skill": "History +2, Intimidation +4, Investigation +2, Perception +2, Persuasion +4",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Brave",
+      "text": [
+        "Darathra has advantage on saving throws against being frightened"
+      ]
+    },
+    {
+      "name": "Roleplaying Information",
+      "text": [
+        "As the Lord Protector of Triboar and a secret agent of the Harpers, Darathra has sworn an oath to defend the town. She takes her duty very seriously. In addition to her gear, Darathra has an unarmored warhorse named Buster.",
+        "Ideal: \"Good people should be given every chance to prosper, free of tyranny.\"",
+        "Bond: \"I'll lay down my life to protect Triboar and its citizens.\"",
+        "Flaw: \"I refuse to back down. Push me, and I'll push back.\""
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Darthra makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage"
+      ],
+      "attack": [
+        "Greatsword|+5|2d6+3"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage. Darathra carries twenty crossbow bolts."
+      ],
+      "attack": [
+        "Heavy Crossbow|+2|1d10"
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 253"
+}

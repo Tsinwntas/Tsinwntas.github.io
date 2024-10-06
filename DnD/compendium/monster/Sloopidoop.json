@@ -1,0 +1,90 @@
+{
+  "name": "Sloopidoop",
+  "size": "M",
+  "type": "humanoid (kuo-toa)",
+  "alignment": "Neutral Evil",
+  "ac": "13 (natural armor)",
+  "hp": "97 (13d8+39)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "16",
+  "int": "13",
+  "wis": "16",
+  "cha": "14",
+  "skill": "Perception +9, Religion +7",
+  "passive": "19",
+  "languages": "Undercommon",
+  "cr": "6",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Sloopidoop can breathe air and water."
+      ]
+    },
+    {
+      "name": "Otherworldly Perception",
+      "text": [
+        "Sloopidoop can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving."
+      ]
+    },
+    {
+      "name": "Slippery",
+      "text": [
+        "Sloopidoop has advantage on ability checks and saving throws made to escape a grapple."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Sloopidoop has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Sloopidoop is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). Sloopidoop has the following cleric spells prepared:",
+        "Cantrips (at will): guidance, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): detect magic, sanctuary, shield of faith",
+        "• 2nd level (3 slots): hold person, spiritual weapon",
+        "• 3rd level (3 slots): spirit guardians, tongues",
+        "• 4th level (3 slots): control water, divination",
+        "• 5th level (2 slots): mass cure wounds, scrying"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Sloopidoop makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Scepter",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage plus 14 (4d6) lightning damage."
+      ],
+      "attack": [
+        "Scepter|+6|1d6+3"
+      ]
+    },
+    {
+      "name": "Unarmed Strike",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 5 (1d4 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Unarmed Strike|+6|1d4+3"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2"
+  ],
+  "spells": "guidance, sacred flame, thaumaturgy, detect magic, sanctuary, shield of faith, hold person, spiritual weapon, spirit guardians, tongues, control water, divination, mass cure wounds, scrying",
+  "description": "\nSource: Out of the Abyss p. 29",
+  "environment": "underdark"
+}

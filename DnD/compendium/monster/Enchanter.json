@@ -1,0 +1,80 @@
+{
+  "name": "Enchanter",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Any alignment",
+  "ac": "12 (15 with mage armor)",
+  "hp": "58 (13d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "10",
+  "int": "19",
+  "wis": "13",
+  "cha": "19",
+  "save": "Int +7, Cha +7",
+  "skill": "Arcana +7, History +7, Perception +4",
+  "passive": "14",
+  "languages": "Common, Elvish, Sylvan",
+  "cr": "7",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "The enchanter has advantage on saving throws against being charmed, and magic can't put the enchanter to sleep."
+      ]
+    },
+    {
+      "name": "Reach Of The Fey",
+      "text": [
+        "When the enchanter casts an enchantment spell of 1st level or higher that targets only one creature, the enchanter can choose to target all creatures within 10 feet of the target instead."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The enchanter is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The enchanter has the following Wizard spells prepared:",
+        "Cantrips (at will): dancing lights, friends, @spell mage hand}, message, prestidigitation",
+        "• 1st level (4 slots): charm person*, hideous laughter*, magic missile",
+        "• 2nd level (3 slots): {@spell hold person*, invisibility, suggestion*",
+        "• 3rd level (3 slots): hypnotic pattern, lightning bolt",
+        "• 4th level (3 slots): confusion*, conjure minor elementals",
+        "• 5th level (2 slots): dominate person*, hold monster, *, modify memory*",
+        "• 6th level (1 slots): irresistible dance*, chain lightning",
+        "• 7th level (1 slots): prismatic spray *"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|5|1d4+2"
+      ]
+    },
+    {
+      "name": "Captivating Gaze",
+      "text": [
+        "The enchanter targets a creature within 30 feet of it who can see or hear the enchanter. The target must succeed on a DC 15 Wisdom saving throw or be charmed for 1 minute. The charmed target's speed is reduced to 0, it is incapacitated, and it must spend each round looking at the enchanter. While looking at the enchanter, the charmed target is considered blinded to other creatures not between it and the enchanter. The charmed target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the charmed target takes damage from one of the enchanter's allies, it has advantage on the next saving throw.",
+        "The effect also ends if the creature can no longer see or hear the enchanter. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the enchanter's Captivating Gaze for the next 24 hours."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Beguiling Parry (Recharge 4-6)",
+      "text": [
+        "When a creature within 30 feet that the enchanter can see targets it with an attack, the enchanter can stop the attacker with a glance. The attacker must succeed on a DC 15 Charisma saving throw or immediately stop the attack. The attacker can't attack the enchanter again until the start of its next turn."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1, 1"
+  ],
+  "spells": "{@spell dancing lights, {@spell friends, @spell mage hand, {@spell message, {@spell prestidigitation, {@spell charm person, {@spell hideous laughter, {@spell magic missile, {@spell hold person, {@spell invisibility, {@spell suggestion, {@spell hypnotic pattern, {@spell lightning bolt, {@spell confusion, {@spell conjure minor elementals, {@spell dominate person, {@spell hold monster, , {@spell modify memory, {@spell irresistible dance, {@spell chain lightning, {@spell prismatic spray",
+  "description": "Source: CCodex (3pp)"
+}

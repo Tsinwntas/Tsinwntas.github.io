@@ -1,0 +1,19 @@
+{
+  "name": "Fractal Golem",
+  "size": "L",
+  "type": "construct (golem)",
+  "alignment": "Unaligned",
+  "ac": "18 (natural armor)",
+  "hp": "8 (1d10+3)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "16",
+  "int": "6",
+  "wis": "8",
+  "cha": "1",
+  "skill": "Perception +2, Stealth +4, Survival +5",
+  "passive": "12",
+  "languages": "Understands the languages of its creator but can't speak",
+  "cr": "8"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Ghast Of Leng",
+  "size": "L",
+  "type": "aberration",
+  "alignment": "Neutral Evil",
+  "ac": "14 (natural armor)",
+  "hp": "127 (17d10+34)",
+  "speed": "walk 40 ft.",
+  "str": "15",
+  "dex": "17",
+  "con": "14",
+  "int": "4",
+  "wis": "9",
+  "cha": "6",
+  "save": "Con +4, Wis +1",
+  "skill": "Perception +1",
+  "passive": "11",
+  "cr": "3",
+  "resist": "cold",
+  "vulnerable": "radiant",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The ghast of Leng has advantage on melee attack rolls against any creature that doesn't have all its hp."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The ghast of Leng has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Sunlight Hypersensitivity",
+      "text": [
+        "The ghast of Leng takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claws|5|2d6+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

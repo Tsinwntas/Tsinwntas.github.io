@@ -1,0 +1,156 @@
+{
+  "name": "Bat King",
+  "size": "S",
+  "type": "fey (shapechanger, animal lord)",
+  "alignment": "Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "150 (20d6+80)",
+  "speed": "walk 30 ft., fly 50 ft.",
+  "str": "16",
+  "dex": "20",
+  "con": "19",
+  "int": "19",
+  "wis": "17",
+  "cha": "16",
+  "save": "Dex +10, Con +9, Wis +8, Cha +8",
+  "skill": "Acrobatics +15, Arcana +14, Deception +8, History +14, Nature +14, Perception +8, Stealth +15, Survival +8",
+  "passive": "18",
+  "languages": "All, telepathy 120 ft.",
+  "cr": "13",
+  "resist": "lightning; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison, psychic, thunder",
+  "conditionImmune": "charmed, exhaustion, frightened, incapacitated, poisoned, stunned",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Bat Passivism",
+      "text": [
+        "No bats or werebats can willingly attack the Bat King. They can be forced to do so through magical means."
+      ]
+    },
+    {
+      "name": "Keen Hearing",
+      "text": [
+        "The Bat King has advantage on Wisdom (Perception) checks that rely on hearing."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If the Bat King fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The Bat King has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The Bat King's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "text": [
+        "If he dies, the Bat King's soul reforms on the Astral Plane. In 1d6 days, it inhabits the body of another bat on the Material Plane which becomes the Bat King with all of the hp and abilities thereof. Only killing every bat on the Material Plane will prevent this trait from functioning."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The Bat King can use his action to polymorph into a Medium dark-skinned, bearded human man of slight stature, into a Medium bat-humanoid hybrid, or back into his true Small bat form. His statistics, other than his size, are the same in each form with the exception that only the Bat King's hybrid and bat forms retain his flying speed. Any equipment he is wearing or carrying transforms with him."
+      ]
+    },
+    {
+      "name": "Speak To Bats",
+      "text": [
+        "The Bat King can communicate with bats as if they shared a language."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The bat king's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:",
+        "At will: pass without trace, shatter, thunderwave",
+        "3/day each: darkness, scrying",
+        "2/day each: etherealness, freedom of movement",
+        "1/day each: astral projection, teleport"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The Bat King makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Blood Bite (Bat or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 22 (5d6 + 5) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebat lycanthropy."
+      ],
+      "attack": [
+        "Blood Bite (Bat or Hybrid Form Only)|10|5d6+5"
+      ]
+    },
+    {
+      "name": "Oblivion's Mace (Humanoid or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 15 (4d4 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Oblivion's Mace (Humanoid or Hybrid Form Only)|10|4d4+5"
+      ]
+    },
+    {
+      "name": "Screech (Recharge 5-6)",
+      "text": [
+        "The Bat King lets loose an ear-shattering screech in a 20-foot cone. Each creature in that area that can hear the screech must make a DC 18 Constitution saving throw.",
+        "On a failure, the creature takes 33 (6d10) thunder damage and is deafened for 1 minute. On a success, the creature takes half the thunder damage but isn't deafened. This attack deals double damage to objects and structures."
+      ]
+    },
+    {
+      "name": "Summon Bats (2/Day)",
+      "text": [
+        "The Bat King magically calls 2d4 swarms of bats. In an urban environment, he can call 1 werebat (see page 258) instead. The called creatures arrive in 1d4 rounds, acting as allies of the Bat King and obeying his spoken commands. The creatures remain for 1 hour, until the Bat King dies, or until the Bat King dismisses them as a bonus action."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fey (shapechanger, animal lord) can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fey (shapechanger, animal lord) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The Bat King can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Bat King regains spent legendary action at the start of his turn."
+      ]
+    },
+    {
+      "name": "At Will Spell",
+      "text": [
+        "The Bat King casts one of his at will spells."
+      ]
+    },
+    {
+      "name": "Detect",
+      "text": [
+        "The Bat King makes a Wisdom (Perception) check."
+      ]
+    },
+    {
+      "name": "Flight (Bat or Hybrid Form Only)",
+      "text": [
+        "The Bat King flies up to his flying speed without provoking opportunity attacks."
+      ]
+    }
+  ],
+  "spells": "pass without trace, shatter, thunderwave, darkness, scrying, etherealness, freedom of movement, astral projection, teleport",
+  "description": "Source: CCodex (3pp) p. 22"
+}

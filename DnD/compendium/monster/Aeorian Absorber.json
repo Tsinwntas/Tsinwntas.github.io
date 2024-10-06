@@ -1,0 +1,80 @@
+{
+  "name": "Aeorian Absorber",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Neutral Evil",
+  "ac": "15 (natural armor)",
+  "hp": "171 (18d10+72)",
+  "speed": "walk 40 ft.",
+  "str": "21",
+  "dex": "18",
+  "con": "18",
+  "int": "6",
+  "wis": "14",
+  "cha": "8",
+  "save": "Wis +6, Cha +3",
+  "skill": "Perception +6, Stealth +8, Survival +6",
+  "passive": "16",
+  "languages": "understands Draconic but can't speak",
+  "cr": "10",
+  "immune": "necrotic, radiant",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The absorber has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Pounce",
+      "text": [
+        "If the absorber moves at least 20 feet straight toward a creature and then hits its claws attack on the same turn, that target must succeed on a DC 17 Strength saving throw or be knocked prone. If the target is prone, the absorber can make one bite attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The absorber makes three attacks: one with its bite or Mind Bolt and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. 10 (1d10 + 5) piercing damage plus 5 (1d10) force damage."
+      ],
+      "attack": [
+        "Bite|+9|1d10+5"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 8 (1d6 + 5) slashing damage plus 3 (1d6) force damage."
+      ],
+      "attack": [
+        "Claws|+9|1d6+5"
+      ]
+    },
+    {
+      "name": "Mind Bolt",
+      "text": [
+        "Ranged Spell Attack: +8 to hit, range 120 ft., one creature. 22 (4d10) psychic damage."
+      ],
+      "attack": [
+        "Mind Bolt|+8|4d10"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Tail Ray",
+      "text": [
+        "When the absorber takes damage from a spell, the absorber takes only half the triggering damage. If the spellcaster is within 60 feet of the absorber, the absorber can force the caster to make a DC 16 Dexterity saving throw. Unless the save succeeds, the caster takes the other half of the damage."
+      ]
+    }
+  ],
+  "description": "Resembling some sort of canine or feline quadruped at a distance, the absorber's monstrous nature becomes quickly apparent as it closes in. Named for its ability to draw magical energy into its body, the absorber can release that energy in devastating blasts through its tail, whose eye is constantly on the lookout for prey.\nCreated by Experimentation\nAeorian hunters were created through arcane experimentation on beasts and humanoids—both captives and volunteers. These experiments resulted in monstrosities with brightly colored flesh and the power to resist and destroy Aeor's enemies. It is theorized that the mages of Aeor must have possessed some means of controlling their monstrous soldiers, but no such device has yet been found in the wastes of Eiselcross. Draconic was the language used by these mages to train and bind the Aeorian hunters, and the hunters retain an understanding of this language even though they can't speak it.\nMadness through Immortality. Aeorian hunters do not age. As such, the lust for violence their creators instilled in their minds has grown ravenous after centuries without war. Most immediately attack any creature they see.\nNever Harm Another Hunter. Though they crave violence, Aeorian hunters have never been seen attacking each other. Most scholars believe that Aeor's mages must have enchanted this behavior into them, given the cost in gold and magic required to create each hunter. Some adventurers in Eiselcross boast about sneaking past Aeorian hunters using disguises or illusions to mimic a hunter's form, but these are most likely tall tales.\nAgeless Memories. Each Aeorian hunter has perfect recall of every experience since the moment of its creation. Their limited intellects and desire for violence prevent them from effectively communicating, but each hunter holds a wealth of knowledge—often including the location of rare Aeorian relics—inside its mind.\nPerfect Soldiers. Aeorian hunters don't require food or drink.\nSource: Explorer's Guide to Wildemount p. 283"
+}

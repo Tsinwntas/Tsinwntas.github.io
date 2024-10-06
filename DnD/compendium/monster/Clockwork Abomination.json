@@ -1,0 +1,82 @@
+{
+  "name": "Clockwork Abomination",
+  "size": "L",
+  "type": "construct (devil),tome of Beasts",
+  "alignment": "lawful evil",
+  "ac": "16 (natural armor)",
+  "hp": "76 (8d10+32)",
+  "speed": "30 ft., climb 30 ft.",
+  "str": "21",
+  "dex": "12",
+  "con": "18",
+  "int": "10",
+  "wis": "10",
+  "cha": "12",
+  "save": "Dex +4, Con +7",
+  "skill": "Athletics +9, Perception +4, Stealth +4",
+  "resist": "acid, cold, fire; bludgeoning, piercing, and slashing from nonmagical weapons",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "13",
+  "languages": " Common, Infernal",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Additional Legs",
+      "text": [
+        "Four legs allow the clockwork abomination to climb at a speed equal to its base speed and to ignore difficult terrain."
+      ]
+    },
+    {
+      "name": "Piston Reach",
+      "text": [
+        "The abomination's melee attacks have a deceptively long reach thanks to the pistons powering them."
+      ]
+    },
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The clockwork abomination is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Infernal Power Source",
+      "text": [
+        "When a clockwork abomination falls to 0 hp, its infernal battery explodes. Creatures within 10 feet of the clockwork abomination take 14 (4d6) fire damage, or half damage with a successful DC 14 Dexterity saving throw."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The clockwork abomination makes one bite attack and one slam attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage."
+      ],
+      "attack": [
+        "Bite|9|2d8+6"
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 13 (2d6 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|9|2d6+6"
+      ]
+    },
+    {
+      "name": "Breath Weapon (Recharge 5-6)",
+      "text": [
+        "The clockwork abomination's Infernal Power Source allows it to breathe fire in a 20-foot cone. Targets in this cone take 22 (4d10) fire damage, or half damage with a successful DC 14 Dexterity saving throw."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Thief Lord",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Lawful Evil",
+  "ac": "17 (Glamoured studded leather armor)",
+  "hp": "66 (12d8+12)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "18",
+  "con": "12",
+  "int": "14",
+  "wis": "14",
+  "cha": "16",
+  "save": "Dex +7, Int +5",
+  "skill": "Acrobatics +7, Deception +9, Investigation +5, Perception +5, Persuasion +6, Stealth +10",
+  "passive": "15",
+  "languages": "Thieves' cant",
+  "cr": "8",
+  "resist": "poison",
+  "trait": [
+    {
+      "name": "Cunning Action",
+      "text": [
+        "On each of its turns, the thief lord can use a bonus action to take the Dash, Disengage, or Hide action."
+      ]
+    },
+    {
+      "name": "Evasion",
+      "text": [
+        "If the thief lord is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief lord instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      ]
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "text": [
+        "The thief lord deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief lord that isn't incapacitated and the thief lord doesn't have disadvantage on the attack roll."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The thief lord makes two attacks with its rapier."
+      ]
+    },
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) piercing damage and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Rapier|7|1d8+4"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow|7|1d6+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Protect Me",
+      "text": [
+        "When a creature the thief lord can see targets it with an attack, the thief lord can sidestep behind an ally within 5 feet of it, moving to an unoccupied space within 5 feet of the ally.",
+        "The chosen ally becomes the target of the attack instead."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

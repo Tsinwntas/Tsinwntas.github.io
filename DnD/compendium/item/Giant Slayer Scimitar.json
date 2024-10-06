@@ -1,0 +1,13 @@
+{
+  "name": "Giant Slayer Scimitar",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "F,L,M",
+  "dmg1": "1d6",
+  "dmgType": "S",
+  "text": "You gain a +1 bonus to attack and damage rolls made with this magic weapon.\nWhen you hit a giant with it, the giant takes an extra 2d6 damage of the weapon's type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, \"giant\" refers to any creature with the giant type, including ettins and trolls.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 172",
+  "roll": [
+    "2d6"
+  ]
+}

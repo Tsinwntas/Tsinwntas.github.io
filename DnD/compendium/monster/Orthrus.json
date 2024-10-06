@@ -1,0 +1,63 @@
+{
+  "name": "Orthrus",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Lawful Neutral",
+  "ac": "13",
+  "hp": "60 (8d8+24)",
+  "speed": "walk 40 ft.",
+  "str": "15",
+  "dex": "16",
+  "con": "16",
+  "int": "8",
+  "wis": "12",
+  "cha": "7",
+  "save": "Wis +3",
+  "skill": "Perception +5, Survival +3",
+  "passive": "15",
+  "languages": "Understands Common but can't speak",
+  "cr": "3",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Three-headed",
+      "text": [
+        "The orthrus has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious."
+      ]
+    },
+    {
+      "name": "Wakeful",
+      "text": [
+        "While the orthrus sleeps, at least one of its heads is awake."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The orthrus makes three bite attacks. two with its canine heads and one with its snake head. If the orthrus bites the same creature with both of its canine heads in the same round, that creature must succeed on a DC 12 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Bite (Canine Head)",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite (Canine Head)|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Bite (Snake Head)",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw. On a failed save, it takes 14 (4d6) poison damage and is poisoned for 1 minute.",
+        "On a success, it takes half the damage and isn't poisoned."
+      ],
+      "attack": [
+        "Bite (Snake Head)|5|1d4+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

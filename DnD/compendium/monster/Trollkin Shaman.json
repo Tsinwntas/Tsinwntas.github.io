@@ -1,0 +1,71 @@
+{
+  "name": "Trollkin Shaman",
+  "size": "M",
+  "type": "humanoid (trollkin)",
+  "alignment": "Neutral",
+  "ac": "14 (hide armor)",
+  "hp": "78 (12d8+24)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "13",
+  "con": "14",
+  "int": "10",
+  "wis": "16",
+  "cha": "12",
+  "skill": "Arcana +2, Nature +2, Perception +5",
+  "passive": "15",
+  "languages": "Common",
+  "cr": "4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Regeneration",
+      "text": [
+        "The trollkin shaman regains 5 hp at the start of its turn. If the shaman takes acid or fire damage, this trait doesn't function at the start of the shaman's next turn. The shaman dies only if it starts its turn with 0 hp and doesn't regenerate."
+      ]
+    },
+    {
+      "name": "Thick Hide",
+      "text": [
+        "The trollkin shaman's skin is thick and tough, granting it a +1 bonus to Armor Class. This bonus is already factored into the trollkin's AC."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The trollkin shaman is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The trollkin shaman has the following Druid spells prepared:",
+        "Cantrips (at will): druidcraft, produce flame, shillelagh",
+        "• 1st level (4 slots): cure wounds, entangle, faerie fire, thunderwave",
+        "• 2nd level (3 slots): flaming sphere, hold person",
+        "• 3rd level (3 slots): dispel magic, meld into stone, sleet storm",
+        "• 4th level (2 slots): dominate beast, grasping vine"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The trollkin shaman makes two staff attacks."
+      ]
+    },
+    {
+      "name": "Staff",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit.",
+        "5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if used with two hands."
+      ]
+    },
+    {
+      "name": "Inspire Ferocity (1/Day)",
+      "text": [
+        "The trollkin shaman inspires ferocity in up to three trollkin it can see. Those trollkin have advantage on attack rolls and saving throws until the end of the shaman's next turn and gain 10 temporary hp."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 2"
+  ],
+  "spells": "druidcraft, produce flame, shillelagh, cure wounds, entangle, faerie fire, thunderwave, flaming sphere, hold person, dispel magic, meld into stone, sleet storm, dominate beast, grasping vine",
+  "description": "Source: CCodex (3pp) p. 357"
+}

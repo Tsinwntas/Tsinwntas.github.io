@@ -1,0 +1,41 @@
+{
+  "name": "Indentured Spirit",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Any alignment",
+  "ac": "11",
+  "hp": "13 (3d8)",
+  "speed": "walk 0 ft., fly 40 ft.",
+  "str": "7",
+  "dex": "13",
+  "con": "10",
+  "int": "10",
+  "wis": "12",
+  "cha": "11",
+  "passive": "11",
+  "languages": "the languages it knew in life",
+  "cr": "1",
+  "resist": "acid, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "cold, necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "trait": [
+    {
+      "name": "Incorporeal Movement",
+      "text": [
+        "The spirit can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Withering Touch",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 10 (3d6) necrotic damage."
+      ],
+      "attack": [
+        "Withering Touch|+3|3d6"
+      ]
+    }
+  ],
+  "description": "Those who die with unpaid debts to the Orzhov Syndicate don't get a reprieve. Instead, their spirits serve the syndicate until they have worked off their obligation. Sometimes that means existing as an indentured spirit for years or even millennia.\nAn indentured spirit is an incorporeal being draped in ghostly black robes and a hood that hides whatever face it might have. Chains are hung around its chest and arms as a perpetual marker of its servitude.\nSource: Guildmasters' Guide to Ravnica p. 206"
+}

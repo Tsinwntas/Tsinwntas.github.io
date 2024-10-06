@@ -1,0 +1,82 @@
+{
+  "name": "Ouroban",
+  "size": "M",
+  "type": "humanoid (dragonborn)",
+  "alignment": "Neutral Evil",
+  "ac": "18 (plate armor)",
+  "hp": "209 (38d8+38)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "13",
+  "int": "12",
+  "wis": "12",
+  "cha": "18",
+  "save": "Wis +5, Cha +8",
+  "skill": "Athletics +8, Intimidation +8",
+  "passive": "11",
+  "languages": "Common, Draconic",
+  "cr": "11",
+  "immune": "fire",
+  "conditionImmune": "poisoned",
+  "trait": [
+    {
+      "name": "Fire Breath (Recharges after a Short or Long Rest)",
+      "text": [
+        "Devastate (Recharge 5?6). As a bonus action, the ouroban imbues its greatsword with dark power. All of its greatsword attacks do an additional 10 (3d6) necrotic damage per hit until the start of its next turn."
+      ]
+    },
+    {
+      "name": "Fire Absorption",
+      "text": [
+        "Whenever the ouroban is subjected to fire damage, it takes no damage and instead regains a number of hp equal to the fire damage dealt."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The ouroban is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). The ouroban has the following Paladin spells prepared:",
+        "• 1st level (4 slots): command, cure wounds, detect evil and good, detect magic, divine favor (fire damage instead of radiant)",
+        "• 2nd level (3 slots): branding smite, lesser restoration, zone of truth",
+        "• 3rd level (3 slots): dispel magic, elemental weapon",
+        "• 4th level (1 slots): banishment"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ouroban makes three attacks with its greatsword."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage plus 3 (1d6) fire damage.Heavy Crossbow. Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. 9 (1d10 + 4) piercing damage."
+      ],
+      "attack": [
+        "Greatsword|8|2d6+4",
+        "Greatsword|5|1d10+4"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge after a Short or Long Rest)",
+      "text": [
+        "The ouroban exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Abyssal Fires (Recharges after a Short or Long Rest)",
+      "text": [
+        "The ouroban summons green flames under up to five creatures within 30 feet of it. Each target must succeed on a DC 17 Dexterity saving throw or take 18 (4d8) fire damage and be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a success.",
+        "The ouroban has advantage on attack rolls and ability checks against a creature poisoned by its Abyssal Fires."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 1"
+  ],
+  "spells": "command, cure wounds, detect evil and good, detect magic, divine favor, branding smite, lesser restoration, zone of truth, dispel magic, elemental weapon, banishment",
+  "description": "Source: CCodex (3pp)"
+}

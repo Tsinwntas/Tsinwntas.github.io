@@ -1,0 +1,55 @@
+{
+  "name": "Hound Of The Night",
+  "size": "L",
+  "type": "monstrosity,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "16 (natural armor)",
+  "hp": "112 (15d10+30)",
+  "speed": "30 ft.",
+  "str": "20",
+  "dex": "16",
+  "con": "14",
+  "int": "9",
+  "wis": "14",
+  "cha": "10",
+  "save": "Dex +6, Con +5, Wis +5",
+  "skill": "Intimidation +3, Perception +5, Stealth +6",
+  "immune": "cold",
+  "vulnerable": "fire",
+  "senses": "darkvision 60 ft.",
+  "passive": "15",
+  "languages": " understands Elvish and Umbral but can't speak",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Blood Scent",
+      "text": [
+        "A hound of the night can follow a scent through phase shifts, ethereal movement, dimension door, and fey steps of any kind. Teleport and plane shift are beyond their ability to follow."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The hound's innate spellcasting ability is Wisdom (spell save DC 13). It can innately cast the following spells, requiring no material components:",
+        "At will: dimension door"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage, and the target must succeed on a DC 15 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Bite|8|3d10+5"
+      ]
+    },
+    {
+      "name": "Frost Breath (Recharge 5-6)",
+      "text": [
+        "The hound exhales a 15-foot cone of frost. Those in the area of effect take 44 (8d10) cold damage, or half damage with a successful DC 13 Dexterity saving throw."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Bucket",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "2",
+  "value": "0.05",
+  "text": "A bucket holds 3 gallons of liquid or ½ cubic foot of solids.\nSource: Player's Handbook p. 153"
+}

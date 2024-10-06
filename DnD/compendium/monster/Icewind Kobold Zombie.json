@@ -1,0 +1,48 @@
+{
+  "name": "Icewind Kobold Zombie",
+  "size": "S",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "9 (scraps of hide armor)",
+  "hp": "19 (3d6+9)",
+  "speed": "walk 20 ft.",
+  "str": "8",
+  "dex": "6",
+  "con": "16",
+  "int": "3",
+  "wis": "6",
+  "cha": "3",
+  "save": "Wis +0",
+  "passive": "8",
+  "languages": "understands Common and Draconic but can't speak",
+  "cr": "1/8",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Undead Fortitude",
+      "text": [
+        "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+      ]
+    },
+    {
+      "name": "Unusual Nature",
+      "text": [
+        "The zombie doesn't require air, food, drink, or sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 2 (1d6 - 1) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+1|1d6-1"
+      ]
+    }
+  ],
+  "description": "The necromancer Vellynne Harpell has Icewind kobold guides in her employ, including a pair that died and were turned into zombies using animate dead spells. The cold climate helps to preserve their dead flesh.\nSource: Icewind Dale: Rime of the Frostmaiden p. 297"
+}

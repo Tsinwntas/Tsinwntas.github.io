@@ -1,0 +1,8 @@
+{
+  "name": "Drow +1 Studded Leather Armor",
+  "detail": "Light Armor",
+  "type": "LA",
+  "weight": "13",
+  "ac": "12",
+  "text": "Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.\nYou have a +1 bonus to AC while wearing this armor. This armor loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nSource: Monster Manual p. 126"
+}

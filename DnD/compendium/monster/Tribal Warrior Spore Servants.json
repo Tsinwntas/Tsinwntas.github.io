@@ -1,0 +1,31 @@
+{
+  "name": "Tribal Warrior Spore Servants",
+  "size": "M",
+  "type": "plant",
+  "alignment": "Unaligned",
+  "ac": "12 (hide armor)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 20 ft.",
+  "str": "13",
+  "dex": "11",
+  "con": "12",
+  "int": "2",
+  "wis": "6",
+  "cha": "1",
+  "passive": "10",
+  "cr": "1/8",
+  "conditionImmune": "blinded, charmed, frightened, paralyzed",
+  "senses": "blindsight 30 ft. (blind beyond this radius)",
+  "action": [
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Icewind Dale: Rime of the Frostmaiden p. 52"
+}

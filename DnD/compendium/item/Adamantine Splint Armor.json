@@ -1,0 +1,10 @@
+{
+  "name": "Adamantine Splint Armor",
+  "detail": "major, Heavy Armor",
+  "type": "HA",
+  "weight": "60",
+  "ac": "17",
+  "stealth": "1",
+  "strength": "15",
+  "text": "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.\nThis suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 150"
+}

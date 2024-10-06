@@ -1,0 +1,72 @@
+{
+  "name": "Paper Golem Swarm",
+  "size": "M",
+  "type": "construct (golem)",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "55 (10d8+10)",
+  "speed": "walk 20 ft., fly 30 ft.",
+  "str": "8",
+  "dex": "16",
+  "con": "12",
+  "int": "3",
+  "wis": "7",
+  "cha": "3",
+  "passive": "8",
+  "languages": "Understands the languages of its creator but can't speak",
+  "cr": "3",
+  "immune": "poison, psychic; bludgeoning, piercing, slashing from nonmagical weapons that aren't adamantine.",
+  "vulnerable": "fire",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, restrained, stunned",
+  "senses": "darkvision 30 ft.",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "As the paper golem."
+      ]
+    },
+    {
+      "name": "Immutable Form",
+      "text": [
+        "As the paper golem."
+      ]
+    },
+    {
+      "name": "Ink Blot (Recharge 46)",
+      "text": [
+        "As the paper golem, except it can also apply to the swarm's whirlwind."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The paper golem's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "text": [
+        "The swarm can occupy another creature's space and vice versa, and it can move through any opening large enough for a piece of paper. The swarm can't regain hp or gain temporary hp."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Paper Cut",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. 14 (4d6) slashing damage, or 7 (2d6) slashing damage if the swarm has half of its hp or fewer."
+      ],
+      "attack": [
+        "Paper Cut|5|4d6"
+      ]
+    },
+    {
+      "name": "Whirlwind (Recharge 56)",
+      "text": [
+        "The air is momentarily filled with paper golems. Each creature within 5 feet of the swarm must make a DC 13 Dexterity saving throw, taking 7 (2d6) slashing damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

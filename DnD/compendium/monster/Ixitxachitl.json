@@ -1,0 +1,40 @@
+{
+  "name": "Ixitxachitl",
+  "size": "S",
+  "type": "aberration",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "18 (4d6+4)",
+  "speed": "walk 0 ft., swim 30 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "13",
+  "int": "12",
+  "wis": "13",
+  "cha": "7",
+  "passive": "11",
+  "languages": "Abyssal, Ixitxachitl",
+  "cr": "1/4",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) piercing damage."
+      ],
+      "attack": [
+        "Bite|+3|1d6+1"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Barbed Tail",
+      "text": [
+        "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.",
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ]
+    }
+  ],
+  "description": "Ixitxachitl (pronounced ick-zit-zah-chit-ul) are aquatic creatures resembling manta rays, with small, clawed hands at the ends of their \"wings\" and black eyes gleaming with sinister intelligence. Many creatures mistake ixitxachitl for common manta rays, but this can prove a deadly mistake. The ixitxachitl are as evil as they are cunning, leading to their common nickname \"demon rays.\" They inhabit bodies of fresh and salt water, but their violent nature means that little is known of them.\nStruggle for Survival.  Ixitxachitl emerge from eggs as tiny creatures little more than a hand span in width. From that time onward, they struggle to survive at all costs, growing throughout their lives. Those ixitxachitl that master the secrets of survival gain powers of regeneration and feed on the life force of other creatures.\nAll Consuming. Ixitxachitl hollow out coral reefs or other natural aquatic formations to create labyrinthine dens, often compelling aid from captured aquatic species they enslave. They typically strip an area bare before moving on to new fertile grounds, leaving their abandoned dens behind. Schools of ixitxachitl often war on other aquatic creatures to claim feeding grounds and territory.\nDemon Worshipers. The ixitxachitl venerate and serve various demons, particularly Demogorgon, whom they consider their patron and creator. They have an intense rivalry with the merrow over which of them are the greatest and most favored servants of the Prince of Demons.\nVariant: Ixitxachitl Cleric. Some ixitxachitl and vampiric ixitxachitl are able to cast divine spells. Such a creature gains the following feature.\nSpellcasting. The ixitxachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (spell save DC 11, +3 to hit with spell attacks). The ixitxachitl has the following cleric spells prepared:\nCantrips (at will): guidance, thaumaturgy\n1st Level (4 slots): charm person, create or destroy water\n2nd Level (3 slots): hold person, silence\n3rd Level (2 slots): dispel magic, tongues\nSource: Out of the Abyss p. 225"
+}

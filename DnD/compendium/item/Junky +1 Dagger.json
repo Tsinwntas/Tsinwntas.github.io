@@ -1,0 +1,11 @@
+{
+  "name": "Junky +1 Dagger",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "1",
+  "property": "F,L,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "You have a +1 bonus to attack and damage rolls made with this dagger, which looks like junk. When it is used, its grip frays, its blade chips, and it flakes rust. If you get a natural 1 on an attack roll while wielding this weapon, it breaks and becomes nonmagical.\nSource: Tales from the Yawning Portal p. 77"
+}

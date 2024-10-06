@@ -1,0 +1,54 @@
+{
+  "name": "Thug",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "11 (leather armor)",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "11",
+  "con": "14",
+  "int": "10",
+  "wis": "10",
+  "cha": "11",
+  "skill": "Intimidation +2",
+  "passive": "10",
+  "languages": "any one language (usually Common)",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The thug makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Mace",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Mace|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+2|1d10"
+      ]
+    }
+  ],
+  "description": "Thugs are ruthless enforcers skilled at intimidation and violence. They work for money and have few scruples.\nSource: Monster Manual p. 350, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything"
+}

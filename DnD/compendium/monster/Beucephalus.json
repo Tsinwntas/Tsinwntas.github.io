@@ -1,0 +1,51 @@
+{
+  "name": "Beucephalus",
+  "size": "L",
+  "type": "fiend",
+  "alignment": "Neutral Evil",
+  "ac": "13 (natural armor)",
+  "hp": "104 (8d10+24)",
+  "speed": "walk 60 ft., fly 90 ft.",
+  "str": "18",
+  "dex": "15",
+  "con": "16",
+  "int": "10",
+  "wis": "13",
+  "cha": "15",
+  "passive": "11",
+  "languages": "understands Abyssal, Common, and Infernal but can't speak ",
+  "cr": "3",
+  "immune": "fire",
+  "trait": [
+    {
+      "name": "Confer Fire Resistance",
+      "text": [
+        "Beucephalus can grant resistance to fire damage to anyone riding it."
+      ]
+    },
+    {
+      "name": "Illumination",
+      "text": [
+        "Beucephalus sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Hooves",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 13 (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage."
+      ],
+      "attack": [
+        "Hooves|+6|2d8+4"
+      ]
+    },
+    {
+      "name": "Ethereal Stride",
+      "text": [
+        "Beucephalus and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa."
+      ]
+    }
+  ],
+  "description": "\nSource: Curse of Strahd p. 93"
+}

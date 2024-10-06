@@ -1,0 +1,11 @@
+{
+  "name": "Light Repeating Crossbow of Warning",
+  "detail": "major, simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "5",
+  "property": "A,2H",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "40/160",
+  "text": "This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action.\nThis magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.\nFound On: Magic Item Table F\nSource: Dungeon Master's Guide p. 213"
+}

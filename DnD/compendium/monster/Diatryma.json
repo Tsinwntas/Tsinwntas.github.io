@@ -1,0 +1,30 @@
+{
+  "name": "Diatryma",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "19 (3d10+3)",
+  "speed": "walk 50 ft.",
+  "str": "14",
+  "dex": "12",
+  "con": "12",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "passive": "10",
+  "cr": "1/4",
+  "action": [
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage."
+      ],
+      "attack": [
+        "Beak|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dragon Heist p. 191",
+  "environment": "grassland, hill"
+}

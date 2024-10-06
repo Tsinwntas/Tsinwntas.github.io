@@ -1,0 +1,30 @@
+{
+  "name": "Pony",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 40 ft.",
+  "str": "15",
+  "dex": "10",
+  "con": "13",
+  "int": "2",
+  "wis": "11",
+  "cha": "7",
+  "passive": "10",
+  "cr": "1/8",
+  "action": [
+    {
+      "name": "Hooves",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Hooves|+4|2d4+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 335, Storm King's Thunder",
+  "environment": "urban"
+}

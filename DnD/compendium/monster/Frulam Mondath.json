@@ -1,0 +1,54 @@
+{
+  "name": "Frulam Mondath",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "16 (chain mail)",
+  "hp": "44 (8d8+8)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "10",
+  "con": "13",
+  "int": "11",
+  "wis": "18",
+  "cha": "15",
+  "save": "Wis +6, Cha +4",
+  "skill": "Deception +4, History +2, Religion +2",
+  "passive": "14",
+  "languages": "Common, Draconic, Infernal",
+  "cr": "2",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Frulam attacks twice with her halberd."
+      ]
+    },
+    {
+      "name": "Halberd",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. 7 (1d10 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Halberd|+5|1d10+2"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Frulam is a 5th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Frulam has the following spells prepared from the cleric spell list:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): command, cure wounds, healing word, sanctuary",
+        "• 2nd level (3 slots): calm emotions, hold person, spiritual weapon",
+        "• 3rd level (2 slots): mass healing word, spirit guardians"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "light, sacred flame, thaumaturgy, command, cure wounds, healing word, sanctuary, calm emotions, hold person, spiritual weapon, mass healing word, spirit guardians",
+  "description": "\nSource: Hoard of the Dragon Queen p. 90"
+}

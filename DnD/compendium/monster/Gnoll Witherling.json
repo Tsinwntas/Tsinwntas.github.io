@@ -1,0 +1,65 @@
+{
+  "name": "Gnoll Witherling",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Chaotic Evil",
+  "ac": "12 (natural armor)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "8",
+  "con": "12",
+  "int": "5",
+  "wis": "5",
+  "cha": "5",
+  "passive": "7",
+  "languages": "understands Gnoll but can't speak",
+  "cr": "1/4",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Rampage",
+      "text": [
+        "When the witherling reduces a creature to 0 hit points with a melee attack on its turn, it can take a bonus action to move up to half its speed and make a bite attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The witherling makes two attacks: one with its bite and one with its club, or two with its club."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+4|1d4+2"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Vengeful Strike",
+      "text": [
+        "In response to a gnoll being reduced to 0 hit points within 30 feet of the witherling, the witherling makes a melee attack."
+      ]
+    }
+  ],
+  "description": "Sometimes gnolls turn against each other, perhaps to determine who rules a war band or because of extreme starvation. Even under ordinary circumstances, gnolls that are deprived of victims for too long can't control their hunger and violent urges. Eventually, they fight among themselves.\nThe survivors devour the flesh of their slain comrades but preserve the bones. Then, by invoking rituals to Yeenoghu, they bring the remains back to a semblance of life in the form of a gnoll witherling.\nWitherlings act much as gnolls do in life, traveling with their comrades and trying to kill anything in their path. They don't eat and aren't motivated by hunger, leaving more flesh for the rest of the war band. Gnoll witherlings are incapable of wielding any weapon more sophisticated than a simple club.\nUndead Nature.  A gnoll witherling doesn't require air, food, drink, or sleep.\nI heard a warlock sought to magically turn the last witherlings of a destroyed gnoll war band into his own strike force against foes. That worked well until Yeenoghu sent seven war bands after him.\n-Volo\nSource: Volo's Guide to Monsters p. 155",
+  "environment": "grassland, forest, hill, arctic"
+}

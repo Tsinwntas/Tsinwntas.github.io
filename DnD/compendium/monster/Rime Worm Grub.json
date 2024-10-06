@@ -1,0 +1,61 @@
+{
+  "name": "Rime Worm Grub",
+  "size": "M",
+  "type": "elemental,tome of Beasts",
+  "alignment": "neutral",
+  "ac": "13 (natural armor)",
+  "hp": "45 (6d8+18)",
+  "speed": "30 ft., swim 30 ft, burrow (snow, ice) 20 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "16",
+  "int": "4",
+  "wis": "12",
+  "cha": "3",
+  "save": "Str +5, Con +5",
+  "resist": "cold",
+  "senses": "darkvision 200 ft.",
+  "passive": "11",
+  "languages": "-",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Born of Rime",
+      "text": [
+        "A rime worm grub can breathe air or water with equal ease."
+      ]
+    },
+    {
+      "name": "Ravenous",
+      "text": [
+        "At the grub stage, the worm is painfully hungry. Rime worm grubs can make opportunity attacks against enemies who disengage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The rime worm makes one tendril attack and one gnash attack."
+      ]
+    },
+    {
+      "name": "Tendril",
+      "text": [
+        "Melee Weapon Attack. +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Tendril|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Gnash",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Gnash|5|2d8+3"
+      ]
+    }
+  ]
+}

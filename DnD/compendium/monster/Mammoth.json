@@ -1,0 +1,47 @@
+{
+  "name": "Mammoth",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "126 (11d12+55)",
+  "speed": "walk 40 ft.",
+  "str": "24",
+  "dex": "9",
+  "con": "21",
+  "int": "3",
+  "wis": "11",
+  "cha": "6",
+  "passive": "10",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Trampling Charge",
+      "text": [
+        "If the mammoth moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the mammoth can make one stomp attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 25 (4d8 + 7) piercing damage."
+      ],
+      "attack": [
+        "Gore|+10|4d8+7"
+      ]
+    },
+    {
+      "name": "Stomp",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. 29 (4d10 + 7) bludgeoning damage."
+      ],
+      "attack": [
+        "Stomp|+10|4d10+7"
+      ]
+    }
+  ],
+  "description": "A mammoth is an elephantine creature with thick fur and long tusks. Stockier and fiercer than normal elephants, mammoths inhabit a wide range of climes, from subarctic to subtropical.\nSource: Monster Manual p. 332, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "arctic"
+}

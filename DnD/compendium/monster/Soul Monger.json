@@ -1,0 +1,86 @@
+{
+  "name": "Soul Monger",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral",
+  "ac": "15 (studded leather armor)",
+  "hp": "123 (19d8+38)",
+  "speed": "walk 30 ft.",
+  "str": "8",
+  "dex": "17",
+  "con": "14",
+  "int": "19",
+  "wis": "15",
+  "cha": "13",
+  "save": "Dex +7, Wis +6, Cha +5",
+  "skill": "Perception +6",
+  "passive": "17",
+  "languages": "Common, Elvish",
+  "cr": "11",
+  "immune": "necrotic, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "The soul monger has advantage on saving throws against being charmed, and magic can't put it to sleep."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The soul monger has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Soul Thirst",
+      "text": [
+        "When the soul monger reduces a creature to 0 hit points, the soul monger can gain temporary hit points equal to half the creature's hit point maximum. While the soul monger has temporary hit points from this ability, it has advantage on attack rolls."
+      ]
+    },
+    {
+      "name": "Weight of Ages",
+      "text": [
+        "Any beast or humanoid, other than a shadar-kai, that starts its turn within 5 feet of the soul monger has its speed reduced by 20 feet until the start of that creature's next turn."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The soul monger's innate spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: chill touch, poison spray",
+        "1/day each: bestow curse, chain lightning, finger of death, gaseous form, phantasmal killer, seeming"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The soul monger makes two phantasmal dagger attacks."
+      ]
+    },
+    {
+      "name": "Phantasmal Dagger",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 13 (4d4 + 3) piercing damage plus 19 (3d12) necrotic damage, and the target has disadvantage on saving throws until the start of the soul monger's next turn."
+      ],
+      "attack": [
+        "Phantasmal Dagger|+7|4d4+3"
+      ]
+    },
+    {
+      "name": "Wave of Weariness (Recharge 4-6)",
+      "text": [
+        "The soul monger emits weariness in a 60-foot cube. Each creature in that area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 45 (10d8) psychic damage and suffers 1 level of exhaustion. On a successful save, it takes 22 (5d8) psychic damage."
+      ],
+      "attack": [
+        "Wave of Weariness (Recharge 4-6)||10d8"
+      ]
+    }
+  ],
+  "spells": "chill touch, poison spray, bestow curse, chain lightning, finger of death, gaseous form, phantasmal killer, seeming",
+  "description": "Soul Monger. Wracked with despair over the loss of memories of a brighter time, soul mongers now crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in its presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound it makes—the moan of a tortured soul, lost in a bottomless well of tragedy.\nShadar-kai. In the perpetual gloom of the Shadowfell lives a society that serves the Raven Queen. They were brought into that dusky realm in ages past, so long ago that they're now perfectly adapted to that cheerless environment, both physically and mentally.\nSoul Custodians. Shadar-kai watch over both the Shadowfell and the material world, scouting out choice souls and tragedies that might please their deity. They are rumored to be able to coax worldly events along tragic paths for her amusement. The Raven Queen is famously cryptic even to her most devoted followers, however. The shadar-kai's efforts are rewarded only with vague omens they interpret as best they can.\nBlighted Elves. Shadar-kai were once elves, but eons of exposure to the debilitating influence of the Shadowfell has left them joyless and mournful. In that realm, they have the appearance of withered elves: pale hair, wrinkled gray skin, and swollen joints give them a corpselike aspect. They appear more youthful while on other planes, but their skin always retains its deathly pallor. They dress in dark cloaks and heavy veils, detest mirrors, and avoid keeping things that remind them of their age.\nSource: Mordenkainen's Tome of Foes p. 226",
+  "environment": "underdark, urban"
+}

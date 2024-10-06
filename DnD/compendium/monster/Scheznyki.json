@@ -1,0 +1,65 @@
+{
+  "name": "Scheznyki",
+  "size": "S",
+  "type": "fey,tome of Beasts",
+  "alignment": "chaotic evil",
+  "ac": "16 (natural armor)",
+  "hp": "153 (18d6+72)",
+  "speed": "20 ft., climb 15 ft.",
+  "str": "19",
+  "dex": "15",
+  "con": "18",
+  "int": "15",
+  "wis": "16",
+  "cha": "16",
+  "save": "Str +10, Con +10",
+  "conditionImmune": "unconscious",
+  "senses": "darkvision 60 ft.",
+  "passive": "13",
+  "languages": " Common, Darakhul, Elvish",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The scheznyki's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights, darkness, detect evil and good, faerie fire, invisibility*, fly*, mage hand, ray of frost (*only when wearing a vanisher hat)",
+        "5/day each: magic missile, ray of enfeeblement, silent image",
+        "3/day each: locate object (radius 3,000 ft to locate a vanisher hat), hideous laughter, web",
+        "1/day each: dispel magic, dominate person, hold person"
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The scheznyki has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The scheznyki makes four war pick attacks or two hand crossbow attacks."
+      ]
+    },
+    {
+      "name": "Heavy Pick",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Heavy Pick|7|1d8+4"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow|5|1d6+2"
+      ]
+    }
+  ]
+}

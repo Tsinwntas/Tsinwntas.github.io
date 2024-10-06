@@ -1,0 +1,60 @@
+{
+  "name": "Mold Zombie",
+  "size": "M",
+  "type": "undead (zombie)",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (natural armor)",
+  "hp": "75 (10d8+30)",
+  "speed": "walk 20 ft.",
+  "str": "17",
+  "dex": "8",
+  "con": "16",
+  "int": "3",
+  "wis": "6",
+  "cha": "5",
+  "save": "Str +5",
+  "passive": "8",
+  "cr": "3",
+  "immune": "necrotic, poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Spore Death",
+      "text": [
+        "When the zombie is reduced to 0 hp and doesn't survive with its Undead Fortitude, it explodes in a cloud of spores. Each creature within 5 feet of the zombie must succeed on a DC 13 Constitution saving throw or take 9 (2d8) necrotic damage and contract iumenta pox (see Iumenta Pox sidebar)."
+      ]
+    },
+    {
+      "name": "Undead Fortitude",
+      "text": [
+        "If damage reduces the zombie to 0 hp, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hp instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The zombie makes two slam attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage plus 7 (2d6) necrotic damage."
+      ],
+      "attack": [
+        "Slam|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Plague Breath (Recharge 6)",
+      "text": [
+        "The zombie breathes a cloud of spores in 15-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or take 10 (3d6) necrotic damage and contract iumenta pox (see Iumenta Pox sidebar)."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 395",
+  "environment": "swamp"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Silvered Light Repeating Crossbow",
+  "detail": "major, simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "5",
+  "property": "A,2H",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "40/160",
+  "text": "This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action.\nSource: Player's Handbook p. 148"
+}

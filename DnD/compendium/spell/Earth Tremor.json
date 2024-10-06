@@ -1,0 +1,23 @@
+{
+  "name": "Earth Tremor",
+  "classes": "Bard, Druid, Sorcerer, Wizard",
+  "level": "1",
+  "school": "EV",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "10 feet",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "text": "You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.\nSource: Xanathar's Guide to Everything p. 155, Elemental Evil Player's Companion p. 17",
+  "roll": [
+    "1d6",
+    "2d6",
+    "3d6",
+    "4d6",
+    "5d6",
+    "6d6",
+    "7d6",
+    "8d6",
+    "9d6"
+  ]
+}

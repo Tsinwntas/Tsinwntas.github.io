@@ -1,0 +1,93 @@
+{
+  "name": "Shunn Shurreth",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral Evil",
+  "ac": "18 (studded leather armor, shield)",
+  "hp": "71 (11d8+22)",
+  "speed": "walk 30 ft.",
+  "str": "13",
+  "dex": "18",
+  "con": "14",
+  "int": "11",
+  "wis": "13",
+  "cha": "12",
+  "save": "Dex +7, Con +5, Wis +4",
+  "skill": "Perception +4, Stealth +10",
+  "passive": "14",
+  "languages": "Elvish, Undercommon",
+  "cr": "5",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Spider Features",
+      "text": [
+        "While cursed with spider features, Shunn can climb difficult surfaces, even across ceilings, without needing to make an ability check."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Shunn has advantage on saving throws against being charmed, and magic can't put Shunn to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Shunn has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Shunn's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire, levitate (self only)"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Shunn makes two shortsword attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage."
+      ],
+      "attack": [
+        "Shortsword|+7|1d6+4"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+      ],
+      "attack": [
+        "Hand Crossbow|+7|1d6+4"
+      ]
+    },
+    {
+      "name": "Variant: Drow Magic Armor and Weapons",
+      "text": [
+        "Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
+        "A drow elite warrior wearing +2 Studded Leather Armor and carrying a +2 shortsword has AC 20 and a +2 bonus on attack and damage rolls with shortsword attacks."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "Shunn adds 3 to its AC against one melee attack that would hit it. To do so, Shunn must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "spells": "dancing lights, darkness, faerie fire, levitate",
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 33",
+  "environment": "underdark"
+}

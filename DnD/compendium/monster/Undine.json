@@ -1,0 +1,82 @@
+{
+  "name": "Undine",
+  "size": "M",
+  "type": "fey (shapechanger)",
+  "alignment": "Chaotic Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "85 (10d8+40)",
+  "speed": "walk 30 ft., swim 40 ft.",
+  "str": "8",
+  "dex": "15",
+  "con": "18",
+  "int": "11",
+  "wis": "13",
+  "cha": "19",
+  "skill": "Deception +10, Perception +4, Persuasion +10",
+  "passive": "14",
+  "languages": "Common, Sylvan, Aquan",
+  "cr": "5",
+  "conditionImmune": "charmed",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The undine can breathe air and water."
+      ]
+    },
+    {
+      "name": "Cursed Telepathy",
+      "text": [
+        "The undine can communicate telepathically with any creature cursed by it with no range restriction. The undine doesn't need to be on the same plane of existence as its cursed target to communicate this way."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The undine can use its action to polymorph into a Small or Medium humanoid with legs or with a mermaid's tail or back into its true watery humanoid form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Undine's Curse",
+      "text": [
+        "A creature cursed by the undine gains the Amphibious trait and a swimming speed of 30 feet. After each long rest, the target must succeed on a DC 15 Constitution saving throw or its Constitution score is reduced by 1d4 as it forgets to breathe regularly while resting. If the target received a Cursed Kiss from the undine within the past 24 hours, it automatically succeeds on its next saving throw. If the target ever lies to or is unfaithful to the undine, it has disadvantage on its next saving throw, and its Constitution is reduced by 2d4 instead of 1d4 on a failure. The curse lasts until the undine takes a bonus action to lift it or until lifted by a remove curse spell or similar magic."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The undine's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring only verbal components:",
+        "At will: control water, friends, minor illusion",
+        "3/day each: charm person, silent image",
+        "1/day each: hypnotic pattern, major image"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The undine uses its Cursed Kiss, if it can. It then makes two water hammer attacks."
+      ]
+    },
+    {
+      "name": "Water Hammer",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage plus 10 (3d6) cold damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be cursed (see the Undine's Curse trait)."
+      ],
+      "attack": [
+        "Water Hammer|5|1d6+2"
+      ]
+    },
+    {
+      "name": "Cursed Kiss (Recharge 5-6)",
+      "text": [
+        "The undine kisses a target within 5 feet of it. The target must make a DC 15 Constitution saving throw, taking 21 (6d6) psychic damage on a failed save, or half as much damage on a successful one. A willing target takes no damage but is immediately cursed (see the Undine's Curse trait), if it wasn't already."
+      ]
+    }
+  ],
+  "spells": "control water, friends, minor illusion, charm person, silent image, hypnotic pattern, major image",
+  "description": "Source: CCodex (3pp) p. 362",
+  "environment": "underwater"
+}

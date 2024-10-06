@@ -1,0 +1,12 @@
+{
+  "name": "Burglar (UA)",
+  "text": "You pride yourself on your quickness and your close study of certain clandestine activities. You gain the following benefits:\n• You gain proficiency with thieves' tools. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.\nSource: Unearthed Arcana: Feats p. 4",
+  "modifier": [
+    {
+      "_": "Dexterity +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}

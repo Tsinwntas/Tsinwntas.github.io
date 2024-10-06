@@ -1,0 +1,71 @@
+{
+  "name": "Lizardfolk Scaleshield",
+  "size": "M",
+  "type": "humanoid (lizardfolk)",
+  "alignment": "Neutral",
+  "ac": "16 (scale mail, shield)",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "15",
+  "dex": "10",
+  "con": "14",
+  "int": "7",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Athletics +4, Perception +3, Survival +5",
+  "passive": "13",
+  "languages": "Draconic",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The scaleshield can hold its breath for 15 minutes."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The scaleshield makes two melee attacks, each one with a different weapon."
+      ]
+    },
+    {
+      "name": "Morningstar",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Morningstar|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Spiked Shield",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Spiked Shield|+4|1d6+2"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Shield Block",
+      "text": [
+        "If an ally within 5 feet of the scaleshield is hit by an attack, the scaleshield can reduce that attack's damage by half."
+      ]
+    }
+  ],
+  "description": "Serving as the elite warriors and officers of a lizardfolk clan, these robust creatures wear thick armor made from crocodile scales and metal. Trained in martial weapons and advanced combat tactics, they are found protecting lizardfolk lairs such as the one in Danger at Dunwater.\nSource: Ghosts of Saltmarsh p. 242"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Acrobat (UA)",
+  "text": "You become more nimble, gaining the following benefits:\n• You gain proficiency in the Acrobat (UA)ics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n• As a bonus action, you can make a DC 15 Dexterity (Acrobat (UA)ics) check. If you succeed, difficult terrain doesn't cost you extra movement until the end of the current turn.\nSource: Unearthed Arcana: Feats For Skills p. 1",
+  "modifier": [
+    {
+      "_": "Dexterity +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}

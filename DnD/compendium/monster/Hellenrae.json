@@ -1,0 +1,74 @@
+{
+  "name": "Hellenrae",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "16",
+  "hp": "78 (12d8+24)",
+  "speed": "walk 50 ft.",
+  "str": "13",
+  "dex": "18",
+  "con": "14",
+  "int": "10",
+  "wis": "15",
+  "cha": "13",
+  "skill": "Acrobatics +7, Athletics +4, Insight +5, Perception +5",
+  "passive": "15",
+  "languages": "Common, Terran",
+  "cr": "5",
+  "immune": "poison",
+  "conditionImmune": "blinded, poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Evasion",
+      "text": [
+        "If Hellenrae is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails."
+      ]
+    },
+    {
+      "name": "Stunning Strike (Recharge 5-6)",
+      "text": [
+        "When Hellenrae hits a target with a melee weapon attack, the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of Hellenrae's next turn."
+      ]
+    },
+    {
+      "name": "Unarmored Defense",
+      "text": [
+        "While Hellenrae is wearing no armor and wielding no shield, her AC includes her Wisdom modifier."
+      ]
+    },
+    {
+      "name": "Unarmored Movement",
+      "text": [
+        "While Hellenrae is wearing no armor and wielding no shield, her speed increases by 20 feet (included in her speed)."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Hellenrae makes three melee attacks."
+      ]
+    },
+    {
+      "name": "Unarmed Strike",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 9 (1d10 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Unarmed Strike|+7|1d10+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry and Counter",
+      "text": [
+        "Hellenrae adds 3 to her AC against one melee or ranged weapon attack that would hit her. To do so, she must be able to sense the attacker with her blindsight. If the attack misses, Hellenrae can make one melee attack against the attacker if it is within her reach."
+      ]
+    }
+  ],
+  "description": "The chief lieutenant of Marlos Urnrayle, Hellenrae lost her sight as a child. A bitter, angry orphan, she was taken in by a monastic order and trained to use her other senses to compensate. However, she took the monks' philosophy of self-denial and emptiness of mind to extremes, seeking to fill herself with the dark power she sensed sleeping in the earth and rock around her.\nHellenrae is a dour, unsmiling woman who habitually wears drab robes and a golden gargoyle mask with no eye holes. She despises weakness in any form. Therefore, she hates just about everybody, and barely tolerates the other Black Earth cultists.\nSource: Princes of the Apocalypse p. 198"
+}

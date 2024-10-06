@@ -1,0 +1,48 @@
+{
+  "name": "Centaur",
+  "size": "M",
+  "speed": "40",
+  "ability": "Str 2, Wis 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Guildmasters' Guide to Ravnica p. 15"
+    },
+    {
+      "name": "Age",
+      "text": "Centaurs mature and age at about the same rate as humans.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Centaurs are inclined toward neutrality. Those who join the Selesnya are more often neutral good, while those who join the Gruul are typically chaotic neutral.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. Your size is Medium.\n"
+    },
+    {
+      "name": "Fey",
+      "text": "Your creature type is fey, rather than humanoid.\n"
+    },
+    {
+      "name": "Charge",
+      "text": "If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.\n"
+    },
+    {
+      "name": "Hooves",
+      "text": "Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\n"
+    },
+    {
+      "name": "Equine Build",
+      "text": "You count as one size larger when determining your carrying capacity and the weight you can push or drag.\nIn addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.\n"
+    },
+    {
+      "name": "Survivor",
+      "text": "You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Sylvan. Sylvan is widely spoken in the Selesnya Conclave, for it is rich in vocabulary to describe natural phenomena and spiritual forces.\n"
+    }
+  ]
+}

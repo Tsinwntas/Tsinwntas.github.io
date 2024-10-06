@@ -1,0 +1,74 @@
+{
+  "name": "Crypt Spider",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Lawful Evil",
+  "ac": "15 (natural armor)",
+  "hp": "38 (7d8+7)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "14",
+  "dex": "16",
+  "con": "12",
+  "int": "10",
+  "wis": "11",
+  "cha": "8",
+  "skill": "Deception +1, Intimidation +1, Stealth +5",
+  "passive": "10",
+  "languages": "Common, Undercommon",
+  "cr": "2",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Cocoon Prey",
+      "text": [
+        "As a bonus action, a crypt spider can cocoon a creature within 5 feet that is currently restrained by webbing. A cocooned creature has disadvantage on ability checks and saving throws made to escape the web."
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "text": [
+        "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    },
+    {
+      "name": "Web Sense",
+      "text": [
+        "While in contact with a web, the spider knows the exact location of any other creature in contact with that web."
+      ]
+    },
+    {
+      "name": "Web Walker",
+      "text": [
+        "The spider ignores movement restrictions caused by webbing."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 6 (1d8 + 2) piercing damage, and the creature must make a DC 13 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the creature to 0 hp, the creature is stable but poisoned for 1 hour, even after regaining hp, and is paralyzed while poisoned in this way."
+      ],
+      "attack": [
+        "Bite|5|1d8+2"
+      ]
+    },
+    {
+      "name": "Web (Recharge 5-6)",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. The creature is restrained by webbing. As an action, the restrained creature can make a DC 13 Strength check, escaping from the webbing on a success.",
+        "The effect also ends if the webbing is destroyed. The webbing has AC 10, 5 hp, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage."
+      ]
+    },
+    {
+      "name": "Create Zombie",
+      "text": [
+        "The crypt spider creates a zombie from a humanoid creature it has killed with its poison. This works like the animate dead spell, except the zombie stays under the crypt spider's control for 1d4 days. At the end of this duration or when the zombie is destroyed, the corpse bursts open, releasing hundreds of crypt spider young (use swarm of spiders statistics).",
+        "The crypt spider can have no more than four zombies under its control at one time."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 348"
+}

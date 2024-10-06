@@ -1,0 +1,63 @@
+{
+  "name": "Undead Phoenix",
+  "size": "H",
+  "type": "undead",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "142 (15d12+45)",
+  "speed": "walk 30 ft., fly 90 ft.",
+  "str": "23",
+  "dex": "14",
+  "con": "17",
+  "int": "8",
+  "wis": "17",
+  "cha": "9",
+  "save": "Str +10, Con +7, Wis +7",
+  "skill": "Perception +7",
+  "passive": "17",
+  "cr": "12",
+  "immune": "fire, necrotic, poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Bilious Aura",
+      "text": [
+        "A living creature that starts its turn within 10 feet of the undead phoenix can't regain hp and has disadvantage on Constitution saving throws until the start of its next turn."
+      ]
+    },
+    {
+      "name": "Eternal Unlife",
+      "text": [
+        "If it dies, the undead phoenix reverts into a pile of necrotic-tainted ooze and is reborn in 24 hours with all of its hp. Only killing it with radiant damage prevents this trait from functioning."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The undead phoenix makes three attacks. two with its claws and one with its decaying bite."
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 20 (4d6 + 6) slashing damage."
+      ],
+      "attack": [
+        "Claws|10|4d6+6"
+      ]
+    },
+    {
+      "name": "Decaying Bite",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 15 (2d8 + 6) piercing damage plus 14 (4d6) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or be cursed with perpetual decay. The cursed target can't regain hp until the curse is lifted by the remove curse spell or similar magic."
+      ],
+      "attack": [
+        "Decaying Bite|10|2d8+6"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 361"
+}

@@ -1,0 +1,149 @@
+{
+  "name": "Zaratan",
+  "size": "G",
+  "type": "monstrosity (titan),tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "25 (natural armor)",
+  "hp": "507 (26d20+234)",
+  "speed": "10 ft., swim 50 ft.",
+  "str": "30",
+  "dex": "3",
+  "con": "28",
+  "int": "10",
+  "wis": "11",
+  "cha": "11",
+  "save": "Int +8, Wis +8, Cha +8",
+  "resist": "fire, lightning, thunder; bludgeoning, piercing, slashing",
+  "immune": "cold, poison",
+  "conditionImmune": "frightened, paralyzed, poisoned",
+  "senses": "blindsight 120 ft.",
+  "passive": "10",
+  "languages": " Aquan",
+  "cr": "26",
+  "trait": [
+    {
+      "name": "Fortified Shell",
+      "text": [
+        "The zaratan ignores any attack against its shell that doesn't do 30 points of damage or more. Attacking the zaratan's head or flippers bypasses this trait."
+      ]
+    },
+    {
+      "name": "Endless Breath",
+      "text": [
+        "The zaratan breathes air, but it can hold its breath for years."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the zaratan remains motionless on the surface of the ocean (except for drifting) it is indistinguishable from a small island."
+      ]
+    },
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The zaratan does double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The zaratan makes one bite attack and two flipper attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit: 26 (3d10 + 10) piercing damage and the target is grappled (escape DC 20). Until the grapple ends, the target is restrained and the zaratan can't bite another target."
+      ],
+      "attack": [
+        "Bite|18|3d10+10"
+      ]
+    },
+    {
+      "name": "Flipper",
+      "text": [
+        "Melee Weapon Attack: +18 to hit, reach 15 ft., one target. Hit: 19 (2d8 + 10) bludgeoning damage and the target must succeed on a DC 26 Strength saving throw or be pushed 10 feet away from the zaratan."
+      ],
+      "attack": [
+        "Flipper|18|2d8+10"
+      ]
+    },
+    {
+      "name": "Swallow",
+      "text": [
+        "The zaratan makes one bite attack against a Huge or smaller creature it is grappling. If the attack hits, the target takes 26 (3d10 + 10) piercing damage, is swallowed, and the grapple ends. A swallowed creature is blinded and restrained, but has total cover against attacks and effects outside the zaratan. A swallowed creature takes 28 (8d6) acid damage at the start of each of the zaratan's turns. The zaratan can have any number of creatures swallowed at once. If the zaratan takes 40 damage or more on a single turn from a creature inside it, the zaratan must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the zaratan. If the zaratan dies, swallowed creatures are no longer restrained and can escape by using 30 feet of movement, exiting prone."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "The zaratan can take 3 legendary actions, choosing from the options below",
+      "text": [
+        "Only one legendary action option can be used at a time and only at the end of another creature's turn. The zaratan regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "The zaratan moves up to half its speed."
+      ]
+    },
+    {
+      "name": "Swipe",
+      "text": [
+        "The zaratan makes one flipper attack."
+      ]
+    },
+    {
+      "name": "Consume (2 actions)",
+      "text": [
+        "The zaratan makes one bite attack or uses Swallow."
+      ]
+    }
+  ]
+}e legendary action can be used at a time and only at the end of another creature's turn. The elemental regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Stomp",
+      "text": [
+        "The zaratan makes one stomp attack."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "The zaratan moves up to its speed."
+      ]
+    },
+    {
+      "name": "Spit (Costs 2 Actions)",
+      "text": [
+        "The zaratan uses Spit Rock."
+      ]
+    },
+    {
+      "name": "Retract (Costs 2 Actions)",
+      "text": [
+        "The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is restrained. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
+      ]
+    },
+    {
+      "name": "Revitalize (Costs 2 Actions)",
+      "text": [
+        "The zaratan can use this option only if it is retracted in its shell. It regains 52 (5d20) hit points. The next time it takes a legendary action, it must take its Emerge action."
+      ]
+    },
+    {
+      "name": "Emerge (Costs 2 Actions)",
+      "text": [
+        "The zaratan emerges from its shell and uses Spit Rock. It can use this option only if it is retracted in its shell."
+      ]
+    }
+  ],
+  "description": "Zaratan. When a zaratan is summoned from the Elemental Plane of Earth, the ground rises up to take the shape of what looks like a hulking, armored reptile, its shell composed of the landscape from which it arose.\nThe zaratan plods across the land, each step sending shock waves through the ground severe enough to unsettle structures. Dim-witted, the zaratan lurches onward, expressing its rage through its trumpeting calls and the occasional boulder or blast of debris it spews from its cavernous maw. If seriously injured, the zaratan slowly retracts its appendages to gain shelter beneath its impervious shell, biding its time until it recovers and can resume its march.\nElder Elementals. On their native planes, elementals sweep across the weird and tempestuous landscape. Some possess greater power, gained by feeding on their lesser kin and adding the essence of creatures they have devoured to their own until they become something extraordinary. When summoned, these elder elementals manifest as beings of apocalyptic capability, entities whose mere existence promises destruction.\nDeadly When Summoned. The methods for summoning elder elementals remain hidden in forbidden tomes or inscribed on the walls of lost temples raised to honor the Elder Elemental Eye. Only casters of superlative skill have even the faintest chance of calling forth one of these monsters, and the spellcaster is often destroyed by the effort. Thus, only the most unhinged and nihilistic members of Elemental Evil cults attempt such a summoning, in the hope of hastening the world toward some cataclysmic end.\nElemental Nature. An elder elemental doesn't require air, food, drink, or sleep.\nSource: Mordenkainen's Tome of Foes p. 201",
+  "environment": "desert, forest, grassland, hill, mountain, underdark"
+}

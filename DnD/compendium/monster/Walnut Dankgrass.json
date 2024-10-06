@@ -1,0 +1,85 @@
+{
+  "name": "Walnut Dankgrass",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Lawful Neutral",
+  "ac": "14 (leather armor)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 35 ft.",
+  "str": "8",
+  "dex": "16",
+  "con": "14",
+  "int": "10",
+  "wis": "18",
+  "cha": "10",
+  "save": "Int +2, Wis +6",
+  "skill": "Athletics +1, Insight +6, Perception +6, Stealth +5, Survival +6",
+  "passive": "16",
+  "languages": "Common, Druidic, Elvish, Sylvan",
+  "cr": "3",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Walnut has advantage on saving throws against being charmed, and magic can't put her to sleep."
+      ]
+    },
+    {
+      "name": "Mask of the Wild",
+      "text": [
+        "Walnut can attempt to hide even when she is only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+      ]
+    },
+    {
+      "name": "Wild Shape (Recharges after a Short or Long rest)",
+      "text": [
+        "As a bonus action, Walnut can assume the shape of a dire wolf. She can stay in this form for 3 hours or until she reverts to her normal form as a bonus action. She automatically reverts if she falls unconscious, drops to 0 hit points, or dies.",
+        "While transformed, Walnut's game statistics are replaced by the statistics of the dire wolf, except she retains her alignment, personality, and Intelligence, Wisdom, and Charisma scores.",
+        "Her attacks in beast form are magical. While in beast form, Walnut can use a bonus action to expend one spell slot and regain 1d8 hit points per level of the spell slot expended."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Walnut is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). She has the following druid spells prepared:",
+        "Cantrips (at will): druidcraft, produce flame, thorn whip",
+        "• 1st level (4 slots): cure wounds, entangle, thunderwave",
+        "• 2nd level (3 slots): flame blade, moonbeam, pass without trace",
+        "• 3rd level (3 slots): call lightning, dispel magic, plant growth",
+        "• 4th level (1 slots): blight, freedom of movement"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Walnut makes two attacks with Foremother or her longbow."
+      ]
+    },
+    {
+      "name": "Foremother (+1 Scimitar)",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Foremother (+1 Scimitar)|+6|1d6+4"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+5|1d8+3"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 1"
+  ],
+  "spells": "druidcraft, produce flame, thorn whip, cure wounds, entangle, thunderwave, flame blade, moonbeam, pass without trace, call lightning, dispel magic, plant growth, blight, freedom of movement",
+  "description": "\nThe war ever rages.\n\nGrowing up in an all-female clan of druids, healers, and rangers, Walnut Dankgrass was drawn to the role of protector from her earliest years. Dedicated to Mielikki, the matriarchal clan known as the Enclave Panax Anima defended the unspoiled wild by word and blade (with the latter option more prevalent by far). But when tragedy struck the enclave, Walnut's clan was destroyed to the last-leaving her with nothing but the all-consuming desire to seek out and destroy those responsible.\nAs a guardian of the wild, Walnut has long held an antipathy toward civilization and anything urban. However, understanding that civilization was the source of the evil that destroyed her people, she makes the city her home now. She embraces her role as the \"C\" Team's documancer, knowing that the city's power-and its weaknesses-can be fully gleaned only from within.\nWalnut distrusts most folk she meets, except for those whose bearing reflects the matriarchal structure she was once part of. No matter what shape her struggles take, she knows instinctively that her beliefs are right and true-and that she will follow those beliefs to the bitter end.\nSource: Acquisitions Incorporated p. 204"
+}

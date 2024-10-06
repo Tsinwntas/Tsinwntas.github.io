@@ -1,0 +1,67 @@
+{
+  "name": "Fulad-zereh",
+  "size": "M",
+  "type": "fiend (demon, shapechanger)",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (natural armor)",
+  "hp": "114 (12d8+60)",
+  "speed": "walk 40 ft., fly 90 ft.",
+  "str": "19",
+  "dex": "16",
+  "con": "20",
+  "int": "8",
+  "wis": "16",
+  "cha": "14",
+  "save": "Dex +6, Con +8, Wis +6",
+  "skill": "Survival +6",
+  "passive": "13",
+  "languages": "Abyssal, telepathy 120 ft.",
+  "cr": "8",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Petrifying Gaze",
+      "text": [
+        "When a creature that can see the fulad-zereh's eyes starts its turn within 30 feet of the demon, the fulad-zereh can force it to make a DC 16 Constitution saving throw if the demon isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified.",
+        "Otherwise, a creature that fails the saving throw begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or similar magic.",
+        "Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the demon until the start of its next turn, when it can avert is eyes again. If the creature looks at the demon, it must immediately make the save."
+      ]
+    },
+    {
+      "name": "Weeping Acid",
+      "text": [
+        "A creature that touches the fulad-zereh or hits it with a melee attack while within 5 feet of it must succeed on a DC 16 Dexterity saving throw or take 9 (2d8) acid damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The fulad-zereh makes two attacks. one with its barbed whip and one with its battleaxe."
+      ]
+    },
+    {
+      "name": "Barbed Whip",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 30 ft., one target. 14 (3d6 + 4) slashing damage, and, if the target is Large or smaller, it is pulled up to 25 feet toward the demon. If the target is a creature other than an undead or a construct, it must succeed on a DC 16 Constitution saving throw or take 5 (1d10) necrotic damage at the start of each of its turns as a barb of pure Abyssal energy lodges itself in the wound. Each time the demon hits the barbed target with this attack, the damage dealt by the wound each round increases by 5 (1d10). Any creature can take an action to remove the barb with a successful DC 14 Wisdom (Medicine) check. The barb crumbles to dust if the target receives magical healing."
+      ],
+      "attack": [
+        "Barbed Whip|8|3d6+4"
+      ]
+    },
+    {
+      "name": "Battleaxe",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 17 (3d8 + 4) slashing damage."
+      ],
+      "attack": [
+        "Battleaxe|8|3d8+4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

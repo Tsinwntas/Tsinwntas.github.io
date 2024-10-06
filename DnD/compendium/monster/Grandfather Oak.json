@@ -1,0 +1,74 @@
+{
+  "name": "Grandfather Oak",
+  "size": "H",
+  "type": "plant",
+  "alignment": "Chaotic Good",
+  "ac": "16 (natural armor)",
+  "hp": "138 (12d12+60)",
+  "speed": "walk 30 ft.",
+  "str": "23",
+  "dex": "8",
+  "con": "21",
+  "int": "12",
+  "wis": "16",
+  "cha": "12",
+  "passive": "13",
+  "languages": "Common, Druidic, Elvish, Sylvan",
+  "cr": "9",
+  "resist": "bludgeoning, piercing",
+  "vulnerable": "fire",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While Grandfather Oak remains motionless, it is indistinguishable from a normal tree."
+      ]
+    },
+    {
+      "name": "Siege Monster",
+      "text": [
+        "Grandfather Oak deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Grandfather Oak makes two slam attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 16 (3d6 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|+10|3d6+6"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. 28 (4d10 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|+10|4d10+6"
+      ]
+    },
+    {
+      "name": "Animate Trees (1/Day)",
+      "text": [
+        "Grandfather Oak magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of Grandfather Oak. The tree remains animate for 1 day or until it dies; until Grandfather Oak dies or is more than 120 feet from the tree; or until Grandfather Oak takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
+      ]
+    },
+    {
+      "name": "Pacifying Spores (3/Day)",
+      "text": [
+        "Grandfather Oak ejects spores at one creature it can see within 5 feet of it. The target must succeed on a DC 17 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "description": "\nSource: Infernal Machine Rebuild p. 5",
+  "environment": "forest"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "One-Eyed Shiver",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Chaotic Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "49 (9d8+9)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "12",
+  "int": "13",
+  "wis": "13",
+  "cha": "17",
+  "skill": "Arcana +3, Perception +3, Intimidation +5",
+  "passive": "13",
+  "languages": "Common",
+  "cr": "3",
+  "immune": "cold",
+  "trait": [
+    {
+      "name": "Chilling Mist",
+      "text": [
+        "While it is alive, the one-eyed shiver projects an aura of cold mist within 10 feet of itself. If the one-eyed shiver deals damage to a creature in this area, the creature also takes 5 (1d10) cold damage."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The one-eyed shiver is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:",
+        "Cantrips (at will): chill touch, mage hand",
+        "• 1st level (4 slots): fog cloud, mage armor, thunderwave",
+        "• 2nd level (3 slots): mirror image, misty step",
+        "• 3rd level (2 slots): fear"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Eye of Frost",
+      "text": [
+        "The one-eyed shiver casts ray of frost from its missing eye. If it hits, the target is also restrained. A target restrained in this way can end the condition by using an action, succeeding on a DC 13 Strength check."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "chill touch, mage hand, fog cloud, mage armor, thunderwave, mirror image, misty step, fear",
+  "description": "\nSource: Princes of the Apocalypse p. 207"
+}

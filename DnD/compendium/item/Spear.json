@@ -1,0 +1,13 @@
+{
+  "name": "Spear",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "value": "1.0",
+  "property": "T,V",
+  "dmg1": "1d6",
+  "dmg2": "1d8",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "Source: Player's Handbook p. 149"
+}

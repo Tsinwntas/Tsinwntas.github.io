@@ -1,0 +1,10 @@
+{
+  "name": "+3 Scimitar",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "F,L,M",
+  "dmg1": "1d6",
+  "dmgType": "S",
+  "text": "You have a +3 bonus to attack and damage rolls made with this magic weapon.\nFound On: Magic Item Table H\nSource: Dungeon Master's Guide p. 213"
+}

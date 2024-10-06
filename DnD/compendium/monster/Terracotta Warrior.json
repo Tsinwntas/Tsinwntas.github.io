@@ -1,0 +1,58 @@
+{
+  "name": "Terracotta Warrior",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "18 (natural terracotta warrior)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 25 ft.",
+  "str": "14",
+  "dex": "11",
+  "con": "13",
+  "int": "1",
+  "wis": "3",
+  "cha": "1",
+  "passive": "6",
+  "cr": "1",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Fragile",
+      "text": [
+        "If a critical hit is scored against the terracotta warrior, it shatters and is destroyed."
+      ]
+    },
+    {
+      "name": "Antimagic Susceptibility",
+      "text": [
+        "The terracotta warrior is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the terracotta warrior must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the terracotta warrior remains motionless, it is indistinguishable from a terracotta statue."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The terracotta warrior makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 161"
+}

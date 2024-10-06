@@ -1,0 +1,63 @@
+{
+  "name": "Laskilar",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Non-Lawful Alignment",
+  "ac": "15 (studded leather armor)",
+  "hp": "65 (10d8+20)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "16",
+  "con": "14",
+  "int": "14",
+  "wis": "11",
+  "cha": "14",
+  "save": "Str +4, Dex +5, Wis +2",
+  "skill": "Athletics +4, Deception +4",
+  "passive": "10",
+  "languages": "any two languages",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Laskilar wears a cape of the mountebank."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Laskilar makes three melee attacks: two with its scimitar and one with its dagger. Or Laskilar makes two ranged attacks with its daggers."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "Laskilar adds 2 to its AC against one melee attack that would hit it. To do so, Laskilar must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 67"
+}

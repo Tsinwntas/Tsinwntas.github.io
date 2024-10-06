@@ -1,0 +1,11 @@
+{
+  "name": "Rapier",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "value": "25.0",
+  "property": "F,M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "text": "Source: Player's Handbook p. 149"
+}

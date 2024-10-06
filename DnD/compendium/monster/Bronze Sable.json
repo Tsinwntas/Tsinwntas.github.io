@@ -1,0 +1,60 @@
+{
+  "name": "Bronze Sable",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "13",
+  "dex": "16",
+  "con": "15",
+  "int": "3",
+  "wis": "14",
+  "cha": "1",
+  "skill": "Stealth +5",
+  "passive": "12",
+  "languages": "understands one language of its creator but can't speak",
+  "cr": "1",
+  "immune": "fire, poison",
+  "conditionImmune": "charmed, exhaustion, paralyzed, petrified, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the sable remains motionless, it is indistinguishable from a normal statue."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The sable has advantage on an attack roll against a creature if at least one of the sable's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Surprise Attack",
+      "text": [
+        "If the sable surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The sable makes two bite attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+5|1d8+3"
+      ]
+    }
+  ],
+  "description": "The first bronze sables were presented to Karametra as a gift by Purphoros to serve primarily as guardians in Karametra's temples. But as others have been created, some have been used as nimble scouts, always on alert for danger.\nThe first anvilwroughts were created by the god of the forge, Purphoros. He gave the secret of breathing life into these metal creatures to his most devoted followers so they could mimic his works and invent new forms at their own forges.\nSome anvilwroughts are vigilant guardians at holy shrines, others serve as familiars and messengers, and a few were created to emulate beauty found among the animals of the mortal world. Each exhibits abilities suited to its role, with some behaving like companionable creatures or stoic guardians.\nA few extremely rare and valuable anvilwroughts were crafted by the hand of Purphoros himself. A number of these magnificent creations are now heirlooms of monarchs; others are lost to the sands of time or are guarded by ancient monsters.\nSource: Mythic Odysseys of Theros p. 210"
+}

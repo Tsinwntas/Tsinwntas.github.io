@@ -1,0 +1,11 @@
+{
+  "name": "Whip",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "value": "2.0",
+  "property": "F,R,M",
+  "dmg1": "1d4",
+  "dmgType": "S",
+  "text": "Source: Player's Handbook p. 149"
+}

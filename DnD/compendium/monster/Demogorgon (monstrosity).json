@@ -1,0 +1,66 @@
+{
+  "name": "Demogorgon (monstrosity)",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "60 (8d8+24)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "16",
+  "int": "3",
+  "wis": "12",
+  "cha": "5",
+  "skill": "Perception +3, Stealth +5",
+  "passive": "13",
+  "cr": "4",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The Demogorgon (monstrosity) has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The Demogorgon (monstrosity) has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "The Demogorgon (monstrosity) regains 10 hit points at the start of its turn. If the Demogorgon (monstrosity) takes acid or fire damage, this trait doesn't function at the start of the Demogorgon (monstrosity)'s next turn. The Demogorgon (monstrosity) dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The Demogorgon (monstrosity) makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+5|1d8+3"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 12 (2d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|+5|2d8+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Hunt for the Thessalhydra p. 36"
+}

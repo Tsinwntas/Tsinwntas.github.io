@@ -1,0 +1,55 @@
+{
+  "name": "Howler",
+  "size": "L",
+  "type": "fiend",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (natural armor)",
+  "hp": "90 (12d10+24)",
+  "speed": "walk 40 ft.",
+  "str": "17",
+  "dex": "16",
+  "con": "15",
+  "int": "5",
+  "wis": "20",
+  "cha": "6",
+  "skill": "Perception +8",
+  "passive": "15",
+  "languages": "understands Abyssal but can't speak",
+  "cr": "8",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "conditionImmune": "frightened",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "A howler has advantage on attack rolls against a creature if at least one of the howler's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The howler makes two bite attacks."
+      ]
+    },
+    {
+      "name": "Rending Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 10 (2d6 + 3) piercing damage. If the target is frightened it takes an additional 22 (4d10) psychic damage. This attack ignores damage resistance."
+      ],
+      "attack": [
+        "Rending Bite|+6|2d6+3"
+      ]
+    },
+    {
+      "name": "Mind-Breaking Howl (Recharge 6)",
+      "text": [
+        "The howler emits a keening howl in a 60-foot cone. Each creature in that area that isn't deafened must succeed on a DC 16 Wisdom saving throw or be frightened until the end of the howler's next turn. While a creature is frightened in this way, its speed is halved, and it is incapacitated. A target that successfully saves is immune to the Mind-Breaking Howl of all howlers for the next 24 hours."
+      ]
+    }
+  ],
+  "description": "\nWhy does the howler sing? Doing so causes its prey to flee, and surely stealth would make for better hunting in howling Pandemonium. There is only one answer: the creature can taste fear.\n — Mordenkainen\n\nHowler. A far-off wail precedes the sight of a howler. Even at a distance, one's mind cringes at the sound and fills with horror at the realization that the noise is drawing closer. When howlers go on the prowl, courage isn't enough to stand up against them, and even one's sanity is at risk.\nProwlers from Pandemonium. These nightmare creatures, native to Pandemonium, can also be found on most of the Lower Planes, because of the many fiends that capture them and train them as war hounds. Howlers can be domesticated, after a fashion, but they respond only to brutal training during which they are forced to recognize the trainer as the pack's undisputed leader. A trained pack then follows its leader without hesitation. Howler packs course over the battlefields of the Blood War and also serve evil mortals who have the power and the savagery to command their loyalty.\nBrutal Hunters. Howlers rely on speed, numbers, and their mind-numbing howl to corner prey before they tear it apart. The howl floods the minds of its victims, making complex thought impossible. They can do little more than stare in horror and stumble around the battlefield in a search for safety. Any task more demanding than that is beyond their capability. Fiends especially prize howlers for this reason, because for a few crucial moments in a battle, their howls can neutralize an enemy's ability to use spells and other powers.\nSource: Mordenkainen's Tome of Foes p. 210",
+  "environment": "desert, grassland, hill, underdark"
+}

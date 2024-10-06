@@ -1,0 +1,65 @@
+{
+  "name": "Rath Modar",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "13 (16 with mage armor)",
+  "hp": "71 (11d8+22)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "14",
+  "int": "18",
+  "wis": "14",
+  "cha": "10",
+  "save": "Int +7, Wis +5",
+  "skill": "Arcana +7, Deception +3, Insight +5, Stealth +6",
+  "passive": "12",
+  "languages": "Common, Draconic, Infernal, Primordial, Thayan",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Rath has a staff of fire, and scrolls of dimension door, feather fall, and fireball."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Rath is an 11th-level spellcaster who uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Rath has the following spells prepared from the wizard spell list:",
+        "Cantrips (at will): fire bolt, minor illusion, prestidigitation, shocking grasp",
+        "• 1st level (4 slots): chromatic orb, color spray, mage armor, magic missile",
+        "• 2nd level (3 slots): detect thoughts, mirror image, phantasmal force",
+        "• 3rd level (3 slots): counterspell, fireball, major image",
+        "• 4th level (3 slots): confusion, greater invisibility",
+        "• 5th level (2 slots): mislead, seeming",
+        "• 6th level (1 slots): globe of invulnerability"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d8) bludgeoning damage."
+      ],
+      "attack": [
+        "Quarterstaff|+4|1d8"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Illusory Self (Recharges on a Short or Long Rest)",
+      "text": [
+        "When a creature Rath can see makes an attack roll against him, he can interpose an illusory duplicate between the attacker and him. The attack automatically misses Rath, then the illusion dissipates."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1"
+  ],
+  "spells": "fire bolt, minor illusion, prestidigitation, shocking grasp, chromatic orb, color spray, mage armor, magic missile, detect thoughts, mirror image, phantasmal force, counterspell, fireball, major image, confusion, greater invisibility, mislead, seeming, globe of invulnerability",
+  "description": "\nSource: Hoard of the Dragon Queen p. 92, Rise of Tiamat p. 91"
+}

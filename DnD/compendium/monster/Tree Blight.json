@@ -1,0 +1,70 @@
+{
+  "name": "Tree Blight",
+  "size": "H",
+  "type": "plant",
+  "alignment": "Neutral Evil",
+  "ac": "15 (natural armor)",
+  "hp": "149 (13d12+65)",
+  "speed": "walk 30 ft.",
+  "str": "23",
+  "dex": "10",
+  "con": "20",
+  "int": "6",
+  "wis": "10",
+  "cha": "3",
+  "passive": "10",
+  "languages": "understands Common and Druidic but doesn't speak",
+  "cr": "7",
+  "conditionImmune": "blinded, deafened",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the blight remains motionless, it is indistinguishable from a dead tree."
+      ]
+    },
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The blight deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The blight makes four attacks: two with its branches and two with its grasping roots. If it has a target grappled, the blight can also make a bite attack against that target as a bonus action."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 19 (3d8 + 6) piercing damage."
+      ],
+      "attack": [
+        "Bite|+9|3d8+6"
+      ]
+    },
+    {
+      "name": "Branch",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. 16 (3d6 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Branch|+9|3d6+6"
+      ]
+    },
+    {
+      "name": "Grasping Root",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 15 ft., one creature not grappled by the blight. The target is grappled (escape DC 15). Until the grapple ends, the target takes 9 (1d6 + 6) bludgeoning damage at the start of each of its turns. The root has AC 15 and can be severed by dealing 6 slashing damage or more to it at once. Cutting the root doesn't hurt the blight, but ends the grapple."
+      ],
+      "attack": [
+        "Grasping Root|+9|1d6+6"
+      ]
+    }
+  ],
+  "description": "Blights (as described in the Monster Manual) are evil, ambulatory plant creatures, and a tree blight is a particularly enormous variety. It looks like a dead tree or treant, 30 feet tall, with spongy wooden flesh, thorny branches, and rubbery roots that trail behind it. It has blood for sap and is so saturated with blood that it doesn't catch fire easily.\nVicious Carnivore. A tree blight feeds on warm-blooded prey and takes perverse delight in causing carnage. It strikes with its heavy branches and crushes prey to death with its roots. It can open its gaping, tooth-filled mouth and bite a creature caught in its roots. The roots of a tree blight can be severed, though cutting them causes the blight no harm.\nBlight Animosity. A tree blight will often fight alongside other kinds of blights, but it hates other tree blights and will attack them given the chance. Tree blights also hate treants, and the feeling is mutual.\nSource: Curse of Strahd p. 230"
+}

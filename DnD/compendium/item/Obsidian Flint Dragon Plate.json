@@ -1,0 +1,10 @@
+{
+  "name": "Obsidian Flint Dragon Plate",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "65",
+  "ac": "18",
+  "stealth": "1",
+  "strength": "15",
+  "text": "You gain a +2 bonus to AC and resistance to poison damage while you wear this armor. In addition, you gain advantage on ability checks and saving throws made to avoid or end the grappled condition on yourself.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nSource: Baldur's Gate: Descent Into Avernus p. 224"
+}

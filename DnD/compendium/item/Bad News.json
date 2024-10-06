@@ -1,0 +1,16 @@
+{
+  "name": "Bad News",
+  "type": "R",
+  "weight": "25",
+  "text": [
+    "A ranged weapon similar to a sniper rifle.",
+    "Two-Handed, Reload 1, Misfire 3",
+    "Proficiency: firearms",
+    "Ammunition: 10g (5)",
+    "Source: Matthew Mercer - Gunslinger 1.3 p. 3"
+  ],
+  "dmg1": "2d12",
+  "dmgType": "P",
+  "property": "M,A,LD,2H",
+  "range": "200/800"
+}

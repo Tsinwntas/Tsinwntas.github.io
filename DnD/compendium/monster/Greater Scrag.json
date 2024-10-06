@@ -1,0 +1,56 @@
+{
+  "name": "Greater Scrag",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (natural armor)",
+  "hp": "127 (15d10+45)",
+  "speed": "walk 30 ft., swim 40 ft.",
+  "str": "20",
+  "dex": "10",
+  "con": "17",
+  "int": "10",
+  "wis": "10",
+  "cha": "11",
+  "save": "Str +8, Con +6",
+  "passive": "10",
+  "languages": "Giant, Abyssal, Aquan",
+  "cr": "7",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The scrag can breathe air and water."
+      ]
+    },
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The scrag has advantage on melee attack rolls against any creature that doesn't have all of its hp."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "The greater scrag regains 10 hp at the start of its turn if it is in contact with water. If the scrag takes acid or fire damage, this trait doesn't function at the start of the scrag's next turn. The scrag dies only if it starts its turn with 0 hp and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The greater scrag makes three attacks. one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 14 (2d8 + 5) Claws. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 12 (3d4 + 5)"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 322",
+  "environment": "swamp, underwater"
+}

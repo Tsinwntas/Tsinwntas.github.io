@@ -1,0 +1,59 @@
+{
+  "name": "Beldora",
+  "size": "M",
+  "type": "humanoid (Illuskanhuman)",
+  "alignment": "Chaotic Good",
+  "ac": "12",
+  "hp": "18 (4d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "10",
+  "int": "16",
+  "wis": "12",
+  "cha": "16",
+  "skill": "Deception +5, Insight +3, Investigation +5, Perception +5, Persuasion +5",
+  "passive": "13",
+  "languages": "Common, Draconic, Dwarvish, Halfling",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Roleplaying Information",
+      "text": [
+        "Beldora is a member of the harpers who survives using her wits and wiles. She looks like a homeless waif, but she's a survivor who shies away from material wealth.",
+        "Ideal: \"We should all strive to help one another\"",
+        "Bond: \"I'll risk my life to protect the powerless.\"",
+        "Flaw: \"I like lying to people. Makes life more interesting, no?\""
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage. Beldora carries ten crossbow bolts."
+      ],
+      "attack": [
+        "Hand Crossbow|+4|1d6+2"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Duck and Cover",
+      "text": [
+        "Beldora adds 2 to her AC against one ranged attack that would hit her. To do so, Beldora must see the attacker and can't be grappled or restrained."
+      ]
+    }
+  ],
+  "description": "Beldora is a member of the Harpers who survives using her wits and wiles. She looks like a homeless waif, but she's a survivor who shies away from material wealth.\nIdeal:\"We should all strive to help one another.\"\nBond:\"I'll risk my life to protect the powerless.\"\nFlaw:\"I like lying to people. Makes life more interesting, no?\"\nSource: Storm King's Thunder p. 249"
+}

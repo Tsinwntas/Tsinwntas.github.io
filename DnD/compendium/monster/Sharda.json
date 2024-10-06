@@ -1,0 +1,58 @@
+{
+  "name": "Sharda",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "13 (leather armor)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "10",
+  "wis": "13",
+  "cha": "14",
+  "skill": "Deception +4, Persuasion +4, Religion +2",
+  "passive": "11",
+  "languages": "any one language (usually Common)",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Dark Devotion",
+      "text": [
+        "Sharda has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Sharda is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). Sharda has the following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): command, inflict wounds, shield of faith",
+        "• 2nd level (3 slots): hold person, spiritual weapon"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Sharda makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+4|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3"
+  ],
+  "spells": "light, sacred flame, thaumaturgy, command, inflict wounds, shield of faith, hold person, spiritual weapon",
+  "description": "\nSource: Storm King's Thunder p. 103"
+}

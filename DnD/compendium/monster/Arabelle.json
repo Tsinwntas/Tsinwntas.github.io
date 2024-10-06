@@ -1,0 +1,20 @@
+{
+  "name": "Arabelle",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "10",
+  "hp": "2 (1d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "any one language (usually Common)",
+  "cr": "0",
+  "description": "\nSource: Curse of Strahd p. 38",
+  "environment": "arctic, desert, coastal, grassland, hill, urban, forest"
+}

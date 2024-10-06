@@ -1,0 +1,85 @@
+{
+  "name": "Dhampir Commander",
+  "size": "M",
+  "type": "humanoid (dhampir)",
+  "alignment": "Any alignment",
+  "ac": "14 (studded leather armor, shield)",
+  "hp": "97 (13d8+39)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "17",
+  "con": "16",
+  "int": "14",
+  "wis": "12",
+  "cha": "19",
+  "save": "Str +5, Dex +6, Wis +4, Cha +7",
+  "skill": "Athletics +5, Deception +7, Intimidation +7, Persuasion +7, Stealth +6",
+  "passive": "11",
+  "languages": "Common",
+  "cr": "7",
+  "resist": "necrotic",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Inspiring Savagery",
+      "text": [
+        "Each ally within 30 feet of the dhampir that can see it can make one melee attack as a bonus action."
+      ]
+    },
+    {
+      "name": "Undead Resistance",
+      "text": [
+        "The dhampir has advantage on saving throws against disease."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The dhampir makes four rapier or four shortbow attacks. It can make a grapple attack or Dark Thirst attack in place of any attack."
+      ]
+    },
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Rapier|6|1d8+3"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|6|1d6+3"
+      ]
+    },
+    {
+      "name": "Dark Thirst",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature that is grappled by the dhampir, incapactitated, or restrained. 5 (1d4 + 3) piercing damage plus 7 (2d6) necrotic damage. The dhampir commander regains hp equal to the amount of necrotic damage dealt."
+      ],
+      "attack": [
+        "Dark Thirst|6|1d4+3"
+      ]
+    },
+    {
+      "name": "Predatory Charm",
+      "text": [
+        "The dhampir magically beguiles the mind of one humanoid it can see within 30 feet for 1 hour. The target must succeed on a DC 15 Charisma saving throw or the dhampir has advantage on Charisma checks against the target. If the dhampir or any of its allies damage the target, the effect ends.",
+        "If the target's saving throw is successful or the effect ends, the target is immune to this dhampir's Predatory Charm for the next 24 hours. A creature immune to being charmed is immune to this effect. A dhampir can have only one target affected by its Predatory Charm at a time. If it uses its Predatory Charm on another target, the effect on the previous target ends."
+      ]
+    },
+    {
+      "name": "Leadership (Recharges after a Short or Long Rest)",
+      "text": [
+        "For 1 minute, the dhampir can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the dhampir. A creature can benefit from only one Leadership die at a time. This effect ends if the dhampir is incapacitated."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

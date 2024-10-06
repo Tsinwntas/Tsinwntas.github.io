@@ -1,0 +1,16 @@
+{
+  "name": "Jim's Magic Missile",
+  "classes": "Wizard",
+  "level": "1",
+  "school": "EV",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "120 feet",
+  "components": "V, S, R",
+  "duration": "Instantaneous",
+  "text": "Jim's magic missile is an ancient and powerful spell, as well as being the name of my band in Wizard Academy.\nAny apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather's magic with this improved version of the spell, as used by Jim Darkmagic!\nYou create three twisting, whistling, hypoallergenic, gluten-free darts of magical force. Each dart targets a creature of your choice that you can see within range. Make a ranged spell attack for each missile. On a hit, a missile deals 2d4 force damage to its target.\nIf the attack roll scores a critical hit, the target of that missile takes 5d4 force damage instead of you rolling damage twice for a critical hit. If the attack roll for any missile is a 1, all missiles miss their targets and blow up in your face, dealing 1 force damage per missile to you.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart, and the royalty component increases by 1 gp, for each slot level above 1st.\nSource: Acquisitions Incorporated p. 76",
+  "roll": [
+    "2d4",
+    "5d4"
+  ]
+}

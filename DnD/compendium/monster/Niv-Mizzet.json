@@ -1,0 +1,146 @@
+{
+  "name": "Niv-Mizzet",
+  "size": "G",
+  "type": "dragon",
+  "alignment": "Chaotic Neutral",
+  "ac": "22 (natural armor)",
+  "hp": "370 (19d20+171)",
+  "speed": "walk 40 ft., climb 30 ft., fly 80 ft.",
+  "str": "29",
+  "dex": "14",
+  "con": "29",
+  "int": "30",
+  "wis": "17",
+  "cha": "25",
+  "save": "Con +17, Int +18, Wis +11",
+  "skill": "Arcana +18, Insight +11, Perception +11",
+  "passive": "21",
+  "languages": "Common, Draconic",
+  "cr": "26",
+  "resist": "cold, psychic, thunder",
+  "immune": "fire, lightning",
+  "conditionImmune": "charmed",
+  "senses": "blindsight 60 ft., darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Niv-Mizzet fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Locus of the Firemind",
+      "text": [
+        "Niv-Mizzet can maintain concentration on two different spells at the same time. In addition, he has advantage on saving throws to maintain concentration on spells."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Niv-Mizzet has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Master Chemister",
+      "text": [
+        "When Niv-Mizzet casts a spell that deals damage, he can change the spell's damage to cold, fire, force, lightning, or thunder."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Niv-Mizzet is a 20th-level Izzet spellcaster. His spellcasting ability is Intelligence (spell save DC 26, +18 to hit with spell attacks). He has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, prestidigitation, ray of frost, shocking grasp",
+        "• 1st level (4 slots): detect magic, magic missile, shield, thunderwave, unseen servant",
+        "• 2nd level (3 slots): blur, enlarge/reduce, flaming sphere, hold person, scorching ray",
+        "• 3rd level (3 slots): counterspell, fireball, lightning bolt, slow",
+        "• 4th level (3 slots): confusion, dimension door, fabricate",
+        "• 5th level (2 slots): conjure elemental, polymorph, wall of fire, wall of force",
+        "• 6th level (1 slots): chain lightning, disintegrate, true seeing",
+        "• 7th level (1 slots): project image, reverse gravity, teleport",
+        "• 8th level (1 slots): control weather, maze, power word stun",
+        "• 9th level (1 slots): prismatic wall"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Niv-Mizzet makes three attacks: one with his bite and two with his claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. 18 (2d8 + 9) piercing damage plus 14 (4d6) fire damage."
+      ],
+      "attack": [
+        "Bite|+17|2d8+9"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. 14 (2d4 + 9) slashing damage."
+      ],
+      "attack": [
+        "Claw|+17|2d4+9"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. 16 (2d6 + 9) bludgeoning damage."
+      ],
+      "attack": [
+        "Tail|+17|2d6+9"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": [
+        "Niv-Mizzet exhales fire in a 90-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Fire Breath (Recharge 5-6)||26d6"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Niv-Mizzet can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Niv-Mizzet regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Cantrip",
+      "text": [
+        "Niv-Mizzet casts one of his cantrips."
+      ]
+    },
+    {
+      "name": "Tail Attack",
+      "text": [
+        "Niv-Mizzet makes a tail attack."
+      ]
+    },
+    {
+      "name": "Wing Attack (Costs 2 Actions)",
+      "text": [
+        "Niv-Mizzet beats his wings. Each creature within 15 feet of him must succeed on a DC 25 Dexterity saving throw or take 14 (2d4 + 9) bludgeoning damage and be knocked prone. Niv-Mizzet can then fly up to half his flying speed."
+      ]
+    },
+    {
+      "name": "Dracogenius (Costs 3 Actions)",
+      "text": [
+        "Niv-Mizzet regains a spell slot of 3rd level or lower."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1, 1, 1, 1"
+  ],
+  "spells": "fire bolt, light, prestidigitation, ray of frost, shocking grasp, detect magic, magic missile, shield, thunderwave, unseen servant, blur, enlarge/reduce, flaming sphere, hold person, scorching ray, counterspell, fireball, lightning bolt, slow, confusion, dimension door, fabricate, conjure elemental, polymorph, wall of fire, wall of force, chain lightning, disintegrate, true seeing, project image, reverse gravity, teleport, control weather, maze, power word stun, prismatic wall",
+  "description": "Possessed of arrogance and vanity that matches his vast intellect and tremendous power, Niv-Mizzet is the ancient dragon who founded and continues to control the Izzet League. From his private laboratory at the top of the Izzet guildhall, Niv-Mizzet directs the research and experiments of his countless underlings. He coordinates a tremendous number of apparently unrelated projects, working toward some mysterious end.\nThere can be little doubt that this ancient dragon is one of the most intelligent beings on Ravnica and one of the world's most powerful spellcasters. He is just as acquisitive as any dragon, but his treasure is scientific and magical knowledge. His ambition is a looming threat in the minds of all the other guildmasters, but confronting him directly is almost unthinkable thanks to the combination of his awesome magical power and the sheer physical threat of a fire-breathing, swordtoothed dragon.\nSource: Guildmasters' Guide to Ravnica p. 241"
+}

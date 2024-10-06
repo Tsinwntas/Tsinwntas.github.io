@@ -1,0 +1,87 @@
+{
+  "name": "Moss Lurker",
+  "size": "S",
+  "type": "humanoid,tome of Beasts",
+  "alignment": "chaotic neutral",
+  "ac": "15 (natural armor)",
+  "hp": "45 (10d6+10)",
+  "speed": "30 ft.",
+  "str": "14",
+  "dex": "14",
+  "con": "12",
+  "int": "12",
+  "wis": "10",
+  "cha": "10",
+  "save": "Str +4, Dex +4",
+  "skill": "Perception +2, Stealth +4",
+  "immune": "fire, poison",
+  "conditionImmune": "blind, poisoned",
+  "senses": "blindsight 60 ft.",
+  "passive": "12",
+  "languages": " Giant, Sylvan, Trollkin",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Camouflage",
+      "text": [
+        "A moss lurker has advantage on Dexterity (Stealth) checks to hide in forested or swampy terrain."
+      ]
+    },
+    {
+      "name": "Love of Heavy Weapons",
+      "text": [
+        "While moss lurkers can use heavy weapons, they have disadvantage while wielding them."
+      ]
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "text": [
+        "The moss lurker has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    },
+    {
+      "name": "Poisoned Gifts",
+      "text": [
+        "A moss lurker can contaminate liquids or food with poison. Someone who consumes the contaminated substance must make a successful DC 11 Constitution saving throw or become poisoned for 1 hour. When the poison is introduced, the moss lurker can choose a poison that also causes the victim to fall unconscious, or to become paralyzed while poisoned in this way. An unconscious creature wakes if it takes damage, or if a creature uses an action to shake it awake."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage."
+      ],
+      "attack": [
+        "Claw|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Great Sword or Maul",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing or bludgeoning damage."
+      ],
+      "attack": [
+        "Great Sword or Maul|4|2d6+2"
+      ]
+    },
+    {
+      "name": "Mushroom-Poisoned Javelin",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 6 (1d12) poison damage and the target is poisoned until the start of the moss lurker's next turn. A successful DC 11 Constitution save halves the poison damage and prevents poisoning."
+      ],
+      "attack": [
+        "Mushroom-Poisoned Javelin|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Dropped Boulder",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 100 ft. (vertically), one target. Hit: 10 (3d6) bludgeoning damage."
+      ],
+      "attack": [
+        "Dropped Boulder|4|3d6"
+      ]
+    }
+  ]
+}

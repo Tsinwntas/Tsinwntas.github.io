@@ -1,0 +1,27 @@
+{
+  "name": "Hare",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "1 (1d4-1)",
+  "speed": "walk 20 ft., burrow 5 ft.",
+  "str": "1",
+  "dex": "17",
+  "con": "9",
+  "int": "2",
+  "wis": "11",
+  "cha": "4",
+  "skill": "Perception +2, Stealth +5",
+  "passive": "12",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Escape",
+      "text": [
+        "The hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
+      ]
+    }
+  ],
+  "description": "Snowshoe hares are gentle herbivores that live in burrows throughout Icewind Dale. They have shorter ears than other hares and are acclimated to cold weather.\nSource: Icewind Dale: Rime of the Frostmaiden p. 294"
+}

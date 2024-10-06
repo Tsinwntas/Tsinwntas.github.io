@@ -1,0 +1,39 @@
+{
+  "name": "Bandit",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Non-Lawful Alignment",
+  "ac": "12 (leather armor)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "12",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "any one language (usually Common)",
+  "cr": "1/8",
+  "action": [
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+3|1d6+1"
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. 5 (1d8 + 1) piercing damage."
+      ],
+      "attack": [
+        "Light Crossbow|+3|1d8+1"
+      ]
+    }
+  ],
+  "description": "Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.\nPirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels.\nSource: Monster Manual p. 343, Hoard of the Dragon Queen, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden"
+}

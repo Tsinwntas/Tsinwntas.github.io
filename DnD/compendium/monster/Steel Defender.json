@@ -1,0 +1,58 @@
+{
+  "name": "Steel Defender",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Any alignment",
+  "ac": "15 (natural armor)",
+  "hp": "2",
+  "speed": "walk 40 ft.",
+  "str": "14",
+  "dex": "12",
+  "con": "14",
+  "int": "4",
+  "wis": "10",
+  "cha": "6",
+  "skill": "Athletics +2, Perception +0",
+  "passive": "10",
+  "languages": "understands the languages you speak",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [ d8s] equal to your artificer level)"
+      ]
+    },
+    {
+      "name": "Vigilant",
+      "text": [
+        "The defender can't be surprised."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Force-Empowered Rend",
+      "text": [
+        "Melee Weapon Attack: {@hitYourSpellAttack} to hit, reach 5 ft., one target you can see. 1d8 + PB force damage."
+      ]
+    },
+    {
+      "name": "Repair (3/Day)",
+      "text": [
+        "The magical mechanisms inside the defender restore 2d8 + PB hit points to itself or to one construct or object within 5 feet of it."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Deflect Attack",
+      "text": [
+        "The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender."
+      ]
+    }
+  ],
+  "description": "\nSource: Eberron: Rising from the Last War p. 61"
+}

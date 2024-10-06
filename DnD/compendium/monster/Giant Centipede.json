@@ -1,0 +1,32 @@
+{
+  "name": "Giant Centipede",
+  "size": "S",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "4 (1d6+1)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "5",
+  "dex": "14",
+  "con": "12",
+  "int": "1",
+  "wis": "7",
+  "cha": "3",
+  "passive": "8",
+  "cr": "1/4",
+  "senses": "blindsight 30 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+      ],
+      "attack": [
+        "Bite|+4|1d4+2",
+        "Bite||3d6"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 323, Hoard of the Dragon Queen, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything",
+  "environment": "underdark, urban"
+}

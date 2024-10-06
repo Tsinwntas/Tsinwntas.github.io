@@ -1,0 +1,69 @@
+{
+  "name": "Jot",
+  "size": "T",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "13",
+  "hp": "7 (3d4)",
+  "speed": "walk 40 ft.",
+  "str": "5",
+  "dex": "17",
+  "con": "10",
+  "int": "7",
+  "wis": "10",
+  "cha": "10",
+  "skill": "Stealth +5",
+  "passive": "10",
+  "languages": "Abyssal, Common",
+  "cr": "1",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "Jot can use its action to polymorph into a beast form that resembles a bat (speed 10 feet fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Jot has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Claw (Bite in Beast Form)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Claw (Bite in Beast Form)|+4|1d4+3",
+        "Claw (Bite in Beast Form)||2d4"
+      ]
+    },
+    {
+      "name": "Scare (1/Day)",
+      "text": [
+        "One creature of Jot's choice within 20 feet of it must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if Jot is within line of sight, ending the effect on itself on a success."
+      ]
+    },
+    {
+      "name": "Invisibility",
+      "text": [
+        "Jot magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment Jot wears or carries is invisible with it."
+      ]
+    },
+    {
+      "name": "Variant: Quasit Familiar",
+      "text": [
+        "Mortal spellcasters interested in extraplanar familiars find quasits easy to summon and eager to serve. Jot plays the part of the obsequious servant. It serves its master well, but it goads the mortal to greater and greater acts of chaos and evil. Such quasits have the following trait.",
+        "Familiar. Jot can serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what Jot senses as long as they are within 1 mile of each other. While Jot is within 10 feet of its master, the master shares Jot's Magic Resistance trait. At any time and for any reason, Jot can end its service as a familiar, ending the telepathic bond."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 15"
+}

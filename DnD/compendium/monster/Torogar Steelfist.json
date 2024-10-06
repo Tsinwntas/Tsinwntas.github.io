@@ -1,0 +1,76 @@
+{
+  "name": "Torogar Steelfist",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Lawful Evil",
+  "ac": "17 (natural armor)",
+  "hp": "168 (16d10+80)",
+  "speed": "walk 40 ft.",
+  "str": "25",
+  "dex": "17",
+  "con": "20",
+  "int": "8",
+  "wis": "9",
+  "cha": "16",
+  "save": "Str +11, Con +9",
+  "passive": "9",
+  "languages": "Abyssal, Common",
+  "cr": "11",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Goring Rush",
+      "text": [
+        "Immediately after using the Dash action, Torogar can make one melee attack with his horns."
+      ]
+    },
+    {
+      "name": "Labyrinthine Recall",
+      "text": [
+        "Torogar can perfectly recall any path he has traveled."
+      ]
+    },
+    {
+      "name": "Rage (Recharges after a Short or Long Rest)",
+      "text": [
+        "As a bonus action, Torogar can enter a rage that lasts for 1 minute. The rage ends early if Torogar is knocked unconscious or if his turn ends and he hasn't attacked a hostile creature or taken damage since his last turn. While raging, Torogar gains the following benefits:",
+        "He has advantage on Strength checks and Strength saving throws.",
+        "He deals an extra 3 damage when he hits a target with a melee weapon attack.",
+        "He has resistance to bludgeoning, piercing, and slashing damage."
+      ]
+    },
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Torogar wears gauntlets of flaming fury and a belt of fire giant strength. Without the belt, his Strength is 21. He also carries a soul coin."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Torogar makes three attacks: two with his scimitars and one with his horns."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 14 (2d6 + 7) slashing damage, or 17 (2d6 + 10) slashing damage while raging, plus 3 (1d6) fire damage from the gauntlets of flaming fury."
+      ],
+      "attack": [
+        "Scimitar|+11|2d6+7"
+      ]
+    },
+    {
+      "name": "Horns",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 16 (2d8 + 7) piercing damage, or 19 (2d8 + 10) piercing damage while raging."
+      ],
+      "attack": [
+        "Horns|+11|2d8+7"
+      ]
+    }
+  ],
+  "description": "\nSource: Baldur's Gate: Descent Into Avernus p. 112"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Silvered Shortbow",
+  "detail": "major, simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "2",
+  "property": "A,2H",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "80/320",
+  "text": "Source: Player's Handbook p. 148"
+}

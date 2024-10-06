@@ -1,0 +1,12 @@
+{
+  "name": "Stoneskin",
+  "level": "4",
+  "school": "A",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
+  "duration": "Concentration, up to 1 hour",
+  "classes": "Druid, Ranger, Sorcerer, Wizard, Cleric (War), Druid (Land), Paladin (Ancients), Paladin (Conquest), Paladin (Redemption), Artificer, Artificer, Cleric (Strength (PSA)), Artificer (UA), Artificer (Revisited) (UA), Paladin (Redemption (UA)), Paladin (Conquest v2 (UA))",
+  "text": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.\nSource: Player's Handbook p. 278"
+}

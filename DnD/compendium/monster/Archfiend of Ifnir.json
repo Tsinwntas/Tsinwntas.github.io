@@ -1,0 +1,70 @@
+{
+  "name": "Archfiend of Ifnir",
+  "size": "L",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "18 (natural armor)",
+  "hp": "184 (16d10+96)",
+  "speed": "walk 20 ft., fly 30 ft.",
+  "str": "21",
+  "dex": "10",
+  "con": "22",
+  "int": "19",
+  "wis": "12",
+  "cha": "15",
+  "save": "Con +11, Int +9, Wis +6, Cha +7",
+  "passive": "11",
+  "languages": "Abyssal, telepathy 120 ft.",
+  "cr": "13",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The archfiend has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The archfiend uses Horror Nimbus if it can. It then makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 32 (5d10 + 5) piercing damage."
+      ],
+      "attack": [
+        "Bite|+10|5d10+5"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 15 (3d6 + 5) slashing damage."
+      ],
+      "attack": [
+        "Claw|+10|3d6+5"
+      ]
+    },
+    {
+      "name": "Horror Nimbus (Recharge 5-6)",
+      "text": [
+        "The archfiend magically emits scintillating, multicolored light. Each creature within 15 feet of the archfiend that can see the light must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the archfiend's Horror Nimbus for the next 24 hours."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "The archfiend magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Amonkhet p. 30"
+}

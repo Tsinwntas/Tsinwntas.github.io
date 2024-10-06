@@ -1,0 +1,65 @@
+{
+  "name": "Doomspeaker",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (shield)",
+  "hp": "78 (12d8+24)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "17",
+  "con": "15",
+  "int": "10",
+  "wis": "12",
+  "cha": "18",
+  "save": "Con +5, Wis +4",
+  "skill": "Religion +6",
+  "passive": "11",
+  "cr": "6",
+  "resist": "necrotic",
+  "trait": [
+    {
+      "name": "Aura Of The Funeral Feast",
+      "text": [
+        "The doomspeaker gains 10 (3d6) temporary hp whenever a creature dies within 10 feet of it."
+      ]
+    },
+    {
+      "name": "Pervasive Unholy Smite",
+      "text": [
+        "Whenever the doomspeaker deals damage with a melee weapon attack, the target takes an extra 9 (2d8) necrotic damage (included in the attack). This damage increases to 13 (3d8) if the target is a celestial, a good-aligned dragon, or a fey."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The doomspeaker is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The doomspeaker has the following Paladin spells prepared:",
+        "• 1st level (4 slots): command, searing smite, shield of faith",
+        "• 2nd level (3 slots): branding smite, locate object, magic weapon, protection from poison",
+        "• 3rd level (3 slots): aura of vitality, blinding smite, dispel magic"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The doomspeaker makes two shortsword attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage plus 9 (2d8) necrotic damage."
+      ],
+      "attack": [
+        "Shortsword|6|1d6+3"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3"
+  ],
+  "spells": "command, searing smite, shield of faith, branding smite, locate object, magic weapon, protection from poison, aura of vitality, blinding smite, dispel magic",
+  "description": "Source: CCodex (3pp) p. 399"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Double-Bladed Scimitar of Certain Death",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "S,2H,M",
+  "dmg1": "2d4",
+  "dmgType": "S",
+  "text": "Special: If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.\nWhen you damage a creature with an attack using this magic weapon, the target can't regain hit points until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 270, Wayfinder's Guide to Eberron p. 74",
+  "roll": [
+    "1d4",
+    "2d4"
+  ]
+}

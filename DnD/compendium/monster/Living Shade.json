@@ -1,0 +1,56 @@
+{
+  "name": "Living Shade",
+  "size": "M",
+  "type": "fey",
+  "alignment": "Neutral",
+  "ac": "12",
+  "hp": "18 (4d8)",
+  "speed": "walk 40 ft.",
+  "str": "6",
+  "dex": "14",
+  "con": "10",
+  "int": "9",
+  "wis": "10",
+  "cha": "12",
+  "skill": "Stealth +6",
+  "passive": "10",
+  "languages": "Understands Common but can't speak",
+  "cr": "1/4",
+  "resist": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "necrotic, poison",
+  "vulnerable": "radiant",
+  "conditionImmune": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amorphous",
+      "text": [
+        "The living shade can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    },
+    {
+      "name": "Shadow Stealth",
+      "text": [
+        "While in dim light or darkness, the living shade can take the Hide action as a bonus action."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the living shade has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shadow Touch",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 2 (1d4) cold damage."
+      ],
+      "attack": [
+        "Shadow Touch|4|1d4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 255"
+}

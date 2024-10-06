@@ -1,0 +1,59 @@
+{
+  "name": "Bestial Spirit",
+  "size": "S",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "0",
+  "hp": "20",
+  "speed": "walk 30 ft., climb 30 ft., fly 60 ft., swim 30 ft.",
+  "str": "18",
+  "dex": "11",
+  "con": "16",
+  "int": "4",
+  "wis": "14",
+  "cha": "5",
+  "passive": "12",
+  "languages": "understands the languages you speak",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "20 + 5 for each spell level above 2nd"
+      ]
+    },
+    {
+      "name": "Water Breathing (Water Only)",
+      "text": [
+        "The beast can breathe only underwater."
+      ]
+    },
+    {
+      "name": "Flyby (Air Only)",
+      "text": [
+        "The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Pack Tactics (Land and Water Only)",
+      "text": [
+        "The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The beast makes a number of attacks equal to half this spell's level (rounded down)."
+      ]
+    },
+    {
+      "name": "Maul",
+      "text": [
+        "Melee Weapon Attack: {@hitYourSpellAttack} to hit, reach 5 ft., one target. 1d8 + 4 + the spell's level piercing damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Tasha's Cauldron of Everything"
+}

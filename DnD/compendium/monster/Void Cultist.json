@@ -1,0 +1,79 @@
+{
+  "name": "Void Cultist",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Neutral Evil",
+  "ac": "12",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "12",
+  "int": "9",
+  "wis": "13",
+  "cha": "8",
+  "passive": "11",
+  "languages": "Common",
+  "cr": "1/2",
+  "resist": "psychic",
+  "trait": [
+    {
+      "name": "Insane",
+      "text": [
+        "The void cultist has advantage on saving throws against being charmed or frightened."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The void cultist makes two attacks. one with its club and one with its Flesh Twist."
+      ]
+    },
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|4|1d4+2"
+      ]
+    },
+    {
+      "name": "Flesh Twist",
+      "text": [
+        "The void cultist has one or more of the following attack options."
+      ]
+    },
+    {
+      "name": "Poisonous Spittle",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. 5 (1d6 + 2) poison damage, and, if the target is a creature, it must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute."
+      ],
+      "attack": [
+        "Poisonous Spittle|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Tentacle Hand",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage, and, if the target is a Medium or smaller creature, it is grappled (escape DC 12).",
+        "Until this grapple ends, the target is restrained, and the void cultist can't use its tentacle hand against another target. In addition, the tentacle hand grants the cultist advantage on Strength (Athletics) checks."
+      ],
+      "attack": [
+        "Tentacle Hand|4|1d4+2"
+      ]
+    },
+    {
+      "name": "Tusks",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage."
+      ],
+      "attack": [
+        "Tusks|4|1d8+2"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

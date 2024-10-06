@@ -1,0 +1,8 @@
+{
+  "name": "Chest",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "25",
+  "value": "5.0",
+  "text": "A chest holds 12 cubic feet or 300 pounds of gear.\nSource: Player's Handbook p. 153"
+}

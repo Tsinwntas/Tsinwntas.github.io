@@ -1,0 +1,28 @@
+{
+  "name": "Human (Ixalan)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 1, Dex 1, Con 1, Int 1, Wis 1, Cha 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Ixalan p. 11"
+    },
+    {
+      "name": "Age",
+      "text": "Humans reach adulthood in their late teens and live less than a century.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Humans tend toward no particular alignment. The best and the worst are found among them.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and one extra language of your choice. Or, if your campaign uses the optional rules for languages found in the previous section, your national origin determines your native language: Itzocan for the Sun Empire, Coalition pidgin for the Brazen Coalition, or Vampire for the Legion of Dusk. You still speak one additional language of your choice, and Common if it exists in your campaign.\n"
+    }
+  ]
+}

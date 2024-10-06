@@ -1,0 +1,63 @@
+{
+  "name": "Shadowghast",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Chaotic Evil",
+  "ac": "15",
+  "hp": "49 (9d8+9)",
+  "speed": "walk 35 ft.",
+  "str": "14",
+  "dex": "20",
+  "con": "12",
+  "int": "12",
+  "wis": "11",
+  "cha": "8",
+  "skill": "Perception +3, Stealth +8",
+  "passive": "13",
+  "cr": "5",
+  "resist": "necrotic",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Stench",
+      "text": [
+        "Any creature that starts its turn within 5 feet of the shadowghast must succeed on a DC 12 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to this Stench for 24 hours."
+      ]
+    },
+    {
+      "name": "Shadow Stealth",
+      "text": [
+        "While in dim light or darkness, the shadowghast can take the Hide action as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The shadowghast makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. 11 (2d8 + 2) slashing damage plus 5 (1d10) necrotic damage."
+      ],
+      "attack": [
+        "Bite|+8|2d8+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 12 (2d6 + 5) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 12 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Claws|+8|2d6+5"
+      ]
+    }
+  ],
+  "description": "A shadowghast is an undead assassin. Leaping out from the shadows and trailing tendrils of darkness, it closes in on its prey with nary a sound, then tears into a victim with its paralyzing claws and furious bite.\nSource: Explorer's Guide to Wildemount p. 299"
+}

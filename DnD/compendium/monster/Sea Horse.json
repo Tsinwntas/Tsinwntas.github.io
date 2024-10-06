@@ -1,0 +1,26 @@
+{
+  "name": "Sea Horse",
+  "size": "T",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "1 (1d4-1)",
+  "speed": "swim 20 ft.",
+  "str": "1",
+  "dex": "12",
+  "con": "8",
+  "int": "1",
+  "wis": "10",
+  "cha": "2",
+  "passive": "10",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The sea horse can breathe only underwater."
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 337"
+}

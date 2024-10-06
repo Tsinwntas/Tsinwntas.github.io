@@ -1,0 +1,46 @@
+{
+  "name": "Rakdos Lampooner",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Chaotic Evil",
+  "ac": "12 (leather armor)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "13",
+  "int": "12",
+  "wis": "9",
+  "cha": "18",
+  "skill": "Deception +6, Performance +6",
+  "passive": "9",
+  "languages": "Common plus any one language",
+  "cr": "2",
+  "action": [
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+      ],
+      "attack": [
+        "Club|+2|1d4"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The lampooner is a 4th-level Rakdos spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following bard spells:",
+        "Cantrips (at will): dancing lights, minor illusion, vicious mockery",
+        "• 1st level (4 slots): bane, dissonant whispers, silent image, Tasha's hideous laughter, thunderwave",
+        "• 2nd level (3 slots): crown of madness, enthrall, suggestion"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3"
+  ],
+  "spells": "dancing lights, minor illusion, vicious mockery, bane, dissonant whispers, silent image, Tasha's hideous laughter, thunderwave, crown of madness, enthrall, suggestion",
+  "description": "One of the most effective weapons in the Rakdos cult's arsenal is satire, and a Rakdos lampooner is a virtuoso of that art. Lampooners generally reserve their mockery for people and guilds that have seized an outsized measure of power, those who need to be taken down a peg, rather than piling further humiliation onto those who are already struggling. They use masks, marionettes, or effigies to caricature public figures, or sometimes play pranks on those individuals directly in the streets.\nSource: Guildmasters' Guide to Ravnica p. 248"
+}

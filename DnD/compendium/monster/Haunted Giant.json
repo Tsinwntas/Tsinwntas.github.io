@@ -1,0 +1,74 @@
+{
+  "name": "Haunted Giant",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Chaotic Neutral",
+  "ac": "20 (natural armor)",
+  "hp": "126 (12d12+48)",
+  "speed": "walk 40 ft.",
+  "str": "21",
+  "dex": "8",
+  "con": "19",
+  "int": "5",
+  "wis": "9",
+  "cha": "6",
+  "save": "Dex +2, Con +7, Wis +2",
+  "skill": "Athletics +8, Perception +2",
+  "passive": "12",
+  "languages": "Giant",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Ancestral Spirits",
+      "text": [
+        "Three ghostly spirits haunt the giant. The spirits are incorporeal, remain within 10 feet of the giant at all times, and can't take actions. Each uses the giant's AC and saving throws, has 15 hp and can only be harmed by radiant damage. If an ancestral spirit is reduced to 0 hp, it disappears temporarily. Reduce the giant's AC by 1 and remove one trait granted by the spirits for each spirit that is driven off. Ancestral spirits can't be turned."
+      ]
+    },
+    {
+      "name": "Reckless",
+      "text": [
+        "At the start of its turn, the giant can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn. This trait is granted by the ancestral spirits."
+      ]
+    },
+    {
+      "name": "See Invisibility",
+      "text": [
+        "The giant can see invisible creatures and objects as if they were visible and can see into the Ethereal Plane. This trait is granted by the ancestral spirits."
+      ]
+    },
+    {
+      "name": "Steadfast",
+      "text": [
+        "The giant is immune to the charmed and frightened conditions. This trait is granted by the ancestral spirits."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The giant makes two greatclub attacks."
+      ]
+    },
+    {
+      "name": "Greatclub",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 18 (3d8 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Greatclub|8|3d8+5"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. 21 (3d10 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|8|3d10+5"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "badlands, mountain"
+}

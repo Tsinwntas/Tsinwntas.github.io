@@ -1,0 +1,10 @@
+{
+  "name": "Lance of Certain Death",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "R,S,M",
+  "dmg1": "1d12",
+  "dmgType": "P",
+  "text": "Special: You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.\nWhen you damage a creature with an attack using this magic weapon, the target can't regain hit points until the start of your next turn.\nSource: Explorer's Guide to Wildemount p. 270"
+}

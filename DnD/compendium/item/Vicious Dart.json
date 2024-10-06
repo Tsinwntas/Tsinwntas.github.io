@@ -1,0 +1,14 @@
+{
+  "name": "Vicious Dart",
+  "detail": "major, simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "0.25",
+  "property": "F,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "When you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.\nNote: According to the SRD, it is an extra 2d6 piercing damage.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 209",
+  "roll": [
+    "2d6"
+  ]
+}

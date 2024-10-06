@@ -1,0 +1,53 @@
+{
+  "name": "Engineer",
+  "size": "S",
+  "type": "humanoid (Rockgnome)",
+  "alignment": "Neutral Good",
+  "ac": "10",
+  "hp": "7 (2d6)",
+  "speed": "walk 25 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "14",
+  "wis": "10",
+  "cha": "11",
+  "skill": "Arcana +4, History +4",
+  "passive": "10",
+  "languages": "Common, Gnomish",
+  "cr": "1/4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Gnome Cunning",
+      "text": [
+        "The gnome has advantage on all Intelligence, Wisdom and Charisma saving throws against magic."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The gnome is a 1st-level spellcaster. Its spellcasting ability is Intelligence. It has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, mending, prestidigitation",
+        "• 1st level (2 slots): burning hands, disguise self, shield"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) piercing damage. Or Ranged Weapon Attack: +2 to hit, range 20/60 ft., one target. 2 (1d4) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+2|1d4",
+        "Dagger|+2|1d4"
+      ]
+    }
+  ],
+  "slots": [
+    "2"
+  ],
+  "spells": "fire bolt, mending, prestidigitation, burning hands, disguise self, shield",
+  "description": "An engineer who maintains and operates the Scarlet Marpenoth, a submarine, currently attached below Jarlaxle's flagship the Eyecatcher\nSource: Waterdeep: Dragon Heist p. 141"
+}

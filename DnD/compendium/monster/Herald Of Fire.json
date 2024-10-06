@@ -1,0 +1,119 @@
+{
+  "name": "Herald Of Fire",
+  "size": "L",
+  "type": "dragon",
+  "alignment": "Lawful Evil",
+  "ac": "16 (natural armor)",
+  "hp": "136 (16d10+48)",
+  "speed": "walk 30 ft., fly 50 ft.",
+  "str": "17",
+  "dex": "10",
+  "con": "17",
+  "int": "12",
+  "wis": "12",
+  "cha": "18",
+  "save": "Str +7, Dex +4, Wis +5",
+  "skill": "Perception +5",
+  "passive": "15",
+  "languages": "Common, Draconic, Infernal",
+  "cr": "12",
+  "resist": "lightning; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "fire, poison",
+  "vulnerable": "cold",
+  "conditionImmune": "charmed, exhaustion, paralyzed, poisoned, stunned, unconscious",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The herald of fire has advantage on melee attack rolls against any creature that doesn't have all its hp."
+      ]
+    },
+    {
+      "name": "Hidden Herald",
+      "text": [
+        "The herald of fire can use its action to polymorph into a Medium dragonborn, Medium human, Small kobold, or back into its true draconic humanoid form. In each form, its eyes glow with magical fire and it wears a silver sword, revealing its identity as a herald. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying, other than the silver sword, transforms with it. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If the herald fails a saving throw, it can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The herald's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Scales Of Justice",
+      "text": [
+        "At the start of each of the herald's turns, each creature within 30 feet of it must succeed on a DC 16 Charisma saving throw or speak only the truth until the start of the herald's next turn while within 30 feet of the herald."
+      ]
+    },
+    {
+      "name": "Treasure Sense",
+      "text": [
+        "The herald can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of it."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The herald of fire makes two fire claw attacks. If both attacks hit the same target, the target ignites. Until a creature takes an action to douse the fire, the target takes 7 (2d6) fire damage at the start of each of its turns."
+      ]
+    },
+    {
+      "name": "Fire Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 12 (2d8 + 3) slashing damage plus 7 (2d6) fire damage."
+      ],
+      "attack": [
+        "Fire Claw|7|2d8+3"
+      ]
+    },
+    {
+      "name": "Fiery Lance (Recharge 5-6)",
+      "text": [
+        "The herald magically shoots fire in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Strength saving throw. On a failure, a target takes 42 (12d6) fire damage and, if it is Huge or smaller, is pushed up to 15 feet away from the herald. On a success, a target takes half the damage and isn't pushed."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The dragon can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The herald of fire can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The herald regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Fiery Claw",
+      "text": [
+        "The herald makes one fiery claw attack."
+      ]
+    },
+    {
+      "name": "Detect",
+      "text": [
+        "The herald makes a Wisdom (Perception) check."
+      ]
+    },
+    {
+      "name": "Immolate Foe (Costs 2 Actions)",
+      "text": [
+        "The herald of fire calls down searing, crimson fire in a 10-foot-radius, 40-foot-high cylinder centered on a point the herald can see within 120 feet of it.",
+        "When a creature enters the area for the first time on a turn or starts its turn there, it is engulfed in flames and must make a DC 16 Dexterity saving throw. The creature takes 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects in the area that aren't being worn or carried ignite. The pillar of fire lasts until the herald uses this legendary action again or until the herald dies."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 215"
+}

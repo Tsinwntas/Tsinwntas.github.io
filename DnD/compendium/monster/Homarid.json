@@ -1,0 +1,46 @@
+{
+  "name": "Homarid",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (natural armor)",
+  "hp": "44 (8d8+8)",
+  "speed": "walk 20 ft., swim 30 ft.",
+  "str": "13",
+  "dex": "8",
+  "con": "13",
+  "int": "9",
+  "wis": "14",
+  "cha": "10",
+  "skill": "Perception +4, Stealth +3",
+  "passive": "14",
+  "languages": "Homarid",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The homarid can breathe air and water."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The homarid makes two claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 5 (1d8 + 1) slashing damage, and the target is grappled (escape DC 11). The homarid has two claws, each of which can grapple only one target."
+      ],
+      "attack": [
+        "Claw|+3|1d8+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Dominaria p. 15"
+}

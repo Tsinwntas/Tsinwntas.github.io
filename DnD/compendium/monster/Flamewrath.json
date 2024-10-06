@@ -1,0 +1,55 @@
+{
+  "name": "Flamewrath",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Chaotic Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "105 (14d8+42)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "16",
+  "int": "11",
+  "wis": "10",
+  "cha": "16",
+  "skill": "Arcana +3, Religion +3",
+  "passive": "10",
+  "languages": "Common, Ignan",
+  "cr": "6",
+  "immune": "fire",
+  "trait": [
+    {
+      "name": "Wreathed in Flame",
+      "text": [
+        "For the flamewrath, the warm version of the fire shield spell has a duration of \"until dispelled.\" The fire shield burns for 10 minutes after the flamewrath dies, consuming its body."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The flamewrath is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following sorcerer spells:",
+        "Cantrips (at will): control flames, fire bolt, friends, light, minor illusion",
+        "• 1st level (4 slots): burning hands, color spray, mage armor",
+        "• 2nd level (3 slots): scorching ray, suggestion",
+        "• 3rd level (3 slots): fireball, hypnotic pattern",
+        "• 4th level (1 slots): fire shield (see Wreathed in Flame)"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 1"
+  ],
+  "spells": "control flames, fire bolt, friends, light, minor illusion, burning hands, color spray, mage armor, scorching ray, suggestion, fireball, hypnotic pattern, fire shield",
+  "description": "A flamewrath is a spellcaster that has earned the favor of Imix, the Prince of Elemental Fire, through a series of painful rites. A flamewrath's skin is burned and scarred. Inured to pain, the flamewrath revels in battle, using an array of fire spells to incinerate enemies who would try to douse the power of elemental fire. Melee combatants who draw too close face fires that can dance across the flamewrath's skin and burn attackers.\nSource: Princes of the Apocalypse p. 201"
+}

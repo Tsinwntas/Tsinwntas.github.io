@@ -1,0 +1,24 @@
+{
+  "name": "Lizardfolk (DMG)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 2, Int -2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Dungeon Master's Guide p. 282"
+    },
+    {
+      "name": "Hold Breath",
+      "text": "You can hold your breath for up to 15 minutes at a time.\n"
+    },
+    {
+      "name": "Natural Armor",
+      "text": "Your scales function as natural armor, granting you a +3 bonus to Armor Class.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Draconic.\n"
+    }
+  ]
+}

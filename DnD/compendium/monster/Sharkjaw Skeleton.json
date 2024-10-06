@@ -1,0 +1,49 @@
+{
+  "name": "Sharkjaw Skeleton",
+  "size": "L",
+  "type": "undead,tome of Beasts",
+  "alignment": "lawful evil",
+  "ac": "13 (natural armor)",
+  "hp": "45 (6d10+12)",
+  "speed": "30 ft., swim 30 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "15",
+  "int": "6",
+  "wis": "8",
+  "cha": "4",
+  "skill": "Perception +1, Stealth +2",
+  "vulnerable": "bludgeoning",
+  "immune": "cold, necrotic, poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft., blindsense 30 ft.",
+  "passive": "11",
+  "languages": " understands the languages of its creator but can't speak",
+  "cr": "1",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The sharkjaw skeleton makes one bite attack and one claw attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the sharkjaw skeleton can bite only the grappled creature and has advantage on attack rolls to do so."
+      ],
+      "attack": [
+        "Bite|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|5|2d8+3"
+      ]
+    }
+  ]
+}

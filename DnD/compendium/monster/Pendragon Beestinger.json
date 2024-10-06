@@ -1,0 +1,52 @@
+{
+  "name": "Pendragon Beestinger",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "12",
+  "int": "17",
+  "wis": "10",
+  "cha": "11",
+  "skill": "Arcana +5, Investigation +5, Performance +2",
+  "passive": "10",
+  "languages": "Common, Draconic, Elvish, Halfling",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Echo Spell (1/Day)",
+      "text": [
+        "Pendragon can cast the spell he cast on his last turn, whose casting time becomes 1 bonus action. This bonus casting uses a spell slot as normal."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Pendragon is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:",
+        "Cantrips (at will): acid splash, light, mage hand, poison spray, shocking grasp",
+        "• 1st level (4 slots): detect magic, mage armor, magic missile, sleep",
+        "• 2nd level (3 slots): blindness/deafness, cloud of daggers, scorching ray"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3"
+  ],
+  "spells": "acid splash, light, mage hand, poison spray, shocking grasp, detect magic, mage armor, magic missile, sleep, blindness/deafness, cloud of daggers, scorching ray",
+  "description": "Able arcanist Pendragon Beestinger took over as \"B\" Team cartographer after Brahma Lutier left the group. In fact, his first assignment was to assist in the team's attempts to apprehend the wandering bard. An adopted child of the \"C\" Team's Rosie Beestinger, Pendragon is his mother's foil in almost every way-including his goal of wanting to mainstream some of the family's rumored criminal interests. Pendragon has, in fact, attempted to kill his mother-and been killed himself in the process. Despite his having been resurrected at Rosie's request, things remain cool between the two.\nPendragon was kicked out of wizarding school as a result of the dark rumors following the Beestinger clan. Now a self-taught mage, he specializes in making use of the dangerous spells and weird trinkets he often comes across in his role as a kind of arcane archaeologist. Seeking out the family feeling that an adventuring group provides keeps him in the \"B\" Team, even if that unfortunately comes with Oak Truestrike as a kind of father figure.\nSource: Acquisitions Incorporated p. 206"
+}

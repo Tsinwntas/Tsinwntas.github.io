@@ -1,0 +1,54 @@
+{
+  "name": "Jobal",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "13 (leather armor)",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "11",
+  "wis": "13",
+  "cha": "11",
+  "skill": "Nature +4, Perception +5, Stealth +6, Survival +5",
+  "passive": "15",
+  "languages": "any one language (usually Common)",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Keen Hearing and Sight",
+      "text": [
+        "Jobal has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Jobal makes two melee attacks or two ranged attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 26"
+}

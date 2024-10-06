@@ -1,0 +1,86 @@
+{
+  "name": "Alchemist Archer",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Any alignment",
+  "ac": "17 (studded leather armor)",
+  "hp": "135 (18d8+54)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "20",
+  "con": "16",
+  "int": "18",
+  "wis": "14",
+  "cha": "10",
+  "save": "Str +4, Int +8",
+  "skill": "Perception +6, Stealth +9, Survival +6",
+  "passive": "16",
+  "languages": "Common, Elvish",
+  "cr": "10",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Alchemical Arrows",
+      "text": [
+        "As a bonus action, the archer attaches an alchemy tube to the shaft of one arrow before firing its longbow. On a successful hit, the alchemy tube shatters and does one of the following."
+      ]
+    },
+    {
+      "name": "Concussive",
+      "text": [
+        "The target takes an extra 18 (4d8) thunder damage and must succeed on a DC 16 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Entangling",
+      "text": [
+        "The target takes an extra 18 (4d8) acid damage and is restrained by sticky, alchemical goo. As an action, the restrained target can make a DC 16 Strength check, bursting through the goo on a success. The goo can also be attacked and destroyed (AC 10; hp 5; immunity to piercing, slashing, poison, and psychic damage)."
+      ]
+    },
+    {
+      "name": "Explosive",
+      "text": [
+        "The target takes an extra 18 (4d8) fire damage and catches on fire, taking 7 (2d6) fire damage at the start of each of its turns. The target can end this damage by using its action to make a DC 16 Dexterity check to extinguish the flames."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "The archer has advantage on saving throws against being charmed, and magic can't put the archer to sleep."
+      ]
+    },
+    {
+      "name": "Hunter's Aim",
+      "text": [
+        "Once per turn, when the archer makes a ranged attack with its longbow and hits, the target takes an extra 28 (8d6) damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The alchemist archer makes three longbow attacks or two scimitar attacks."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 8 (1d6 + 5) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|9|1d6+5"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. 9 (1d8 + 5) piercing damage."
+      ],
+      "attack": [
+        "Longbow|9|1d8+5"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

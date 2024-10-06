@@ -1,0 +1,49 @@
+{
+  "name": "Orok",
+  "size": "S",
+  "type": "humanoid (kobold)",
+  "alignment": "Lawful Evil",
+  "ac": "12",
+  "hp": "5 (2d6-2)",
+  "speed": "walk 30 ft.",
+  "str": "7",
+  "dex": "15",
+  "con": "9",
+  "int": "8",
+  "wis": "7",
+  "cha": "8",
+  "passive": "8",
+  "languages": "Common, Draconic",
+  "cr": "1/8",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "Orok has advantage on an attack roll against a creature if at least one of Orok's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Sling",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Sling|+4|1d4+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 115",
+  "environment": "forest, swamp, hill, urban, desert, coastal, arctic, mountain, underdark"
+}

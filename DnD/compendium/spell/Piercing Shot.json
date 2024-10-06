@@ -1,0 +1,12 @@
+{
+  "name": "Piercing Shot",
+  "level": "1",
+  "ritual": "NO",
+  "components": "None",
+  "classes": "Fighter (Gunslinger)",
+  "text": [
+    "When you make a firearm attack against a creature, you can expend one grit point to attempt to fire through multiple opponents.  The initial attack gains a +1 to the firearm’s misfire score.  On a hit, the creature suffers normal damage and you make an attack roll with disadvantage against every creature in a line directly behind the target within your first range increment.  Only the initial attack can misfire.",
+    "",
+    "Source: Matthew Mercer - Gunslinger Martial Archetype 1.2 p. 2"
+  ]
+}

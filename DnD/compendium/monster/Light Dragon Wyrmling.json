@@ -1,0 +1,69 @@
+{
+  "name": "Light Dragon Wyrmling",
+  "size": "M",
+  "type": "dragon",
+  "alignment": "Good Neutral",
+  "ac": "13 (natural armor)",
+  "hp": "39 (6d8+12)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "14",
+  "dex": "10",
+  "con": "15",
+  "int": "12",
+  "wis": "14",
+  "cha": "13",
+  "save": "Dex +2, Con +4, Wis +4, Cha +1",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "Draconic",
+  "cr": "2",
+  "resist": "bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "radiant",
+  "conditionImmune": "blinded",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Illumination",
+      "text": [
+        "The dragon sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+      ]
+    },
+    {
+      "name": "Incorporeal Movement",
+      "text": [
+        "The dragon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (1d10 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|4|1d10+2"
+      ]
+    },
+    {
+      "name": "Breath Weapon (Recharge 56)",
+      "text": [
+        "The dragon uses one of the following breath weapons."
+      ]
+    },
+    {
+      "name": "Radiant Breath",
+      "text": [
+        "The dragon exhales radiant energy in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 16 (3d10) radiant damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Flaring Breath",
+      "text": [
+        "The dragon emits a flash of dazzling light from its maw in a 15-foot cone. Each creature in that area must make a DC 12 Constitution saving throw or be blinded.",
+        "Undead within the area of effect must also make a DC 12 Wisdom saving throw or be turned for 1 minute. Undead of CR 1/2 or lower who fail the saving throw are instantly destroyed."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

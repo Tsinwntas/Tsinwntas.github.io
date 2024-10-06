@@ -1,0 +1,60 @@
+{
+  "name": "Ooze-Folk",
+  "size": "M",
+  "type": "ooze",
+  "alignment": "Unaligned",
+  "ac": "10 (natural armor)",
+  "hp": "19 (2d8+10)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "3",
+  "con": "20",
+  "int": "1",
+  "wis": "6",
+  "cha": "1",
+  "passive": "8",
+  "cr": "1/2",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, prone",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Transparent",
+      "text": [
+        "Even when an ooze-folk is in plain sight, it takes a DC 12 Wisdom (Perception) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is surprised by the ooze-folk."
+      ]
+    },
+    {
+      "name": "Fragile Bones",
+      "text": [
+        "For each 5 damage it takes, the ooze-folk's walking speed is reduced by 5 feet."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ooze folk makes one glass longsword attack and one pseudopod attack."
+      ]
+    },
+    {
+      "name": "Glass Longsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 6 (1d8 + 2) slashing damage. If a 1 is rolled on an attack roll with a glass longsword, it shatters and can no longer be used."
+      ],
+      "attack": [
+        "Glass Longsword|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Pseudopod",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) acid damage."
+      ],
+      "attack": [
+        "Pseudopod|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Lost Laboratory of Kwalish p. 46"
+}

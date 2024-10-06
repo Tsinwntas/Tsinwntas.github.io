@@ -1,0 +1,31 @@
+{
+  "name": "Dimetrodon",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "19 (3d8+6)",
+  "speed": "walk 30 ft., swim 20 ft.",
+  "str": "14",
+  "dex": "10",
+  "con": "15",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "1/4",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 9 (2d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|2d6+2"
+      ]
+    }
+  ],
+  "description": "This sail-backed reptile is commonly found in areas where dinosaurs live. It hunts on shores and in shallow water, filling a similar role as a crocodile.\nSource: Volo's Guide to Monsters p. 139, Tomb of Annihilation",
+  "environment": "swamp, coastal"
+}

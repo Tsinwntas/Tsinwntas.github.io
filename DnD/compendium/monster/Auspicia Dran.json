@@ -1,0 +1,57 @@
+{
+  "name": "Auspicia Dran",
+  "size": "M",
+  "type": "humanoid (half-elf)",
+  "alignment": "Neutral Good",
+  "ac": "15 (chain shirt)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "14",
+  "int": "15",
+  "wis": "12",
+  "cha": "10",
+  "skill": "Athletics +5, Perception +3",
+  "passive": "13",
+  "languages": "Common, Elvish",
+  "cr": "2",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Auspicia makes two attacks."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+5|1d8+3"
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Light Crossbow|+4|1d8+2"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Innate Spellcasting (Psionics)",
+      "text": [
+        "Auspicia's innate spellcasting ability is Intelligence. She can innately cast the following spells, requiring no components:",
+        "At will: detect thoughts",
+        "1/day each: augury"
+      ]
+    }
+  ],
+  "spells": "detect thoughts, augury",
+  "description": "The youngest sister of Omin Dran, the half-elf Auspicia Dran had her life torn apart as a child when she was seized by a mysterious creature called the Wandering Crypt. Having spent long years in a kind of dark dream within the crypt, she was saved in the end by her brother Omin's tireless efforts and the valor of his handpicked \"C\" Team. Now returned safely to the world-and with the false Auspicia of the crypt's creation slain-she focuses on trying to discover her own identity and to work through the ongoing complications arising from her ordeal.\nWhen Auspicia emerged from the Wandering Crypt, she carried within her a growing level of psionic power. She can't help but read others' minds, but finds that wearing a diamond earring helps tamp that unwitting ability down. This magic has also left her connected to the crypt in a way she doesn't understand, even as it grants her occasional memories of others still trapped there and an awareness of faraway places. In combat, she manifests an instinctive knowledge of events before they happen, often making use of this ability to bring a fight to a standstill that encourages parley. But she has only just begun to explore her full precognitive potential.\nSource: Acquisitions Incorporated p. 208"
+}

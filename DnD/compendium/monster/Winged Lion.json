@@ -1,0 +1,47 @@
+{
+  "name": "Winged Lion",
+  "size": "L",
+  "type": "celestial",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "114 (12d10+48)",
+  "speed": "walk 60 ft., fly 60 ft.",
+  "str": "20",
+  "dex": "16",
+  "con": "18",
+  "int": "6",
+  "wis": "14",
+  "cha": "5",
+  "passive": "12",
+  "languages": "understands Celestial but can't speak",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Pounce",
+      "text": [
+        "If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 16 (2d10 + 5) piercing damage."
+      ],
+      "attack": [
+        "Bite|+7|2d10+5"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage."
+      ],
+      "attack": [
+        "Claw|+7|2d8+5"
+      ]
+    }
+  ],
+  "description": "Archons always ride into battle on fearsome winged mounts. Some legends suggest that the mount is actually a physical manifestation of the archon's will, allowing the pair to act with a single mind. The two most common archon mounts are winged bulls and winged lions.\nSource: Mythic Odysseys of Theros p. 214"
+}

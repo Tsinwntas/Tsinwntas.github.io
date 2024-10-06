@@ -1,0 +1,78 @@
+{
+  "name": "Wizard Kobold",
+  "size": "S",
+  "type": "humanoid (kobold)",
+  "alignment": "Lawful Neutral",
+  "ac": "12 (15 with mage armor)",
+  "hp": "58 (13d6+13)",
+  "speed": "walk 30 ft.",
+  "str": "6",
+  "dex": "14",
+  "con": "13",
+  "int": "17",
+  "wis": "10",
+  "cha": "8",
+  "save": "Int +6, Wis +3",
+  "skill": "Arcana +6",
+  "passive": "10",
+  "languages": "Common, Draconic, Infernal",
+  "cr": "5",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The kobold has advantage attack rolls roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The wizard kobold is an 8th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The wizard kobold has the following Wizard spells prepared:",
+        "Cantrips (at will): fire bolt, minor illusion, poison spray, prestidigitation",
+        "• 1st level (4 slots): burning hands, mage armor, magic missile, shield",
+        "• 2nd level (3 slots): hold person, mirror image, misty step",
+        "• 3rd level (3 slots): blink, counterspell, fireball",
+        "• 4th level (2 slots): fire shield"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|5|1d4+2"
+      ]
+    },
+    {
+      "name": "Draconic Visage (1/Day)",
+      "text": [
+        "The wizard kobold magically creates a draconic visage in an unoccupied space it can see within 30 feet.",
+        "The visage is a glowing, spectral head and neck, resembling a variety of dragon chosen by the kobold, that sheds dim light out to 10 feet. The visage lasts for 1 minute and grants the following benefits.",
+        "A creature hostile to the wizard who starts its turn within 30 feet of the visage and who is aware of the visage must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this effect for the next 24 hours.",
+        "The wizard gains immunity to the damage type dealt by the chosen dragon's breath weapon.",
+        "When the wizard uses this action, and as a bonus action on it subsequent turns, it can use the following attack."
+      ]
+    },
+    {
+      "name": "Breath of the Visage",
+      "text": [
+        "Ranged Spell Attack: +6 to hit, range 120 ft., one target. 7 (2d6) damage of the type dealt by the chosen dragon's breath weapon."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 2"
+  ],
+  "spells": "fire bolt, minor illusion, poison spray, prestidigitation, burning hands, mage armor, magic missile, shield, hold person, mirror image, misty step, blink, counterspell, fireball, fire shield",
+  "description": "Source: CCodex (3pp)"
+}

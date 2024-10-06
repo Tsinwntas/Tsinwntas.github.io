@@ -1,0 +1,11 @@
+{
+  "name": "Bob",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "property": "V",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "This +1 battleaxe floats on water and other liquids, and grants its bearer advantage on Strength (Athletics) checks made to swim.\nSource: Tomb of Annihilation p. 89"
+}

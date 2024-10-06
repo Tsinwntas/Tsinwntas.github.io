@@ -1,0 +1,64 @@
+{
+  "name": "Eye Of The Gods",
+  "size": "S",
+  "type": "celestial (as its creator deity)",
+  "alignment": "Any alignment",
+  "ac": "14",
+  "hp": "36 (8d6+8)",
+  "speed": "walk 0 ft., fly 50 ft.",
+  "str": "8",
+  "dex": "18",
+  "con": "12",
+  "int": "13",
+  "wis": "20",
+  "cha": "16",
+  "skill": "Perception +9",
+  "passive": "19",
+  "languages": "All, telepathy 60 ft.",
+  "cr": "1",
+  "resist": "fire, radiant; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Blazing Nimbus",
+      "text": [
+        "A hostile creature that touches the eye of the gods or hits it with a melee attack while within 5 feet of it takes 3 (1d6) radiant (good or neutral eyes) or necrotic (evil eyes) damage."
+      ]
+    },
+    {
+      "name": "Corona Of Truth",
+      "text": [
+        "Allies within 10 feet of the eye of the gods have truesight of 20 feet."
+      ]
+    },
+    {
+      "name": "Divine Conduit",
+      "text": [
+        "The deity that created the eye of the gods can see everything the eye sees and can instantly recall the eye to its side at any time."
+      ]
+    },
+    {
+      "name": "Ethereal Jaunt",
+      "text": [
+        "As a bonus action, the eye of the gods can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) radiant (good or neutral eyes) or necrotic (evil eyes) damage."
+      ]
+    },
+    {
+      "name": "Divine Inspiration (Recharge 56)",
+      "text": [
+        "The eye of the gods inspires all allies within 10 feet. For 1 minute, all inspired creatures have advantage on saving throws against being frightened."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 16"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Shortsword",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "value": "10.0",
+  "property": "F,L,M",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "text": "Source: Player's Handbook p. 149"
+}

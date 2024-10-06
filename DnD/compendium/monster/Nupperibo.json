@@ -1,0 +1,49 @@
+{
+  "name": "Nupperibo",
+  "size": "M",
+  "type": "fiend (devil)",
+  "alignment": "Lawful Evil",
+  "ac": "13 (natural armor)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 20 ft.",
+  "str": "16",
+  "dex": "11",
+  "con": "13",
+  "int": "3",
+  "wis": "8",
+  "cha": "1",
+  "skill": "Perception +1",
+  "passive": "11",
+  "languages": "understands Infernal but can't speak",
+  "cr": "1/2",
+  "resist": "acid, cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "fire, poison",
+  "conditionImmune": "blinded, charmed, frightened, poisoned",
+  "senses": "blindsight 10 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Cloud of Vermin",
+      "text": [
+        "Any creature, other than a devil, that starts its turn within 20 feet of the nupperibo must make a DC 11 Constitution saving throw. A creature within the areas of two or more nupperibos makes the saving throw with disadvantage. On a failure, the creature takes 2 (1d4) piercing damage."
+      ]
+    },
+    {
+      "name": "Hunger-Driven",
+      "text": [
+        "In the Nine Hells, the nupperibos can flawlessly track any creature that has taken damage from any nupperibo's Cloud of Vermin within the previous 24 hours."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "\nA lemure emerges from the Styx wiped of memory, yet the patterns of evil it performed in life remain indelibly inscribed upon its soul. Those who lacked ambition cannot climb the hierarchical ladder of the Hells. They instead step down, becoming nupperibos.\n — Mordenkainen\n\nNupperibo. No soul is turned away from the Nine Hells, but the truly worthless—those whose evil acts in life arose from carelessness and sloth more than anything else—are suitable only to become nupperibos. These pitiful creatures shuffle mindlessly across the landscape: blind, bloated from unquenchable hunger, and groping for whatever scraps of fetid matter or swarming vermin they can scoop into their groaning mouths.\nNauseating Bulk. Individually, nupperibos are pathetic, but they're rarely alone and can be dangerous when gathered into packs. They herd together into throngs that can clog a vital passage or an entire valley. Clouds of stinging insects, stirges, and other vermin surround them in a terrifying, reeking sheath that torments any non-devil that draws near.\nHunger Unending. A nupperibo knows nothing but the hunger that propels it on a blind quest for anything to devour. Once it senses a potential meal, it pursues that prey tirelessly until the food is consumed, the nupperibo is slain, or some other morsel crosses the fiend's path and distracts it.\nSlavish Obedience. With no interest of its own beyond the need to consume, a nupperibo obeys unthinkingly any command it receives telepathically from another devil. This blind loyalty makes them the easiest of infernal troops to lead into battle, but their presence in a legion does nothing to elevate its general's status.\nSource: Mordenkainen's Tome of Foes p. 168, Baldur's Gate: Descent Into Avernus"
+}

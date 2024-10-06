@@ -1,0 +1,10 @@
+{
+  "name": "Last Stand Armor Splint Armor",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "60",
+  "ac": "17",
+  "stealth": "1",
+  "strength": "15",
+  "text": "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.\nYou have a +1 bonus to AC while wearing this armor, which shimmers softly.\nIf you die while wearing the armor, it is destroyed, and each celestial, fey, and fiend with 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nSource: Explorer's Guide to Wildemount p. 267"
+}

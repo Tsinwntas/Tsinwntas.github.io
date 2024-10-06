@@ -1,0 +1,38 @@
+{
+  "name": "Winged Bull",
+  "size": "L",
+  "type": "celestial",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "95 (10d10+40)",
+  "speed": "walk 60 ft., fly 60 ft.",
+  "str": "20",
+  "dex": "14",
+  "con": "18",
+  "int": "6",
+  "wis": "10",
+  "cha": "5",
+  "passive": "10",
+  "languages": "understands Celestial but can't speak",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the bull moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, the target takes an extra 19 (3d12) piercing damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 18 (2d12 + 5) piercing damage."
+      ],
+      "attack": [
+        "Gore|+7|2d12+5"
+      ]
+    }
+  ],
+  "description": "Archons always ride into battle on fearsome winged mounts. Some legends suggest that the mount is actually a physical manifestation of the archon's will, allowing the pair to act with a single mind. The two most common archon mounts are winged bulls and winged lions.\nSource: Mythic Odysseys of Theros p. 214"
+}

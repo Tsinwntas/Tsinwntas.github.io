@@ -1,0 +1,57 @@
+{
+  "name": "Kurr",
+  "size": "M",
+  "type": "fiend (gnoll)",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (hide armor)",
+  "hp": "65 (10d8+20)",
+  "speed": "walk 30 ft.",
+  "str": "17",
+  "dex": "15",
+  "con": "15",
+  "int": "10",
+  "wis": "11",
+  "cha": "13",
+  "save": "Con +4, Wis +2, Cha +3",
+  "passive": "10",
+  "languages": "Abyssal, Gnoll",
+  "cr": "4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Rampage",
+      "text": [
+        "When Kurr reduces a creature to 0 hit points with a melee attack on its turn, Kurr can take a bonus action to move up to half its speed and make a bite attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Kurr makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 7 (2d6) poison damage."
+      ],
+      "attack": [
+        "Bite|+5|1d6+3",
+        "Bite||2d6"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|+5|1d8+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 179",
+  "environment": "grassland, forest, hill, desert"
+}

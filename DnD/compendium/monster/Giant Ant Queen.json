@@ -1,0 +1,59 @@
+{
+  "name": "Giant Ant Queen",
+  "size": "L",
+  "type": "beast,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "85 (10d10+30)",
+  "speed": "40 ft.",
+  "str": "17",
+  "dex": "13",
+  "con": "16",
+  "int": "2",
+  "wis": "11",
+  "cha": "4",
+  "senses": "blindsight 60 ft.",
+  "passive": "10",
+  "languages": "-",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The giant ant queen has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Queen's Scent",
+      "text": [
+        "Giant ants defending a queen gain advantage on all attack rolls."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The giant ant queen makes two bite attacks and one sting attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the giant ant can't bite a different target."
+      ],
+      "attack": [
+        "Bite|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Sting",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 14 Constitution saving throw."
+      ],
+      "attack": [
+        "Sting|5|1d8+3"
+      ]
+    }
+  ]
+}

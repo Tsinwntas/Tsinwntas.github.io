@@ -1,0 +1,64 @@
+{
+  "name": "Clurichaun",
+  "size": "T",
+  "type": "fey,tome of Beasts",
+  "alignment": "chaotic neutral",
+  "ac": "14",
+  "hp": "22 (4d4+12)",
+  "speed": "30 ft.",
+  "str": "13",
+  "dex": "12",
+  "con": "16",
+  "int": "10",
+  "wis": "8",
+  "cha": "16",
+  "save": "Con +5",
+  "skill": "Perception +1, Stealth +3",
+  "conditionImmune": "frightened, poisoned",
+  "senses": "darkvision 60ft.",
+  "passive": "11",
+  "languages": " Common, Elvish, Sylvan",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Clurichaun's Luck",
+      "text": [
+        "Clurichauns add both their Dexterity and Charisma modifiers to their Armor Class."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The clurichaun's innate spellcasting ability is Charisma (spell save DC 13). The clurichaun can cast the following spells, requiring only alcohol as a component.",
+        "At will: friends, mending, minor illusion, purify food and drink, vicious mockery",
+        "1/day each: blur, calm emotions, heroism, sleep, suggestion"
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The clurichaun has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Unarmed Strike",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 2 (1 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Unarmed Strike|3|1+1"
+      ]
+    },
+    {
+      "name": "Improvised Weapon",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 3 (1d4 + 1) bludgeoning, piercing, or slashing damage, depending on weapon."
+      ],
+      "attack": [
+        "Improvised Weapon|3|1d4+1"
+      ]
+    }
+  ]
+}

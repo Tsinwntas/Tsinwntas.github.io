@@ -1,0 +1,28 @@
+{
+  "name": "Servo",
+  "size": "T",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "11 (natural armor)",
+  "hp": "10 (3d4+3)",
+  "speed": "walk 20 ft.",
+  "str": "4",
+  "dex": "11",
+  "con": "12",
+  "int": "3",
+  "wis": "10",
+  "cha": "7",
+  "passive": "10",
+  "cr": "0",
+  "immune": "poison",
+  "conditionImmune": "charmed, poisoned",
+  "action": [
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. 1 slashing damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Kaladesh p. 32"
+}

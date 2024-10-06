@@ -1,0 +1,128 @@
+{
+  "name": "Belphegor, Hell's Inventor",
+  "size": "H",
+  "type": "fiend (devil)",
+  "alignment": "Lawful Evil",
+  "ac": "18 (natural armor)",
+  "hp": "402 (35d12+178)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "20",
+  "dex": "16",
+  "con": "20",
+  "int": "22",
+  "wis": "18",
+  "cha": "14",
+  "save": "Con +12, Int +13",
+  "skill": "Insight +11, Perception +11, Persuasion +9",
+  "passive": "21",
+  "cr": "22",
+  "resist": "cold; bludgeoning, piercing, slashing from nonmagical weapons that aren't silvered",
+  "immune": "fire, poison",
+  "conditionImmune": "frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Builder Of Hell",
+      "text": [
+        "During a long rest, Belphegor can create three flesh golems or three gorgons. The creatures are made from various fleshy and metal parts stored on Prime. The constructs obey his commands until they are slain or disassemble into pieces after 24 hours."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Belphegor fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Lord Of Openings",
+      "text": [
+        "Belphegor retains his humble roots. Creatures in his presence find they don't have full control of their body's orifices. A creature that starts its turn within 20 feet of Belphegor must succeed on a DC 20 Constitution saving throw or suffer one of the following effects until the end of its next turn (rolled randomly or chosen by the GM).",
+        "1 Tears - The creature's eyes swell with tears, causing the creature to become blinded.",
+        "2 Vomit - The creature vomits uncontrollably and is considered poisoned and can't speak.",
+        "3 Defecation - The creature's insides cramp as it voids its bowels, becoming incapacitated in the process.",
+        "4 Discharge of Wax - A thick wax fills the creature's ears, causing the creature to become deafened."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Belphegor's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Pitted Sockets",
+      "text": [
+        "Mist swirls in the depths of Belphegor's pit-like eyes. Creatures who look upon Belphegor lose all benefits from their next long rest as they struggle to expel the devil's hollow gaze from their minds."
+      ]
+    },
+    {
+      "name": "Prime",
+      "text": [
+        "Belphegor rides a grand, floating palanquin named Prime. This overly complex device-turned-vehicle is immune to damage and can't be the target of spells or effects. It provides the demon lord partial cover from ranged attacks. Belphegor doesn't provoke an opportunity attack when he flies out of an enemy's reach while on Prime. If Belphegor is knocked prone, stunned, or incapacitated while flying on Prime, it will gently set him on the ground and disappear for 1 hour."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Belphegor makes three soul flail attacks."
+      ]
+    },
+    {
+      "name": "Soul Flail",
+      "text": [
+        "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. 32 (5d10 + 5) bludgeoning damage and 14 (4d6) fire damage. Each creature trapped in his flail by Form the Chain must succeed on a DC 20 Constitution saving throw or take 10 (3d6) psychic damage."
+      ],
+      "attack": [
+        "Soul Flail|12|5d10+5"
+      ]
+    },
+    {
+      "name": "Endless Complexity (1/Day)",
+      "text": [
+        "Belphegor activates the many complexities built atop Prime. All creatures who can see Belphegor must succeed on a DC 19 Wisdom saving throw or be stunned for 1d4 rounds as fruitless comprehension takes hold of their minds. A creature affected by this ability feels compelled to tinker, conceive, or otherwise invent an overly complex object related to its class and background. Any downtime taken during the next seven days after failing this saving throw is spent toiling on this object until ultimately, nothing comes of it."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Form the Chain",
+      "text": [
+        "When Belphegor is hit by an attacker he hit with his soul flail in the past minute, the attacker must succeed on a DC 19 Wisdom saving throw or the attack does no damage and the attacker takes the place of a damned soul, teleporting to its location on the flail instantly. The attacker is paralyzed and experiences tremendous psychic suffering as it helps to hold the head of the flail to the handle. At the end of its next turn, it returns to the space it previously occupied or to the nearest unoccupied space. If a creature's saving throw is successful or the effect ends for it, the creature can't be affected by Belphegor's Form the Chain again until Belphegor hits it with another Soul Flail attack."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fiend (devil) can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fiend (devil) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "Belphegor can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. He regains any spent legendary actions at the start of his turn."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "Belphegor moves up to half his speed."
+      ]
+    },
+    {
+      "name": "Soul Flail",
+      "text": [
+        "Belphegor makes one soul flail attack."
+      ]
+    },
+    {
+      "name": "Endless Complexity (Costs 2 Actions)",
+      "text": [
+        "Belphegor uses his Endless Complexity if it is available."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

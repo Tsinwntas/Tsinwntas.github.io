@@ -1,0 +1,149 @@
+{
+  "name": "Hutijin",
+  "size": "L",
+  "type": "fiend (devil)",
+  "alignment": "Lawful Evil",
+  "ac": "19 (natural armor)",
+  "hp": "200 (16d10+112)",
+  "speed": "walk 30 ft., fly 60 ft.",
+  "str": "27",
+  "dex": "15",
+  "con": "25",
+  "int": "23",
+  "wis": "19",
+  "cha": "25",
+  "save": "Dex +9, Con +14, Wis +11",
+  "skill": "Intimidation +14, Perception +11",
+  "passive": "21",
+  "languages": "all, telepathy 120 ft.",
+  "cr": "21",
+  "resist": "cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "fire, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Infernal Despair",
+      "text": [
+        "Each creature within 15 feet of Hutijin that isn't a devil makes saving throws with disadvantage."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Hutijin fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Hutijin has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Hutijin's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "Hutijin regains 20 hit points at the start of his turn. If he takes radiant damage, this trait doesn't function at the start of his next turn. Hutijin dies only if he starts his turn with 0 hit points and doesn't regenerate."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Hutijin's innate spellcasting ability is Charisma (spell save DC 22). He can innately cast the following spells, requiring no material components:",
+        "At will: alter self (can become Medium when changing his appearance), animate dead, detect magic, hold monster, invisibility (self only), lightning bolt, suggestion, wall of fire",
+        "3/day: dispel magic",
+        "1/day each: heal, symbol (hopelessness only)"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Hutijin makes four attacks: one with his bite, one with his claw, one with his mace, and one with his tail."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. 15 (2d6 + 8) piercing damage. The target must succeed on a DC 22 Constitution saving throw or become poisoned. While poisoned in this way, the target can't regain hit points, and it takes 10 (3d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Bite|+15|2d6+8",
+        "Bite||3d6"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. 17 (2d8 + 8) slashing damage."
+      ],
+      "attack": [
+        "Claw|+15|2d8+8"
+      ]
+    },
+    {
+      "name": "Mace",
+      "text": [
+        "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. 15 (2d6 + 8) bludgeoning damage."
+      ],
+      "attack": [
+        "Mace|+15|2d6+8"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. 19 (2d10 + 8) bludgeoning damage."
+      ],
+      "attack": [
+        "Tail|+15|2d10+8"
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Hutijin magically teleports, along with any equipment he is wearing and carrying, up to 120 feet to an unoccupied space he can see."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Fearful Voice (Recharge 5-6)",
+      "text": "In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil must succeed on a DC 22 Wisdom saving throw or become frightened of him for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that saves against this effect is immune to Hutijin's Fearful Voice for 24 hours."
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Hutijin can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Hutijin regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Attack",
+      "text": [
+        "Hutijin attacks once with his mace."
+      ]
+    },
+    {
+      "name": "Lightning Storm (Costs 2 Actions)",
+      "text": [
+        "Hutijin releases lightning in a 20-foot radius. All other creatures in that area must each make a DC 22 Dexterity saving throw, taking 18 (4d8) lightning damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Hutijin uses his Teleport action."
+      ]
+    }
+  ],
+  "spells": "alter self, animate dead, detect magic, hold monster, invisibility, lightning bolt, suggestion, wall of fire, dispel magic, heal, symbol",
+  "description": "\nWhat price would you put on your life? How much then, for your soul? Bargain with Hutijin, and it will cost you both. I hope it is worth it.\n — Mordenkainen\n\nHutijin. Politics in the Nine Hells are anything but predictable. Alliances form all the time, but most wind up unraveling due to treachery. Nevertheless, for all their backbiting and betrayal, the devils do occasionally display loyalty, offering unwavering service to their masters. One such example is Hutijin, a duke of Cania and loyal servant of Mephistopheles.\nAcross the Hells, Hutijin's name fills lesser devils with fear and loathing, for this duke commands two companies of pit fiends, which make up Cania's aristocracy. With such soldiers under his command, Hutijin can easily crush any rival who gets in his way, while also providing Mephistopheles with security against armies that might seek to contest his dominion. Hutijin has amassed enough power to challenge the lord of Cania, but he has never wavered in his support for his master—suggesting, perhaps, that Mephistopheles has some hold over him.\nOutside the Nine Hells, Hutijin is a relatively obscure figure, known only to the most learned infernal scholars. He has no cults of his own, and his servants are few in number. The reason is simple: Hutijin hates mortals. When summoned from the Hells, he repays the instigator with a long and agonizing death.\nMephistopheles forbids Hutijin from making too many forays into the Material Plane, since the duke's absence leaves him vulnerable to his rivals. Other archdevils know how much Hutijin despises mortals and have secretly disseminated the means to call him from the Nine Hells in the hope of distracting the archdevil long enough for them to assail Mephistopheles. Hutijin sends devils into the Material Plane to eradicate mention of his name and destroy those who have learned of him, but the summonings still occur. When called from his post, he negotiates as quickly as he can, usually closing a deal with little cost to the summoner. However, once the deal has been struck, Hutijin repays the interruption with death.\nSource: Mordenkainen's Tome of Foes p. 175"
+}

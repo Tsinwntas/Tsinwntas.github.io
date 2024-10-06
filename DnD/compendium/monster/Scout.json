@@ -1,0 +1,54 @@
+{
+  "name": "Scout",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "13 (leather armor)",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "11",
+  "wis": "13",
+  "cha": "11",
+  "skill": "Nature +4, Perception +5, Stealth +6, Survival +5",
+  "passive": "15",
+  "languages": "any one language (usually Common)",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Keen Hearing and Sight",
+      "text": [
+        "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The scout makes two melee attacks or two ranged attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance.\nSource: Monster Manual p. 349, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Essentials Kit: Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden"
+}

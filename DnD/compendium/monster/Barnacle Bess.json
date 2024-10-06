@@ -1,0 +1,40 @@
+{
+  "name": "Barnacle Bess",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "13 (3d8)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "13",
+  "dex": "15",
+  "con": "11",
+  "int": "1",
+  "wis": "9",
+  "cha": "3",
+  "skill": "Stealth +4",
+  "passive": "9",
+  "cr": "1/8",
+  "senses": "blindsight 30 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Bess can breathe air and water."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). Bess has two claws, each of which can grapple only one target."
+      ],
+      "attack": [
+        "Claw|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Ghosts of Saltmarsh p. 220",
+  "environment": "coastal"
+}

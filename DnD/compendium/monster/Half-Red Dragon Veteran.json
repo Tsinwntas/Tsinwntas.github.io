@@ -1,0 +1,66 @@
+{
+  "name": "Half-Red Dragon Veteran",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Any alignment",
+  "ac": "18 (plate armor)",
+  "hp": "65 (10d8+20)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "13",
+  "con": "14",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Athletics +6, Perception +3",
+  "passive": "12",
+  "languages": "Common, Draconic",
+  "cr": "5",
+  "resist": "fire",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+5|1d8+3"
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. 6 (1d10 + 1) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+3|1d10+1"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": [
+        "The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Fire Breath (Recharge 5-6)||7d6"
+      ]
+    }
+  ],
+  "description": "When a dragon in polymorphed form mates with another creature, the union sometimes produces half dragon offspring. A creature might also transform into a half-dragon as a result of a mad wizard's spell or a ritual bath in dragon's blood. In all these cases, the result is a creature that combines the essence of a dragon with the form of its original race. Regardless of their origins, all half-dragons have similar features and appearance, gaining special senses, resistance to destructive energy, and a breath weapon.\nDraconic Nature. Half-dragons are incapable of having natural born offspring. Those that wish to propagate must find other ways to do so, almost always involving magic. By way of compensation, half dragons are blessed with long life. Barring unforeseen misfortune, a typical half-dragon's life expectancy is twice that of its no draconic line, so that a half-dragon human might live more than a century and a half.\nHalf-dragons inherit personality traits common to their draconic heritage, so that half-gold dragons are often shy and secretive, while half-copper dragons are impish and playful. Half-green dragons are deceitful, while half-white dragons are often dim-witted brutes. These traits are tempered by a half-dragon's other lineage, but greed, arrogance, and paranoia are qualities that even good-aligned half-dragons often possess.\nChallenge. To avoid recalculating the creature's challenge rating, apply the template only to a creature that meets the optional prerequisite in the Breath Weapon table below. Otherwise, use the guidelines in the Dungeon Master's Guide to recalculate the rating after you apply the template.\nSenses. The half-dragon gains blindsight with a radius of 10 feet and darkvision with a radius of 60 feet.\nResistances. The half-dragon gains resistance to a type of damage based on its color.\nColor | Damage Resistance\nBlack or copper | Acid\nBlue or bronze | Lightning\nBrass, gold, or red | Fire\nGreen | Poison\nSilver or white | Cold\n\nLanguages. The half-dragon speaks Draconic in addition to any other languages it knows.\nNew Action: Breath Weapon. The half-dragon has the breath weapon of its dragon half. The half-dragon's size determines how this action functions.\nSize | Breath Weapon | Optional Prerequisite\nLarge or smaller | As a wyrmling | Challenge 2 or higher\nHuge | As a young dragon | Challenge 7 or higher\nGargantuan | As an adult dragon | Challenge 8 or higher\n\nSample Half-Dragon\nHere the half-dragon template has been applied to a human veteran to create a half-red dragon veteran. Splint armor has been replaced with plate armor.\nSource: Monster Manual p. 180, Rise of Tiamat, Ghosts of Saltmarsh, Essentials Kit: Storm Lord's Wrath, Infernal Machine Rebuild"
+}

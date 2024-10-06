@@ -1,0 +1,11 @@
+{
+  "name": "Adamantine Dart",
+  "detail": "major, simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "0.25",
+  "property": "F,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "Whenever you hit an object with this weapon, the hit is a critical hit.\nSource: Xanathar's Guide to Everything p. 78"
+}

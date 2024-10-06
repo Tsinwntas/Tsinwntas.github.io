@@ -1,0 +1,74 @@
+{
+  "name": "Dhampir",
+  "size": "M",
+  "type": "humanoid (dhampir)",
+  "alignment": "Any alignment",
+  "ac": "15 (leather armor, shield)",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "15",
+  "con": "14",
+  "int": "10",
+  "wis": "10",
+  "cha": "16",
+  "save": "Dex +4, Cha +5",
+  "skill": "Athletics +3, Deception +5, Persuasion +5, Stealth +4",
+  "passive": "10",
+  "languages": "Common",
+  "cr": "1",
+  "resist": "necrotic",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Undead Resistance",
+      "text": [
+        "The dhampir has advantage on saving throws against disease."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The dhampir makes two rapier or two shortbow attacks. It can make a grapple attack or Dark Thirst attack in place of any attack."
+      ]
+    },
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Rapier|4|1d8+2"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Dark Thirst",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature that is grappled by the dhampir, incapacitated, or restrained. 1 piercing damage plus 3 (1d6) necrotic damage.",
+        "The dhampir regains hp equal to the amount of necrotic damage dealt."
+      ],
+      "attack": [
+        "Dark Thirst|4|1d6"
+      ]
+    },
+    {
+      "name": "Predatory Charm",
+      "text": [
+        "The dhampir magically beguiles the mind of one humanoid it can see within 30 feet for 1 hour. The target must succeed on a DC 13 Charisma saving throw or the dhampir has advantage on Charisma checks against the target. If the dhampir or any of its allies damage the target, the effect ends.",
+        "If the target's saving throw is successful or the effect ends, the target is immune to this dhampir's Predatory Charm for the next 24 hours. A creature immune to being charmed is immune to this effect. A dhampir can have only one target affected by its Predatory Charm at a time. If it uses its Predatory Charm on another target, the effect on the previous target ends."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

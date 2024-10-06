@@ -1,0 +1,44 @@
+{
+  "name": "Giant Boar",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "42 (5d10+15)",
+  "speed": "walk 40 ft.",
+  "str": "17",
+  "dex": "10",
+  "con": "16",
+  "int": "2",
+  "wis": "7",
+  "cha": "5",
+  "passive": "8",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Relentless (Recharges after a Short or Long Rest)",
+      "text": [
+        "If the boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Tusk",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Tusk|+5|2d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 323, Storm King's Thunder, Tomb of Annihilation, Ghosts of Saltmarsh, Mythic Odysseys of Theros",
+  "environment": "grassland, forest, hill"
+}

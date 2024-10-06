@@ -1,0 +1,13 @@
+{
+  "name": "Vicious +1 Greatsword",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "H,2H,M",
+  "dmg1": "2d6",
+  "dmgType": "S",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon.\nWhen you roll a 20 with this magic weapon, the target takes an extra 7 slashing damage.\nNote: According to the SRD, it is an extra 2d6 slashing damage.\nSource: Acquisitions Incorporated p. 149",
+  "roll": [
+    "2d6"
+  ]
+}

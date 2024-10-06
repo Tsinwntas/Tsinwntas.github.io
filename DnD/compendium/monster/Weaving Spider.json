@@ -1,0 +1,67 @@
+{
+  "name": "Weaving Spider",
+  "size": "T",
+  "type": "construct,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "25 (10d4)",
+  "speed": "40 ft., climb 40 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "10",
+  "int": "9",
+  "wis": "8",
+  "cha": "8",
+  "immune": "poison",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "14",
+  "languages": " understands Common",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The weaving spider is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The weaving spider has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The weaving spider makes two trimming blade attacks or two needle shuttle attacks."
+      ]
+    },
+    {
+      "name": "Trimming Blade",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage and possible unmaking."
+      ],
+      "attack": [
+        "Trimming Blade|5|2d6+3"
+      ]
+    },
+    {
+      "name": "Poisoned Needle Shuttle",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 30 ft., one target. Hit: 7 (1d8 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become paralyzed. The target repeats the saving throw at the end of each of its turns, ending the effect on itself with a success."
+      ],
+      "attack": [
+        "Poisoned Needle Shuttle|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Unmaking",
+      "text": [
+        "The weaving spider's speed and its slim, sharp blade can slice cloth, leather, and paper into scraps very quickly. Whenever a weaving spider's trimming blade attack roll exceeds the target's armor class by 5 or more, the target must succeed on a DC 13 Dexterity saving throw or one of their possessions becomes unusable or damaged until repaired (DM's choice)"
+      ]
+    }
+  ]
+}

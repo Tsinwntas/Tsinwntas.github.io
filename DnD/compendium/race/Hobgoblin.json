@@ -1,0 +1,42 @@
+{
+  "name": "Hobgoblin",
+  "size": "M",
+  "speed": "30",
+  "ability": "Con 2, Int 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Eberron: Rising from the Last War p. 26, Explorer's Guide to Wildemount p. 175"
+    },
+    {
+      "name": "Age",
+      "text": "Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Hobgoblin society in Eberron is shaped by the ideal of a strict code of honor and rigid martial discipline. Most hobgoblins are lawful, tending toward harsh enforcement of their laws.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Your size is Medium.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Martial Training",
+      "text": "You are proficient with two martial weapons of your choice and with light armor.\n"
+    },
+    {
+      "name": "Saving Face",
+      "text": "Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Goblin.\n"
+    }
+  ]
+}
+  ]
+}

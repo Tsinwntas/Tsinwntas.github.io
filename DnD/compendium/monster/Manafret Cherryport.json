@@ -1,0 +1,63 @@
+{
+  "name": "Manafret Cherryport",
+  "size": "S",
+  "type": "humanoid (Lightfoothalfling)",
+  "alignment": "Lawful Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "31 (9d6)",
+  "speed": "walk 25 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "11",
+  "int": "17",
+  "wis": "12",
+  "cha": "11",
+  "save": "Int +6, Wis +4",
+  "skill": "Arcana +6, History +6",
+  "passive": "11",
+  "languages": "Common, Halfling",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Halfling Nimbleness",
+      "text": [
+        "Manafret can move through a space of a Medium or larger creature."
+      ]
+    },
+    {
+      "name": "Brave",
+      "text": [
+        "Manafret has advantage on saving throws against being frightened."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence. The mage has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
+        "• 1st level (4 slots): detect magic, mage armor, magic missile, shield",
+        "• 2nd level (3 slots): misty step, suggestion",
+        "• 3rd level (3 slots): counterspell, fireball, fly",
+        "• 4th level (3 slots): greater invisibility, ice storm",
+        "• 5th level (1 slots): cone of cold"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+2",
+        "Dagger|+5|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "fire bolt, light, mage hand, prestidigitation, detect magic, mage armor, magic missile, shield, misty step, suggestion, counterspell, fireball, fly, greater invisibility, ice storm, cone of cold",
+  "description": "One of Manshoon's lieutenants\nSource: Waterdeep: Dragon Heist p. 149"
+}

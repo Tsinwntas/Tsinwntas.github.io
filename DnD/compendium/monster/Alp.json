@@ -1,0 +1,64 @@
+{
+  "name": "Alp",
+  "size": "S",
+  "type": "fey (shapechanger)",
+  "alignment": "Chaotic Evil",
+  "ac": "13",
+  "hp": "44 (8d6+16)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "14",
+  "int": "10",
+  "wis": "16",
+  "cha": "8",
+  "passive": "13",
+  "languages": "Common, Sylvan",
+  "cr": "1",
+  "resist": "cold, necrotic",
+  "conditionImmune": "charmed, exhaustion, paralyzed, unconscious",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Shadow Stealth",
+      "text": [
+        "While in dim light or darkness, the alp can take the Hide action as a bonus action."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The alp can use its action to polymorph into a Small or Tiny beast it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the alp has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Alp's innate spellcasting ability is Wisdom (spell save DC 13). It can innately cast the following spells, requiring no material components:",
+        "At will: invisibility (self only)",
+        "3/day each: silent image, sleep",
+        "1/day each: bestow curse, dream"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Sleeper's Slap",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 8 (2d4 + 3) bludgeoning damage, and, if the target was sleeping or unconscious before it was hit, it must succeed on a DC 13 Wisdom saving throw or become frightened and restrained for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the restrained condition on itself on a success. The creature must succeed on another saving throw on a following round to end the frightened condition."
+      ],
+      "attack": [
+        "Sleeper's Slap|4|2d4+3"
+      ]
+    }
+  ],
+  "spells": "invisibility, silent image, sleep, bestow curse, dream",
+  "description": "Source: CCodex (3pp) p. 14",
+  "environment": "farmland"
+}

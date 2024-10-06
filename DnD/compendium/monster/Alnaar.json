@@ -1,0 +1,71 @@
+{
+  "name": "Alnaar",
+  "size": "L",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "212 (25d10+75)",
+  "speed": "walk 40 ft., burrow 20 ft., fly 40 ft.",
+  "str": "20",
+  "dex": "22",
+  "con": "17",
+  "int": "9",
+  "wis": "12",
+  "cha": "10",
+  "save": "Dex +10, Con +7",
+  "skill": "Acrobatics +10, Perception +5",
+  "passive": "15",
+  "languages": "Abyssal",
+  "cr": "9",
+  "resist": "bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "fire, poison",
+  "vulnerable": "cold",
+  "conditionImmune": "frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Skin Of The Forge",
+      "text": [
+        "A creature that starts its turn within 5 feet of the alnaar must make a DC 16 Constitution saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. A creature that touches the alnaar or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage. Nonmagical weapons and objects with Armor Class 15 or lower are immediately destroyed after coming into contact with the alnaar's skin. Weapons that hit the alnaar deal their damage before being destroyed. This trait is suppressed if the alnaar is starving."
+      ]
+    },
+    {
+      "name": "Starving Wrath",
+      "text": [
+        "If an alnaar hasn't fed on a Medium-sized or larger creature within the last 12 hours, it is starving. While starving, the alnaar's Armor Class is reduced by 2, it has advantage on melee attack rolls against any creature that doesn't have all of its hp, and will direct its attacks at a single foe regardless of tactical consequences. Once it feeds on a Medium-sized or larger corpse or brings a Medium-sized or larger creature to 0 hp, it is no longer starving."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The alnaar makes three fiery fangs attacks."
+      ]
+    },
+    {
+      "name": "Fiery Fangs",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. 14 (2d8 + 5) piercing damage and 3 (1d6) fire damage."
+      ],
+      "attack": [
+        "Fiery Fangs|9|2d8+5"
+      ]
+    },
+    {
+      "name": "Flare (Recharge Special)",
+      "text": [
+        "The alnaar becomes super-heated, expelling momentous energy outwards in a 20-foot radius blast around it. Each creature caught in the blast must make a DC 17 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) fire damage and 22 (4d10) force damage and is knocked prone. On a success, a creature takes half the fire and force damage but isn't knocked prone. The fire ignites flammable objects that aren't being worn or carried. After using Flare, the alnaar is starving. It can't use Flare if it is starving."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "On the Hunt",
+      "text": [
+        "When a creature the alnaar can see moves, the alnaar can move up to 20 feet toward the moving creature. If the alnaar moves within 10 feet of that creature, it can make one fiery fangs attack against the creature."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

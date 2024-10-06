@@ -1,0 +1,10 @@
+{
+  "name": "Silvered Greatclub",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "10",
+  "property": "2H",
+  "dmg1": "1d8",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 148"
+}

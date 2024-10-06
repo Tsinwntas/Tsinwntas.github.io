@@ -1,0 +1,75 @@
+{
+  "name": "Skr'a S'orsk",
+  "size": "M",
+  "type": "humanoid (lizardfolk)",
+  "alignment": "Neutral",
+  "ac": "13 (natural armor)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "15",
+  "dex": "10",
+  "con": "13",
+  "int": "10",
+  "wis": "15",
+  "cha": "8",
+  "skill": "Perception +4, Stealth +4, Survival +6",
+  "passive": "14",
+  "languages": "Draconic",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The lizardfolk can hold its breath for 15 minutes."
+      ]
+    },
+    {
+      "name": "Spellcasting (Lizardfolk Form Only)",
+      "text": [
+        "The lizardfolk is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The lizardfolk has the following druid spells prepared:",
+        "Cantrips (at will): druidcraft, produce flame, thorn whip",
+        "• 1st level (4 slots): entangle, fog cloud",
+        "• 2nd level (3 slots): heat metal, spike growth",
+        "• 3rd level (2 slots): conjure animals (reptiles only), plant growth"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack (Lizardfolk Form Only)",
+      "text": [
+        "The lizardfolk makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage, or 7 (1d10 + 2) piercing damage in crocodile form. If Skr'a S'orsk is in crocodile form and the target is a Large or smaller creature, the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and Skr'a S'orsk can't bite another target. If Skr'a S'orsk reverts to its true form, the grapple ends."
+      ],
+      "attack": [
+        "Bite|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Claws (Lizardfolk Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws (Lizardfolk Form Only)|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Change Shape (Recharges after a Short or Long Rest)",
+      "text": [
+        "The lizardfolk magically polymorphs into a crocodile, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "druidcraft, produce flame, thorn whip, entangle, fog cloud, heat metal, spike growth, conjure animals, plant growth",
+  "description": "\nSource: Explorer's Guide to Wildemount p. 254",
+  "environment": "forest, swamp"
+}

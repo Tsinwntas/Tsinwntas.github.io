@@ -1,0 +1,8 @@
+{
+  "name": "Canoe",
+  "detail": "Vehicle (water)",
+  "type": "G",
+  "weight": "100",
+  "value": "50.0",
+  "text": "A canoe can be purchased in Port Nyanzaru for 50 gp. It holds up to six Medium creatures and has a maximum speed of 2 mph. It is otherwise identical to a rowboat.\nSource: Tomb of Annihilation p. 31"
+}

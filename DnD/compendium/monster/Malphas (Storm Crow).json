@@ -1,0 +1,74 @@
+{
+  "name": "Malphas (Storm Crow)",
+  "size": "M",
+  "type": "fey,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "16 (studded leather)",
+  "hp": "120 (16d8+48)",
+  "speed": "40 ft., fly 30 ft.",
+  "str": "19",
+  "dex": "19",
+  "con": "16",
+  "int": "14",
+  "wis": "13",
+  "cha": "14",
+  "save": "Dex +7, Con +6, Wis +4, Cha +5",
+  "skill": "Perception +4",
+  "senses": "darkvision 60 ft.",
+  "passive": "14",
+  "languages": " Common, Giant, Ravenfolk, Sylvan",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The storm crow's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:",
+        "At will: magic missile",
+        "1/day: haste"
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the malphas has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Night Terror (1/round)",
+      "text": [
+        "As a bonus action immediately after making a successful melee attack, a malphas storm crow can cast magic missile through his or her sword at the same target."
+      ]
+    },
+    {
+      "name": "Swordtrained",
+      "text": [
+        "Malphas are trained from youth in combat. They are proficient with all martial melee and ranged weapons."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The malphas makes three longsword attacks."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
+      ],
+      "attack": [
+        "Longsword|7|1d8+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Shadow Call",
+      "text": [
+        "A malphas can cast magic missile as a reaction when it is hit by a ranged weapon attack."
+      ]
+    }
+  ]
+}

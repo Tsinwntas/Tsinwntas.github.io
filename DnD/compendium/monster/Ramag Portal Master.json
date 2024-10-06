@@ -1,0 +1,82 @@
+{
+  "name": "Ramag Portal Master",
+  "size": "M",
+  "type": "humanoid (ramag)",
+  "alignment": "Neutral",
+  "ac": "12 (15 with mage armor)",
+  "hp": "71 (13d8+13)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "12",
+  "int": "18",
+  "wis": "12",
+  "cha": "13",
+  "skill": "Arcana +7, History +7, Investigation +7",
+  "passive": "11",
+  "languages": "Common, Giant, Abyssal, Celestial, Infernal",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The ramag has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The ramag portal master is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The ramag portal master has the following Wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, prestidigitation, shocking grasp",
+        "• 1st level (4 slots): burning hands, mage armor, magic missile",
+        "• 2nd level (3 slots): arcane lock, hold person, levitate, misty step",
+        "• 3rd level (3 slots): counterspell, dispel magic, fireball",
+        "• 4th level (1 slots): banishment"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ramag portal master makes two lightning stroke attacks."
+      ]
+    },
+    {
+      "name": "Gate Seal",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage plus 14 (4d6) force damage."
+      ],
+      "attack": [
+        "Gate Seal|5|1d4+2"
+      ]
+    },
+    {
+      "name": "Lightning Stroke",
+      "text": [
+        "Ranged Spell Attack: +7 to hit, range 120 ft., one target. 14 (4d6) lightning damage. If the target is a creature, it can't take reactions until the start of the ramag's next turn."
+      ],
+      "attack": [
+        "Lightning Stroke|7|4d6"
+      ]
+    },
+    {
+      "name": "Dimensional Seal (Recharges after a Short or Long Rest)",
+      "text": [
+        "The ramag magically empowers its gate seal to dampen teleportation, planar gates, and portals within 60 feet of it. A creature that attempts to teleport while within or into the area must succeed on a DC 15 Charisma saving throw or the teleport fails. Spells and abilities that conjure creatures or objects automatically fail, and portals or gates are suppressed while they remain in the area. The seal lasts 1 hour, or until the ramag loses concentration on it as if concentrating on a spell."
+      ]
+    },
+    {
+      "name": "Weave Dimensions",
+      "text": [
+        "The ramag creates two magical gateways in unoccupied spaces it can see within 100 feet of it. The gateways appear as shimmering, opaque ovals in the air. A creature that moves into one gateway appears at the other immediately.",
+        "The gateways last for 1 minute, or until the ramag loses concentration on them as if concentrating on a spell."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 1"
+  ],
+  "spells": "fire bolt, light, prestidigitation, shocking grasp, burning hands, mage armor, magic missile, arcane lock, hold person, levitate, misty step, counterspell, dispel magic, fireball, banishment",
+  "description": "Source: CCodex (3pp) p. 313"
+}

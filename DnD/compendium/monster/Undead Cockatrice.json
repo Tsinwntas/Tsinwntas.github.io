@@ -1,0 +1,31 @@
+{
+  "name": "Undead Cockatrice",
+  "size": "S",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "27 (6d6+6)",
+  "speed": "walk 20 ft., fly 40 ft.",
+  "str": "6",
+  "dex": "12",
+  "con": "12",
+  "int": "2",
+  "wis": "13",
+  "cha": "5",
+  "passive": "11",
+  "cr": "1/2",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours."
+      ],
+      "attack": [
+        "Bite|+3|1d4+1"
+      ]
+    }
+  ],
+  "description": "\nSource: The Orrery of the Wanderer p. 114",
+  "environment": "grassland"
+}

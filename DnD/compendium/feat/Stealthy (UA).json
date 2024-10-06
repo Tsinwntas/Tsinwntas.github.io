@@ -1,0 +1,13 @@
+{
+  "name": "Stealthy (UA)",
+  "text": "You know how best to hide. You gain the following benefits:\n• You gain proficiency in the Stealth skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n• If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible.\nSource: Unearthed Arcana: Feats For Skills p. 4",
+  "modifier": [
+    {
+      "_": "Dexterity +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ],
+  "proficiency": "Stealth"
+}

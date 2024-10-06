@@ -1,0 +1,77 @@
+{
+  "name": "Tulpa",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "39 (6d8+12)",
+  "speed": "walk 0 ft., fly 30 ft.",
+  "str": "14",
+  "dex": "16",
+  "con": "14",
+  "int": "10",
+  "wis": "14",
+  "cha": "9",
+  "passive": "12",
+  "cr": "4",
+  "resist": "acid, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "cold, necrotic, poison",
+  "vulnerable": "radiant",
+  "conditionImmune": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Incorporeal Movement",
+      "text": [
+        "The tulpa can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+      ]
+    },
+    {
+      "name": "Rise Again",
+      "text": [
+        "Within a day of being slain, the tulpa reforms within 500 feet of its creator. It doesn't reform if its creator is slain, or if the creator's mental disturbance is healed. The tulpa is immune to all damage dealt to it by its creator."
+      ]
+    },
+    {
+      "name": "It Follows",
+      "text": [
+        "The tulpa always remains within 500 feet if its creator.",
+        "As long as the tulpa is within 500 feet of its creator, the creator has disadvantage on Wisdom saving throws."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tulpa makes two black claw attacks."
+      ]
+    },
+    {
+      "name": "Black Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 12 (2d8 + 3) necrotic damage."
+      ],
+      "attack": [
+        "Black Claw|5|2d8+3"
+      ]
+    },
+    {
+      "name": "Psychic Blast",
+      "text": [
+        "Ranged Spell Attack: +4 to hit, range 120 ft., one target. 22 (4d10) psychic damage."
+      ],
+      "attack": [
+        "Psychic Blast|4|4d10"
+      ]
+    },
+    {
+      "name": "Imposing Dread (1/Day)",
+      "text": [
+        "The tulpa uses its action to fill a 40-foot radius around itself with dread-inducing psychic energy.",
+        "Each creature, other than the tulpa's creator, within that area must succeed on a DC 13 Wisdom saving throw or be frightened of the tulpa until the end of its next turn and become cursed. A creature with an Intelligence of 5 or lower can't be cursed. While cursed by the tulpa, that creature's own thoughts turn ever more dark and brooding. Its sense of hope fades, and shadows seem overly large and ominous. The cursed creature can repeat the saving throw whenever it finishes a long rest, ending the effect on itself on a success. If not cured within three days, the cursed creature manifests its own tulpa."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 358"
+}

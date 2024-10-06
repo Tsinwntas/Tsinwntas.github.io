@@ -1,0 +1,58 @@
+{
+  "name": "Rishaal the Page-Turner",
+  "size": "M",
+  "type": "humanoid (dragonborn)",
+  "alignment": "Neutral",
+  "ac": "12 (15 with mage armor)",
+  "hp": "40 (9d8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "11",
+  "int": "17",
+  "wis": "12",
+  "cha": "11",
+  "save": "Int +6, Wis +4",
+  "skill": "Arcana +6, History +6",
+  "passive": "11",
+  "languages": "Common, Draconic, Dwarvish, Elvish",
+  "cr": "6",
+  "resist": "fire",
+  "action": [
+    {
+      "name": "Breath Weapon",
+      "text": [
+        "Rishaal can use his action to exhale a 15-foot cone of fire (but can't do this again until he finishes a short or long rest); each creature in the cone must make a DC 10 Dexterity saving throw, taking 2d6 fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+2",
+        "Dagger|+5|1d4+2"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Rishaal is a 9th-level spellcaster. His spellcasting ability is Intelligence. Rishaal has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
+        "• 1st level (4 slots): detect magic, mage armor, magic missile, shield",
+        "• 2nd level (3 slots): misty step, suggestion",
+        "• 3rd level (3 slots): counterspell, fireball, fly",
+        "• 4th level (3 slots): greater invisibility, ice storm",
+        "• 5th level (1 slots): cone of cold"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "fire bolt, light, mage hand, prestidigitation, detect magic, mage armor, magic missile, shield, misty step, suggestion, counterspell, fireball, fly, greater invisibility, ice storm, cone of cold",
+  "description": "\nSource: Waterdeep: Dragon Heist p. 33"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Hobgoblin Iron Shadow",
+  "size": "M",
+  "type": "humanoid (goblinoid)",
+  "alignment": "Lawful Evil",
+  "ac": "15",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 40 ft.",
+  "str": "14",
+  "dex": "16",
+  "con": "15",
+  "int": "14",
+  "wis": "15",
+  "cha": "11",
+  "skill": "Acrobatics +5, Athletics +4, Stealth +5",
+  "passive": "12",
+  "languages": "Common, Goblin",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Unarmored Defense",
+      "text": [
+        "While the hobgoblin is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The hobgoblin is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
+        "Cantrips (at will): minor illusion, prestidigitation, true strike",
+        "• 1st level (3 slots): charm person, disguise self, expeditious retreat, silent image"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hobgoblin makes four attacks, each of which can be an unarmed strike or a dart attack. It can also use Shadow Jaunt once, either before or after one of the attacks."
+      ]
+    },
+    {
+      "name": "Unarmed Strike",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Unarmed Strike|+5|1d4+3"
+      ]
+    },
+    {
+      "name": "Dart",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Dart|+5|1d4+3"
+      ]
+    },
+    {
+      "name": "Shadow Jaunt",
+      "text": [
+        "The hobgoblin magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it is leaving and its destination must be in dim light or darkness."
+      ]
+    }
+  ],
+  "slots": [
+    "3"
+  ],
+  "spells": "minor illusion, prestidigitation, true strike, charm person, disguise self, expeditious retreat, silent image",
+  "description": "The Iron Shadows are hobgoblin monks that serve as secret police, scouts, and assassins. Among other hobgoblins, they spy to ferret out treachery, rebellion, and betrayal.\nTrained in Secret.  Iron Shadows are recruited from across the hobgoblin ranks. Each member keeps her eyes open for potential recruits, those whose agility and stamina are matched only by an ironclad commitment to Maglubiyet's will.\nA candidate for admission undergoes a series of tests designed to reveal any potential for treachery. Those who fail are slain, while those who pass receive secret training in the magical and martial arts. This indoctrination is a slow and arduous process; many aspirants don't finish it, and years might go by during which the Iron Shadows welcome no new members into their ranks. While a recruit is in training, it serves the Iron Shadows by looking for and reporting suspicious behavior.\nTheir masks also signify the supposed origin of their fighting techniques. The priests of Maglubiyet teach that the Great One stole the secrets of shadows from an archdevil, allowing his followers to conceal their identities, walk between shadows, and craft illusions to confuse and confound their enemies.\nMasters of Shadow and Fist.  When a recruit's training is complete, she is ready to wield a deadly combination of unarmed fighting techniques and shadow magic to deceive and defeat her foes. She continues to spy on other hobgoblins, but is now also empowered to conduct assassinations and spy missions, both against enemies and among goblinoids. These missions are ordained by the clerics of Maglubiyet, who keep a careful eye on the goblinoid community to ensure that it functions according to Maglubiyet's will.\nMasked Devils.  Iron Shadows on a secret mission wear masks crafted to resemble devils, both to conceal their identities and to strike fear into their foes.\nSource: Volo's Guide to Monsters p. 162",
+  "environment": "grassland, forest, hill"
+}

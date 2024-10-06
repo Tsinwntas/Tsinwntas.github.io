@@ -1,0 +1,40 @@
+{
+  "name": "Viashino (UA)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Dex 2, Str 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Unearthed Arcana: Races Of Ravnica p. 5"
+    },
+    {
+      "name": "Age",
+      "text": "Viashino (UA) mature quickly, reaching adulthood in their early teens. They live violent lives and rarely die of old age, but they would rarely live past 60 anyway.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Viashino (UA) strongly tend toward chaotic alignments. They have no particular inclination toward good or evil.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Viashino (UA) are about as tall as humans, but they have lithe, wiry frames. Your size is Medium.\n"
+    },
+    {
+      "name": "Bite",
+      "text": "Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\n"
+    },
+    {
+      "name": "Lashing Tail",
+      "text": "Your semi-prehensile tail is tipped with a bony blade. Immediately after a creature within 5 feet of you deals damage to you with a melee attack, you can use your reaction to make an unarmed strike against that creature with your tail. If you hit, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\n"
+    },
+    {
+      "name": "Wiry Frame",
+      "text": "You gain proficiency in the Acrobatics or the Stealth skill (your choice).\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Draconic.\n"
+    }
+  ]
+}

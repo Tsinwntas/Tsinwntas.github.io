@@ -1,0 +1,60 @@
+{
+  "name": "Ghost Boar",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "68 (8d10+24)",
+  "speed": "walk 40 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "16",
+  "int": "7",
+  "wis": "12",
+  "cha": "7",
+  "passive": "11",
+  "languages": "Understands Common but can't speak",
+  "cr": "3",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 10 (3d6) slashing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Incorporeal Jaunt",
+      "text": [
+        "When the ghost boar moves, it becomes temporarily incorporeal. It can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage and is pushed to the closest unoccupied space if it ends its turn inside an object."
+      ]
+    },
+    {
+      "name": "Relentless (Recharges After A Short Or Long Rest)",
+      "text": [
+        "If the boar takes 15 damage or less that would reduce it to 0 hp, it is reduced to 1 hp instead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Tusk",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Tusk|6|2d6+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Tusk Swipe",
+      "text": [
+        "When a creature hits the ghost boar with a melee weapon attack, the ghost boar can make one tusk attack against the creature. The ghost boar must see the attacker and be within 5 feet of it."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "farmland, grassland"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Waterskin",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "5",
+  "value": "0.2",
+  "text": "A waterskin can hold up to 4 pints of liquid.\nSource: Player's Handbook p. 153"
+}

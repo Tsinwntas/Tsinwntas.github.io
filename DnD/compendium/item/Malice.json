@@ -1,0 +1,7 @@
+{
+  "name": "Malice",
+  "detail": "Adventuring Gear, Poison",
+  "type": "G",
+  "value": "250.0",
+  "text": "A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 1 hour. The poisoned creature is blinded.\nSource: Dungeon Master's Guide p. 258"
+}

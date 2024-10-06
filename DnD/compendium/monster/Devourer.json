@@ -1,0 +1,56 @@
+{
+  "name": "Devourer",
+  "size": "L",
+  "type": "fiend",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (natural armor)",
+  "hp": "178 (17d10+85)",
+  "speed": "walk 30 ft.",
+  "str": "20",
+  "dex": "12",
+  "con": "20",
+  "int": "13",
+  "wis": "10",
+  "cha": "16",
+  "passive": "10",
+  "languages": "Abyssal, telepathy 120 ft.",
+  "cr": "13",
+  "resist": "cold, fire, lightning",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The devourer makes two claw attacks and can use either Imprison Soul or Soul Rend."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 12 (2d6 + 5) slashing damage plus 21 (6d6) necrotic damage."
+      ],
+      "attack": [
+        "Claw|+10|2d6+5"
+      ]
+    },
+    {
+      "name": "Imprison Soul",
+      "text": [
+        "The devourer chooses a living humanoid with 0 hit points that it can see within 30 feet of it. That creature is teleported inside the devourer's ribcage and imprisoned there. A creature imprisoned in this manner has disadvantage on death saving throws. If it dies while imprisoned, the devourer regains 25 hit points, immediately recharges Soul Rend, and gains an additional action on its next turn. Additionally, at the start of its next turn, the devourer regurgitates the slain creature as a bonus action, and the creature becomes an undead. If the victim had 2 or fewer Hit Dice, it becomes a zombie. if it had 3 to 5 Hit Dice, it becomes a ghoul. Otherwise, it becomes a wight. A devourer can imprison only one creature at a time."
+      ]
+    },
+    {
+      "name": "Soul Rend (Recharge 6)",
+      "text": [
+        "The devourer creates a vortex of life-draining energy in a 20-foot radius centered on itself. Each humanoid in that area must make a DC 18 Constitution saving throw, taking 44 (8d10) necrotic damage on a failed save, or half as much damage on a successful one. Increase the damage by 10 for each living humanoid with 0 hit points in that area."
+      ],
+      "attack": [
+        "Soul Rend (Recharge 6)||8d10"
+      ]
+    }
+  ],
+  "description": "Of all the abominations Orcus has unleashed, devourers are among the most feared. These tall, mummy-like fiends wander the planes, consuming souls and, by example, spreading Orcus's creed of replacing all life with everlasting death.\nInstruments of Orcus.  A lesser demon that proves itself to Orcus might be granted the privilege of becoming a devourer. The Prince of Undeath transforms such a demon into an 8-foot-tall, desiccated humanoid with a hollowed-out ribcage, then fills the new creature with a hunger for souls. Orcus grants each new devourer the essence of a less fortunate demon to power the devourer's first foray into the planes. Most devourers remain in the Abyss, or on the Astral or Ethereal Plane, pursuing Orcus's schemes and interests in those realms. When Orcus sends devourers to the Material Plane, he often sets them on a mission to create, control, and lead a plague of undead. Skeletons, zombies, ghouls and ghasts, and shadows are particularly attracted to the presence of a devourer.\nI've heard of \"rib-sticking,\" but this is ridiculous.\n-Volo\nTormentors of Souls.  Devourers hunt humanoids, with the intent of consuming them body and soul. After a devourer brings a target to the brink of death, it pulls the victim's body in and traps the creature within its own ribcage. As the victim tries to stave off death (usually without success), the devourer tortures its soul with telepathic noise. When the victim expires, it undergoes a horrible transformation, springing forth from the devourer's body to begin its new existence as an undead servitor of the monster that spawned it.\nFiendish Nature.  A devourer doesn't require air, food (other than souls), drink, or sleep.\nSource: Volo's Guide to Monsters p. 138",
+  "environment": "underdark"
+}

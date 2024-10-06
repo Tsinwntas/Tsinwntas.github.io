@@ -1,0 +1,55 @@
+{
+  "name": "Setessan Hoplite",
+  "size": "M",
+  "type": "humanoid",
+  "alignment": "Any alignment",
+  "ac": "16 (leather armor, shield)",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "16",
+  "con": "14",
+  "int": "13",
+  "wis": "16",
+  "cha": "11",
+  "save": "Dex +5, Wis +5",
+  "skill": "Acrobatics +5, Perception +5, Survival +5",
+  "passive": "15",
+  "languages": "Common",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The hoplite has advantage on an attack roll against a creature if at least one of the hoplite's allies is within 5 feet of the hoplite and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hoplite makes two scimitar attacks or two longbow attacks."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage plus 10 (3d6) poison damage."
+      ],
+      "attack": [
+        "Scimitar|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. 7 (1d8 + 3) piercing damage plus 10 (3d6) poison damage."
+      ],
+      "attack": [
+        "Longbow|+5|1d8+3"
+      ]
+    }
+  ],
+  "description": "Most Setessan hoplites begin their training as hunters, making them skilled in traversing the woods and adept at both guerrilla tactics and archery. Their strategies often emulate the favored servants of Nylea—especially wild beasts like wolves and lynxes. Typically a few soldiers harry an enemy while the rest capitalize on their foe's distraction.\nHoplites are highly trained warriors, versed not only in strategy and tactics but in the glorification of the warrior's spirit, the basis of an ethos that forges an unbreakable bond between members of a military unit. In combat, hoplites typically work in groups and use coordinated tactics to win victories.\nThe three Hoplite Unit Names tables present the sorts of titles used by hoplite contingents hailing from Theros's great poleis. Consider using these names for military forces characters encounter during their adventures or that they were once a part of.\nSetessan Hoplite Unit Names\nd8 | Name\n1 | Nylea's Arrows\n2 | The Watchers\n3 | Fangs of Ophis\n4 | The Swiftswords\n5 | Karametra's Wolves\n6 | Defenders of the Grove\n7 | Bronze Blades\n8 | The Jackals\n\nSource: Mythic Odysseys of Theros p. 229"
+}

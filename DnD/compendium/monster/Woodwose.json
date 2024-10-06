@@ -1,0 +1,65 @@
+{
+  "name": "Woodwose",
+  "size": "M",
+  "type": "humanoid",
+  "alignment": "Chaotic Neutral",
+  "ac": "13 (natural armor)",
+  "hp": "27 (6d6)",
+  "speed": "walk 30 ft., climb 20 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "11",
+  "int": "10",
+  "wis": "14",
+  "cha": "8",
+  "skill": "Nature +2, Perception +4, Stealth +3, Survival +4",
+  "passive": "14",
+  "languages": "Common, Elvish, Sylvan",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Fey Touched",
+      "text": [
+        "The woodwose has advantage on saving throws against being charmed, and magic can't put the woodwose to sleep."
+      ]
+    },
+    {
+      "name": "Speak With Beasts And Plants",
+      "text": [
+        "The woodwose can communicate with beasts and plants as if they shared a language."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The woodwose's innate spellcasting ability is Wisdom (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+        "At will: shillelagh",
+        "3/day each: pass without trace",
+        "1/day each: entangle"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Club",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage with shillelagh."
+      ],
+      "attack": [
+        "Club|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. 4 (1d6 + 1) piercing damage plus 5 (2d4) poison damage."
+      ],
+      "attack": [
+        "Shortbow|3|1d6+1"
+      ]
+    }
+  ],
+  "spells": "shillelagh, pass without trace, entangle",
+  "description": "Source: CCodex (3pp) p. 383",
+  "environment": "forest"
+}

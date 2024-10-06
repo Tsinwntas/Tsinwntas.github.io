@@ -1,0 +1,89 @@
+{
+  "name": "Moghadam",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral Evil",
+  "ac": "14 (breastplate)",
+  "hp": "104 (19d8+19)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "12",
+  "con": "13",
+  "int": "19",
+  "wis": "16",
+  "cha": "16",
+  "save": "Con +5, Int +8, Wis +7",
+  "skill": "Arcana +8, Insight +7, Medicine +7",
+  "passive": "13",
+  "languages": "Abyssal, Common, Dwarvish, Infernal, Undercommon",
+  "cr": "12",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Moghadam wields Ruinblade (see appendix C)."
+      ]
+    },
+    {
+      "name": "Artificial Mind",
+      "text": [
+        "Moghadam can manifest an artificial mind as a floating spectral image of a demilich's jeweled skull. Moghadam can communicate telepathically with this mind, send it up to 300 feet away from him, and see and hear through it."
+      ]
+    },
+    {
+      "name": "Infoportation (1/Day)",
+      "text": [
+        "Moghadam can teleport himself into an unoccupied space next to his artificial mind."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Moghadam is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). He has the following artificer spells prepared:",
+        "Cantrips (at will): dancing lights, light, message, shocking grasp",
+        "• 1st level (4 slots): comprehend languages, cure wounds, grease, identify",
+        "• 2nd level (3 slots): detect thoughts, invisibility, heat metal",
+        "• 3rd level (3 slots): dispel magic, flame arrows, hypnotic pattern",
+        "• 4th level (3 slots): fabricate, stone shape, stoneskin",
+        "• 5th level (1 slots): creation"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Ruinblade",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (2d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Ruinblade|+6|2d6+2"
+      ]
+    },
+    {
+      "name": "Blight (1/Day)",
+      "text": [
+        "While wielding  Ruinblade, Moghadam can cast the blight spell (DC 15)."
+      ]
+    },
+    {
+      "name": "Disintegrate (1/7 Days)",
+      "text": [
+        "While wielding Ruinblade, Moghadam can cast the disintegrate spell against any nonmagical object or creation of magical force."
+      ]
+    },
+    {
+      "name": "Information Overload (Recharge 5-6)",
+      "text": [
+        "Moghadam overloads the thoughts of one creature within 5 feet of either himself or his artificial mind. The target must succeed on a DC 16 Intelligence saving throw or take 22 (4d8 + 4) psychic damage, and the next attack roll made against the target before the end of Moghadam's next turn has advantage."
+      ],
+      "attack": [
+        "Information Overload (Recharge 5-6)||4d8+4"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "dancing lights, light, message, shocking grasp, comprehend languages, cure wounds, grease, identify, detect thoughts, invisibility, heat metal, dispel magic, flame arrows, hypnotic pattern, fabricate, stone shape, stoneskin, creation",
+  "description": "\nSource: Infernal Machine Rebuild p. 55"
+}

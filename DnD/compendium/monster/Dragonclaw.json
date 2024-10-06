@@ -1,0 +1,58 @@
+{
+  "name": "Dragonclaw",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "14 (leather armor)",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "16",
+  "con": "13",
+  "int": "11",
+  "wis": "10",
+  "cha": "12",
+  "save": "Wis +2",
+  "skill": "Deception +3, Stealth +5",
+  "passive": "10",
+  "languages": "Common, Draconic",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Dragon Fanatic",
+      "text": [
+        "The dragonclaw has advantage on saving throws against being charmed or frightened. While the dragonclaw can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonclaw ignores the effects of being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Fanatic Advantage",
+      "text": [
+        "Once per turn, if the dragonclaw makes a weapon attack with advantage on the attack roll and hits, it deals an extra 7 (2d6) damage."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The dragonclaw has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The dragonclaw attacks twice with its scimitar."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Hoard of the Dragon Queen p. 89, Rise of Tiamat p. 89"
+}

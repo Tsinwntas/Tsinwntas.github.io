@@ -1,0 +1,53 @@
+{
+  "name": "Panopticus Wizard",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Neutral",
+  "ac": "10",
+  "hp": "9 (2d8)",
+  "speed": "walk 25 ft.",
+  "str": "10",
+  "dex": "10",
+  "con": "10",
+  "int": "14",
+  "wis": "10",
+  "cha": "11",
+  "skill": "Arcana +4, History +4",
+  "passive": "10",
+  "languages": "Common, Dwarvish",
+  "cr": "1/4",
+  "resist": "poison",
+  "trait": [
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "The dwarf has advantage on saving throws against poison and resistance to poison damage."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The Dwarf is a 1st-level spellcaster. Its spellcasting ability is Intelligence. It has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, mending, prestidigitation",
+        "• 1st level (2 slots): burning hands, disguise self, shield"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) piercing damage. Or Ranged Weapon Attack: +2 to hit, range 20/60 ft., one target. 2 (1d4) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+2|1d4",
+        "Dagger|+2|1d4"
+      ]
+    }
+  ],
+  "slots": [
+    "2"
+  ],
+  "spells": "fire bolt, mending, prestidigitation, burning hands, disguise self, shield",
+  "description": "This bald-headed and tattooed dwarf operates Xanathar's \"panopticus\" magical surveillance system.\nApprentice wizards are novice arcane spellcasters who serve more experienced wizards or attend school. They perform menial work, such as cooking and cleaning, in exchange for education in the ways of magic.\nSource: Waterdeep: Dragon Heist p. 106"
+}

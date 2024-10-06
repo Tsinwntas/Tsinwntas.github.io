@@ -1,0 +1,54 @@
+{
+  "name": "Young Griffon (Small)",
+  "size": "S",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "13 (2d6+6)",
+  "speed": "walk 30 ft., fly 80 ft.",
+  "str": "8",
+  "dex": "15",
+  "con": "16",
+  "int": "2",
+  "wis": "13",
+  "cha": "8",
+  "skill": "Perception +5",
+  "passive": "15",
+  "cr": "1/4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Sight",
+      "text": [
+        "The griffon has advantage on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The griffon makes two attacks: one with its beak and one with its claws."
+      ]
+    },
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 2 (1d4) piercing damage."
+      ],
+      "attack": [
+        "Beak|+1|1d4"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 2 (1d4) slashing damage."
+      ],
+      "attack": [
+        "Claws|+1|1d4"
+      ]
+    }
+  ],
+  "description": "A griffon is a ferocious avian carnivore with the muscular body of a lion and the head, forelegs, and wings of an eagle.\nSource: Icewind Dale: Rime of the Frostmaiden p. 163"
+}

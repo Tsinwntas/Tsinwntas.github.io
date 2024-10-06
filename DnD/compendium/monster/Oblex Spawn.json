@@ -1,0 +1,47 @@
+{
+  "name": "Oblex Spawn",
+  "size": "T",
+  "type": "ooze",
+  "alignment": "Lawful Evil",
+  "ac": "13",
+  "hp": "18 (4d4+8)",
+  "speed": "walk 20 ft.",
+  "str": "8",
+  "dex": "16",
+  "con": "15",
+  "int": "14",
+  "wis": "11",
+  "cha": "10",
+  "save": "Int +4, Cha +2",
+  "passive": "12",
+  "cr": "1/4",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, prone",
+  "senses": "blindsight 60 ft. (blind beyond this distance)",
+  "trait": [
+    {
+      "name": "Amorphous",
+      "text": [
+        "The oblex can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    },
+    {
+      "name": "Aversion to Fire",
+      "text": [
+        "If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Pseudopod",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) psychic damage."
+      ],
+      "attack": [
+        "Pseudopod|+5|1d4+3"
+      ]
+    }
+  ],
+  "description": "\nMind flayers unleash all manner of foul experiments upon the planes with little thought for the consequences. Here, though, I suspect another influence: Juiblex.\n — Mordenkainen\n\nOblex Spawn. An oblex devours memories not only to sustain its existence, but also to spawn new oblexes. Each time it fully drains the memories of a victim, it gains the creature's personality—now twisted by the oblex's foul nature. The more memories an oblex steals, the larger it becomes, until it must shed a personality it has absorbed or else go insane. This act spawns a new oblex.\nOblex. By experimenting on the slimes, jellies, and puddings that infest the depths of the Underdark, mind flayers created a special breed of ooze, the oblex—a slime capable of assaulting the minds of other creatures. Cunning hunters, these pools of jelly stalk prey, searching for the memories they so desperately crave. When oblexes feed on those thoughts, sometimes killing their victims, they can form weird copies of their prey, which help them to harvest even more victims for their dark masters.\nMemory Eaters. Oblexes feed on thoughts and memories. The sharper the mind, the better the meal, so oblexes hunt obviously intelligent targets such as wizards and other spellcasters. When suitable fare comes within reach, an oblex draws its body up to engulf its victim. As it withdraws, it plunders the creature's mind, leaving its prey befuddled and confused.\nOoze Nature. An oblex doesn't require sleep.\n\nAn oblex wants memories, but not to serve any end of its own making. Oblexes are hungry for memories and personalities because they are empty without such nourishment. In this way they serve their creators, the illithids. An oblex in the range of an elder brain's powers provides everything necessary for the mind flayers to find choice victims.\n — Mordenkainen\n\nSource: Mordenkainen's Tome of Foes p. 217",
+  "environment": "swamp, underdark, urban"
+}

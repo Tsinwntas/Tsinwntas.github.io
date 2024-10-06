@@ -1,0 +1,16 @@
+{
+  "name": "Staff of the Forgotten One",
+  "detail": "Staff",
+  "type": "ST",
+  "weight": "4",
+  "property": "V",
+  "dmg1": "1d6",
+  "dmg2": "1d8",
+  "dmgType": "B",
+  "text": "This crooked staff is carved from bone and topped with the skull of a forgotten archmage whom Acererak destroyed long ago. Etched into the skull's forehead is acererak rune, which is known on many worlds as a sign of death.\nBeneficial Properties: While the staff is on your person, you gain the following benefits:\n• Your proficiency bonus to Intelligence (Arcana) and Intelligence (History) checks is doubled.\n• You can't be blinded, charmed, deafened, frightened, petrified, or stunned.\n• Undead with a challenge rating of 2 or lower will neither threaten nor attack you unless you harm them.\n• You can wield the staff as a +3 quarterstaff that deals an extra 10 (3d6) necrotic damage on a hit.\nInvoke Curse: The Staff of the Forgotten One has 7 charges and regains 1d4 + 3 expended charges daily at dawn. While holding the staff, you can use an action to expend 1 charge and target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw (using your spell save DC) or be cursed. While cursed in this way, the target can't regain hit points and has vulnerability to necrotic damage. A greater restoration, remove curse, or similar spell ends the curse on the target.\nThe Forgotten One: The bodiless life force of a dead archmage empowers the staff and is imprisoned within it. The rune carved into the staff's skull protects Acererak from this spirit's vengeance. Each time a creature other than Acererak expends any of the staff's charges, there is a 50 chance that the life force tries to possess the staff wielder. The wielder must succeed on a DC 20 Charisma saving throw or be possessed, becoming an NPC under the DM's control. If the intruding life force is targeted by magic such as a dispel evil and good spell, it becomes trapped in the staff once more. Once it takes control of another creature, the insane spirit of the dead archmage attempts to destroy the staff.\nDestroying the Staff: A creature in possession of the staff can use an action to break it over one knee or a solid surface. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it. Each creature in the area must make a DC 18 Dexterity saving throw, taking 132 (24d10) force damage on a failed save, or half as much damage on a successful one. When the staff is destroyed, the life force of the Forgotten One is released to the afterlife. Where it goes is anyone's guess.\nSource: Tomb of Annihilation p. 208",
+  "roll": [
+    "3d6",
+    "1d4+3",
+    "24d10"
+  ]
+}

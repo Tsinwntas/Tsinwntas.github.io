@@ -1,0 +1,43 @@
+{
+  "name": "Planar Raider",
+  "size": "H",
+  "type": "vehicle (120 ft. x 40 ft.)",
+  "alignment": "Unaligned",
+  "ac": "0",
+  "hp": "0",
+  "speed": "12 miles per hour (288 miles per day)",
+  "str": "0",
+  "dex": "0",
+  "con": "0",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "trait": [
+    {
+      "name": "Hit Points"
+    }
+  ],
+  "action": [
+    {
+      "name": "Weapons:",
+      "text": [
+        "Ballistas (2)",
+        "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. 16 (3d10) piercing damage."
+      ],
+      "attack": [
+        "Weapons:|+6|3d10"
+      ]
+    },
+    {
+      "name": "Weapons:",
+      "text": [
+        "Catapult",
+        "Ranged Weapon Attack: +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. 27 (5d10) bludgeoning damage."
+      ],
+      "attack": [
+        "Weapons:|+5|5d10"
+      ]
+    }
+  ],
+  "description": "The largest of the githyanki ships, the planar raider serves as a mobile headquarters during a major attack on the githyanki's enemies. It needs a crew of ten and can carry more than a hundred passengers. A planar raider can travel up to 12 miles per hour. It is 40 feet wide and 120 feet long, with two levels below decks, and is equipped with three ballistae and a catapult.\nSource: Mordenkainen's Tome of Foes p. 90"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Obliteros",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (natural armor)",
+  "hp": "126 (11d12+55)",
+  "speed": "walk 0 ft., swim 50 ft.",
+  "str": "23",
+  "dex": "11",
+  "con": "21",
+  "int": "10",
+  "wis": "10",
+  "cha": "5",
+  "skill": "Perception +3",
+  "passive": "13",
+  "languages": "Aquan",
+  "cr": "5",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "Obliteros has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Water Breathing",
+      "text": [
+        "Obliteros can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 22 (3d10 + 6) piercing damage."
+      ],
+      "attack": [
+        "Bite|+9|3d10+6"
+      ]
+    }
+  ],
+  "description": "An awakened Giant Shark who inhabits the harbor around Mistshore.\nSource: Waterdeep: Dragon Heist p. 66"
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Queen Of Birds",
+  "size": "L",
+  "type": "fey (shapechanger, animal lord)",
+  "alignment": "Chaotic Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "161 (17d10+68)",
+  "speed": "walk 40 ft., fly 90 ft.",
+  "str": "17",
+  "dex": "22",
+  "con": "19",
+  "int": "18",
+  "wis": "22",
+  "cha": "21",
+  "save": "Str +8, Wis +11, Cha +10",
+  "skill": "Acrobatics +11, Athletics +8, History +9, Perception +11",
+  "passive": "21",
+  "languages": "All, telepathy 120 ft.",
+  "cr": "14",
+  "resist": "cold; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "lightning, thunder",
+  "conditionImmune": "charmed, frightened, grappled, incapacitated, restrained, stunned",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Bird Passivism",
+      "text": [
+        "No bird or ravenfolk can willingly attack the Queen. They can be forced to do so through magical means."
+      ]
+    },
+    {
+      "name": "Flyby",
+      "text": [
+        "The Queen of Birds doesn't provoke an opportunity attack when she flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (2/Day)",
+      "text": [
+        "If the Queen of Birds fails a saving throw, she can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The Queen of Birds has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "text": [
+        "If she dies, the Queen of Birds' soul reforms on the Astral Plane. In 1d6 days, it inhabits the body of another bird on the Material Plane which becomes the Queen of Birds with all of the hp and abilities thereof. Only killing every bird on the Material Plane will prevent this trait from functioning."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The Queen of Birds can use her action to polymorph into a Large jewel-toned eagle, a Medium long-haired elven woman, or back into her true Large, winged humanoid form. Her statistics, other than her size, are the same in each form with the exception that only her true and eagle forms retain her flying speed. Any equipment she is wearing or carrying transforms with her."
+      ]
+    },
+    {
+      "name": "Speak With Birds",
+      "text": [
+        "The Queen of Birds can communicate with birds as if they shared a language."
+      ]
+    },
+    {
+      "name": "Storm Strike Weapons",
+      "text": [
+        "The Queen of Birds' weapon attacks are magical. When she hits with a weapon attack, the attack deals an extra 2d8 damage of her choice of lightning or thunder damage (included in the attack)."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The queen of birds's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:",
+        "At will: dispel magic, gust of wind, spiritual weapon",
+        "3/day each: chain lightning, counterspell",
+        "1/day each: control weather"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "In eagle or humanoid form, the Queen of Birds makes two attacks. In her true form, she makes three attacks.",
+        "one with her talons and two with her spear."
+      ]
+    },
+    {
+      "name": "Storm Spear (Humanoid or True Form Only)",
+      "text": [
+        "Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range 100/300 ft., one target. 13 (2d6 + 6) piercing damage plus 9 (2d8) lightning or thunder damage, or 15 (2d8 + 6) piercing damage plus 9 (2d8) lightning or thunder damage if used with two hands to make a melee attack. If the Queen of Birds throws her storm spear, it magically reforms in her hand immediately after the attack."
+      ],
+      "attack": [
+        "Storm Spear (Humanoid or True Form Only)|11|2d6+6"
+      ]
+    },
+    {
+      "name": "Talons (Eagle or True Form Only)",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 11 (2d4 + 6) slashing damage plus 9 (2d8) lightning or thunder damage. If the target is a Medium or smaller creature, it is grappled (escape DC 18). Until this grapple ends, the target is restrained, the Queen of Birds can automatically hit the target with her talons, and she can't make talons attacks against other targets. When the Queen of Birds moves, any Medium or smaller target she is grappling moves with her."
+      ],
+      "attack": [
+        "Talons (Eagle or True Form Only)|11|2d4+6"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "The Queen of Birds adds 5 to her AC against one melee weapon attack that would hit her. To do so, the Queen of Birds must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fey (shapechanger, animal lord) can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fey (shapechanger, animal lord) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The Queen of Birds can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Queen of Birds regains spent legendary actions at the start of her turn."
+      ]
+    },
+    {
+      "name": "Soar (Eagle or True Form Only)",
+      "text": [
+        "The Queen of Birds flies up to her flying speed."
+      ]
+    },
+    {
+      "name": "Storm Spear (Humanoid or True Form Only)",
+      "text": [
+        "The Queen of Birds makes a storm spear attack. Swooping Death (Costs 2 Actions; Eagle or True Form Only). rThe Queen of Birds makes an attack with her talons. If the attack hits, she can fly up to half her flying speed."
+      ]
+    }
+  ],
+  "spells": "dispel magic, gust of wind, spiritual weapon, chain lightning, counterspell, control weather",
+  "description": "Source: CCodex (3pp) p. 30",
+  "environment": "mountain"
+}

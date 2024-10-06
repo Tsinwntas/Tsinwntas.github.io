@@ -1,0 +1,54 @@
+{
+  "name": "Hippogriff",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "19 (3d10+3)",
+  "speed": "walk 40 ft., fly 60 ft.",
+  "str": "17",
+  "dex": "13",
+  "con": "13",
+  "int": "2",
+  "wis": "12",
+  "cha": "8",
+  "skill": "Perception +5",
+  "passive": "15",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Keen Sight",
+      "text": [
+        "The hippogriff has advantage on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hippogriff makes two attacks: one with its beak and one with its claws."
+      ]
+    },
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (1d10 + 3) piercing damage."
+      ],
+      "attack": [
+        "Beak|+5|1d10+3"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claws|+5|2d6+3"
+      ]
+    }
+  ],
+  "description": "A beast whose magical origins are lost to history, a hippogriff possesses the wings and forelimbs of an eagle, the hindquarters of a horse, and a head that combines the features of both animals.\nReclusive and omnivorous, hippogriffs mate for life and seldom venture more than a few miles from their nest. When defending its mate or its young, a hippogriff fights to the death. Hippogriffs don't lay eggs but give birth to live young.\nDragons, griffons, and wyverns have a taste for\nhippogriff meat and frequently prey on these creatures.\nFlying Mounts. A hippogriff raised in captivity can be trained to be a faithful companion and mount. Of all the creatures that can serve as flying mounts, hippogriffs are among the easiest to train and the most loyal once trained properly.\nSource: Monster Manual p. 184, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dragon Heist, Eberron: Rising from the Last War, Explorer's Guide to Wildemount",
+  "environment": "mountain, grassland, hill"
+}

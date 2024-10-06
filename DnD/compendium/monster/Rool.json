@@ -1,0 +1,83 @@
+{
+  "name": "Rool",
+  "size": "M",
+  "type": "humanoid (half-orc)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "15 (studded leather armor)",
+  "hp": "78 (12d8+24)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "14",
+  "int": "13",
+  "wis": "11",
+  "cha": "10",
+  "save": "Dex +6, Int +4",
+  "skill": "Acrobatics +6, Deception +3, Perception +3, Stealth +9, Intimidation +1",
+  "passive": "13",
+  "languages": "Thieves' cant plus any two languages, Orc",
+  "cr": "8",
+  "resist": "poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Assassinate",
+      "text": [
+        "During its first turn, Rool has advantage on attack rolls against any creature that hasn't taken a turn. Any hit Rool scores against a surprised creature is a critical hit."
+      ]
+    },
+    {
+      "name": "Evasion",
+      "text": [
+        "If Rool is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Rool instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      ]
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "text": [
+        "Rool deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Rool that isn't incapacitated and Rool doesn't have disadvantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Relentless Endurance",
+      "text": [
+        "When reduced to 0 hit points, <$title_short_name$> drops to 1 hit point instead (but can't do this again until they finish a long rest)."
+      ]
+    },
+    {
+      "name": "Savage Attacks",
+      "text": [
+        "When they score a critical hit, <$title_short_name$> can roll one of the weapon's damage dice and add it to the extra damage of the critical hit."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Rool makes two shortsword attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Shortsword|+6|1d6+3",
+        "Shortsword||7d6"
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Light Crossbow|+6|1d8+3",
+        "Light Crossbow||7d6"
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 221"
+}

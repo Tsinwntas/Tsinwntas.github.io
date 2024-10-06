@@ -1,0 +1,70 @@
+{
+  "name": "Vellynne Harpell",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral",
+  "ac": "13 (bracers of defense)",
+  "hp": "67 (9d8+27)",
+  "speed": "walk 20 ft.",
+  "str": "10",
+  "dex": "12",
+  "con": "17",
+  "int": "18",
+  "wis": "15",
+  "cha": "13",
+  "save": "Int +6, Wis +4",
+  "skill": "Arcana +6, History +6",
+  "passive": "12",
+  "languages": "Common, Draconic, Dwarvish, Elvish, Orc",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Vellynne wears bracers of defense and carries a wand of magic missiles (see \"Actions\" below)."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Vellynne is an 8th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). She has the following wizard spells prepared:",
+        "Cantrips (at will): chill touch (see \"Actions\" below), light, mage hand, message, prestidigitation",
+        "• 1st level (4 slots): comprehend languages, detect magic, ray of sickness, Tasha's hideous laughter",
+        "• 2nd level (3 slots): darkvision, hold person, ray of enfeeblement",
+        "• 3rd level (3 slots): animate dead, Leomund's tiny hut, vampiric touch (see \"Actions\" below)",
+        "• 4th level (2 slots): arcane eye, blight"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Vampiric Touch (3rd-Level Spell; Requires a Spell Slot)",
+      "text": [
+        "Melee Spell Attack: +6 to hit, reach 5 ft., one creature. 10 (3d6) necrotic damage, and Vellynne regains hit points equal to half the necrotic damage dealt. If Vellynne casts this spell using a spell slot of 4th level or higher, the necrotic damage increases by 1d6 for each slot level above 3rd."
+      ],
+      "attack": [
+        "Vampiric Touch (3rd-Level Spell; Requires a Spell Slot)|+6|3d6"
+      ]
+    },
+    {
+      "name": "Chill Touch (Cantrip)",
+      "text": [
+        "Ranged Spell Attack: +6 to hit, range 120 ft., one creature. 9 (2d8) necrotic damage, and the target can't regain hit points until the start of Vellynne's next turn."
+      ],
+      "attack": [
+        "Chill Touch (Cantrip)|+6|2d8"
+      ]
+    },
+    {
+      "name": "Wand of Magic Missiles",
+      "text": [
+        "While holding this wand, Vellynne can expend 1 or more of its 7 charges to cast the magic missile spell from it. She can expend 1 charge to cast the 1st-level version of the spell. She can increase the spell slot level by one for each additional charge she expends. The wand regains 1d6 + 1 expended charges daily at dawn. If the wand's last charge is expended, roll a d20; on a 1, the wand crumbles into ashes and is destroyed."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 2"
+  ],
+  "spells": "chill touch, light, mage hand, message, prestidigitation, comprehend languages, detect magic, ray of sickness, Tasha's hideous laughter, darkvision, hold person, ray of enfeeblement, animate dead, Leomund's tiny hut, vampiric touch, arcane eye, blight",
+  "description": "Vellynne Harpell is a member of the prestigious Harpell family, based in the town of Longsaddle. Cold and dispassionate, she took to magic only a decade ago in her late forties and is skilled in the arcane tradition of necromancy. She has a lifelong struggle—a nervous disorder that manifests as trembling. It can affect her balance and her stride, but she has learned to cast her spells unimpeded by it.\nDespite her firm grasp of the dark arts, she would not have been admitted into the Arcane Brotherhood without her family connections—a fact that sticks in her craw.\nVellynne brought a family heirloom with her to Icewind Dale: a professor orb (see appendix D) that she refers to by its proper name, Professor Skant. This orb has knowledge about Netheril that could be important if Vellynne locates the lost Netherese city buried under the Reghed Glacier. The orb was recently stolen by Nass Lantomir, one of Vellynne's rivals in the Arcane Brotherhood. Vellynne intends to get it back before resuming her quest to find Ythryn.\nCompanions. Since arriving in Icewind Dale, Vellynne has secured the services of six Icewind Kobold that act as her valets and guides. Two of them were killed by a Melf's acid arrow spell (cast by Vellynne's rival, Nass Lantomir), but Vellynne animated their corpses, turning them into zombies.\nIf she is wounded, Vellynne can cast vampiric touch and use the spell to regain hit points at the kobolds' expense.\nFamiliar. Vellynne's familiar is a snowy owl, which the wizard uses as a scout. It uses the owl stat block in the Monster Manual but is a celestial instead of a beast.\nSpellbook. Vellynne's spellbook has black leather covers around pages of ragged parchment, all wrapped in a crimson sash. The necromancer's personal sigil is written in goat's blood on the title page. The tome contains the spells Vellynne has prepared plus the following additional spells: bestow curse, blindness/deafness, false life, find familiar, magic weapon, polymorph, protection from evil and good, remove curse, shield, and Tenser's floating disk.\nSource: Icewind Dale: Rime of the Frostmaiden p. 273"
+}

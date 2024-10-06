@@ -1,0 +1,50 @@
+{
+  "name": "Mind Mage",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Neutral Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "49 (11d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "10",
+  "int": "20",
+  "wis": "15",
+  "cha": "16",
+  "save": "Int +8, Wis +5",
+  "skill": "Arcana +8, Deception +6, Insight +5, Persuasion +6",
+  "passive": "12",
+  "languages": "Common plus any four languages",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "The mage wears a Spies' Murmur (see chapter 5)."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (Psionics)",
+      "text": [
+        "The mage's spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:",
+        "At will: encode thoughts (see chapter 2), friends",
+        "3/day each: charm person, detect thoughts, mage armor, sleep, suggestion",
+        "1/day each: dominate person, mass suggestion, modify memory"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+2"
+      ]
+    }
+  ],
+  "spells": "encode thoughts, friends, charm person, detect thoughts, mage armor, sleep, suggestion, dominate person, mass suggestion, modify memory",
+  "description": "Dimir mind mages are among the most feared spellcasters in Ravnica, thanks in large part to the aura of mystery that shrouds them and their work. Their ability to read and alter memories commands respect from the other members of House Dimir and makes them useful in the full spectrum of the guild's activities. Many mind mages lead cells of their own.\nSource: Guildmasters' Guide to Ravnica p. 233"
+}

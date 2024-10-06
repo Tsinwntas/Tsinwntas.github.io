@@ -1,0 +1,13 @@
+{
+  "name": "Theologian (UA)",
+  "text": "Your extensive study of religion rewards you with the following benefits:\n• You gain proficiency in the Religion skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n• You learn the thaumaturgy and detect evil and good spells. You can cast detect evil and good once without expending a spell slot, and you regain the ability to do so when you finish a long rest.\nSource: Unearthed Arcana: Feats For Skills p. 4",
+  "modifier": [
+    {
+      "_": "Intelligence +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ],
+  "proficiency": "Religion"
+}

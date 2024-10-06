@@ -1,0 +1,80 @@
+{
+  "name": "Cueyatl Moon Priest",
+  "size": "S",
+  "type": "humanoid",
+  "alignment": "Lawful Evil",
+  "ac": "13 (studded leather armor)",
+  "hp": "81 (18d6+18)",
+  "speed": "walk 30 ft., climb 20 ft., swim 30 ft.",
+  "str": "10",
+  "dex": "12",
+  "con": "12",
+  "int": "10",
+  "wis": "16",
+  "cha": "12",
+  "save": "Con +4",
+  "skill": "Medicine +6, Perception +6, Religion +3",
+  "passive": "16",
+  "languages": "Common",
+  "cr": "5",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The cueyatl can breathe air and water."
+      ]
+    },
+    {
+      "name": "Jungle Camouflage",
+      "text": [
+        "The cueyatl has advantage on Dexterity (Stealth) checks made to hide in jungle terrain."
+      ]
+    },
+    {
+      "name": "Slippery",
+      "text": [
+        "The cueyatl moon priest has advantage on saving throws and ability checks made to escape a grapple."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The cueyatl's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The cueyatl moon priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The cueyatl moon priest has the following Cleric spells prepared:",
+        "Cantrips (at will): guidance, resistance, sacred flame, spare the dying",
+        "• 1st level (4 slots): bane, cure wounds, protection from evil and good",
+        "• 2nd level (3 slots): hold person, silence, spiritual weapon",
+        "• 3rd level (2 slots): bestow curse, spirit guardians"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Morningstar",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d8) piercing damage plus 7 (2d6) poison damage."
+      ],
+      "attack": [
+        "Morningstar|3|1d8"
+      ]
+    },
+    {
+      "name": "Night's Chill (Recharge 5-6)",
+      "text": [
+        "The cueyatl moon priest harnesses moonlight, dispelling magical light in a 30-foot radius. In addition, each hostile creature within 30 feet must make a DC 13 Constitution saving throw, taking 16 (3d10) cold damage on a failed save, and half as much damage on a successful one.",
+        "A creature that has total cover from the moon priest is not affected."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "guidance, resistance, sacred flame, spare the dying, bane, cure wounds, protection from evil and good, hold person, silence, spiritual weapon, bestow curse, spirit guardians",
+  "description": "Source: CCodex (3pp)"
+}

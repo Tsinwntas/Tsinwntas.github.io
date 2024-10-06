@@ -1,0 +1,48 @@
+{
+  "name": "Mormesk the Wraith",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "45 (6d8+18)",
+  "speed": "walk 0 ft., fly 60 ft.",
+  "str": "6",
+  "dex": "16",
+  "con": "16",
+  "int": "12",
+  "wis": "14",
+  "cha": "15",
+  "passive": "12",
+  "languages": "Common, Infernal",
+  "cr": "3",
+  "resist": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "necrotic, poison",
+  "conditionImmune": "charmed, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Incorporeal Movement",
+      "text": [
+        "The wraith can move through an object or another creature, but can't stop there."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the wraith has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Life Drain",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 16 (3d8 + 3) necrotic damage, and the target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. If this attack reduces the target's hit point maximum to 0, the target dies. This reduction to the target's hit point maximum lasts until the target finishes a long rest."
+      ],
+      "attack": [
+        "Life Drain|+5|3d8+3"
+      ]
+    }
+  ],
+  "description": "A wraith is the incorporeal remnant of a particularly hateful being. Most wraiths can transform those they have slain into spectral undead servitors. Mormesk chooses not to, preferring to let the dead stay dead.\nSource: Lost Mine of Phandelver p. 59"
+}

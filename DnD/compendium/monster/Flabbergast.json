@@ -1,0 +1,51 @@
+{
+  "name": "Flabbergast",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Neutral",
+  "ac": "12 (15 with mage armor)",
+  "hp": "40 (9d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "10",
+  "int": "17",
+  "wis": "13",
+  "cha": "13",
+  "save": "Int +5, Wis +3",
+  "skill": "Arcana +5, Persuasion +3, History +5, Perception +3",
+  "passive": "13",
+  "languages": "Common, Draconic, Elvish, Gnomish",
+  "cr": "4",
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+4|1d4+2"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Flabbergast is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
+        "• 1st level (4 slots): detect magic, mage armor, distort value*",
+        "• 2nd level (3 slots): gift of gab*, suggestion",
+        "• 3rd level (3 slots): fast friends*, lightning bolt",
+        "• 4th level (3 slots): greater invisibility",
+        "• 5th level (1 slots): cone of cold",
+        "*New spell introduced in chapter 3"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "fire bolt, light, mage hand, prestidigitation, detect magic, mage armor, distort value, gift of gab, suggestion, fast friends, lightning bolt, greater invisibility, cone of cold",
+  "description": "Not much is known of the mysterious and aloof majordomo of Acquisitions Incorporated Head Office, the mage known as Flabbergast. It's said that he hails from Neverwinter, and that his wealthy family helped erect and carve the famous Dolphin Bridge in that city. Although he detests physical labor, Flabbergast is a bit of a bridge builder in his own way, always striving to bring people together and flexing his diplomatic muscles. A pacifist bureaucrat, he abhors violence, and rarely puts his magical prowess on display.\nOne thing that is known (though it's seldom spoken of) is that Flabbergast once worked for Dran Enterprises, and specifically for Portentia Dran. He carries a certain amount of guilt around being complicit in certain Dran Enterprises' dealings, and helped Acquisitions Incorporated on the side even before taking up an official role with the company. Though Head Office certainly trusts him, others might wonder where his true loyalties lie.\nFlabbergast's familiar, Mister Snibbly, uses the cat stat block.\nSource: Acquisitions Incorporated p. 200"
+}

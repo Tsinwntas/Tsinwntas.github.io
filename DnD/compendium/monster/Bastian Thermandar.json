@@ -1,0 +1,59 @@
+{
+  "name": "Bastian Thermandar",
+  "size": "M",
+  "type": "humanoid (fire genasi)",
+  "alignment": "Neutral Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "78 (12d8+24)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "14",
+  "con": "15",
+  "int": "11",
+  "wis": "9",
+  "cha": "18",
+  "skill": "Arcana +3, Deception +7",
+  "passive": "9",
+  "languages": "Common, Ignan",
+  "cr": "8",
+  "resist": "fire",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+2"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Bastian's innate spellcasting ability is Constitution (spell save DC 13, +5 to hit with spell attacks). He can innately cast the following spells:",
+        "At will: produce flame",
+        "1/day: burning hands"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Bastian is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Bastian knows the following sorcerer spells:",
+        "Cantrips (at will): fire bolt, mage hand, message, prestidigitation, shocking grasp",
+        "• 1st level (4 slots): mage armor, magic missile, shield",
+        "• 2nd level (3 slots): misty step, scorching ray",
+        "• 3rd level (3 slots): counterspell, fireball",
+        "• 4th level (3 slots): dimension door, wall of fire",
+        "• 5th level (1 slots): hold monster"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "produce flame, burning hands, fire bolt, mage hand, message, prestidigitation, shocking grasp, mage armor, magic missile, shield, misty step, scorching ray, counterspell, fireball, dimension door, wall of fire, hold monster",
+  "description": "Like many in the fire cult, Bastian burns with an inner fire, but his fire is ambition, rather than a wish to see the world burn. Bastian is scheming to supplant Vanifer and claim Tinderstrike for himself.\nAs a practitioner of the arcane arts who learned much of his fire magic from Vanifer herself, Bastian relies on his spells in a fight, and he is a \"quick-burning\" sort who tries to deliver maximum impact early in the fight. If he knows a fight is coming but can't preemptively strike, Bastian becomes more cautious, casting wall of fire to protect himself before he hurls magic into the fray.\nSource: Princes of the Apocalypse p. 201"
+}

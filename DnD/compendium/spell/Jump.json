@@ -1,0 +1,12 @@
+{
+  "name": "Jump",
+  "level": "1",
+  "school": "T",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S, M (a grasshopper's hind leg)",
+  "duration": "1 minute",
+  "classes": "Druid, Ranger, Sorcerer, Wizard, Artificer, Artificer, Artificer (UA), Artificer (Revisited) (UA), Warlock (Seeker (UA))",
+  "text": "You touch a creature. The creature's jump distance is tripled until the spell ends.\nSource: Player's Handbook p. 254"
+}

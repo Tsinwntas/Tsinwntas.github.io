@@ -1,0 +1,79 @@
+{
+  "name": "Cueyatl Sea Priest",
+  "size": "S",
+  "type": "humanoid",
+  "alignment": "Lawful Evil",
+  "ac": "12 (leather armor)",
+  "hp": "45 (10d6+10)",
+  "speed": "walk 30 ft., climb 20 ft., swim 30 ft.",
+  "str": "10",
+  "dex": "12",
+  "con": "12",
+  "int": "10",
+  "wis": "14",
+  "cha": "10",
+  "save": "Dex +3",
+  "skill": "Medicine +4, Religion +2",
+  "passive": "12",
+  "languages": "Aquan",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The cueyatl can breathe air and water."
+      ]
+    },
+    {
+      "name": "Jungle Camouflage",
+      "text": [
+        "The cueyatl has advantage on Dexterity (Stealth) checks made to hide in jungle terrain."
+      ]
+    },
+    {
+      "name": "Slippery",
+      "text": [
+        "The cueyatl has advantage on saving throws and ability checks made to escape a grapple."
+      ]
+    },
+    {
+      "name": "Speak With Sea Life",
+      "text": [
+        "The cueyatl sea priest can communicate with amphibious and water breathing beasts and monstrosities as if they shared a language."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The cueyatl's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The cueyatl sea priest is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The cueyatl sea priest has the following Druid spells prepared:",
+        "Cantrips (at will): guidance, poison spray",
+        "• 1st level (3 slots): animal friendship, create or destroy water, fog cloud, speak with animals",
+        "• 2nd level (3 slots): hold person, silence, spiritual weapon",
+        "• 3rd level (2 slots): bestow curse, spirit guardians"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Trident",
+      "text": [
+        "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. 3 (1d6) piercing damage plus 7 (2d6) poison damage, or 4 (1d8) piercing damage plus 7 (2d6) poison damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Trident|2|1d6"
+      ]
+    }
+  ],
+  "slots": [
+    "3, 3, 2"
+  ],
+  "spells": "guidance, poison spray, animal friendship, create or destroy water, fog cloud, speak with animals, hold person, silence, spiritual weapon, bestow curse, spirit guardians",
+  "description": "Source: CCodex (3pp)"
+}

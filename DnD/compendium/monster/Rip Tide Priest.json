@@ -1,0 +1,47 @@
+{
+  "name": "Rip Tide Priest",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral Evil",
+  "ac": "13 (chain shirt)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "11",
+  "con": "14",
+  "int": "10",
+  "wis": "11",
+  "cha": "16",
+  "skill": "Deception +5, Religion +2, Stealth +2",
+  "passive": "10",
+  "languages": "Aquan, Common",
+  "cr": "2",
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Quarterstaff|+4|1d8+2"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:",
+        "Cantrips (at will): chill touch, mage hand, minor illusion, prestidigitation, ray of frost",
+        "• 1st level (4 slots): expeditious retreat, magic missile, shield",
+        "• 2nd level (3 slots): blur, hold person",
+        "• 3rd level (2 slots): sleet storm"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "chill touch, mage hand, minor illusion, prestidigitation, ray of frost, expeditious retreat, magic missile, shield, blur, hold person, sleet storm",
+  "description": "Priests of the Rip Tide cult gather in secret cabals to perform dark rituals that glorify Olhydra, the elemental Princess of Evil Water, as the embodiment of water's destructiveness. They believe that using water to kill their enemies, such as through ritual drowning, earns them Olhydra's favor.\nSource: Ghosts of Saltmarsh p. 248"
+}

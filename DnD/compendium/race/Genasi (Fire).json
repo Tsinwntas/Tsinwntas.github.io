@@ -1,0 +1,41 @@
+{
+  "name": "Genasi (Fire)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Con 2, Int 1",
+  "spellAbility": "Constitution",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Elemental Evil Player's Companion p. 9, Explorer's Guide to Wildemount p. 170"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red.\n"
+    },
+    {
+      "name": "Fire Resistance",
+      "text": "You have resistance to fire damage.\n"
+    },
+    {
+      "name": "Reach to the Blaze",
+      "text": "You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Independent and self-reliant, genasi tend toward a neutral alignment.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.\n"
+    }
+  ]
+}

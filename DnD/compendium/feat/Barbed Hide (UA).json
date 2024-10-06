@@ -1,0 +1,6 @@
+{
+  "name": "Barbed Hide (UA)",
+  "prerequisite": "Tiefling",
+  "text": "One of your ancestors was a barbed devil or other spiky fiend. Barbs protrude from your head. You gain the following benefits:\n• Increase your Constitution or Charisma score by 1, to a maximum of 20\n• As a bonus action, you can cause small barbs to protrude all over your body or cause them to retract. At the start of each of your turns while the barbs are out, you deal 1d6 piercing damage to any creature grappling you or any creature grappled by you.\n• You gain proficiency in the Intimidation skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\nSource: Unearthed Arcana: Feats For Races p. 1",
+  "proficiency": "Intimidation"
+}

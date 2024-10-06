@@ -1,0 +1,86 @@
+{
+  "name": "Jiangshi",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "117 (18d8+36)",
+  "speed": "walk 20 ft.",
+  "str": "17",
+  "dex": "10",
+  "con": "14",
+  "int": "6",
+  "wis": "12",
+  "cha": "14",
+  "skill": "Athletics +6, Perception +4",
+  "passive": "14",
+  "languages": "Understands the languages it knew in life but can't speak",
+  "cr": "6",
+  "resist": "necrotic; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison",
+  "vulnerable": "fire",
+  "conditionImmune": "blinded, exhaustion, poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Blind Senses",
+      "text": [
+        "The jiangshi can't use its blindsight while deafened."
+      ]
+    },
+    {
+      "name": "Keen Hearing",
+      "text": [
+        "The jiangshi has advantage on Wisdom (Perception) checks that rely on hearing."
+      ]
+    },
+    {
+      "name": "Prayer Of Magic Resistance",
+      "text": [
+        "The jiangshi has advantage on saving throws against spells and other magical effects. A creature can take its action while within 5 feet of the jiangshi to rip the prayer off the jiangshi by succeeding on a DC 16 Strength check.",
+        "The jiangshi loses this trait if its prayer scroll is removed."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The jiangshi's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+      ]
+    },
+    {
+      "name": "Terrifying Appearance",
+      "text": [
+        "When a creature that can see the jiangshi starts its turn within 30 feet of the jiangshi, it must make a DC 14 Wisdom saving throw, unless the jiangshi is incapacitated. On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the jiangshi's Terrifying Appearance for the next 24 hours."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The jiangshi makes two claw attacks. It can use Life Drain in place of one claw attack."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 12 (2d8 + 3) slashing damage. The target is grappled (escape DC 14) if it is a Medium or smaller creature and the jiangshi doesn't have two other creatures grappled."
+      ],
+      "attack": [
+        "Claw|6|2d8+3"
+      ]
+    },
+    {
+      "name": "Life Drain",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature that is grappled by the jiangshi, incapacitated, or restrained. 14 (4d6) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hp maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0.",
+        "A humanoid slain in this way rises 24 hours later as a jiangshi, unless the humanoid is restored to life, its body is bathed in vinegar before burial, or its body is destroyed."
+      ],
+      "attack": [
+        "Life Drain|6|4d6"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 230",
+  "environment": "farmland"
+}

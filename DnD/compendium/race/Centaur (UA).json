@@ -1,0 +1,49 @@
+{
+  "name": "Centaur (UA)",
+  "size": "M",
+  "speed": "40",
+  "ability": "Str 2, Wis 1",
+  "proficiency": "Survival",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Unearthed Arcana: Centaur (UA)s Minotaurs p. 1"
+    },
+    {
+      "name": "Age",
+      "text": "Centaur (UA)s mature and age at about the same rate as humans.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Centaur (UA)s are inclined toward neutrality.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Your size is Medium, yet you tower over most other humanoids.\n"
+    },
+    {
+      "name": "Charge",
+      "text": "If you move at least 20 feet straight toward a target and then hit it with a melee weapon attack on the same turn, roll the weapon's damage dice twice and add them together. Once you use this ability, you can't use it again until you finish a short or long rest.\n"
+    },
+    {
+      "name": "Hooves",
+      "text": "Your hooves are natural melee weapons, with which you're proficient. If you hit with a hoof, the target takes bludgeoning damage equal to 1d6 + your Strength modifier.\n"
+    },
+    {
+      "name": "Equine Build",
+      "text": "You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your hooves. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot. Finally, a Medium or smaller creature can ride on your equine back if you allow it. In such a situation, you continue to act independently, not as a controlled mount.\n"
+    },
+    {
+      "name": "Survivor",
+      "text": "You have proficiency in the Survival skill.\n"
+    },
+    {
+      "name": "Hybrid Nature",
+      "text": "You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Sylvan.\n"
+    }
+  ]
+}

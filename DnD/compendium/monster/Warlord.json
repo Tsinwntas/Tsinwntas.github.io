@@ -1,0 +1,87 @@
+{
+  "name": "Warlord",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "18 (plate armor)",
+  "hp": "229 (27d8+108)",
+  "speed": "walk 30 ft.",
+  "str": "20",
+  "dex": "16",
+  "con": "18",
+  "int": "12",
+  "wis": "12",
+  "cha": "18",
+  "save": "Str +9, Dex +7, Con +8",
+  "skill": "Athletics +9, Intimidation +8, Perception +5, Persuasion +8",
+  "passive": "15",
+  "languages": "any two languages",
+  "cr": "12",
+  "trait": [
+    {
+      "name": "Indomitable (3/Day)",
+      "text": [
+        "The warlord can reroll a saving throw it fails. It must use the new roll."
+      ]
+    },
+    {
+      "name": "Survivor",
+      "text": [
+        "The warlord regains 10 hit points at the start of its turn if it has at least 1 hit point but fewer hit points than half its hit point maximum."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The warlord makes two weapon attacks."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 12 (2d6 + 5) slashing damage."
+      ],
+      "attack": [
+        "Greatsword|+9|2d6+5"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|+7|1d6+3"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The humanoid (any race) can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The humanoid (any race) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Weapon Attack",
+      "text": [
+        "The warlord makes a weapon attack."
+      ]
+    },
+    {
+      "name": "Command Ally",
+      "text": [
+        "The warlord targets one ally it can see within 30 feet of it. if the target can see and hear the warlord, the target can make one weapon attack as a reaction and gains advantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Frighten Foe (Costs 2 Actions)",
+      "text": [
+        "The warlord targets one enemy it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a DC 16 Wisdom saving throw or be frightened until the end of warlord's next turn."
+      ]
+    }
+  ],
+  "description": "Warlords are legendary battlefield commanders whose names are spoken with awe. After a string of decisive victories, a warlord could easily take on the role of monarch or general and attract followers willing to die for his or her banner.\nSource: Volo's Guide to Monsters p. 220, Infernal Machine Rebuild",
+  "environment": "urban"
+}

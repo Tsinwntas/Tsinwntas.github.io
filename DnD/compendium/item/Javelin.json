@@ -1,0 +1,12 @@
+{
+  "name": "Javelin",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "value": "0.5",
+  "property": "T",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "30/120",
+  "text": "Source: Player's Handbook p. 149"
+}

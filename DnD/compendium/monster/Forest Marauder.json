@@ -1,0 +1,54 @@
+{
+  "name": "Forest Marauder",
+  "size": "L",
+  "type": "giant,tome of Beasts",
+  "alignment": "chaotic evil",
+  "ac": "15 (natural armor)",
+  "hp": "114 (12d10+48)",
+  "speed": "40 ft.",
+  "str": "21",
+  "dex": "10",
+  "con": "18",
+  "int": "6",
+  "wis": "10",
+  "cha": "7",
+  "save": "Con +6",
+  "senses": "darkvision 120 ft.",
+  "passive": "10",
+  "languages": " Giant, Orcish, Sylvan",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the forest marauder has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The forest marauder makes two boar spear attacks."
+      ]
+    },
+    {
+      "name": "Boar Spear",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:16 (2d10 + 5) piercing damage, and the forest marauder can choose to push the target 10 feet away if it fails a DC 16 Strength saving throw."
+      ],
+      "attack": [
+        "Boar Spear|7|2d10+5"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 19 (3d8 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|5|3d8+5"
+      ]
+    }
+  ]
+}

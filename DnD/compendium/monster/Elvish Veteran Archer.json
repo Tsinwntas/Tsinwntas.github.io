@@ -1,0 +1,89 @@
+{
+  "name": "Elvish Veteran Archer",
+  "size": "M",
+  "type": "humanoid (elf),tome of Beasts",
+  "alignment": "chaotic good or chaotic neutral",
+  "ac": "15 (studded leather)",
+  "hp": "77 (14d8+14)",
+  "speed": "30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "12",
+  "int": "11",
+  "wis": "13",
+  "cha": "11",
+  "skill": "Nature +2, Perception +5, Stealth +5, Survival +3",
+  "passive": "15",
+  "languages": "Common, Elvish",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Beast Hunter",
+      "text": [
+        "The elvish veteran archer has advantage on Wisdom (Survival) checks to track beasts and on Intelligence (Nature) checks to recall information about beasts."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "The elvish veteran archer has advantage on saving throws against being charmed, and magic can't put the elvish archer to sleep."
+      ]
+    },
+    {
+      "name": "Keen Hearing and Sight",
+      "text": [
+        "The elvish veteran archer has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The elvish veteran archer's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Stealthy Traveler",
+      "text": [
+        "The elvish veteran archer can use Stealth while traveling at a normal pace."
+      ]
+    },
+    {
+      "name": "Surprise Attack",
+      "text": [
+        "If the elvish veteran archer surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The elvish veteran archer makes two melee attacks or three ranged attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|6|1d6+4"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Longbow|6|1d8+4"
+      ]
+    },
+    {
+      "name": "Volley (Recharge 6)",
+      "text": [
+        "The elvish archer makes one ranged attack against every enemy within 10 feet of a point it can see."
+      ]
+    }
+  ]
+}

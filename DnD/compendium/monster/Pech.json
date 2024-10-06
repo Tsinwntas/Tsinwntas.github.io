@@ -1,0 +1,64 @@
+{
+  "name": "Pech",
+  "size": "S",
+  "type": "elemental (pech)",
+  "alignment": "Good Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "33 (6d6+12)",
+  "speed": "walk 20 ft., climb 10 ft.",
+  "str": "16",
+  "dex": "11",
+  "con": "14",
+  "int": "11",
+  "wis": "13",
+  "cha": "11",
+  "skill": "Athletics +5, Perception +3",
+  "passive": "13",
+  "languages": "Common, Undercommon, Terran",
+  "cr": "2",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Light Sensitivity",
+      "text": [
+        "While in bright light, the pech has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "One With The Stone (Recharges After A Short Or Long Rest)",
+      "text": [
+        "As a bonus action, the pech can draw on the power of unworked stone, as long as it is in contact with stone. Until the end of the pech's next turn, it gains resistance to piercing and slashing damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The pech makes two attacks. one with its pick and one with its hammer. If the pech hits the same target with both attacks, the target must succeed on a DC 11 Constitution saving throw or be incapacitated until the start of its next turn."
+      ]
+    },
+    {
+      "name": "Pick",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Pick|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Hammer",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 6 (1d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Hammer|5|1d6+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 294",
+  "environment": "mountain"
+}

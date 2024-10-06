@@ -1,0 +1,43 @@
+{
+  "name": "Lesser Scrag",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (natural armor)",
+  "hp": "45 (7d8+14)",
+  "speed": "walk 10 ft., swim 40 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "15",
+  "int": "8",
+  "wis": "10",
+  "cha": "9",
+  "passive": "10",
+  "languages": "Abyssal, Aquan",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The scrag can breathe air and water Regeneration. The lesser scrag regains 5 hp at the start of its turn if it is in contact with water. If the scrag takes acid or fire damage, this trait doesn't function at the start of the scrag's next turn. The scrag dies only if it starts its turn with 0 hp and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The lesser scrag makes two attacks. one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (2d4 + 4)"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 322",
+  "environment": "swamp, underwater"
+}

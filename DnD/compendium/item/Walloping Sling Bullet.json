@@ -1,0 +1,7 @@
+{
+  "name": "Walloping Sling Bullet",
+  "detail": "minor, Ammunition",
+  "type": "A",
+  "weight": "0.075",
+  "text": "This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked prone.\nSource: Xanathar's Guide to Everything p. 139"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Skeletal Rats",
+  "size": "M",
+  "type": "swarm of Medium beasts",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "24 (7d8-7)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "11",
+  "con": "9",
+  "int": "2",
+  "wis": "10",
+  "cha": "3",
+  "passive": "10",
+  "cr": "1/4",
+  "resist": "bludgeoning, piercing, slashing",
+  "conditionImmune": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "darkvision 30 ft.",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The swarm has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "text": [
+        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bites",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 0 ft., one target in the swarm's space. 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer."
+      ],
+      "attack": [
+        "Bites|+2|2d6"
+      ]
+    }
+  ],
+  "description": "\nSource: Baldur's Gate: Descent Into Avernus p. 23",
+  "environment": "swamp, urban"
+}

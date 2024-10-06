@@ -1,0 +1,16 @@
+{
+  "name": "Hand Mortar",
+  "type": "R",
+  "weight": "10",
+  "text": [
+    "A thrown weapon that explodes on impact, can be volatile.  Deals Fire damage on hit.",
+    "Reload 1, Misfire 2, Explosive",
+    "Proficiency: firearms",
+    "Ammunition: 10g (1)",
+    "Source: Matthew Mercer - Gunslinger 1.3 p. 3"
+  ],
+  "dmg1": "2d8",
+  "dmgType": "B",
+  "property": "M,T",
+  "range": "30/60"
+}

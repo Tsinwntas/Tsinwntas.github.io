@@ -1,0 +1,57 @@
+{
+  "name": "Kraken Priest",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Evil Alignment",
+  "ac": "10",
+  "hp": "75 (10d8+30)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "12",
+  "dex": "10",
+  "con": "16",
+  "int": "10",
+  "wis": "15",
+  "cha": "14",
+  "skill": "Perception +5",
+  "passive": "15",
+  "languages": "any two languages",
+  "cr": "5",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The priest can breathe air and water."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: command, create or destroy water",
+        "3/day each: control water, darkness, water breathing, water walk",
+        "1/day each: call lightning, Evard's black tentacles"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Thunderous Touch",
+      "text": [
+        "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. 27 (5d10) thunder damage."
+      ],
+      "attack": [
+        "Thunderous Touch|+5|5d10"
+      ]
+    },
+    {
+      "name": "Voice of the Kraken (Recharges after a Short or Long Rest)",
+      "text": [
+        "A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "spells": "command, create or destroy water, control water, darkness, water breathing, water walk, call lightning, Evard's black tentacles",
+  "description": "A kraken can seem godlike to folk who have witnessed its fury. Those who mistake its might for divine power and those who seek to appease the monster through veneration are sometimes rewarded with power, to serve thereafter as kraken priests.\nThe kraken can make itself dimly aware of a kraken priest's thoughts if the two are on the same plane of existence, and it can then push aside the priest's personality and control it. Kraken priests can thereby act as eyes and ears for their masters, and when the kraken has something to say, the priest becomes its mouthpiece.\nEvery kraken priest undergoes a change in appearance that reflects the kraken's influence, although each one differs in how its reverence is displayed. One kraken priest might have ink-black eyes and a suckered tentacle for a tongue, while another has a featureless face and a body covered in eyes and mouths that dribble seawater. These horrific manifestations intensify when the kraken possesses its minion to utter its dire pronouncements.\nSource: Volo's Guide to Monsters p. 215, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Locathah Rising",
+  "environment": "coastal, underwater"
+}

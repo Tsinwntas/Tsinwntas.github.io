@@ -1,0 +1,80 @@
+{
+  "name": "Blood Mage",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "13 (16 with mage armor)",
+  "hp": "65 (10d8+20)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "14",
+  "int": "18",
+  "wis": "12",
+  "cha": "13",
+  "save": "Int +7, Wis +4",
+  "skill": "Arcana +7, Medicine +4",
+  "passive": "11",
+  "languages": "Common",
+  "cr": "7",
+  "trait": [
+    {
+      "name": "Absorb Impurities",
+      "text": [
+        "The blood mage can absorb poisons or diseases from another creature, living or dead, and turn it to the mage's use. It can expose a fresh cut to a source of disease or poison and safely absorb the dormant affliction into its blood stream. It can then inflict the disease or poison on another by spitting a stream of blood at the creature. On a successful hit as a ranged spell attack, the target is exposed to the disease or poison and must proceed with whatever saving throws are required."
+      ]
+    },
+    {
+      "name": "Blood Savant",
+      "text": [
+        "When subjected to a disease or poison effect that allows a Constitution saving throw to take only half damage, the blood mage instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      ]
+    },
+    {
+      "name": "Blood Vision",
+      "text": [
+        "When the blood mage ingests the blood of another creature, it is stunned until the start of its next turn. During that time, the blood mage experiences a memory of the creature through its own eyes which may or may not be of the incident which caused the creature to bleed. The older the blood, the foggier and more obscure the memory is likely to be. Once the blood mage has consumed a creature's blood in this way, the same creature's blood will never again produce a memory for that blood mage."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "The blood mage holds power over the flow of its own blood and the speed at which it heals. The blood mage regains 10 hp at the start of its turn if it has at least 1 hp."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The blood mage is a 10th-level spellcaster. Its spellcasting ability is (spell save DC 15, +7 to hit with spell attacks). The blood mage has the following Wizard spells prepared:",
+        "Cantrips (at will): acid splash, mage hand, mending, poison spray, prestidigitation",
+        "• 1st level (4 slots): charm person, false life, mage armor, magic missile",
+        "• 2nd level (3 slots): acid arrow, hold person",
+        "• 3rd level (3 slots): dispel magic, feign death, fly, vampiric touch",
+        "• 4th level (3 slots): black tentacles, blight",
+        "• 5th level (2 slots): conjure elemental (blood or water only), scrying"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Dagger|6|1d4+3"
+      ]
+    },
+    {
+      "name": "Blood Feast (Recharge 5-6)",
+      "text": [
+        "The blood mage drains life-giving blood from nearby creatures. Each creature within 20 feet of the blood mage must succeed on a DC 15 Constitution saving throw, taking 35 (10d6) necrotic damage on a failed save, or half as much damage on a successful one. The blood mage gains temporary hp equal to the single highest amount of necrotic damage dealt. A creature that doesn't have blood is immune to Blood Feast."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2"
+  ],
+  "spells": "acid splash, mage hand, mending, poison spray, prestidigitation, charm person, false life, mage armor, magic missile, acid arrow, hold person, dispel magic, feign death, fly, vampiric touch, black tentacles, blight, conjure elemental, scrying",
+  "description": "Source: CCodex (3pp) p. 397"
+}

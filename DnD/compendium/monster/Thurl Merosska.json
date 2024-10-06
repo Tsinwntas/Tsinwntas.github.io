@@ -1,0 +1,70 @@
+{
+  "name": "Thurl Merosska",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "16 (breastplate)",
+  "hp": "71 (11d8+21)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "14",
+  "int": "11",
+  "wis": "10",
+  "cha": "15",
+  "skill": "Animal handling +2, Athletics +5, Deception +4, Persuasion +4",
+  "passive": "10",
+  "languages": "Auran, Common",
+  "cr": "3",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Thurl makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Greatsword|+5|2d6+3"
+      ]
+    },
+    {
+      "name": "Lance",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. 9 (1d12 + 3) piercing damage."
+      ],
+      "attack": [
+        "Lance|+5|1d12+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "Thurl adds 2 to his AC against one melee attack that would hit him. To do so, Thurl must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Thurl is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). Thurl knows the following sorcerer spells:",
+        "Cantrips (at will): friends, gust, light, message, ray of frost",
+        "• 1st level (4 slots): expeditious retreat, feather fall, jump",
+        "• 2nd level (3 slots): levitate, misty step",
+        "• 3rd level (2 slots): haste"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "friends, gust, light, message, ray of frost, expeditious retreat, feather fall, jump, levitate, misty step, haste",
+  "description": "Thurl Merosska is the leader of the Feathergale Knights. Once a griffon rider of Waterdeep, Thurl retired after a storm nearly claimed his life. Obsessed with his near-death experience, Thurl learned of Yan-C-Bin and swore an oath to serve the elemental prince in exchange for power.\nThurl realized that there were others among the wealthy of Waterdeep who might make worthy servants of Yan-C-Bin. He formed the Feathergale Society to lure likely individuals into the air cult. He indoctrinated his Feathergale knights, one by one, into the cult's beliefs.\nWhen Aerisi Kalinoth arose as the chosen prophet of air, Thurl reluctantly pledged the Feathergale Knights to the cause. He resents Aerisi Kalinoth's rulership of the cult, but tells himself that he can use her and her followers to make the Feathergale Society strong enough to rule Waterdeep as it should be ruled.\nSource: Princes of the Apocalypse p. 192"
+}

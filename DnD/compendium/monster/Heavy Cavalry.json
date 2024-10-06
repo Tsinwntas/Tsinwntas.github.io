@@ -1,0 +1,69 @@
+{
+  "name": "Heavy Cavalry",
+  "size": "M",
+  "type": "humanoid (dragonborn)",
+  "alignment": "Lawful Neutral",
+  "ac": "19 (splint armor, shield)",
+  "hp": "75 (10d8+30)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "12",
+  "con": "17",
+  "int": "10",
+  "wis": "14",
+  "cha": "8",
+  "skill": "Athletics +4",
+  "passive": "12",
+  "languages": "Common, Draconic",
+  "cr": "2",
+  "resist": "fire",
+  "trait": [
+    {
+      "name": "Cavalry Charge",
+      "text": [
+        "If the dragonborn moves at least 20 feet straight toward a creature while mounted and then hits with a lance attack on the same turn, it can make a trample attack against that creature as a bonus action."
+      ]
+    },
+    {
+      "name": "Locked Saddle",
+      "text": [
+        "The dragonborn can't be knocked prone, dismounted, or moved against its will while mounted."
+      ]
+    },
+    {
+      "name": "Mounted Warrior",
+      "text": [
+        "The dragonborn is rarely seen without its giant lizard mount.",
+        "The lizard wears custom scale mail that raises its Armor Class to 15. While the dragonborn is mounted, the giant lizard can't be charmed or frightened."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Lance",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. 8 (1d12 + 2) piercing damage. Heavy Crossbow. Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. 6 (1d10 + 1) piercing damage."
+      ],
+      "attack": [
+        "Lance|4|1d12+2",
+        "Lance|3|1d10+1"
+      ]
+    },
+    {
+      "name": "Trample (Mounted Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 9 (2d6 + 2) bludgeoning damage and the target must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Trample (Mounted Only)|4|2d6+2"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharges after a Short or Long Rest)",
+      "text": [
+        "The dragonborn breathes fire in a 15-foot cone. All creatures in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

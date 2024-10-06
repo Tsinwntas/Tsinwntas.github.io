@@ -1,0 +1,64 @@
+{
+  "name": "Shadow River Lord",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "16 (natural armor)",
+  "hp": "135 (18d8+54)",
+  "speed": "walk 30 ft., swim 60 ft.",
+  "str": "14",
+  "dex": "18",
+  "con": "16",
+  "int": "12",
+  "wis": "16",
+  "cha": "18",
+  "passive": "13",
+  "languages": "Common",
+  "cr": "9",
+  "resist": "cold, fire, necrotic; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amorphous",
+      "text": [
+        "The shadow river lord can move through a space as narrow as one inch wide without squeezing."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The shadow river lord makes two greenfire staff or two shadowfrost bolt attacks. If two attacks hit the same target, the target must make a DC 16 Constitution saving throw or be blinded until the end of its next turn."
+      ]
+    },
+    {
+      "name": "Greenfire Staff",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 7 (1d6 + 4) bludgeoning damage plus 7 (2d6) fire damage."
+      ],
+      "attack": [
+        "Greenfire Staff|8|1d6+4"
+      ]
+    },
+    {
+      "name": "Shadowfrost Bolt",
+      "text": [
+        "Ranged Spell Attack: +8 to hit, range 150 ft., one target. 9 (2d8) necrotic damage plus 7 (2d6) cold damage."
+      ],
+      "attack": [
+        "Shadowfrost Bolt|8|2d8"
+      ]
+    },
+    {
+      "name": "Shadow Geyser (Recharge 6)",
+      "text": [
+        "The shadow river lord expels a geyser of shadowy water from its staff in a 30-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 21 (6d6) necrotic damage and 21 (6d6) cold damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 327",
+  "environment": "forest, underwater"
+}

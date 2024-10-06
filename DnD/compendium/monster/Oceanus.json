@@ -1,0 +1,56 @@
+{
+  "name": "Oceanus",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral Good",
+  "ac": "12 (leather armor)",
+  "hp": "30 (4d8+12)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "15",
+  "dex": "12",
+  "con": "16",
+  "int": "11",
+  "wis": "12",
+  "cha": "10",
+  "save": "Con +5",
+  "skill": "Athletics +4, Perception +3",
+  "passive": "13",
+  "languages": "Aquan, Elvish",
+  "cr": "1/2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Oceanus can breathe air and water."
+      ]
+    },
+    {
+      "name": "Friend of the Sea",
+      "text": [
+        "Using gestures and sounds, Oceanus can communicate simple ideas with any beast that has an innate swimming speed."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Trident",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Trident|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Light Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. 5 (1d8 + 1) piercing damage."
+      ],
+      "attack": [
+        "Light Crossbow|+3|1d8+1"
+      ]
+    }
+  ],
+  "description": "Before being captured, this sea elf had been tasked with investigating the Sea Ghost's movements in The Sinister Secret of Saltmarsh. Oceanus is a smart and resourceful elf who is more than willing to join adventurers who have brave hearts and good intentions.\nSource: Ghosts of Saltmarsh p. 246"
+}

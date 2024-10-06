@@ -1,0 +1,64 @@
+{
+  "name": "Tabaxi Hunter",
+  "size": "M",
+  "type": "humanoid (tabaxi)",
+  "alignment": "Chaotic Good",
+  "ac": "14 (leather armor)",
+  "hp": "40 (9d8)",
+  "speed": "walk 30 ft., climb 20 ft.",
+  "str": "10",
+  "dex": "17",
+  "con": "11",
+  "int": "13",
+  "wis": "14",
+  "cha": "15",
+  "skill": "Athletics +2, Perception +4, Stealth +5, Survival +6",
+  "passive": "14",
+  "languages": "Common plus any one language",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Feline Agility",
+      "text": [
+        "When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tabaxi makes two attacks with its claws, its shortsword, or its shortbow."
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) slashing damage."
+      ],
+      "attack": [
+        "Claws|+2|1d4"
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "Tabaxi are catfolk who hail from the land of Maztica. The ultimate wanderers, Tabaxi rarely stay in one place for long. They love to collect interesting artifacts, gather tales, and lay eyes on all the world's wonders. This curiosity pushes them to leave no secrets uncovered, and no treasures or legends lost. They revere a fickle deity called the Cat Lord, who is said to wander the world.\nTabaxi hunters are trained to survive in the wild, making them excellent guides. Tabaxi minstrels gather in small troupes and make themselves at home in any settlement, earning coin through music and storytelling.\nNames. A tabaxi typically has a single name, determined by his or her clan and based on a complex formula involving astrology, prophecy, clan history, and other factors. Male and female tabaxi use the same names, and most use nicknames derived from or inspired by their full names. Tabaxi clan names are usually based on a geographical feature located in or near a clan's territory. Sample tabaxi names include Nest of Eggs (\"Eggs\"), Dead Leaf (\"Leaf\"), Eyes of Onyx (\"Onyx\"), Lost Spear (\"Lost\"), and Daylight Moon (\"Moon\"). Clan names include Distant Rain, Hundred Feathers, Sleeping Creek, Bright Cliffs, and Snoring Mountain.\nSource: Tomb of Annihilation p. 232"
+}

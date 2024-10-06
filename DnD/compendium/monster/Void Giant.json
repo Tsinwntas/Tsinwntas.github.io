@@ -1,0 +1,72 @@
+{
+  "name": "Void Giant",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Chaotic Neutral",
+  "ac": "14 (natural armor)",
+  "hp": "210 (20d12+80)",
+  "speed": "walk 40 ft.",
+  "str": "24",
+  "dex": "10",
+  "con": "18",
+  "int": "18",
+  "wis": "10",
+  "cha": "14",
+  "save": "Con +8, Wis +4, Cha +6",
+  "skill": "Arcana +8, History +8, Investigation +8",
+  "passive": "10",
+  "languages": "Common, Giant, Draconic",
+  "cr": "11",
+  "trait": [
+    {
+      "name": "Void Casting",
+      "text": [
+        "As a bonus action, the void giant can infuse a spell with void magic. One creature that is hit by that spell or who fails a saving throw against that spell is stunned until the end of the creature's next turn."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The void giant is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The void giant has the following Wizard spells prepared:",
+        "Cantrips (at will): chill touch, light, mending, shocking grasp",
+        "• 1st level (4 slots): comprehend languages, magic missile, shield",
+        "• 2nd level (3 slots): crown of madness, mirror image, scorching ray",
+        "• 3rd level (3 slots): counterspell, fly, lightning bolt",
+        "• 4th level (3 slots): confusion, ice storm, phantasmal killer",
+        "• 5th level (2 slots): cone of cold, dominate person",
+        "• 6th level (1 slots): disintegrate"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The void giant makes two slam attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. 20 (3d8 + 7) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|11|3d8+7"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Magic Absorption",
+      "text": [
+        "If the void giant succeeds on a saving throw against an enemy spell, the void giant doesn't suffer the effects of that spell. If it uses Void Casting on its next turn, the void giant can affect all creatures hit by its spell or who fail a saving throw against its spell instead of just one creature."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1"
+  ],
+  "spells": "chill touch, light, mending, shocking grasp, comprehend languages, magic missile, shield, crown of madness, mirror image, scorching ray, counterspell, fly, lightning bolt, confusion, ice storm, phantasmal killer, cone of cold, dominate person, disintegrate",
+  "description": "Source: CCodex (3pp)",
+  "environment": "mountain"
+}

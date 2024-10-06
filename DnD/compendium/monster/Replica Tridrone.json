@@ -1,0 +1,67 @@
+{
+  "name": "Replica Tridrone",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Lawful Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "13",
+  "con": "12",
+  "int": "9",
+  "wis": "10",
+  "cha": "9",
+  "passive": "10",
+  "languages": "Modron",
+  "cr": "1/2",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Axiomatic Mind",
+      "text": [
+        "The tridrone can't be compelled to act in a manner contrary to its nature or its instructions."
+      ]
+    },
+    {
+      "name": "Dismantlable",
+      "text": [
+        "If the replica tridrone dies, its body falls into a pile of parts (gears, plates, screws, and wires), leaving behind its weapons and anything else it was carrying."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tridrone makes three fist attacks or three javelin attacks."
+      ]
+    },
+    {
+      "name": "Fist",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Fist|+3|1d4+1"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. 4 (1d6 + 1) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+3|1d6+1"
+      ]
+    },
+    {
+      "name": "Variant: Rogue Modrons",
+      "text": [
+        "A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+        "A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+      ]
+    }
+  ],
+  "description": "\nSource: The Orrery of the Wanderer p. 132"
+}

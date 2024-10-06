@@ -1,0 +1,73 @@
+{
+  "name": "Blood Giant",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Lawful Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "126 (12d12+48)",
+  "speed": "walk 40 ft.",
+  "str": "23",
+  "dex": "12",
+  "con": "18",
+  "int": "8",
+  "wis": "16",
+  "cha": "1",
+  "save": "Dex +4, Con +7, Wis +6",
+  "skill": "History +2, Perception +6, Religion +2",
+  "passive": "16",
+  "languages": "Giant",
+  "cr": "8",
+  "immune": "cold, poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Blood Sense",
+      "text": [
+        "A blood giant can pinpoint the location of living creatures within 60 feet of it and can sense the general direction of living creatures within 1 mile of it."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The blood giant's weapon attacks are magical."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The blood giant makes two blood spear attacks."
+      ]
+    },
+    {
+      "name": "Blood Spear",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, range 15 ft., one target. 19 (3d8 + 6) piercing damage plus 7 (2d6) cold damage."
+      ],
+      "attack": [
+        "Blood Spear|9|3d8+6"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. 28 (4d10 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|9|4d10+6"
+      ]
+    },
+    {
+      "name": "Blood Magic (Recharge 56)",
+      "text": [
+        "The blood giant uses one of the following.",
+        "Impale - The blood giant causes 10-foot-high blood spikes to burst from the ground within 15 feet of it. Each creature in the area must make a DC 15 Dexterity saving throw, taking 26 (4d12) piercing damage plus 7 (2d6) cold damage on a failed save, or half as much damage on a successful one.",
+        "Drown - The blood giant sends blood pouring down the throat of one creature within 30 feet, which must make a DC 15 Constitution saving throw. On a failure, the creature is incapacitated until the end of its next turn as it coughs up the blood and is poisoned for 1 minute after that.",
+        "Vaporize - A red mist surrounds the blood giant in a 20-foot-radius sphere. The mist spreads around corners, and its area is heavily obscured. It moves with the blood giant and doesn't impede the giant's vision. The mist dissipates after 1d4 rounds."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

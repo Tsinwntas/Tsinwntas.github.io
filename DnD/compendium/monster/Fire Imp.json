@@ -1,0 +1,70 @@
+{
+  "name": "Fire Imp",
+  "size": "T",
+  "type": "fiend (devil)",
+  "alignment": "Lawful Evil",
+  "ac": "13 (natural armor)",
+  "hp": "14 (4d4+4)",
+  "speed": "walk 20 ft., fly 40 ft.",
+  "str": "5",
+  "dex": "14",
+  "con": "12",
+  "int": "10",
+  "wis": "10",
+  "cha": "14",
+  "skill": "Deception +3, Stealth +4",
+  "passive": "10",
+  "languages": "Common, Infernal",
+  "cr": "1/2",
+  "resist": "cold; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "fire, poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Devil's Sight",
+      "text": [
+        "Magical darkness doesn't impede the imp's darkvision."
+      ]
+    },
+    {
+      "name": "Fire Absorption",
+      "text": [
+        "Whenever the imp is subjected to fire damage, it takes no damage and instead regains a number of hp equal to the fire damage dealt."
+      ]
+    },
+    {
+      "name": "Heat Metal (1/Day)",
+      "text": [
+        "As a bonus action, the imp casts the heat metal spell without expending any material components (spell save DC 12)."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The imp has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Fire Touch",
+      "text": [
+        "Melee Spell Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) fire damage and if the target is a flammable object that isn't being worn or carried, it also catches fire. If the target is a creature, it must succeed on a DC 12 Dexterity saving throw or take another 2 (1d4) fire damage at the start of its next turn."
+      ],
+      "attack": [
+        "Fire Touch|4|2d4+2"
+      ]
+    },
+    {
+      "name": "Hurl Flame",
+      "text": [
+        "Ranged Spell Attack: +4 to hit, range 150 ft., one target. 5 (2d4) fire damage and if the target is a flammable object that isn't being worn or carried, it also catches fire."
+      ],
+      "attack": [
+        "Hurl Flame|4|2d4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Flail",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "value": "10.0",
+  "property": "M",
+  "dmg1": "1d8",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 149"
+}

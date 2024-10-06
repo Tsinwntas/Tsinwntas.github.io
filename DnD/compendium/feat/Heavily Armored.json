@@ -1,0 +1,13 @@
+{
+  "name": "Heavily Armored",
+  "prerequisite": "Proficiency with medium armor",
+  "text": "You have trained to master the use of heavy armor, gaining the following benefits:\n• You gain proficiency with heavy armor.\nSource: Player's Handbook p. 167",
+  "modifier": [
+    {
+      "_": "Strength +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+}

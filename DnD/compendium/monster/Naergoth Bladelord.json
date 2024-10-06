@@ -1,0 +1,68 @@
+{
+  "name": "Naergoth Bladelord",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "18 (plate armor)",
+  "hp": "135 (18d8+54)",
+  "speed": "walk 30 ft.",
+  "str": "20",
+  "dex": "12",
+  "con": "16",
+  "int": "12",
+  "wis": "14",
+  "cha": "16",
+  "save": "Dex +5, Wis +6",
+  "skill": "Perception +6, Stealth +5",
+  "passive": "16",
+  "languages": "Common, Draconic",
+  "cr": "11",
+  "resist": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Naergoth has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Naergoth makes three attacks, either with his longsword or longbow. He can use Life Drain in place of one longsword attack."
+      ]
+    },
+    {
+      "name": "Life Drain",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 20 (5d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+      ],
+      "attack": [
+        "Life Drain|+9|5d6+3"
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) if used with two hands, plus 10 (3d6) necrotic damage."
+      ],
+      "attack": [
+        "Longsword|+9|1d8+5"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. 5 (1d8 + 1) piercing damage plus 10 (3d6) necrotic damage."
+      ],
+      "attack": [
+        "Longbow|+5|1d8+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Rise of Tiamat p. 90"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "+3 Lance",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "6",
+  "property": "R,S,M",
+  "dmg1": "1d12",
+  "dmgType": "P",
+  "text": "Special: You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.\nYou have a +3 bonus to attack and damage rolls made with this magic weapon.\nFound On: Magic Item Table H\nSource: Dungeon Master's Guide p. 213"
+}

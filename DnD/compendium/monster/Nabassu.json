@@ -1,0 +1,84 @@
+{
+  "name": "Nabassu",
+  "size": "M",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "18 (natural armor)",
+  "hp": "190 (20d8+100)",
+  "speed": "walk 40 ft., fly 60 ft.",
+  "str": "22",
+  "dex": "14",
+  "con": "21",
+  "int": "14",
+  "wis": "15",
+  "cha": "17",
+  "save": "Str +11, Dex +7",
+  "skill": "Perception +7",
+  "passive": "17",
+  "languages": "Abyssal, telepathy 120 ft.",
+  "cr": "15",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Demonic Shadows",
+      "text": [
+        "The nabassu darkens the area around its body in a 10-foot radius. Nonmagical light can't illuminate this area of dim light."
+      ]
+    },
+    {
+      "name": "Devour Soul",
+      "text": [
+        "A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a construct nor an undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice (d8s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 (1d6) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a wish spell."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The nabassu has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The nabassu's weapon attacks are magical."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The nabassu uses its Soul-Stealing Gaze and makes two attacks: one with its claws and one with its bite."
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 17 (2d10 + 6) slashing damage."
+      ],
+      "attack": [
+        "Claws|+11|2d10+6"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 32 (4d12 + 6) piercing damage."
+      ],
+      "attack": [
+        "Bite|+11|4d12+6"
+      ]
+    },
+    {
+      "name": "Soul-Stealing Gaze",
+      "text": [
+        "The nabassu targets one creature it can see within 30 feet of it. If the target can see the nabassu and isn't a construct or an undead, it must succeed on a DC 16 Charisma saving throw or reduce its hit point maximum by 13 (2d12) damage and give the nabassu an equal number of temporary hit points. This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0, and if the target is a humanoid, it immediately rises as a ghoul under the nabassu's control."
+      ]
+    }
+  ],
+  "description": "Nabassu. The insatiable nabassus prowl the multiverse in search of souls to devour. If they think they can kill a creature and consume its soul, they attack—even if that other creature is a demon, including another nabassu.\nHated Outcasts. Demons have few rules, and the murder of other demons hardly raises an eyebrow among these fiends. The act of devouring souls is something else. For this reason, most demons shun nabassus and force them to live on the fringes of the Abyss. There, nabassus pick off weaker demons or, if the situation warrants, gather in packs to take down larger prey. Some especially powerful nabassus even search for demon lords' amulets.\nDemonic Infiltrators. Whenever magic pulls demons from the Abyss to the Material Plane, nabassus try to get summoned so that they can embark on a feast of souls there. If a nabassu is summoned, it tries to break free so that it can devour the soul of its summoner and then set out to feed on the souls of whatever creatures it can catch. One way a summoner can avoid this fate is by providing a steady supply of souls to the nabassu, which can cause the demon to be cooperative—for as long as the supply lasts.\nSource: Mordenkainen's Tome of Foes p. 135",
+  "environment": "swamp, underdark, urban"
+}

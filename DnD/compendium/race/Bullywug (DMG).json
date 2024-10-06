@@ -1,0 +1,32 @@
+{
+  "name": "Bullywug (DMG)",
+  "size": "M",
+  "speed": "20",
+  "ability": "Int -2, Cha -2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Dungeon Master's Guide p. 282"
+    },
+    {
+      "name": "Amphibious",
+      "text": "You can breathe air and water.\n"
+    },
+    {
+      "name": "Speak with Frogs and Toads",
+      "text": "You can communicate simple concepts to frogs and toads when you speak in Bullywug (DMG).\n"
+    },
+    {
+      "name": "Swamp Camouflage",
+      "text": "You have advantage on Dexterity (Stealth) checks made to hide in swampy terrain.\n"
+    },
+    {
+      "name": "Standing Leap",
+      "text": "Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Bullywug (DMG).\n"
+    }
+  ]
+}

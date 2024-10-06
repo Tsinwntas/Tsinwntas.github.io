@@ -1,0 +1,56 @@
+{
+  "name": "Two-Headed Crocodile",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "19 (3d10+3)",
+  "speed": "walk 20 ft., swim 30 ft.",
+  "str": "15",
+  "dex": "10",
+  "con": "13",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "skill": "Perception +2, Stealth +2",
+  "passive": "12",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The two-headed crocodile can hold its breath for 15 minutes."
+      ]
+    },
+    {
+      "name": "Two Heads",
+      "text": [
+        "The two-headed crocodile has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+      ]
+    },
+    {
+      "name": "Wakeful",
+      "text": [
+        "When one of the crocodile's heads is asleep, its other head is awake."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The two-headed crocodile makes two attacks with its bite."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and that head of the crocodile can't bite another target."
+      ],
+      "attack": [
+        "Bite|+4|1d10+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Infernal Machine Rebuild p. 89"
+}

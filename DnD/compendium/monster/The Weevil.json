@@ -1,0 +1,56 @@
+{
+  "name": "The Weevil",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Any Non-Lawful Alignment",
+  "ac": "15 (studded leather armor)",
+  "hp": "65 (10d8+20)",
+  "speed": "walk 25 ft.",
+  "str": "15",
+  "dex": "16",
+  "con": "14",
+  "int": "14",
+  "wis": "11",
+  "cha": "14",
+  "save": "Str +4, Dex +5, Wis +2",
+  "skill": "Athletics +4, Deception +4",
+  "passive": "10",
+  "languages": "any two languages, Dwarvish",
+  "cr": "2",
+  "resist": "poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against poison, and has resistance against poison damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The Weevil makes three melee attacks with his handaxes. Or the Weevil makes two ranged attacks with his handaxes."
+      ]
+    },
+    {
+      "name": "Handaxe +1",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Handaxe +1|+6|1d6+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 114"
+}

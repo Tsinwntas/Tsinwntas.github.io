@@ -1,0 +1,69 @@
+{
+  "name": "Mattrim \"Threestrings\" Mereg",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "15 (chain shirt)",
+  "hp": "44 (8d8+8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "10",
+  "wis": "13",
+  "cha": "14",
+  "save": "Dex +4, Wis +3",
+  "skill": "Acrobatics +4, Perception +5, Performance +6",
+  "passive": "15",
+  "languages": "any two languages",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Song of Rest",
+      "text": [
+        "Mattrim can perform a song while taking a short rest. Any ally who hears the song regains an extra 1d6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. Mattrim can confer this benefit on itself as well."
+      ]
+    },
+    {
+      "name": "Taunt (2/Day)",
+      "text": [
+        "Mattrim can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear Mattrim, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Mattrim's next turn."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Mattrim is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:",
+        "Cantrips (at will): friends, mage hand, vicious mockery",
+        "• 1st level (4 slots): charm person, healing word, heroism, sleep, thunderwave",
+        "• 2nd level (3 slots): invisibility, shatter"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|+4|1d6+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3"
+  ],
+  "spells": "friends, mage hand, vicious mockery, charm person, healing word, heroism, sleep, thunderwave, invisibility, shatter",
+  "description": "\nSource: Waterdeep: Dragon Heist p. 20",
+  "environment": "urban"
+}

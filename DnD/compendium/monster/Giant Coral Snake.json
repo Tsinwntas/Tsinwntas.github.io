@@ -1,0 +1,31 @@
+{
+  "name": "Giant Coral Snake",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "90 (12d10+24)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "14",
+  "int": "2",
+  "wis": "10",
+  "cha": "3",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "4",
+  "senses": "blindsight 10 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (2d4 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be stunned until the end of its next turn. On a failed save, the target begins to hallucinate and is afflicted with a dmg|8|madness). The effect lasts 10 minutes."
+      ],
+      "attack": [
+        "Bite|+5|2d4+3"
+      ]
+    }
+  ],
+  "description": "Comfortable on land or in water, these brilliantly colored snakes are renowned for their potent and hallucinogenic venom. They are most often found in coastal caves. In the abandoned chambers of the hermitage in Tammeraut's Fate, these giant serpents feed on any creature that crosses their path.\nSource: Ghosts of Saltmarsh p. 236"
+}

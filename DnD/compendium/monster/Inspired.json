@@ -1,0 +1,79 @@
+{
+  "name": "Inspired",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "40 (9d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "10",
+  "int": "16",
+  "wis": "10",
+  "cha": "16",
+  "save": "Int +5, Wis +2",
+  "skill": "Deception +7, Insight +2, Persuasion +7",
+  "passive": "10",
+  "languages": "Common, Quori",
+  "cr": "2",
+  "resist": "psychic",
+  "conditionImmune": "charmed, frightened",
+  "trait": [
+    {
+      "name": "Dual Mind",
+      "text": [
+        "The Inspired has advantage on Wisdom saving throws."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (Psionics)",
+      "text": [
+        "The Inspired's spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:",
+        "At will: mage hand, vicious mockery (see \"Actions\" below)",
+        "1/day each: charm person, dissonant whispers, hex, hold person, mage armor"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The Inspired makes two crysteel dagger attacks. It can replace one attack with vicious mockery."
+      ]
+    },
+    {
+      "name": "Crysteel Dagger",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage plus 10 (3d6) force damage."
+      ],
+      "attack": [
+        "Crysteel Dagger|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Vicious Mockery (Cantrip)",
+      "text": [
+        "The Inspired unleashes a string of insults laced with subtle enchantments at one creature it can see within 60 feet of it. If the target can hear the Inspired, the target must succeed on a DC 13 Wisdom saving throw or take 2 (1d4) psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn."
+      ],
+      "attack": [
+        "Vicious Mockery (Cantrip)||1d4"
+      ]
+    },
+    {
+      "name": "Variant: Quori Vessel",
+      "text": [
+        "The Inspired are vessels for quori spirits, allowing the quori to manifest a portion of their power while the vessel is possessed. An Inspired can gain benefits depending on the type of quori possessing it. The quori also gains access to the Inspired's knowledge and features.",
+        "Hashalaq. ",
+        "Suggestion (3/Day). The Inspired can cast the suggestion spell (spell save DC 13), requiring no material components.",
+        "Kalaraq. ",
+        "All Around Vision. The Inspired can't be surprised.",
+        "Arcane Eye (3/Day). The Inspired can cast the arcane eye spell, requiring no material components.",
+        "Tsucora. ",
+        "Fear (1/Day). The Inspired can cast the fear spell (spell save DC 13), requiring no material components."
+      ]
+    }
+  ],
+  "spells": "mage hand, vicious mockery, charm person, dissonant whispers, hex, hold person, mage armor",
+  "description": "The rulers of distant Sarlona are known as the Inspired. These noble families are said to be bound to celestial spirits that guide and empower them, but the truth is far darker. The Inspired are the mortal hosts of the nightmare spirits of Dal Quor, and they carry out the foul agenda of the Dreaming Dark.\nAny humanoid who can dream can volunteer to serve as a quori vessel. But the Inspired of Sarlona are humans bred to be such vessels. They have no choice in this destiny, since they can't resist quori possession. Physically, Inspired resemble the kalashtar, possessing an almost supernatural beauty.\nMost of the people of the Five Nations have heard of the Inspired lords in Riedra—never realizing that Inspired are spread throughout Khorvaire as well. Beggars and generals, mayors and merchants might all be secret servants of the Dreaming Dark. Such Inspired have to willingly accept quori possession, but the Dreaming Dark has long experience in weaving dreams that can convince mortals to surrender their bodies.\nSource: Eberron: Rising from the Last War p. 294"
+}

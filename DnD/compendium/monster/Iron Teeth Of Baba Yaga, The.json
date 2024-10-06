@@ -1,0 +1,45 @@
+{
+  "name": "Iron Teeth Of Baba Yaga, The",
+  "size": "T",
+  "type": "fey",
+  "alignment": "Chaotic Neutral",
+  "ac": "14",
+  "hp": "67 (15d6+15)",
+  "speed": "walk 0 ft., fly 30 ft.",
+  "str": "12",
+  "dex": "18",
+  "con": "12",
+  "int": "18",
+  "wis": "10",
+  "cha": "10",
+  "skill": "Arcana +6, History +6",
+  "passive": "10",
+  "languages": "Common, Dwarvish, Elvish, Infernal, Sylvan",
+  "cr": "2",
+  "resist": "lightning",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Pinch",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 11 (3d4 + 4) piercing damage."
+      ],
+      "attack": [
+        "Pinch|6|3d4+4"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Iron's innate spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring only verball components:",
+        "At will: detect magic, mending, ray of frost, true strike",
+        "5/day each: grease, magic missile, shield",
+        "4/day each: acid arrow, blur, heat metal"
+      ]
+    }
+  ],
+  "spells": "detect magic, mending, ray of frost, true strike, grease, magic missile, shield, acid arrow, blur, heat metal",
+  "description": "Source: CCodex (3pp)"
+}

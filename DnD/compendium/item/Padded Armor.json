@@ -1,0 +1,10 @@
+{
+  "name": "Padded Armor",
+  "detail": "Light Armor",
+  "type": "LA",
+  "weight": "8",
+  "value": "5.0",
+  "ac": "11",
+  "stealth": "1",
+  "text": "Padded armor consists of quilted layers of cloth and batting.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nSource: Player's Handbook p. 144"
+}

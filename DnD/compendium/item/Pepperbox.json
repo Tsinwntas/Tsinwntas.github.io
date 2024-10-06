@@ -1,0 +1,17 @@
+{
+  "name": "Pepperbox",
+  "type": "R",
+  "weight": "5",
+  "text": [
+    "A special, complex one handed ranged weapon that fires quickly.",
+    "Reload 6, Misfire 2",
+    "Proficiency: firearms",
+    "Ammunition: 4g (20)",
+    "Source: Matthew Mercer - Gunslinger 1.3 p. 3"
+  ],
+  "value": "250",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "property": "M,A,LD",
+  "range": "80/320"
+}

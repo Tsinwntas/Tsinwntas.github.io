@@ -1,0 +1,22 @@
+{
+  "name": "Shatter",
+  "level": "2",
+  "school": "EV",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "60 feet",
+  "components": "V, S, M (a chip of mica)",
+  "duration": "Instantaneous",
+  "classes": "Bard, Sorcerer, Warlock, Wizard, Cleric (Tempest), Artificer (Artillerist), Artificer (Artillerist), Artificer (Armorer), Cleric (Zeal (PSA)), Artificer (Armorer (UA)), Artificer (Revisited) (UA) (Artillerist), Warlock (Lurker in the Deep (UA))",
+  "text": "A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.\nA nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.\nSource: Player's Handbook p. 275",
+  "roll": [
+    "3d8",
+    "4d8",
+    "5d8",
+    "6d8",
+    "7d8",
+    "8d8",
+    "9d8",
+    "10d8"
+  ]
+}

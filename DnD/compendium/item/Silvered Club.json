@@ -1,0 +1,10 @@
+{
+  "name": "Silvered Club",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "L",
+  "dmg1": "1d4",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 148"
+}

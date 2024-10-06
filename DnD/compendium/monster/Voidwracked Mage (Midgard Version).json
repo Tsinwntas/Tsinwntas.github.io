@@ -1,0 +1,75 @@
+{
+  "name": "Voidwracked Mage (Midgard Version)",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "78 (12d8+24)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "14",
+  "int": "20",
+  "wis": "8",
+  "cha": "11",
+  "save": "Int +8, Wis +2",
+  "skill": "Arcana +8, History +8",
+  "passive": "9",
+  "cr": "8",
+  "resist": "cold, necrotic; bludgeoning, piercing, slashing from nonmagical weapons",
+  "trait": [
+    {
+      "name": "Event Horizon",
+      "text": [
+        "Creatures pulled through the event horizon via the voidwracked mage's Accretion ability or that pass through it willingly become trapped in the void. A trapped creature is unable to breathe and can't cast spells with verbal components. At the end of its turn, the trapped creature takes 14 (4d6) necrotic damage and 9 (2d8) cold damage. A trapped creature that is not incapacitated can escape if a rope or long pole is passed to it from the outside.",
+        "Either the creature itself or an ally outside of the event horizon must succeed on a DC 15 Strength (Athletics) check to pull the creature out. The voidwracked mage can also release a trapped creature as an action."
+      ]
+    },
+    {
+      "name": "Horizon Collapse",
+      "text": [
+        "When the voidwracked mage is reduced to 0 hp, its event horizon collapses after 1 minute. Creatures trapped in the void when the event horizon collapses are lost and can only be restored by a wish or true resurrection spell."
+      ]
+    },
+    {
+      "name": "Insane",
+      "text": [
+        "The voidwracked mage has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "voidwracked is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). voidwracked has the following Wizard spells prepared:",
+        "Cantrips (at will): crushing curse*, mage hand, ray of frost, word of misfortune*",
+        "• 1st level (4 slots): cause fear, ray of sickness, screaming ray*, shield",
+        "• 2nd level (3 slots): destructive resonance*, maddening whispers*, misty step",
+        "• 3rd level (3 slots): counterspell, dispel magic, void strike*",
+        "• 4th level (3 slots): black tentacles, blight",
+        "• 5th level (1 slots): essence of instability*"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Void Touch",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 14 (4d6) necrotic damage."
+      ],
+      "attack": [
+        "Void Touch|6|4d6"
+      ]
+    },
+    {
+      "name": "Accretion (Recharge 5-6)",
+      "text": [
+        "The voidwracked mage creates a strong gravitational pull in a 20-foot cone. Each creature in that area must make a DC 15 Strength saving throw. On a failure, the creature takes 28 (8d6) force damage and is pulled through the voidwracked mage's event horizon. On a success, the creature takes half the damage and is knocked prone but isn't pulled into the event horizon."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "crushing curse, mage hand, ray of frost, word of misfortune, cause fear, ray of sickness, screaming ray, shield, destructive resonance, maddening whispers, misty step, counterspell, dispel magic, void strike, black tentacles, blight, essence of instability",
+  "description": "Source: CCodex (3pp)"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Brontosaurus",
+  "size": "G",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "121 (9d20+27)",
+  "speed": "walk 30 ft.",
+  "str": "21",
+  "dex": "9",
+  "con": "17",
+  "int": "2",
+  "wis": "10",
+  "cha": "7",
+  "save": "Con +6",
+  "passive": "10",
+  "cr": "5",
+  "action": [
+    {
+      "name": "Stomp",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. 27 (5d8 + 5) bludgeoning damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Stomp|+8|5d8+5"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. 32 (6d8 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Tail|+8|6d8+5"
+      ]
+    }
+  ],
+  "description": "This massive four-legged dinosaur is large enough that most predators leave it alone. Its deadly tail can drive away or kill smaller threats.\nSource: Volo's Guide to Monsters p. 139, Tomb of Annihilation",
+  "environment": "grassland, forest"
+}

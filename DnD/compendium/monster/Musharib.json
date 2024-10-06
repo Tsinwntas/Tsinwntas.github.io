@@ -1,0 +1,49 @@
+{
+  "name": "Musharib",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Any alignment",
+  "ac": "13 (hide armor)",
+  "hp": "30 (4d8+12)",
+  "speed": "walk 25 ft.",
+  "str": "13",
+  "dex": "13",
+  "con": "17",
+  "int": "12",
+  "wis": "14",
+  "cha": "11",
+  "skill": "Perception +4, Stealth +3, Survival +4",
+  "passive": "14",
+  "languages": "Common, Dwarvish",
+  "cr": "1",
+  "resist": "poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "Musharib has advantage on saving throws against poison."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Musharib's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material components:",
+        "1/day each: hunter's mark, jump, pass without trace, speak with animals, speak with plants"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Handaxe",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d6 + 1) slashing damage."
+      ],
+      "attack": [
+        "Handaxe|+3|1d6+1"
+      ]
+    }
+  ],
+  "spells": "hunter's mark, jump, pass without trace, speak with animals, speak with plants",
+  "description": "\nSource: Tomb of Annihilation p. 34"
+}

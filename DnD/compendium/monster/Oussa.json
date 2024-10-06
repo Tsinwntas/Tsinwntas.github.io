@@ -1,0 +1,100 @@
+{
+  "name": "Oussa",
+  "size": "M",
+  "type": "monstrosity (shapechanger, yuan-ti)",
+  "alignment": "Neutral Evil",
+  "ac": "12",
+  "hp": "66 (12d8+12)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "13",
+  "int": "14",
+  "wis": "12",
+  "cha": "16",
+  "skill": "Deception +5, Stealth +4",
+  "passive": "11",
+  "languages": "Abyssal, Common, Draconic",
+  "cr": "3",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "Oussa can use its action to polymorph into a Medium snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Oussa has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Malison Type",
+      "text": [
+        "Oussa has one of the following types:",
+        "• Type 1: Human body with snake head",
+        "• Type 2: Human head and body with snakes for arms",
+        "• Type 3: Human head and upper body with a serpentine lower body instead of legs"
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (Yuan-ti Form Only)",
+      "text": [
+        "Oussa's innate spellcasting ability is Charisma (spell save DC 13). Oussa can innately cast the following spells, requiring no material components:",
+        "At will: animal friendship (snakes only)",
+        "3/day: suggestion"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack (Yuan-ti Form Only)",
+      "text": [
+        "Oussa makes two ranged attacks or two melee attacks, but can constrict only once."
+      ]
+    },
+    {
+      "name": "Bite (Snake Form Only)",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+      ],
+      "attack": [
+        "Bite (Snake Form Only)|+5|1d4+3"
+      ]
+    },
+    {
+      "name": "Constrict",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and Oussa can't constrict another target."
+      ],
+      "attack": [
+        "Constrict|+5|2d6+3"
+      ]
+    },
+    {
+      "name": "Scimitar (Yuan-ti Form Only)",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Scimitar (Yuan-ti Form Only)|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Longbow (Yuan-ti Form Only)",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow (Yuan-ti Form Only)|+4|1d8+2"
+      ]
+    }
+  ],
+  "spells": "animal friendship, suggestion",
+  "description": "\nSource: Tales from the Yawning Portal p. 157",
+  "environment": "forest, swamp, desert"
+}

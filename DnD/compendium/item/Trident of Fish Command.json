@@ -1,0 +1,15 @@
+{
+  "name": "Trident of Fish Command",
+  "detail": "major, Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "property": "T,V",
+  "dmg1": "1d6",
+  "dmg2": "1d8",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast dominate beast (save DC 15) from it on a beast that has an innate swimming speed. The trident regains 1d3 expended charges daily at dawn.\nFound On: Magic Item Table F\nSource: Dungeon Master's Guide p. 209",
+  "roll": [
+    "1d3"
+  ]
+}

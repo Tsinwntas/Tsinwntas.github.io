@@ -1,0 +1,41 @@
+{
+  "name": "Garra",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Any Chaotic Alignment",
+  "ac": "12 (hide armor)",
+  "hp": "30 (4d10+8)",
+  "speed": "walk 30 ft.",
+  "str": "17",
+  "dex": "10",
+  "con": "14",
+  "int": "7",
+  "wis": "9",
+  "cha": "10",
+  "passive": "9",
+  "languages": "Common, Giant",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Battleaxe",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Battleaxe|+5|2d8+3"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. 10 (2d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+5|2d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Eberron: Rising from the Last War p. 272",
+  "environment": "underdark, mountain, forest, hill, urban, desert, arctic"
+}

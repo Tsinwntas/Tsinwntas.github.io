@@ -1,0 +1,72 @@
+{
+  "name": "Dream Wraith",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "14",
+  "hp": "60 (8d8+24)",
+  "speed": "walk 0 ft., fly 60 ft.",
+  "str": "6",
+  "dex": "18",
+  "con": "17",
+  "int": "12",
+  "wis": "15",
+  "cha": "16",
+  "skill": "Stealth +7",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "5",
+  "resist": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "necrotic, poison",
+  "vulnerable": "psychic",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Create Wraith",
+      "text": [
+        "Any humanoid that dies at the hands of a dream wraith rises 1 hour later as a wraith under the dream wraith's control."
+      ]
+    },
+    {
+      "name": "Incorporeal Movement",
+      "text": [
+        "The dream wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the dream wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Sleep Touch",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) psychic damage, and the target must succeed on a DC 14 Charisma saving throw or fall unconscious."
+      ],
+      "attack": [
+        "Sleep Touch|7|2d6+4"
+      ]
+    },
+    {
+      "name": "Steal Dreams",
+      "text": [
+        "The dream wraith targets an unconscious or sleeping creature within 5 feet of it. The creature must succeed on a DC 14 Constitution saving throw or be reduced to 0 hp.",
+        "The dream wraith gains temporary hp for 1 hour equal to the amount of hp the creature lost."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Dreamer's Gaze",
+      "text": [
+        "When a creature the dream wraith can see starts its turn within 30 feet of the dream wraith, the dream wraith can create the illusion that it looks like that creature's most recently departed loved one. If the creature can see the dream wraith, it must succeed on a DC 14 Wisdom saving throw or be stunned until the end of its turn."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "farmland"
+}

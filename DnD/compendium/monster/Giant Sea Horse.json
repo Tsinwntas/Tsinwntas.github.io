@@ -1,0 +1,44 @@
+{
+  "name": "Giant Sea Horse",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "16 (3d10)",
+  "speed": "walk 0 ft., swim 40 ft.",
+  "str": "12",
+  "dex": "15",
+  "con": "11",
+  "int": "2",
+  "wis": "12",
+  "cha": "5",
+  "passive": "11",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the sea horse moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The sea horse can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Ram",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Ram|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "Like their smaller kin, giant sea horses are shy, colorful fish with elongated bodies and curled tails. Aquatic elves train them as mounts.\nSource: Monster Manual p. 328, Ghosts of Saltmarsh",
+  "environment": "underwater"
+}

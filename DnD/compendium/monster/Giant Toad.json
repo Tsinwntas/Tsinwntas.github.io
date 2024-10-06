@@ -1,0 +1,52 @@
+{
+  "name": "Giant Toad",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "39 (6d10+6)",
+  "speed": "walk 20 ft., swim 40 ft.",
+  "str": "15",
+  "dex": "13",
+  "con": "13",
+  "int": "2",
+  "wis": "10",
+  "cha": "3",
+  "passive": "10",
+  "cr": "1",
+  "senses": "darkvision 30 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The toad can breathe air and water"
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The toad's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target."
+      ],
+      "attack": [
+        "Bite|+4|1d10+2"
+      ]
+    },
+    {
+      "name": "Swallow",
+      "text": [
+        "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.",
+        "If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 329, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything",
+  "environment": "underdark, forest, swamp, desert, coastal"
+}

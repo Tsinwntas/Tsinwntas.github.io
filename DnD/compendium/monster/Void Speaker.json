@@ -1,0 +1,90 @@
+{
+  "name": "Void Speaker",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Neutral Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "58 (13d8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "11",
+  "int": "18",
+  "wis": "10",
+  "cha": "8",
+  "save": "Int +7, Wis +3",
+  "skill": "Arcana +7, History +7",
+  "passive": "10",
+  "languages": "Common",
+  "cr": "7",
+  "resist": "necrotic, psychic; bludgeoning, piercing, slashing from nonmagical weapons",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Insane",
+      "text": [
+        "The void speaker has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The void speaker is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The void speaker has the following Wizard spells prepared:",
+        "Cantrips (at will): fire bolt, minor illusion, prestidigitation, shocking grasp",
+        "• 1st level (4 slots): burning hands, mage armor, magic missile",
+        "• 2nd level (3 slots): hold person, misty step, suggestion",
+        "• 3rd level (3 slots): counterspell, dispel magic, fear",
+        "• 4th level (3 slots): black tentacles, blight, confusion",
+        "• 5th level (1 slots): cone of cold"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|5|1d4+2"
+      ]
+    },
+    {
+      "name": "Word of the Void (Recharge 5-6)",
+      "text": [
+        "The void speaker utters a magical phrase in Void Speech. Each hostile creature within 30 feet of the void speaker who can hear it is affected by one of the following."
+      ]
+    },
+    {
+      "name": "Decaying Word",
+      "text": [
+        "Each affected creature must make a DC 15 Constitution saving throw, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Repelling Word",
+      "text": [
+        "Each affected creature must make a DC 15 Strength saving throw. On a failure, the creature takes 7 (2d6) thunder damage, is pushed 15 feet directly away from the void speaker and is knocked prone. On a success, the creature takes half damage and isn't knocked prone."
+      ]
+    },
+    {
+      "name": "Unsettling Word",
+      "text": [
+        "Each affected creature must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Rebuke From Beyond",
+      "text": [
+        "When a creature the void speaker can see within 60 feet hits it with an attack, the attacker takes 7 (2d6) necrotic damage as the void speaker barks a destructive word of"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "{@spell fire bolt, {@spell minor illusion, {@spell prestidigitation, {@spell shocking grasp, {@spell burning hands, {@spell mage armor, {@spell magic missile, {@spell hold person, {@spell misty step, {@spell suggestion, {@spell counterspell, {@spell dispel magic, {@spell fear, {@spell black tentacles, {@spell blight, {@spell confusion, {@spell cone of cold",
+  "description": "Source: CCodex (3pp)"
+}

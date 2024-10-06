@@ -1,0 +1,66 @@
+{
+  "name": "Bonnie",
+  "size": "M",
+  "type": "monstrosity (shapechanger)",
+  "alignment": "Neutral",
+  "ac": "14",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "18",
+  "con": "14",
+  "int": "11",
+  "wis": "12",
+  "cha": "14",
+  "skill": "Deception +6, Insight +3",
+  "passive": "11",
+  "languages": "Common",
+  "cr": "3",
+  "conditionImmune": "charmed",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "Bonnie can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Ambusher",
+      "text": [
+        "In the first round of a combat, Bonnie has advantage on attack rolls against any creature it surprised."
+      ]
+    },
+    {
+      "name": "Surprise Attack",
+      "text": [
+        "If Bonnie surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Bonnie makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|+6|1d6+4"
+      ]
+    },
+    {
+      "name": "Read Thoughts",
+      "text": [
+        "Bonnie magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, Bonnie can continue reading its thoughts, as long as Bonnie's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, Bonnie has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target."
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dragon Heist p. 20",
+  "environment": "underdark, urban"
+}

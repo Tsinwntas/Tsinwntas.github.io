@@ -1,0 +1,57 @@
+{
+  "name": "Reflection",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Chaotic Evil",
+  "ac": "12",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 40 ft.",
+  "str": "6",
+  "dex": "14",
+  "con": "13",
+  "int": "6",
+  "wis": "10",
+  "cha": "8",
+  "skill": "Stealth +4",
+  "passive": "10",
+  "cr": "1/2",
+  "resist": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "necrotic, poison",
+  "vulnerable": "radiant",
+  "conditionImmune": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amorphous",
+      "text": [
+        "The reflection can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    },
+    {
+      "name": "Shadow Stealth",
+      "text": [
+        "While in dim light or darkness, the reflection can take the Hide action as a bonus action. Its stealth bonus is also improved to +6."
+      ]
+    },
+    {
+      "name": "Sunlight Weakness",
+      "text": [
+        "While in sunlight, the reflection has disadvantage on attack rolls, ability checks, and saving throws."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Strength Drain",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.",
+        "If a non-evil humanoid dies from this attack, a new reflection rises from the corpse 1d4 hours later."
+      ],
+      "attack": [
+        "Strength Drain|+4|2d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Tasha's Cauldron of Everything",
+  "environment": "underdark, urban"
+}

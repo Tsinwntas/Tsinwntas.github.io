@@ -1,0 +1,9 @@
+{
+  "name": "Candle Mace",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "text": "The head of this mace sheds bright light in a 5-foot-radius and dim light for an additional 5 feet. When you wield this mace, you can extinguish or ignite its light as an action.\nSource: Baldur's Gate: Descent Into Avernus p. 39"
+}

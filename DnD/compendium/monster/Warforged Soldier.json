@@ -1,0 +1,63 @@
+{
+  "name": "Warforged Soldier",
+  "size": "M",
+  "type": "humanoid (warforged)",
+  "alignment": "Any alignment",
+  "ac": "16 (natural armor, shield)",
+  "hp": "30 (4d8+12)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "16",
+  "int": "10",
+  "wis": "14",
+  "cha": "11",
+  "skill": "Athletics +5, Perception +4, Survival +4",
+  "passive": "14",
+  "languages": "Common",
+  "cr": "1",
+  "resist": "poison",
+  "trait": [
+    {
+      "name": "Warforged Resilience",
+      "text": [
+        "The warforged has advantage on saving throws against being poisoned and is immune to disease. Magic can't put it to sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The warforged makes two armblade attacks."
+      ]
+    },
+    {
+      "name": "Armblade",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Armblade|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Javelin|+5|1d6+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Protection",
+      "text": [
+        "When an attacker the warforged can see makes an attack roll against a creature within 5 feet of the warforged, the warforged can impose disadvantage on the attack roll."
+      ]
+    }
+  ],
+  "description": "Warforged soldiers are humanoids formed from wood and steel, then magically imbued with life and sentience. The warforged were created to fight in the Last War, and in the aftermath of that conflict, they struggle to understand their place in the world.\nMost warforged soldiers still serve their former masters, often guarding dragonmarked houses or merchant caravans. Many warforged find it difficult to separate themselves from the soldiers they were made to be, seeking work as bouncers, bailiffs, and bodyguards. Others put their tireless strength to work as laborers, committed to the reconstruction of the towns and cities they defended or destroyed in the war.\nSource: Eberron: Rising from the Last War p. 320"
+}

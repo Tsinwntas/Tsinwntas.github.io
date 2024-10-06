@@ -1,0 +1,72 @@
+{
+  "name": "Werehyena",
+  "size": "M",
+  "type": "humanoid (gnoll, shapechanger)",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (14 (natural armor in hyena or hybrid form))",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "16",
+  "con": "14",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Perception +2, Stealth +5",
+  "passive": "12",
+  "languages": "Gnoll",
+  "cr": "3",
+  "immune": "bludgeoning, piercing, slashing from nonmagical weapons",
+  "trait": [
+    {
+      "name": "Keen Hearing And Smell",
+      "text": [
+        "The werehyena has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The werehyena can use its action to polymorph into a hyena-gnoll hybrid or into a hyena, or back into its true gnoll form. Its statistics, other than AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+        "It reverts to its true form if it dies."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The werehyena makes two attacks. one with its bite and one with its claws or scimitar."
+      ]
+    },
+    {
+      "name": "Bite (Hyena or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage. If the target is humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werehyena lycanthropy."
+      ],
+      "attack": [
+        "Bite (Hyena or Hybrid Form Only)|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Claws (Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (2d4 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claws (Hybrid Form Only)|5|2d4+3"
+      ]
+    },
+    {
+      "name": "Scimitar (Gnoll or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Scimitar (Gnoll or Hybrid Form Only)|5|1d8+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "farmland, grassland"
+}

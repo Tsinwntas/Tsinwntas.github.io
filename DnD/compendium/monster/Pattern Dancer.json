@@ -1,0 +1,101 @@
+{
+  "name": "Pattern Dancer",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Chaotic Evil",
+  "ac": "13",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "12",
+  "int": "12",
+  "wis": "12",
+  "cha": "16",
+  "save": "Dex +5, Wis +3, Cha +5",
+  "skill": "Acrobatics +5, Deception +5, Performance +7",
+  "passive": "11",
+  "languages": "Common, Elvish",
+  "cr": "2",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "The shadow fey has advantage on saving throws against being charmed, and magic can't put it to sleep."
+      ]
+    },
+    {
+      "name": "Shadow Traveler (1/Day)",
+      "text": [
+        "As a bonus action while in shadows, dim light, or darkness, the shadow fey disappears into the darkness and reappears in an unoccupied space it can see within 30 feet. A tendril of inky smoke appears at the origin and destination when it uses this trait."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the shadow fey has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Traveler In Darkness",
+      "text": [
+        "The shadow fey has advantage on Intelligence (Arcana) checks made to know about shadow roads and shadow magic spells or items."
+      ]
+    },
+    {
+      "name": "Group Actions",
+      "text": [
+        "When three pattern dancers are within 60 feet of each other,",
+        "they can work together to cast communal spells that are more",
+        "powerful than they could cast individually. To do this, one takes",
+        "an action to cast a spell, and the other two must use their",
+        "reactions to complete it. These spells are listed in innate spellcasting."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The pattern dancer's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells:",
+        "At will: hold person",
+        "3/day each: fear, sleep",
+        "1/day each: confusion, hypnotic pattern"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The pattern dancer is a -level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). The pattern dancer has the following Wizard spells prepared:",
+        "Cantrips (at will): dancing lights, friends, minor illusion, poison spray",
+        "• 1st level (4 slots): color spray, disguise self, magic missile, shield",
+        "• 2nd level (3 slots): blur, mirror image",
+        "• 3rd level (2 slots): major image, nondetection"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Longbow|5|1d8+3"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "hold person, fear, sleep, confusion, hypnotic pattern, dancing lights, friends, minor illusion, poison spray, color spray, disguise self, magic missile, shield, blur, mirror image, major image, nondetection",
+  "description": "Source: CCodex (3pp)"
+}

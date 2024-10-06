@@ -1,0 +1,45 @@
+{
+  "name": "Merfolk (Ixalan) (Green)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Cha 1, Wis 2",
+  "spellAbility": "Wisdom",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Ixalan p. 12"
+    },
+    {
+      "name": "Cantrip",
+      "text": "You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.\n"
+    },
+    {
+      "name": "Mask of the Wild",
+      "text": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most merfolk are neutral, living in close harmony with nature.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Merfolk are significantly taller than most humans, standing between seven and eight feet tall and averaging about 300 pounds. Your size is Medium.\n"
+    },
+    {
+      "name": "Amphibious",
+      "text": "You can breathe air and water.\n"
+    },
+    {
+      "name": "Swimming",
+      "text": "You have a swimming speed of 30 feet.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common (if it exists in your campaign), Merfolk, and one additional language of your choice.\n"
+    }
+  ]
+}

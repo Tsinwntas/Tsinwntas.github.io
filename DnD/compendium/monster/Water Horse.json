@@ -1,0 +1,78 @@
+{
+  "name": "Water Horse",
+  "size": "M",
+  "type": "fey (shapechanger)",
+  "alignment": "Neutral Evil",
+  "ac": "12 (natural armor (humanoid form), 14 (natural armor (horse or hybrid form)))",
+  "hp": "77 (14d8+14)",
+  "speed": "walk 30 ft., swim 60 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "13",
+  "int": "10",
+  "wis": "12",
+  "cha": "15",
+  "skill": "Deception +4, Persuasion +4",
+  "passive": "11",
+  "languages": "Common, Sylvan",
+  "cr": "4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The water horse can breathe air and water."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The water horse can use its action to polymorph into a Medium humanoid, a horse, or its true horse-humanoid hybrid form. Its statistics, other than its size, speed, and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The water horse can use its Charming Gaze. In horse form, it then makes two bite attacks. In humanoid form, it then makes two longsword attacks. In hybrid form, it then makes two attacks. one with its bite and one with its longsword."
+      ]
+    },
+    {
+      "name": "Bite (Hybrid or Horse Form Only)",
+      "text": [
+        "Melee Weapon Attack. +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite (Hybrid or Horse Form Only)|5|2d6+3"
+      ]
+    },
+    {
+      "name": "Longsword (Humanoid or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack. +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword (Humanoid or Hybrid Form Only)|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Longbow (Humanoid or Hybrid Form Only)",
+      "text": [
+        "Ranged Weapon Attack. +4 to hit, range 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow (Humanoid or Hybrid Form Only)|4|1d8+2"
+      ]
+    },
+    {
+      "name": "Charming Gaze",
+      "text": [
+        "The water horse targets one creature it can see within 30 feet of it. The target must succeed on a DC 12 Charisma saving throw or be charmed for 1 minute. While charmed, the target is incapacitated and can only move toward the water horse. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "The target has advantage on the saving throw if it has taken damage since the end of its last turn. If the target successfully saves or if the effect ends for it, the target is immune to this water horse's Charming Gaze for the next 24 hours."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 373",
+  "environment": "underwater"
+}

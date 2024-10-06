@@ -1,0 +1,61 @@
+{
+  "name": "Falcon the Hunter",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral Good",
+  "ac": "14 (studded leather armor)",
+  "hp": "112 (15d8+45)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "15",
+  "con": "16",
+  "int": "11",
+  "wis": "16",
+  "cha": "15",
+  "save": "Dex +4, Wis +5",
+  "skill": "Athletics +4, Perception +7, Survival +5",
+  "passive": "17",
+  "languages": "Common",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Archer",
+      "text": [
+        "A longbow or shortbow deals one extra die of its damage when Falcon hits with it (included in his longbow attack)."
+      ]
+    },
+    {
+      "name": "Sharpshooter",
+      "text": [
+        "Falcon's ranged weapon attacks ignore half cover and three-quarters cover."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Falcon makes three melee attacks or two ranged attacks."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Longbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. 11 (2d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Longbow|+4|2d8+2"
+      ]
+    }
+  ],
+  "description": "Adventurers encounter Falcon the Hunter if they visit his hunting lodge in Neverwinter Wood.\nSource: Essentials Kit: Dragon of Icespire Peak p. 56"
+}

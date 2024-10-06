@@ -1,0 +1,39 @@
+{
+  "name": "Lords' Alliance Guard",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Chaotic Good",
+  "ac": "16 (chain shirt, shield)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "12",
+  "con": "12",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "1/4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "The guard has advantage on saving throws against poison."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Halberd",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. 7 (1d10 + 2) slashing damage."
+      ],
+      "attack": [
+        "Halberd|+4|1d10+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 131"
+}

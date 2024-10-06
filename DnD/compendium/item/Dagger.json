@@ -1,0 +1,12 @@
+{
+  "name": "Dagger",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "1",
+  "value": "2.0",
+  "property": "F,L,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "Source: Player's Handbook p. 149"
+}

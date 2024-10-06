@@ -1,0 +1,10 @@
+{
+  "name": "Sling Bullets (20) of Slaying",
+  "detail": "minor, Ammunition",
+  "type": "A",
+  "weight": "1.5",
+  "text": "A sling bullets (20) of slaying is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both sling bullets (20)s of dragon slaying and sling bullets (20)s of blue dragon slaying. If a creature belonging to the type, race, or group associated with a sling bullets (20) of slaying takes damage from the sling bullets (20), the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.\nOnce a sling bullets (20) of slaying deals its extra damage to a creature, it becomes a nonmagical sling bullets (20).\nSource: Dungeon Master's Guide p. 152",
+  "roll": [
+    "6d10"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Stryx",
+  "size": "T",
+  "type": "monstrosity,tome of Beasts",
+  "alignment": "neutral",
+  "ac": "13",
+  "hp": "10 (4d4)",
+  "speed": "10 ft., fly 60 ft.",
+  "str": "3",
+  "dex": "17",
+  "con": "11",
+  "int": "8",
+  "wis": "15",
+  "cha": "6",
+  "skill": "Perception +4, Stealth +5",
+  "senses": "darkvision 120 ft.",
+  "passive": "14",
+  "languages": " Common, Elvish",
+  "cr": "1/8",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "Until a stryx speaks or opens its mouth, it is indistinguishable from a normal owl."
+      ]
+    },
+    {
+      "name": "Flyby",
+      "text": [
+        "The stryx doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The stryx's innate spellcasting ability is Wisdom. It can cast the following spell, requiring no components:",
+        "3/day: comprehend languages"
+      ]
+    },
+    {
+      "name": "Keen Hearing and Sight",
+      "text": [
+        "The stryx has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Talons",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+      ],
+      "attack": [
+        "Talons|5|1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Cleric Of The Brew",
+  "size": "M",
+  "type": "humanoid (dwarf)",
+  "alignment": "Any Good Alignment",
+  "ac": "18 (chain shirt, shield)",
+  "hp": "104 (16d8+32)",
+  "speed": "walk 25 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "15",
+  "int": "11",
+  "wis": "18",
+  "cha": "13",
+  "save": "Con +5, Wis +7",
+  "skill": "Medicine +7, Persuasion +4, Religion +3",
+  "passive": "14",
+  "languages": "Common, Dwarvish",
+  "cr": "5",
+  "resist": "poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Master Brewer",
+      "text": [
+        "The cleric has a +6 bonus on ability checks to brew beer, has advantage on saving throws against poison, and can't be intoxicated unless it chooses to be."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The cleric of the brew is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The cleric of the brew has the following Cleric spells prepared:",
+        "Cantrips (at will): guidance, light, mending, sacred flame",
+        "• 1st level (4 slots): cure wounds, healing word, heroism, purify food and drink",
+        "• 2nd level (3 slots): hold person, prayer of healing, spiritual weapon",
+        "• 3rd level (3 slots): aura of vitality, dispel magic, spirit guardians",
+        "• 4th level (2 slots): confusion, freedom of movement"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The cleric can use its Intoxicating Burp. It then makes two divine strike attacks."
+      ]
+    },
+    {
+      "name": "Divine Strike",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage plus 9 (2d8) radiant damage."
+      ],
+      "attack": [
+        "Divine Strike|6|1d6+3"
+      ]
+    },
+    {
+      "name": "Divine Brew",
+      "text": [
+        "The cleric drinks, or administers to an ally, one of the beer goddess' holy ales. For 1 minute, the drinker is immune to being frightened, gains 7 (2d6) temporary hp, and has advantage on ability checks based on Charisma. The creature can't benefit from Blessed Brew again until it finishes a short or long rest."
+      ]
+    },
+    {
+      "name": "Intoxicating Burp",
+      "text": [
+        "The cleric of the brew belches revoltingly in the face of a single creature within 5 feet. The target must succeed on a DC 15 Constitution saving throw or become poisoned for 1 minute. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the cleric's Intoxicating Burp for the next 24 hours."
+      ]
+    },
+    {
+      "name": "Boot and Rally (Recharges after a Short or Long Rest)",
+      "text": [
+        "Allies within 30 feet of the cleric who are frightened, paralyzed, poisoned, or stunned by an effect that allows repeated saving throws (such as a dragon's Frightful Presence) have advantage on the next saving throw. A creature that succeeds on the saving throw regains 7 (2d6) hp."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 2"
+  ],
+  "spells": "guidance, light, mending, sacred flame, cure wounds, healing word, heroism, purify food and drink, hold person, prayer of healing, spiritual weapon, aura of vitality, dispel magic, spirit guardians, confusion, freedom of movement",
+  "description": "Source: CCodex (3pp)"
+}

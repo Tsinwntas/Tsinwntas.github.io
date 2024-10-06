@@ -1,0 +1,49 @@
+{
+  "name": "Prince Derendil",
+  "size": "M",
+  "type": "humanoid (quaggoth)",
+  "alignment": "Chaotic Neutral",
+  "ac": "13 (natural armor)",
+  "hp": "45 (6d8+18)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "17",
+  "dex": "12",
+  "con": "16",
+  "int": "6",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Athletics +5",
+  "passive": "11",
+  "languages": "Undercommon",
+  "cr": "2",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Wounded Fury",
+      "text": [
+        "While it has 10 hit points or fewer, Prince Derendil has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Prince Derendil makes two claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 6",
+  "environment": "underdark"
+}

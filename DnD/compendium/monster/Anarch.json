@@ -1,0 +1,45 @@
+{
+  "name": "Anarch",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Chaotic Neutral",
+  "ac": "13 (hide armor)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "13",
+  "con": "12",
+  "int": "9",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Perception +2, Survival +2",
+  "passive": "12",
+  "languages": "any one language (usually Common)",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Aggressive",
+      "text": [
+        "As a bonus action, the anarch can move up to its speed toward a hostile creature it can see."
+      ]
+    },
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The anarch deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Spiked Club",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage, or 7 (1d10 + 2) piercing damage if used with two hands."
+      ],
+      "attack": [
+        "Spiked Club|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "The rank-and-file members of the Gruul Clans, called anarchs, despise civilization and have sworn to tear down both its physical structures and its institutions. Anarchs scavenge everything, from the hide armor they wear to the weapons they wield. As they pick through the refuse of the rubblebelts, they sometimes come across magic items and other valuable treasures.\nSource: Guildmasters' Guide to Ravnica p. 239"
+}

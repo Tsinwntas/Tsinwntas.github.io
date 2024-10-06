@@ -1,0 +1,23 @@
+{
+  "name": "Cure Wounds",
+  "level": "1",
+  "school": "EV",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "classes": "Bard, Cleric, Druid, Paladin, Ranger, Cleric (Life), Warlock (Celestial), Sorcerer (Divine Soul), Artificer, Artificer, Druid (Wildfire), Artificer (UA), Artificer (Revisited) (UA), Warlock (Celestial (UA))",
+  "text": "A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.\nSource: Player's Handbook p. 230",
+  "roll": [
+    "1d8+SPELL",
+    "2d8",
+    "3d8",
+    "4d8",
+    "5d8",
+    "6d8",
+    "7d8",
+    "8d8",
+    "9d8"
+  ]
+}

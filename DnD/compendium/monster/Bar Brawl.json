@@ -1,0 +1,70 @@
+{
+  "name": "Bar Brawl",
+  "size": "H",
+  "type": "humanoid",
+  "alignment": "Unaligned",
+  "ac": "12 (leather armor)",
+  "hp": "67 (9d12+9)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "12",
+  "con": "13",
+  "int": "11",
+  "wis": "10",
+  "cha": "9",
+  "passive": "10",
+  "cr": "3",
+  "resist": "piercing, slashing",
+  "vulnerable": "bludgeoning",
+  "conditionImmune": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
+  "trait": [
+    {
+      "name": "Liquid Courage (Recharge 56)",
+      "text": [
+        "As a bonus action, the bar brawl imbibes nearby alcohol to gain access to a hidden reservoir of audacity and grit. The bar brawl gains 7 (2d6) temporary hp for 1 minute."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "text": [
+        "The bar brawl can occupy another creature's space and vice versa, and the bar brawl can move through any opening large enough for a Medium humanoid. Except for Liquid Courage, the bar brawl can't regain hp or gain temporary hp."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The bar brawl makes two melee attacks or two darts attacks."
+      ]
+    },
+    {
+      "name": "Barstool",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, range 0 ft., one target in the bar brawl's space. 14 (4d6) bludgeoning damage, or 7 (2d6) if the bar brawl has half its hit points or fewer."
+      ],
+      "attack": [
+        "Barstool|4|4d6"
+      ]
+    },
+    {
+      "name": "Broken Bottles",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, range 0 ft., one target in the bar brawl's space. 10 (4d4) slashing damage, or 5 (2d4) if the bar brawl has half its hit points or fewer."
+      ],
+      "attack": [
+        "Broken Bottles|4|4d4"
+      ]
+    },
+    {
+      "name": "Darts",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 20/40 ft. 10 (4d4) piercing damage, or 5 (2d4) if the bar brawl has half its hit points or fewer."
+      ],
+      "attack": [
+        "Darts|3|4d4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

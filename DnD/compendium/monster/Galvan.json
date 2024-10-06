@@ -1,0 +1,104 @@
+{
+  "name": "Galvan",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral Evil",
+  "ac": "16 (studded leather armor)",
+  "hp": "110 (17d8+34)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "18",
+  "con": "14",
+  "int": "13",
+  "wis": "12",
+  "cha": "16",
+  "save": "Wis +4",
+  "skill": "Deception +6, Stealth +7",
+  "passive": "11",
+  "languages": "Common, Draconic, Infernal",
+  "cr": "7",
+  "resist": "one of the following: acid, cold, fire, lightning, poison",
+  "trait": [
+    {
+      "name": "5etools Note",
+      "text": [
+        "While Galvan is not presented in an encounter in The Rise of Tiamat, the dragonsoul stat block has been provided here for ease of use, with optional alterations for the Blue Dragon Mask."
+      ]
+    },
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Galvan has the Blue Dragon Mask."
+      ]
+    },
+    {
+      "name": "Draconic Majesty",
+      "text": [
+        "While wearing no armor and wearing the Blue Dragon Mask, Galvan adds his Charisma bonus to her AC (included)."
+      ]
+    },
+    {
+      "name": "Lingering Shock",
+      "text": [
+        "If Galvan deals lightning damage to a creature while wearing the Blue Dragon Mask, that creature can't take reactions until its next turn."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (1/Day)",
+      "text": [
+        "If Galvan fails a saving throw while wearing the Blue Dragon Mask, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Dragon Fanatic",
+      "text": [
+        "Galvan has advantage on saving throws against being charmed or frightened. While Galvan can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, Galvan ignores the effects of being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Fanatic Advantage",
+      "text": [
+        "Once per turn, if Galvan makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage."
+      ]
+    },
+    {
+      "name": "Limited Flight",
+      "text": [
+        "Galvan can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "Galvan has advantage on an attack roll against a creature if at least one of Galvan's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Galvan attacks twice with its shortsword."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which Galvan has resistance."
+      ],
+      "attack": [
+        "Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Orb of Dragon's Breath (3/Day)",
+      "text": [
+        "Ranged Spell Attack: +7 to hit, range 90 ft., one target. 27 (6d8) damage of the type to which Galvan has damage resistance."
+      ],
+      "attack": [
+        "Orb of Dragon's Breath (3/Day)|+7|6d8"
+      ]
+    }
+  ],
+  "description": "\nSource: Rise of Tiamat p. 9"
+}

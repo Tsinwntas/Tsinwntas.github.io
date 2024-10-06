@@ -1,0 +1,76 @@
+{
+  "name": "Two Dry Cloaks",
+  "size": "M",
+  "type": "humanoid (tabaxi)",
+  "alignment": "Any alignment",
+  "ac": "12",
+  "hp": "27 (6d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "15",
+  "con": "10",
+  "int": "12",
+  "wis": "14",
+  "cha": "16",
+  "skill": "Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight of hand +4, Stealth +4",
+  "passive": "16",
+  "languages": "any two languages",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Cunning Action",
+      "text": [
+        "On each of its turns, Two Dry Cloaks can use a bonus action to take the Dash, Disengage, or Hide action."
+      ]
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "text": [
+        "Two Dry Cloaks deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Two Dry Cloaks that isn't incapacitated and Two Dry Cloaks doesn't have disadvantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Feline Agility",
+      "text": [
+        "When <$title_short_name$> moves on its turn in combat, they can double their speed until the end of the turn. Once they uses this ability, <$title_short_name$> can't use it again until they moves 0 feet on one of their turns."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Two Dry Cloaks makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: ++2 to hit, reach 5 ft., one target. 2 (1d4) slashing damage."
+      ],
+      "attack": [
+        "Claws|+2|1d4"
+      ]
+    }
+  ],
+  "description": "\nSource: The Orrery of the Wanderer p. 162"
+}

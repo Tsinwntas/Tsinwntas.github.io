@@ -1,0 +1,65 @@
+{
+  "name": "Airship (Unearthed Arcana)",
+  "size": "G",
+  "type": "vehicle (80 ft. x 20 ft.)",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "300",
+  "speed": "9 miles per hour (216 miles per day)",
+  "str": "14",
+  "dex": "14",
+  "con": "12",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, prone, stunned, unconscious",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "300"
+      ]
+    },
+    {
+      "name": "Hull:",
+      "text": [
+        "Armor Class: 13",
+        "Hit Points: 300"
+      ]
+    },
+    {
+      "name": "Control:",
+      "text": [
+        "Helm",
+        "Armor Class: 16",
+        "Hit Points: 50",
+        "Move up to the speed of its elemental engine, with one 90-degree turn. If the helm is destroyed, the Airship (Unearthed Arcana) can't turn."
+      ]
+    },
+    {
+      "name": "Movement:",
+      "text": [
+        "Elemental Engine",
+        "Armor Class: 18",
+        "Hit Points: 100; -20 ft. speed per 25 damage taken",
+        "Locomotion (air): elemental power, speed 80 ft. If the engine is destroyed, the ship immediately crashes."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Weapons:",
+      "text": [
+        "Ballistas (4)",
+        "Armor Class: 15",
+        "Hit Points: 50 each",
+        "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. 16 (3d10) piercing damage."
+      ],
+      "attack": [
+        "Weapons:|+6|3d10"
+      ]
+    }
+  ],
+  "description": "\nSource: Unearthed Arcana: Of Ships And Sea p. 2"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Gray Thirster",
+  "size": "M",
+  "type": "undead,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "13",
+  "hp": "39 (6d8+12)",
+  "speed": "30 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "15",
+  "int": "6",
+  "wis": "12",
+  "cha": "14",
+  "skill": "Stealth +5",
+  "resist": "bludgeoning, necrotic",
+  "immune": "fire, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "11",
+  "languages": " understands all languages it knew in life but can't speak",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Thirst",
+      "text": [
+        "The gray thirster projects a 30-foot aura of desiccating thirst. The first time a creature enters the aura on its turn, or when it starts its turn in the aura, it must make a successful DC 12 Constitution saving throw or gain one level of exhaustion. If the saving throw is successful, the creature is immune to the gray thirster's Thirst for the next 24 hours."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gray thirster makes two claw attacks and one Withering Turban attack"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Withering Turban",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 5 (1d4 + 3) necrotic damage. If the target failed a saving throw against the Thirst trait at any point in this encounter, its hit point maximum is reduced by an amount equal to the damage it took from this attack. This reduction lasts until the target has no exhaustion levels."
+      ],
+      "attack": [
+        "Withering Turban|5|1d4+3"
+      ]
+    },
+    {
+      "name": "Drought (1/Day)",
+      "text": [
+        "The gray thirster draws the moisture from a 20-foot radius area centered on itself. Nonmagical water and other liquids in this area turn to dust. Each creature that is neither undead nor a construct in the area takes 9 (2d8) necrotic damage, or half damage with a successful DC 13 Constitution saving throw. Plants, oozes, and creatures with the Amphibious, Water Breathing, or Water Form traits have disadvantage on this saving throw. Liquids carried by a creature that makes a successful saving throw are not destroyed."
+      ]
+    }
+  ]
+}

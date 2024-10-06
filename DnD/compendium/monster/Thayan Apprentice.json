@@ -1,0 +1,52 @@
+{
+  "name": "Thayan Apprentice",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Any Non-Good Alignment",
+  "ac": "12 (15 with mage armor)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "12",
+  "int": "15",
+  "wis": "13",
+  "cha": "11",
+  "skill": "Arcana +4",
+  "passive": "11",
+  "languages": "Common, Thayan",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Doomvault Devotion",
+      "text": [
+        "Within the Doomvault, the apprentice has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The apprentice is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, mage hand, prestidigitation, shocking grasp",
+        "• 1st level (4 slots): burning hands, detect magic, mage armor, shield",
+        "• 2nd level (3 slots): blur, scorching ray"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+4|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3"
+  ],
+  "spells": "fire bolt, mage hand, prestidigitation, shocking grasp, burning hands, detect magic, mage armor, shield, blur, scorching ray",
+  "description": "\nSource: Tales from the Yawning Portal p. 245"
+}

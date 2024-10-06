@@ -1,0 +1,23 @@
+{
+  "name": "Inflict Wounds",
+  "level": "1",
+  "school": "N",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "classes": "Cleric, Paladin (Oathbreaker), Sorcerer (Divine Soul)",
+  "text": "Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.\nSource: Player's Handbook p. 253",
+  "roll": [
+    "3d10",
+    "4d10",
+    "5d10",
+    "6d10",
+    "7d10",
+    "8d10",
+    "9d10",
+    "10d10",
+    "11d10"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Tabaxi",
+  "size": "M",
+  "speed": "30",
+  "ability": "Dex 2, Cha 1",
+  "proficiency": "Perception, Stealth",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Volo's Guide to Monsters p. 113, Explorer's Guide to Wildemount p. 179"
+    },
+    {
+      "name": "Age",
+      "text": "Tabaxi have lifespans equivalent to humans.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Tabaxi tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, with most of them driven by curiosity rather than greed or other dark impulses.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Tabaxi are taller on average than humans and relatively slender. Your size is Medium.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Feline Agility",
+      "text": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.\n"
+    },
+    {
+      "name": "Cat's Claws",
+      "text": "Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\n"
+    },
+    {
+      "name": "Cat's Talents",
+      "text": "You have proficiency in the Perception and Stealth skills.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and one other language of your choice.\n"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Vicious +1 Light Repeating Crossbow",
+  "detail": "simple Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "5",
+  "property": "A,2H",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "40/160",
+  "text": "This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action.\nYou have a +1 bonus to attack and damage rolls made with this weapon.\nWhen you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.\nNote: According to the SRD, it is an extra 2d6 piercing damage.\nSource: Acquisitions Incorporated p. 149",
+  "roll": [
+    "2d6"
+  ]
+}

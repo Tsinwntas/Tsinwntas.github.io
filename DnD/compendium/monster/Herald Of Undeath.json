@@ -1,0 +1,73 @@
+{
+  "name": "Herald Of Undeath",
+  "size": "L",
+  "type": "undead",
+  "alignment": "Lawful Evil",
+  "ac": "16 (natural armor)",
+  "hp": "152 (16d10+64)",
+  "speed": "walk 40 ft.",
+  "str": "14",
+  "dex": "18",
+  "con": "18",
+  "int": "10",
+  "wis": "12",
+  "cha": "16",
+  "save": "Str +6, Dex +8",
+  "skill": "Deception +7, Perception +5, Stealth +8",
+  "passive": "15",
+  "languages": "Common, Infernal",
+  "cr": "11",
+  "resist": "cold, lightning; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "necrotic, poison",
+  "vulnerable": "radiant",
+  "conditionImmune": "charmed, exhaustion, paralyzed, poisoned, stunned, unconscious",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Creeping Death",
+      "text": [
+        "A creature that starts its turn within 10 feet of the herald must succeed on a DC 16 Constitution saving throw or take 13 (3d8) necrotic damage."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The herald's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Turn Resistance",
+      "text": [
+        "The herald has advantage on saving throws against any effect that turns undead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The herald of undeath makes two reaping scythe attacks or uses its Ray of Annihilation twice. If both reaping scythe attacks hit the same target, the target must succeed on a DC 14 Constitution saving throw or it is reduced to 0 hp."
+      ]
+    },
+    {
+      "name": "Reaping Scythe",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 15 (2d10 + 4) slashing damage plus 9 (2d8) necrotic damage."
+      ],
+      "attack": [
+        "Reaping Scythe|8|2d10+4"
+      ]
+    },
+    {
+      "name": "Ray of Annihilation",
+      "text": [
+        "Ranged Spell Attack: +7 to hit, range 120 ft., one target. 18 (4d8) necrotic damage and the target must succeed on a DC 16 Charisma saving throw or be blinded for 1 round."
+      ],
+      "attack": [
+        "Ray of Annihilation|7|4d8"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 219",
+  "environment": "farmland"
+}

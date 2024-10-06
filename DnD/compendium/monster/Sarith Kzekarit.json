@@ -1,0 +1,72 @@
+{
+  "name": "Sarith Kzekarit",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral Evil",
+  "ac": "15 (chain shirt)",
+  "hp": "13 (3d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "14",
+  "con": "10",
+  "int": "11",
+  "wis": "11",
+  "cha": "12",
+  "skill": "Perception +2, Stealth +4",
+  "passive": "12",
+  "languages": "Elvish, Undercommon",
+  "cr": "1/4",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Sarith has advantage on saving throws against being charmed, and magic can't put Sarith to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Sarith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Sarith's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+      ],
+      "attack": [
+        "Hand Crossbow|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Variant: Drow Magic Armor and Weapons",
+      "text": [
+        "Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
+        "A drow wearing a +1 chain shirt and carrying a +1 shortsword has AC 16 and a +1 bonus on attack and damage rolls with shortsword attacks."
+      ]
+    }
+  ],
+  "spells": "dancing lights, darkness, faerie fire",
+  "description": "\nSource: Out of the Abyss p. 7",
+  "environment": "underdark"
+}

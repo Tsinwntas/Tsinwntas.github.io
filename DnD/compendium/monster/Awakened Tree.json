@@ -1,0 +1,41 @@
+{
+  "name": "Awakened Tree",
+  "size": "H",
+  "type": "plant",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "59 (7d12+14)",
+  "speed": "walk 20 ft.",
+  "str": "19",
+  "dex": "6",
+  "con": "15",
+  "int": "10",
+  "wis": "10",
+  "cha": "7",
+  "passive": "10",
+  "languages": "one language known by its creator",
+  "cr": "2",
+  "resist": "bludgeoning, piercing",
+  "vulnerable": "fire",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the tree remains motionless, it is indistinguishable from a normal tree."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 14 (3d6 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|+6|3d6+4"
+      ]
+    }
+  ],
+  "description": "An awakened tree is an ordinary tree given sentience and mobility by the awaken spell or similar magic.\nSource: Monster Manual p. 317, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "forest"
+}

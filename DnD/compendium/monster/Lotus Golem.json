@@ -1,0 +1,82 @@
+{
+  "name": "Lotus Golem",
+  "size": "L",
+  "type": "construct (golem)",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "82 (11d10+22)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "19",
+  "con": "14",
+  "int": "6",
+  "wis": "12",
+  "cha": "4",
+  "save": "Str +6, Dex +8",
+  "skill": "Athletics +6, Perception +9",
+  "passive": "19",
+  "languages": "Understands the languages of its creator but can't speak",
+  "cr": "9",
+  "resist": "bludgeoning, piercing; slashing from nonmagical weapons that aren't adamantine.",
+  "immune": "cold, fire, poison, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Arcane Pool",
+      "text": [
+        "The lotus golem absorbs energy from nearby spellcasting. Most lotus golems hold 1 charge point at any given time but can hold up to 4. As a bonus action while casting a spell within 5 feet of the lotus golem, the golem's controller can expend the golem's charge points to cast the spell without expending a spell slot. To do so, the controller must expend a number of charge points equal to the level of the spell."
+      ]
+    },
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The golem is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The golem has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The golem's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Water Walker",
+      "text": [
+        "The golem can move across the surface of water as if it were harmless, solid ground. This trait works like the water walk spell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The lotus golem makes two arcane water attacks."
+      ]
+    },
+    {
+      "name": "Arcane Water",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 15 (2d12 + 2) bludgeoning damage plus 7 (2d6) force damage."
+      ],
+      "attack": [
+        "Arcane Water|8|2d12+2"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Arcane Absorption",
+      "text": [
+        "When a spell is cast within 30 feet of it, the golem absorbs some of the spell's potency. If it is a spell that forces a saving throw, the DC to succeed drops by 2. If it is a spell with an attack roll, the attack roll has disadvantage. The golem regains 20 hp and gains 1 charge point in its Arcane Pool."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Silvered Pike",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "18",
+  "property": "H,R,2H,M",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "text": "Source: Player's Handbook p. 148"
+}

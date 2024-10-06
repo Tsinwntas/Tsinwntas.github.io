@@ -1,0 +1,76 @@
+{
+  "name": "Drowned Maiden",
+  "size": "M",
+  "type": "undead,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "15 (natural armor)",
+  "hp": "90 (20d8)",
+  "speed": "30 ft., swim 40 ft.",
+  "str": "15",
+  "dex": "16",
+  "con": "10",
+  "int": "10",
+  "wis": "12",
+  "cha": "18",
+  "save": "Dex +6, Cha +7",
+  "resist": "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
+  "immune": "necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft.",
+  "passive": "11",
+  "languages": " Common",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Grasping Hair",
+      "text": [
+        "The drowned maiden's hair attacks as though it were three separate limbs, each of which can be attacked (AC 19; 15 hit points; immunity to necrotic, poison, and psychic damage; resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered). A lock of hair can be broken if a creature takes an action and succeeds on a DC 15 Strength check against it."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The drowned maiden's innate spellcasting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:",
+        "At will: disguise self, silence"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The drowned maiden makes two claw attacks and one hair attack, each of which it can replace with one kiss attack."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claw|6|1d8+3"
+      ]
+    },
+    {
+      "name": "Hair",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 20 ft., one target. Hit: 14 (2d10 + 3) slashing damage, and the target is grappled (escape DC 16). Three creatures can be grappled at a time."
+      ],
+      "attack": [
+        "Hair|6|2d10+3"
+      ]
+    },
+    {
+      "name": "Kiss",
+      "text": [
+        "The drowned maiden can kiss one target that is grappled and adjacent to her. The target must succeed on a DC 15 Charisma saving throw or take 1d6 Strength damage."
+      ]
+    },
+    {
+      "name": "Reel",
+      "text": [
+        "The drowned maiden pulls a grappled creature of Large size or smaller up to 15 feet straight toward herself."
+      ]
+    }
+  ]
+}

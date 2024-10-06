@@ -1,0 +1,11 @@
+{
+  "name": "Hellfire Blowgun",
+  "detail": "martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "1",
+  "property": "A,LD,M",
+  "dmg1": "1",
+  "dmgType": "P",
+  "range": "25/100",
+  "text": "This weapon is fashioned from infernal iron and traced with veins of hellfire that shed dim light in a 5-foot-radius.\nAny humanoid killed by an attack made with this weapon has its soul funneled into the River Styx, where it's reborn instantly as a lemure devil.\nSource: Baldur's Gate: Descent Into Avernus p. 223"
+}

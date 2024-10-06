@@ -1,0 +1,74 @@
+{
+  "name": "Fiendish Spirit",
+  "size": "L",
+  "type": "fiend",
+  "alignment": "Unaligned",
+  "ac": "0",
+  "hp": "50",
+  "speed": "walk 40 ft., climb 40 ft., fly 60 ft.",
+  "str": "13",
+  "dex": "16",
+  "con": "15",
+  "int": "10",
+  "wis": "10",
+  "cha": "16",
+  "passive": "10",
+  "languages": "Abyssal, Infernal, telepathy 60 ft.",
+  "resist": "fire",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "50 + 15 for each spell level above 6th"
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The fiend has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Death Throes (Demon Only)",
+      "text": [
+        "When the fiend drops to 0 hit points or the spell ends, the fiend explodes, and each creature within 10 feet of it must make a Dexterity saving throw against your spell save DC. A creature takes 2d10 + this spell's level fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Devil's Sight (Devil Only)",
+      "text": [
+        "Magical darkness doesn't impede the fiend's darkvision."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The fiend makes a number of attacks equal to half this spell's level (rounded down)."
+      ]
+    },
+    {
+      "name": "Bite (Demon Only)",
+      "text": [
+        "Melee Weapon Attack: {@hitYourSpellAttack} to hit, reach 5 ft., one target. 1d12 + 3 + the spell's level necrotic damage."
+      ]
+    },
+    {
+      "name": "Claws (Yugoloth Only)",
+      "text": [
+        "Melee Weapon Attack: {@hitYourSpellAttack} to hit, reach 5 ft., one target. 1d8 + 3 + the spell's level slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see."
+      ]
+    },
+    {
+      "name": "Hurl Flame (Devil Only)",
+      "text": [
+        "Ranged Spell Attack: {@hitYourSpellAttack} to hit, range 150 ft., one target. 2d6 + 3 + the spell's level fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire."
+      ]
+    }
+  ],
+  "description": "\nSource: Tasha's Cauldron of Everything"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Garroter Crab",
+  "size": "T",
+  "type": "beast,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "18 (4d4+8)",
+  "speed": "30 ft., swim 20 ft.",
+  "str": "7",
+  "dex": "14",
+  "con": "14",
+  "int": "1",
+  "wis": "10",
+  "cha": "2",
+  "immune": "psychic",
+  "conditionImmune": "charmed, frightened",
+  "senses": "darkvision 60 ft.",
+  "passive": "10",
+  "languages": "-",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The crab can breathe air and water."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Whip-claw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage, and the target is grappled (escape DC 8). While grappled, the target cannot speak or cast spells with verbal components."
+      ],
+      "attack": [
+        "Whip-claw|4|1d6+2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Thunderwave",
+  "level": "1",
+  "school": "EV",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Self (15-foot cube)",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "classes": "Bard, Druid, Sorcerer, Wizard, Cleric (Tempest), Artificer (Artillerist), Artificer (Artillerist), Artificer (Armorer), Warlock (Fathomless), Warlock (Genie), Artificer (Revisited) (UA) (Artillerist), Warlock, Sorcerer (Giant Soul (UA)), Warlock (Lurker in the Deep (UA)), Sorcerer (Storm (UA))",
+  "text": "A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.\nIn addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.\nSource: Player's Handbook p. 282",
+  "roll": [
+    "2d8",
+    "3d8",
+    "4d8",
+    "5d8",
+    "6d8",
+    "7d8",
+    "8d8",
+    "9d8",
+    "10d8"
+  ]
+}

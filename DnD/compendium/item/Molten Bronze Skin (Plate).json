@@ -1,0 +1,9 @@
+{
+  "name": "Molten Bronze Skin (Plate)",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "65",
+  "ac": "18",
+  "strength": "15",
+  "text": "This magical armor appears as a jug of molten bronze. When you attune to it, the bronze adheres and contours to your skin. The armor can be worn under normal clothes, but it doesn't impede bodily functions. Once you put it on, it can't be removed unless you choose to do so.\nWhile wearing the armor, you have resistance to fire damage. The armor also doesn't impose disadvantage on Dexterity (Stealth) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nSource: Mythic Odysseys of Theros p. 197"
+}

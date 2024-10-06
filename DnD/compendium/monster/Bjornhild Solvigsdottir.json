@@ -1,0 +1,54 @@
+{
+  "name": "Bjornhild Solvigsdottir",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral Evil",
+  "ac": "12 (hide armor)",
+  "hp": "102 (12d8+48)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "11",
+  "con": "18",
+  "int": "14",
+  "wis": "11",
+  "cha": "14",
+  "skill": "Athletics +7, Intimidation +5, Survival +3",
+  "passive": "10",
+  "languages": "Common, Yeti",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Auril's Blessing (3/Day)",
+      "text": [
+        "When Bjornhild hits a creature with a weapon attack, the attack deals an extra 11 (2d10) cold damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Bjornhild makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Greataxe",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 10 (1d12 + 4) slashing damage, plus 11 (2d10) cold damage if Bjornhild uses Auril's Blessing."
+      ],
+      "attack": [
+        "Greataxe|+7|1d12+4"
+      ]
+    },
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 11 (2d10) cold damage if Bjornhild uses Auril's Blessing."
+      ],
+      "attack": [
+        "Spear|+7|1d6+4"
+      ]
+    }
+  ],
+  "description": "It's unusual for a woman to lead a Reghed tribe, but Bjornhild is a most extraordinary woman. The fearless wife of the late King Korold, she fought alongside him in many battles. After a frost giant's mammoth companion slew Korold, the formidable Bjornhild took his place.\nBjornhild worships the Frostmaiden and is so ruthless that her enemies believe she has actual ice flowing through her veins. She has no living children that she knows of, but with Auril's blessing, she won't need any heirs to preserve her legacy. Bjornhild intends to live forever by demonstrating her unwavering faith in the Frostmaiden and becoming the Chosen of Auril.\nAs if she weren't fearsome enough, Bjornhild has a pet saber-toothed tiger named Grava.\nSource: Icewind Dale: Rime of the Frostmaiden p. 306"
+}

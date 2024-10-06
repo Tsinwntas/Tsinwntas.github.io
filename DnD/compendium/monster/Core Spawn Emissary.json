@@ -1,0 +1,64 @@
+{
+  "name": "Core Spawn Emissary",
+  "size": "M",
+  "type": "aberration",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "102 (12d8+48)",
+  "speed": "walk 40 ft., fly 60 ft.",
+  "str": "17",
+  "dex": "15",
+  "con": "18",
+  "int": "8",
+  "wis": "13",
+  "cha": "8",
+  "save": "Dex +5, Wis +4, Cha +2",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "telepathy 120 ft., understands Deep Speech but can't speak",
+  "cr": "6",
+  "immune": "psychic",
+  "conditionImmune": "blinded",
+  "senses": "blindsight 30 ft., tremorsense 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The emissary has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The emissary makes three talons attacks."
+      ]
+    },
+    {
+      "name": "Talons",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. 14 (2d10 + 3) slashing damage."
+      ],
+      "attack": [
+        "Talons|+6|2d10+3"
+      ]
+    },
+    {
+      "name": "Alluring Thrum (Recharges 5-6)",
+      "text": [
+        "The emissary emits a dreadful yet alluring hum. Each creature within 20 feet of the emissary that can hear it and that isn't an aberration must succeed on a DC 14 Constitution saving throw or be charmed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    },
+    {
+      "name": "Crystal Spores (Recharge 6)",
+      "text": [
+        "A 15-foot-radius cloud of toxic crystalline spores extends out from the emissary. The spores spread around corners. Each creature in the area must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, a creature takes 11 (2d10) poison damage at the start of each of its turns. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Crystal Spores (Recharge 6)||2d10"
+      ]
+    }
+  ],
+  "description": "These airborne predators serve as assassins and sentinels for the core spawn. The terrible thrum of its insectoid wings and a chittering of mandibles announces an emissary's arrival.\nThe core spawn emissary can expel clouds of crystalline spores from tubes in its head. These spores act like a contact poison and can be deadly if inhaled.\nOffspring of Calamity\nThe aberrant creatures known as core spawn are a subterranean breed of heralds, servants, foot soldiers, and lieutenants of the Elder Evils, awakened in the depths by the cataclysmic actions of the Betrayer Gods and their minions. They often appear on the surface world in the wake of seismic events, such as that which created the bottomless Miskath Pit of Eastern Wynandir. Warlocks and cultists sometimes gather together to hasten the arrival of core spawn to the Material Plane, focusing their arcane power on areas of natural seismic instability when the signs and stars are right.\nSource: Explorer's Guide to Wildemount p. 286"
+}

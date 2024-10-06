@@ -1,0 +1,148 @@
+{
+  "name": "Archduke Zariel of Avernus",
+  "size": "L",
+  "type": "fiend (devil)",
+  "alignment": "Lawful Evil",
+  "ac": "21 (natural armor)",
+  "hp": "580 (40d10+360)",
+  "speed": "walk 50 ft., fly 150 ft.",
+  "str": "27",
+  "dex": "24",
+  "con": "28",
+  "int": "26",
+  "wis": "27",
+  "cha": "30",
+  "save": "Int +16, Wis +16, Cha +18",
+  "skill": "Intimidation +18, Perception +16",
+  "passive": "26",
+  "languages": "all, telepathy 120 ft.",
+  "cr": "26",
+  "resist": "cold, fire, radiant; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "necrotic, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Devil's Sight",
+      "text": [
+        "Magical darkness doesn't impede Zariel's darkvision."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Zariel's weapon attacks are magical. When she hits with any weapon, the weapon deals an extra 36 (8d8) fire damage (included in the weapon attacks below)."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Zariel fails a saving throw, she can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Zariel has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "Zariel regains 20 hit points at the start of her turn. If she takes radiant damage, this trait doesn't function at the start of her next turn. Zariel dies only if she starts her turn with 0 hit points and doesn't regenerate."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Zariel's innate spellcasting ability is Charisma (spell save DC 26). She can innately cast the following spells, requiring no material components:",
+        "At will: alter self (can become Medium when changing her appearance), detect evil and good, fireball, invisibility (self only), wall of fire",
+        "3/day each: blade barrier, dispel evil and good, finger of death"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Zariel attacks twice with her flail and once with Matalotok. She can substitute Horrid Touch for Matalotok."
+      ]
+    },
+    {
+      "name": "Flail",
+      "text": [
+        "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. 17 (2d8 + 8) piercing damage plus 36 (8d8) fire damage."
+      ],
+      "attack": [
+        "Flail|+16|2d8+8"
+      ]
+    },
+    {
+      "name": "Matalotok (Warhammer)",
+      "text": [
+        "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. 17 (2d8 + 8) bludgeoning, or 19 (2d10 + 8) bludgeoning damage if used with two hands, plus 36 (8d8) fire damage. In addition, the weapon emits a burst of cold that deals 10 (3d6) cold damage to each creature within 30 feet of it."
+      ],
+      "attack": [
+        "Matalotok (Warhammer)|+16|2d8+8"
+      ]
+    },
+    {
+      "name": "Horrid Touch (Recharge 5-6)",
+      "text": [
+        "Zariel touches one creature within 10 feet of her. The target must succeed on a DC 26 Constitution saving throw or take 44 (8d10) necrotic damage and be poisoned for 1 minute. While poisoned in this way, the target is also blinded and deafened. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Horrid Touch (Recharge 5-6)||8d10"
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Zariel magically teleports, along with any equipment she is wearing and carrying, up to 120 feet to an unoccupied space she can see."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Archduke can take 2 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Archduke regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Immolating Gaze (Costs 2 Actions)",
+      "text": [
+        "Zariel turns her magical gaze toward one creature she can see within 120 feet of her and commands it to combust. The target must succeed on a DC 26 Wisdom saving throw or take 22 (4d10) fire damage."
+      ]
+    },
+    {
+      "name": "Teleport",
+      "text": [
+        "Zariel uses her Teleport action."
+      ]
+    },
+    {
+      "name": "Lair Actions"
+    },
+    {
+      "text": [
+        "On initiative count 20 (losing initiative ties), Zariel can take a lair action to cause one of the following effects; she can't use the same effect two rounds in a row:",
+        "• Zariel casts major image four times at its lowest level, targeting different areas with the spell. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a DC 26 Wisdom saving throw or become frightened of the illusion for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "• Zariel casts her innate fireball spell."
+      ]
+    },
+    {
+      "name": "Regional Effects"
+    },
+    {
+      "text": [
+        "The region containing Zariel's lair is warped by her magic, which creates one or more of the following effects:",
+        "• The area within 9 miles of the lair is filled with screaming voices and the stench of burning meat.",
+        "• Once every 60 feet within 1 mile of the lair, 10-foot-high gouts of flame rise from the ground. Any creature or object that touches the flame takes 7 (2d6) fire damage, though it can take this damage no more than once per round.",
+        "• The area within 2 miles, but no closer than 500 feet, of the lair is filled with smoke, which causes the area to be heavily obscured. The smoke can't be cleared away.",
+        "If Zariel dies, these effects fade over the course of 1d10 days."
+      ]
+    }
+  ],
+  "spells": "alter self, detect evil and good, fireball, invisibility, wall of fire, blade barrier, dispel evil and good, finger of death",
+  "description": "\nSource: Baldur's Gate: Descent Into Avernus p. 243"
+}

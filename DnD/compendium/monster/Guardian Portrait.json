@@ -1,0 +1,51 @@
+{
+  "name": "Guardian Portrait",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "5 (natural armor)",
+  "hp": "22 (5d8)",
+  "speed": "walk 0 ft.",
+  "str": "1",
+  "dex": "1",
+  "con": "10",
+  "int": "14",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "Common, plus up to two other languages",
+  "cr": "1",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Constructed Nature",
+      "text": [
+        "An animated object doesn't require air, food, drink, or sleep.",
+        "The magic that animates an object is dispelled when the construct drops to 0 hit points. An animated object reduced to 0 hit points becomes inanimate and is too damaged to be of much use or value to anyone."
+      ]
+    },
+    {
+      "name": "Antimagic Susceptibility",
+      "text": [
+        "The portrait is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the portrait must succeed on a Constitution saving throw against the caster's spell save DC or become unconscious for 1 minute."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the figure in the portrait remains motionless, the portrait is indistinguishable from a normal painting."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The portrait's innate spellcasting ability is Intelligence (spell save DC 12). The portrait can innately cast the following spells, requiring no material components:",
+        "3/day each: counterspell, crown of madness, hypnotic pattern, telekinesis"
+      ]
+    }
+  ],
+  "spells": "counterspell, crown of madness, hypnotic pattern, telekinesis",
+  "description": "A guardian portrait looks like a finely rendered and beautifully framed work of art, usually depicting someone important in a realistic manner. The picture and its frame are bound with powerful magic and are inseparable.\nLiving Image. The eyes of the figure depicted in the painting are imbued with darkvision, and they appear to follow creatures that move in front of them.\nInnate Spells. When a guardian portrait attacks, the figure in the painting animates and moves as though alive (albeit in two dimensions). The guardian portrait has no effective melee attacks, but it has a repertoire of innate spells that it can cast. When it casts a spell, the figure painted on the canvas makes all the appropriate somatic gestures and verbal incantations for the spell.\nSource: Curse of Strahd p. 227"
+}

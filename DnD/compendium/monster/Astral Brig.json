@@ -1,0 +1,33 @@
+{
+  "name": "Astral Brig",
+  "size": "G",
+  "type": "vehicle (90 ft. x 30 ft.)",
+  "alignment": "Unaligned",
+  "ac": "0",
+  "hp": "0",
+  "speed": "12 miles per hour (288 miles per day)",
+  "str": "0",
+  "dex": "0",
+  "con": "0",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "trait": [
+    {
+      "name": "Hit Points"
+    }
+  ],
+  "action": [
+    {
+      "name": "Weapons:",
+      "text": [
+        "Ballistas (2)",
+        "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. 16 (3d10) piercing damage."
+      ],
+      "attack": [
+        "Weapons:|+6|3d10"
+      ]
+    }
+  ],
+  "description": "The astral brig is the standard githyanki military vessel. It requires a crew of five and can transport up to sixty passengers. A brig is 90 feet long and 30 feet wide, with two levels below decks for quarters and storage space. It is equipped with two ballistae, each one operated by a pair of crew members, and has a top speed of 12 miles per hour.\nSource: Mordenkainen's Tome of Foes p. 90"
+}

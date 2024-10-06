@@ -1,0 +1,58 @@
+{
+  "name": "Reduced-Threat Displacer Beast",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Lawful Evil",
+  "ac": "13 (natural armor)",
+  "hp": "42 (10d10+30)",
+  "speed": "walk 40 ft.",
+  "str": "18",
+  "dex": "15",
+  "con": "16",
+  "int": "6",
+  "wis": "12",
+  "cha": "8",
+  "passive": "11",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Avoidance",
+      "text": [
+        "If the displacer beast is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      ]
+    },
+    {
+      "name": "Displacement",
+      "text": [
+        "The displacer beast projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is incapacitated or has a speed of 0."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The displacer beast makes two attacks with its tentacles."
+      ]
+    },
+    {
+      "name": "Tentacle",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. 7 (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage."
+      ],
+      "attack": [
+        "Tentacle|+4|1d6+4"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The monstrosity can take 0 legendary action, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The monstrosity regains spent legendary action at the start of its turn."
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 113",
+  "environment": "forest"
+}

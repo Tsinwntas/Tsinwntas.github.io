@@ -1,0 +1,41 @@
+{
+  "name": "Stomping Foot",
+  "size": "T",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "12",
+  "hp": "2 (1d4)",
+  "speed": "walk 20 ft., climb 20 ft.",
+  "str": "13",
+  "dex": "14",
+  "con": "11",
+  "int": "5",
+  "wis": "10",
+  "cha": "4",
+  "passive": "10",
+  "languages": "understands Common but can't speak",
+  "cr": "0",
+  "immune": "poison",
+  "conditionImmune": "charmed, exhaustion, poisoned",
+  "senses": "blindsight 30 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Turn Immunity",
+      "text": [
+        "The foot is immune to effects that turn undead."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "foot",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) bludgeoning or slashing damage (foot's choice)."
+      ],
+      "attack": [
+        "foot|+3|1d4+1"
+      ]
+    }
+  ],
+  "description": "\nSource: The Orrery of the Wanderer p. 92"
+}

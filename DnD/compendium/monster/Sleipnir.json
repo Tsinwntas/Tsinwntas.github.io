@@ -1,0 +1,70 @@
+{
+  "name": "Sleipnir",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Good Neutral",
+  "ac": "15 (natural armor)",
+  "hp": "105 (10d10+50)",
+  "speed": "walk 40 ft.",
+  "str": "20",
+  "dex": "12",
+  "con": "20",
+  "int": "10",
+  "wis": "15",
+  "cha": "10",
+  "save": "Con +8",
+  "skill": "Athletics +8, Perception +5",
+  "passive": "15",
+  "languages": "Primordial",
+  "cr": "5",
+  "resist": "cold",
+  "conditionImmune": "exhaustion",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Heroic Leap (1/Day)",
+      "text": [
+        "As a bonus action, the sleipnir can leap into the air, gaining a flying speed of 60 feet for 1 minute."
+      ]
+    },
+    {
+      "name": "Trampling Charge",
+      "text": [
+        "If the sleipnir moves at least 20 feet straight toward a creature and then hits it with a rune hooves attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the sleipnir can make another rune hooves attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The sleipnir makes two rune hooves attacks."
+      ]
+    },
+    {
+      "name": "Rune Hooves",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 12 (2d6 + 5) bludgeoning damage and 3 (1d6) radiant damage. An undead creature who takes damage from this attack must succeed on a DC 16 Charisma saving throw or be restrained by magical runes until the end of its next turn."
+      ],
+      "attack": [
+        "Rune Hooves|8|2d6+5"
+      ]
+    },
+    {
+      "name": "Gold and Ice (1/Day)",
+      "text": [
+        "The sleipnir summons a gilded avalanche in a 30-foot cone. Each creature in the area must make a DC 16 Dexterity saving throw. On a failure, a creature takes 13 (3d8) bludgeoning and 13 (3d8) cold damage, is pushed 15 feet away from the sleipnir, and is knocked prone. On a success, a creature takes half the damage and isn't pushed or knocked prone."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Eight Hooves (3/Day)",
+      "text": [
+        "When a creature moves within 5 feet of the sleipnir, the sleipnir can move up to its speed without provoking opportunity attacks."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 344",
+  "environment": "arctic, grassland"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Dagger of Guitar Solos",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "1",
+  "value": "750.0",
+  "property": "F,L,T",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "20/60",
+  "text": "This drow-made dagger is decorated with silver web filigree. It magically plays a fragment of a guitar solo when struck or used to strike a foe.\nSource: Waterdeep: Dungeon of the Mad Mage p. 228"
+}

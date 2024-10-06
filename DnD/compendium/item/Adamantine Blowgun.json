@@ -1,0 +1,11 @@
+{
+  "name": "Adamantine Blowgun",
+  "detail": "major, martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "1",
+  "property": "A,LD,M",
+  "dmg1": "1",
+  "dmgType": "P",
+  "range": "25/100",
+  "text": "Whenever you hit an object with this weapon, the hit is a critical hit.\nSource: Xanathar's Guide to Everything p. 78"
+}

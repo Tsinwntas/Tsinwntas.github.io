@@ -1,0 +1,43 @@
+{
+  "name": "Maw Demon",
+  "size": "M",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (natural armor)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "8",
+  "con": "13",
+  "int": "5",
+  "wis": "8",
+  "cha": "5",
+  "passive": "9",
+  "languages": "understands Abyssal but can't speak",
+  "cr": "1",
+  "resist": "cold, fire, lightning",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Rampage",
+      "text": [
+        "When it reduces a creature to 0 hit points with a melee attack on its turn, the maw demon can take a bonus action to move up to half its speed and make a bite attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 11 (2d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|2d8+2"
+      ]
+    }
+  ],
+  "description": "Demon lords create lesser demons for the purpose of spreading chaos and terror throughout the multiverse.\nMaw Demon. Maw demons share Yeenoghu's ceaseless hunger for carnage and mortal flesh. After a maw demon rests for 8 hours, anything devoured by it is transported directly into the Lord of Savagery's gullet.\nMaw demons appear among gnoll war bands, usually summoned as part of ritual offerings of freshly slain humanoids made to Yeenoghu. The gnolls don't command them, but these demons accompany the war band and attack whatever creatures the gnolls fall upon.\nSource: Volo's Guide to Monsters p. 137, Ghosts of Saltmarsh",
+  "environment": "underdark"
+}

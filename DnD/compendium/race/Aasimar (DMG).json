@@ -1,0 +1,41 @@
+{
+  "name": "Aasimar (DMG)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Wis 1, Cha 2",
+  "spellAbility": "Charisma",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Dungeon Master's Guide p. 286, Explorer's Guide to Wildemount p. 166"
+    },
+    {
+      "name": "Age",
+      "text": "Aasimar (DMG) mature at the same rate as humans but live a few years longer.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Due to their celestial heritage, Aasimar (DMG) are often good. However, some Aasimar (DMG) fall into evil, rejecting their heritage.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Aasimar (DMG) are built like well-proportioned humans. Your size is Medium.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "Thanks to your celestial heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.\n"
+    },
+    {
+      "name": "Celestial Resistance",
+      "text": "You have resistance to necrotic and radiant damage.\n"
+    },
+    {
+      "name": "Celestial Legacy",
+      "text": "You know the light cantrip. Once you reach 3rd level, you can cast the lesser restoration spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the daylight spell once with this trait as a 3rd-level spell, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.\n"
+    },
+    {
+      "name": "Language",
+      "text": "You can speak, read, and write Common and Celestial.\n"
+    }
+  ]
+}

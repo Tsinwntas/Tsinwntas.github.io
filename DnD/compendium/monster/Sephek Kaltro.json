@@ -1,0 +1,64 @@
+{
+  "name": "Sephek Kaltro",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "12",
+  "hp": "75 (10d8+30)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "16",
+  "int": "11",
+  "wis": "16",
+  "cha": "18",
+  "skill": "Perception +5, Survival +5",
+  "passive": "15",
+  "languages": "Common",
+  "cr": "3",
+  "immune": "cold",
+  "conditionImmune": "charmed, frightened",
+  "trait": [
+    {
+      "name": "Cold Regeneration",
+      "text": [
+        "If the temperature around him is 0 degrees Fahrenheit or lower, Sephek regains 5 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of Sephek's next turn. Sephek dies only if he starts his turn with 0 hit points and doesn't regenerate."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Sephek can innately cast misty step up to three times per day, requiring no components. His innate spellcasting ability is Charisma.",
+        "At will: misty step"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Sephek attacks twice with a weapon."
+      ]
+    },
+    {
+      "name": "Ice Longsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if Sephek uses the weapon with two hands, plus 5 (2d4) cold damage."
+      ],
+      "attack": [
+        "Ice Longsword|+5|1d8+3"
+      ]
+    },
+    {
+      "name": "Ice Dagger",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage plus 5 (2d4) cold damage."
+      ],
+      "attack": [
+        "Ice Dagger|+5|1d4+3"
+      ]
+    }
+  ],
+  "spells": "misty step",
+  "description": "Sephek Kaltro is a well-built man in his thirties. He has an olive complexion, dark hair pulled back in a ponytail, and no facial or body hair. He is dressed in a stylish vest with matching pants and boots, similar in style to those worn by mariners of the southern Sword Coast, but wears no armor or cold weather clothing and doesn't appear to be armed. His most striking feature is his eyes, which are as blue as a frozen lake.\nSource: Icewind Dale: Rime of the Frostmaiden p. 23"
+}

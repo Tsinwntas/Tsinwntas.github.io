@@ -1,0 +1,30 @@
+{
+  "name": "Baldur's Gate Soldier",
+  "proficiency": "Athletics, Intimidation",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "• Skill Proficiencies: Athletics, Intimidation\n• Tool Proficiencies: One type of gaming set, vehicles (land)\n• Equipment: An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a bone dice set or playing card set, a set of common clothes, and a belt pouch containing 10 gp\nSource: Baldur's Gate: Descent Into Avernus p. 204"
+    },
+    {
+      "name": "Feature: Military Rank",
+      "text": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.\n"
+    },
+    {
+      "name": "Baldur's Gate Feature: City Guard",
+      "text": "The effects of a Baldur's Gate feature can be used only while the character is in Baldur's Gate—though, at the DM's discretion, they might have applicable effects in situations similar to those in Baldur's Gate.\nYou may choose to currently serve in either the Flaming Fist or the Watch. If you do, you have responsibilities related to your post. For as long as you perform these responsibilities, you gain benefits. If you stop performing your responsibilities, though, you lose access to the benefits and might suffer further fallout. Should you lose these benefits, you may regain them by having an unpleasant conversation with your commanding officer and fulfilling your responsibilities for a month.\n"
+    },
+    {
+      "name": "Baldur's Gate Feature: Loyalty Test",
+      "text": "The effects of a Baldur's Gate feature can be used only while the character is in Baldur's Gate—though, at the DM's discretion, they might have applicable effects in situations similar to those in Baldur's Gate.\nYou've had enough dealings with crooked soldiers that you can spot the behaviors common to corrupt guards and military officers a mile away. While awareness of such corruption doesn't equate to evidence of it, and your sense certainly isn't foolproof, your instinct proves a useful starting point when determining who might take a bribe, who might turn a blind eye to a crime, or who might have criminal connections. You can also use this sense to get a feeling about who might fulfill their duties strictly by the book.\n"
+    },
+    {
+      "name": "Specialty",
+      "text": "During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:\nd8 | Role\n1 | Officer\n2 | Scout\n3 | Infantry\n4 | Cavalry\n5 | Healer\n6 | Quartermaster\n7 | Standard-bearer\n8 | Support staff (cook, blacksmith, or the like)\n\n"
+    },
+    {
+      "name": "Suggested Characteristics",
+      "text": "The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.\nd8 | Personality Trait\n1 | I'm always polite and respectful.\n2 | I'm haunted by memories of war. I can't get the images of violence out of my mind.\n3 | I've lost too many friends, and I'm slow to make new ones.\n4 | I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.\n5 | I can stare down a hell hound without flinching.\n6 | I enjoy being strong and like breaking things.\n7 | I have a crude sense of humor.\n8 | I face problems head-on. A simple, direct solution is the best path to success.\n\nd6 | Ideal\n1 | Greater Good. Our lot is to lay down our lives in defense of others. (Good)\n2 | Responsibility. I do what I must and obey just authority. (Lawful)\n3 | Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)\n4 | Might. In life as in war, the stronger force wins. (Evil)\n5 | Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)\n6 | Nation. My city, nation, or people are all that matter. (Any)\n\nd6 | Bond\n1 | I would still lay down my life for the people I served with.\n2 | Someone saved my life on the battlefield. To this day, I will never leave a friend behind.\n3 | My honor is my life.\n4 | I'll never forget the crushing defeat my company suffered or the enemies who dealt it.\n5 | Those who fight beside me are those worth dying for.\n6 | I fight for those who cannot fight for themselves.\n\nd6 | Flaw\n1 | The monstrous enemy we faced in battle still leaves me quivering with fear.\n2 | I have little respect for anyone who is not a proven warrior.\n3 | I made a terrible mistake in battle that cost many lives—and I would do anything to keep that mistake secret.\n4 | My hatred of my enemies is blinding and unreasoning.\n5 | I obey the law, even if the law causes misery.\n6 | I'd rather eat my armor than admit when I'm wrong.\n\n"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Preta",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Neutral Evil",
+  "ac": "13 (natural armor)",
+  "hp": "75 (10d8+30)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "16",
+  "int": "10",
+  "wis": "13",
+  "cha": "15",
+  "skill": "Perception +3, Stealth +4",
+  "passive": "13",
+  "languages": "The languages it knew in life",
+  "cr": "3",
+  "resist": "necrotic",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Ethereal Sight",
+      "text": [
+        "The preta can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The preta uses its Blood Siphon. It then makes two attacks with its claws."
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 9 (2d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|4|2d6+2"
+      ]
+    },
+    {
+      "name": "Blood Siphon",
+      "text": [
+        "The preta magically draws the blood from a target it can see within 30 feet into its ever-hungry mouth. The target must succeed on a DC 13 Constitution saving throw or take 7 (2d6) points of necrotic damage. The preta regains hp equal to half the necrotic damage dealt."
+      ]
+    },
+    {
+      "name": "Etherealness",
+      "text": [
+        "The preta magically enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+      ]
+    },
+    {
+      "name": "Hidden Illusionist",
+      "text": [
+        "The preta turns invisible until it attacks or uses Blood Siphon, or until its concentration ends (as if concentrating on a spell). While invisible, it leaves no physical evidence of its passage, leaving it traceable only by magic. Any equipment the preta wears or carriers is invisible with it. While invisible, the preta can create small illusory sounds and images like the minor illusion spell except it can create either two images, two sounds, or one sound and one image."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

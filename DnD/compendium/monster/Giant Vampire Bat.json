@@ -1,0 +1,45 @@
+{
+  "name": "Giant Vampire Bat",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "60 (8d10+16)",
+  "speed": "walk 10 ft., fly 60 ft.",
+  "str": "16",
+  "dex": "16",
+  "con": "14",
+  "int": "2",
+  "wis": "12",
+  "cha": "6",
+  "passive": "11",
+  "cr": "2",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Hearing",
+      "text": [
+        "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+      ]
+    },
+    {
+      "name": "Echolocation",
+      "text": [
+        "The bat can't use its blindsight while deafened."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the bat can't bite another target. The bat regains hp equal to the necrotic damage dealt."
+      ],
+      "attack": [
+        "Bite|5|1d6+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "grassland, mountain"
+}

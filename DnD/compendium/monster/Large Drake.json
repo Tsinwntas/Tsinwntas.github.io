@@ -1,0 +1,55 @@
+{
+  "name": "Large Drake",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Neutral Good",
+  "ac": "13",
+  "hp": "26 (4d10+4)",
+  "speed": "walk 10 ft., fly 80 ft.",
+  "str": "16",
+  "dex": "17",
+  "con": "13",
+  "int": "8",
+  "wis": "14",
+  "cha": "10",
+  "skill": "Perception +4",
+  "passive": "14",
+  "languages": "Giant Eagle, understands Common and Auran but can't speak them",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Keen Sight",
+      "text": [
+        "The drake has advantage on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The drake makes two attacks: one with its beak and one with its talons."
+      ]
+    },
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Beak|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Talons",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Talons|+5|2d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Amonkhet p. 33",
+  "environment": "mountain, grassland, hill, coastal"
+}

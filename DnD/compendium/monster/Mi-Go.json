@@ -1,0 +1,67 @@
+{
+  "name": "Mi-Go",
+  "size": "M",
+  "type": "plant,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "17 (natural armor)",
+  "hp": "76 (8d8+40)",
+  "speed": "30 ft., fly 60 ft.",
+  "str": "16",
+  "dex": "19",
+  "con": "21",
+  "int": "25",
+  "wis": "15",
+  "cha": "13",
+  "save": "Str +6, Con +8, Cha +4",
+  "skill": "Arcana +10, Deception +7, Medicine +5, Perception +5, Stealth +7",
+  "resist": "radiant, cold",
+  "senses": "blindsight 30 ft., darkvision 240 ft.",
+  "passive": "15",
+  "languages": " Common, Mi-go, Void Speech",
+  "cr": "5",
+  "trait": [
+    {
+      "name": "Astral Travelers",
+      "text": [
+        "Mi-go do not require air or heat to survive, only sunlight (and very little of that). They can enter a sporulated form capable of surviving travel through the void and returning to consciousness when conditions are right."
+      ]
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "text": [
+        "The mi-go does an extra 7 (2d6) damage when it hits a target with a claw attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the mi-go that isn't incapacitated and the mi-go doesn't have disadvantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Disquieting Technology",
+      "text": [
+        "The mi-go are a highly advanced race, and may carry items of powerful technology. Mi-go technology can be represented using the same rules as magic items, but their functions are very difficult to determine: identify is useless, but an hour of study and a successful DC 19 Arcana check can reveal the purpose and proper functioning of a mi.go item."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The mi-go makes two attacks with its claws."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage, and the target is grappled (escape DC 13). If both claw attacks strike the same target in a single turn, the target takes an additional 13 (2d12) psychic damage."
+      ],
+      "attack": [
+        "Claw|7|3d6+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Spore Release",
+      "text": [
+        "When a mi-go dies, it releases its remaining spores. All living creatures within 10 feet take 14 (2d8 + 5) poison damage and become poisoned; a successful DC 16 Constitution saving throw halves the damage and prevents poisoning. A poisoned creature repeats the saving throw at the end of its turn, ending the effect on itself with a success."
+      ]
+    }
+  ]
+}

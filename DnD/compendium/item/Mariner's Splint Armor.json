@@ -1,0 +1,10 @@
+{
+  "name": "Mariner's Splint Armor",
+  "detail": "minor, Heavy Armor",
+  "type": "HA",
+  "weight": "60",
+  "ac": "17",
+  "stealth": "1",
+  "strength": "15",
+  "text": "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.\nWhile wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nIf the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.\nFound On: Magic Item Table B\nSource: Dungeon Master's Guide p. 181"
+}

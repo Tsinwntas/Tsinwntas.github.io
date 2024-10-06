@@ -1,0 +1,47 @@
+{
+  "name": "Deep Rothé",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "13 (2d8+4)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "14",
+  "int": "2",
+  "wis": "10",
+  "cha": "4",
+  "passive": "10",
+  "cr": "1/4",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Charge",
+      "text": [
+        "If the rothé moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The deep rothé's spellcasting ability is Charisma. It can innately cast dancing lights at will, requiring no components.",
+        "At will: dancing lights"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Gore",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Gore|+6|1d6+4"
+      ]
+    }
+  ],
+  "spells": "dancing lights",
+  "description": "Deep rothé are stunted Underdark variants of rothé.\nSource: Volo's Guide to Monsters p. 208",
+  "environment": "underdark"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Bloodfray Giant",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (natural armor)",
+  "hp": "103 (9d12+45)",
+  "speed": "walk 40 ft.",
+  "str": "23",
+  "dex": "9",
+  "con": "20",
+  "int": "7",
+  "wis": "8",
+  "cha": "9",
+  "save": "Str +9, Con +8, Wis +2",
+  "skill": "Athletics +9, Perception +2",
+  "passive": "12",
+  "languages": "Giant",
+  "cr": "6",
+  "action": [
+    {
+      "name": "Chain",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 20 ft., one target. 16 (3d6 + 6) bludgeoning damage. If the target is a creature, it is grappled (escape DC 17). Until the grapple ends, the target is restrained, and the giant can't use this attack on anyone else."
+      ],
+      "attack": [
+        "Chain|+9|3d6+6"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. 16 (3d6 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|+9|3d6+6"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Furious Defense",
+      "text": [
+        "After a creature the giant can see is dealt damage by a foe within 20 feet of the giant, the giant makes a chain attack against that foe."
+      ]
+    }
+  ],
+  "description": "Giants in the Cult of Rakdos act as enforcers, bouncers, and sometimes even pillars, holding the mobile platforms that serve as stages for Rakdos performances. Like other members of the cult, giants thrill to the violence of those shows. Though they can seem entranced by the horror unfolding on the stage, they react quickly and brutally to any interruption of the performance.\nGiants. Giants use their tremendous size and strength to advance the cause of no less than four guilds. In the Boros Legion and the Orzhov Syndicate, they are cunning soldiers. The giants of the Cult of Rakdos and the Gruul Clans are no less effective but lack discipline.\nSource: Guildmasters' Guide to Ravnica p. 200"
+}

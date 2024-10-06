@@ -1,0 +1,41 @@
+{
+  "name": "Seal",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "9 (2d8)",
+  "speed": "walk 20 ft., swim 40 ft.",
+  "str": "10",
+  "dex": "12",
+  "con": "11",
+  "int": "3",
+  "wis": "12",
+  "cha": "5",
+  "passive": "11",
+  "cr": "0",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The seal can hold its breath for 15 minutes."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The seal has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 1 piercing damage."
+      ]
+    }
+  ],
+  "description": "The seals native to the Sea of Moving Ice often beach themselves on ice floes and rocky shores. They are acclimated to the cold weather and feed primarily on small fish, squid, and clams. Seal pups have yellowish-white fur, which turns silvery gray as they enter adulthood.\nSource: Icewind Dale: Rime of the Frostmaiden p. 308"
+}

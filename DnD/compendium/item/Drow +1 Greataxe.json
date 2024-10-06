@@ -1,0 +1,10 @@
+{
+  "name": "Drow +1 Greataxe",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "7",
+  "property": "H,2H,M",
+  "dmg1": "1d12",
+  "dmgType": "S",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nSource: Monster Manual p. 126"
+}

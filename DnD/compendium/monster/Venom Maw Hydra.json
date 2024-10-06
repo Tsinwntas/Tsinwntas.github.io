@@ -1,0 +1,114 @@
+{
+  "name": "Venom Maw Hydra",
+  "size": "H",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "231 (22d12+88)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "19",
+  "dex": "17",
+  "con": "18",
+  "int": "5",
+  "wis": "10",
+  "cha": "7",
+  "skill": "Perception +8, Stealth +7",
+  "passive": "18",
+  "cr": "12",
+  "resist": "fire",
+  "immune": "acid",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The venom maw hydra can breathe air and water."
+      ]
+    },
+    {
+      "name": "Multiple Heads",
+      "text": [
+        "The venom maw hydra has five heads. While it has more than one head, the venom maw hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken cold damage since its last turn. The hydra regains 10 hp for each head regrown in this way."
+      ]
+    },
+    {
+      "name": "Wakeful",
+      "text": [
+        "While the hydra sleeps, at least one of its heads is awake."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The venom maw hydra makes as many bite or spit attacks as it has heads."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 7 (1d6 + 4) piercing damage and 5 (2d4) acid damage."
+      ],
+      "attack": [
+        "Bite|8|1d6+4"
+      ]
+    },
+    {
+      "name": "Spit",
+      "text": [
+        "Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. 10 (3d6) acid damage, and the target must succeed on a DC 16 Dexterity saving throw or be poisoned until the end of its next turn."
+      ],
+      "attack": [
+        "Spit|7|3d6"
+      ]
+    },
+    {
+      "name": "Venom Spray (Recharge 5-6)",
+      "text": [
+        "The hydra sprays caustic liquid in a 30-foot cone. Each creature in the area must make a DC 16 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Tail Lash",
+      "text": [
+        "When it is hit by a melee weapon attack within 10 feet of it, the venom maw hydra lashes out with its tail. The attacker must make a DC 16 Strength saving throw. On a failure, it takes 7 (2d6) bludgeoning damage and is knocked prone. On a success, the target takes half the damage and isn't knocked prone."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The monstrosity can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The monstrosity regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The venom maw hydra can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The hydra regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "The venom maw hydra makes one bite attack."
+      ]
+    },
+    {
+      "name": "Spit (Costs 2 Actions)",
+      "text": [
+        "The venom maw hydra makes one spit attack."
+      ]
+    },
+    {
+      "name": "Wallowing Rampage (Costs 3 Actions)",
+      "text": [
+        "When the venom maw hydra is in water, it wallows, causing the water to hiss, froth, and splash within 20 feet. Each creature in that area must make a DC 16 Dexterity saving throw, taking 14 (4d6) acid damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 370",
+  "environment": "swamp"
+}

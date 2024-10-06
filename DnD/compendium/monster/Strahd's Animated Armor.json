@@ -1,0 +1,71 @@
+{
+  "name": "Strahd's Animated Armor",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Lawful Evil",
+  "ac": "21 (natural armor)",
+  "hp": "112 (15d8+45)",
+  "speed": "walk 30 ft.",
+  "str": "17",
+  "dex": "13",
+  "con": "16",
+  "int": "9",
+  "wis": "10",
+  "cha": "9",
+  "skill": "Perception +3",
+  "passive": "13",
+  "languages": "understands Common but can't speak",
+  "cr": "6",
+  "resist": "cold, fire",
+  "immune": "lightning, poison",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Constructed Nature",
+      "text": [
+        "An animated object doesn't require air, food, drink, or sleep.",
+        "The magic that animates an object is dispelled when the construct drops to 0 hit points. An animated object reduced to 0 hit points becomes inanimate and is too damaged to be of much use or value to anyone."
+      ]
+    },
+    {
+      "name": "Antimagic Susceptibility",
+      "text": [
+        "The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the armor remains motionless, it is indistinguishable from a normal suit of armor."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The armor makes two melee attacks or uses Shocking Bolt twice."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage plus 3 (1d6) lightning damage."
+      ],
+      "attack": [
+        "Greatsword|+6|2d6+3"
+      ]
+    },
+    {
+      "name": "Shocking Bolt",
+      "text": [
+        "Ranged Spell Attack: +4 to hit (with advantage on the attack roll if the target is wearing armor made of metal), range 60 ft., one target. 10 (3d6) lightning damage."
+      ],
+      "attack": [
+        "Shocking Bolt|+4|3d6"
+      ]
+    }
+  ],
+  "description": "The armor that Strahd wore into battle when he was alive lives on today as a headless, animated suit of plate armor. The armor is painted burgundy and adorned with golden angelic motifs.\nThing of Evil. Strahd imbued his automaton with a sliver of his being, bequeathing unto his armor a malevolence not found in most animated objects. He also fortified his armor and placed a number of permanent spell effects on it to make the armor a better castle defender.\nThe armor understands Common but obeys only the commands of its master.\nSource: Curse of Strahd p. 227"
+}

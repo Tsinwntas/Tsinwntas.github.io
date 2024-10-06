@@ -1,0 +1,7 @@
+{
+  "name": "Adamantine Sling Bullets (20)",
+  "detail": "minor, Ammunition",
+  "type": "A",
+  "weight": "1.5",
+  "text": "Whenever you hit an object using this ammunition, the hit is a critical hit.\nSource: Xanathar's Guide to Everything p. 78"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Tanarukk",
+  "size": "M",
+  "type": "fiend (demon, orc)",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (natural armor)",
+  "hp": "95 (10d8+50)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "13",
+  "con": "20",
+  "int": "9",
+  "wis": "9",
+  "cha": "9",
+  "skill": "Intimidation +2, Perception +2",
+  "passive": "12",
+  "languages": "Abyssal, Common, Orc",
+  "cr": "5",
+  "resist": "fire, poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Aggressive",
+      "text": [
+        "As a bonus action, the tanarukk can move up to its speed toward a hostile creature that it can see."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The tanarukk has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tanarukk makes two attacks: one with its bite and one with its greatsword."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+7|1d8+4"
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Greatsword|+7|2d6+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Unbridled Fury",
+      "text": [
+        "In response to being hit by a melee attack, the tanarukk can make one melee weapon attack with advantage against the attacker."
+      ]
+    }
+  ],
+  "description": "To the common folk of the world, an orc is an orc. They know that any one of these savages can tear an ordinary person to pieces, so no further distinction is necessary.\nOrcs know better. Different groups of orcs exist within a tribe, the actions of each dictated by the deity they pay homage to. To complement the various kinds of warriors that spill forth to ravage the countryside, each tribe has members that remain deep inside the lair, seldom if ever seeing what lies outside the darkness of their den.\nIn addition, orcs have special relationships with two creatures that are sometimes found in their company: the aurochs, a great bull that serves as a mount for warriors that revere Bahgtru, and the tanarukk, a demon-orc crossbreed that is so depraved and destructive that even orcs seek to kill it. The aurochs is described in appendix A. The tanarukk is described below.\nTanarukk. When demonic corruption taints a tribe's leadership, orcs might turn to abyssal magic to make tanarukks. Evil humans who control orcs also use such power to bolster their followers' strength.\nThe demon lord Baphomet gladly shares the secret of creating tanarukks with those who entreat him for power. The process corrupts an unborn orc of the tribe, transforming it at birth into a creature much more savage than an orc.\nAlthough tanarukks are fearsome fighters, they are a threat to their allies off the battlefield. Within the tribe's lair, a tanarukk is destructive and volatile, and best kept imprisoned. Sooner or later, a free tanarukk rampages through the tribe, attempting to take over by force. Most such coups fail, but at great cost to the tribe. If a tanarukk does seize the leadership of a tribe, reckless war is the course it inevitably chooses.\nIf a tanarukk manages to breed, its blood taints numerous subsequent generations, so its female descendants randomly produce tanarukks. Rather than risk raising a natural-born tanarukk, most tribes slay such abominations.\nSource: Volo's Guide to Monsters p. 186",
+  "environment": "underdark, mountain, hill"
+}

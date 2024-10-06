@@ -1,0 +1,95 @@
+{
+  "name": "drow Mutated Drow",
+  "size": "H",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral Good (50%) Neutral Evil (50%)",
+  "ac": "14 (natural armor)",
+  "hp": "200 (16d12+96)",
+  "speed": "walk 40 ft.",
+  "str": "27",
+  "dex": "10",
+  "con": "22",
+  "int": "12",
+  "wis": "16",
+  "cha": "16",
+  "save": "Con +10, Wis +7, Cha +7",
+  "skill": "Insight +7, Perception +1",
+  "passive": "17",
+  "languages": "Common, drow, Elvish",
+  "cr": "9",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The drow has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "<$title_short_name$> has advantage on saving throws against being charmed, and magic can't put drow Mutated Drow to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, drow Mutated Drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The drow's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:",
+        "At will: detect magic, fog cloud, light",
+        "3/day each: feather fall, fly, misty step, telekinesis",
+        "1/day each: control weather, gaseous form"
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "<$title_short_name$>'s innate spellcasting ability is Charisma (spell save DC 15). <$title_short_name$> can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The drow makes two morningstar attacks."
+      ]
+    },
+    {
+      "name": "Morningstar",
+      "text": [
+        "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. 21 (3d8 + 8) piercing damage."
+      ],
+      "attack": [
+        "Morningstar|+12|3d8+8"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. 30 (4d10 + 8) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|+12|4d10+8"
+      ]
+    },
+    {
+      "name": "Variant: New drow Options",
+      "text": [
+        "Some adult cloud drows have the magical ability to create barriers of gale-force wind around themselves that can deflect incoming missiles. Others like to fling enemies through the air. These abilities are represented by the following action options.",
+        "Fling. The drow tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a DC 20 Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the drow's choice and land prone, taking 4 (1d8) bludgeoning damage for every 10 feet it was thrown.",
+        "Wind Aura. A magical aura of wind surrounds the drow. The aura is a 10-foot-radius sphere that lasts as long as the drow maintains concentration on it (as if concentrating on a spell). While the aura is in effect, the drow gains a +2 bonus to its AC against ranged weapon attacks, and all open flames within the aura are extinguished unless they are magical."
+      ]
+    }
+  ],
+  "spells": "detect magic, fog cloud, light, feather fall, fly, misty step, telekinesis, control weather, gaseous form, dancing lights, darkness, faerie fire",
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 143",
+  "environment": "mountain"
+}

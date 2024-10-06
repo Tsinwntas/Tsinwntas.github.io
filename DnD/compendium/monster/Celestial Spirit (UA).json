@@ -1,0 +1,55 @@
+{
+  "name": "Celestial Spirit (UA)",
+  "size": "L",
+  "type": "celestial",
+  "alignment": "Neutral Good",
+  "ac": "0",
+  "hp": "3",
+  "speed": "walk 30 ft., fly 40 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "16",
+  "int": "10",
+  "wis": "14",
+  "cha": "16",
+  "passive": "10",
+  "languages": "Celestial, understands the languages you speak",
+  "resist": "radiant",
+  "conditionImmune": "charmed, frightened",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "equal the celestial's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The celestial makes a number of attacks equal to half this spell's level (rounded down)."
+      ]
+    },
+    {
+      "name": "Radiant Bow (Avenger Only)",
+      "text": [
+        "Ranged Weapon Attack: +2 + the spell's level to hit, range 150/600 ft., one target. 2d6 + 2 + the spell's level radiant damage."
+      ]
+    },
+    {
+      "name": "Radiant Mace (Defender Only)",
+      "text": [
+        "Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. 1d10 + 3 + the spell's level radiant damage, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains temporary hit points equal to the damage dealt, provided it doesn't already have temporary hit points."
+      ]
+    },
+    {
+      "name": "Healing Touch (1/Day)",
+      "text": [
+        "The celestial touches another creature. The target magically regains hit points equal to 2d8 + the spell's level."
+      ]
+    }
+  ],
+  "description": "\nSource: Unearthed Arcana: 2020 Spells And Magic Tattoos p. 4"
+}

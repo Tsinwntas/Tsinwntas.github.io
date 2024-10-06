@@ -1,0 +1,72 @@
+{
+  "name": "Fhenimore",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any Evil Alignment",
+  "ac": "10",
+  "hp": "75 (10d8+30)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "12",
+  "dex": "10",
+  "con": "16",
+  "int": "10",
+  "wis": "15",
+  "cha": "14",
+  "skill": "Perception +5",
+  "passive": "15",
+  "languages": "any two languages",
+  "cr": "5",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Fhenimore can breathe air and water."
+      ]
+    },
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "Fhenimore has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Fhenimore's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+        "At will: command, create or destroy water",
+        "3/day each: control water, darkness, water breathing, water walk",
+        "1/day each: call lightning, Evard's black tentacles"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Thunderous Touch",
+      "text": [
+        "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. 27 (5d10) thunder damage."
+      ],
+      "attack": [
+        "Thunderous Touch|+5|5d10"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d10 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+7|1d10+3"
+      ]
+    },
+    {
+      "name": "Multiattack",
+      "text": [
+        "Fhenimore can attack once with her bite attack and once with Thunderous Touch."
+      ]
+    }
+  ],
+  "spells": "command, create or destroy water, control water, darkness, water breathing, water walk, call lightning, Evard's black tentacles",
+  "description": "\nSource: Locathah Rising p. 20",
+  "environment": "coastal, underwater"
+}

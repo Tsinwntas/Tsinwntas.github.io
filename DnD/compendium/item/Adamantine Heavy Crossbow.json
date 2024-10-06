@@ -1,0 +1,11 @@
+{
+  "name": "Adamantine Heavy Crossbow",
+  "detail": "major, martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "18",
+  "property": "A,H,LD,2H,M",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "range": "100/400",
+  "text": "Whenever you hit an object with this weapon, the hit is a critical hit.\nSource: Xanathar's Guide to Everything p. 78"
+}

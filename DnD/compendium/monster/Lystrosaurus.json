@@ -1,0 +1,49 @@
+{
+  "name": "Lystrosaurus",
+  "size": "M",
+  "type": "beast (dinosaur)",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "45 (6d8+18)",
+  "speed": "walk 30 ft., burrow 5 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "16",
+  "int": "2",
+  "wis": "9",
+  "cha": "6",
+  "save": "Con +5, Wis +1",
+  "skill": "Athletics +5, Perception +3",
+  "passive": "13",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Headbutt",
+      "text": [
+        "If the lystrosaurus moves at least 10 feet straight toward a creature and then hits it with a ram attack on the same turn, the target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the lystrosaurus can make one bite attack against it immediately as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Ram",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (2d4 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Ram|5|2d4+3"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 13 (3d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|5|3d6+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "grassland"
+}

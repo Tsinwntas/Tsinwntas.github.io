@@ -1,0 +1,71 @@
+{
+  "name": "Meletian Hoplite",
+  "size": "M",
+  "type": "humanoid",
+  "alignment": "Any alignment",
+  "ac": "18 (breastplate, shield)",
+  "hp": "49 (9d8+9)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "12",
+  "int": "16",
+  "wis": "13",
+  "cha": "11",
+  "save": "Dex +4, Int +5",
+  "skill": "Arcana +5, History +5, Perception +3",
+  "passive": "13",
+  "languages": "Common",
+  "cr": "3",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hoplite makes three weapon attacks. It can replace one weapon attack with ray of frost."
+      ]
+    },
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Shield Bash",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 5 (1d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Shield Bash|+5|1d4+3"
+      ]
+    },
+    {
+      "name": "Ray of Frost (Cantrip)",
+      "text": [
+        "Ranged Spell Attack: +5 to hit, range 60 ft., one creature. 4 (1d8) cold damage, and the target's speed is reduced by 10 feet until the start of the hoplite's next turn."
+      ],
+      "attack": [
+        "Ray of Frost (Cantrip)|+5|1d8"
+      ]
+    }
+  ],
+  "trait": [
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The hoplite is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:",
+        "Cantrips (at will): mage hand, minor illusion, ray of frost (see \"Actions\" below)",
+        "• 1st level (4 slots): color spray, expeditious retreat, sleep",
+        "• 2nd level (2 slots): blur, cloud of daggers, invisibility"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 2"
+  ],
+  "spells": "mage hand, minor illusion, ray of frost, color spray, expeditious retreat, sleep, blur, cloud of daggers, invisibility",
+  "description": "Meletian hoplites use a combination of cunning, faith, and magic to defend their coastal home. Most of these skilled soldiers serve in the Reverent Army, the defenders of Meletis, which uses an array of proven strategies and flexible troop formations to gain the advantage over foes. Bolstered by trained griffon and pegasus steeds, they strike foes where they least expect.\nHoplites are highly trained warriors, versed not only in strategy and tactics but in the glorification of the warrior's spirit, the basis of an ethos that forges an unbreakable bond between members of a military unit. In combat, hoplites typically work in groups and use coordinated tactics to win victories.\nThe three Hoplite Unit Names tables present the sorts of titles used by hoplite contingents hailing from Theros's great poleis. Consider using these names for military forces characters encounter during their adventures or that they were once a part of.\nMeletian Hoplite Unit Names\nD8 | Name\n1 | Kraken's Claw\n2 | Hands of Justice\n3 | Thassa's Spear\n4 | Ephara's Shield\n5 | Kindred of the Deep\n6 | Riders of Heliod\n7 | Keepers of Pyrgnos\n8 | The Skysworn\n\nSource: Mythic Odysseys of Theros p. 229"
+}

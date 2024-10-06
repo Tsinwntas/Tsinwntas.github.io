@@ -1,0 +1,53 @@
+{
+  "name": "Flame Eater Swarm",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 0 ft., fly 40 ft.",
+  "str": "3",
+  "dex": "15",
+  "con": "12",
+  "int": "2",
+  "wis": "14",
+  "cha": "4",
+  "passive": "12",
+  "cr": "2",
+  "resist": "bludgeoning, piercing, slashing",
+  "immune": "fire",
+  "conditionImmune": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "blindsight 30 ft.",
+  "trait": [
+    {
+      "name": "Consume Flame",
+      "text": [
+        "Any normal fire in the flame eater swarm's space at the end of the swarm's turn is extinguished. Magical fire (a flaming weapon or wall of fire spell, for example) is extinguished if the swarm makes a successful DC 13 Constitution check. Only the swarm's space is affected; fires larger than the swarm continue burning outside the swarm's space. For 1 minute after the swarm consumes any flame, its bite attack deals an extra 9 (2d8) fire damage and any creature that ends its turn in the swarm's space takes 4 (1d8) fire damage."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "text": [
+        "The swarm can occupy the same space as another creature and vice versa. The swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hp or gain temporary hp."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The swarm can make two bite attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hp or fewer."
+      ],
+      "attack": [
+        "Bite|4|2d6"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

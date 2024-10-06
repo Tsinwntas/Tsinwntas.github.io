@@ -1,0 +1,40 @@
+{
+  "name": "Goblin (Zendikar) (Tuktuk Tribe)",
+  "size": "S",
+  "speed": "25",
+  "ability": "Con 2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Zendikar p. 17"
+    },
+    {
+      "name": "Tuktuk Cunning",
+      "text": "You have proficiency with thieves' tools.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Goblins mature faster than humans, reaching adulthood at around age 12. They also age noticeably faster than humans, and even the most cautious goblins rarely live longer than 50 years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most goblins are wildly chaotic, though they have no particular inclination toward good or evil.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Goblins average about 3 feet tall and weigh about 40 pounds. Your size is Small.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Grit",
+      "text": "You have resistance to fire damage and psychic damage. In addition, when you are wearing no armor, your AC is equal to 11 + your Dexterity modifier.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Goblin.\n"
+    }
+  ]
+}

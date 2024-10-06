@@ -1,0 +1,61 @@
+{
+  "name": "Oren Yogilvy",
+  "size": "S",
+  "type": "humanoid (strongheart halfling)",
+  "alignment": "Chaotic Good",
+  "ac": "11",
+  "hp": "9 (2d6+2)",
+  "speed": "walk 25 ft.",
+  "str": "8",
+  "dex": "13",
+  "con": "12",
+  "int": "11",
+  "wis": "10",
+  "cha": "16",
+  "skill": "Perception +2, Performance +7, Persuasion +5",
+  "passive": "12",
+  "languages": "Common, Halfling",
+  "cr": "0",
+  "resist": "poison",
+  "trait": [
+    {
+      "name": "Halfling Nimbleness",
+      "text": [
+        "Oren can move through the space of any creature that is of a size larger than his."
+      ]
+    },
+    {
+      "name": "Lucky",
+      "text": [
+        "When Oren rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll."
+      ]
+    },
+    {
+      "name": "Stout Resilience",
+      "text": [
+        "Oren has advantage on saving throws against poison"
+      ]
+    },
+    {
+      "name": "Roleplaying Information",
+      "text": [
+        "Oren came to Nurthfurrow's End looking for easy work and found it. He sings for his supper, drinks like a fish, and wanders the fields at night dreaming up new lyrics to entertain the inn's other guests. Oren likes to stir up trouble from time to time, but he doesn't have a mean bone in his body.",
+        "Ideal: \"Music is food for the soul.\"",
+        "Bond: \"You had me at \"Can I buy you a drink.\"",
+        "Flaw: \"I have a knack for putting myself in harm's way. Good thing I'm lucky!\""
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 3 (1d4 + 1) piercing damage. Duvessa carries only one dagger."
+      ],
+      "attack": [
+        "Dagger|+3|1d4+1"
+      ]
+    }
+  ],
+  "description": "Oren came to Northfurrow's End looking for easy work and found it. He sings for his supper, drinks like a fish, and wan ders the fields at night dreaming up new lyrics to entertain the inn's other guests. Oren likes to stir up trouble from time to time, but he doesn't have a mean bone in his body.\nIdeal:\"Music is food for the soul.\"\nBond:\"You had me at ?Can I buy you a drink?'\"\nFlaw:\"I have a knack for putting myself in harm's way. Good thing I'm lucky!\"\nSource: Storm King's Thunder p. 252"
+}

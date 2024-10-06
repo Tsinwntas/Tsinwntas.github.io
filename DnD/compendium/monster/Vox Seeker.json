@@ -1,0 +1,46 @@
+{
+  "name": "Vox Seeker",
+  "size": "T",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "7 (2d4+2)",
+  "speed": "walk 20 ft., climb 20 ft.",
+  "str": "2",
+  "dex": "10",
+  "con": "12",
+  "int": "1",
+  "wis": "10",
+  "cha": "1",
+  "passive": "10",
+  "cr": "1/8",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "trait": [
+    {
+      "name": "Voice Lock",
+      "text": [
+        "The vox seeker must move toward and attack the source of the nearest voice within 60 feet of it, to the exclusion of all other targets, for as long as it remains operational."
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "text": [
+        "The vox seeker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Pincer",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) piercing damage plus 3 lightning damage."
+      ],
+      "attack": [
+        "Pincer|+2|1d4"
+      ]
+    }
+  ],
+  "description": "\nSource: Explorer's Guide to Wildemount p. 270"
+}

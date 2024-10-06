@@ -1,0 +1,67 @@
+{
+  "name": "Young White Dragon",
+  "size": "L",
+  "type": "dragon",
+  "alignment": "Chaotic Evil",
+  "ac": "17 (natural armor)",
+  "hp": "133 (14d10+56)",
+  "speed": "walk 40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "18",
+  "int": "6",
+  "wis": "11",
+  "cha": "12",
+  "save": "Dex +3, Con +7, Wis +3, Cha +4",
+  "skill": "Perception +6, Stealth +3",
+  "passive": "16",
+  "languages": "Common, Draconic",
+  "cr": "6",
+  "immune": "cold",
+  "senses": "blindsight 30 ft., darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Ice Walk",
+      "text": [
+        "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The dragon makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 15 (2d10 + 4) piercing damage plus 4 (1d8) cold damage."
+      ],
+      "attack": [
+        "Bite|+7|2d10+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|+7|2d6+4"
+      ]
+    },
+    {
+      "name": "Cold Breath (Recharge 5-6)",
+      "text": [
+        "The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Cold Breath (Recharge 5-6)||10d8"
+      ]
+    }
+  ],
+  "description": "True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.\nMany creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.\nThough their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.\nTrue dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.\nDragon Age Categories\nCategory | Size | Age Range\nWyrmling | Medium | 5 years or less\nYoung | Large | 6–100 years\nAdult | Huge | 101–800 years\nAncient | Gargantuan | 801 years or more\n\nSource: Monster Manual p. 101, Rise of Tiamat, Tales from the Yawning Portal, Essentials Kit: Dragon of Icespire Peak, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "arctic"
+}

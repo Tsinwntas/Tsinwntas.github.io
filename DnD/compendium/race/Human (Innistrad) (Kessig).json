@@ -1,0 +1,45 @@
+{
+  "name": "Human (Innistrad) (Kessig)",
+  "size": "M",
+  "speed": "40",
+  "ability": "Dex 1, Wis 1",
+  "proficiency": "Survival",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Innistrad p. 8"
+    },
+    {
+      "name": "Forest Folk",
+      "text": "You have proficiency in the Survival skill.\n"
+    },
+    {
+      "name": "Fleet of Foot",
+      "text": "Your base walking speed is 40 feet.\n"
+    },
+    {
+      "name": "Sure-footed",
+      "text": "When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn.\n"
+    },
+    {
+      "name": "Spring Attack",
+      "text": "When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of your turn, whether you hit or not.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Humans reach adulthood in their late teens and live less than a century.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Humans tend toward no particular alignment.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and one extra language of your choice.\n"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Krull",
+  "size": "M",
+  "type": "humanoid (tortle)",
+  "alignment": "Lawful Evil",
+  "ac": "17 (natural armor)",
+  "hp": "117 (18d8+36)",
+  "speed": "walk 30 ft.",
+  "str": "20",
+  "dex": "14",
+  "con": "15",
+  "int": "12",
+  "wis": "20",
+  "cha": "12",
+  "save": "Wis +8, Cha +4",
+  "skill": "Arcana +4, Medicine +8, Nature +4, Survival +8",
+  "passive": "15",
+  "languages": "Aquan, Common, Draconic",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "Krull can hold his breath for 1 hour."
+      ]
+    },
+    {
+      "name": "Inescapable Destruction",
+      "text": [
+        "Necrotic damage dealt by Krull's spells ignores resistance to necrotic damage."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Krull is a 14th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following cleric spells prepared:",
+        "Cantrips (at will): chill touch, mending, resistance, sacred flame, spare the dying, thaumaturgy",
+        "• 1st level (4 slots): cure wounds, detect evil and good, false life, inflict wounds, ray of sickness",
+        "• 2nd level (3 slots): blindness/deafness, gentle repose, hold person, ray of enfeeblement, spiritual weapon",
+        "• 3rd level (3 slots): animate dead, magic circle, speak with dead, spirit guardians, vampiric touch",
+        "• 4th level (3 slots): banishment, blight, death ward, divination, locate creature",
+        "• 5th level (2 slots): antilife shell, cloudkill, contagion, greater restoration",
+        "• 6th level (1 slots): create undead, true seeing",
+        "• 7th level (1 slots): divine word, regenerate"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 7 (1d4 + 5) piercing damage."
+      ],
+      "attack": [
+        "Claws|+8|1d4+5"
+      ]
+    },
+    {
+      "name": "+1 Maul",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 13 (2d6 + 6) bludgeoning damage plus 9 (2d8) necrotic damage."
+      ],
+      "attack": [
+        "+1 Maul|+9|2d6+6"
+      ]
+    },
+    {
+      "name": "Shell Defense",
+      "text": [
+        "Krull withdraws into his shell. Until he emerges as a bonus action, he has a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in his shell, Krull is prone, his speed is 0 and can't increase, he has disadvantage on Dexterity saving throws, he can't take reactions, and the only action he can take is to emerge from his shell."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1, 1"
+  ],
+  "spells": "chill touch, mending, resistance, sacred flame, spare the dying, thaumaturgy, cure wounds, detect evil and good, false life, inflict wounds, ray of sickness, blindness/deafness, gentle repose, hold person, ray of enfeeblement, spiritual weapon, animate dead, magic circle, speak with dead, spirit guardians, vampiric touch, banishment, blight, death ward, divination, locate creature, antilife shell, cloudkill, contagion, greater restoration, create undead, true seeing, divine word, regenerate",
+  "description": "\nSource: Baldur's Gate: Descent Into Avernus p. 110"
+}

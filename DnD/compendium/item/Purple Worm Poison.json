@@ -1,0 +1,10 @@
+{
+  "name": "Purple Worm Poison",
+  "detail": "Adventuring Gear, Poison",
+  "type": "G",
+  "value": "2000.0",
+  "text": "This poison must be harvested from a dead or incapacitated purple worm. A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.\nSource: Dungeon Master's Guide p. 258",
+  "roll": [
+    "12d6"
+  ]
+}

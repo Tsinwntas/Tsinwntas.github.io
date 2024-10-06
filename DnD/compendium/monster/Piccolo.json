@@ -1,0 +1,38 @@
+{
+  "name": "Piccolo",
+  "size": "S",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "3 (1d6)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "8",
+  "dex": "14",
+  "con": "11",
+  "int": "4",
+  "wis": "12",
+  "cha": "6",
+  "passive": "11",
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "Piccolo has advantage on an attack roll against a creature if at least one of Piccolo's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 1 (1d4 - 1) piercing damage."
+      ],
+      "attack": [
+        "Bite|+1|1d4-1"
+      ]
+    }
+  ],
+  "description": "\nSource: Curse of Strahd p. 118",
+  "environment": "forest, hill"
+}

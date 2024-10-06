@@ -1,0 +1,37 @@
+{
+  "name": "Human (Innistrad) (Stensia)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 1, Con 1",
+  "proficiency": "Intimidation",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Innistrad p. 8"
+    },
+    {
+      "name": "Daunting",
+      "text": "You have proficiency in the Intimidation skill.\n"
+    },
+    {
+      "name": "Tough",
+      "text": "Your hit point maximum increases by 2, and it increases by 2 every time you gain a level.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Humans reach adulthood in their late teens and live less than a century.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Humans tend toward no particular alignment.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and one extra language of your choice.\n"
+    }
+  ]
+}

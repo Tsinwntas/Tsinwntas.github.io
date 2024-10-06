@@ -1,0 +1,68 @@
+{
+  "name": "Coldlight Walker",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Chaotic Evil",
+  "ac": "13 (natural armor)",
+  "hp": "82 (11d8+33)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "10",
+  "con": "17",
+  "int": "8",
+  "wis": "10",
+  "cha": "8",
+  "save": "Int +2, Wis +3",
+  "passive": "10",
+  "cr": "5",
+  "immune": "cold",
+  "conditionImmune": "blinded, charmed, exhaustion, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Blinding Light",
+      "text": [
+        "The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet. As a bonus action, the walker can target one creature in its bright light that it can see and force it to succeed on a DC 14 Constitution saving throw or be blinded until the start of the walker's next turn."
+      ]
+    },
+    {
+      "name": "Icy Doom",
+      "text": [
+        "Any creature killed by the walker freezes for 9 days, during which time it can't be thawed, harmed by fire, animated, or raised from the dead."
+      ]
+    },
+    {
+      "name": "Unusual Nature",
+      "text": [
+        "The walker doesn't require air, food, drink, or sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The walker makes two attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 11 (2d8 + 2) bludgeoning damage plus 14 (4d6) cold damage."
+      ],
+      "attack": [
+        "Slam|+5|2d8+2"
+      ]
+    },
+    {
+      "name": "Cold Ray",
+      "text": [
+        "Ranged Spell Attack: +3 to hit, range 60 ft., one target. 25 (4d10 + 3) cold damage."
+      ],
+      "attack": [
+        "Cold Ray|+3|4d10+3"
+      ]
+    }
+  ],
+  "description": "Some humanoids who died from extreme cold but whose spirits languish in the mortal world become coldlight walkers, burning with frigid fury at the meaninglessness of life. Their frostbitten corpses emit a spectral light so intense that mortal eyes can barely stand to look at them. They typically wear the clothing in which they died.\nGod-Spawned Horrors. Gods that personify winter create coldlight walkers as embodiments of winter's wrath. These hateful spirits that were denied passage to the afterlife are preserved in their current forms to remind the living how fragile life can be.\nWhen a coldlight walker dies, its light goes out, leaving behind a frozen, inanimate corpse that can never be raised from the dead.\nSource: Icewind Dale: Rime of the Frostmaiden p. 284"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Water Weird",
+  "size": "L",
+  "type": "elemental",
+  "alignment": "Neutral",
+  "ac": "13",
+  "hp": "58 (9d10+9)",
+  "speed": "walk 0 ft., swim 60 ft.",
+  "str": "17",
+  "dex": "16",
+  "con": "13",
+  "int": "11",
+  "wis": "10",
+  "cha": "10",
+  "passive": "10",
+  "languages": "understands Aquan but doesn't speak",
+  "cr": "3",
+  "resist": "fire; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious",
+  "senses": "blindsight 30 ft.",
+  "trait": [
+    {
+      "name": "Invisible in Water",
+      "text": [
+        "The water weird is invisible while fully immersed in water."
+      ]
+    },
+    {
+      "name": "Water Bound",
+      "text": [
+        "The water weird dies if it leaves the water to which it is bound or if that water is destroyed."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Constrict",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 feet toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target."
+      ],
+      "attack": [
+        "Constrict|+5|3d6+3"
+      ]
+    }
+  ],
+  "description": "A water weird is an elemental guardian bound to a specific water-filled location, such as a pool or fountain.\nInvisible while immersed in water, its serpentine shape becomes clear only when it emerges to attack, using its coils to crush any creature other than its summoner and those its summoner declares as off limits. When slain, a water weird becomes an inanimate pool of water.\nGood and Evil Weirds. Like most elementals, a water weird has no concept of good or evil. However, a water weird bound to a sacred or befouled source of water begins to take on the nature of that site, becoming neutral good or neutral evil.\nA neutral good water weird tries to frighten away interlopers rather than kill them, while a neutral evil water weird kills its victims for pleasure and might turn against its summoner. A water weird loses its evil alignment if its waters are cleansed with a purify food and drink spell.\nElemental Nature. A water weird doesn't require air, food, drink, or sleep.\nSource: Monster Manual p. 299, Princes of the Apocalypse, Tales from the Yawning Portal, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "underdark, urban"
+}

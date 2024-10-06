@@ -1,0 +1,32 @@
+{
+  "name": "Duergar Spore Servant",
+  "size": "M",
+  "type": "plant",
+  "alignment": "Unaligned",
+  "ac": "16 (scale mail, shield)",
+  "hp": "26 (4d8+8)",
+  "speed": "walk 15 ft.",
+  "str": "14",
+  "dex": "11",
+  "con": "14",
+  "int": "2",
+  "wis": "6",
+  "cha": "1",
+  "passive": "8",
+  "cr": "1/2",
+  "resist": "poison",
+  "conditionImmune": "blinded, charmed, frightened, paralyzed",
+  "senses": "blindsight 30 ft. (blind beyond this radius)",
+  "action": [
+    {
+      "name": "War Pick",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "War Pick|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 229"
+}

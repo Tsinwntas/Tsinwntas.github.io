@@ -1,0 +1,75 @@
+{
+  "name": "Exploding Toad",
+  "size": "T",
+  "type": "monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "12 (natural armor)",
+  "hp": "2 (1d4)",
+  "speed": "walk 20 ft., swim 20 ft.",
+  "str": "1",
+  "dex": "13",
+  "con": "11",
+  "int": "4",
+  "wis": "8",
+  "cha": "3",
+  "skill": "Stealth +5",
+  "passive": "9",
+  "languages": "Understands Goblin but can't speak",
+  "cr": "1/4",
+  "immune": "fire",
+  "senses": "darkvision 30 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The toad can breathe air and water."
+      ]
+    },
+    {
+      "name": "Final Croak",
+      "text": [
+        "When the toad is reduced to 0 hp, it explodes in a 10-foot-radius sphere.",
+        "Each creature in the area must make a DC 11 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Mad Hopping",
+      "text": [
+        "Ranged attacks against the toad have disadvantage."
+      ]
+    },
+    {
+      "name": "Selective Immunity",
+      "text": [
+        "When an attack or effect deals fire damage to the toad, the toad can choose to take the fire damage as if it were not immune."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The toad's long jump is up to 10 feet and its high jump is up to 5 feet, with or without a running start."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) piercing damage."
+      ],
+      "attack": [
+        "Bite|3|1d4+1"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Death Leap",
+      "text": [
+        "The exploding toad can turn an attack that missed it into a hit or turn a successful saving throw into a failure."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "swamp"
+}

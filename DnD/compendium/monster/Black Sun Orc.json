@@ -1,0 +1,74 @@
+{
+  "name": "Black Sun Orc",
+  "size": "M",
+  "type": "humanoid (orc)",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (hide armor)",
+  "hp": "65 (10d8+20)",
+  "speed": "walk 30 ft., climb 20 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "14",
+  "int": "9",
+  "wis": "12",
+  "cha": "8",
+  "skill": "Perception +3, Stealth +4, Survival +3",
+  "passive": "13",
+  "languages": "Common, Orc",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Aggressive",
+      "text": [
+        "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+      ]
+    },
+    {
+      "name": "Black Sun Sight",
+      "text": [
+        "Magical darkness doesn't impede the Black Sun orc's darkvision."
+      ]
+    },
+    {
+      "name": "Light Sensitivity",
+      "text": [
+        "While in bright light, the orc has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Stone Camouflage",
+      "text": [
+        "The orc has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The orc makes two attacks with its greatclub or with its sling."
+      ]
+    },
+    {
+      "name": "Greatclub",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Greatclub|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Sling",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Sling|4|1d4+2"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "mountain"
+}

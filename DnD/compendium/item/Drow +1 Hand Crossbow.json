@@ -1,0 +1,11 @@
+{
+  "name": "Drow +1 Hand Crossbow",
+  "detail": "martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "3",
+  "property": "A,L,LD,M",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "30/120",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nSource: Monster Manual p. 126"
+}

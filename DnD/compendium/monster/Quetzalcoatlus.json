@@ -1,0 +1,45 @@
+{
+  "name": "Quetzalcoatlus",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13 (natural armor)",
+  "hp": "30 (4d12+4)",
+  "speed": "walk 10 ft., fly 80 ft.",
+  "str": "15",
+  "dex": "13",
+  "con": "13",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Dive Attack",
+      "text": [
+        "If the quetzalcoatlus is flying and dives at least 30 feet toward a target and then hits with a bite attack, the attack deals an extra 10 (3d6) damage to the target."
+      ]
+    },
+    {
+      "name": "Flyby",
+      "text": [
+        "The quetzalcoatlus doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. 12 (3d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|3d6+2"
+      ]
+    }
+  ],
+  "description": "This giant relative of the pteranodon has a wingspan exceeding 30 feet. Although it can move on the ground like a quadruped, it is more comfortable in the air.\nSource: Volo's Guide to Monsters p. 140, Tomb of Annihilation",
+  "environment": "mountain, hill, coastal"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Bugbear",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 2, Dex 1",
+  "proficiency": "Stealth",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Eberron: Rising from the Last War p. 25"
+    },
+    {
+      "name": "Age",
+      "text": "Bugbears reach adulthood at age 16 and live up to 80 years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Bugbears live on the fringes of society even in Darguun, where they value self-sufficiency and violence. They are generally chaotic, organizing in loose tribes under charismatic and powerful leaders.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Your size is Medium.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Long-Limbed",
+      "text": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.\n"
+    },
+    {
+      "name": "Powerful Build",
+      "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n"
+    },
+    {
+      "name": "Sneaky",
+      "text": "You are proficient in the Stealth skill.\n"
+    },
+    {
+      "name": "Surprise Attack",
+      "text": "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Goblin.\n"
+    }
+  ]
+}ou can speak, read, and write Common and Goblin.\n"
+    }
+  ]
+}

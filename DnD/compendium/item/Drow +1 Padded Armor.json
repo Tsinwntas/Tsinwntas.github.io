@@ -1,0 +1,9 @@
+{
+  "name": "Drow +1 Padded Armor",
+  "detail": "Light Armor",
+  "type": "LA",
+  "weight": "8",
+  "ac": "11",
+  "stealth": "1",
+  "text": "Padded armor consists of quilted layers of cloth and batting.\nYou have a +1 bonus to AC while wearing this armor. This armor loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nThe wearer has disadvantage on Stealth (Dexterity) checks.\nSource: Monster Manual p. 126"
+}

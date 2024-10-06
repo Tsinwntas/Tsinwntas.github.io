@@ -1,0 +1,82 @@
+{
+  "name": "Ratfolk Mercenary",
+  "size": "S",
+  "type": "humanoid (ratfolk)",
+  "alignment": "Neutral",
+  "ac": "15 (leather armor)",
+  "hp": "45 (13d6)",
+  "speed": "walk 25 ft., swim 10 ft.",
+  "str": "7",
+  "dex": "18",
+  "con": "11",
+  "int": "14",
+  "wis": "10",
+  "cha": "10",
+  "save": "Dex +6, Int +4",
+  "skill": "Acrobatics +8, Deception +2, Intimidation +2, Perception +2, Stealth +8",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Chopper Squad",
+      "text": [
+        "The ratfolk mercenary's melee weapon attacks deal one extra die of damage if at least one of the mercenary's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Nimbleness",
+      "text": [
+        "The ratfolk mercenary can move through the space of any Medium or larger creature."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The ratfolk has advantage on attack rolls against a creature if at least one of the ratfolk's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Packing Heat",
+      "text": [
+        "If the ratfolk mercenary moves at least 10 feet straight toward a target and then hits it with a shortsword attack on the same turn, the mercenary can make one dart attack against another target within 20 feet as a bonus action without disadvantage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ratfolk mercenary makes two attacks with its shortsword or dart. If both shortsword attacks hit the same target, the ratfolk mercenary can use its bonus action to automatically deal an extra 4 (1d8) piercing damage as it bites the target."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|6|1d6+4"
+      ]
+    },
+    {
+      "name": "Dart",
+      "text": [
+        "Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. 6 (1d4 + 4) piercing damage."
+      ],
+      "attack": [
+        "Dart|6|1d4+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Guard the Big Cheese",
+      "text": [
+        "When a creature makes an attack against the ratfolk mercenary's current employer, the mercenary grants a +2 bonus to the employer's AC if the mercenary is within 5 feet of the employer."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 315"
+}

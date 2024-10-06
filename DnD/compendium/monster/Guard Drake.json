@@ -1,0 +1,48 @@
+{
+  "name": "Guard Drake",
+  "size": "M",
+  "type": "dragon",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "52 (7d8+21)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "11",
+  "con": "16",
+  "int": "4",
+  "wis": "10",
+  "cha": "7",
+  "skill": "Perception +2",
+  "passive": "12",
+  "languages": "understands Draconic but can't speak it",
+  "cr": "2",
+  "resist": "lightning",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The drake attacks twice, once with its bite and once with its tail."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+5|1d8+3"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Tail|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Hoard of the Dragon Queen p. 91, Rise of Tiamat p. 90"
+}

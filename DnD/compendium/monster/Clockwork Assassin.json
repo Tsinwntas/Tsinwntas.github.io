@@ -1,0 +1,91 @@
+{
+  "name": "Clockwork Assassin",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "16 (natural armor)",
+  "hp": "99 (18d8+18)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "14",
+  "dex": "17",
+  "con": "12",
+  "int": "12",
+  "wis": "12",
+  "cha": "7",
+  "save": "Dex +6, Con +4",
+  "skill": "Acrobatics +6, Investigation +4, Perception +4, Stealth +9, Survival +4",
+  "passive": "14",
+  "languages": "Understands Common but can't speak",
+  "cr": "6",
+  "immune": "lightning, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Assassinate",
+      "text": [
+        "During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+      ]
+    },
+    {
+      "name": "Explosive Core",
+      "text": [
+        "When the assassin is destroyed, its core explodes, projecting superheated steam and shrapnel. Each creature within 5 feet of the construct must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The assassin is immune to any spell or effect, other than its disassembly trait, that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The assassin has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Psychic Susceptibility",
+      "text": [
+        "If the assassin takes psychic damage, it has disadvantage on attack rolls, saving throws, and ability checks until the end of its next turn."
+      ]
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "text": [
+        "The assassin deals an extra 10 (3d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "The assassin's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The clockwork assassin makes two rapier attacks."
+      ]
+    },
+    {
+      "name": "Rapier",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage and the target must succeed on a DC 15 Constitution saving throw or take 11 (2d10) poison damage and be poisoned for 1 minute."
+      ],
+      "attack": [
+        "Rapier|6|1d8+3"
+      ]
+    },
+    {
+      "name": "Disassembly",
+      "text": [
+        "The assassin breaks its body down into a snakelike, segmented cylinder, which allows it to move through a space as narrow as 6 inches wide. It can reassemble itself into its true form by using this action again. While disassembled into its snake form, the assassin can't attack and attack rolls against it have advantage."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Kupalué",
+  "size": "S",
+  "type": "plant",
+  "alignment": "Neutral",
+  "ac": "13 (natural armor)",
+  "hp": "9 (2d6+2)",
+  "speed": "walk 30 ft.",
+  "str": "7",
+  "dex": "14",
+  "con": "13",
+  "int": "6",
+  "wis": "11",
+  "cha": "7",
+  "skill": "Perception +2, Stealth +4",
+  "passive": "12",
+  "languages": "Vegepygmy",
+  "cr": "1/4",
+  "resist": "lightning, piercing",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Plant Camouflage",
+      "text": [
+        "Kupalué has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "Kupalué regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of Kupalué's next turn. Kupalué dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Sling",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Sling|+4|1d4+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 35",
+  "environment": "forest, swamp"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Warforged",
+  "size": "M",
+  "speed": "30",
+  "ability": "Con 2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Eberron: Rising from the Last War p. 35, Wayfinder's Guide to Eberron p. 67"
+    },
+    {
+      "name": "Age",
+      "text": "A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Your size is Medium.\n"
+    },
+    {
+      "name": "Constructed Resilience",
+      "text": "You were created to have remarkable fortitude, represented by the following benefits:\n• You have advantage on saving throws against being poisoned, and you have resistance to poison damage.\n• You don't need to eat, drink, or breathe.\n• You are immune to disease.\n• You don't need to sleep, and magic can't put you to sleep.\n"
+    },
+    {
+      "name": "Sentry's Rest",
+      "text": "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.\n"
+    },
+    {
+      "name": "Integrated Protection",
+      "text": "Your body has built-in defensive layers, which can be enhanced with armor:\n• You gain a +1 bonus to Armor Class.\n• You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.\n• While you live, the armor incorporated into your body can't be removed against your will.\n"
+    },
+    {
+      "name": "Specialized Design",
+      "text": "You gain one skill proficiency and one tool proficiency of your choice.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and one other language of your choice.\n"
+    }
+  ]
+}

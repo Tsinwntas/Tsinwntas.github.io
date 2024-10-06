@@ -1,0 +1,52 @@
+{
+  "name": "Killer Whale",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "90 (12d12+12)",
+  "speed": "swim 60 ft.",
+  "str": "19",
+  "dex": "10",
+  "con": "13",
+  "int": "3",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Perception +3",
+  "passive": "13",
+  "cr": "3",
+  "senses": "blindsight 120 ft.",
+  "trait": [
+    {
+      "name": "Echolocation",
+      "text": [
+        "The whale can't use its blindsight while deafened."
+      ]
+    },
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The whale can hold its breath for 30 minutes"
+      ]
+    },
+    {
+      "name": "Keen Hearing",
+      "text": [
+        "The whale has advantage on Wisdom (Perception) checks that rely on hearing."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 21 (5d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+6|5d6+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 331, Storm King's Thunder, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "underwater"
+}

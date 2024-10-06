@@ -1,0 +1,8 @@
+{
+  "name": "Mithral +1 Ring Mail",
+  "detail": "Heavy Armor",
+  "type": "HA",
+  "weight": "40",
+  "ac": "14",
+  "text": "This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor.\nYou have a +1 bonus to AC while wearing this armor.\nMithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.\nIf the wearer has a Strength score lower than None, their speed is reduced by 10 feet.\nSource: Acquisitions Incorporated p. 156"
+}

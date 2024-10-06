@@ -1,0 +1,46 @@
+{
+  "name": "Ape",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "19 (3d8+6)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "14",
+  "int": "6",
+  "wis": "12",
+  "cha": "7",
+  "skill": "Athletics +5, Perception +3",
+  "passive": "13",
+  "cr": "1/2",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ape makes two fist attacks."
+      ]
+    },
+    {
+      "name": "Fist",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Fist|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. 6 (1d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 317, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh",
+  "environment": "forest"
+}

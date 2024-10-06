@@ -1,0 +1,66 @@
+{
+  "name": "Fey Spirit (UA)",
+  "size": "S",
+  "type": "fey",
+  "alignment": "Chaotic Good",
+  "ac": "0",
+  "hp": "2",
+  "speed": "walk 40 ft.",
+  "str": "13",
+  "dex": "16",
+  "con": "14",
+  "int": "14",
+  "wis": "11",
+  "cha": "16",
+  "passive": "10",
+  "languages": "Sylvan, understands the languages you speak",
+  "conditionImmune": "charmed",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "equal the fey's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+      ]
+    },
+    {
+      "name": "Fey Step",
+      "text": [
+        "As a bonus action, the fey can magically teleport up to 30 feet to an unoccupied space it can see."
+      ]
+    },
+    {
+      "name": "Darkening Step (Deceitful Only)",
+      "text": [
+        "Immediately after using its Fey Step, the fey can fill a 5-foot cube within 5 feet of it with magical darkness, which remains until the end of the fey's next turn."
+      ]
+    },
+    {
+      "name": "Ecstatic Step (Joyful Only)",
+      "text": [
+        "Immediately after using its Fey Step, the fey can choose a creature it can see within 10 feet of it and force it to succeed on a Wisdom saving throw against your spell save DC or be charmed by the fey for 1 minute. The charm ends if the fey or any of its companions deals any damage to the target."
+      ]
+    },
+    {
+      "name": "Impassioned Step (Furious Only)",
+      "text": [
+        "Immediately after using its Fey Step, the fey has advantage on the next attack roll it makes before the end of its turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The fey makes a number of attacks equal to half this spell's level (rounded down)."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. 1d6 + 3 + the spell's level piercing damage + 1d6 force damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Unearthed Arcana: 2020 Spells And Magic Tattoos p. 5"
+}

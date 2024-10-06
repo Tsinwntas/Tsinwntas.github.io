@@ -1,0 +1,41 @@
+{
+  "name": "Awakened Shrub",
+  "size": "S",
+  "type": "plant",
+  "alignment": "Unaligned",
+  "ac": "9",
+  "hp": "10 (3d6)",
+  "speed": "walk 20 ft.",
+  "str": "3",
+  "dex": "8",
+  "con": "11",
+  "int": "10",
+  "wis": "10",
+  "cha": "6",
+  "passive": "10",
+  "languages": "one language known by its creator",
+  "cr": "0",
+  "resist": "piercing",
+  "vulnerable": "fire",
+  "trait": [
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the shrub remains motionless, it is indistinguishable from a normal shrub."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Rake",
+      "text": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 1 (1d4 - 1) slashing damage."
+      ],
+      "attack": [
+        "Rake|+1|1d4-1"
+      ]
+    }
+  ],
+  "description": "An awakened shrub is an ordinary shrub given sentience and mobility by the awaken spell or similar magic.\nSource: Monster Manual p. 317, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "forest"
+}

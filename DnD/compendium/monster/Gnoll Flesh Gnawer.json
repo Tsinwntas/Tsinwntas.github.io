@@ -1,0 +1,62 @@
+{
+  "name": "Gnoll Flesh Gnawer",
+  "size": "M",
+  "type": "humanoid (gnoll)",
+  "alignment": "Chaotic Evil",
+  "ac": "14 (studded leather armor)",
+  "hp": "22 (4d8+4)",
+  "speed": "walk 30 ft.",
+  "str": "12",
+  "dex": "14",
+  "con": "12",
+  "int": "8",
+  "wis": "10",
+  "cha": "8",
+  "save": "Dex +4",
+  "passive": "10",
+  "languages": "Gnoll",
+  "cr": "1",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Rampage",
+      "text": [
+        "When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The gnoll makes three attacks: one with its bite and two with its shortsword."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Sudden Rush",
+      "text": [
+        "Until the end of the turn, the gnoll's speed increases by 60 feet and it doesn't provoke opportunity attacks."
+      ]
+    }
+  ],
+  "description": "If any group of gnolls could be said to be more feral than the others, that distinction would go to the flesh gnawers. These gnolls eschew the use of ranged weapons in favor of short blades that they wield with speed and efficiency. In the thick of a fight, they are capable of dashing across the field, slashing and snarling as they run down stragglers and finish off wounded foes.\nSource: Volo's Guide to Monsters p. 154",
+  "environment": "grassland, forest, hill, arctic"
+}

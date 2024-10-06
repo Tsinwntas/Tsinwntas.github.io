@@ -1,0 +1,55 @@
+{
+  "name": "Raggnar Redtooth",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "17 (splint armor)",
+  "hp": "58 (9d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "13",
+  "con": "14",
+  "int": "10",
+  "wis": "11",
+  "cha": "10",
+  "skill": "Athletics +5, Perception +2",
+  "passive": "12",
+  "languages": "any one language (usually Common)",
+  "cr": "3",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Raggnar makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+      ]
+    },
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Longsword|+5|1d8+3"
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. 6 (1d10 + 1) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+3|1d10+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Hoard of the Dragon Queen p. 74"
+}

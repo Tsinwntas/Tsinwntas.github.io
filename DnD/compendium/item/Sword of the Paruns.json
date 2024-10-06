@@ -1,0 +1,11 @@
+{
+  "name": "Sword of the Paruns",
+  "detail": "Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. Additionally, once on each of your turns, you can use one of the following properties if you're holding the sword:\n• Immediately after you use the Attack action to attack with the sword, you can enable one creature within 60 feet of you to use its reaction to make one weapon attack.\n• Immediately after you take the Dash action, you can enable one creature within 60 feet of you to use its reaction to move up to its speed.\n• Immediately after you take the Dodge action, you can enable one creature within 60 feet of you to use its reaction to gain the benefits of the Dodge action.\nSource: Guildmasters' Guide to Ravnica p. 181"
+}

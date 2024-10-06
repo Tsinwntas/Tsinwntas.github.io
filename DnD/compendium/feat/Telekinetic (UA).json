@@ -1,0 +1,13 @@
+{
+  "name": "Telekinetic (UA)",
+  "text": "You learn to move things with your mind. You gain the following benefits:\n• You learn the mage hand cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible.\n• As a bonus action, you can try to shove one creature you can see within 5 feet of the spectral hand created by your mage hand spell. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Intelligence modifier) or be pushed 5 feet away from you.\nSource: Unearthed Arcana: Fighter Rogue Wizard p. 8",
+  "modifier": [
+    {
+      "_": "Intelligence +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ]
+} + the ability modifier of the score increased by this feat) or be moved toward you or away from you a number of feet equal to 5 times the number you rolled. A creature can willingly fail this save.\nSource: Unearthed Arcana: 2020 Psionic Options Revisited p. 8"
+}

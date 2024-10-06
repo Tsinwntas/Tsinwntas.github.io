@@ -1,0 +1,47 @@
+{
+  "name": "Roggenwolf",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "60 (11d8+11)",
+  "speed": "walk 40 ft.",
+  "str": "14",
+  "dex": "16",
+  "con": "13",
+  "int": "5",
+  "wis": "13",
+  "cha": "14",
+  "skill": "Perception +3, Stealth +5",
+  "passive": "13",
+  "cr": "2",
+  "resist": "bludgeoning, piercing, slashing from nonmagical weapons",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Hearing And Smell",
+      "text": [
+        "The roggenwolf has advantage on Wisdom (Perception) checks that rely on hearing and smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) necrotic damage."
+      ],
+      "attack": [
+        "Bite|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Howl (Recharge 5-6)",
+      "text": [
+        "The roggenwolf lets loose a howl that can only be heard inside the minds of nearby creatures. Each creature within 30 feet of the roggenwolf that isn't an undead or a construct must succeed on a DC 13 Wisdom saving throw or become frightened and restrained for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending both effects on itself on a success."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 320",
+  "environment": "farmland, grassland"
+}

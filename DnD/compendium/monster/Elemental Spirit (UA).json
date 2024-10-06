@@ -1,0 +1,50 @@
+{
+  "name": "Elemental Spirit (UA)",
+  "size": "M",
+  "type": "elemental",
+  "alignment": "Neutral",
+  "ac": "0",
+  "hp": "3",
+  "speed": "walk 40 ft., fly 40 ft., burrow 40 ft., swim 40 ft.",
+  "str": "18",
+  "dex": "15",
+  "con": "17",
+  "int": "4",
+  "wis": "10",
+  "cha": "16",
+  "passive": "10",
+  "languages": "Primordial, understands the languages you speak",
+  "resist": "lightning; thunder (air only), piercing; slashing (earth only); acid (water only)",
+  "immune": "poison; fire (fire only)",
+  "conditionImmune": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "equal the elemental's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+      ]
+    },
+    {
+      "name": "Amorphous Form (Air, Fire, and Water Only)",
+      "text": [
+        "The elemental can move through a space as narrow as 1 inch wide without squeezing."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The elemental makes a number of attacks equal to half this spell's level (rounded down)."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +4 + the spell's level to hit, reach 5 ft., one target. 1d10 + 4 + the spell's level bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only)."
+      ]
+    }
+  ],
+  "description": "\nSource: Unearthed Arcana: 2020 Spells And Magic Tattoos p. 5"
+}

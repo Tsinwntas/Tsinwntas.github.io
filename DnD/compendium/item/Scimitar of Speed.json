@@ -1,0 +1,10 @@
+{
+  "name": "Scimitar of Speed",
+  "detail": "major, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "F,L",
+  "dmg1": "1d6",
+  "dmgType": "S",
+  "text": "You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns.\nFound On: Magic Item Table H\nSource: Dungeon Master's Guide p. 199"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Storm Lord",
+  "size": "H",
+  "type": "elemental",
+  "alignment": "Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "161 (17d12+51)",
+  "speed": "walk 50 ft., swim 90 ft., fly 50 ft.",
+  "str": "20",
+  "dex": "18",
+  "con": "16",
+  "int": "12",
+  "wis": "14",
+  "cha": "18",
+  "save": "Str +10, Con +8, Wis +7",
+  "skill": "Athletics +10, Nature +6, Perception +7",
+  "passive": "17",
+  "languages": "Aquan",
+  "cr": "13",
+  "resist": "acid, lightning, thunder; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Tempest",
+      "text": [
+        "The storm lord is surrounded in a 120-foot-radius by a ferocious storm. The storm imposes disadvantage on ranged weapon attack rolls and Wisdom (Perception) checks based on sight or hearing within the area. The storm lord's own senses and attacks are not impaired by this trait.",
+        "The tempest extinguishes open flames and disperses fog.",
+        "A flying creature in the tempest must land at the end of its turn or fall.",
+        "Each creature that starts its turn within 30 feet of the storm lord must succeed on a DC 16 Strength saving throw or be pushed 15 feet away from the storm lord. Any creature within 30 feet of the storm lord must spend 2 feet of movement for every 1 foot it moves when moving closer to the storm lord."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The storm lord makes two slam attacks or two lightning bolt attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 29 (7d6 + 5) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|10|7d6+5"
+      ]
+    },
+    {
+      "name": "Lightning Bolt",
+      "text": [
+        "Ranged Spell Attack: +9 to hit, range 60 ft., one target. 31 (7d8) lightning damage."
+      ],
+      "attack": [
+        "Lightning Bolt|9|7d8"
+      ]
+    },
+    {
+      "name": "Thunder Clap (Recharge 56)",
+      "text": [
+        "The storm lord creates a peal of ear-splitting thunder. Each creature within 30 feet of the storm lord must make a DC 17 Constitution saving throw. On a failure, a target takes 54 (12d8) thunder damage and is deafened. On a success, a target takes half the damage but isn't deafened. The deafness lasts until it is lifted by the lesser restoration spell or similar magic."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "underwater"
+}

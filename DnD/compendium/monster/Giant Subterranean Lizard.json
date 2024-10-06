@@ -1,0 +1,55 @@
+{
+  "name": "Giant Subterranean Lizard",
+  "size": "H",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "66 (7d12+21)",
+  "speed": "walk 30 ft., swim 50 ft.",
+  "str": "21",
+  "dex": "9",
+  "con": "17",
+  "int": "2",
+  "wis": "10",
+  "cha": "7",
+  "skill": "Stealth +3",
+  "passive": "10",
+  "cr": "4",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The lizard makes two attacks: one with its bite and one with its tail. One attack can be replaced by Swallow."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 16 (2d10 + 5) piercing damage and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the lizard can't bite another target."
+      ],
+      "attack": [
+        "Bite|+7|2d10+5"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 12 (2d6 + 5) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Tail|+7|2d6+5"
+      ]
+    },
+    {
+      "name": "Swallow",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one Medium or smaller creature the lizard is grappling. 16 (2d10 + 5) piercing damage. The target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the lizard, and it takes 10 (3d6) acid damage at the start of each of the lizard's turns. The lizard can have only one target swallowed at a time.",
+        "If the lizard dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone."
+      ],
+      "attack": [
+        "Swallow|+7|2d10+5"
+      ]
+    }
+  ],
+  "description": "\nSource: Tales from the Yawning Portal p. 236"
+}

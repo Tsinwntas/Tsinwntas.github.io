@@ -1,0 +1,10 @@
+{
+  "name": "+3 Pike",
+  "detail": "major, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "18",
+  "property": "H,R,2H,M",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "text": "You have a +3 bonus to attack and damage rolls made with this magic weapon.\nFound On: Magic Item Table H\nSource: Dungeon Master's Guide p. 213"
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Hound Of Tindalos",
+  "size": "M",
+  "type": "aberration",
+  "alignment": "Neutral Evil",
+  "ac": "17 (natural armor)",
+  "hp": "93 (11d8+44)",
+  "speed": "walk 40 ft.",
+  "str": "18",
+  "dex": "22",
+  "con": "18",
+  "int": "14",
+  "wis": "16",
+  "cha": "18",
+  "save": "Con +7, Wis +6",
+  "skill": "Acrobatics +9, Perception +6",
+  "passive": "16",
+  "cr": "8",
+  "resist": "necrotic",
+  "immune": "cold, poison, psychic",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Entrance By Corners",
+      "text": [
+        "The hound of Tindalos may only enter the Material Plane at a sharp intersection of surfaces. As a bonus action, the hound can teleport from one location to another within sight of the first, provided it travels from one sharp corner to another."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The hound of Tindalos has advantage on Wisdom (Perception) checks that rely smell."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The hound of Tindalos has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Pounce",
+      "text": [
+        "If the hound of Tindalos moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the hound of Tindalos can make one tongue attack against it as a bonus action."
+      ]
+    },
+    {
+      "name": "Slippery",
+      "text": [
+        "The hound of Tindalos has advantage on ability checks and saving throws made to escape a grapple."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hound of Tindalos makes two claw attacks and one bite attack. It can make one tongue attack in place of its two claw attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 14 (3d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|7|3d6+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|7|2d6+4"
+      ]
+    },
+    {
+      "name": "Tongue",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage.",
+        "The target's hp maximum is reduced by an amount equal to the necrotic damage taken. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0."
+      ],
+      "attack": [
+        "Tongue|7|1d6+4"
+      ]
+    },
+    {
+      "name": "Hunter of the Lost",
+      "text": [
+        "The hound can transport itself to a different plane of existence. This works like the plane shift spell, except the hound can only affect itself, not other creatures, and can't use it to banish an unwilling creature to another plane."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

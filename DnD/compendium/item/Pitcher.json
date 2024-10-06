@@ -1,0 +1,8 @@
+{
+  "name": "Pitcher",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "4",
+  "value": "0.02",
+  "text": "A pitcher holds 1 gallon of liquid.\nSource: Player's Handbook p. 153"
+}

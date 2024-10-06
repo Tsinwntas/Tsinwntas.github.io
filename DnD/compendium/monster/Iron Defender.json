@@ -1,0 +1,49 @@
+{
+  "name": "Iron Defender",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "30 (4d8+12)",
+  "speed": "walk 40 ft.",
+  "str": "16",
+  "dex": "14",
+  "con": "16",
+  "int": "8",
+  "wis": "11",
+  "cha": "7",
+  "skill": "Perception +4, Stealth +4",
+  "passive": "13",
+  "languages": "understands the languages of its creator but can't speak",
+  "cr": "1",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Senses",
+      "text": [
+        "The defender has advantage on Wisdom (Perception) checks."
+      ]
+    },
+    {
+      "name": "Telepathic Bond",
+      "text": [
+        "While the defender is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or take an extra 3 (1d6) piercing damage and be grappled (escape DC 13). The defender can have only one creature grappled in this way at a time."
+      ],
+      "attack": [
+        "Bite|+5|1d6+3",
+        "Bite||1d6"
+      ]
+    }
+  ],
+  "description": "Constructed Nature. A homunculus doesn't require air, food, drink, or sleep.\nA homunculus is a construct servant created for certain tasks. Artificers and wizards are responsible for most of the homunculi in existence.\nEach kind of homunculus has a body constructed from different kinds of materials, including clay, iron, and bits of hair and feathers. The process that creates a homunculus sees those materials mixed with the creator's blood and animated through an extended magical ritual.\nSource: Eberron: Rising from the Last War p. 293"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Protection from Energy",
+  "level": "3",
+  "school": "A",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 hour",
+  "classes": "Cleric, Druid, Ranger, Sorcerer, Wizard, Druid (Land), Paladin (Ancients), Paladin (Vengeance), Druid (Land), Cleric (Forge), Artificer, Paladin (Glory), Artificer, Paladin (Glory), Sorcerer (Clockwork Soul), Cleric (Strength (PSA)), Warlock (Noble Genie (UA)), Artificer (UA), Artificer (Revisited) (UA), Paladin (Heroism (UA)), Cleric (Forge (UA)), Cleric (Protection (UA)), Ranger (Horizon Walker (UA))",
+  "text": "For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.\nSource: Player's Handbook p. 270"
+}

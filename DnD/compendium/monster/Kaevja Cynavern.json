@@ -1,0 +1,57 @@
+{
+  "name": "Kaevja Cynavern",
+  "size": "M",
+  "type": "humanoid (Mulanhuman)",
+  "alignment": "Lawful Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "40 (9d8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "11",
+  "int": "17",
+  "wis": "12",
+  "cha": "11",
+  "save": "Int +6, Wis +4",
+  "skill": "Arcana +6, History +6",
+  "passive": "11",
+  "languages": "Common, Draconic, Dwarvish, Elvish",
+  "cr": "6",
+  "trait": [
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Kaevja carries a yellow elemental gem. As an action she can break the gem releasing an earth elemental under her command."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Kaevja is a 9th-level spellcaster. Her spellcasting ability is Intelligence. Kaevja has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
+        "• 1st level (4 slots): detect magic, mage armor, magic missile, shield",
+        "• 2nd level (3 slots): misty step, suggestion",
+        "• 3rd level (3 slots): counterspell, fireball, sending",
+        "• 4th level (3 slots): greater invisibility, ice storm",
+        "• 5th level (1 slots): cone of cold"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+2",
+        "Dagger|+5|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "fire bolt, light, mage hand, prestidigitation, detect magic, mage armor, magic missile, shield, misty step, suggestion, counterspell, fireball, sending, greater invisibility, ice storm, cone of cold",
+  "description": "Previously a Red Wizard of Thay, this mage now studies magic under Manshoon.\nSource: Waterdeep: Dragon Heist p. 158"
+}

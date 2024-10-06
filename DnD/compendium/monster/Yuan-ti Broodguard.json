@@ -1,0 +1,77 @@
+{
+  "name": "Yuan-ti Broodguard",
+  "size": "M",
+  "type": "humanoid (yuan-ti)",
+  "alignment": "Neutral Evil",
+  "ac": "14 (natural armor)",
+  "hp": "45 (7d8+14)",
+  "speed": "walk 30 ft.",
+  "str": "15",
+  "dex": "14",
+  "con": "14",
+  "int": "6",
+  "wis": "11",
+  "cha": "4",
+  "save": "Str +4, Dex +4, Wis +2",
+  "skill": "Perception +2",
+  "passive": "12",
+  "languages": "Abyssal, Common, Draconic",
+  "cr": "2",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Mental Resistance",
+      "text": [
+        "The broodguard has advantage on saving throws against being charmed, and magic can't paralyze it."
+      ]
+    },
+    {
+      "name": "Reckless",
+      "text": [
+        "At the start of its turn, the broodguard can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The broodguard makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Variant: Chameleon Skin",
+      "text": [
+        "The yuan-ti has advantage on Dexterity (Stealth) checks made to hide."
+      ]
+    },
+    {
+      "name": "Variant: Shed Skin (1/Day)",
+      "text": [
+        "The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum."
+      ]
+    }
+  ],
+  "description": "Yuan-ti malisons who become priestly devotees of a particular god-be it Sseth, Dendar the Night Serpent, or Merrshaulk-often rise through the ranks to become spiritual leaders among the serpent folk. These priests perform sacrificial rites to appease their vile gods.\nYuan-ti Broodguard. Broodguards are humanoids transformed by yuan-ti into simple-minded, scaly creatures that do their masters' bidding. The transformation process warps not only a subject's body but also its mind, making it instinctively obey any yuan-ti and filling it with a seething rage that rises at the sight of non-reptilian creatures.\nAlthough broodguards have low intelligence, they are able to perform simple yet important tasks in the community, such as guarding eggs or patrolling for intruders. The yuan-ti refer to broodguards as \"histachii,\" which means \"egg-watchers.\"\nHuman No More.  Most broodguards are made from human prisoners forced to consume a magical brew that renders them helpless and unable to fight off the inevitable. A human transformed into a broodguard loses all semblance of who it once was, and even its human origin is barely discernible. A broodguard is hairless and emaciated, with yellow-green, scaly skin. It has beady, bloodshot eyes and a forked tongue, and smells faintly of rotting meat. Broodguards can speak but rarely do so, preferring to use snake-like hisses and guttural noises.\nMaking a Broodguard. Yuan-ti create broodguards from captured humanoids. Each subject is fed a special potion that immediately renders it incapacitated and transforms it into a broodguard over the next 1d6 + 6 days. A subject forced to imbibe the brew can make a DC 15 Constitution saving throw; on a success, it takes 14 (4d6) poison damage and isn't otherwise affected.\nA spell such as lesser restoration or remove curse can end the transformation process at any time before it runs its course. After the process is complete, only a wish spell can reverse the effect.\nSource: Volo's Guide to Monsters p. 203, Tomb of Annihilation",
+  "environment": "underdark, forest, desert"
+}

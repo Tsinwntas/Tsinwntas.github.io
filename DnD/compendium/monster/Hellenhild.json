@@ -1,0 +1,56 @@
+{
+  "name": "Hellenhild",
+  "size": "H",
+  "type": "giant",
+  "alignment": "Neutral Evil",
+  "ac": "15 (patchwork armor)",
+  "hp": "138 (12d12+60)",
+  "speed": "walk 40 ft.",
+  "str": "23",
+  "dex": "9",
+  "con": "21",
+  "int": "9",
+  "wis": "10",
+  "cha": "12",
+  "save": "Con +8, Wis +3, Cha +4",
+  "skill": "Athletics +9, Perception +3",
+  "passive": "13",
+  "languages": "Giant",
+  "cr": "8",
+  "immune": "cold",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The giant makes two greataxe attacks."
+      ]
+    },
+    {
+      "name": "Greataxe",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. 25 (3d12 + 6) slashing damage."
+      ],
+      "attack": [
+        "Greataxe|+9|3d12+6"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. 28 (4d10 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|+9|4d10+6"
+      ]
+    },
+    {
+      "name": "Variant: New Giant Options",
+      "text": [
+        "Some adult frost giants are skilled hunters who construct and hurl nets weighted down with fragments of metal or bone. This ability is represented by the following action option.",
+        "Weighted Net. Ranged Weapon Attack: +5 to hit, ranged 20/60 ft., one Small, Medium, or Large creature. The target is restrained until it escapes the net. Any creature can use its action to make a DC 17 Strength check to free itself or another creature in the net, ending the effect on a success. Dealing 15 slashing damage to the net (AC 12) destroys the net and frees the target."
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 207",
+  "environment": "mountain, arctic"
+}

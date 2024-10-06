@@ -1,0 +1,99 @@
+{
+  "name": "Kostchtchie",
+  "size": "L",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (natural armor)",
+  "hp": "243 (18d10+144)",
+  "speed": "walk 40 ft.",
+  "str": "30",
+  "dex": "12",
+  "con": "27",
+  "int": "18",
+  "wis": "22",
+  "cha": "19",
+  "save": "Dex +9, Con +16, Wis +14",
+  "skill": "Intimidation +12, Perception +14, Survival +14",
+  "passive": "24",
+  "languages": "Abyssal, Giant, telepathy 120 ft",
+  "cr": "25",
+  "resist": "fire, lightning",
+  "immune": "cold, poison; bludgeoning, piercing, slashing from nonmagical attacks",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "senses": "truesight 120 ft",
+  "trait": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If Kostchtchie fails a saving throw, he can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Kostchtchie has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Kostchtchie's innate spellcasting ability is Charisma (spell save DC 20). He can innately cast the following spells, requiring no material components:",
+        "At will: command, darkness",
+        "1/day each: dispel evil and good, gate, harm, telekinesis, teleport, wind walk"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Kostchtchie makes two melee attacks, only one of which can be a bite attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +18 to hit, reach 5 ft., one creature. 13 (1d6 + 10) piercing damage."
+      ],
+      "attack": [
+        "Bite|+18|1d6+10"
+      ]
+    },
+    {
+      "name": "Matalotok (Warhammer)",
+      "text": [
+        "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. 19 (2d8 + 10) bludgeoning damage, or 21 (2d10 + 10) bludgeoning damage when used with two hands, and the weapon emits a burst of cold that deals 10 (3d6) cold damage to each creature within 30 feet of it."
+      ],
+      "attack": [
+        "Matalotok (Warhammer)|+18|2d8+10"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "Kostchtchie can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Kostchtchie regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Attack",
+      "text": [
+        "Kostchtchie makes one melee weapon attack."
+      ]
+    },
+    {
+      "name": "Charge",
+      "text": [
+        "Kostchtchie moves up to his speed."
+      ]
+    },
+    {
+      "name": "Curse (Costs 2 Actions)",
+      "text": [
+        "Kostchtchie curses one creature he can see within 60 feet of him. The cursed creature gains vulnerability to all damage dealt by Kostchtchie until the end of Kostchtchie's next turn."
+      ]
+    }
+  ],
+  "spells": "command, darkness, dispel evil and good, gate, harm, telekinesis, teleport, wind walk",
+  "description": "The demon lord Kostchtchie resembles a squat hill giant with short, bandy legs and a grossly shaped head.\nFrost giants who forsake their gods and turn to demon worship can summon Kostchtchie with bloody offerings left on altars of hewn ice. If the demon lord chooses to answer the giants' call, he hunts and fights alongside them for a time, infecting the frost giants with savage madness and bloodlust before disappearing back to the Abyss.\nSource: Baldur's Gate: Descent Into Avernus p. 105"
+}

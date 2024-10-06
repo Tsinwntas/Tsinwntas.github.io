@@ -1,0 +1,65 @@
+{
+  "name": "Play-by-Play Generator",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Lawful Neutral",
+  "ac": "16 (natural armor)",
+  "hp": "22 (4d8+4)",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "12",
+  "dex": "14",
+  "con": "12",
+  "int": "10",
+  "wis": "10",
+  "cha": "11",
+  "skill": "Perception +2",
+  "passive": "12",
+  "languages": "Modron",
+  "cr": "1",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Axiomatic Mind",
+      "text": [
+        "the generator can't be compelled to act in a manner contrary to its nature or its instructions."
+      ]
+    },
+    {
+      "name": "Disintegration",
+      "text": [
+        "If the generator dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The generator makes two fist attacks or four dart attacks."
+      ]
+    },
+    {
+      "name": "Fist",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Fist|+3|1d4+1"
+      ]
+    },
+    {
+      "name": "Magic Dart",
+      "text": [
+        "The generator hurls a magic dart at a target it can see up to 60 feet away from it. The dart hits its target automatically (no attack roll required) for 5 (2d4) force damage."
+      ]
+    },
+    {
+      "name": "Variant: Rogue Modrons",
+      "text": [
+        "A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+        "A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+      ]
+    }
+  ],
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 205"
+}

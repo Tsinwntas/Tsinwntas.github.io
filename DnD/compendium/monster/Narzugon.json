@@ -1,0 +1,82 @@
+{
+  "name": "Narzugon",
+  "size": "M",
+  "type": "fiend (devil)",
+  "alignment": "Lawful Evil",
+  "ac": "20 (plate armor, shield)",
+  "hp": "112 (15d8+45)",
+  "speed": "walk 30 ft.",
+  "str": "20",
+  "dex": "10",
+  "con": "17",
+  "int": "16",
+  "wis": "14",
+  "cha": "19",
+  "save": "Dex +5, Con +8, Cha +9",
+  "skill": "Perception +7",
+  "passive": "17",
+  "languages": "Common, Infernal, telepathy 120 ft.",
+  "cr": "13",
+  "resist": "acid, cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "immune": "fire, poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Diabolical Sense",
+      "text": [
+        "The narzugon has advantage on Wisdom (Perception) checks made to perceive good-aligned creatures."
+      ]
+    },
+    {
+      "name": "Infernal Tack",
+      "text": [
+        "The narzugon wears spurs that are part of infernal tack, which allow it to summon its nightmare companion."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The narzugon has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The narzugon uses its Infernal Command or Terrifying Command. It also makes three hellfire lance attacks."
+      ]
+    },
+    {
+      "name": "Hellfire Lance",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 11 (1d12 + 5) piercing damage plus 16 (3d10) fire damage. If this damage kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in 1d4 hours.",
+        "If the creature isn't revived before then, only a wish spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+      ],
+      "attack": [
+        "Hellfire Lance|+10|1d12+5"
+      ]
+    },
+    {
+      "name": "Infernal Command",
+      "text": [
+        "Each ally of the narzugon within 60 feet of it can't be charmed or frightened until the end of the narzugon's next turn."
+      ]
+    },
+    {
+      "name": "Terrifying Command",
+      "text": [
+        "Each creature that isn't a fiend within 60 feet of the narzugon that can hear it must succeed on a DC 17 Charisma saving throw or become frightened of it for 1 minute.",
+        "A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that makes a successful saving throw is immune to this narzugon's Terrifying Command for 24 hours."
+      ]
+    },
+    {
+      "name": "Healing (1/Day)",
+      "text": [
+        "The narzugon, or one creature it touches, regains up to 100 hit points."
+      ]
+    }
+  ],
+  "description": "Narzugon. Paladins who make deals with devils and carry their twisted sense of honor into the afterlife are especially valuable to the archdukes of the Nine Hells, who want unquestioning champions to lead their legions in war. These narzugons, wielding lances of hellfire and riding nightmare steeds like horrific perversions of knights errant, roam across the infernal layers and other planes to carry out the will of their masters.\nDeath in Hellfire.  A narzugon's lances are forged in hellfire. The soul of anyone killed by such a lance is shunted to the River Styx for rebirth as a lemure. Each lance is unique to its owner, bearing the marks of both the narzugon and its master.\nNightmare Riders. Each narzugon claims a nightmare as its mount. These nightmares are bound by infernal tack and must respond to summons and commands from the wearer of the spurs.\nSource: Mordenkainen's Tome of Foes p. 167, Baldur's Gate: Descent Into Avernus"
+}

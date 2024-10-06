@@ -1,0 +1,62 @@
+{
+  "name": "Ghelryn Foehammer",
+  "size": "M",
+  "type": "humanoid (shielddwarf)",
+  "alignment": "Lawful Good",
+  "ac": "14 (breastplate, shield)",
+  "hp": "30 (4d8+12)",
+  "speed": "walk 25 ft.",
+  "str": "18",
+  "dex": "7",
+  "con": "17",
+  "int": "10",
+  "wis": "11",
+  "cha": "11",
+  "skill": "Athletics +6, Intimidation +2, Perception +2",
+  "passive": "12",
+  "languages": "Common, Dwarvish",
+  "cr": "0",
+  "resist": "poison",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dwarven Resilience",
+      "text": [
+        "Ghelryn has advantage on saving throws against poison."
+      ]
+    },
+    {
+      "name": "Giant Slayer",
+      "text": [
+        "Any weapon attack that Ghelryn makes against a giant deals an extra 7 (2d6) damage on a hit."
+      ]
+    },
+    {
+      "name": "Roleplaying Information",
+      "text": [
+        "The blacksmith Ghelryn has a good heart, but he hates orcs and giants—hates them with a fiery passion. He considers it the solemn duty of all dwarves to cave in their skulls!",
+        "Ideal: \"It is incumbent upon every dwarf to forge a legacy.\"",
+        "Bond: \"I stand for Clan Foehammer and all dwarvenkind.\"",
+        "Flaw: \"I never run from a fight, especially if it involves killing orcs or giants.\""
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Ghelryn makes two battleaxe attacks."
+      ]
+    },
+    {
+      "name": "Battleaxe",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+      ],
+      "attack": [
+        "Battleaxe|+6|1d8+4"
+      ]
+    }
+  ],
+  "description": "The blacksmith Ghelryn has a good heart, but he hates orcs and giants-hates them with a fiery passion. He considers it the solemn duty of all dwarves to cave in their skulls!\nIdeal:\"It is incumbent upon every dwarf to forge a legacy.\"\nBond:\"I stand for Clan Foehammer and all dwarvenkind.\"\nFlaw:\"I never run from a fight, especially if it involves killing orcs or giants.\"\nSource: Storm King's Thunder p. 255"
+}

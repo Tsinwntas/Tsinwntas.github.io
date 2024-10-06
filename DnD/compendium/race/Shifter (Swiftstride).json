@@ -1,0 +1,49 @@
+{
+  "name": "Shifter (Swiftstride)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Dex 2, Cha 1",
+  "proficiency": "Acrobatics",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Eberron: Rising from the Last War p. 34, Wayfinder's Guide to Eberron p. 64"
+    },
+    {
+      "name": "Graceful",
+      "text": "You have proficiency in the Acrobatics skill.\n"
+    },
+    {
+      "name": "Shifting Feature",
+      "text": "While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Shifters tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive shifters toward chaotic alignments.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Your size is Medium.\n"
+    },
+    {
+      "name": "Speed",
+      "text": "Your base walking speed is 30 feet.\n"
+    },
+    {
+      "name": "Darkvision",
+      "text": "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n"
+    },
+    {
+      "name": "Shifting",
+      "text": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below.\nOnce you shift, you can't do so again until you finish a short or long rest.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common.\n"
+    }
+  ]
+}

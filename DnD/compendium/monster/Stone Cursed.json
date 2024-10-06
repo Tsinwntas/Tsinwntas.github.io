@@ -1,0 +1,48 @@
+{
+  "name": "Stone Cursed",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Lawful Evil",
+  "ac": "17 (natural armor)",
+  "hp": "19 (3d8+4)",
+  "speed": "walk 10 ft.",
+  "str": "16",
+  "dex": "5",
+  "con": "14",
+  "int": "5",
+  "wis": "8",
+  "cha": "7",
+  "passive": "9",
+  "languages": "the languages it knew in life",
+  "cr": "1",
+  "immune": "poison",
+  "vulnerable": "bludgeoning",
+  "conditionImmune": "charmed, exhaustion, frightened, petrified, poisoned",
+  "trait": [
+    {
+      "name": "Cunning Opportunist",
+      "text": [
+        "The stone cursed has advantage on the attack rolls of opportunity attacks."
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "text": [
+        "While the stone cursed remains motionless, it is indistinguishable from a normal statue."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Petrifying Claws",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (1d10 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if the attack roll had advantage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw, or it begins to turn to stone and is restrained until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is petrified for 24 hours."
+      ],
+      "attack": [
+        "Petrifying Claws|+5|1d10+3"
+      ]
+    }
+  ],
+  "description": "Stone Cursed. The stone cursed are spawned through a foul alchemical ritual performed on a humanoid that has been turned to stone. The ritual, which requires a mixture of basilisk blood and the ashes from the burned feathers of a cockatrice, awakens a dim echo of the petrified victim's spirit, animating the statue and turning it into a useful guardian.\nLingering Spirits. The stone cursed possess a malevolent drive to slay the living, yet they are utterly loyal to whoever performed the ritual to animate them, and they obey that being's orders to the best of their ability. In combat, stony claws that drip with thick, gray sludge emerge from a stone cursed's fingers. This alchemical sludge transforms those slashed by the claws into statues.\nA Strange Harvest. As part of the ritual used to create a stone cursed, a fist-sized obsidian skull forms within the creature's torso. The skull isn't visible while the stone cursed is active, but when it is slain, the statue shatters and the skull clatters to the ground. Because it is the nexus for the alchemy used to create these horrors, a dim echo of the original victim's memories resonates within the skull. A skilled magic-wielder can attempt to extract memories from it to gain insight into the victim's past or find lore that otherwise would be lost.\nConstructed Nature. A stone cursed doesn't require air, food, drink, or sleep.\nCryptic Whispers. Even though creatures transformed into stone cursed are long dead, a vague whisper of their memories lives on in the obsidian skull embedded within the stone cursed's body. At the end of a short rest, a character can make a DC 20 Intelligence (Arcana) check to attempt to extract a memory from the skull—a memory that is a response to a verbal question posed by the character to the skull. Once this check is made, whether it succeeds or fails, the skull can't be used in this manner again.\nSource: Mordenkainen's Tome of Foes p. 240",
+  "environment": "desert, mountain, urban"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Keg Golem",
+  "size": "M",
+  "type": "construct (golem)",
+  "alignment": "Unaligned",
+  "ac": "11 (natural armor)",
+  "hp": "45 (6d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "16",
+  "int": "8",
+  "wis": "7",
+  "cha": "3",
+  "passive": "8",
+  "languages": "Understands the languages of its creator but can't speak",
+  "cr": "3",
+  "resist": "bludgeoning, piercing, slashing from nonmagical weapons that aren't adamantine",
+  "immune": "poison, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Empty Keg",
+      "text": [
+        "A keg golem holds 20 gallons of ale. If it runs out of ale or empties itself from ale blast, the golem's speed is reduced to 0 and it has disadvantage on all attack rolls until it is refilled with at least 1 gallon of ale."
+      ]
+    },
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The keg golem is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The keg golem has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Rolling Charge",
+      "text": [
+        "If the keg golem moves at least 15 feet straight toward a creature and then hits it with a slam attack on the same turn, that target must succeed on a DC 13 Dexterity saving throw or be knocked prone. If the target is prone, the keg golem can make one slam attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|3|1d6+3"
+      ]
+    },
+    {
+      "name": "Ale Blast (Recharge 5-6)",
+      "text": [
+        "The keg golem shoots a 1 gallon jet of ale in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Constitution saving throw. On a failure, a target takes 9 (2d8) poison damage and is poisoned for 1 minute. On a success, a target takes half the damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "mountain"
+}

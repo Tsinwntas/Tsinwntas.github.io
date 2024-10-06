@@ -1,0 +1,70 @@
+{
+  "name": "Wereraven",
+  "size": "M",
+  "type": "humanoid (human, shapechanger)",
+  "alignment": "Lawful Good",
+  "ac": "12",
+  "hp": "31 (7d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "15",
+  "con": "11",
+  "int": "13",
+  "wis": "15",
+  "cha": "14",
+  "skill": "Insight +4, Perception +6",
+  "passive": "16",
+  "languages": "Common (can't speak in raven form)",
+  "cr": "2",
+  "immune": "bludgeoning, piercing, slashing from nonmagical attacks not made with silvered weapons",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The wereraven can use its action to polymorph into a raven-humanoid hybrid or into a raven, or back into its human form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its human form if it dies."
+      ]
+    },
+    {
+      "name": "Mimicry",
+      "text": [
+        "The wereraven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack (Human or Hybrid Form Only)",
+      "text": [
+        "The wereraven makes two weapon attacks, one of which can be with its hand crossbow."
+      ]
+    },
+    {
+      "name": "Beak (Raven or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 1 piercing damage in raven form, or 4 (1d4 + 2) piercing damage in hybrid form. If the target is humanoid, it must succeed on a DC 10 Constitution saving throw or be cursed with wereraven lycanthropy."
+      ],
+      "attack": [
+        "Beak (Raven or Hybrid Form Only)|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Shortsword (Human or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword (Human or Hybrid Form Only)|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Hand Crossbow (Human or Hybrid Form Only)",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow (Human or Hybrid Form Only)|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "Wereravens are secretive and extraordinarily cautious lycanthropes that trust one another but are wary of just about everyone else. Although skilled at blending into society, they keep mostly to themselves, respect local laws, and strive to do good whenever possible.\nIn their human and hybrid forms, wereravens favor light weapons. They are reluctant to make bite attacks in raven form for fear of spreading their curse to those who don't deserve it or who would abuse it.\nA Kindness of Wereravens.  Wereravens refer to their tightly knit groups as kindnesses. A kindness of were-ravens usually numbers between seven and twelve individuals. Not surprisingly, wereravens get along well with ravens and often hide in plain sight among them.\nCharitable Collectors. Wereravens like to collect shiny trinkets and precious baubles. They are fond of sharing their wealth with those in need and, in their humanoid forms, modestly give money to charity. They take steps to keep magic items out of evil hands by stashing them in secret hiding places.\nCharacters as Wereravens. The Monster Manual has rules for characters afflicted with lycanthropy. The following text applies to wereraven characters specifically.\nA character cursed with wereraven lycanthropy gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the wereraven's bite are based on whichever is higher of the character's Strength and Dexterity. The bite of a wereraven in raven form deals 1 piercing damage (no ability modifier applies to this damage) and carries the curse of lycanthropy; see the \"Player Characters as Lycanthropes\" sidebar in the lycanthropes entry in the Monster Manual for details.\nSource: Curse of Strahd p. 242"
+}

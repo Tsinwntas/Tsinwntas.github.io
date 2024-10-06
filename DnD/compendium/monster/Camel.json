@@ -1,0 +1,30 @@
+{
+  "name": "Camel",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "9",
+  "hp": "15 (2d10+4)",
+  "speed": "walk 50 ft.",
+  "str": "16",
+  "dex": "8",
+  "con": "14",
+  "int": "2",
+  "wis": "8",
+  "cha": "5",
+  "passive": "9",
+  "cr": "1/8",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+      ],
+      "attack": [
+        "Bite|+5|1d4"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 320, Ghosts of Saltmarsh",
+  "environment": "desert"
+}

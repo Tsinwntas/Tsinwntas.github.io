@@ -1,0 +1,11 @@
+{
+  "name": "Silvered Quarterstaff",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "property": "V",
+  "dmg1": "1d6",
+  "dmg2": "1d8",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 148"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Sken Zabriss",
+  "size": "M",
+  "type": "humanoid (goliath)",
+  "alignment": "Lawful Evil",
+  "ac": "16 (breastplate, shield)",
+  "hp": "45 (7d8+14)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "11",
+  "con": "15",
+  "int": "13",
+  "wis": "10",
+  "cha": "12",
+  "passive": "10",
+  "languages": "Common, Draconic, Giant",
+  "cr": "1",
+  "trait": [
+    {
+      "name": "Powerful Build",
+      "text": [
+        "Sken counts as one size larger when determining her carrying capacity and the weight she can push, drag, or lift."
+      ]
+    },
+    {
+      "name": "Special Equipment",
+      "text": [
+        "Sken wears a ring of obscuring. With it, she can cast the fog cloud spell centered on herself three times per day. The cloud lasts for 1 minute (no concentration required)."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Longsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with two hands."
+      ],
+      "attack": [
+        "Longsword|+5|1d8+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Stone's Endurance (Recharges after a Short or Long Rest)",
+      "text": [
+        "When Sken takes damage, she can use her reaction to reduce the damage taken by 8 (1d12 + 2)."
+      ]
+    }
+  ],
+  "description": "\nSource: Explorer's Guide to Wildemount p. 221"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Half-Red Dragon Gladiator",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "16 (studded leather armor, shield)",
+  "hp": "112 (15d8+45)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "15",
+  "con": "16",
+  "int": "10",
+  "wis": "12",
+  "cha": "15",
+  "save": "Str +7, Dex +5, Con +6",
+  "skill": "Athletics +10, Intimidation +5",
+  "passive": "11",
+  "languages": "any one language (usually Common), Draconic",
+  "cr": "5",
+  "resist": "fire",
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Brave",
+      "text": [
+        "The half-dragon has advantage on saving throws against being frightened."
+      ]
+    },
+    {
+      "name": "Brute",
+      "text": [
+        "A melee weapon deals one extra die of its damage when the half-dragon hits with it (included in the attack)."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The half-dragon makes three melee attacks or two ranged attacks."
+      ]
+    },
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|+7|2d6+4"
+      ]
+    },
+    {
+      "name": "Shield Bash",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Shield Bash|+7|2d4+4"
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": [
+        "The half-dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Fire Breath (Recharge 5-6)||7d6"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "The half-dragon adds 3 to its AC against one melee attack that would hit it. To do so, the half-dragon must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "description": "\nSource: Rise of Tiamat p. 56"
+}

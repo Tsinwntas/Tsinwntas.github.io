@@ -1,0 +1,59 @@
+{
+  "name": "Noctiny",
+  "size": "M",
+  "type": "humanoid (noctiny),tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "13 (studded leather armor)",
+  "hp": "52 (8d8+16)",
+  "speed": "30 ft.",
+  "str": "12",
+  "dex": "13",
+  "con": "14",
+  "int": "10",
+  "wis": "11",
+  "cha": "16",
+  "conditionImmune": "frightened",
+  "passive": "10",
+  "languages": " Common, plus the language spoken by the noctini's fext master",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The noctiny has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Pact Wrath",
+      "text": [
+        "One of the noctiny's weapons is infused with power. Its attacks with this weapon count as magical, and it adds its Charisma bonus to the weapon's damage (included below)."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The noctiny is a 3rd-level spellcaster. Its spellcasting ability score is Charisma (save DC 13, +5 to hit with spell attacks). It knows the following warlock spells.",
+        "Cantrips (at will): chill touch, eldritch blast, poison spray",
+        "1st level (4 slots): armor of agathys, charm person, hellish rebuke, hex",
+        "2nd level (2 slots): crown of madness, misty step"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The noctiny makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Pact Staff",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage or 8 (1d8 + 4) bludgeoning damage if used in two hands."
+      ],
+      "attack": [
+        "Pact Staff|3|1d6+4"
+      ]
+    }
+  ]
+}

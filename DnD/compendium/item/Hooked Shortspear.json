@@ -1,0 +1,10 @@
+{
+  "name": "Hooked Shortspear",
+  "detail": "martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "L,M",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "text": "On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall prone. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus.\nSource: Out of the Abyss p. 224"
+}

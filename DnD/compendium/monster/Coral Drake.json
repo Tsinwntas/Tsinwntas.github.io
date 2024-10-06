@@ -1,0 +1,78 @@
+{
+  "name": "Coral Drake",
+  "size": "M",
+  "type": "dragon,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "16 (natural armor)",
+  "hp": "127 (15d8+60)",
+  "speed": "30 ft., swim 60 ft.",
+  "str": "19",
+  "dex": "1",
+  "con": "18",
+  "int": "10",
+  "wis": "13",
+  "cha": "10",
+  "save": "Dex +6",
+  "skill": "Acrobatics +6, Perception +4, Stealth +6",
+  "resist": "cold",
+  "conditionImmune": "paralyzed, poisoned, prone, unconscious",
+  "senses": "darkvision 120 ft.",
+  "passive": "17",
+  "languages": " Draconic",
+  "cr": "7",
+  "trait": [
+    {
+      "name": "Camouflage",
+      "text": [
+        "A coral drake's coloration and shape lend to its stealth, granting the creature advantage on all Stealth checks while it's underwater."
+      ]
+    },
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The coral drake can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The coral drake makes one bite attack, one claw attack, and one stinger attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|7|2d10+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8 +4) slashing damage."
+      ],
+      "attack": [
+        "Claw|7|4d8+4"
+      ]
+    },
+    {
+      "name": "Stinger",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage, and the target must succeed on a DC 15 Constitution saving throw or take 7 (2d6) poison damage at the start of each of its turns for 4 rounds. The creature can repeat the saving throw at the end of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Stinger|7|2d10+4"
+      ]
+    },
+    {
+      "name": "Breath Weapon (Recharge 5-6)",
+      "text": [
+        "Coral drakes nurture their offspring in specialized throat sacs. They can pressurize these sacs to spew forth a 15-foot cone of spawn. Each target in this area takes 21 (6d6) piercing damage from thousands of tiny bites and is blinded for 1d4 rounds; a successful DC 15 Dexterity saving throw reduces the damage by half and negates the blindness."
+      ]
+    }
+  ]
+}

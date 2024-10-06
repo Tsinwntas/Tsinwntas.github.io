@@ -1,0 +1,37 @@
+{
+  "name": "Redbrand Ruffian",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral Evil",
+  "ac": "14 (studded leather armor)",
+  "hp": "16 (3d8+3)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "9",
+  "wis": "9",
+  "cha": "11",
+  "skill": "Intimidation +2",
+  "passive": "9",
+  "languages": "Common",
+  "cr": "1/2",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The ruffian makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "Redbrand ruffians are petty thugs and ruthless enforcers skilled at intimidation and violence. They work for money and have no scruples.\nSource: Lost Mine of Phandelver p. 61"
+}

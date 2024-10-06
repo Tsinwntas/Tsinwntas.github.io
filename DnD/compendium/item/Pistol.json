@@ -1,0 +1,17 @@
+{
+  "name": "Pistol",
+  "type": "R",
+  "weight": "3",
+  "text": [
+    "A ranged weapon that fires bullets.",
+    "Reload 4, Misfire 1",
+    "Proficiency: firearms",
+    "Ammunition: 4g (20)",
+    "Source: Matthew Mercer - Gunslinger 1.3 p. 3"
+  ],
+  "value": "150",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "property": "M,A,LD",
+  "range": "60/240"
+}

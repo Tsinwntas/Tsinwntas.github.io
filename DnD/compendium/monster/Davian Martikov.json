@@ -1,0 +1,70 @@
+{
+  "name": "Davian Martikov",
+  "size": "M",
+  "type": "humanoid (human, shapechanger)",
+  "alignment": "Lawful Good",
+  "ac": "12",
+  "hp": "31 (7d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "15",
+  "con": "11",
+  "int": "13",
+  "wis": "15",
+  "cha": "14",
+  "skill": "Insight +4, Perception +6",
+  "passive": "16",
+  "languages": "Common (can't speak in raven form)",
+  "cr": "2",
+  "immune": "bludgeoning, piercing, slashing from nonmagical attacks not made with silvered weapons",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "Davian can use its action to polymorph into a raven-humanoid hybrid or into a raven, or back into its human form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its human form if it dies."
+      ]
+    },
+    {
+      "name": "Mimicry",
+      "text": [
+        "Davian can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack (Human or Hybrid Form Only)",
+      "text": [
+        "Davian makes two weapon attacks, one of which can be with its hand crossbow."
+      ]
+    },
+    {
+      "name": "Beak (Raven or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 1 piercing damage in raven form, or 4 (1d4 + 2) piercing damage in hybrid form. If the target is humanoid, it must succeed on a DC 10 Constitution saving throw or be cursed with wereraven lycanthropy."
+      ],
+      "attack": [
+        "Beak (Raven or Hybrid Form Only)|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Shortsword (Human or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword (Human or Hybrid Form Only)|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Hand Crossbow (Human or Hybrid Form Only)",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow (Human or Hybrid Form Only)|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Curse of Strahd p. 173"
+}

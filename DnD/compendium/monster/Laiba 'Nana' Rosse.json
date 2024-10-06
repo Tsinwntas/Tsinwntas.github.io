@@ -1,0 +1,68 @@
+{
+  "name": "Laiba \"Nana\" Rosse",
+  "size": "M",
+  "type": "humanoid (tiefling)",
+  "alignment": "Lawful Evil",
+  "ac": "13 (leather armor)",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "10",
+  "wis": "13",
+  "cha": "14",
+  "skill": "Deception +4, Persuasion +4, Religion +2",
+  "passive": "11",
+  "languages": "Common, Infernal",
+  "cr": "2",
+  "resist": "fire",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Dark Devotion",
+      "text": [
+        "Laiba has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Laiba's spellcasting ability is Charisma. She can innately cast the following spells, requiring no material components:",
+        "At will: thaumaturgy"
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Laiba is a 4th-level spellcaster. Her spellcasting ability is Wisdom. Laiba has the following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): command, inflict wounds, shield of faith",
+        "• 2nd level (3 slots): hold person, spiritual weapon"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Laiba makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +4 to hit, range 20/60 ft., one creature. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+4|1d4+2",
+        "Dagger|+4|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3"
+  ],
+  "spells": "thaumaturgy, light, sacred flame, thaumaturgy, command, inflict wounds, shield of faith, hold person, spiritual weapon",
+  "description": "Laiba Rosse, better known as \"Nana,\" is the caretaker and private tutor for Terenzio and Elzerina, and she does her best to keep track of their every move. Even so, the two often sneak away from her watchful eye. Nana dresses in flowing red robes. She relaxes in the twins' playroom (area C17) when she's not with the children.\nSource: Waterdeep: Dragon Heist p. 116"
+}

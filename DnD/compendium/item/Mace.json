@@ -1,0 +1,10 @@
+{
+  "name": "Mace",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "value": "5.0",
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "text": "Source: Player's Handbook p. 149"
+}

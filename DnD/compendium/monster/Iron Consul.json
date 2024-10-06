@@ -1,0 +1,53 @@
+{
+  "name": "Iron Consul",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "16 (chain mail)",
+  "hp": "45 (6d8+18)",
+  "speed": "walk 30 ft.",
+  "str": "17",
+  "dex": "11",
+  "con": "16",
+  "int": "12",
+  "wis": "15",
+  "cha": "16",
+  "save": "Wis +4",
+  "skill": "Intimidation +5, Perception +4",
+  "passive": "14",
+  "languages": "Common",
+  "cr": "2",
+  "conditionImmune": "frightened",
+  "trait": [
+    {
+      "name": "Tactical Discipline",
+      "text": [
+        "The iron consul has advantage on all ability checks and saving throws made during combat."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The iron consul makes one attack with its spear and can use its Voice of Command ability."
+      ]
+    },
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage when used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Voice of Command",
+      "text": [
+        "The iron consul selects up to two allies within 90 feet of it that can hear its commands. Each ally can immediately use its reaction to make one melee attack."
+      ]
+    }
+  ],
+  "description": "Bane's devoted followers are warriors who seek to rule through martial strength and intimidation, cruel tyrants who use threats and gifts as needed to ensure loyalty. They enslave those too weak to resist them and shower the strong with gifts and promises of power to turn them into loyal vassals.\nCruel Tyrants. Whenever Bane's followers gain power, they institute draconian measures to ensure that their rule is unquestioned. They stamp out all opposition while richly rewarding those who swear fealty.\nWarrior Cult. Cultists of Bane are warriors who wear heavy armor and wield maces, swords, spears, and crossbows. They paint the right gauntlet of their armor black in honor of their patron. Bane's clerics wield black maces with heads shaped to look like a closed fist.\nCult Ranks. Bane's cultists operate according to strict military hierarchies. The lowest rank consists of the fists of Bane, foot soldiers who obey all orders without hesitation. They are led by iron consuls, cunning field officers who excel at coordinating the fists in combat. The black gauntlets are the priests who command the consuls.\nSource: Baldur's Gate: Descent Into Avernus p. 232"
+}

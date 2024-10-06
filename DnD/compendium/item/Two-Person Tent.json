@@ -1,0 +1,8 @@
+{
+  "name": "Two-Person Tent",
+  "detail": "Adventuring Gear",
+  "type": "G",
+  "weight": "20",
+  "value": "2.0",
+  "text": "A simple and portable canvas shelter, a tent sleeps two.\nSource: Player's Handbook p. 153"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Thunderclap",
+  "level": "0",
+  "school": "EV",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "5 feet",
+  "components": "S",
+  "duration": "Instantaneous",
+  "classes": "Bard, Druid, Sorcerer, Warlock, Wizard, Artificer, Artificer (Revisited) (UA)",
+  "text": "You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must make a Constitution saving throw or take 1d6 thunder damage.\nThe spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).\nSource: Xanathar's Guide to Everything p. 168, Elemental Evil Player's Companion p. 22",
+  "roll": [
+    "1d6",
+    "2d6",
+    "3d6",
+    "4d6"
+  ]
+}

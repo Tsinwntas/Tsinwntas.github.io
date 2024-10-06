@@ -1,0 +1,71 @@
+{
+  "name": "Kappa",
+  "size": "S",
+  "type": "fey",
+  "alignment": "Chaotic Evil Chaotic Neutral",
+  "ac": "16 (natural armor)",
+  "hp": "40 (11d6+11)",
+  "speed": "walk 25 ft., swim 40 ft.",
+  "str": "18",
+  "dex": "14",
+  "con": "12",
+  "int": "7",
+  "wis": "14",
+  "cha": "8",
+  "skill": "Athletics +6, Medicine +4, Perception +4, Stealth +4",
+  "passive": "14",
+  "languages": "Common, Sylvan",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The kappa can breathe air and water."
+      ]
+    },
+    {
+      "name": "Expert Wrestler",
+      "text": [
+        "The kappa can grapple creatures that are two sizes larger than itself and can move at full speed when dragging a creature it has grappled."
+      ]
+    },
+    {
+      "name": "Head Bowl",
+      "text": [
+        "The kappa has a bowl-like indentation on its head which holds water from the river or lake where it lives. If the kappa's head bowl is empty, it has disadvantage on attack rolls and ability checks until the bowl is refilled with water.",
+        "Normal movement and combat do not cause water to spill from the bowl, but an opponent can empty the bowl by knocking the kappa prone or by making two successful grapple attacks one to grab the kappa, and one to tip its head while it is grappled."
+      ]
+    },
+    {
+      "name": "Slippery",
+      "text": [
+        "The kappa has advantage on ability checks and saving throws made to escape a grapple."
+      ]
+    },
+    {
+      "name": "Sure-footed",
+      "text": [
+        "The kappa has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The kappa makes two claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (2d4 + 4) slashing damage. The target is grappled (escape DC 14) if it is a Large or smaller creature and the kappa doesn't already have another creature grappled."
+      ],
+      "attack": [
+        "Claw|6|2d4+4"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 234",
+  "environment": "swamp, underwater"
+}

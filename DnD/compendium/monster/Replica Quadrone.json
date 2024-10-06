@@ -1,0 +1,68 @@
+{
+  "name": "Replica Quadrone",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Lawful Neutral",
+  "ac": "16 (natural armor)",
+  "hp": "22 (4d8+4)",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "12",
+  "dex": "14",
+  "con": "12",
+  "int": "10",
+  "wis": "10",
+  "cha": "11",
+  "skill": "Perception +2",
+  "passive": "12",
+  "languages": "Modron",
+  "cr": "1",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Axiomatic Mind",
+      "text": [
+        "The quadrone can't be compelled to act in a manner contrary to its nature or its instructions."
+      ]
+    },
+    {
+      "name": "Dismantlable",
+      "text": [
+        "If the replica quadrone dies, its body falls into a pile of parts (gears, plates, screws, and wires), leaving behind its weapons and anything else it was carrying."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The quadrone makes two fist attacks or four shortbow attacks."
+      ]
+    },
+    {
+      "name": "Fist",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) bludgeoning damage."
+      ],
+      "attack": [
+        "Fist|+3|1d4+1"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Variant: Rogue Modrons",
+      "text": [
+        "A modron unit sometimes becomes defective, either through natural decay or exposure to chaotic forces. Rogue modrons don't act in accordance with Primus's wishes and directives, breaking laws, disobeying orders, and even engaging in violence. Other modrons hunt down such rogues.",
+        "A rogue modron loses the Axiomatic Mind trait and can have any alignment other than lawful neutral. Otherwise, it has the same statistics as a regular modron of its rank."
+      ]
+    }
+  ],
+  "description": "\nSource: The Orrery of the Wanderer p. 132"
+}

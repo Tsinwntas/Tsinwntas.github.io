@@ -1,0 +1,40 @@
+{
+  "name": "Young Remorhaz",
+  "size": "L",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "14 (natural armor)",
+  "hp": "93 (11d10+33)",
+  "speed": "walk 30 ft., burrow 30 ft.",
+  "str": "18",
+  "dex": "13",
+  "con": "17",
+  "int": "3",
+  "wis": "10",
+  "cha": "4",
+  "passive": "10",
+  "cr": "5",
+  "immune": "cold, fire",
+  "senses": "darkvision 60 ft., tremorsense 60 ft.",
+  "trait": [
+    {
+      "name": "Heated Body",
+      "text": [
+        "A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 20 (3d10 + 4) piercing damage plus 7 (2d6) fire damage."
+      ],
+      "attack": [
+        "Bite|+6|3d10+4"
+      ]
+    }
+  ],
+  "description": "From beneath the snow and ice bursts a remorhaz in a cloud of steam, its body pulsing with internal fire. Wing like fins flare from the back of the creature's head, and its wide mouth brims with jagged teeth.\nArctic Predators. Remorhazes live in arctic climes, preying on elk, polar bears, and other creatures sharing their territory. They can't tolerate warm weather, having adapted to the cold by generating a furnace-like heat within their bodies. When hunting, a remorhaz burrows deep below the snow and ice and lies in wait for the faint vibrations created by a creature moving above it. While hidden under the ice and snow, it can lower its body temperature so that it doesn't melt its cover.\nYoung Ones. Frost giant hunters scour the icy wastes for remorhaz nests and eggs. The giants prize young remorhazes, which can be trained from hatching to obey commands and guard the giants' icy citadels. Unlike fully grown specimens, young remorhazes gnaw on their victims instead of swallowing them whole.\nSource: Monster Manual p. 258, Storm King's Thunder, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "arctic"
+}

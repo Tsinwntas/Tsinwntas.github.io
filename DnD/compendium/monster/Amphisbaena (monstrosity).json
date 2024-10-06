@@ -1,0 +1,46 @@
+{
+  "name": "Amphisbaena (monstrosity)",
+  "size": "M",
+  "type": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 30 ft., swim 30 ft.",
+  "str": "14",
+  "dex": "18",
+  "con": "12",
+  "int": "3",
+  "wis": "10",
+  "cha": "3",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "1/2",
+  "senses": "blindsight 10 ft.",
+  "trait": [
+    {
+      "name": "Two Heads",
+      "text": [
+        "The Amphisbaena (monstrosity) has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The Amphisbaena (monstrosity) makes two bite attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 3 (1d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Bite|+6|1d4+4",
+        "Bite||1d6"
+      ]
+    }
+  ],
+  "description": "\nSource: Ghosts of Saltmarsh p. 230, Mythic Odysseys of Theros"
+}

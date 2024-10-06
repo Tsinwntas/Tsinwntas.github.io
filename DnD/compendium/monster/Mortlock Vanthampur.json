@@ -1,0 +1,54 @@
+{
+  "name": "Mortlock Vanthampur",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Lawful Evil",
+  "ac": "12",
+  "hp": "90 (12d8+36)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "14",
+  "con": "17",
+  "int": "10",
+  "wis": "12",
+  "cha": "13",
+  "skill": "Athletics +6, Intimidation +5",
+  "passive": "11",
+  "languages": "Common",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Indomitable (2/Day)",
+      "text": [
+        "Mortlock can reroll a saving throw that he fails. He must use the new roll."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Mortlock makes two attacks with his greatclub."
+      ]
+    },
+    {
+      "name": "Greatclub",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (2d4 + 4) bludgeoning damage, plus 5 (2d4) bludgeoning damage if Mortlock has taken any damage since his last turn."
+      ],
+      "attack": [
+        "Greatclub|+6|2d4+4"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. 7 (1d10 + 2) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+4|1d10+2"
+      ]
+    }
+  ],
+  "description": "Mortlock is tolerated by his mother, Duke Thalamra Vanthampur, and despised by his older brothers, Thurstwell and Amrik, who view him as a simpleton and an abomination. Half of Mortlock's face was scarred by fire when he was a child, and his disfigurement gives him a fearsome countenance.\nSource: Baldur's Gate: Descent Into Avernus p. 26"
+}

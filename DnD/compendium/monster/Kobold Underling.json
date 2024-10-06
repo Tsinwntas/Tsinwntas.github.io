@@ -1,0 +1,60 @@
+{
+  "name": "Kobold Underling",
+  "size": "S",
+  "type": "humanoid (kobold)",
+  "alignment": "Lawful Evil",
+  "ac": "13",
+  "hp": "7 (3d6-3)",
+  "speed": "walk 30 ft.",
+  "str": "7",
+  "dex": "16",
+  "con": "9",
+  "int": "8",
+  "wis": "9",
+  "cha": "8",
+  "passive": "9",
+  "languages": "Common, Draconic",
+  "cr": "1/8",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Messy End",
+      "text": [
+        "The kobold explodes 3 rounds after it dies, or immediately if it was killed by a critical hit. The explosion destroys the kobold's body, leaving its equipment behind. Each creature within 5 feet of the exploding kobold must make a DC 10 Dexterity saving throw, taking 4 (1d8) bludgeoning damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "Kobolds are craven reptilian humanoids that commonly infest dungeons. They make up for their physical ineptitude with a cleverness for trap making.\nSource: Explorer's Guide to Wildemount p. 221"
+}

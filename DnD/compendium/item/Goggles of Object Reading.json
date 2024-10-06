@@ -1,0 +1,7 @@
+{
+  "name": "Goggles of Object Reading",
+  "detail": "Wondrous item",
+  "type": "W",
+  "magic": "1",
+  "text": "These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence (Arcana) checks made to reveal information about a creature or object you can see.\nIn addition, you can cast the identify spell using the googles. Once you do so, you can't do so again until the next dawn.\nSource: Explorer's Guide to Wildemount p. 267"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "class",
+  "size": 20,
+  "content": [
+    "Barbarian",
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Fighter",
+    "Monk",
+    "Paladin",
+    "Ranger",
+    "Rogue",
+    "Sorcerer",
+    "Warlock",
+    "Wizard",
+    "Artificer",
+    "Artificer (UA)",
+    "Artificer (Revisited) (UA)",
+    "Mystic (UA)",
+    "Ranger (Spell-less) (UA)",
+    "Ranger (Ambuscade) (UA)",
+    "Ranger (Revised) (UA)",
+    "Blood Hunter"
+  ]
+}

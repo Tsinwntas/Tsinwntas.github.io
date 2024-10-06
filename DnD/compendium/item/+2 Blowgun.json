@@ -1,0 +1,11 @@
+{
+  "name": "+2 Blowgun",
+  "detail": "major, martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "1",
+  "property": "A,LD,M",
+  "dmg1": "1",
+  "dmgType": "P",
+  "range": "25/100",
+  "text": "You have a +2 bonus to attack and damage rolls made with this magic weapon.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 213"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Shadow Skeleton",
+  "size": "M",
+  "type": "undead (skeleton)",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft., swim 40 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "15",
+  "int": "9",
+  "wis": "11",
+  "cha": "9",
+  "passive": "10",
+  "languages": "Understands the languages it knew in life but can't speak",
+  "cr": "2",
+  "resist": "fire, piercing, slashing",
+  "immune": "poison",
+  "conditionImmune": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The shadow skeleton makes two scimitar attacks."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 7 (1d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|5|1d8+3"
+      ]
+    },
+    {
+      "name": "Finger Darts",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 30 ft., one target. 5 (1d4 + 3) piercing damage plus 3 (1d6) necrotic damage. If the target is a creature other than an undead or a construct, it must make a DC 12 Constitution saving throw. On a failure, the target is surrounded by a shadowy aura for 1 minute.",
+        "While surrounded by the aura, the target takes an extra 7 (2d6) necrotic damage when hit by the scimitar attack of a shadow skeleton. Any creature can take an action to extinguish the shadow with a successful DC 12 Intelligence (Arcana) check. The shadow also extinguishes if the target receives magical healing."
+      ],
+      "attack": [
+        "Finger Darts|5|1d4+3"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 342",
+  "environment": "underwater"
+}

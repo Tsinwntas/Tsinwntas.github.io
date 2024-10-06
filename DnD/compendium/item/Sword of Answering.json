@@ -1,0 +1,11 @@
+{
+  "name": "Sword of Answering",
+  "detail": "major, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "Sword of Answering (Answerer)\nSword of Answering (Back Talker)\nSword of Answering (Concluder)\nSword of Answering (Last Quip)\nSword of Answering (Rebutter)\nSword of Answering (Replier)\nSword of Answering (Retorter)\nSword of Answering (Scather)\nSword of Answering (Squelcher)\nFound On: Magic Item Table I\nSource: Dungeon Master's Guide p. 206"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Blood Hunter",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "16 (half plate armor)",
+  "hp": "65 (10d8+20)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "12",
+  "con": "15",
+  "int": "9",
+  "wis": "16",
+  "cha": "11",
+  "save": "Str +7, Wis +6",
+  "skill": "Acrobatics +4, Insight +6, Perception +6",
+  "passive": "16",
+  "languages": "any one language (usually Common)",
+  "cr": "5",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Blood Curse of Binding (1/Day)",
+      "text": [
+        "As a bonus action, the blood hunter targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Strength saving throw or have its speed reduced to 0 and be unable to take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    },
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The blood hunter has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The blood hunter has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (1/Day)",
+      "text": [
+        "The blood hunter can innately cast hex. Its innate spellcasting ability is Intelligence.",
+        "At will: hex"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The blood hunter attacks twice with a weapon."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage plus 3 (1d6) fire damage."
+      ],
+      "attack": [
+        "Greatsword|+7|2d6+4"
+      ]
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. 6 (1d10 + 1) piercing damage."
+      ],
+      "attack": [
+        "Heavy Crossbow|+4|1d10+1"
+      ]
+    }
+  ],
+  "spells": "hex",
+  "description": "To mortals and monsters alike, the blood hunter is a legendary figure—a humanoid stalker said to embrace monstrous power. Long years ago, a group of mortals undertook dark rituals and alchemical experiments to gain the power of the deadliest monsters, allowing them to better hunt those monsters.\nBlood hunters are steely on the surface, but roiling emotion lies beneath that impassive mask. Bestial fury and fathomless sorrow drive every stroke of a blood hunter's blade. Humanoids who draw the ire of a blood hunter are often in league with monsters—or the victims of a terrible misunderstanding. Such misunderstandings are tough to clear up, for blood hunters are the kind of folk to slay first and ask questions later.\nSource: Explorer's Guide to Wildemount p. 284"
+}

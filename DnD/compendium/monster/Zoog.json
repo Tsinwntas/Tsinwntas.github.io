@@ -1,0 +1,29 @@
+{
+  "name": "Zoog",
+  "size": "T",
+  "type": "aberration",
+  "alignment": "Chaotic Evil",
+  "ac": "13",
+  "hp": "3 (1d4+1)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "3",
+  "dex": "16",
+  "con": "12",
+  "int": "11",
+  "wis": "10",
+  "cha": "8",
+  "skill": "Perception +2, Stealth +5",
+  "passive": "12",
+  "languages": "Deep Speech",
+  "cr": "0",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 1 piercing damage."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 396"
+}

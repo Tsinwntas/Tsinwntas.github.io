@@ -1,0 +1,77 @@
+{
+  "name": "Eye Golem",
+  "size": "L",
+  "type": "construct,tome of Beasts",
+  "alignment": "unaligned",
+  "ac": "20 (natural armor)",
+  "hp": "157 (15d10+75)",
+  "speed": "30 ft.",
+  "str": "22",
+  "dex": "9",
+  "con": "20",
+  "int": "5",
+  "wis": "11",
+  "cha": "1",
+  "skill": "Perception +8",
+  "immune": "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
+  "conditionImmune": "charmed, exhausted, frightened, paralyzed, petrified, poisoned",
+  "senses": "truesight 120 ft.",
+  "passive": "18",
+  "languages": " understands the language of its creator, but can't speak",
+  "cr": "11",
+  "trait": [
+    {
+      "name": "Immutable Form",
+      "text": [
+        "The golem is immune to any spell or effect that would alter its form."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The golem has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The golem's weapon attacks are magical."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The golem makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Slam",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5ft., one target. Hit: 24 (4d8 + 6) bludgeoning damage."
+      ],
+      "attack": [
+        "Slam|10|4d8+6"
+      ]
+    },
+    {
+      "name": "Gaze of Ancient Light (Recharge 6)",
+      "text": [
+        "The golem emits a burst of blinding light, affecting all opponents within 30 feet who are visible to it. These creatures must make a successful DC 17 Constitution saving throw or be permanently blinded. All affected creatures, including those that save successfully, are stunned until the end of their next turn."
+      ]
+    },
+    {
+      "name": "Primal Voice of Doom (1/Day)",
+      "text": [
+        "The golem intones a disturbing invocation of the sun god. Creatures within 30 feet of the golem must make a successful DC 17 Wisdom saving throw or become frightened Deaf or unhearing creatures are unaffected."
+      ]
+    },
+    {
+      "name": "Shoot into the Sun (1 minute/day)",
+      "text": [
+        "When roused for combat, the golem opens many of its eyes, emitting blinding light. All ranged attacks, including ranged spells that require a spell attack roll, are made with disadvantage against the golem. The effect persists as long as the eye golem desires, up to a total of 1 minute (10 rounds) per day."
+      ]
+    }
+  ]
+}

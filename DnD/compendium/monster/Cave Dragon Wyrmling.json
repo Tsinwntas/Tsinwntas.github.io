@@ -1,0 +1,55 @@
+{
+  "name": "Cave Dragon Wyrmling",
+  "size": "M",
+  "type": "dragon,tome of Beasts",
+  "alignment": "neutral evil",
+  "ac": "16 (natural armor)",
+  "hp": "75 (10d8+30)",
+  "speed": "30 ft., burrow 20 ft., fly 20 ft.",
+  "str": "19",
+  "dex": "12",
+  "con": "17",
+  "int": "8",
+  "wis": "10",
+  "cha": "12",
+  "save": "Dex +3, Con +5, Cha +3",
+  "skill": "Perception +2, Stealth +5",
+  "immune": "acid, poison, thunder",
+  "conditionImmune": "poisoned",
+  "senses": "blindsight 120 ft.",
+  "passive": "12",
+  "languages": " Draconic",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Tunneler",
+      "text": [
+        "The cave dragon can burrow through solid rock at half its burrowing speed and leaves a 5-foot wide, 5-foot high tunnel in its wake."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The dragon's innate spellcasting ability is Charisma. It can innately cast the following spell, requiring no material components:",
+        "3/day: darkness"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 3 (1d6) poison damage."
+      ],
+      "attack": [
+        "Bite|6|2d6+4"
+      ]
+    },
+    {
+      "name": "Poison Breath (Recharge 5-6)",
+      "text": [
+        "The dragon exhales a cone of black poison gas in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 14 (4d6) poison damage on a failed save and the target is poisoned if it is a creature. The poisoned condition lasts until the target takes a long or short rest or removes the condition with lesser restoration. If the save is successful, the target takes half the damage and does not become poisoned."
+      ]
+    }
+  ]
+}

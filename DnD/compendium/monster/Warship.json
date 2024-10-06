@@ -1,0 +1,101 @@
+{
+  "name": "Warship",
+  "size": "G",
+  "type": "vehicle (100 ft. x 20 ft.)",
+  "alignment": "Unaligned",
+  "ac": "15",
+  "hp": "500",
+  "speed": "4 miles per hour (96 miles per day)",
+  "str": "20",
+  "dex": "4",
+  "con": "20",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, prone, stunned, unconscious",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "500"
+      ]
+    },
+    {
+      "name": "Hull:",
+      "text": [
+        "Armor Class: 15",
+        "Hit Points: 500 (damage threshold 20)"
+      ]
+    },
+    {
+      "name": "Control:",
+      "text": [
+        "Helm",
+        "Armor Class: 18",
+        "Hit Points: 50",
+        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the warship can't turn."
+      ]
+    },
+    {
+      "name": "Movement:",
+      "text": [
+        "Oars",
+        "Armor Class: 12",
+        "Hit Points: 100; -5 ft. speed per 25 damage taken"
+      ]
+    },
+    {
+      "name": "Movement:",
+      "text": [
+        "Sails",
+        "Armor Class: 12",
+        "Hit Points: 100; -10 ft. speed per 25 damage taken"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "text": [
+        "On its turn, the warship can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
+        "• Fire Ballistas. The warship can fire its ballista (DMG, ch. 8).",
+        "• Fire Mangonels. The warship can fire its mangonel (DMG, ch. 8).",
+        "• Move. The warship can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
+      ]
+    },
+    {
+      "name": "Weapons:",
+      "text": [
+        "Ballistas (2)",
+        "Armor Class: 15",
+        "Hit Points: 50 each",
+        "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. 16 (3d10) piercing damage."
+      ],
+      "attack": [
+        "Weapons:|+6|3d10"
+      ]
+    },
+    {
+      "name": "Weapons:",
+      "text": [
+        "Mangonels (2)",
+        "Armor Class: 15",
+        "Hit Points: 100 each",
+        "Ranged Weapon Attack: +5 to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. 27 (5d10) bludgeoning damage."
+      ],
+      "attack": [
+        "Weapons:|+5|5d10"
+      ]
+    },
+    {
+      "name": "Weapons:",
+      "text": [
+        "Naval Ram",
+        "Armor Class: 20",
+        "Hit Points: 100 (damage threshold 10)",
+        "The warship has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the warship."
+      ]
+    }
+  ],
+  "description": "Example Crew\nA warship requires a large crew to properly sail the vessel. Warships carry extra soldiers to fight battles and fire the siege weapons. If the characters are guests on a warship, the crew consists of the following creatures, all of which have proficiency with water vehicles in addition to their normal statistics:\n• One captain (bandit captain)\n• Four other officers: a first mate, a bosun, a quartermaster, and a cook (noble)\n• Twenty-five sailors (commoner)\nA warship typically includes the following additional crew to augment its fighting ability:\n• Forty soldiers (guard)\n• Eight siege engineers (guard)\n• One priest (the ship's surgeon)\n1. Main Deck\nThe main deck of the ship has the following features:\n• Mangonel. Sailing ships have one mangonel (DMG, ch. 8) attached to the deck. Warships have two mangonels (DMG, ch. 8). Each weapon has 10 mangonel stones stacked and secured near it.\n• Hatch. A covered, 10-foot-square opening leads to the lower deck (area W8).\n• Railing. The main deck has a 3-foot-high rail around its perimeter that provides half cover for Medium creatures and three-quarters cover for Small creatures behind it.\n• Rowboats. Four rowboat are stacked on top of each other on this deck. Ropes and pulleys can hoist these boats in and out of the water.\n2. Officers' Quarters\nFour beds stand in the officer's quarters. Beneath each is an iron footlocker that holds the officers' belongings. The officers sleep in shifts so someone remains on duty to command the crew and carry out the captain's orders.\n3. Captain's Quarters\nThe captain's quarters hold a bed and a desk. Beneath the bed is an iron footlocker that holds the captain's belongings.\n4. Siege Weapon Ammunition\nShelves and rope on the walls of this cabin secure mangonel stones and ballista arrows.\n5. Supplies\nThis area holds tools, barrels of tar, rope, extra material to repair sails, and other supplies needed to maintain the ship.\n6. Forecastle\nThe forecastle has the following features:\n• Ballista. A ballista (DMG, ch. 8) is attached to the deck. Ten ballista arrows are stacked and secured nearby.\n• Figurehead. Warships have an iron figurehead at the front of their forecastle, often shaped to look like a fearsome sea predator. This figurehead serves as the ship's naval ram.\n• Railing. The forecastle has a 3-foot-high rail around its perimeter that provides half cover for Medium creatures and three-quarters cover for Small creatures behind it.\n7. Quarterdeck\nThe quarterdeck has the following features:\n• Ballista. On a warship, a ballista (DMG, ch. 8) is attached to the deck. Ten ballista arrows are stacked and secured nearby.\n• Railing. The quarterdeck has a 3-foot-high rail around its perimeter that provides half cover for Medium creatures and three-quarters cover for Small creatures behind it.\n• Wheel. The ship's wheel stands at the aft of the quarterdeck.\n8. Oar Deck\nTwenty-two benches are built into the deck of the lower deck, each with a 20-foot-long oar. When the ship is rowed, crew members sit on these benches to work the oars. Ten spare oars hang on the walls of the ship.\n9. Privy\nBenches line the walls of this room. Four holes carved in them house chamber pots.\n10. Medical Cabin\nHooks and shelves on the walls hold medical instruments, bandages, balms, tonics, jars of leeches, and more, ready to treat injuries from combat or sailing mishaps.\n11. Brig\nThis cabin is meant for guests and visiting high-ranking officials along for the journey. Since warships often have a greater need to house prisoners rather than guests, each bed aboard such a vessel also has a set of manacles (see chapter 5 in the Player's Handbook) attached to its frame.\n12. Hold\nThis area houses both passengers and cargo. The ship's off-duty crew sleep on bedrolls among the crates and barrels of food, water, and other supplies.\n13. Armory\nThe ship's supply of weapons and armor is held in this cabin. Its walls are fitted with built-in weapon and armor racks. The door to this cabin is usually locked, the key kept by one of the ship's officers.\nSource: Ghosts of Saltmarsh p. 194"
+}

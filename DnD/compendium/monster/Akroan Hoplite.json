@@ -1,0 +1,54 @@
+{
+  "name": "Akroan Hoplite",
+  "size": "M",
+  "type": "humanoid",
+  "alignment": "Any alignment",
+  "ac": "18 (breastplate, shield)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "16",
+  "dex": "16",
+  "con": "14",
+  "int": "11",
+  "wis": "14",
+  "cha": "13",
+  "save": "Str +5, Dex +5",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "3",
+  "trait": [
+    {
+      "name": "Hold the Line",
+      "text": [
+        "While the hoplite is holding a spear, other creatures provoke an opportunity attack from the hoplite when they move within 5 feet of it. When the hoplite hits a creature with an opportunity attack using its spear, the creature takes an extra 4 (1d8) piercing damage, and the creature's speed becomes 0 for the rest of the turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hoplite makes three melee attacks or two ranged attacks."
+      ]
+    },
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., or range 20/60 ft., one target. 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Shield Bash",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 5 (1d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Shield Bash|+5|1d4+3"
+      ]
+    }
+  ],
+  "description": "Akroan hoplites, also called stratians, number among the fiercest soldiers on Theros. They train relentlessly and possess unflinching resolve. In the annals of Akros, tales abound of squads of stratians that defended a key location against a much larger force or crept behind enemy lines and wreaked havoc in the opposing army.\nHoplites are highly trained warriors, versed not only in strategy and tactics but in the glorification of the warrior's spirit, the basis of an ethos that forges an unbreakable bond between members of a military unit. In combat, hoplites typically work in groups and use coordinated tactics to win victories.\nThe three Hoplite Unit Names tables present the sorts of titles used by hoplite contingents hailing from Theros's great poleis. Consider using these names for military forces characters encounter during their adventures or that they were once a part of.\nAkroan Hoplite Unit Names\nD8 | Name\n1 | Spears of Iroas\n2 | Iron Fangs\n3 | Arrows of Anax\n4 | The Unbroken\n5 | Anvil of Purphoros\n6 | Skewering Squad\n7 | Shield of Akros\n8 | Cymede's Heart\n\nSource: Mythic Odysseys of Theros p. 228"
+}

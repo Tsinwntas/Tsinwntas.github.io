@@ -1,0 +1,61 @@
+{
+  "name": "Roachling Lord",
+  "size": "S",
+  "type": "humanoid (roachling),tome of Beasts",
+  "alignment": "chaotic neutral",
+  "ac": "15 (natural armor)",
+  "hp": "63 (14d6+14)",
+  "speed": "25 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "12",
+  "int": "10",
+  "wis": "10",
+  "cha": "10",
+  "save": "Dex +5, Con +3",
+  "skill": "Acrobatics +5, Stealth +7",
+  "senses": "darkvision 60 ft., tremorsense 10 ft.",
+  "passive": "9",
+  "languages": " Common",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Resistant",
+      "text": [
+        "The roachling skirmisher has advantage on Constitution saving throws."
+      ]
+    },
+    {
+      "name": "Unlovely",
+      "text": [
+        "The skirmisher has disadvantage on Performance and Persuasion checks in interactions with nonroachlings."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The roachling lord makes two melee attacks or throws two darts."
+      ]
+    },
+    {
+      "name": "Begrimed Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) poison damage."
+      ],
+      "attack": [
+        "Begrimed Shortsword|5|1d6+3"
+      ]
+    },
+    {
+      "name": "Begrimed Dart",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 7 (2d6) poison damage."
+      ],
+      "attack": [
+        "Begrimed Dart|5|1d4+2"
+      ]
+    }
+  ]
+}

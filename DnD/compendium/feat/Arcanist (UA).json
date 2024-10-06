@@ -1,0 +1,13 @@
+{
+  "name": "Arcanist (UA)",
+  "text": "You study the arcane arts, gaining the following benefits:\n• You gain proficiency in the Arcana skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n• You learn the prestidigitation and detect magic spells. You can cast detect magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest.\nSource: Unearthed Arcana: Feats For Skills p. 1",
+  "modifier": [
+    {
+      "_": "Intelligence +1",
+      "$": {
+        "category": "ability score"
+      }
+    }
+  ],
+  "proficiency": "Arcana"
+}

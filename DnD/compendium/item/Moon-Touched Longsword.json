@@ -1,0 +1,11 @@
+{
+  "name": "Moon-Touched Longsword",
+  "detail": "minor, martial Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "3",
+  "property": "V,M",
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "text": "In darkness, the unsheathed blade of this sword sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet.\nSource: Xanathar's Guide to Everything p. 138"
+}

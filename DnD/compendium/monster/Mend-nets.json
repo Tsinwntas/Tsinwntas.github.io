@@ -1,0 +1,38 @@
+{
+  "name": "Mend-nets",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "12 (hide armor)",
+  "hp": "11 (2d8+2)",
+  "speed": "walk 30 ft.",
+  "str": "13",
+  "dex": "11",
+  "con": "12",
+  "int": "8",
+  "wis": "11",
+  "cha": "8",
+  "passive": "10",
+  "languages": "any one language",
+  "cr": "1/8",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Spear",
+      "text": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+      ],
+      "attack": [
+        "Spear|+3|1d6+1"
+      ]
+    }
+  ],
+  "description": "\nSource: Rise of Tiamat p. 32"
+}

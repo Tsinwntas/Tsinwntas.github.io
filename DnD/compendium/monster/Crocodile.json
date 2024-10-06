@@ -1,0 +1,39 @@
+{
+  "name": "Crocodile",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "19 (3d10+3)",
+  "speed": "walk 20 ft., swim 30 ft.",
+  "str": "15",
+  "dex": "10",
+  "con": "13",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "skill": "Stealth +2",
+  "passive": "10",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Hold Breath",
+      "text": [
+        "The crocodile can hold its breath for 15 minutes."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target"
+      ],
+      "attack": [
+        "Bite|+4|1d10+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 320, Hoard of the Dragon Queen, Princes of the Apocalypse, Tomb of Annihilation, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Infernal Machine Rebuild, Explorer's Guide to Wildemount",
+  "environment": "swamp, urban"
+}

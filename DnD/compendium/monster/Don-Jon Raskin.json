@@ -1,0 +1,61 @@
+{
+  "name": "Don-Jon Raskin",
+  "size": "M",
+  "type": "humanoid (human)",
+  "alignment": "Neutral",
+  "ac": "10",
+  "hp": "44 (8d8+8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "10",
+  "con": "13",
+  "int": "12",
+  "wis": "10",
+  "cha": "14",
+  "save": "Dex +2, Con +3",
+  "skill": "Deception +4, Persuasion +4",
+  "passive": "10",
+  "languages": "Common, Dwarvish",
+  "cr": "1/2",
+  "trait": [
+    {
+      "name": "Brave",
+      "text": [
+        "Don-Jon has advantage on saving throws against being frightened."
+      ]
+    },
+    {
+      "name": "Not Dead Yet (Recharges after a Long Rest)",
+      "text": [
+        "If damage reduces Don-Jon to 0 hit points, he drops to 1 hit point instead and gains advantage on attack rolls until the end of his next turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Don-Jon makes three melee attacks."
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. 2 (1d4) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+2|1d4"
+      ]
+    },
+    {
+      "name": "Sling",
+      "text": [
+        "Ranged Weapon Attack: +2 to hit, range 30/120 ft., one target. 2 (1d4) bludgeoning damage."
+      ],
+      "attack": [
+        "Sling|+2|1d4"
+      ]
+    }
+  ],
+  "description": "Adventurers who undertake the Mountain's Toe Quest meet Don-Jon Raskin, a fearless troubleshooter who has experienced more than his fair share of adventures.\nSource: Essentials Kit: Dragon of Icespire Peak p. 56"
+}

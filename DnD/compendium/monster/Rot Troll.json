@@ -1,0 +1,57 @@
+{
+  "name": "Rot Troll",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "16 (natural armor)",
+  "hp": "138 (12d10+72)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "13",
+  "con": "22",
+  "int": "5",
+  "wis": "8",
+  "cha": "4",
+  "skill": "Perception +3",
+  "passive": "13",
+  "languages": "Giant",
+  "cr": "9",
+  "immune": "necrotic",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Rancid Degeneration",
+      "text": [
+        "At the end of each of the troll's turns, each creature within 5 feet of it takes 11 (2d10) necrotic damage, unless the troll has taken acid or fire damage since the end of its last turn."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The troll makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage plus 16 (3d10) necrotic damage."
+      ],
+      "attack": [
+        "Bite|+8|1d6+4"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage plus 5 (1d10) necrotic damage."
+      ],
+      "attack": [
+        "Claws|+8|2d6+4"
+      ]
+    }
+  ],
+  "description": "Rot Troll. A troll that is infused with waves of necrotic energy as it regenerates can develop a symbiotic relationship with that deathly power. The troll's body withers, and its flesh falls away from the body as quickly as it forms. Eventually a rot troll becomes unable to regenerate, though it still heals normally. The creature courses with necrotic energy that flows out of its withered form. Simply standing near a rot troll exposes other creatures to its lethal emanations.\nTrolls. Trolls that are nearly obliterated but survive and regenerate from mere scraps of flesh can display bizarre mutations. One of these warped trolls is especially likely to arise if the creature regenerates in the presence of magical emanations, planar energy, disease, or death on a vast scale, or if its body was damaged by elemental forces. These mutated forms can also be produced and shaped by the ritual magic of evil spellcasters.\nSource: Mordenkainen's Tome of Foes p. 244, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath",
+  "environment": "desert, forest, swamp, underdark"
+}

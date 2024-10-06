@@ -1,0 +1,45 @@
+{
+  "name": "Goliath",
+  "size": "M",
+  "speed": "30",
+  "ability": "Str 2, Con 1",
+  "proficiency": "Athletics",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Volo's Guide to Monsters p. 108, Elemental Evil Player's Companion p. 10, Explorer's Guide to Wildemount p. 175, Icewind Dale: Rime of the Frostmaiden"
+    },
+    {
+      "name": "Age",
+      "text": "Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Goliath society, with its clear roles and tasks, has a strong lawful bent. The goliath sense of fairness, balanced with an emphasis on self sufficiency and personal accountability, pushes them toward neutrality.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium.\n"
+    },
+    {
+      "name": "Natural Athlete",
+      "text": "You have proficiency in the Athletics skill.\n"
+    },
+    {
+      "name": "Stone's Endurance",
+      "text": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.\n"
+    },
+    {
+      "name": "Powerful Build",
+      "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n"
+    },
+    {
+      "name": "Mountain Born",
+      "text": "You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Giant.\n"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Githyanki Kith'rak",
+  "size": "M",
+  "type": "humanoid (gith)",
+  "alignment": "Lawful Evil",
+  "ac": "18 (plate armor)",
+  "hp": "180 (24d8+72)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "16",
+  "con": "17",
+  "int": "16",
+  "wis": "15",
+  "cha": "17",
+  "save": "Con +7, Int +7, Wis +6",
+  "skill": "Intimidation +7, Perception +6",
+  "passive": "16",
+  "languages": "Gith",
+  "cr": "12",
+  "trait": [
+    {
+      "name": "Rally the Troops",
+      "text": [
+        "As a bonus action, the githyanki can magically end the charmed and frightened conditions on itself and each creature of its choice that it can see within 30 feet of it."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (Psionics)",
+      "text": [
+        "The githyanki's innate spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
+        "At will: mage hand (the hand is invisible)",
+        "3/day each: blur, jump, misty step, nondetection (self only)",
+        "1/day each: plane shift, telekinesis"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The githyanki makes three greatsword attacks."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage plus 17 (5d6) psychic damage."
+      ],
+      "attack": [
+        "Greatsword|+8|2d6+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": "The githyanki adds 4 to its AC against one melee attack that would hit it. To do so, the githyanki must see the attacker and be wielding a melee weapon."
+    }
+  ],
+  "spells": "mage hand, blur, jump, misty step, nondetection, plane shift, telekinesis",
+  "description": "\nWhat would become of this multiverse if githyanki didn't guard the Astral Plane from the illithid menace? What would reality become if beings of thought ruled the plane of thought?\n — Mordenkainen\n\nGithyanki Kith'rak. The githyanki's militarized culture assigns ranks and responsibilities to its citizens. Groups of ten warriors follow the commands of the sarths (githyanki warriors), while ten sarths obey the commands of the mighty kith'rak. These champions earn their status through torturous training and psionic testing until they can command the respect of their underlings.\nGith. The descendants of an ancient people—so old their original name has been lost—have turned against each other, becoming vicious enemies divided over mortality, purpose, and the machinations of their leaders. The bellicose githyanki terrorize the Astral Plane, raiding into other worlds to plunder the multiverse of its magic and riches. The githzerai live apart from the rest of the cosmos, content within the confines of their fortresses floating through the chaos of Limbo. Although the two groups of gith despise each other, their hatred for the mind flayers from whom they escaped endures, and both githyanki and githzerai are dedicated to hunting their ancestral foes.\nSource: Mordenkainen's Tome of Foes p. 205",
+  "environment": "desert, mountain, urban"
+}

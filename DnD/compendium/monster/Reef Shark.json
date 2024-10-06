@@ -1,0 +1,46 @@
+{
+  "name": "Reef Shark",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12 (natural armor)",
+  "hp": "22 (4d8+4)",
+  "speed": "swim 40 ft.",
+  "str": "14",
+  "dex": "13",
+  "con": "13",
+  "int": "1",
+  "wis": "10",
+  "cha": "4",
+  "skill": "Perception +2",
+  "passive": "12",
+  "cr": "1/2",
+  "senses": "blindsight 30 ft.",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Water Breathing",
+      "text": [
+        "The shark can breathe only underwater."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "Smaller than giant sharks and hunter sharks, reef sharks inhabit shallow waters and coral reefs, gathering in small packs to hunt. A full-grown specimen measures 6 to 10 feet long.\nSource: Monster Manual p. 336, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount",
+  "environment": "underwater"
+}

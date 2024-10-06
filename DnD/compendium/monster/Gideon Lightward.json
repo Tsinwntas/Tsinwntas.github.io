@@ -1,0 +1,60 @@
+{
+  "name": "Gideon Lightward",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Lawful Evil",
+  "ac": "11",
+  "hp": "136 (16d8+64)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "13",
+  "con": "18",
+  "int": "10",
+  "wis": "18",
+  "cha": "13",
+  "save": "Dex +4, Con +7, Wis +7",
+  "skill": "Insight +7, Religion +6",
+  "passive": "14",
+  "languages": "Common",
+  "cr": "6",
+  "resist": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "necrotic, poison",
+  "vulnerable": "radiant",
+  "conditionImmune": "exhaustion, paralyzed, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Regeneration",
+      "text": [
+        "Gideon regains 10 hit points at the start of each of his turns. If he takes radiant damage, this trait doesn't function at the start of his next turn. Gideon is destroyed only if he starts his turn with 0 hit points and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Gideon attacks twice with his fists."
+      ]
+    },
+    {
+      "name": "Fist",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage."
+      ],
+      "attack": [
+        "Fist|+7|2d6+4"
+      ]
+    },
+    {
+      "name": "Withering Gaze",
+      "text": [
+        "Gideon targets one creature he can see within 60 feet of him. The target must make a DC 15 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Withering Gaze||4d10"
+      ]
+    }
+  ],
+  "description": "Gideon Lightward was a priest of Lathander who served Elturel and his deity proudly. Zariel saw that his fervor could be an asset to her, so she sent devils to corrupt him in the months leading up to the fall of Elturel. The devils posed as angels, offering Gideon increased power if he would dedicate himself to fighting the ever-present threat of demons.\nGideon slowly gave up his sanity and free will to the devils, leaving him corrupted by Zariel and fully serving her in the months leading up to Elturel's fall. He died during the destruction wrought as the city was drawn to Avernus, but the priest rose as an undead creature. Even as an undead, Gideon remains his mistress's most loyal servant in Elturel. He sees his cause as a noble one—fighting the demons whose chaos marks the end of all things. But his mind is broken and filled with hatred for those who refuse to follow his commands.\nSource: Baldur's Gate: Descent Into Avernus p. 65"
+}

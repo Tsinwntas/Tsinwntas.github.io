@@ -1,0 +1,61 @@
+{
+  "name": "Trepsin",
+  "size": "L",
+  "type": "giant",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "84 (8d10+40)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "13",
+  "con": "20",
+  "int": "7",
+  "wis": "9",
+  "cha": "7",
+  "skill": "Perception +2",
+  "passive": "11",
+  "languages": "Giant",
+  "cr": "6",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The troll has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "text": [
+        "The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The troll attacks five times, once with its bite and four times with its claws. If two or more claws hit the same target, the troll rends the target, dealing an extra 2d6 slashing damage."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+7|1d6+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|+7|2d6+4"
+      ]
+    }
+  ],
+  "description": "Sometimes when a troll loses a limb, it regenerates two limbs to replace the one it lost. This can result in trolls with multiple arms. A four-armed troll uses the troll stat block, except that it is a Challenge Rating 6 monster (2,300 XP) and has alternate action options to suit.\nSource: Hoard of the Dragon Queen p. 63"
+}

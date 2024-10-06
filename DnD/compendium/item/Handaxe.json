@@ -1,0 +1,12 @@
+{
+  "name": "Handaxe",
+  "detail": "simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "value": "5.0",
+  "property": "L,T",
+  "dmg1": "1d6",
+  "dmgType": "S",
+  "range": "20/60",
+  "text": "Source: Player's Handbook p. 149"
+}

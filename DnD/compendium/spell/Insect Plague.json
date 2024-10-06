@@ -1,0 +1,19 @@
+{
+  "name": "Insect Plague",
+  "level": "5",
+  "school": "C",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "300 feet",
+  "components": "V, S, M (a few grains of sugar, some kernels of grain, and a smear of fat)",
+  "duration": "Concentration, up to 10 minutes",
+  "classes": "Cleric, Druid, Sorcerer, Cleric (Nature), Cleric (Tempest), Druid (Land), Druid (Land), Druid (Land), Druid (Land), Druid (Land), Ranger (Swarmkeeper), Cleric (Strength (PSA)), Ranger (Swarmkeeper (UA)), Paladin (Conquest (UA)), Ranger (Primeval Guardian (UA))",
+  "text": "Swarming, biting locusts fill a 20-foot-radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere's area is difficult terrain.\nWhen the area appears, each creature in it must make a Constitution saving throw. A creature takes 4d10 piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.\nSource: Player's Handbook p. 254",
+  "roll": [
+    "4d10",
+    "5d10",
+    "6d10",
+    "7d10",
+    "8d10"
+  ]
+}

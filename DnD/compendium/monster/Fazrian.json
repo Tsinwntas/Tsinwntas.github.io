@@ -1,0 +1,71 @@
+{
+  "name": "Fazrian",
+  "size": "L",
+  "type": "celestial",
+  "alignment": "Lawful Good",
+  "ac": "19 (natural armor)",
+  "hp": "200 (16d10+112)",
+  "speed": "walk 40 ft., fly 120 ft.",
+  "str": "24",
+  "dex": "20",
+  "con": "24",
+  "int": "19",
+  "wis": "22",
+  "cha": "25",
+  "save": "Con +12, Wis +11, Cha +12",
+  "skill": "Perception +11",
+  "passive": "21",
+  "languages": "all, telepathy 120 ft.",
+  "cr": "16",
+  "resist": "radiant; bludgeoning, piercing, slashing from nonmagical attacks",
+  "conditionImmune": "charmed, exhaustion, frightened",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Angelic Weapons",
+      "text": [
+        "Fazrian's weapon attacks are magical. When Fazrian hits with any weapon, the weapon deals an extra 5d8 radiant damage (included in the attack)."
+      ]
+    },
+    {
+      "name": "Divine Awareness",
+      "text": [
+        "Fazrian knows if it hears a lie."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Fazrian has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Fazrian's spellcasting ability is Charisma (spell save DC 20). Fazrian can innately cast the following spells, requiring no material components:",
+        "At will: detect evil and good, invisibility (self only)",
+        "3/day each: blade barrier, dispel evil and good, flame strike, raise dead",
+        "1/day each: commune, control weather, insect plague"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Fazrian makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "text": [
+        "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage."
+      ],
+      "attack": [
+        "Greatsword|+12|4d6+7"
+      ]
+    }
+  ],
+  "spells": "detect evil and good, invisibility, blade barrier, dispel evil and good, flame strike, raise dead, commune, control weather, insect plague",
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 275"
+}

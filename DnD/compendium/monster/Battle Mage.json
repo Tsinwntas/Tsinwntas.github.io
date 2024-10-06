@@ -1,0 +1,69 @@
+{
+  "name": "Battle Mage",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "12 (15 with mage armor)",
+  "hp": "66 (12d8+12)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "14",
+  "con": "12",
+  "int": "18",
+  "wis": "14",
+  "cha": "12",
+  "save": "Con +3, Int +6",
+  "skill": "Arcana +6, History +6",
+  "passive": "12",
+  "languages": "Common",
+  "cr": "4",
+  "trait": [
+    {
+      "name": "Overchannel",
+      "text": [
+        "As a bonus action, a battle mage can overchannel its spells until the start of its next turn. A creature has disadvantage on its saving throws against an overchanneled spell. Attack rolls against the battle mage have advantage until the start of its next turn."
+      ]
+    },
+    {
+      "name": "Tactical Casting",
+      "text": [
+        "When a battle mage casts a spell that causes damage or that forces a creature to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to automatically succeed on the required saving throw."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The battle mage is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The battle mage has the following Wizard spells prepared:",
+        "Cantrips (at will): fire bolt, mage hand, poison spray, shocking grasp",
+        "• 1st level (4 slots): burning hands, mage armor, magic missile, thunderwave",
+        "• 2nd level (3 slots): flaming sphere, misty step, shatter",
+        "• 3rd level (3 slots): counterspell, fireball, lightning bolt",
+        "• 4th level (1 slots): ice storm"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|4|1d6+2"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Self-Defense Casting",
+      "text": [
+        "When the battle mage is hit by a weapon attack, it can cast a cantrip against the attacker."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 1"
+  ],
+  "spells": "{@spell fire bolt, {@spell mage hand, {@spell poison spray, {@spell shocking grasp, {@spell burning hands, {@spell mage armor, {@spell magic missile, {@spell thunderwave, {@spell flaming sphere, {@spell misty step, {@spell shatter, {@spell counterspell, {@spell fireball, {@spell lightning bolt, {@spell ice storm",
+  "description": "Source: CCodex (3pp) p. 397"
+}

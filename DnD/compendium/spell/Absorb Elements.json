@@ -1,0 +1,23 @@
+{
+  "name": "Absorb Elements",
+  "level": "1",
+  "school": "A",
+  "ritual": "NO",
+  "time": "1 reaction",
+  "range": "Self",
+  "components": "S",
+  "duration": "1 round",
+  "classes": "Druid, Ranger, Sorcerer, Wizard, Artificer, Artificer (Revisited) (UA)",
+  "text": "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.\nSource: Xanathar's Guide to Everything p. 150, Elemental Evil Player's Companion p. 15",
+  "roll": [
+    "1d6",
+    "2d6",
+    "3d6",
+    "4d6",
+    "5d6",
+    "6d6",
+    "7d6",
+    "8d6",
+    "9d6"
+  ]
+}

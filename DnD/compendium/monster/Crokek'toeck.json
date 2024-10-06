@@ -1,0 +1,73 @@
+{
+  "name": "Crokek'toeck",
+  "size": "G",
+  "type": "fiend (demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "15 (natural armor)",
+  "hp": "297 (17d20+119)",
+  "speed": "walk 60 ft., swim 60 ft.",
+  "str": "28",
+  "dex": "10",
+  "con": "24",
+  "int": "6",
+  "wis": "10",
+  "cha": "13",
+  "save": "Con +12, Wis +5",
+  "passive": "10",
+  "languages": "understands Abyssal but can't speak",
+  "cr": "14",
+  "resist": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "immune": "poison",
+  "conditionImmune": "charmed, frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "Crokek'toeck can breathe air and water."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Crokek'toeck has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "Crokek'toeck's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Secure Memory",
+      "text": [
+        "Crokek'toeck is immune to the waters of the River Styx as well as any effect that would steal or modify its memories or detect or read its thoughts."
+      ]
+    },
+    {
+      "name": "Standing Leap",
+      "text": [
+        "Crokek'toeck's long jump is up to 60 feet and its high jump is up to 30 feet, with or without a running start."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. 44 (10d6 + 9) piercing damage."
+      ],
+      "attack": [
+        "Bite|+14|10d6+9"
+      ]
+    },
+    {
+      "name": "Disgorge Allies (Recharge 6)",
+      "text": [
+        "Crokek'toeck opens its mouth and disgorges 1d4 barlgura, 3d6 gnoll led by 1 gnoll fang of Yeenoghu, 6d6 dretch, or 1d3 vrock. Each creature it disgorges appears in an unoccupied space within 30 feet of Crokek'toeck's mouth, or the next closest unoccupied space."
+      ]
+    }
+  ],
+  "description": "Crokek'toeck is Yeenoghu's demonic pet. Resembling a giant mudskipper with the teeth, fur, ears, and laugh of a hyena, this unique demon can hold smaller demons in its gullet and disgorge them anywhere Yeenoghu wishes. Immune to the mind-shattering effects of the River Styx, Crokek'toeck is often used to transport smaller demons (and sometimes Yeenoghu himself) through the Styx's terrible waters.\nSource: Baldur's Gate: Descent Into Avernus p. 231"
+}

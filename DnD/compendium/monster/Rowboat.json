@@ -1,0 +1,49 @@
+{
+  "name": "Rowboat",
+  "size": "L",
+  "type": "vehicle (10 ft. x 5 ft.)",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "50",
+  "speed": "3 miles per hour (72 miles per day)",
+  "str": "11",
+  "dex": "8",
+  "con": "11",
+  "int": "0",
+  "wis": "0",
+  "cha": "0",
+  "immune": "poison, psychic",
+  "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, prone, stunned, unconscious",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "50"
+      ]
+    },
+    {
+      "name": "Hull:",
+      "text": [
+        "Armor Class: 11",
+        "Hit Points: 50"
+      ]
+    },
+    {
+      "name": "Movement:",
+      "text": [
+        "Oars",
+        "Armor Class: 12",
+        "Hit Points: 25"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "text": [
+        "On its turn, the rowboat can take the move action below. It can't take this action if it has no crew.",
+        "• Move. The rowboat can move using its oars."
+      ]
+    }
+  ],
+  "description": "The humble rowboat serves to ferry passengers back and forth from larger ships or to navigate lakes and rivers. Due to its simple, versatile design, a rowboat has no decks or typical crew. Weighing 100 pounds, a rowboat is easy to transport and might be carried by larger ships.\nSource: Ghosts of Saltmarsh p. 190"
+}

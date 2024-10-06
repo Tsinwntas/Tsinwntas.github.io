@@ -1,0 +1,140 @@
+{
+  "name": "Mindful Marauder",
+  "size": "M",
+  "type": "undead",
+  "alignment": "Lawful Evil",
+  "ac": "17 (natural armor)",
+  "hp": "97 (13d8+39)",
+  "speed": "walk 20 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "17",
+  "int": "11",
+  "wis": "18",
+  "cha": "16",
+  "save": "Con +8, Int +5, Wis +9, Cha +8",
+  "skill": "History +5, Religion +5",
+  "passive": "14",
+  "languages": "the languages it knew in life",
+  "cr": "15",
+  "immune": "necrotic, poison; bludgeoning, piercing, slashing from nonmagical attacks",
+  "vulnerable": "fire",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The marauder has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "text": [
+        "A destroyed marauder gains a new body in 24 hours if its heart is intact, regaining all its hit points and becoming active again. The new body appears within 5 feet of the marauder's heart."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The marauder is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The marauder has the following cleric spells prepared:",
+        "Cantrips (at will): sacred flame, thaumaturgy",
+        "• 1st level (4 slots): command, guiding bolt, shield of faith",
+        "• 2nd level (3 slots): hold person, silence, spiritual weapon",
+        "• 3rd level (3 slots): animate dead, dispel magic",
+        "• 4th level (3 slots): divination, guardian of faith",
+        "• 5th level (2 slots): contagion, insect plague",
+        "• 6th level (1 slots): harm"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The mummy can use its Dreadful Glare and makes one attack with its rotting fist."
+      ]
+    },
+    {
+      "name": "Rotting Fist",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 14 (3d6 + 4) bludgeoning damage plus 21 (6d6) necrotic damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
+      ],
+      "attack": [
+        "Rotting Fist|+9|3d6+4"
+      ]
+    },
+    {
+      "name": "Dreadful Glare",
+      "text": [
+        "The marauder targets one creature it can see within 60 feet of it. If the target can see the marauder, it must succeed on a DC 16 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and marauders for the next 24 hours."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The undead can take 5 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The undead regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Attack",
+      "text": [
+        "The marauder makes one attack with its rotting fist or uses its Dreadful Glare."
+      ]
+    },
+    {
+      "name": "Blinding Dust",
+      "text": [
+        "Blinding dust and sand swirls magically around the marauder. Each creature within 5 feet of the marauder must succeed on a DC 16 Constitution saving throw or be blinded until the end of the creature's next turn."
+      ]
+    },
+    {
+      "name": "Blasphemous Word (Costs 2 Actions)",
+      "text": [
+        "The marauder utters a blasphemous word. Each non-undead creature within 10 feet of the marauder that can hear the magical utterance must succeed on a DC 16 Constitution saving throw or be stunned until the end of the marauder's next turn."
+      ]
+    },
+    {
+      "name": "Channel Negative Energy (Costs 2 Actions)",
+      "text": [
+        "The marauder magically unleashes negative energy. Creatures within 60 feet of the marauder, including ones behind barriers and around corners, can't regain hit points until the end of the marauder's next turn."
+      ]
+    },
+    {
+      "name": "Whirlwind of Sand (Costs 2 Actions)",
+      "text": [
+        "The marauder magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the marauder is immune to all damage, and it can't be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the marauder remain in its possession."
+      ]
+    },
+    {
+      "name": "Lair Actions"
+    },
+    {
+      "text": [
+        "On initiative count 20 (losing initiative ties), the mummy lord takes a lair action to cause one of the following effects; the mummy lord can't use the same effect two rounds in a row:",
+        "• Each undead creature in the lair can pinpoint the location of each living creature within 120 feet of it until initiative count 20 on the next round.",
+        "• Each undead in the lair has advantage on saving throws against effects that turn undead until initiative count 20 on the next round.",
+        "• Until initiative count 20 on the next round, any non-undead creature that tries to cast a spell of 4th level or lower in the mummy lord's lair is wracked with pain. The creature can choose another action, but if it tries to cast the spell, it must make a DC 16 Constitution saving throw. On a failed save, it takes 1d6 necrotic damage per level of the spell, and the spell has no effect and is wasted."
+      ]
+    },
+    {
+      "name": "Regional Effects"
+    },
+    {
+      "text": [
+        "A mummy lord's temple or tomb is warped in any of the following ways by the creature's dark presence:",
+        "• Food instantly molders and water instantly evaporates when brought into the lair. Other non magical drinks are spoiled - wine turning to vinegar, for instance.",
+        "• Divination spells cast within the lair by creatures other than the mummy lord have a 25 percent chance to provide misleading results, as determined by the DM. If a divination spell already has a chance to fail or become unreliable when cast multiple times, that chance increases by 25 percent.",
+        "• A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all saving throws. The curse lasts until removed by a remove curse spell or other magic.",
+        "If the mummy lord is destroyed, these regional effects end immediately."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1"
+  ],
+  "spells": "sacred flame, thaumaturgy, command, guiding bolt, shield of faith, hold person, silence, spiritual weapon, animate dead, dispel magic, divination, guardian of faith, contagion, insect plague, harm",
+  "description": "\nSource: Plane Shift: Amonkhet p. 34",
+  "environment": "desert"
+}

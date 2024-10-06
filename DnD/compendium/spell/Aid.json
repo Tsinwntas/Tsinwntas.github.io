@@ -1,0 +1,12 @@
+{
+  "name": "Aid",
+  "level": "2",
+  "school": "A",
+  "ritual": "NO",
+  "time": "1 action",
+  "range": "30 feet",
+  "components": "V, S, M (a tiny strip of white cloth)",
+  "duration": "8 hours",
+  "classes": "Cleric, Paladin, Artificer, Artificer, Cleric (Peace), Sorcerer (Clockwork Soul), Bard, Ranger, Cleric (Solidarity (PSA)), Cleric (Unity (UA)), Artificer (UA), Artificer (Revisited) (UA), Bard, Ranger, Cleric (Protection (UA))",
+  "text": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.\nAt Higher Levels:\nWhen you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.\nSource: Player's Handbook p. 211"
+}

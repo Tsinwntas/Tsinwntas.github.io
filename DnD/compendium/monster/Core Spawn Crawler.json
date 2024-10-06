@@ -1,0 +1,66 @@
+{
+  "name": "Core Spawn Crawler",
+  "size": "S",
+  "type": "aberration",
+  "alignment": "Chaotic Evil",
+  "ac": "12",
+  "hp": "21 (6d6)",
+  "speed": "walk 30 ft.",
+  "str": "7",
+  "dex": "14",
+  "con": "10",
+  "int": "9",
+  "wis": "12",
+  "cha": "6",
+  "skill": "Perception +5",
+  "passive": "15",
+  "languages": "understands Deep Speech but can't speak",
+  "cr": "1",
+  "immune": "psychic",
+  "conditionImmune": "blinded",
+  "senses": "blindsight 30 ft. (blind beyond this radius), tremorsense 60 ft.",
+  "trait": [
+    {
+      "name": "Pack Tactics",
+      "text": [
+        "The crawler has advantage on an attack roll against a creature if at least one of the crawler's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The crawler makes four attacks: one with its bite, two with its claws, and one with its tail."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) piercing damage and the target must succeed on a DC 11 Wisdom saving throw or become frightened until the start of the crawler's next turn."
+      ],
+      "attack": [
+        "Bite|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 15 ft., one target. 4 (1d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 15 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Tail|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "The smallest and most numerous of the core spawn, these eyeless creatures scurry through the subterranean darkness with the help of their four irregular, gangly arms and hooked prehensile tails. Core spawn crawlers rarely travel alone, and a group of these agile predators is known as a vein of crawlers. Their clattering taloned limbs warn of their presence as they scuttle through the shadow-haunted depths of the earth.\nOffspring of Calamity\nThe aberrant creatures known as core spawn are a subterranean breed of heralds, servants, foot soldiers, and lieutenants of the Elder Evils, awakened in the depths by the cataclysmic actions of the Betrayer Gods and their minions. They often appear on the surface world in the wake of seismic events, such as that which created the bottomless Miskath Pit of Eastern Wynandir. Warlocks and cultists sometimes gather together to hasten the arrival of core spawn to the Material Plane, focusing their arcane power on areas of natural seismic instability when the signs and stars are right.\nSource: Explorer's Guide to Wildemount p. 286"
+}

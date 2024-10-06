@@ -1,0 +1,30 @@
+{
+  "name": "Axe Beak",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "19 (3d10+3)",
+  "speed": "walk 50 ft.",
+  "str": "14",
+  "dex": "12",
+  "con": "12",
+  "int": "2",
+  "wis": "10",
+  "cha": "5",
+  "passive": "10",
+  "cr": "1/4",
+  "action": [
+    {
+      "name": "Beak",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage."
+      ],
+      "attack": [
+        "Beak|+4|1d8+2"
+      ]
+    }
+  ],
+  "description": "An axe beak is a tall flightless bird with strong legs and a heavy, wedge-shaped beak. It has a nasty disposition and tends to attack any unfamiliar creature that wanders too close.\nSource: Monster Manual p. 317, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden",
+  "environment": "grassland, hill"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Prophetess Dran",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Lawful Good",
+  "ac": "14 (breastplate)",
+  "hp": "27 (5d8+5)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "10",
+  "con": "12",
+  "int": "13",
+  "wis": "16",
+  "cha": "13",
+  "skill": "Medicine +5, Persuasion +3, Religion +5",
+  "passive": "13",
+  "languages": "Common, Elvish",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Divine Eminence",
+      "text": [
+        "As a bonus action, Prophetess can expend a spell slot to cause her melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Prophetess expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Prophetess has advantage on saving throws against being charmed, and magic can't put her to sleep."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Prophetess is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). Prophetess has the following cleric spells prepared:",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): cure wounds, guiding bolt, sanctuary",
+        "• 2nd level (3 slots): lesser restoration, spiritual weapon",
+        "• 3rd level (2 slots): dispel magic, spirit guardians"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Maul",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 9 (2d6 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Maul|+4|2d6+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 2"
+  ],
+  "spells": "light, sacred flame, thaumaturgy, cure wounds, guiding bolt, sanctuary, lesser restoration, spiritual weapon, dispel magic, spirit guardians",
+  "description": "\nSource: Acquisitions Incorporated p. 208"
+}

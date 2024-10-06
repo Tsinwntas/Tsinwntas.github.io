@@ -1,0 +1,58 @@
+{
+  "name": "Skeemo Weirdbottle",
+  "size": "S",
+  "type": "humanoid (gnome)",
+  "alignment": "Lawful Evil",
+  "ac": "12 (15 with mage armor)",
+  "hp": "72 (16d6+16)",
+  "speed": "walk 25 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "12",
+  "int": "17",
+  "wis": "12",
+  "cha": "15",
+  "save": "Int +6, Wis +4",
+  "skill": "Arcana +6, History +6, Perception +4, Performance +5",
+  "passive": "14",
+  "languages": "Abyssal, Common, Gnomish, Undercommon",
+  "cr": "6",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Gnome Cunning",
+      "text": [
+        "Skeemo has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "Skeemo is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks) He has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
+        "• 1st level (4 slots): detect magic, mage armor, magic missile, shield",
+        "• 2nd level (3 slots): misty step, suggestion",
+        "• 3rd level (3 slots): counterspell, fireball, fly",
+        "• 4th level (3 slots): greater invisibility, ice storm",
+        "• 5th level (1 slots): cone of cold"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+2",
+        "Dagger|+5|1d4+2"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 1"
+  ],
+  "spells": "fire bolt, light, mage hand, prestidigitation, detect magic, mage armor, magic missile, shield, misty step, suggestion, counterspell, fireball, fly, greater invisibility, ice storm, cone of cold",
+  "description": "Skeemo became the Master of Magic for the Black Network in Waterdeep, setting up a cover in the Trades Ward in the form of a cramped little shop called Weirdbottle's Concoctions. Most of his potions and elixirs are nonmagical, but he crafts magical ones for his Zhent friends.\nSkeemo can add \"sellout\" to his credentials, his services having been bought by House Gralhund and the Black Network operatives loyal to Manshoon. The rock gnome uses paper birds (see appendix A) to send messages both to his new friends and his old ones.\nThe Doom Raiders. The Doom Raiders were five unscrupulous adventurers who liked to plunder lich lairs (called \"dooms\" by some). They gave up adventuring to join the Black Network and came to Waterdeep three years ago with plans to establish a Zhentarim foothold in the city. In that time, they have forged alliances with various nobles and guilds and run afoul of others, all the while fending off Harper spies.\nSource: Waterdeep: Dragon Heist p. 200"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Crystal Ball",
+  "detail": "Wondrous item, major",
+  "type": "W",
+  "magic": "1",
+  "weight": "3",
+  "text": "This crystal ball is about 6 inches in diameter. While touching it, you can cast the scrying spell (save DC 17) with it.\nFound On: Magic Item Table H\nSource: Dungeon Master's Guide p. 159"
+}

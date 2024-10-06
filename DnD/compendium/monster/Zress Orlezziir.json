@@ -1,0 +1,95 @@
+{
+  "name": "Zress Orlezziir",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral Evil",
+  "ac": "16 (chain mail)",
+  "hp": "162 (25d8+50)",
+  "speed": "walk 30 ft.",
+  "str": "14",
+  "dex": "19",
+  "con": "15",
+  "int": "12",
+  "wis": "14",
+  "cha": "13",
+  "save": "Dex +8, Con +6, Wis +6",
+  "skill": "Perception +6, Stealth +8",
+  "passive": "16",
+  "languages": "Elvish, Undercommon",
+  "cr": "9",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Battle Command",
+      "text": [
+        "As a bonus action, Zress targets one ally he can see within 30 feet of him. If the target can see or hear Zress, the target can use its reaction to make one melee attack or to take the Dodge or Hide action."
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Zress has advantage on saving throws against being charmed, and magic can't put Zress to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, Zress has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Zress's innate spellcasting ability is Charisma (spell save DC 13). He can innately cast the following spells, requiring no material components:",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire, levitate (self only)"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Zress makes three attacks: two with his scimitar and one with his whip or his hand crossbow."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 7 (1d6 + 4) slashing damage plus 14 (4d6) poison damage."
+      ],
+      "attack": [
+        "Scimitar|+8|1d6+4"
+      ]
+    },
+    {
+      "name": "Whip",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 6 (1d4 + 4) slashing damage. If the target is an ally, it has advantage on attack rolls until the end of its next turn."
+      ],
+      "attack": [
+        "Whip|+8|1d4+4"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +8 to hit, range 30/120 ft., one target. 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
+      ],
+      "attack": [
+        "Hand Crossbow|+8|1d6+4"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "Zress adds 3 to his AC against one melee attack that would hit him. To do so, Zress must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "spells": "dancing lights, darkness, faerie fire, levitate",
+  "description": "\nSource: Waterdeep: Dungeon of the Mad Mage p. 136",
+  "environment": "underdark"
+}

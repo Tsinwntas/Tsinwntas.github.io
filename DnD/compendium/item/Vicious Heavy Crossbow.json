@@ -1,0 +1,14 @@
+{
+  "name": "Vicious Heavy Crossbow",
+  "detail": "major, martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "18",
+  "property": "A,H,LD,2H,M",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "range": "100/400",
+  "text": "When you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.\nNote: According to the SRD, it is an extra 2d6 piercing damage.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 209",
+  "roll": [
+    "2d6"
+  ]
+}

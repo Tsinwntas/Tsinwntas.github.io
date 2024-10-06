@@ -1,0 +1,64 @@
+{
+  "name": "Ortimay Swift and Dark",
+  "size": "S",
+  "type": "humanoid (gnome)",
+  "alignment": "Any Non-Lawful Alignment",
+  "ac": "15 (studded leather armor)",
+  "hp": "65 (10d8+20)",
+  "speed": "walk 25 ft.",
+  "str": "15",
+  "dex": "16",
+  "con": "14",
+  "int": "14",
+  "wis": "11",
+  "cha": "14",
+  "save": "Str +4, Dex +5, Wis +2",
+  "skill": "Athletics +4, Deception +4",
+  "passive": "10",
+  "languages": "any two languages, Gnomish",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Gnome Cunning",
+      "text": [
+        "<$title_short_name$> has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Ortimay makes three melee attacks: two with its scimitar and one with its dagger. Or Ortimay makes two ranged attacks with its daggers."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Dagger",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Dagger|+5|1d4+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Parry",
+      "text": [
+        "Ortimay adds 2 to its AC against one melee attack that would hit it. To do so, Ortimay must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ],
+  "description": "\nSource: Tomb of Annihilation p. 21"
+}

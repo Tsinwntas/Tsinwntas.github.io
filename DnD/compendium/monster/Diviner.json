@@ -1,0 +1,61 @@
+{
+  "name": "Diviner",
+  "size": "M",
+  "type": "humanoid (any race)",
+  "alignment": "Any alignment",
+  "ac": "12 (15 with mage armor)",
+  "hp": "67 (15d8)",
+  "speed": "walk 30 ft.",
+  "str": "9",
+  "dex": "14",
+  "con": "11",
+  "int": "18",
+  "wis": "12",
+  "cha": "11",
+  "save": "Int +7, Wis +4",
+  "skill": "Arcana +7, History +7",
+  "passive": "11",
+  "languages": "any four languages",
+  "cr": "8",
+  "trait": [
+    {
+      "name": "Portent (Recharges after the Diviner Casts a Divination Spell of 1st Level or Higher)",
+      "text": [
+        "When the diviner or a creature it can see makes an attack roll, a saving throw, or an ability check, the diviner can roll a d20 and choose to use this roll in place of the attack roll, saving throw, or ability check."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The diviner is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The diviner has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, light, mage hand, message, true strike",
+        "• 1st level (4 slots): detect magic*, feather fall, mage armor",
+        "• 2nd level (3 slots): detect thoughts*, locate object*, scorching ray",
+        "• 3rd level (3 slots): clairvoyance*, fly, fireball",
+        "• 4th level (3 slots): arcane eye*, ice storm, stoneskin",
+        "• 5th level (2 slots): Rary's telepathic bond*, seeming",
+        "• 6th level (1 slots): mass suggestion, true seeing*",
+        "• 7th level (1 slots): delayed blast fireball, teleport",
+        "• 8th level (1 slots): maze",
+        "* Divination spell of 1st level or higher"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Quarterstaff",
+      "text": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+      ],
+      "attack": [
+        "Quarterstaff|+2|1d6-1"
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1, 1, 1"
+  ],
+  "spells": "fire bolt, light, mage hand, message, true strike, detect magic, feather fall, mage armor, detect thoughts, locate object, scorching ray, clairvoyance, fly, fireball, arcane eye, ice storm, stoneskin, Rary's telepathic bond, seeming, mass suggestion, true seeing, delayed blast fireball, teleport, maze",
+  "description": "Diviners are specialist wizards who know that knowledge is power. They might act aloof and mysterious, hinting at omens and secrets, or they might be know-it-alls, spilling secrets and insights to advance their own status or reputation.\nSource: Volo's Guide to Monsters p. 213",
+  "environment": "urban"
+}

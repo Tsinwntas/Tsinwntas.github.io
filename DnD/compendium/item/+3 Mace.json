@@ -1,0 +1,9 @@
+{
+  "name": "+3 Mace",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "4",
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "text": "You have a +3 bonus to attack and damage rolls made with this magic weapon.\nFound On: Magic Item Table H\nSource: Dungeon Master's Guide p. 213"
+}

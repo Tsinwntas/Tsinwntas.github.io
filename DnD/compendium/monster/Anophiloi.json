@@ -1,0 +1,63 @@
+{
+  "name": "Anophiloi",
+  "size": "S",
+  "type": "monstrosity",
+  "alignment": "Neutral",
+  "ac": "12",
+  "hp": "33 (6d6+12)",
+  "speed": "walk 30 ft., climb 20 ft., fly 40 ft.",
+  "str": "12",
+  "dex": "14",
+  "con": "14",
+  "int": "5",
+  "wis": "12",
+  "cha": "6",
+  "skill": "Stealth +4",
+  "passive": "11",
+  "cr": "1",
+  "resist": "poison",
+  "vulnerable": "cold",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The anophiloi has advantage on melee attack rolls against any creature that doesn't have all its hp."
+      ]
+    },
+    {
+      "name": "Blood Sense",
+      "text": [
+        "The anophiloi can pinpoint, by scent, the location of living creatures within 30 feet of it."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The anophiloi makes two attacks. one with its claws and one with its bite."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit.",
+        "5 (1d6 + 2) piercing damage, and if the target is Large or smaller, the anophiloi attaches to it. While attached, the anophiloi doesn't attack. Instead, at the start of each of the anophiloi's turns, the target loses 5 (1d6 + 2) hp due to blood loss.",
+        "The anophiloi can detach itself by spending 5 feet of its movement. It does so after it drains 20 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the anophiloi by succeed on a DC 13 Strength check."
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws|4|1d4+2"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)",
+  "environment": "farmland, forest"
+}

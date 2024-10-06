@@ -1,0 +1,123 @@
+{
+  "name": "Jotun Giant",
+  "size": "G",
+  "type": "giant,tome of Beasts",
+  "alignment": "chaotic neutral",
+  "ac": "20 (natural armor)",
+  "hp": "407 (22d20+176)",
+  "speed": "60 ft.",
+  "str": "30",
+  "dex": "8",
+  "con": "26",
+  "int": "18",
+  "wis": "20",
+  "cha": "14",
+  "save": "Con +14, Wis +11, Cha +8",
+  "skill": "Arcana +10, History +10, Nature +10, Stealth +5",
+  "resist": "bludgeoning, piercing, and slashing from nonmagical weapons",
+  "senses": "darkvision 120 ft.",
+  "passive": "15",
+  "languages": " Common, Giant",
+  "cr": "22",
+  "trait": [
+    {
+      "name": "Immortality",
+      "text": [
+        "Jotuns suffer no ill effects from age, and are immune to effects that reduce ability scores and hit point maximum."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The Jotun giant's innate spellcasting ability is Wisdom (spell save DC 19). It can innately cast the following spells, requiring no material components:",
+        "At will: earthquake, shapechange, speak with animals",
+        "3/day: bestow curse, gust of wind",
+        "1/day: divination"
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The giant has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The giant's weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Too Big to Notice",
+      "text": [
+        "The sheer size of the Jotun giant often causes those near it to confuse one at rest for part of the landscape. The jotun has advantage on Stealth checks when not moving."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The giant makes two greatclub attacks and a frightful presence attack, or one rock throwing attack."
+      ]
+    },
+    {
+      "name": "Greatclub",
+      "text": [
+        "Melee Weapon Attack: +16 to hit, reach 30 ft., one target. Hit: 55 (10d8 + 10) bludgeoning damage."
+      ],
+      "attack": [
+        "Greatclub|16|10d8+10"
+      ]
+    },
+    {
+      "name": "Rock",
+      "text": [
+        "Ranged Weapon Attack: +16 to hit, range 90/240 ft., one target. Hit: 49 (6d12 + 10) bludgeoning damage."
+      ],
+      "attack": [
+        "Rock|16|6d12+10"
+      ]
+    },
+    {
+      "name": "Frightful Presence",
+      "text": [
+        "Each creature of the giant's choice that is within 120 feet of the giant and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. Once a creature's saving throw is successful, it is immune to the giant's Frightful Presence for the next 24 hours."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "The Jotun giant can take 1 legendary action, and only at the end of another creature's turn",
+      "text": [
+        "The giant regains the spent legendary action at the start of its turn."
+      ]
+    },
+    {
+      "name": "Detect",
+      "text": [
+        "The Jotun giant makes a Wisdom (Perception) check."
+      ]
+    },
+    {
+      "name": "Planar Return",
+      "text": [
+        "If banished, a Jotun giant can return to the plane it departed 2/day. If banished a third time, it cannot return."
+      ]
+    },
+    {
+      "name": "Sweeping Blow",
+      "text": [
+        "The Jotun giant can sweep its greatclub in an arc around itself. The sweep affects a semicircular path 30 feet wide around the giant. All targets in that area take 46 (8d8 + 10) bludgeoning damage, or no damage with a successful DC 19 Dexterity saving throw."
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Rock Catching",
+      "text": [
+        "If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
+      ]
+    }
+  ]
+}

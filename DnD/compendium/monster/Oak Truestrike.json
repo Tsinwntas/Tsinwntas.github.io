@@ -1,0 +1,68 @@
+{
+  "name": "Oak Truestrike",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Neutral Good Neutral Evil",
+  "ac": "15 (studded leather armor)",
+  "hp": "32 (5d8+10)",
+  "speed": "walk 30 ft.",
+  "str": "13",
+  "dex": "16",
+  "con": "14",
+  "int": "10",
+  "wis": "13",
+  "cha": "11",
+  "skill": "Nature +4, Perception +3, Performance +2, Stealth +5, Survival +3",
+  "passive": "13",
+  "languages": "Common",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "Oak has advantage on saving throws against being charmed, and magic can't put him to sleep."
+      ]
+    },
+    {
+      "name": "Keen Hearing and Sight",
+      "text": [
+        "Oak has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Oak makes three attacks with his hooked daggers or his hand crossbow."
+      ]
+    },
+    {
+      "name": "Hooked Dagger",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Hooked Dagger|+5|1d4+3"
+      ]
+    },
+    {
+      "name": "Hand Crossbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow|+5|1d6+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Return the Favor (3/Day)",
+      "text": [
+        "When Oak takes damage from a melee weapon attack, he can make a hooked dagger attack."
+      ]
+    }
+  ],
+  "description": "Oak Truestrike is the \"B\" Team's decisionist-and, depending on who you talk to, a reincarnated demigod. (It's a long story.) Those who know him acknowledge his confidence, his arrogance, and his odd ability to engage with others by somehow saying exactly what each listener wants to hear. Whether this is some subtle magical ability or simply grifter's charm, he makes good use of it either way.\nOak becomes a radically different person with each of his reincarnations, flipping between neutral good and neutral evil. His memories of past lives have been fractured by his many deaths, but he spends each new life accounting for the previous life in a karmic-ledger kind of way. His current incarnation embraces the good side. Mostly. Except for that occasional toxic bitterness. Oh, and the misanthropy. Actually, if you end up hating this guy, it's probably not your fault.\nSource: Acquisitions Incorporated p. 205"
+}

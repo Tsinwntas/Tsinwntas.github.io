@@ -1,0 +1,60 @@
+{
+  "name": "Snow Cat",
+  "size": "M",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "13 (3d8)",
+  "speed": "walk 50 ft., climb 40 ft.",
+  "str": "14",
+  "dex": "14",
+  "con": "10",
+  "int": "3",
+  "wis": "14",
+  "cha": "7",
+  "skill": "Perception +4, Stealth +6",
+  "passive": "14",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Keen Senses",
+      "text": [
+        "The snow cat has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell."
+      ]
+    },
+    {
+      "name": "Stalker",
+      "text": [
+        "If the snow cat surprises a creature and hits it with a bite attack, the target is grappled (escape DC 12) if it is a Medium or smaller creature."
+      ]
+    },
+    {
+      "name": "Snow Camouflage",
+      "text": [
+        "The snow cat has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claw|4|1d4+2"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 346",
+  "environment": "arctic, forest"
+}

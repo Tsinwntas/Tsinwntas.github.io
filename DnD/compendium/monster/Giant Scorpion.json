@@ -1,0 +1,47 @@
+{
+  "name": "Giant Scorpion",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "52 (7d10+14)",
+  "speed": "walk 40 ft.",
+  "str": "15",
+  "dex": "13",
+  "con": "15",
+  "int": "1",
+  "wis": "9",
+  "cha": "3",
+  "passive": "9",
+  "cr": "3",
+  "senses": "blindsight 60 ft.",
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The scorpion makes three attacks: two with its claws and one with its sting."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target."
+      ],
+      "attack": [
+        "Claw|+4|1d8+2"
+      ]
+    },
+    {
+      "name": "Sting",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Sting|+4|1d10+2",
+        "Sting||4d10"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 327, Tales from the Yawning Portal, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount",
+  "environment": "desert"
+}

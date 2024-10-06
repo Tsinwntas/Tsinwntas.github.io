@@ -1,0 +1,42 @@
+{
+  "name": "Thunderbeast Skeleton",
+  "size": "H",
+  "type": "undead",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "68 (8d12+16)",
+  "speed": "walk 30 ft.",
+  "str": "19",
+  "dex": "11",
+  "con": "15",
+  "int": "2",
+  "wis": "12",
+  "cha": "5",
+  "passive": "11",
+  "cr": "3",
+  "immune": "poison",
+  "vulnerable": "bludgeoning",
+  "conditionImmune": "poisoned, exhaustion",
+  "senses": "darkvision 60 ft.",
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., 18 (4d6 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+7|4d6+4"
+      ]
+    },
+    {
+      "name": "Tail",
+      "text": [
+        "+7 to hit, reach 10 ft., one target. 18 (4d6 + 4) bludgeoning damage. Succeed on a DC14 Strength saving throw or be knocked prone."
+      ],
+      "attack": [
+        "Tail|+7|4d6+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Storm King's Thunder p. 99"
+}

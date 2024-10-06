@@ -1,0 +1,11 @@
+{
+  "name": "+2 Light Hammer",
+  "detail": "major, simple Weapon, Melee Weapon",
+  "type": "M",
+  "weight": "2",
+  "property": "L,T",
+  "dmg1": "1d4",
+  "dmgType": "B",
+  "range": "20/60",
+  "text": "You have a +2 bonus to attack and damage rolls made with this magic weapon.\nFound On: Magic Item Table G\nSource: Dungeon Master's Guide p. 213"
+}

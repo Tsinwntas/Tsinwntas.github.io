@@ -1,0 +1,36 @@
+{
+  "name": "Changeling",
+  "size": "M",
+  "speed": "30",
+  "ability": "Cha 2",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Eberron: Rising from the Last War p. 17, Wayfinder's Guide to Eberron p. 60"
+    },
+    {
+      "name": "Age",
+      "text": "Changelings mature slightly faster than humans but share a similar lifespan—typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Changelings tend toward pragmatic neutrality, and few changelings embrace evil.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Your size is Medium.\n"
+    },
+    {
+      "name": "Shapechanger",
+      "text": "As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.\nYou stay in the new form until you use an action to revert to your true form or until you die.\n"
+    },
+    {
+      "name": "Changeling Instincts",
+      "text": "You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, and Persuasion.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and two other languages of your choice.\n"
+    }
+  ]
+}

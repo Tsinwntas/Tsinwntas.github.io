@@ -1,0 +1,78 @@
+{
+  "name": "Shadow Goblin",
+  "size": "S",
+  "type": "humanoid (goblinoid)",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "13 (3d6+3)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "12",
+  "int": "13",
+  "wis": "12",
+  "cha": "8",
+  "skill": "Sleight of hand +5, Stealth +5",
+  "passive": "11",
+  "languages": "Common, Elvish, Goblin",
+  "cr": "1/2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Nimble Escape",
+      "text": [
+        "The shadow goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+      ]
+    },
+    {
+      "name": "Shadow Camouflage",
+      "text": [
+        "rThe shadow goblin has advantage on Dexterity (Stealth) checks made to hide in dim light or darkness."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the shadow goblin has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Traveler In Darkness",
+      "text": [
+        "The shadow goblin has advantage on Intelligence (Arcana) checks made to know about shadow roads and shadow magic spells or items."
+      ]
+    },
+    {
+      "name": "Unseelie Blessing",
+      "text": [
+        "The shadow goblin has advantage on saving throws against being charmed, and magic can't put it to sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The shadow goblin can make two attacks with its kitchen knife. The second attack has disadvantage."
+      ]
+    },
+    {
+      "name": "Kitchen Knife",
+      "text": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage."
+      ],
+      "attack": [
+        "Kitchen Knife|5|1d4+3"
+      ]
+    }
+  ],
+  "reaction": [
+    {
+      "name": "Vengeful Jinx",
+      "text": [
+        "When the shadow goblin is hit by an attack from a creature it can see, it can curse the attacker. The attacker has disadvantage on attack rolls until the end of its next turn."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp)"
+}

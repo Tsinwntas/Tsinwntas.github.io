@@ -1,0 +1,45 @@
+{
+  "name": "Giant Bat",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "22 (4d10)",
+  "speed": "walk 10 ft., fly 60 ft.",
+  "str": "15",
+  "dex": "16",
+  "con": "11",
+  "int": "2",
+  "wis": "12",
+  "cha": "6",
+  "passive": "11",
+  "cr": "1/4",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Echolocation",
+      "text": [
+        "The bat can't use its blindsight while deafened."
+      ]
+    },
+    {
+      "name": "Keen Hearing",
+      "text": [
+        "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Bite|+4|1d6+2"
+      ]
+    }
+  ],
+  "description": "\nSource: Monster Manual p. 323, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage, Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
+  "environment": "underdark, forest"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Servant Of The Vine",
+  "size": "M",
+  "type": "humanoid (elf)",
+  "alignment": "Chaotic Neutral",
+  "ac": "16 (breastplate)",
+  "hp": "72 (16d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "15",
+  "con": "11",
+  "int": "13",
+  "wis": "16",
+  "cha": "14",
+  "save": "Wis +6, Cha +5",
+  "skill": "Medicine +6, Perception +6, Persuasion +5",
+  "passive": "16",
+  "languages": "Common, Elvish, Sylvan",
+  "cr": "6",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Fey Ancestry",
+      "text": [
+        "The servant has advantage on saving throws against being charmed, and magic can't put the servant to sleep."
+      ]
+    },
+    {
+      "name": "Inspire Artistry (3/Day)",
+      "text": [
+        "The servant of the vine selects up to 6 creatures within 50 feet and grants them advantage to Dexterity (Acrobatics), Dexterity (Sleight of Hand), or Charisma (Performance) checks. The servant of the vine chooses which skill for each recipient."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "text": [
+        "The servant of the vine is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The servant of the vine has the following Cleric spells prepared:",
+        "Cantrips (at will): guidance, light, sacred flame, thaumaturgy",
+        "• 1st level (4 slots): bless, create or destroy water (creates or destroys wine; wine created this way evaporates after 1 day), cure wounds, sanctuary",
+        "• 2nd level (3 slots): hold person, lesser restoration, protection from poison",
+        "• 3rd level (3 slots): bestow curse, dispel magic",
+        "• 4th level (3 slots): guardian of faith, freedom of movement",
+        "• 5th level (2 slots): contagion",
+        "• 6th level (1 slots): harm, heal"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The servant makes three drunken slash attacks."
+      ]
+    },
+    {
+      "name": "Drunken Slash",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage and the target must succeed on a DC 14 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Drunken Slash|5|1d6+2"
+      ]
+    },
+    {
+      "name": "Stuporous Breath (Recharge 56)",
+      "text": [
+        "The servant of the vine exhales potent fumes in a 15-foot cone. Each creature in that area must make a DC 14 Constitution saving throw. On a failure, a creature takes 21 (6d6) poison damage and falls asleep, remaining unconscious for 1 minute. On a success, a creature takes half the damage but doesn't fall asleep. The unconscious target awakens if it takes damage or another creature takes an action to wake it. When the creature wakes, it is poisoned until it finishes a short or long rest. The breath has no effect on constructs or undead."
+      ]
+    }
+  ],
+  "slots": [
+    "4, 3, 3, 3, 2, 1"
+  ],
+  "spells": "guidance, light, sacred flame, thaumaturgy, bless, create or destroy water, cure wounds, sanctuary, hold person, lesser restoration, protection from poison, bestow curse, dispel magic, guardian of faith, freedom of movement, contagion, harm, heal",
+  "description": "Source: CCodex (3pp)"
+}

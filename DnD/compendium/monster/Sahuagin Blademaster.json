@@ -1,0 +1,77 @@
+{
+  "name": "Sahuagin Blademaster",
+  "size": "M",
+  "type": "humanoid (sahuagin)",
+  "alignment": "Lawful Evil",
+  "ac": "20 (plate armor, shield)",
+  "hp": "97 (15d8+30)",
+  "speed": "walk 30 ft., swim 40 ft.",
+  "str": "16",
+  "dex": "12",
+  "con": "14",
+  "int": "12",
+  "wis": "11",
+  "cha": "12",
+  "save": "Str +6, Con +5",
+  "skill": "Athletics +6, Intimidation +4",
+  "passive": "10",
+  "languages": "Sahuagin",
+  "cr": "6",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Blood Frenzy",
+      "text": [
+        "The blademaster has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "text": [
+        "The blademaster can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+      ]
+    },
+    {
+      "name": "Shark Telepathy",
+      "text": [
+        "The blademaster can magically command any shark within 120 feet of it, using a limited telepathy."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The blademaster makes three attacks with its wavecutter blade, or one attack with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Wavecutter Blade",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 12 (2d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Wavecutter Blade|+6|2d8+3"
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d10 + 3) piercing damage."
+      ],
+      "attack": [
+        "Bite|+6|1d10+3"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage."
+      ],
+      "attack": [
+        "Claws|+6|1d8+3"
+      ]
+    }
+  ],
+  "description": "A cunning veteran of countless campaigns, the sahuagin blademaster decorates its armor with the bones of its defeated foes. As demonstrated in The Final Enemy, sahuagin blademasters often serve as officers in the sa huagin army.\nSource: Ghosts of Saltmarsh p. 249, Essentials Kit: Sleeping Dragon's Wake, Locathah Rising"
+}

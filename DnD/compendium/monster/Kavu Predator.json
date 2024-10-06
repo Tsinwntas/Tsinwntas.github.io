@@ -1,0 +1,55 @@
+{
+  "name": "Kavu Predator",
+  "size": "L",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": "15 (natural armor)",
+  "hp": "75 (10d10+20)",
+  "speed": "walk 30 ft., climb 30 ft.",
+  "str": "18",
+  "dex": "12",
+  "con": "15",
+  "int": "6",
+  "wis": "14",
+  "cha": "8",
+  "skill": "Perception +4, Stealth +5",
+  "passive": "14",
+  "languages": "understands Elvish",
+  "cr": "2",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Pounce",
+      "text": [
+        "If the kavu moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the kavu can make one bite attack against it as a bonus action."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The kavu makes two claw attacks."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (1d10 + 4) piercing damage."
+      ],
+      "attack": [
+        "Bite|+6|1d10+4"
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|+6|1d6+4"
+      ]
+    }
+  ],
+  "description": "\nSource: Plane Shift: Dominaria p. 24"
+}

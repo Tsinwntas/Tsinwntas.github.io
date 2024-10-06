@@ -1,0 +1,44 @@
+{
+  "name": "Hybrid Brute",
+  "size": "M",
+  "type": "humanoid (Simic hybrid)",
+  "alignment": "Neutral Good",
+  "ac": "18 (natural armor)",
+  "hp": "52 (8d8+16)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "11",
+  "con": "15",
+  "int": "8",
+  "wis": "11",
+  "cha": "9",
+  "passive": "10",
+  "languages": "Common plus any one language",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Amphibious",
+      "text": [
+        "The hybrid can breathe air and water."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The hybrid makes two claw attacks."
+      ]
+    },
+    {
+      "name": "Claw",
+      "text": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 7 (1d6 + 4) slashing damage."
+      ],
+      "attack": [
+        "Claw|+6|1d6+4"
+      ]
+    }
+  ],
+  "description": "Simic Hybrids. The Guardian Project is a consequence of increasing tension within the Simic Combine as the threat of interguild conflict looms. Believing that the Simic must be prepared to fight for their lives when that conflict comes to a head, biomancers have created soldiers to help defend the guild. These hybrids (also called guardians, after the name of the project) are created from human, vedalken, and elf guild members who volunteer to be transformed.\nSource: Guildmasters' Guide to Ravnica p. 217"
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Queen Of Serpents",
+  "size": "M",
+  "type": "fey (shapechanger, animal lord)",
+  "alignment": "Lawful Neutral",
+  "ac": "17 (natural armor)",
+  "hp": "170 (20d8+80)",
+  "speed": "walk 30 ft., climb 30 ft., swim 30 ft.",
+  "str": "22",
+  "dex": "20",
+  "con": "18",
+  "int": "18",
+  "wis": "21",
+  "cha": "22",
+  "save": "Con +8, Wis +9, Cha +10",
+  "skill": "Arcana +8, Athletics +10, Deception +10, Nature +8, Perception +9, Persuasion +10, Stealth +9",
+  "passive": "19",
+  "languages": "All, telepathy 120 ft.",
+  "cr": "12",
+  "resist": "lightning; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "poison, psychic",
+  "conditionImmune": "charmed, exhaustion, frightened, incapacitated, poisoned, stunned",
+  "senses": "darkvision 120 ft.",
+  "trait": [
+    {
+      "name": "Bestowal Of Trust",
+      "text": [
+        "The Queen of Serpents can grant a single creature a +1 enhancement to Wisdom which lasts until the creature harms a reptile of any kind. Only one creature may have this enhancement at any time."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "The Queen of Serpents has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": [
+        "If the Queen of Serpents fails a saving throw, she can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The Queen of Serpents has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Magic Weapons",
+      "text": [
+        "The Queen of Serpents' weapon attacks are magical."
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "text": [
+        "If she dies, the Queen of Serpents' soul reforms on the Astral Plane. In 1d6 days, it inhabits the body of another serpent on the Material Plane which becomes the Queen of Serpents, with all of the hp and abilities thereof. Only killing every serpent on the Material Plane will prevent this trait from functioning."
+      ]
+    },
+    {
+      "name": "Serpent Passivism",
+      "text": [
+        "No serpents can willingly attack the Queen of Serpents. They can be forced to do so through magical means."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The Queen of Serpents can use her action to polymorph into a Large constrictor snake, a Medium human woman of middle age, or back into her true human-snake"
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "The queen of serpents's innate spellcasting ability is Charisma (spell save DC 18). It can innately cast the following spells, requiring no material components:",
+        "At will: pass without trace, purify food and drink, protection from poison",
+        "3/day each: darkness, scrying",
+        "2/day each: etherealness, freedom of movement",
+        "1/day each: astral projection, teleport"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "In human form, the Queen of Serpents makes three shortsword attacks. In her true form, she makes two attacks. one with her bite and one with her shortsword."
+      ]
+    },
+    {
+      "name": "Bite (Snake or True Form Only)",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 27 (6d6 + 6) piercing damage, and the target must make a DC 16 Constitution saving throw, taking 35 (10d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Bite (Snake or True Form Only)|10|6d6+6"
+      ]
+    },
+    {
+      "name": "Shortsword (Human or True Form Only)",
+      "text": [
+        "Melee Weapon Attack. +10 to hit, reach 5 ft., one creature. 9 (1d6 + 6) piercing damage."
+      ],
+      "attack": [
+        "Shortsword (Human or True Form Only)|10|1d6+6"
+      ]
+    },
+    {
+      "name": "Constrict (Snake or True Form Only)",
+      "text": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one creature. 27 (6d6 + 6) bludgeoning damage and the target is grappled (escape DC 17) if it is a Large or smaller creature. Until this grapple ends, the creature is restrained, and the Queen of Serpents can't constrict another target."
+      ],
+      "attack": [
+        "Constrict (Snake or True Form Only)|10|6d6+6"
+      ]
+    },
+    {
+      "name": "Mesmerizing Gaze (Recharge 56)",
+      "text": [
+        "The Queen of Serpents targets up to six creatures that she can see within 60 feet of her.",
+        "Each creature must succeed on a DC 18 Charisma saving throw or be stunned for 10 minutes. The target is no longer stunned if it takes damage or another creature takes an action to shake it. If a creature's saving throw is successful, the creature is immune to the Queen of Serpents' Mesmerizing Gaze for the next 24 hours."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The fey (shapechanger, animal lord) can take 6 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The fey (shapechanger, animal lord) regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The Queen of Serpents can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Queen of Serpents regains spent legendary actions at the start of her turn."
+      ]
+    },
+    {
+      "name": "Detect",
+      "text": [
+        "The Queen of Serpents makes a Wisdom (Perception) check."
+      ]
+    },
+    {
+      "name": "Move",
+      "text": [
+        "The Queen of Serpents moves up to her speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Precognition (Costs 2 Actions)",
+      "text": [
+        "The Queen of Serpents gets a brief glimpse of the immediate future, gaining advantage on attack rolls and Dexterity-based saving throws until the end of her next turn."
+      ]
+    },
+    {
+      "name": "hybrid form",
+      "text": [
+        "Her statistics, other than her size, are the same in each form with the exception that only her snake and true forms retain her climbing and swimming speeds. Any equipment she is wearing or carrying transforms with her."
+      ]
+    },
+    {
+      "name": "Speak with Serpents",
+      "text": [
+        "The Queen of Serpents can communicate with serpents as if they shared a language."
+      ]
+    }
+  ],
+  "spells": "pass without trace, purify food and drink, protection from poison, darkness, scrying, etherealness, freedom of movement, astral projection, teleport",
+  "description": "Source: CCodex (3pp) p. 34",
+  "environment": "mountain"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Larva",
+  "size": "M",
+  "type": "fiend",
+  "alignment": "Neutral Evil",
+  "ac": "9",
+  "hp": "9 (2d8)",
+  "speed": "walk 20 ft.",
+  "str": "9",
+  "dex": "9",
+  "con": "10",
+  "int": "6",
+  "wis": "10",
+  "cha": "2",
+  "passive": "10",
+  "languages": "understands the languages it knew in life but can't speak",
+  "cr": "0",
+  "action": [
+    {
+      "name": "Bite",
+      "text": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 1 (1d4 - 1) piercing damage.",
+      "attack": "Bite|+1|1d4-1"
+    }
+  ],
+  "description": "\nSource: Dungeon Master's Guide p. 63, Baldur's Gate: Descent Into Avernus"
+}

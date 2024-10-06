@@ -1,0 +1,52 @@
+{
+  "name": "Warforged (UA Races of Eberron) (Envoy)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Con 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Unearthed Arcana: Races Of Eberron p. 69"
+    },
+    {
+      "name": "Specialized Design",
+      "text": "You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.\n"
+    },
+    {
+      "name": "Integrated Tool",
+      "text": "Choose one tool you're proficient with. This tool is integrated into your body, and you double your proficiency bonus for any ability checks you make with it. You must have your hands free to use this integrated tool.\n"
+    },
+    {
+      "name": "Envoys: Specialized Design",
+      "text": "As the name implies, most Warforged (UA Races of Eberron) (Envoy) were built to fight in the Last War. The vast majority of Warforged (UA Races of Eberron) (Envoy) are juggernauts or skirmishers—soldiers and scouts who fought under the banner of one of the Five Nations. Warforged (UA Races of Eberron) (Envoy) envoys, however, were designed to perform other functions. As an envoy, you have a skill, a tool proficiency, and a tool that's part of your body. When you make an envoy character, consider the following questions: What is your purpose? How does your skill and your tool reflect that purpose? What form does your integrated tool take? If you have embedded thieves' tools, for instance, are your fingers actually lockpicks, or can you produce keys from various parts of your body? The following characters are examples of Warforged (UA Races of Eberron) (Envoy) with integrated tools.\nLute is a bard with the entertainer background; his namesake instrument folds out of his left arm.\nCompass Rose is a wizard with the outlander background. A keen explorer, she uses her built-in cartographer's tools to record the paths she travels.\nMasque is an infiltrator. A rogue with the charlatan background and an integrated disguise Kit, she was built to blend in and assassinate. Cannith built six Warforged (UA Races of Eberron) (Envoy) of her design, and Masque has vowed to hunt down and destroy the other five.\nIn developing your integrated tool, remember that you must have your hands free to use it. Masque, the infiltrator mentioned above, doesn't shapeshift like a changeling; she has to manually adjust her appearance.\n"
+    },
+    {
+      "name": "Age",
+      "text": "A typical Warforged (UA Races of Eberron) (Envoy) is between two and thirty years old. The maximum lifespan of the Warforged (UA Races of Eberron) (Envoy) remains a mystery; so far, Warforged (UA Races of Eberron) (Envoy) have shown no signs of deterioration due to age.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most Warforged (UA Races of Eberron) (Envoy) take comfort in order and discipline, tending toward law and neutrality, but some have absorbed the morality—or lack thereof—of the beings they served with.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Your size is Medium. Most Warforged (UA Races of Eberron) (Envoy) stand between 5 and 6½ feet tall. Build is affected by your subrace.\n"
+    },
+    {
+      "name": "Warforged Resilience",
+      "text": "You were created to have remarkable fortitude, represented by the following benefits:\n• You have advantage on saving throws against being poisoned, and you have resistance to poison damage.\n• You are immune to disease.\n• You don't need to eat, drink, or breathe.\n• You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can't put you to sleep.\n"
+    },
+    {
+      "name": "Sentry's Rest",
+      "text": "When you take a long rest, you must spend at least six hours of it in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.\n"
+    },
+    {
+      "name": "Integrated Protection",
+      "text": "Integrated protection\nYour body has built-in protective layers, which determine your Armor Class. You gain no benefit from wearing armor, but if you are using a shield, you apply its bonus as normal.\nYou can alter your body to enter different defensive modes; each time you finish a long rest, choose one mode to adopt from the Integrated Protection table, provided you meet the mode's prerequisite.\nMode | Prerequisite | Armor Class\nDarkwood core (unarmored) | None | 11 + your Dexterity modifier (add proficiency bonus if proficient with light armor)\nComposite plating (armor) | Medium armor proficiency | 13 + your Dexterity modifier (maximum of 2) + your proficiency bonus\nHeavy plating (armor) | Heavy armor proficiency | 16 + your proficiency bonus; disadvantage on Dexterity (Stealth) checks\n\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common.\n"
+    }
+  ]
+}

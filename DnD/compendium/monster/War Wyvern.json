@@ -1,0 +1,72 @@
+{
+  "name": "War Wyvern",
+  "size": "L",
+  "type": "dragon",
+  "alignment": "Unaligned",
+  "ac": "15 (scale mail)",
+  "hp": "119 (14d10+42)",
+  "speed": "walk 20 ft., fly 80 ft.",
+  "str": "20",
+  "dex": "12",
+  "con": "16",
+  "int": "6",
+  "wis": "14",
+  "cha": "6",
+  "save": "Wis +5",
+  "skill": "Athletics +8, Perception +5",
+  "passive": "15",
+  "languages": "Understands Common, Draconic but can't speak",
+  "cr": "7",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Siege Monster",
+      "text": [
+        "The wyvern deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The wyvern makes two attacks. one with its bite and one with its stinger. While flying, it can use its claws in place of one other attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. 12 (2d6 + 5) piercing damage plus 10 (3d6) poison damage."
+      ],
+      "attack": [
+        "Bite|8|2d6+5"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 18 (3d8 + 5) slashing damage and the creature is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the wyvern can't use its claw on another target."
+      ],
+      "attack": [
+        "Claws|8|3d8+5"
+      ]
+    },
+    {
+      "name": "Stinger",
+      "text": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. 12 (2d6 + 5) piercing damage. The target must make a DC 16 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Stinger|8|2d6+5"
+      ]
+    },
+    {
+      "name": "Spit Venom (Recharge 5-6)",
+      "text": [
+        "The wyvern spits venom at a target within 60 feet. The target must make a DC 16 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 386",
+  "environment": "mountain"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Galvan Magen",
+  "size": "M",
+  "type": "construct",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "68 (8d8+32)",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "10",
+  "dex": "18",
+  "con": "18",
+  "int": "12",
+  "wis": "10",
+  "cha": "7",
+  "passive": "10",
+  "languages": "understands the languages of its creator but can't speak",
+  "cr": "3",
+  "immune": "lightning, poison",
+  "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "trait": [
+    {
+      "name": "Fiery End",
+      "text": [
+        "If the magen dies, its body disintegrates in a harmless burst of fire and smoke, leaving behind anything it was wearing or carrying."
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "The magen has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Unusual Nature",
+      "text": [
+        "The magen doesn't require air, food, drink, or sleep."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The magen makes two Shocking Touch attacks."
+      ]
+    },
+    {
+      "name": "Shocking Touch",
+      "text": [
+        "Melee Spell Attack: +6 to hit, reach 5 ft., one target (the magen has advantage on the attack roll if the target is wearing armor made of metal). 7 (1d6 + 4) lightning damage."
+      ],
+      "attack": [
+        "Shocking Touch|+6|1d6+4"
+      ]
+    },
+    {
+      "name": "Static Discharge (Recharge 5-6)",
+      "text": [
+        "The magen discharges a lightning bolt in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw (with disadvantage if the creature is wearing armor made of metal), taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one."
+      ],
+      "attack": [
+        "Static Discharge (Recharge 5-6)||4d10"
+      ]
+    }
+  ],
+  "description": "Galvan magen can fly. They also store static electricity, which they discharge as lightning bolts.\nMagen are magical, humanlike beings created by a wizard spell (see the create magen spell in appendix D) or by other arcane methods.\nThough magen look like humanoids with green skin, they are constructs. When one is wounded, its blood is seen to have the color and consistency of mercury. They exist purely through magical means. When one is killed, its body disappears in a burst of harmless fire and a cloud of smoke that quickly dissipates.\nSource: Icewind Dale: Rime of the Frostmaiden p. 301"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Werebat",
+  "size": "M",
+  "type": "humanoid (human, shapechanger)",
+  "alignment": "Lawful Evil",
+  "ac": "13 (human form, 14 (natural armor in bat form))",
+  "hp": "66 (12d8+12)",
+  "speed": "walk 30 ft., fly 50 ft.",
+  "str": "12",
+  "dex": "16",
+  "con": "12",
+  "int": "10",
+  "wis": "12",
+  "cha": "9",
+  "skill": "Perception +3, Stealth +5",
+  "passive": "13",
+  "languages": "Common",
+  "cr": "3",
+  "immune": "bludgeoning, piercing, slashing from nonmagical weapons",
+  "senses": "blindsight 60 ft.",
+  "trait": [
+    {
+      "name": "Echolocation",
+      "text": [
+        "The werebat can't use its blindsight while deafened."
+      ]
+    },
+    {
+      "name": "Keen Hearing",
+      "text": [
+        "The werebat has advantage on Wisdom (Perception) checks that rely on hearing."
+      ]
+    },
+    {
+      "name": "Shapechanger",
+      "text": [
+        "The werebat can use its action to polymorph into a bat-humanoid hybrid or into a Medium-sized bat, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form with the exception that only its true and bat forms retain its flying speed. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": [
+        "While in sunlight, the werebat has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "In humanoid form, the werebat makes two mace attacks. In hybrid form, it makes two attacks. one with its bite and one with its claws or mace."
+      ]
+    },
+    {
+      "name": "Bite (Bat or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebat lycanthropy."
+      ],
+      "attack": [
+        "Bite (Bat or Hybrid Form Only)|4|2d4+2"
+      ]
+    },
+    {
+      "name": "Claws (Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) slashing damage."
+      ],
+      "attack": [
+        "Claws (Hybrid Form Only)|4|1d6+2"
+      ]
+    },
+    {
+      "name": "Mace (Humanoid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) bludgeoning damage."
+      ],
+      "attack": [
+        "Mace (Humanoid Form Only)|4|1d6+2"
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 258"
+},
+    {
+      "name": "Shortbow (Humanoid or Hybrid Form Only)",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortbow (Humanoid or Hybrid Form Only)|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "A werebat is a humanoid afflicted with a rare form of lycanthropy that enables it to transform into a giant bat or a bat-humanoid hybrid. (See the Monster Manual for more information onlycanthropy.) Most werebats are of goblin stock.\nSource: Waterdeep: Dungeon of the Mad Mage p. 317"
+}

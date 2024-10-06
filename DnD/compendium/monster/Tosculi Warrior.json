@@ -1,0 +1,71 @@
+{
+  "name": "Tosculi Warrior",
+  "size": "S",
+  "type": "monstrosity,tome of Beasts",
+  "alignment": "lawful evil",
+  "ac": "15",
+  "hp": "58 (9d6+27)",
+  "speed": "20 ft., fly 60 ft.",
+  "str": "12",
+  "dex": "20",
+  "con": "16",
+  "int": "10",
+  "wis": "12",
+  "cha": "12",
+  "senses": "darkvision 60 ft.",
+  "passive": "11",
+  "languages": " Tosculi",
+  "cr": "2",
+  "trait": [
+    {
+      "name": "Skittering",
+      "text": [
+        "Up to two tosculi can share the same space at one time. The tosculi has advantage on attack rolls while sharing its space with another tosculi that isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The tosculi warrior makes one bite attack, one claws attack, and one stinger attack."
+      ]
+    },
+    {
+      "name": "Bite",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d4 + 5) piercing damage."
+      ],
+      "attack": [
+        "Bite|7|1d4+5"
+      ]
+    },
+    {
+      "name": "Claws",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d4 + 5) slashing damage."
+      ],
+      "attack": [
+        "Claws|7|2d4+5"
+      ]
+    },
+    {
+      "name": "Stinger",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d4 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw against poison or be paralyzed for 1 minute. A paralyzed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "attack": [
+        "Stinger|7|1d4+5"
+      ]
+    },
+    {
+      "name": "Prepare Host",
+      "text": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one paralyzed creature. Hit: 10 (2d4 + 5) piercing damage, and the target is paralyzed for 8 hours. The paralysis can be ended with a successful DC 20 Wisdom (Medicine) check or by a spell or magical effect that cures disease. (Because only paralyzed creatures can be targeted, a hit by this attack is automatically a critical hit; bonus damage is included in the damage listing.)"
+      ],
+      "attack": [
+        "Prepare Host|7|2d4+5"
+      ]
+    }
+  ]
+}

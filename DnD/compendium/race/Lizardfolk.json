@@ -1,0 +1,56 @@
+{
+  "name": "Lizardfolk",
+  "size": "M",
+  "speed": "30",
+  "ability": "Con 2, Wis 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Volo's Guide to Monsters p. 111"
+    },
+    {
+      "name": "Age",
+      "text": "Lizardfolk reach maturity around age 14 and rarely live longer than 60 years.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Lizardfolk are a little bulkier and taller than humans, and their colorful frills make them appear even larger. Your size is Medium.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most lizardfolk are neutral. They see the world as a place of predators and prey, where life and death are natural processes. They wish only to survive, and prefer to leave other creatures to their own devices.\n"
+    },
+    {
+      "name": "Swim Speed",
+      "text": "You have a swimming speed of 30 feet.\n"
+    },
+    {
+      "name": "Bite",
+      "text": "Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\n"
+    },
+    {
+      "name": "Cunning Artisan",
+      "text": "As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 dart or blowgun needle. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.\n"
+    },
+    {
+      "name": "Hold Breath",
+      "text": "You can hold your breath for up to 15 minutes at a time.\n"
+    },
+    {
+      "name": "Hunter's Lore",
+      "text": "You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.\n"
+    },
+    {
+      "name": "Natural Armor",
+      "text": "You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.\n"
+    },
+    {
+      "name": "Hungry Jaws",
+      "text": "In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common and Draconic.\n"
+    }
+  ]
+}

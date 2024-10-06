@@ -1,0 +1,46 @@
+{
+  "name": "Merfolk (Zendikar) (Cosi Creed)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Cha 1, Int 1, Cha 2",
+  "proficiency": "Sleight Of Hand, Stealth",
+  "spellAbility": "Charisma",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Plane Shift: Zendikar p. 13"
+    },
+    {
+      "name": "Cantrip",
+      "text": "You know one cantrip of your choice from the bard spell list. Charisma is your spellcasting ability for it.\n"
+    },
+    {
+      "name": "Creed of the Trickster",
+      "text": "You have proficiency in the Sleight of Hand and Stealth skills.\n"
+    },
+    {
+      "name": "Age",
+      "text": "Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Most merfolk are neutral, though merfolk of the Emeria and Cosi creeds have chaotic leanings.\n"
+    },
+    {
+      "name": "Amphibious",
+      "text": "You can breathe air and water.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Merfolk are about the same size and build as humans. Your size is Medium.\n"
+    },
+    {
+      "name": "Swimming",
+      "text": "You have a swimming speed of 30 feet.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common, Merfolk, and one extra language of your choice.\n"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Salida",
+  "size": "M",
+  "type": "humanoid (yuan-ti)",
+  "alignment": "Neutral Evil",
+  "ac": "11",
+  "hp": "40 (9d8)",
+  "speed": "walk 30 ft.",
+  "str": "11",
+  "dex": "12",
+  "con": "11",
+  "int": "13",
+  "wis": "12",
+  "cha": "14",
+  "skill": "Deception +6, Perception +3, Stealth +3",
+  "passive": "13",
+  "languages": "Abyssal, Common, Draconic",
+  "cr": "1",
+  "immune": "poison",
+  "conditionImmune": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Magic Resistance",
+      "text": [
+        "Salida has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting",
+      "text": [
+        "Salida's spellcasting ability is Charisma (spell save DC 12). Salida can innately cast the following spells, requiring no material components:",
+        "At will: animal friendship (snakes only)",
+        "3/day each: poison spray, suggestion"
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "Salida makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "text": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) slashing damage."
+      ],
+      "attack": [
+        "Scimitar|+3|1d6+1"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage."
+      ],
+      "attack": [
+        "Shortbow|+3|1d6+1"
+      ]
+    }
+  ],
+  "spells": "animal friendship, poison spray, suggestion",
+  "description": "\nSource: Tomb of Annihilation p. 35",
+  "environment": "forest, swamp, urban, desert"
+}

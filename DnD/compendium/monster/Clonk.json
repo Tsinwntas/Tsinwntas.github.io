@@ -1,0 +1,55 @@
+{
+  "name": "Clonk",
+  "size": "M",
+  "type": "humanoid (kenku)",
+  "alignment": "Chaotic Neutral",
+  "ac": "13",
+  "hp": "13 (3d8)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "16",
+  "con": "10",
+  "int": "11",
+  "wis": "10",
+  "cha": "10",
+  "skill": "Deception +4, Perception +2, Stealth +5",
+  "passive": "12",
+  "languages": "understands Auran and Common but speaks only through the use of its Mimicry trait",
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Ambusher",
+      "text": [
+        "In the first round of a combat, Clonk has advantage on attack rolls against any creature it surprised."
+      ]
+    },
+    {
+      "name": "Mimicry",
+      "text": [
+        "Clonk can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Shortsword",
+      "text": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortsword|+5|1d6+3"
+      ]
+    },
+    {
+      "name": "Shortbow",
+      "text": [
+        "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. 6 (1d6 + 3) piercing damage."
+      ],
+      "attack": [
+        "Shortbow|+5|1d6+3"
+      ]
+    }
+  ],
+  "description": "\nSource: Baldur's Gate: Descent Into Avernus p. 83",
+  "environment": "forest, urban"
+}

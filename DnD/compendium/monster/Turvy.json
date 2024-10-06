@@ -1,0 +1,78 @@
+{
+  "name": "Turvy",
+  "size": "M",
+  "type": "humanoid (human, shapechanger)",
+  "alignment": "Lawful Evil",
+  "ac": "12",
+  "hp": "33 (6d8+6)",
+  "speed": "walk 30 ft.",
+  "str": "10",
+  "dex": "15",
+  "con": "12",
+  "int": "11",
+  "wis": "10",
+  "cha": "8",
+  "skill": "Perception +2, Stealth +4",
+  "passive": "12",
+  "languages": "Common (can't speak in rat form)",
+  "cr": "2",
+  "immune": "bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+  "senses": "darkvision 60 ft. (rat form only)",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "text": [
+        "Turvy can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "text": [
+        "Turvy has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack (Humanoid or Hybrid Form Only)",
+      "text": [
+        "Turvy makes two attacks, only one of which can be a bite."
+      ]
+    },
+    {
+      "name": "Bite (Rat or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy."
+      ],
+      "attack": [
+        "Bite (Rat or Hybrid Form Only)|+4|1d4+2"
+      ]
+    },
+    {
+      "name": "Shortsword (Humanoid or Hybrid Form Only)",
+      "text": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Shortsword (Humanoid or Hybrid Form Only)|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+      "text": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+      ],
+      "attack": [
+        "Hand Crossbow (Humanoid or Hybrid Form Only)|+4|1d6+2"
+      ]
+    },
+    {
+      "name": "Variant: Nonhuman Lycanthropes",
+      "text": [
+        "The statistics presented in this section assume a base creature of human. However, you can also use the statistics to represent nonhuman lycanthropes, adding verisimilitude by allowing a nonhuman lycanthrope to retain one or more of its humanoid racial traits. For example, an elf werewolf might have the Fey Ancestry trait."
+      ]
+    }
+  ],
+  "description": "\nSource: Out of the Abyss p. 8",
+  "environment": "forest, urban"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Violent Shot",
+  "level": "1",
+  "ritual": "NO",
+  "components": "None",
+  "classes": "Fighter (Gunslinger)",
+  "text": [
+    "When you make a fireman attack against a creature, you can expend one or more grit points to enhance the volatility of the attack.  For each grit point expended, the attack gains a +2 to the firearm’s misfire score.  If the attack hits, you can roll one additional weapon damage per grit point spent when determining the damage.",
+    "",
+    "Source: Matthew Mercer - Gunslinger Martial Archetype 1.2 p. 3"
+  ]
+}

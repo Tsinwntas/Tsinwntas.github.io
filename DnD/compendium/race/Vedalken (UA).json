@@ -1,0 +1,36 @@
+{
+  "name": "Vedalken (UA)",
+  "size": "M",
+  "speed": "30",
+  "ability": "Int 2, Wis 1",
+  "trait": [
+    {
+      "name": "Description",
+      "text": "Source: Unearthed Arcana: Races Of Ravnica p. 4"
+    },
+    {
+      "name": "Age",
+      "text": "Vedalken (UA) mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.\n"
+    },
+    {
+      "name": "Alignment",
+      "text": "Vedalken (UA) are most often lawful and rarely evil.\n"
+    },
+    {
+      "name": "Size",
+      "text": "Vedalken (UA) are taller than humans but more slender. They average 6 to 6½ feet tall, but usually weigh less than 200 pounds. Your size is Medium.\n"
+    },
+    {
+      "name": "Languages",
+      "text": "You can speak, read, and write Common.\n"
+    },
+    {
+      "name": "Vedalken Dispassion",
+      "text": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws.\n"
+    },
+    {
+      "name": "Tireless Precision",
+      "text": "You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand. You are also proficient with one tool of your choice.\nWhenever you make an ability check with the chosen skill or tool, roll a d4, and add the number rolled to the check's total.\n"
+    }
+  ]
+}

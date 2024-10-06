@@ -1,0 +1,11 @@
+{
+  "name": "Drow +1 Longbow",
+  "detail": "martial Weapon, Ranged Weapon",
+  "type": "R",
+  "weight": "2",
+  "property": "A,H,2H,M",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "range": "150/600",
+  "text": "You have a +1 bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer.\nSource: Monster Manual p. 126"
+}

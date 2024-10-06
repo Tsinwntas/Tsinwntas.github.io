@@ -1,0 +1,66 @@
+{
+  "name": "Aberrant Spirit (UA)",
+  "size": "M",
+  "type": "aberration",
+  "alignment": "Neutral Evil",
+  "ac": "0",
+  "hp": "2",
+  "speed": "walk 30 ft., fly 30 ft.",
+  "str": "16",
+  "dex": "10",
+  "con": "15",
+  "int": "16",
+  "wis": "10",
+  "cha": "6",
+  "passive": "10",
+  "languages": "Deep Speech, understands the languages you speak",
+  "immune": "psychic",
+  "senses": "darkvision 60 ft.",
+  "trait": [
+    {
+      "name": "Hit Points",
+      "text": [
+        "equal the aberration's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+      ]
+    },
+    {
+      "name": "Regeneration (Slaadi Only)",
+      "text": [
+        "The aberration regains 10 hit points at the start of its turn if it has at least 1 hit point."
+      ]
+    },
+    {
+      "name": "Whispering Aura (Star Spawn Only)",
+      "text": [
+        "At the start of each of the aberration's turns, each creature within 5 feet of it must succeed on a Wisdom saving throw against your spell save DC or take 3d6 psychic damage, provided that the aberration isn't incapacitated."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The aberration makes a number of attacks equal to half this spell's level (rounded down)."
+      ]
+    },
+    {
+      "name": "Eye Ray (Beholderkin Only)",
+      "text": [
+        "Ranged Spell Attack: +3 + the spell's level to hit, range 30 ft., one creature. 1d8 + 3 + the spell's level psychic damage."
+      ]
+    },
+    {
+      "name": "Claws (Slaadi Only)",
+      "text": [
+        "Melee Weapon Attack: +3 + the spell's level to hit, reach 5 ft., one target. 1d10 + 3 + the spell's level slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn."
+      ]
+    },
+    {
+      "name": "Psychic Slam (Star Spawn Only)",
+      "text": [
+        "Melee Spell Attack: +3 + the spell's level to hit, reach 5 ft., one creature. 1d6 + 3 + the spell's level psychic damage."
+      ]
+    }
+  ],
+  "description": "\nSource: Unearthed Arcana: 2020 Spells And Magic Tattoos p. 3"
+}

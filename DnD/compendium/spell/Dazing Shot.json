@@ -1,0 +1,12 @@
+{
+  "name": "Dazing Shot",
+  "level": "1",
+  "ritual": "NO",
+  "components": "None",
+  "classes": "Fighter (Gunslinger)",
+  "text": [
+    "When you make a firearm attack against a creature, you can expend one grit point to attempt to dizzy your opponent.  On a hit, the creature suffers normal damage and must make a Constiution saving throw or suffer disadvantage on attacks until the end of your next turn.",
+    "",
+    "Source: Matthew Mercer - Gunslinger Martial Archetype 1.2 p. 2"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Herald Of The Great Wyrm",
+  "size": "L",
+  "type": "dragon",
+  "alignment": "Lawful Neutral",
+  "ac": "18 (natural armor)",
+  "hp": "171 (18d10+72)",
+  "speed": "walk 30 ft.",
+  "str": "18",
+  "dex": "10",
+  "con": "18",
+  "int": "18",
+  "wis": "12",
+  "cha": "16",
+  "save": "Str +9, Dex +5, Con +9, Wis +6",
+  "skill": "Arcana +9, History +9, Perception +6, Religion +9",
+  "passive": "16",
+  "languages": "Common, Elvish, Giant, Abyssal, Celestial, Draconic, Infernal",
+  "cr": "15",
+  "resist": "lightning; bludgeoning, piercing, slashing from nonmagical weapons",
+  "immune": "cold, poison",
+  "vulnerable": "necrotic",
+  "conditionImmune": "charmed, exhaustion, paralyzed, poisoned, stunned, unconscious",
+  "senses": "truesight 120 ft.",
+  "trait": [
+    {
+      "name": "Aura Of Immobility",
+      "text": [
+        "The herald of the great wyrm emits an area of antimagic within 60 feet of itself. This trait works like the antimagic field spell, except it only affects magical travel.",
+        "At the start of each of its turns, the herald chooses whether this aura is active. The aura prevents the herald's own magical traveling."
+      ]
+    },
+    {
+      "name": "Hidden Herald",
+      "text": [
+        "The herald of the great wyrm can use its action to polymorph into a Medium dragonborn, Medium human, Small kobold, or back into its true draconic humanoid form.",
+        "In each form, its eyes glow with a magical light that shifts in color and it wears a silver key, revealing its identity as a herald.",
+        "Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying, other than the silver key, transforms with it. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (2/Day)",
+      "text": [
+        "If the herald of the great wyrm fails a saving throw, it can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Portal Mastery",
+      "text": [
+        "As a bonus action, the herald of the great wyrm can open any object that contains a mundane or magical means that prevents access. This trait works like the knock spell, except it dispels rather than suppresses arcane lock and it doesn't create an audible knock when used. Alternatively, the herald can use a bonus action to open or close any magical portal, road, gateway, or path."
+      ]
+    },
+    {
+      "name": "Portal Movement",
+      "text": [
+        "As a bonus action, the herald of the great wyrm can teleport up to 30 feet to an unoccupied space it can see toward or away from a hostile creature."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack",
+      "text": [
+        "The herald of the great wyrm makes two claw of fate attacks or two spectral barrier attacks. If both claw of fate attacks hit the same target, the target is restrained. While restrained, the target takes 13 (2d12) radiant damage at the start of each of its turns. A creature, including the target, can take an action to make a DC 17 Strength check, ending the restrained condition on a success. The herald can restrain only two creatures at a time in this way."
+      ]
+    },
+    {
+      "name": "Claw of Fate",
+      "text": [
+        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. 15 (2d10 + 4) slashing damage plus 9 (2d8) radiant damage."
+      ],
+      "attack": [
+        "Claw of Fate|9|2d10+4"
+      ]
+    },
+    {
+      "name": "Spectral Barrier",
+      "text": [
+        "Ranged Magical Attack. +9 to hit, range 60 ft., one target. 18 (4d8) radiant damage. The target must succeed on a DC 18 Wisdom saving throw or be restrained by magical bands of force for 1 minute. A creature, including the target, can take its action to burst the bands of force by succeeding on a DC 17 Strength check."
+      ],
+      "attack": [
+        "Spectral Barrier|9|4d8"
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "text": [
+        "The dragon can take 4 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Options",
+      "text": [
+        "The herald of the great wyrm can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The herald regains spent legendary actions at the start of its turn."
+      ]
+    },
+    {
+      "name": "Claw of Fate",
+      "text": [
+        "The herald makes one claw of fate attack."
+      ]
+    },
+    {
+      "name": "Detect",
+      "text": [
+        "The herald makes a Wisdom (Perception) check."
+      ]
+    },
+    {
+      "name": "Black Well of Unmaking (Cost 2 Actions)",
+      "text": [
+        "The herald of the great wyrm creates a 5-foot-sphere of void matter on a point it can see within 120 feet of it. At the start of each of the herald's turns, each creature other than the herald within 30 feet of the well of unmaking must succeed on a DC 16 Strength saving throw or be pulled up to 15 feet toward the well. Each creature that starts its turn within 5 feet of the well must make a DC 16 Constitution saving throw. On a failure, a creature takes 27 (6d8) necrotic damage and is stunned. On a success, a creature takes half the damage and isn't stunned. The well of unmaking lasts until the herald uses this legendary action again or until the herald dies."
+      ]
+    }
+  ],
+  "description": "Source: CCodex (3pp) p. 217"
+}
